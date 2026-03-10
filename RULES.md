@@ -7,7 +7,10 @@ These are the rules and preferences for this repo. They are also applied in Curs
 ## 1. Scope
 
 - **Fundamental investing only**: This repo is for long-term fundamental analysis and portfolio review, **not** for options, futures, or derivatives.
-- **Indian markets**: Focus on NSE and BSE. Use Yahoo-style tickers (e.g. `RELIANCE.NS`, `HDFCBANK.BO`) unless another source is specified.
+- **Dual market: India + US**. Primary focus on NSE/BSE. US stocks also in scope (SEC filings, US tickers). Separate workflows for each market since APIs and data sources differ.
+  - **India**: Screener.in, BSE filings, Trendlyne, yfinance (`.NS`/`.BO` tickers)
+  - **US**: SEC EDGAR, yfinance (plain tickers like `AAPL`), Anthropic financial plugins if they work well
+- Portfolio allocation between markets is flexible — research-driven, not fixed.
 
 ---
 
