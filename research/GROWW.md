@@ -69,27 +69,57 @@ India's largest digital investment platform by active users on NSE. Offers stock
 - **Current Price:** ₹157
 - **Market Cap:** ₹98,598 Cr
 - **P/E (Consolidated):** 61x TTM
+- **P/B:** 13.2x | **Book Value:** ₹11.9/share
+- **ROE:** 50% | **ROCE:** 62.6%
 
-### Fair Value Range
+### Model 1: DCF (Discounted Cash Flow)
 
-| Scenario | P/E | Profit (Cr) | Market Cap (Cr) | Price | vs Current |
-|----------|-----|-------------|-----------------|-------|------------|
-| Bear | 30x | 2,000 (FY27) | 60,000 | ₹96 | -39% |
-| Base | 40x | 3,000 (FY27) | 1,20,000 | ₹192 | +22% |
-| Bull | 50x | 4,000 (FY27) | 2,00,000 | ₹320 | +104% |
+*Base FCF: ₹1,824 Cr (FY25 net profit) | Discount rate: 12% | Terminal growth: 5% | Shares: 628 Cr*
 
-**Current price ₹157 is between bear and base.** Not a screaming buy, but not overvalued if growth sustains.
+| Scenario | Growth Rates (5yr) | Fair Value | vs ₹157 |
+|----------|-------------------|------------|---------|
+| Bear | 15%→6% declining | ₹55 | -65% |
+| Base | 25%→12% declining | ₹74 | -53% |
+| Bull | 35%→15% declining | ₹97 | -38% |
+
+**Reverse DCF:** Market is pricing in **39% FCF CAGR** for 5 years. That's aggressive.
+
+### Model 2: P/B-ROE (Justified Price-to-Book)
+
+*Book Value: ₹11.9 | Cost of Equity: 12%*
+
+| Scenario | Sustainable ROE | Justified P/B | Fair Value | vs ₹157 |
+|----------|----------------|---------------|------------|---------|
+| Bear | 25% (ROE halves) | 4.2x | ₹51 | -68% |
+| Base | 40% (moderate decline) | 24.3x | ₹290 | +84% |
+| Bull | 50% (current ROE holds) | 32.7x | ₹389 | +148% |
+
+**Implied ROE:** At P/B 13.2x, market implies GROWW sustains **36% ROE**. Current ROE is 50%.
+
+### Why the Two Models Disagree
+
+| | DCF | P/B-ROE |
+|---|---|---|
+| Says | Overvalued | Undervalued (if ROE sustains) |
+| Reason | Skeptical of high growth sustaining | Rewards high ROE businesses |
+| Key assumption | FCF growth declines to 12-15% | ROE stays 40%+ |
+
+**The real question is: can GROWW sustain 40%+ ROE as book value grows?**
+- Platform businesses can (low capital needs, high margins) → supports P/B-ROE view
+- But broking is cyclical, and competition erodes ROE over time → supports DCF caution
+- **Product optionality** (own AMC, MTF lending, personal loans) could sustain ROE by adding high-margin revenue streams
+
+### P/E Fair Value (simple)
+
+| Scenario | P/E | Profit (Cr) | Price | vs Current |
+|----------|-----|-------------|-------|------------|
+| Bear | 30x | 2,000 (FY27) | ₹96 | -39% |
+| Base | 40x | 3,000 (FY27) | ₹192 | +22% |
+| Bull | 50x | 4,000 (FY27) | ₹320 | +104% |
 
 ### What Needs to Be True for 5x in 3 Years? (₹785/share)
 
-| Assumption | Required | Realistic? |
-|------------|----------|------------|
-| Revenue CAGR | ~35% to ₹10,200Cr | Aggressive but possible |
-| Net margin | 40% | Conservative |
-| Net profit | ₹4,080 Cr | |
-| P/E at exit | 120x | No — bubble territory |
-
-**Verdict: 5x in 3 years is unrealistic at ₹157 entry.** This is a 15-25% CAGR story. A 5x would have needed entry at ₹80-90 (available at listing).
+Unrealistic at ₹157 entry. Would need 120x P/E or 50%+ CAGR sustained — bubble territory. This is a **15-25% CAGR compounder** if ROE sustains, not a 5x from here.
 
 ---
 
