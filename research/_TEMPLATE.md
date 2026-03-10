@@ -75,3 +75,17 @@
 | Date | Action | Price | Quantity | Reasoning |
 |------|--------|-------|----------|-----------|
 | | | | | |
+
+---
+
+## 10. Research Log
+
+*New learnings, commentary, and thesis updates — most recent first.*
+*Full edit history: `git log research/{SYMBOL}.md`*
+
+### YYYY-MM-DD — Initial thesis
+-
+-
+
+### YYYY-MM-DD — {Event / Quarterly results / New insight}
+-

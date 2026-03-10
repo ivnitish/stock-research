@@ -170,3 +170,17 @@ Unrealistic at ₹157 entry. Would need 120x P/E or 50%+ CAGR sustained — bubb
 - This is a Grade B (not A) conviction stock
 - Valuation analysis: 15-25% CAGR story, not a 5x multi-bagger at current price
 - **Consider:** Trim to 20-25% and redeploy into higher-conviction, cheaper multi-bagger candidates
+
+---
+
+## 11. Research Log
+
+*New learnings, commentary, and thesis updates — most recent first.*
+*Full edit history: `git log research/GROWW.md`*
+
+### 2026-03-11 — Initial thesis created
+- Built 3-model valuation: DCF (bearish), P/B-ROE (bullish if ROE sustains), P/E (middle)
+- Key insight: DCF and P/B-ROE disagree. The thesis hinges on whether 40%+ ROE can sustain
+- Product optionality (own AMC, MTF, personal loans) is the bull case for sustained ROE
+- Position sizing concern flagged: 35% is too concentrated for Grade B conviction
+- Quality Score: 19/25 (Grade B). MOAT 4, Management 3, Financials 4, Growth 5, Valuation 3
