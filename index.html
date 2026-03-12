@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stock Research — Nitish</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f7f8fa; color: #1a1a1a; }
+
+  header { background: #1a1a2e; color: white; padding: 28px 40px; }
+  header h1 { font-size: 1.6rem; font-weight: 700; letter-spacing: -0.5px; }
+  header p { color: #9090b0; font-size: 0.85rem; margin-top: 4px; }
+
+  .container { max-width: 1100px; margin: 0 auto; padding: 32px 24px; }
+
+  .section-title { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #666; margin: 32px 0 12px; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+
+  .card {
+    background: white;
+    border-radius: 10px;
+    padding: 18px 20px;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #e8e8e8;
+    transition: box-shadow 0.15s, transform 0.15s;
+    display: block;
+  }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.1); transform: translateY(-2px); }
+
+  .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
+  .ticker { font-size: 1.05rem; font-weight: 700; color: #1a1a2e; }
+  .grade { font-size: 0.7rem; font-weight: 700; padding: 3px 8px; border-radius: 12px; }
+  .grade-A { background: #d4edda; color: #155724; }
+  .grade-B { background: #fff3cd; color: #856404; }
+  .grade-C { background: #f8d7da; color: #721c24; }
+  .grade-W { background: #e2e8f0; color: #475569; }
+
+  .company-name { font-size: 0.78rem; color: #666; margin-bottom: 10px; }
+
+  .meta { display: flex; gap: 10px; flex-wrap: wrap; }
+  .tag { font-size: 0.7rem; padding: 2px 8px; border-radius: 10px; background: #f0f0f0; color: #444; }
+  .tag.loss { background: #fee2e2; color: #991b1b; }
+  .tag.gain { background: #dcfce7; color: #166534; }
+  .tag.watch { background: #dbeafe; color: #1e40af; }
+  .tag.sector { background: #f3e8ff; color: #6b21a8; }
+
+  .score { font-size: 0.72rem; color: #888; margin-top: 8px; }
+
+  .divider { border: none; border-top: 1px solid #e8e8e8; margin: 24px 0 8px; }
+
+  footer { text-align: center; color: #aaa; font-size: 0.75rem; padding: 32px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Stock Research</h1>
+  <p>Fundamental analysis · Munger-style · India + US · Last updated: March 2026</p>
+</header>
+
+<div class="container">
+
+  <div class="section-title">India — Owned Positions</div>
+  <div class="grid">
+
+    <a class="card" href="GROWW.html">
+      <div class="card-top">
+        <span class="ticker">GROWW</span>
+        <span class="grade grade-B">B · 19/25</span>
+      </div>
+      <div class="company-name">Billionbrains Garage Ventures</div>
+      <div class="meta">
+        <span class="tag sector">Fintech</span>
+        <span class="tag">₹3.53L invested</span>
+        <span class="tag gain">+2% P&L</span>
+      </div>
+      <div class="score">Platform play · MTF + AMC optionality · P/E 56x · Hold</div>
+    </a>
+
+    <a class="card" href="KAYNES.html">
+      <div class="card-top">
+        <span class="ticker">KAYNES</span>
+        <span class="grade grade-B">B · 17/25</span>
+      </div>
+      <div class="company-name">Kaynes Technology India</div>
+      <div class="meta">
+        <span class="tag sector">EMS / Electronics</span>
+        <span class="tag">₹1.22L invested</span>
+        <span class="tag loss">-2% P&L</span>
+      </div>
+      <div class="score">IoT-enabled EMS · OSAT optionality · Capex peak done · Hold</div>
+    </a>
+
+    <a class="card" href="EPACKPEB.html">
+      <div class="card-top">
+        <span class="ticker">EPACKPEB</span>
+        <span class="grade grade-B">B · 17/25</span>
+      </div>
+      <div class="company-name">EPACK Durable Solutions</div>
+      <div class="meta">
+        <span class="tag sector">Prefab / Infra</span>
+        <span class="tag">₹1.03L invested</span>
+        <span class="tag loss">-29% P&L</span>
+      </div>
+      <div class="score">Prefab construction · PLI beneficiary · Review needed</div>
+    </a>
+
+    <a class="card" href="KERNEX.html">
+      <div class="card-top">
+        <span class="ticker">KERNEX</span>
+        <span class="grade grade-B">B · 18/25</span>
+      </div>
+      <div class="company-name">Kernex Microsystems</div>
+      <div class="meta">
+        <span class="tag sector">Defence / Rail</span>
+        <span class="tag">₹1.01L invested</span>
+        <span class="tag loss">-9% P&L</span>
+      </div>
+      <div class="score">Kavach anti-collision · Railway safety monopoly · Hold</div>
+    </a>
+
+    <a class="card" href="ARTEMISMED.html">
+      <div class="card-top">
+        <span class="ticker">ARTEMISMED</span>
+        <span class="grade grade-B">B · 16/25</span>
+      </div>
+      <div class="company-name">Artemis Medicare Services</div>
+      <div class="meta">
+        <span class="tag sector">Healthcare</span>
+        <span class="tag">₹44K invested</span>
+        <span class="tag loss">-6.5% P&L</span>
+      </div>
+      <div class="score">Hospital chain · NCR expansion · P/E 100x fwd 28x</div>
+    </a>
+
+    <a class="card" href="PARADEEP.html">
+      <div class="card-top">
+        <span class="ticker">PARADEEP</span>
+        <span class="grade grade-B">B · 14/25</span>
+      </div>
+      <div class="company-name">Paradeep Phosphates</div>
+      <div class="meta">
+        <span class="tag sector">Fertilizers</span>
+        <span class="tag">₹38K invested</span>
+        <span class="tag loss">-38% P&L</span>
+      </div>
+      <div class="score">Fertilizer cyclical · Phosphate imports · Review needed</div>
+    </a>
+
+    <a class="card" href="NAVA.html">
+      <div class="card-top">
+        <span class="ticker">NAVA</span>
+        <span class="grade grade-B">B · 16/25</span>
+      </div>
+      <div class="company-name">Nava Limited</div>
+      <div class="meta">
+        <span class="tag sector">Power / Mining</span>
+      </div>
+      <div class="score">Zambia mining + India power · Diversified · Hold</div>
+    </a>
+
+    <a class="card" href="BANCOINDIA.html">
+      <div class="card-top">
+        <span class="ticker">BANCOINDIA</span>
+        <span class="grade grade-B">B · —</span>
+      </div>
+      <div class="company-name">Banco Products (India)</div>
+      <div class="meta">
+        <span class="tag sector">Auto Ancillary</span>
+      </div>
+      <div class="score">Gaskets + cooling systems · Auto OEM supplier</div>
+    </a>
+
+    <a class="card" href="SHILCTECH.html">
+      <div class="card-top">
+        <span class="ticker">SHILCTECH</span>
+        <span class="grade grade-B">B · —</span>
+      </div>
+      <div class="company-name">Shilchar Technologies</div>
+      <div class="meta">
+        <span class="tag sector">Transformers</span>
+      </div>
+      <div class="score">Distribution transformers · Power infra tailwind</div>
+    </a>
+
+  </div>
+
+  <div class="section-title">India — Loss Positions Under Review</div>
+  <div class="grid">
+
+    <a class="card" href="STLTECH.html">
+      <div class="card-top">
+        <span class="ticker">STLTECH</span>
+        <span class="grade grade-C">C · 12/25</span>
+      </div>
+      <div class="company-name">Sterlite Technologies (STL)</div>
+      <div class="meta">
+        <span class="tag sector">Fiber Optic</span>
+        <span class="tag loss">-40% P&L</span>
+      </div>
+      <div class="score">Fiber glut recovery · Near 52w high · Base case below current · Weak Hold</div>
+    </a>
+
+    <a class="card" href="ETERNAL.html">
+      <div class="card-top">
+        <span class="ticker">ETERNAL</span>
+        <span class="grade grade-B">B · 15/25</span>
+      </div>
+      <div class="company-name">Eternal Ltd (formerly Zomato)</div>
+      <div class="meta">
+        <span class="tag sector">Food Tech</span>
+        <span class="tag loss">-33% P&L</span>
+      </div>
+      <div class="score">Blinkit thesis intact · P/E 884x · FIIs selling · Hold, review Q4 FY26</div>
+    </a>
+
+    <a class="card" href="SWIGGY.html">
+      <div class="card-top">
+        <span class="ticker">SWIGGY</span>
+        <span class="grade grade-C">C · 10/25</span>
+      </div>
+      <div class="company-name">Swiggy</div>
+      <div class="meta">
+        <span class="tag sector">Food Tech</span>
+        <span class="tag loss">-48% P&L</span>
+      </div>
+      <div class="score">Loss-making · OPM improving -22%→-13% · Near 52w low · Weak Hold</div>
+    </a>
+
+  </div>
+
+  <div class="section-title">Watchlist — New Opportunities</div>
+  <div class="grid">
+
+    <a class="card" href="JUSTDIAL.html">
+      <div class="card-top">
+        <span class="ticker">JUSTDIAL</span>
+        <span class="grade grade-B">B · 17/25</span>
+      </div>
+      <div class="company-name">Just Dial</div>
+      <div class="meta">
+        <span class="tag sector">Local Search</span>
+        <span class="tag watch">BUY candidate</span>
+      </div>
+      <div class="score">Mkt cap ≈ investment portfolio · Operating biz free · P/E 7.8x · Reliance 74%</div>
+    </a>
+
+    <a class="card" href="WATCHLIST_SCREEN_MAR2026.html">
+      <div class="card-top">
+        <span class="ticker">WATCHLIST</span>
+        <span class="grade grade-W">39 stocks</span>
+      </div>
+      <div class="company-name">Mar 2026 Valuation Screen</div>
+      <div class="meta">
+        <span class="tag watch">Screened</span>
+      </div>
+      <div class="score">Value picks: Just Dial, Balmer Lawrie, Triveni, Nesco · Full screen</div>
+    </a>
+
+    <a class="card" href="PORTFOLIO_OVERVIEW.html">
+      <div class="card-top">
+        <span class="ticker">OVERVIEW</span>
+        <span class="grade grade-W">Portfolio</span>
+      </div>
+      <div class="company-name">Portfolio Summary</div>
+      <div class="meta">
+        <span class="tag">₹10.2L India</span>
+        <span class="tag">₹1.5L US</span>
+      </div>
+      <div class="score">All holdings · Sector allocation · Conviction grades</div>
+    </a>
+
+  </div>
+
+  <div class="section-title">US Stocks</div>
+  <div class="grid">
+
+    <a class="card" href="us/GOOGL.html">
+      <div class="card-top">
+        <span class="ticker">GOOGL</span>
+        <span class="grade grade-A">A · 23/25</span>
+      </div>
+      <div class="company-name">Alphabet Inc</div>
+      <div class="meta">
+        <span class="tag sector">Internet / Cloud</span>
+        <span class="tag">₹50K invested</span>
+      </div>
+      <div class="score">Search monopoly + Cloud inflection · P/E 28x · PEG 0.92 · High conviction</div>
+    </a>
+
+    <a class="card" href="us/AMZN.html">
+      <div class="card-top">
+        <span class="ticker">AMZN</span>
+        <span class="grade grade-A">A · 21/25</span>
+      </div>
+      <div class="company-name">Amazon.com</div>
+      <div class="meta">
+        <span class="tag sector">Cloud / Retail</span>
+        <span class="tag">₹50K invested</span>
+      </div>
+      <div class="score">AWS + Ads hidden earnings · SOTP $290 vs $212 · 36% upside</div>
+    </a>
+
+    <a class="card" href="us/NVDA.html">
+      <div class="card-top">
+        <span class="ticker">NVDA</span>
+        <span class="grade grade-A">A · 22/25</span>
+      </div>
+      <div class="company-name">NVIDIA Corporation</div>
+      <div class="meta">
+        <span class="tag sector">AI / Semiconductors</span>
+        <span class="tag">₹50K invested</span>
+      </div>
+      <div class="score">AI monopoly · CUDA moat · ROE 101% · fwd P/E 17x · Binary upside</div>
+    </a>
+
+  </div>
+
+</div>
+
+<footer>Personal research notes · Not investment advice · Updated March 2026</footer>
+
+</body>
+</html>
