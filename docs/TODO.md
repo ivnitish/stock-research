@@ -1,0 +1,54 @@
+# Research System — TODO
+*Last updated: 2026-03-14*
+
+---
+
+## DECIDE THESE NOW (Top 5)
+
+| # | What | Why it matters | Effort |
+|---|------|---------------|--------|
+| 1 | **Exit PARADEEP** on next bounce to ₹115+ | Grade C·11, D/E 5.3x, -36%. Capital sitting idle in a bad business. | Low |
+| 2 | **Q4 FY26 results watch** — EPACKPEB, KERNEX, ETERNAL | These three are "hold pending result". Need a go/no-go decision in May 2026. | Low (set reminder) |
+| 3 | **KAYNES promoter selling** — check BSE filings | 4.3% stake sold in 9 months. Thesis is conditional on this resolving. | Medium |
+| 4 | **GROWW trim plan** — 26% of portfolio in a B·19 stock | Expected CAGR only 11%. Trimming above ₹190 and redeploying to ICICIAMC improves portfolio CAGR ~1.5%. | Low (set price alert) |
+| 5 | **Kite MCP → XIRR** — connect to get dated order history | Need actual transaction dates to compute real XIRR vs the thesis-estimated 13.5% CAGR. | Medium |
+
+---
+
+## RESEARCH BACKLOG (do when you have time)
+
+- [ ] NWIL / IIL thesis file — 165 shares, +49.9%, no write-up yet
+- [ ] Nesco full thesis — P/E 18.6x, 42% margin, quality compounder
+- [ ] NVDA Q&A deep dive — Q&A-style research (scale limits, AMD shift, hyperscaler spend motives, bear case ₹42 scenario)
+- [ ] Real US positions thesis — RGTI, OKLO, ACHR etc. (all in loss, speculative)
+- [ ] STLTECH watch trigger — only revisit if DGTR anti-dumping duty granted
+
+## RESEARCH SKILL IDEAS
+
+- [ ] **Q&A research format** — for complex thesis questions (e.g. NVDA: "why do hyperscalers keep spending?", "when does the bear case happen?") — build a `skills/qa-research.md` skill that structures research as Qs with sourced answers
+- [ ] Template: Question → Evidence → Counterargument → Our view → Confidence level
+
+## CODE BACKLOG
+
+- [ ] `red_flag_monitor.py` — add 20+ newer positions (NEWGEN, SAKSOFT, ICICIAMC, tracking stocks)
+- [ ] Friend access / Claude API chat widget in index.html
+- [ ] Cards view — tracking stocks section missing
+- [ ] Weekly digest auto-generator (`src/weekly_digest.py`)
+
+---
+
+## ✅ COMPLETED (2026-03-14 session)
+
+**Research:** Valuation framework doc (`docs/VALUATION_FRAMEWORK.md` → `output/html/VALUATION_FRAMEWORK.html`) — DCF + P/B-ROE theory, India assumptions, worked examples (GROWW, JUSTDIAL), when models disagree · Linked in index.html as Reference row · JUSTDIAL deep thesis v2 (investments > market cap SOTP, Q3 FY26 OPM 31%)
+
+**All research docs:** Quick Summary + one-line thesis + Buy/Hold/Sell price table added to all ~20 research files
+
+---
+
+## ✅ COMPLETED (2026-03-13 session)
+
+**Index.html:** Mobile wrapping fix · Section totals (JS) · Expected CAGR section (~13.5% weighted) · ICICIAMC vs GROWW ROE deep dive · P/B formula corrected (g=6%) · STLNETWORK/STLTECH confusion fixed · Nifty 20K scenario page · Full column table (Qty/Avg/CMP/Invested/Current/P&L) · Auth localStorage fix · 23 tracking stocks · Averaging recommendations · Filter buttons
+
+**Research files:** STLNETWORK.md (C·10, owned) · STLTECH.md (C·11, watchlist) · NIFTY20K_WATCHLIST.md · PORTFOLIO_OVERVIEW.md · GROWW.md v2 · ICICIAMC.md · JUSTDIAL.md · SWIGGY.md · ETERNAL.md
+
+**Automation:** Portfolio price update (daily 7pm) · Red flag monitor (weekly Mon 8am) · DCF model · P/B-ROE model · Decision log review (468 trades, -₹64.8K, 6 patterns) · Weekly journal W11

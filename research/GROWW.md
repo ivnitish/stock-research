@@ -6,6 +6,21 @@
 **Data Source:** Screener.in (consolidated)
 
 ---
+## Quick Summary
+
+**One-line thesis:** India's largest digital investment platform riding the structural shift in financial savings, with exceptional ROE (50%) and product optionality (AMC, MTF lending, personal loans) — but priced for perfection at 56x P/E.
+
+**Action:** HOLD
+
+| Level | Price | Trigger |
+|-------|-------|---------|
+| Buy / Add | ₹120 – ₹145 | DCF base case ₹74–₹97; P/B-ROE base (40% ROE) = ₹290 — add where DCF and P/B-ROE converge closer |
+| Hold | ₹145 – ₹190 | Current range — 15–25% CAGR compounder; hold existing position |
+| Sell / Exit | Above ₹190 or at trigger | ROCE drops below 30%; revenue growth falls below 15% YoY for 2 quarters |
+
+**Why now (Mar 2026):** Stock is at ₹155 (near mid-range of 52W ₹112–₹194), fairly valued for the compounder thesis. Position concentration (35% of portfolio) is the biggest concern — trim to 20–25% if a better-valued Grade A opportunity arises.
+
+---
 
 ## 1. Business Summary
 
@@ -32,6 +47,18 @@ India's largest digital investment platform by active users on NSE. Offers stock
 - **Catalyst 2: Revenue diversification.** Currently broking-heavy. MF distribution, lending (personal loans), and margin trading are higher-margin, recurring revenue.
 - **Catalyst 3: Operating leverage.** Platform costs are largely fixed. OPM went from -55% (FY22) → 62% (FY25).
 - **Catalyst 4: Young user base.** Average Groww user is 25-30 years old. Lifetime value is very high as AUM compounds over decades.
+
+### Product Optionality — What Could Sustain ROE
+
+| Product | Current Status | Potential Revenue Contribution (FY28E) | Margin Profile |
+|---------|---------------|----------------------------------------|----------------|
+| Broking (F&O + equity) | Core, ~70-75% revenue | ₹3,500 Cr (slows as market matures) | Medium (regulatory risk) |
+| MF Distribution | Growing, ~10-15% | ₹800 Cr (CAGR 25%+ as SIP AUM compounds) | High (trail commission, recurring) |
+| MTF (Margin Trading) | Scaling, ~5-8% | ₹600 Cr (interest income, ~18-20% yield) | Very high (lending spread) |
+| Personal Loans | Early stage | ₹400 Cr (if book reaches ₹2,000 Cr) | High (watch NPA risk) |
+| Own AMC (Groww MF) | Nascent | ₹200 Cr long-term | Very high (AUM trail) |
+
+**Key insight:** If MTF + MF + loans together reach 40-45% of revenue by FY28 (vs ~25% today), ROE can sustain 40%+ even as broking margin pressure mounts. This is the bull case.
 
 ---
 
@@ -66,11 +93,25 @@ India's largest digital investment platform by active users on NSE. Offers stock
 
 ## 5. Valuation
 
-- **Current Price:** ₹157
-- **Market Cap:** ₹98,598 Cr
-- **P/E (Consolidated):** 61x TTM
-- **P/B:** 13.2x | **Book Value:** ₹11.9/share
+- **Current Price:** ₹155 (updated Mar 2026)
+- **Market Cap:** ₹95,728 Cr
+- **P/E (Consolidated):** 56x TTM | 34x Forward
+- **P/B:** 12.6x | **Book Value:** ₹12.3/share
 - **ROE:** 50% | **ROCE:** 62.6%
+- **52-week range:** ₹112 – ₹194
+
+### Peer Comparison: GROWW vs Angel One
+
+| Metric | GROWW | Angel One | GROWW Premium/Discount |
+|--------|-------|-----------|------------------------|
+| P/E (TTM) | 56x | 27x | +107% premium |
+| P/B | 12.6x | 3.4x | +270% premium |
+| Revenue Growth (YoY) | 25.8% | 2.5% | GROWW 10x faster |
+| Op Margin | 58% | 31% | GROWW superior |
+| Net Margin | 42% | 17% | GROWW superior |
+| Market Cap (Cr) | ₹95,728 | ₹19,866 | GROWW 5x larger |
+
+**Interpretation:** GROWW trades at a steep premium to Angel One but deserves it — 10x higher revenue growth and nearly double the operating margin. The premium is justified *only if* GROWW sustains its growth advantage. If GROWW's growth converges toward Angel One's 2.5%, the premium will collapse.
 
 ### Model 1: DCF (Discounted Cash Flow)
 
@@ -177,6 +218,13 @@ Unrealistic at ₹157 entry. Would need 120x P/E or 50%+ CAGR sustained — bubb
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/GROWW.md`*
+
+### 2026-03-12 — v2: Peer comparison + product optionality modeling
+- Added Angel One peer comparison: GROWW at 2x P/E premium but 10x the revenue growth
+- Premium is justified today; collapses if growth decelerates to peer levels
+- Modeled 5 product lines individually: MTF + MF distribution + loans = key to sustaining ROE
+- Earnings growth showing -34.1% YoY (yfinance) likely due to Dec 2024 exceptional item reversal — underlying growth intact at 25%+ revenue
+- Updated price to ₹155 (from ₹157). Stance unchanged: 15-25% CAGR compounder, not a 5x
 
 ### 2026-03-11 — Initial thesis created
 - Built 3-model valuation: DCF (bearish), P/B-ROE (bullish if ROE sustains), P/E (middle)
