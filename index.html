@@ -136,9 +136,12 @@
   .col-hide-sm   { } /* hidden below 640px */
   .col-hide-md   { } /* hidden below 900px — handled by min-width on table */
   @media (max-width: 640px) {
-    .col-hide-sm { display: none; }
-    td { padding: 8px 8px; }
-    .td-company { display: none; }
+    /* col-hide-sm columns stay visible — horizontal scroll handles width */
+    td { padding: 6px 7px; font-size: 0.75rem; white-space: normal; word-break: break-word; }
+    .td-company { font-size: 0.65rem; }
+    .num-cell { font-size: 0.73rem; }
+    .grade { font-size: 0.6rem; padding: 1px 5px; }
+    .action-tag { font-size: 0.6rem; padding: 1px 5px; }
   }
 
   /* ══════════════════════
@@ -1391,6 +1394,274 @@
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════════
+     EXPECTED CAGR — THESIS-BASED ESTIMATES
+     ════════════════════════════════════════════════════════════════════════ -->
+<section id="expected-cagr" style="max-width:900px;margin:48px auto 0;padding:0 16px">
+
+  <div style="border-top:2px solid #1a1a2e;padding-top:28px;margin-bottom:20px">
+    <div style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.1em;color:#888;margin-bottom:6px">Portfolio Analytics</div>
+    <h2 style="font-family:-apple-system,sans-serif;font-size:1.4rem;font-weight:700;color:#1a1a2e;margin:0 0 6px">
+      Expected CAGR — Thesis-Based Estimates
+    </h2>
+    <p style="font-family:-apple-system,sans-serif;font-size:0.84rem;color:#555;margin:0;line-height:1.6">
+      Base-case price targets and horizons from research notes, mapped to annualised CAGR.
+      <strong>Not a prediction</strong> — these are the returns implied by the thesis <em>if it plays out</em>.
+      CAGR = (Target / CMP)<sup>1/years</sup> − 1.
+    </p>
+  </div>
+
+  <!-- Main CAGR table -->
+  <div style="overflow-x:auto;margin-bottom:16px">
+  <table style="width:100%;border-collapse:collapse;font-family:-apple-system,sans-serif;font-size:0.81rem;min-width:700px">
+    <thead>
+      <tr style="background:#1a1a2e;color:#fff">
+        <th style="padding:9px 12px;text-align:left">Stock</th>
+        <th style="padding:9px 12px;text-align:left">Grade</th>
+        <th style="padding:9px 12px;text-align:right">PF Weight</th>
+        <th style="padding:9px 12px;text-align:right">CMP</th>
+        <th style="padding:9px 12px;text-align:right">Base Target</th>
+        <th style="padding:9px 12px;text-align:right">Horizon</th>
+        <th style="padding:9px 12px;text-align:right">Exp. CAGR</th>
+        <th style="padding:9px 12px;text-align:right">Wtd Contrib.</th>
+        <th style="padding:9px 12px;text-align:left">Thesis note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Grade A -->
+      <tr style="background:#d4edda">
+        <td colspan="9" style="padding:6px 12px;font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#155724">Grade A</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee">
+        <td style="padding:8px 12px;font-weight:700">ICICIAMC</td>
+        <td style="padding:8px 12px"><span style="background:#d4edda;color:#155724;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:10px">A·20</span></td>
+        <td style="padding:8px 12px;text-align:right">1.2%</td>
+        <td style="padding:8px 12px;text-align:right">₹2,880</td>
+        <td style="padding:8px 12px;text-align:right">₹3,800</td>
+        <td style="padding:8px 12px;text-align:right">3yr</td>
+        <td style="padding:8px 12px;text-align:right;font-weight:700;color:#166534">+9.7%</td>
+        <td style="padding:8px 12px;text-align:right;color:#166534">+0.12%</td>
+        <td style="padding:8px 12px;color:#555;font-size:0.78rem">AMC structural: 25-30% profit CAGR. At 50x P/E on FY29E.</td>
+      </tr>
+      <!-- Grade B - high -->
+      <tr style="background:#f8f9fb">
+        <td colspan="9" style="padding:6px 12px;font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#555">Grade B — Core Holdings</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee">
+        <td style="padding:8px 12px;font-weight:700">GROWW</td>
+        <td style="padding:8px 12px"><span style="background:#fff3cd;color:#856404;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:10px">B·19</span></td>
+        <td style="padding:8px 12px;text-align:right"><strong>25.9%</strong></td>
+        <td style="padding:8px 12px;text-align:right">₹156</td>
+        <td style="padding:8px 12px;text-align:right">₹192</td>
+        <td style="padding:8px 12px;text-align:right">2yr</td>
+        <td style="padding:8px 12px;text-align:right;font-weight:700;color:#166534">+11.0%</td>
+        <td style="padding:8px 12px;text-align:right;color:#166534"><strong>+2.85%</strong></td>
+        <td style="padding:8px 12px;color:#555;font-size:0.78rem">P/E 40x on FY27E ₹3,000 Cr profit. Biggest weight = biggest impact.</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee;background:#fafafa">
+        <td style="padding:8px 12px;font-weight:700">KERNEX</td>
+        <td style="padding:8px 12px"><span style="background:#fff3cd;color:#856404;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:10px">B·18</span></td>
+        <td style="padding:8px 12px;text-align:right">6.4%</td>
+        <td style="padding:8px 12px;text-align:right">₹982</td>
+        <td style="padding:8px 12px;text-align:right">₹1,500</td>
+        <td style="padding:8px 12px;text-align:right">3yr</td>
+        <td style="padding:8px 12px;text-align:right;font-weight:700;color:#166534">+15.2%</td>
+        <td style="padding:8px 12px;text-align:right;color:#166534">+0.97%</td>
+        <td style="padding:8px 12px;color:#555;font-size:0.78rem">Kavach rollout. Needs order wins to materialise.</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee">
+        <td style="padding:8px 12px;font-weight:700">NEWGEN</td>
+        <td style="padding:8px 12px"><span style="background:#fff3cd;color:#856404;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:10px">B·18</span></td>
+        <td style="padding:8px 12px;text-align:right">6.4%</td>
+        <td style="padding:8px 12px;text-align:right">₹442</td>
+        <td style="padding:8px 12px;text-align:right">₹620</td>
+        <td style="padding:8px 12px;text-align:right">2yr</td>
+        <td style="padding:8px 12px;text-align:right;font-weight:700;color:#166534">+18.4%</td>
+        <td style="padding:8px 12px;text-align:right;color:#166534">+1.18%</td>
+        <td style="padding:8px 12px;color:#555;font-size:0.78rem">Low-code BPM, 22% ROE, -52% from peak = mean reversion opportunity.</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee;background:#fafafa">
+        <td style="padding:8px 12px;font-weight:700">KAYNES</td>
+        <td style="padding:8px 12px"><span style="background:#fff3cd;color:#856404;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:10px">B·17</span></td>
+        <td style="padding:8px 12px;text-align:right">7.8%</td>
+        <td style="padding:8px 12px;text-align:right">₹3,484</td>
+        <td style="padding:8px 12px;text-align:right">₹5,500</td>
+        <td style="padding:8px 12px;text-align:right">3yr</td>
+        <td style="padding:8px 12px;text-align:right;font-weight:700;color:#166534">+16.4%</td>
+        <td style="padding:8px 12px;text-align:right;color:#166534">+1.28%</td>
+        <td style="padding:8px 12px;color:#555;font-size:0.78rem">EMS+OSAT theme. Conditional on promoter selling concern resolving.</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee">
+        <td style="padding:8px 12px;font-weight:700">EPACKPEB</td>
+        <td style="padding:8px 12px"><span style="background:#fff3cd;color:#856404;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:10px">B·17</span></td>
+        <td style="padding:8px 12px;text-align:right">5.1%</td>
+        <td style="padding:8px 12px;text-align:right">₹156</td>
+        <td style="padding:8px 12px;text-align:right">₹260</td>
+        <td style="padding:8px 12px;text-align:right">2yr</td>
+        <td style="padding:8px 12px;text-align:right;font-weight:700;color:#b45309">+29.1%</td>
+        <td style="padding:8px 12px;text-align:right;color:#b45309">+1.48%</td>
+        <td style="padding:8px 12px;color:#555;font-size:0.78rem">Prefab housing theme. HIGH UNCERTAINTY — Q4 FY26 must show recovery.</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee;background:#fafafa">
+        <td style="padding:8px 12px;font-weight:700">ANANTRAJ</td>
+        <td style="padding:8px 12px"><span style="background:#fff3cd;color:#856404;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:10px">B·17</span></td>
+        <td style="padding:8px 12px;text-align:right">6.4%</td>
+        <td style="padding:8px 12px;text-align:right">₹408</td>
+        <td style="padding:8px 12px;text-align:right">₹580</td>
+        <td style="padding:8px 12px;text-align:right">2yr</td>
+        <td style="padding:8px 12px;text-align:right;font-weight:700;color:#166534">+19.2%</td>
+        <td style="padding:8px 12px;text-align:right;color:#166534">+1.23%</td>
+        <td style="padding:8px 12px;color:#555;font-size:0.78rem">NCR real estate + data centres. Land bank monetisation cycle.</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee">
+        <td style="padding:8px 12px;font-weight:700">SHAKTIPUMP</td>
+        <td style="padding:8px 12px"><span style="background:#fff3cd;color:#856404;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:10px">B·16</span></td>
+        <td style="padding:8px 12px;text-align:right">6.8%</td>
+        <td style="padding:8px 12px;text-align:right">₹450</td>
+        <td style="padding:8px 12px;text-align:right">₹650</td>
+        <td style="padding:8px 12px;text-align:right">2yr</td>
+        <td style="padding:8px 12px;text-align:right;font-weight:700;color:#166534">+20.2%</td>
+        <td style="padding:8px 12px;text-align:right;color:#166534">+1.37%</td>
+        <td style="padding:8px 12px;color:#555;font-size:0.78rem">PM-KUSUM solar pump scheme. Government policy dependent.</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee;background:#fafafa">
+        <td style="padding:8px 12px;font-weight:700">SAKSOFT</td>
+        <td style="padding:8px 12px"><span style="background:#fff3cd;color:#856404;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:10px">B·16</span></td>
+        <td style="padding:8px 12px;text-align:right">3.9%</td>
+        <td style="padding:8px 12px;text-align:right">₹128</td>
+        <td style="padding:8px 12px;text-align:right">₹200</td>
+        <td style="padding:8px 12px;text-align:right">2yr</td>
+        <td style="padding:8px 12px;text-align:right;font-weight:700;color:#166534">+24.9%</td>
+        <td style="padding:8px 12px;text-align:right;color:#166534">+0.97%</td>
+        <td style="padding:8px 12px;color:#555;font-size:0.78rem">Undiscovered small-cap compounder. PEG 0.58. Low float = illiquid.</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee">
+        <td style="padding:8px 12px;font-weight:700">RSYSTEMS</td>
+        <td style="padding:8px 12px"><span style="background:#fff3cd;color:#856404;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:10px">B·15</span></td>
+        <td style="padding:8px 12px;text-align:right">6.6%</td>
+        <td style="padding:8px 12px;text-align:right">₹285</td>
+        <td style="padding:8px 12px;text-align:right">₹370</td>
+        <td style="padding:8px 12px;text-align:right">2yr</td>
+        <td style="padding:8px 12px;text-align:right;font-weight:700;color:#166534">+13.9%</td>
+        <td style="padding:8px 12px;text-align:right;color:#166534">+0.92%</td>
+        <td style="padding:8px 12px;color:#555;font-size:0.78rem">IT services, 4.3% dividend yield. Steady compounder.</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee;background:#fafafa">
+        <td style="padding:8px 12px;font-weight:700">BANCOINDIA</td>
+        <td style="padding:8px 12px"><span style="background:#fff3cd;color:#856404;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:10px">B</span></td>
+        <td style="padding:8px 12px;text-align:right">3.9%</td>
+        <td style="padding:8px 12px;text-align:right">₹530</td>
+        <td style="padding:8px 12px;text-align:right">₹680</td>
+        <td style="padding:8px 12px;text-align:right">2yr</td>
+        <td style="padding:8px 12px;text-align:right;font-weight:700;color:#166534">+13.2%</td>
+        <td style="padding:8px 12px;text-align:right;color:#166534">+0.52%</td>
+        <td style="padding:8px 12px;color:#555;font-size:0.78rem">Auto ancillary. High dividend. Volume recovery tied to auto cycle.</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee">
+        <td style="padding:8px 12px;font-weight:700">ARTEMISMED</td>
+        <td style="padding:8px 12px"><span style="background:#fff3cd;color:#856404;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:10px">B·16</span></td>
+        <td style="padding:8px 12px;text-align:right">3.0%</td>
+        <td style="padding:8px 12px;text-align:right">₹240</td>
+        <td style="padding:8px 12px;text-align:right">₹340</td>
+        <td style="padding:8px 12px;text-align:right">2yr</td>
+        <td style="padding:8px 12px;text-align:right;font-weight:700;color:#166534">+19.0%</td>
+        <td style="padding:8px 12px;text-align:right;color:#166534">+0.57%</td>
+        <td style="padding:8px 12px;color:#555;font-size:0.78rem">Healthcare NCR. Bed expansion + occupancy improvement thesis.</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee;background:#fafafa">
+        <td style="padding:8px 12px;font-weight:700">ETERNAL (Zomato)</td>
+        <td style="padding:8px 12px"><span style="background:#fff3cd;color:#856404;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:10px">B·15</span></td>
+        <td style="padding:8px 12px;text-align:right">2.2%</td>
+        <td style="padding:8px 12px;text-align:right">₹216</td>
+        <td style="padding:8px 12px;text-align:right">₹280</td>
+        <td style="padding:8px 12px;text-align:right">2yr</td>
+        <td style="padding:8px 12px;text-align:right;font-weight:700;color:#166534">+13.9%</td>
+        <td style="padding:8px 12px;text-align:right;color:#166534">+0.31%</td>
+        <td style="padding:8px 12px;color:#555;font-size:0.78rem">Path to profitability. Q4 FY26 is the key checkpoint.</td>
+      </tr>
+      <!-- Grade C -->
+      <tr style="background:#fee2e2">
+        <td colspan="9" style="padding:6px 12px;font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#7f1d1d">Grade C — Exit candidates (drag on portfolio)</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee">
+        <td style="padding:8px 12px;font-weight:700">PARADEEP</td>
+        <td style="padding:8px 12px"><span style="background:#f8d7da;color:#721c24;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:10px">C·11</span></td>
+        <td style="padding:8px 12px;text-align:right">1.8%</td>
+        <td style="padding:8px 12px;text-align:right">₹90</td>
+        <td style="padding:8px 12px;text-align:right">₹115</td>
+        <td style="padding:8px 12px;text-align:right">2yr</td>
+        <td style="padding:8px 12px;text-align:right;font-weight:700;color:#991b1b">+13.0%</td>
+        <td style="padding:8px 12px;text-align:right;color:#555">+0.23%</td>
+        <td style="padding:8px 12px;color:#991b1b;font-size:0.78rem">Exit on any bounce to ₹115. D/E 5.3x. Exit target = entry cost recovery.</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee;background:#fafafa">
+        <td style="padding:8px 12px;font-weight:700">SWIGGY</td>
+        <td style="padding:8px 12px"><span style="background:#f8d7da;color:#721c24;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:10px">C·10</span></td>
+        <td style="padding:8px 12px;text-align:right">1.8%</td>
+        <td style="padding:8px 12px;text-align:right">₹282</td>
+        <td style="padding:8px 12px;text-align:right">₹300</td>
+        <td style="padding:8px 12px;text-align:right">2yr</td>
+        <td style="padding:8px 12px;text-align:right;font-weight:700;color:#555">+3.1%</td>
+        <td style="padding:8px 12px;text-align:right;color:#555">+0.06%</td>
+        <td style="padding:8px 12px;color:#991b1b;font-size:0.78rem">Weak hold only. Loss-making. Capital destruction risk if raise needed.</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee">
+        <td style="padding:8px 12px;font-weight:700">STLTECH</td>
+        <td style="padding:8px 12px"><span style="background:#f8d7da;color:#721c24;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:10px">C·12</span></td>
+        <td style="padding:8px 12px;text-align:right">2.1%</td>
+        <td style="padding:8px 12px;text-align:right">₹18.6</td>
+        <td style="padding:8px 12px;text-align:right">₹22</td>
+        <td style="padding:8px 12px;text-align:right">2yr</td>
+        <td style="padding:8px 12px;text-align:right;font-weight:700;color:#555">+8.7%</td>
+        <td style="padding:8px 12px;text-align:right;color:#555">+0.18%</td>
+        <td style="padding:8px 12px;color:#991b1b;font-size:0.78rem">Fiber optic, structural overcapacity. Watch 2 quarters before exit.</td>
+      </tr>
+      <!-- Grand total row -->
+      <tr style="background:#1a1a2e;color:white;font-weight:700">
+        <td style="padding:10px 12px;color:white">Portfolio Weighted CAGR</td>
+        <td colspan="2" style="padding:10px 12px;text-align:right;color:#e2e8f0">India portfolio</td>
+        <td colspan="3" style="padding:10px 12px"></td>
+        <td style="padding:10px 12px;text-align:right;color:#4ade80;font-size:1rem">~13.5%</td>
+        <td colspan="2" style="padding:10px 12px;color:#9090b0;font-size:0.78rem">Σ weighted contributions</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <!-- Drag vs Carry analysis -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px">
+    <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;padding:16px 18px;font-family:-apple-system,sans-serif">
+      <div style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.08em;color:#16a34a;margin-bottom:8px;font-weight:700">Portfolio Carriers (top contributors)</div>
+      <div style="font-size:0.82rem;color:#333;line-height:2">
+        <span style="font-weight:700">GROWW</span> · 25.9% wt × 11% = <strong style="color:#16a34a">+2.85%</strong> to portfolio CAGR<br>
+        <span style="font-weight:700">EPACKPEB</span> · 5.1% wt × 29% = <strong style="color:#16a34a">+1.48%</strong><br>
+        <span style="font-weight:700">KAYNES</span> · 7.8% wt × 16% = <strong style="color:#16a34a">+1.28%</strong><br>
+        <span style="font-weight:700">SHAKTIPUMP</span> · 6.8% wt × 20% = <strong style="color:#16a34a">+1.37%</strong><br>
+        <span style="font-weight:700">NEWGEN</span> · 6.4% wt × 18% = <strong style="color:#16a34a">+1.18%</strong>
+      </div>
+    </div>
+    <div style="background:#fff5f5;border:1px solid #fecaca;border-radius:10px;padding:16px 18px;font-family:-apple-system,sans-serif">
+      <div style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.08em;color:#dc2626;margin-bottom:8px;font-weight:700">Portfolio Drag (low-return weight)</div>
+      <div style="font-size:0.82rem;color:#333;line-height:2">
+        <span style="font-weight:700">GROWW concentration</span> — 26% weight but only 11% CAGR. If trimmed to 15% and deployed to ICICIAMC + SAKSOFT, portfolio CAGR lifts ~1.5%.<br>
+        <span style="font-weight:700">Grade C stocks</span> — 5.7% of portfolio dragging overall with near-zero expected CAGR.<br>
+        <span style="font-weight:700">ICICIAMC under-weight</span> — only 1.2% in the highest-quality stock.
+      </div>
+    </div>
+  </div>
+
+  <div style="background:#f8f9ff;border:1px solid #dde;border-radius:10px;padding:14px 18px;margin-bottom:8px;font-family:-apple-system,sans-serif;font-size:0.84rem;color:#333;line-height:1.8">
+    <strong>Key insight:</strong> The portfolio's expected CAGR is <strong>~13-14%</strong> — decent but not exceptional for the concentration and risk taken.
+    The drag comes from (1) GROWW being 26% of portfolio at moderate expected return, and (2) Grade C positions adding no return while tying up capital.
+    <strong>Reallocating Grade C exits + trimming GROWW above ₹190 → ICICIAMC/SAKSOFT could push portfolio CAGR toward 16-18%.</strong>
+    These are base-case estimates only — actual XIRR will depend on timing of exits and new entries.
+  </div>
+  <div style="font-family:-apple-system,sans-serif;font-size:0.72rem;color:#999;text-align:right;margin-bottom:8px">
+    CAGR = (Base Target / CMP)<sup>1/Horizon</sup> − 1 · Targets from thesis notes · Not investment advice · 2026-03-13
+  </div>
+
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════
      SUSTAINED ROE DEEP DIVE: ICICIAMC vs GROWW
      Framework: P/B-ROE (Anu Maheshwari / Munger) — ROE determines justified P/B
      ════════════════════════════════════════════════════════════════════════ -->
@@ -1561,9 +1832,13 @@
 
   <!-- Justified P/B -->
   <h3 style="font-family:-apple-system,sans-serif;font-size:0.95rem;font-weight:700;color:#1a1a2e;margin:0 0 10px">4. What ROE Implies for Justified Price-to-Book</h3>
-  <p style="font-family:-apple-system,sans-serif;font-size:0.82rem;color:#555;margin:0 0 12px;line-height:1.6">
-    Formula: <code style="background:#f3f4f6;padding:2px 6px;border-radius:4px">Justified P/B = (ROE − g) / (Ke − g)</code> where Ke = 12% cost of equity, g = 5% long-term growth.
-    Simplified for comparison: <code style="background:#f3f4f6;padding:2px 6px;border-radius:4px">Justified P/B ≈ ROE / Ke</code>
+  <p style="font-family:-apple-system,sans-serif;font-size:0.82rem;color:#555;margin:0 0 8px;line-height:1.6">
+    Formula: <code style="background:#f3f4f6;padding:2px 6px;border-radius:4px">Justified P/B = (ROE − g) / (Ke − g)</code> — this IS the correct Gordon Growth Model applied to book value.
+    Ke = 12% (India equity risk premium ~6% + 10Y Gsec ~6.8% = ~12-13%; we use 12%).
+    g = 6% (terminal growth, not near-term). Why 6%? India nominal GDP = ~10-11% (6-7% real + 4-5% inflation).
+    No business can grow faster than nominal GDP forever, so terminal g must be below that. 6% is the long-run sustainable rate.
+    <strong>Caution:</strong> this formula is highly sensitive to the Ke−g spread — if Ke=12% and g=6%, denominator=6%; if g slips to 5%, denominator=7% → values drop 15-20%. Don't over-rely on the exact number; use as a relative benchmark.
+    Simplified (g→0): <code style="background:#f3f4f6;padding:2px 6px;border-radius:4px">Justified P/B ≈ ROE / Ke</code>
   </p>
   <div style="overflow-x:auto;margin-bottom:24px">
   <table style="width:100%;border-collapse:collapse;font-family:-apple-system,sans-serif;font-size:0.82rem;min-width:620px">
@@ -1578,21 +1853,21 @@
     <tbody>
       <tr style="border-bottom:1px solid #eee">
         <td style="padding:8px 12px;color:#dc2626;font-weight:600">Bear (sustained)</td>
-        <td style="padding:8px 12px;text-align:center">21% → <strong>1.8×</strong></td>
-        <td style="padding:8px 12px;text-align:center">18% → <strong>1.5×</strong></td>
-        <td style="padding:8px 12px;font-size:0.78rem;color:#dc2626">Both overvalued — but ICICIAMC less so</td>
+        <td style="padding:8px 12px;text-align:center">21% → <strong>(21-6)/(12-6) = 2.5×</strong></td>
+        <td style="padding:8px 12px;text-align:center">18% → <strong>(18-6)/(12-6) = 2.0×</strong></td>
+        <td style="padding:8px 12px;font-size:0.78rem;color:#dc2626">Both overvalued vs justified — but ICICIAMC less so</td>
       </tr>
       <tr style="border-bottom:1px solid #eee;background:#fafafa">
         <td style="padding:8px 12px;color:#2563eb;font-weight:600">Base</td>
-        <td style="padding:8px 12px;text-align:center">30% → <strong>2.5×</strong></td>
-        <td style="padding:8px 12px;text-align:center">35% → <strong>2.9×</strong></td>
-        <td style="padding:8px 12px;font-size:0.78rem">ICICIAMC ~18-20× P/B (significant premium to justified)</td>
+        <td style="padding:8px 12px;text-align:center">30% → <strong>(30-6)/(12-6) = 4.0×</strong></td>
+        <td style="padding:8px 12px;text-align:center">35% → <strong>(35-6)/(12-6) = 4.8×</strong></td>
+        <td style="padding:8px 12px;font-size:0.78rem">ICICIAMC current P/B ~18-20×; GROWW ~12.6× — both well above justified</td>
       </tr>
       <tr style="background:#fafafa">
         <td style="padding:8px 12px;color:#16a34a;font-weight:600">Bull</td>
-        <td style="padding:8px 12px;text-align:center">38% → <strong>3.2×</strong></td>
-        <td style="padding:8px 12px;text-align:center">45% → <strong>3.8×</strong></td>
-        <td style="padding:8px 12px;font-size:0.78rem;color:#16a34a">Still far below current P/B on pure formula</td>
+        <td style="padding:8px 12px;text-align:center">38% → <strong>(38-6)/(12-6) = 5.3×</strong></td>
+        <td style="padding:8px 12px;text-align:center">45% → <strong>(45-6)/(12-6) = 6.5×</strong></td>
+        <td style="padding:8px 12px;font-size:0.78rem;color:#555">Still 2-4× below current market P/B — gap = franchise/growth premium</td>
       </tr>
     </tbody>
   </table>
@@ -1717,7 +1992,7 @@
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
 
-    const rows = document.querySelectorAll('tr.stock-row, tr.section-row');
+    const rows = document.querySelectorAll('tr.stock-row, tr.section-row, tr.total-row');
 
     if (key === 'all') {
       rows.forEach(r => r.style.display = '');
@@ -1766,6 +2041,99 @@
 
   const saved = localStorage.getItem('view');
   if (saved === 'cards') setView('cards');
+
+  // ── Section totals (like business segment tables) ──────────────────────
+  function parseInr(s) {
+    s = (s || '').replace(/,/g, '').trim();
+    if (/\$/.test(s)) return null; // skip USD cells
+    const neg = s.includes('-');
+    s = s.replace(/[₹$+\-]/g, '').trim();
+    let v = 0;
+    if (s.endsWith('L')) v = parseFloat(s) * 100000;
+    else if (s.endsWith('K')) v = parseFloat(s) * 1000;
+    else v = parseFloat(s) || 0;
+    return neg ? -v : v;
+  }
+  function fmtAbs(n) {
+    const a = Math.abs(n);
+    if (a >= 100000) return '₹' + (a / 100000).toFixed(2) + 'L';
+    if (a >= 1000)   return '₹' + (a / 1000).toFixed(1) + 'K';
+    return '₹' + Math.round(a);
+  }
+  function fmtPL(n) {
+    return (n < 0 ? '-' : '+') + fmtAbs(n);
+  }
+
+  function addSectionTotals() {
+    const tbody = document.getElementById('stock-tbody');
+    const rows = Array.from(tbody.rows);
+    const INDIA_SECTIONS = ['grade-a india', 'grade-b india', 'grade-c india'];
+    const groups = {};
+    INDIA_SECTIONS.forEach(k => groups[k] = { lastRow: null, inv: 0, cur: 0, count: 0 });
+
+    rows.forEach(row => {
+      if (!row.classList.contains('stock-row')) return;
+      const sec = (row.dataset.section || '').trim();
+      if (!INDIA_SECTIONS.includes(sec)) return;
+      const cells = row.querySelectorAll('td');
+      // col indices: 0=ticker,1=grade,2=qty,3=avg,4=cmp,5=delta,6=invested,7=current
+      const inv = parseInr(cells[6] ? cells[6].textContent : '');
+      const cur = parseInr(cells[7] ? cells[7].textContent : '');
+      if (inv !== null && !isNaN(inv)) groups[sec].inv += inv;
+      if (cur !== null && !isNaN(cur)) groups[sec].cur += cur;
+      groups[sec].lastRow = row;
+      groups[sec].count++;
+    });
+
+    let grandInv = 0, grandCur = 0;
+
+    INDIA_SECTIONS.forEach(sec => {
+      const g = groups[sec];
+      if (!g.lastRow || g.inv === 0) return;
+      grandInv += g.inv; grandCur += g.cur;
+      const pl = g.cur - g.inv;
+      const plPct = (pl / g.inv * 100);
+      const plCls = pl >= 0 ? 'pl-gain' : 'pl-loss';
+      const label = sec.includes('grade-a') ? 'Grade A Total' :
+                    sec.includes('grade-b') ? 'Grade B Total' : 'Grade C Total';
+      const tr = document.createElement('tr');
+      tr.className = 'total-row';
+      tr.dataset.section = sec;
+      tr.style.cssText = 'background:#eef2ff;border-top:2px solid #c7d2fe;';
+      tr.innerHTML = `
+        <td style="padding:8px 12px;font-size:0.78rem;font-weight:700;color:#312e81">${label} <span style="font-weight:400;color:#6366f1">(${g.count} stocks)</span></td>
+        <td class="col-hide-sm"></td><td class="col-hide-sm"></td><td class="col-hide-sm"></td>
+        <td class="col-hide-sm"></td><td class="col-hide-sm"></td>
+        <td class="col-hide-sm num-cell" style="font-weight:700;color:#374151">${fmtAbs(g.inv)}</td>
+        <td class="col-hide-sm num-cell" style="font-weight:700;color:#374151">${fmtAbs(g.cur)}</td>
+        <td class="col-hide-sm num-cell ${plCls}" style="font-weight:700">${fmtPL(pl)}</td>
+        <td class="num-cell ${plCls}" style="font-weight:700">${plPct >= 0 ? '+' : ''}${plPct.toFixed(1)}%</td>
+        <td class="col-hide-sm"></td><td></td>`;
+      g.lastRow.insertAdjacentElement('afterend', tr);
+    });
+
+    // Grand India total
+    if (grandInv > 0) {
+      const pl = grandCur - grandInv;
+      const plPct = pl / grandInv * 100;
+      const tfoot = document.querySelector('#stock-tbody').closest('table').querySelector('tfoot');
+      const tr = document.createElement('tr');
+      tr.className = 'total-row grand-total';
+      tr.style.cssText = 'background:#1a1a2e;';
+      tr.innerHTML = `
+        <td style="padding:10px 12px;font-size:0.82rem;font-weight:700;color:white">India Total (excl. tracking)</td>
+        <td class="col-hide-sm"></td><td class="col-hide-sm"></td><td class="col-hide-sm"></td>
+        <td class="col-hide-sm"></td><td class="col-hide-sm"></td>
+        <td class="col-hide-sm num-cell" style="font-weight:700;color:#e2e8f0">${fmtAbs(grandInv)}</td>
+        <td class="col-hide-sm num-cell" style="font-weight:700;color:#e2e8f0">${fmtAbs(grandCur)}</td>
+        <td class="col-hide-sm num-cell" style="font-weight:700;color:${pl>=0?'#4ade80':'#f87171'}">${fmtPL(pl)}</td>
+        <td class="num-cell" style="font-weight:700;color:${pl>=0?'#4ade80':'#f87171'}">${plPct>=0?'+':''}${plPct.toFixed(1)}%</td>
+        <td class="col-hide-sm"></td><td></td>`;
+      if (tfoot) tfoot.insertAdjacentElement('beforebegin', tr);
+    }
+  }
+
+  addSectionTotals();
 </script>
 
 <script src="auth.js"></script>
