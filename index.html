@@ -11,9 +11,20 @@
 
   /* ── Header ── */
   header { background: #1a1a2e; color: white; padding: 20px 20px 0; }
-  .header-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 16px; }
+  .header-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 10px; }
   header h1 { font-size: 1.3rem; font-weight: 700; letter-spacing: -0.5px; }
   header p { color: #9090b0; font-size: 0.78rem; margin-top: 2px; }
+
+  /* ── Portfolio summary strip ── */
+  .pf-strip {
+    display: flex; gap: 16px; flex-wrap: wrap;
+    background: rgba(255,255,255,0.07); border-radius: 8px;
+    padding: 10px 14px; margin-bottom: 12px; font-size: 0.75rem;
+  }
+  .pf-item { color: #c0c0d8; }
+  .pf-item span { color: white; font-weight: 600; }
+  .pf-red { color: #f87171; font-weight: 600; }
+  .pf-green { color: #4ade80; font-weight: 600; }
 
   /* ── Filter tabs ── */
   .filters { display: flex; gap: 6px; flex-wrap: wrap; padding: 0 0 14px; }
@@ -25,6 +36,8 @@
   }
   .filter-btn:hover { background: rgba(255,255,255,0.1); color: white; }
   .filter-btn.active { background: white; color: #1a1a2e; border-color: white; }
+  .filter-btn.accent { border-color: #4ade80; color: #4ade80; }
+  .filter-btn.accent.active { background: #4ade80; color: #1a1a2e; }
 
   /* ── View toggle ── */
   .view-toggle { display: flex; gap: 4px; }
@@ -36,22 +49,37 @@
   .view-btn.active { background: rgba(255,255,255,0.15); color: white; border-color: rgba(255,255,255,0.4); }
 
   /* ── Main container ── */
-  .container { max-width: 1100px; margin: 0 auto; padding: 16px 12px 40px; }
+  .container { max-width: 1300px; margin: 0 auto; padding: 16px 12px 40px; }
 
   /* ══════════════════════
      TABLE VIEW
   ══════════════════════ */
-  .table-wrap { background: white; border-radius: 12px; border: 1px solid #e8e8e8; overflow: hidden; }
+  .table-wrap {
+    background: white; border-radius: 12px; border: 1px solid #e8e8e8;
+    overflow-x: auto; /* horizontal scroll for wide table */
+    -webkit-overflow-scrolling: touch;
+  }
 
-  table { width: 100%; border-collapse: collapse; }
+  table { width: 100%; border-collapse: collapse; min-width: 900px; }
+
+  /* Table header */
+  thead tr { background: #f8f9fb; border-bottom: 2px solid #e8e8e8; }
+  th {
+    padding: 9px 12px; text-align: left; font-size: 0.65rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.8px; color: #666; white-space: nowrap;
+  }
+  th.num { text-align: right; }
 
   /* Section header rows */
   .section-row td {
     background: #f0f2f8; color: #555; font-size: 0.68rem; font-weight: 700;
-    text-transform: uppercase; letter-spacing: 1px; padding: 8px 16px;
+    text-transform: uppercase; letter-spacing: 1px; padding: 7px 12px;
     border-top: 1px solid #e0e4f0;
   }
   .section-row:first-child td { border-top: none; }
+  .section-row.grade-a-section td { background: #d4edda; color: #155724; }
+  .section-row.grade-c-section td { background: #fee2e2; color: #721c24; }
+  .section-row.scenario-section td { background: #fff3cd; color: #854d0e; }
 
   /* Stock rows */
   tbody tr.stock-row {
@@ -61,11 +89,11 @@
   tbody tr.stock-row:hover { background: #f8f9ff; }
   tbody tr.stock-row:last-child { border-bottom: none; }
 
-  td { padding: 11px 16px; vertical-align: middle; }
+  td { padding: 9px 12px; vertical-align: middle; white-space: nowrap; }
 
   /* Ticker cell */
-  .td-ticker { font-size: 0.9rem; font-weight: 700; color: #1a1a2e; white-space: nowrap; }
-  .td-company { font-size: 0.72rem; color: #888; margin-top: 2px; }
+  .td-ticker { font-size: 0.88rem; font-weight: 700; color: #1a1a2e; }
+  .td-company { font-size: 0.68rem; color: #888; margin-top: 1px; white-space: normal; max-width: 140px; }
 
   /* Grade badge */
   .grade {
@@ -77,14 +105,16 @@
   .grade-C { background: #f8d7da; color: #721c24; }
   .grade-W { background: #e2e8f0; color: #475569; }
 
-  /* Sector */
-  .td-sector { font-size: 0.72rem; color: #6b21a8; background: #f3e8ff;
-    display: inline-block; padding: 2px 7px; border-radius: 8px; white-space: nowrap; }
+  /* Numbers */
+  .num-cell { text-align: right; font-size: 0.8rem; font-variant-numeric: tabular-nums; }
+  .num-dim { color: #999; font-size: 0.75rem; }
+  .pl-gain { color: #166534; font-weight: 600; }
+  .pl-loss { color: #991b1b; font-weight: 600; }
+  .pl-none { color: #999; }
 
-  /* P&L */
-  .pl-gain { color: #166534; font-weight: 600; font-size: 0.82rem; }
-  .pl-loss { color: #991b1b; font-weight: 600; font-size: 0.82rem; }
-  .pl-none { color: #999; font-size: 0.82rem; }
+  /* Position cell (qty · avg) */
+  .pos-qty { font-size: 0.82rem; font-weight: 600; color: #1a1a2e; }
+  .pos-avg { font-size: 0.7rem; color: #888; }
 
   /* Action tag */
   .action-tag {
@@ -96,19 +126,18 @@
   .act-exit    { background: #fee2e2; color: #991b1b; }
   .act-watch   { background: #fef9c3; color: #854d0e; }
   .act-ref     { background: #f0f0f0; color: #555; }
-
-  /* Thesis */
-  .td-thesis { font-size: 0.72rem; color: #666; max-width: 260px; }
+  .act-add     { background: #bbf7d0; color: #065f46; border: 1px solid #86efac; }
 
   /* Arrow */
-  .td-arrow { color: #bbb; font-size: 1rem; text-align: right; padding-right: 14px; }
+  .td-arrow { color: #bbb; font-size: 1rem; text-align: right; padding-right: 10px; }
   tbody tr.stock-row:hover .td-arrow { color: #1a1a2e; }
 
-  /* Hide columns on mobile */
+  /* Column hide rules */
+  .col-hide-sm   { } /* hidden below 640px */
+  .col-hide-md   { } /* hidden below 900px — handled by min-width on table */
   @media (max-width: 640px) {
-    td { padding: 10px 10px; }
-    .hide-mobile { display: none; }
-    .td-ticker { font-size: 0.85rem; }
+    .col-hide-sm { display: none; }
+    td { padding: 8px 8px; }
     .td-company { display: none; }
   }
 
@@ -121,6 +150,9 @@
     letter-spacing: 1px; color: #666; margin: 24px 0 10px;
   }
   .section-title:first-child { margin-top: 0; }
+  .section-title.title-a { color: #155724; }
+  .section-title.title-c { color: #721c24; }
+  .section-title.title-scenario { color: #854d0e; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin-bottom: 4px; }
   .card {
     background: white; border-radius: 10px; padding: 16px 18px;
@@ -131,15 +163,19 @@
   .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px; }
   .card-ticker { font-size: 1rem; font-weight: 700; color: #1a1a2e; }
   .card-company { font-size: 0.75rem; color: #666; margin-bottom: 8px; }
-  .meta { display: flex; gap: 6px; flex-wrap: wrap; }
+  .card-nums { display: flex; gap: 12px; margin: 6px 0; font-size: 0.72rem; }
+  .card-num { }
+  .card-num .label { color: #aaa; font-size: 0.65rem; display: block; }
+  .card-num .val { font-weight: 600; }
+  .meta { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px; }
   .tag { font-size: 0.68rem; padding: 2px 7px; border-radius: 8px; background: #f0f0f0; color: #444; }
   .tag.loss { background: #fee2e2; color: #991b1b; }
   .tag.gain { background: #dcfce7; color: #166534; }
   .tag.watch { background: #dbeafe; color: #1e40af; }
   .tag.sector { background: #f3e8ff; color: #6b21a8; }
+  .tag.add { background: #bbf7d0; color: #065f46; }
   .card-score { font-size: 0.7rem; color: #888; margin-top: 8px; }
 
-  /* show/hide views */
   body.show-cards .table-wrap { display: none; }
   body.show-cards .cards-container { display: block; }
 
@@ -152,23 +188,30 @@
   <div class="header-top">
     <div>
       <h1>Stock Research</h1>
-      <p>Munger-style · India + US · March 2026</p>
+      <p>Munger-style · India + US · Live as of 13 Mar 2026 18:35 IST</p>
     </div>
     <div class="view-toggle">
       <button class="view-btn active" id="btn-table" onclick="setView('table')">≡ Table</button>
       <button class="view-btn" id="btn-cards" onclick="setView('cards')">⊞ Cards</button>
     </div>
   </div>
+  <div class="pf-strip">
+    <div class="pf-item">Invested: <span>₹15.21L</span></div>
+    <div class="pf-item">Current: <span>₹13.84L</span></div>
+    <div class="pf-item">P&amp;L: <span class="pf-red">-₹1.37L (-8.98%)</span></div>
+    <div class="pf-item">India: <span>22 thesis · 19 tracking</span></div>
+    <div class="pf-item">Combined (India+US): <span>~₹16.34L</span></div>
+  </div>
   <div class="filters">
     <button class="filter-btn active" onclick="filter('all', this)">All</button>
     <button class="filter-btn" onclick="filter('india', this)">India</button>
     <button class="filter-btn" onclick="filter('us', this)">US</button>
-    <button class="filter-btn" onclick="filter('owned', this)">Owned</button>
-    <button class="filter-btn" onclick="filter('loss', this)">Loss Positions</button>
-    <button class="filter-btn" onclick="filter('watch', this)">Watchlist</button>
     <button class="filter-btn" onclick="filter('grade-a', this)">Grade A</button>
     <button class="filter-btn" onclick="filter('grade-b', this)">Grade B</button>
     <button class="filter-btn" onclick="filter('grade-c', this)">Grade C</button>
+    <button class="filter-btn accent" onclick="filter('add', this)">Add Candidates</button>
+    <button class="filter-btn" onclick="filter('exit', this)">Exit List</button>
+    <button class="filter-btn" onclick="filter('watch', this)">Watchlist</button>
   </div>
 </header>
 
@@ -177,296 +220,442 @@
   <!-- ═══════════ TABLE VIEW ═══════════ -->
   <div class="table-wrap">
     <table>
+      <thead>
+        <tr>
+          <th style="min-width:130px">Ticker</th>
+          <th class="col-hide-sm">Grade</th>
+          <th class="col-hide-sm num">Qty</th>
+          <th class="col-hide-sm num">Avg ₹</th>
+          <th class="col-hide-sm num">CMP ₹</th>
+          <th class="col-hide-sm num">Δ/share</th>
+          <th class="col-hide-sm num">Invested</th>
+          <th class="col-hide-sm num">Current</th>
+          <th class="col-hide-sm num">P&amp;L ₹</th>
+          <th class="num">P&amp;L %</th>
+          <th class="col-hide-sm">Action</th>
+          <th></th>
+        </tr>
+      </thead>
       <tbody id="stock-tbody">
 
-        <!-- SECTION: India Owned -->
-        <tr class="section-row" data-section="india owned">
-          <td colspan="8">India — Owned Positions</td>
+        <!-- ══ GRADE A ══ -->
+        <tr class="section-row grade-a-section" data-section="grade-a india us">
+          <td colspan="12">Grade A — High Conviction (20–25/25)</td>
         </tr>
-        <tr class="stock-row" data-section="india owned" data-grade="b" onclick="go('GROWW.html')">
-          <td><div class="td-ticker">GROWW<div class="td-company">Billionbrains Garage Ventures</div></div></td>
-          <td><span class="grade grade-B">B · 19/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Fintech</span></td>
-          <td><span class="pl-gain">+2.9%</span></td>
-          <td class="hide-mobile">₹3.53L</td>
-          <td class="hide-mobile"><span class="action-tag act-hold">Hold</span></td>
-          <td class="hide-mobile td-thesis">Platform play · MTF + AMC optionality · P/E 56x</td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="india owned" data-grade="b" onclick="go('KAYNES.html')">
-          <td><div class="td-ticker">KAYNES<div class="td-company">Kaynes Technology India</div></div></td>
-          <td><span class="grade grade-B">B · 17/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">EMS / Electronics</span></td>
-          <td><span class="pl-loss">-6.7%</span></td>
-          <td class="hide-mobile">₹1.32L</td>
-          <td class="hide-mobile"><span class="action-tag act-hold">Hold</span></td>
-          <td class="hide-mobile td-thesis">IoT EMS · OSAT optionality · Watch promoter selling</td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="india owned" data-grade="b" onclick="go('EPACKPEB.html')">
-          <td><div class="td-ticker">EPACKPEB<div class="td-company">EPACK Durable Solutions</div></div></td>
-          <td><span class="grade grade-B">B · 17/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Prefab / Infra</span></td>
-          <td><span class="pl-loss">-29%</span></td>
-          <td class="hide-mobile">₹1.03L</td>
-          <td class="hide-mobile"><span class="action-tag act-watch">Review Q4</span></td>
-          <td class="hide-mobile td-thesis">Prefab construction · PLI beneficiary · 36% CAGR</td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="india owned" data-grade="b" onclick="go('KERNEX.html')">
-          <td><div class="td-ticker">KERNEX<div class="td-company">Kernex Microsystems</div></div></td>
-          <td><span class="grade grade-B">B · 18/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Defence / Rail</span></td>
-          <td><span class="pl-loss">-11.7%</span></td>
-          <td class="hide-mobile">₹1.01L</td>
-          <td class="hide-mobile"><span class="action-tag act-hold">Hold</span></td>
-          <td class="hide-mobile td-thesis">Kavach · ₹3,268Cr order book · 17x book-to-bill</td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="india owned" data-grade="b" onclick="go('ARTEMISMED.html')">
-          <td><div class="td-ticker">ARTEMISMED<div class="td-company">Artemis Medicare Services</div></div></td>
-          <td><span class="grade grade-B">B · 16/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Healthcare</span></td>
-          <td><span class="pl-loss">-6.5%</span></td>
-          <td class="hide-mobile">₹44K</td>
-          <td class="hide-mobile"><span class="action-tag act-hold">Hold</span></td>
-          <td class="hide-mobile td-thesis">Hospital chain · NCR expansion · fwd P/E 28x</td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="india owned" data-grade="c" onclick="go('PARADEEP.html')">
-          <td><div class="td-ticker">PARADEEP<div class="td-company">Paradeep Phosphates</div></div></td>
-          <td><span class="grade grade-C">C · 11/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Fertilizers</span></td>
-          <td><span class="pl-loss">-36%</span></td>
-          <td class="hide-mobile">₹38K</td>
-          <td class="hide-mobile"><span class="action-tag act-exit">Exit on bounce</span></td>
-          <td class="hide-mobile td-thesis">D/E 5.3x · Commodity · Regulated · No moat</td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="india owned" data-grade="b" onclick="go('NAVA.html')">
-          <td><div class="td-ticker">NAVA<div class="td-company">Nava Limited</div></div></td>
-          <td><span class="grade grade-B">B · 16/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Power / Mining</span></td>
-          <td><span class="pl-none">—</span></td>
-          <td class="hide-mobile">—</td>
-          <td class="hide-mobile"><span class="action-tag act-hold">Hold</span></td>
-          <td class="hide-mobile td-thesis">Zambia mining + India power · Diversified</td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="india owned" data-grade="b" onclick="go('BANCOINDIA.html')">
-          <td><div class="td-ticker">BANCOINDIA<div class="td-company">Banco Products (India)</div></div></td>
-          <td><span class="grade grade-B">B</span></td>
-          <td class="hide-mobile"><span class="td-sector">Auto Ancillary</span></td>
-          <td><span class="pl-none">—</span></td>
-          <td class="hide-mobile">₹59K</td>
-          <td class="hide-mobile"><span class="action-tag act-hold">Hold</span></td>
-          <td class="hide-mobile td-thesis">Gaskets + cooling systems · Auto OEM supplier</td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="india owned" data-grade="b" onclick="go('SHILCTECH.html')">
-          <td><div class="td-ticker">SHILCTECH<div class="td-company">Shilchar Technologies</div></div></td>
-          <td><span class="grade grade-B">B</span></td>
-          <td class="hide-mobile"><span class="td-sector">Transformers</span></td>
-          <td><span class="pl-none">—</span></td>
-          <td class="hide-mobile">₹27K</td>
-          <td class="hide-mobile"><span class="action-tag act-hold">Hold</span></td>
-          <td class="hide-mobile td-thesis">Distribution transformers · Power infra tailwind</td>
-          <td class="td-arrow">›</td>
-        </tr>
-
-        <tr class="stock-row" data-section="india owned" data-grade="b" onclick="go('ANANTRAJ.html')">
-          <td><div class="td-ticker">ANANTRAJ<div class="td-company">Anant Raj Ltd</div></div></td>
-          <td><span class="grade grade-B">B · 17/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Real Estate</span></td>
-          <td><span class="pl-gain">+1.9%</span></td>
-          <td class="hide-mobile">₹92K</td>
-          <td class="hide-mobile"><span class="action-tag act-hold">Hold</span></td>
-          <td class="hide-mobile td-thesis">NCR real estate + data centers · D/E 0.09x · Rev CAGR 49%</td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="india owned" data-grade="b" onclick="go('NEWGEN.html')">
-          <td><div class="td-ticker">NEWGEN<div class="td-company">Newgen Software</div></div></td>
-          <td><span class="grade grade-B">B · 18/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Software Product</span></td>
-          <td><span class="pl-gain">+0.9%</span></td>
-          <td class="hide-mobile">₹89.6K</td>
-          <td class="hide-mobile"><span class="action-tag act-hold">Hold</span></td>
-          <td class="hide-mobile td-thesis">Low-code BPM · ROE 22% · -52% from peak = value · FIIs buying</td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="india owned" data-grade="b" onclick="go('SHAKTIPUMP.html')">
-          <td><div class="td-ticker">SHAKTIPUMP<div class="td-company">Shakti Pumps</div></div></td>
-          <td><span class="grade grade-B">B · 16/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Pumps / Solar</span></td>
-          <td><span class="pl-gain">+1.4%</span></td>
-          <td class="hide-mobile">₹1.04L</td>
-          <td class="hide-mobile"><span class="action-tag act-hold">Hold</span></td>
-          <td class="hide-mobile td-thesis">PM-KUSUM solar pumps · ROCE 55% · Watch OPM compression</td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="india owned" data-grade="b" onclick="go('RSYSTEMS.html')">
-          <td><div class="td-ticker">RSYSTEMS<div class="td-company">R Systems International</div></div></td>
-          <td><span class="grade grade-B">B · 15/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">IT Services</span></td>
-          <td><span class="pl-gain">+0.6%</span></td>
-          <td class="hide-mobile">₹1.0L</td>
-          <td class="hide-mobile"><span class="action-tag act-hold">Hold</span></td>
-          <td class="hide-mobile td-thesis">AI/analytics IT · P/E 16.7x · 4.34% dividend · Institutional buying</td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="india owned" data-grade="b" onclick="go('SAKSOFT.html')">
-          <td><div class="td-ticker">SAKSOFT<div class="td-company">Saksoft Ltd</div></div></td>
-          <td><span class="grade grade-B">B · 16/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">IT Services</span></td>
-          <td><span class="pl-gain">+1.4%</span></td>
-          <td class="hide-mobile">₹58.2K</td>
-          <td class="hide-mobile"><span class="action-tag act-hold">Hold</span></td>
-          <td class="hide-mobile td-thesis">Undiscovered compounder · P/E 13.3x · 20% CAGR · 66% promoter</td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="india owned" data-grade="a" onclick="go('ICICIAMC.html')">
+        <tr class="stock-row" data-section="grade-a india" data-grade="a" data-action="add" onclick="go('ICICIAMC.html')">
           <td><div class="td-ticker">ICICIAMC<div class="td-company">ICICI Pru AMC</div></div></td>
-          <td><span class="grade grade-A">A · 20/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Asset Management</span></td>
-          <td><span class="pl-gain">+35.6%</span></td>
-          <td class="hide-mobile">₹13K</td>
-          <td class="hide-mobile"><span class="action-tag act-hold">Hold · Add on dip</span></td>
-          <td class="hide-mobile td-thesis">India's largest AMC · 73% OPM · Toll-booth model · SIP flywheel</td>
+          <td class="col-hide-sm"><span class="grade grade-A">A · 20/25</span></td>
+          <td class="col-hide-sm num-cell">6</td>
+          <td class="col-hide-sm num-cell">₹2,165</td>
+          <td class="col-hide-sm num-cell">₹2,880</td>
+          <td class="col-hide-sm num-cell pl-gain">+₹715</td>
+          <td class="col-hide-sm num-cell num-dim">₹12.99K</td>
+          <td class="col-hide-sm num-cell">₹17.28K</td>
+          <td class="col-hide-sm num-cell pl-gain">+₹4.29K</td>
+          <td class="num-cell pl-gain">+33.0%</td>
+          <td class="col-hide-sm"><span class="action-tag act-add">Add &lt;₹2,400</span></td>
           <td class="td-arrow">›</td>
         </tr>
-        <tr class="stock-row" data-section="india owned" data-grade="c" onclick="go('RAYMOND.html')">
-          <td><div class="td-ticker">RAYMOND<div class="td-company">Raymond Ltd (demerger stub)</div></div></td>
-          <td><span class="grade grade-C">C · 11/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Real Estate / Engg</span></td>
-          <td><span class="pl-gain">+2.5%</span></td>
-          <td class="hide-mobile">₹55.3K</td>
-          <td class="hide-mobile"><span class="action-tag act-watch">Hold small</span></td>
-          <td class="hide-mobile td-thesis">Demerger stub · Thane land bank · P/B 0.77x · Ops profit tiny</td>
+        <tr class="stock-row" data-section="grade-a us" data-grade="a" onclick="go('us/GOOGL.html')">
+          <td><div class="td-ticker">GOOGL<div class="td-company">Alphabet Inc</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-A">A · 23/25</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">₹50K</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="num-cell pl-none">—</td>
+          <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-a us" data-grade="a" onclick="go('us/NVDA.html')">
+          <td><div class="td-ticker">NVDA<div class="td-company">NVIDIA Corporation</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-A">A · 22/25</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">₹50K</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="num-cell pl-none">—</td>
+          <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-a us" data-grade="a" onclick="go('us/AMZN.html')">
+          <td><div class="td-ticker">AMZN<div class="td-company">Amazon.com</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-A">A · 21/25</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">₹50K</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="num-cell pl-none">—</td>
+          <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
           <td class="td-arrow">›</td>
         </tr>
 
-        <!-- SECTION: India Loss Positions -->
-        <tr class="section-row" data-section="loss">
-          <td colspan="8">India — Loss Positions Under Review</td>
+        <!-- ══ GRADE B · 19 ══ -->
+        <tr class="section-row" data-section="grade-b india">
+          <td colspan="12">Grade B · 19/25 — Largest Position</td>
         </tr>
-        <tr class="stock-row" data-section="loss" data-grade="c" onclick="go('STLTECH.html')">
-          <td><div class="td-ticker">STLTECH<div class="td-company">Sterlite Technologies</div></div></td>
-          <td><span class="grade grade-C">C · 12/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Fiber Optic</span></td>
-          <td><span class="pl-loss">-37.4%</span></td>
-          <td class="hide-mobile">₹47K</td>
-          <td class="hide-mobile"><span class="action-tag act-watch">Weak Hold</span></td>
-          <td class="hide-mobile td-thesis">Fiber glut recovery · Base case ₹149 &lt; current ₹200</td>
+        <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('GROWW.html')">
+          <td><div class="td-ticker">GROWW<div class="td-company">Billionbrains Garage</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-B">B · 19/25</span></td>
+          <td class="col-hide-sm num-cell">2,298</td>
+          <td class="col-hide-sm num-cell">₹153.79</td>
+          <td class="col-hide-sm num-cell">₹155.79</td>
+          <td class="col-hide-sm num-cell pl-gain">+₹2.00</td>
+          <td class="col-hide-sm num-cell num-dim">₹3.53L</td>
+          <td class="col-hide-sm num-cell">₹3.58L</td>
+          <td class="col-hide-sm num-cell pl-gain">+₹4,690</td>
+          <td class="num-cell pl-gain">+1.33%</td>
+          <td class="col-hide-sm"><span class="action-tag act-hold">Hold · 23% of PF</span></td>
           <td class="td-arrow">›</td>
         </tr>
-        <tr class="stock-row" data-section="loss" data-grade="b" onclick="go('ETERNAL.html')">
+
+        <!-- ══ GRADE B · 18 ══ -->
+        <tr class="section-row" data-section="grade-b india">
+          <td colspan="12">Grade B · 18/25 — High Quality</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-b india" data-grade="b" data-action="add" onclick="go('KERNEX.html')">
+          <td><div class="td-ticker">KERNEX<div class="td-company">Kernex Microsystems</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-B">B · 18/25</span></td>
+          <td class="col-hide-sm num-cell">90</td>
+          <td class="col-hide-sm num-cell">₹1,125</td>
+          <td class="col-hide-sm num-cell">₹982</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹143</td>
+          <td class="col-hide-sm num-cell num-dim">₹1.01L</td>
+          <td class="col-hide-sm num-cell">₹88.4K</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹12,880</td>
+          <td class="num-cell pl-loss">-12.72%</td>
+          <td class="col-hide-sm"><span class="action-tag act-hold">Hold · watch orders</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-b india" data-grade="b" data-action="add" onclick="go('NEWGEN.html')">
+          <td><div class="td-ticker">NEWGEN<div class="td-company">Newgen Software</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-B">B · 18/25</span></td>
+          <td class="col-hide-sm num-cell">200</td>
+          <td class="col-hide-sm num-cell">₹447.79</td>
+          <td class="col-hide-sm num-cell">₹441.90</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹5.89</td>
+          <td class="col-hide-sm num-cell num-dim">₹89.56K</td>
+          <td class="col-hide-sm num-cell">₹88.38K</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹1,180</td>
+          <td class="num-cell pl-loss">-1.32%</td>
+          <td class="col-hide-sm"><span class="action-tag act-add">Add below ₹400</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <!-- ══ GRADE B · 17 ══ -->
+        <tr class="section-row" data-section="grade-b india">
+          <td colspan="12">Grade B · 17/25</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('KAYNES.html')">
+          <td><div class="td-ticker">KAYNES<div class="td-company">Kaynes Technology</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-B">B · 17/25</span></td>
+          <td class="col-hide-sm num-cell">31</td>
+          <td class="col-hide-sm num-cell">₹3,967</td>
+          <td class="col-hide-sm num-cell">₹3,484</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹483</td>
+          <td class="col-hide-sm num-cell num-dim">₹1.23L</td>
+          <td class="col-hide-sm num-cell">₹1.08L</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹15,240</td>
+          <td class="num-cell pl-loss">-12.39%</td>
+          <td class="col-hide-sm"><span class="action-tag act-watch">Hold · check promoter</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('EPACKPEB.html')">
+          <td><div class="td-ticker">EPACKPEB<div class="td-company">EPACK Prefab</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-B">B · 17/25</span></td>
+          <td class="col-hide-sm num-cell">451</td>
+          <td class="col-hide-sm num-cell">₹227.90</td>
+          <td class="col-hide-sm num-cell">₹156.03</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹71.87</td>
+          <td class="col-hide-sm num-cell num-dim">₹1.03L</td>
+          <td class="col-hide-sm num-cell">₹70.37K</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹32,410</td>
+          <td class="num-cell pl-loss">-31.53%</td>
+          <td class="col-hide-sm"><span class="action-tag act-watch">Hold — Q4 key</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('ANANTRAJ.html')">
+          <td><div class="td-ticker">ANANTRAJ<div class="td-company">Anant Raj Ltd</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-B">B · 17/25</span></td>
+          <td class="col-hide-sm num-cell">200</td>
+          <td class="col-hide-sm num-cell">₹460.80</td>
+          <td class="col-hide-sm num-cell">₹450.00</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹10.80</td>
+          <td class="col-hide-sm num-cell num-dim">₹92.16K</td>
+          <td class="col-hide-sm num-cell">₹90.00K</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹2,160</td>
+          <td class="num-cell pl-loss">-2.34%</td>
+          <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <!-- ══ GRADE B · 16 ══ -->
+        <tr class="section-row" data-section="grade-b india">
+          <td colspan="12">Grade B · 16/25</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('SHAKTIPUMP.html')">
+          <td><div class="td-ticker">SHAKTIPUMP<div class="td-company">Shakti Pumps</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-B">B · 16/25</span></td>
+          <td class="col-hide-sm num-cell">200</td>
+          <td class="col-hide-sm num-cell">₹518.95</td>
+          <td class="col-hide-sm num-cell">₹500.20</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹18.75</td>
+          <td class="col-hide-sm num-cell num-dim">₹1.04L</td>
+          <td class="col-hide-sm num-cell">₹1.00L</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹3,610</td>
+          <td class="num-cell pl-loss">-3.48%</td>
+          <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('BANCOINDIA.html')">
+          <td><div class="td-ticker">BANCOINDIA<div class="td-company">Banco Products</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-B">B · 16/25</span></td>
+          <td class="col-hide-sm num-cell">100</td>
+          <td class="col-hide-sm num-cell">₹589.50</td>
+          <td class="col-hide-sm num-cell">₹549.90</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹39.60</td>
+          <td class="col-hide-sm num-cell num-dim">₹58.95K</td>
+          <td class="col-hide-sm num-cell">₹54.99K</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹3,960</td>
+          <td class="num-cell pl-loss">-6.72%</td>
+          <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-b india" data-grade="b" data-action="add" onclick="go('SAKSOFT.html')">
+          <td><div class="td-ticker">SAKSOFT<div class="td-company">Saksoft Ltd</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-B">B · 16/25</span></td>
+          <td class="col-hide-sm num-cell">450</td>
+          <td class="col-hide-sm num-cell">₹129.41</td>
+          <td class="col-hide-sm num-cell">₹127.67</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹1.74</td>
+          <td class="col-hide-sm num-cell num-dim">₹58.23K</td>
+          <td class="col-hide-sm num-cell">₹57.45K</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹787</td>
+          <td class="num-cell pl-loss">-1.35%</td>
+          <td class="col-hide-sm"><span class="action-tag act-add">Add below ₹115</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('ARTEMISMED.html')">
+          <td><div class="td-ticker">ARTEMISMED<div class="td-company">Artemis Medicare</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-B">B · 16/25</span></td>
+          <td class="col-hide-sm num-cell">181</td>
+          <td class="col-hide-sm num-cell">₹245.86</td>
+          <td class="col-hide-sm num-cell">₹225.31</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹20.55</td>
+          <td class="col-hide-sm num-cell num-dim">₹44.50K</td>
+          <td class="col-hide-sm num-cell">₹40.78K</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹3,720</td>
+          <td class="num-cell pl-loss">-8.37%</td>
+          <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('NAVA.html')">
+          <td><div class="td-ticker">NAVA<div class="td-company">Nava Limited</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-B">B · 16/25</span></td>
+          <td class="col-hide-sm num-cell">56</td>
+          <td class="col-hide-sm num-cell">₹461.65</td>
+          <td class="col-hide-sm num-cell">₹551.79</td>
+          <td class="col-hide-sm num-cell pl-gain">+₹90.14</td>
+          <td class="col-hide-sm num-cell num-dim">₹25.85K</td>
+          <td class="col-hide-sm num-cell">₹30.90K</td>
+          <td class="col-hide-sm num-cell pl-gain">+₹5,040</td>
+          <td class="num-cell pl-gain">+19.51%</td>
+          <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <!-- ══ GRADE B · 15 ══ -->
+        <tr class="section-row" data-section="grade-b india">
+          <td colspan="12">Grade B · 15/25</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('RSYSTEMS.html')">
+          <td><div class="td-ticker">RSYSTEMS<div class="td-company">R Systems Intl</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-B">B · 15/25</span></td>
+          <td class="col-hide-sm num-cell">350</td>
+          <td class="col-hide-sm num-cell">₹286.50</td>
+          <td class="col-hide-sm num-cell">₹267.00</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹19.50</td>
+          <td class="col-hide-sm num-cell num-dim">₹1.00L</td>
+          <td class="col-hide-sm num-cell">₹93.41K</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹6,860</td>
+          <td class="num-cell pl-loss">-6.84%</td>
+          <td class="col-hide-sm"><span class="action-tag act-hold">Hold · 4.34% div</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('ETERNAL.html')">
           <td><div class="td-ticker">ETERNAL<div class="td-company">Eternal Ltd (Zomato)</div></div></td>
-          <td><span class="grade grade-B">B · 15/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Food Tech</span></td>
-          <td><span class="pl-loss">-34.4%</span></td>
-          <td class="hide-mobile">₹34K</td>
-          <td class="hide-mobile"><span class="action-tag act-watch">Review Q4</span></td>
-          <td class="hide-mobile td-thesis">Blinkit thesis · P/E 884x · FIIs selling</td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="loss" data-grade="c" onclick="go('SWIGGY.html')">
-          <td><div class="td-ticker">SWIGGY<div class="td-company">Swiggy</div></div></td>
-          <td><span class="grade grade-C">C · 10/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Food Tech</span></td>
-          <td><span class="pl-loss">-50.3%</span></td>
-          <td class="hide-mobile">₹28K</td>
-          <td class="hide-mobile"><span class="action-tag act-watch">Weak Hold</span></td>
-          <td class="hide-mobile td-thesis">Loss-making · OPM -13% improving · #2 risk</td>
+          <td class="col-hide-sm"><span class="grade grade-B">B · 15/25</span></td>
+          <td class="col-hide-sm num-cell">100</td>
+          <td class="col-hide-sm num-cell">₹337.35</td>
+          <td class="col-hide-sm num-cell">₹215.70</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹121.65</td>
+          <td class="col-hide-sm num-cell num-dim">₹33.73K</td>
+          <td class="col-hide-sm num-cell">₹21.57K</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹12,170</td>
+          <td class="num-cell pl-loss">-36.07%</td>
+          <td class="col-hide-sm"><span class="action-tag act-watch">Hold — Q4 review</span></td>
           <td class="td-arrow">›</td>
         </tr>
 
-        <!-- SECTION: Watchlist -->
-        <tr class="section-row" data-section="watch">
-          <td colspan="8">Watchlist — New Opportunities</td>
+        <!-- ══ GRADE B unscored ══ -->
+        <tr class="section-row" data-section="grade-b india">
+          <td colspan="12">Grade B — Unscored Holdings</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('SHILCTECH.html')">
+          <td><div class="td-ticker">SHILCTECH<div class="td-company">Shilchar Technologies</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-B">B</span></td>
+          <td class="col-hide-sm num-cell">6</td>
+          <td class="col-hide-sm num-cell">₹4,559.69</td>
+          <td class="col-hide-sm num-cell">₹3,726.67</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹833.02</td>
+          <td class="col-hide-sm num-cell num-dim">₹27.36K</td>
+          <td class="col-hide-sm num-cell">₹22.36K</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹5,000</td>
+          <td class="num-cell pl-loss">-18.25%</td>
+          <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <!-- ══ GRADE C ══ -->
+        <tr class="section-row grade-c-section" data-section="grade-c india">
+          <td colspan="12">Grade C — Exit / Reduce (Action Required)</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-c india" data-grade="c" data-action="exit" onclick="go('PARADEEP.html')">
+          <td><div class="td-ticker">PARADEEP<div class="td-company">Paradeep Phosphates</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-C">C · 11/25</span></td>
+          <td class="col-hide-sm num-cell">220</td>
+          <td class="col-hide-sm num-cell">₹175.85</td>
+          <td class="col-hide-sm num-cell">₹111.41</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹64.44</td>
+          <td class="col-hide-sm num-cell num-dim">₹38.69K</td>
+          <td class="col-hide-sm num-cell">₹24.51K</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹14,180</td>
+          <td class="num-cell pl-loss">-36.66%</td>
+          <td class="col-hide-sm"><span class="action-tag act-exit">Exit on bounce ₹115+</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-c india" data-grade="c" data-action="exit" onclick="go('SWIGGY.html')">
+          <td><div class="td-ticker">SWIGGY<div class="td-company">Swiggy</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-C">C · 10/25</span></td>
+          <td class="col-hide-sm num-cell">49</td>
+          <td class="col-hide-sm num-cell">₹565.23</td>
+          <td class="col-hide-sm num-cell">₹282.24</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹282.99</td>
+          <td class="col-hide-sm num-cell num-dim">₹27.70K</td>
+          <td class="col-hide-sm num-cell">₹13.83K</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹13,870</td>
+          <td class="num-cell pl-loss">-50.08%</td>
+          <td class="col-hide-sm"><span class="action-tag act-watch">Weak Hold — Q4</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-c india" data-grade="c" data-action="exit" onclick="go('STLTECH.html')">
+          <td><div class="td-ticker">STLTECH<div class="td-company">STL Networks (ex-Sterlite)</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-C">C · 12/25</span></td>
+          <td class="col-hide-sm num-cell">1,500</td>
+          <td class="col-hide-sm num-cell">₹31.22</td>
+          <td class="col-hide-sm num-cell">₹18.55</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹12.67</td>
+          <td class="col-hide-sm num-cell num-dim">₹46.83K</td>
+          <td class="col-hide-sm num-cell">₹27.82K</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹19,000</td>
+          <td class="num-cell pl-loss">-40.58%</td>
+          <td class="col-hide-sm"><span class="action-tag act-watch">Weak Hold — 2 qtrs</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="grade-c india" data-grade="c" onclick="go('RAYMOND.html')">
+          <td><div class="td-ticker">RAYMOND<div class="td-company">Raymond Ltd (stub)</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-C">C · 11/25</span></td>
+          <td class="col-hide-sm num-cell">150</td>
+          <td class="col-hide-sm num-cell">₹368.75</td>
+          <td class="col-hide-sm num-cell">₹355.47</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹13.28</td>
+          <td class="col-hide-sm num-cell num-dim">₹55.31K</td>
+          <td class="col-hide-sm num-cell">₹53.32K</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹2,000</td>
+          <td class="num-cell pl-loss">-3.61%</td>
+          <td class="col-hide-sm"><span class="action-tag act-watch">Hold small</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <!-- ══ SCENARIO / WATCHLIST ══ -->
+        <tr class="section-row scenario-section" data-section="watch">
+          <td colspan="12">Scenario Planning &amp; Watchlist</td>
+        </tr>
+        <tr class="stock-row" data-section="watch" data-grade="w" onclick="go('NIFTY20K_WATCHLIST.html')">
+          <td><div class="td-ticker">NIFTY 20K<div class="td-company">Scenario Buy List</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-W">Scenario</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">~₹85K plan</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="num-cell pl-none">—</td>
+          <td class="col-hide-sm"><span class="action-tag act-buy">Deploy at 20K</span></td>
+          <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="watch" data-grade="b" onclick="go('JUSTDIAL.html')">
           <td><div class="td-ticker">JUSTDIAL<div class="td-company">Just Dial</div></div></td>
-          <td><span class="grade grade-B">B · 17/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Local Search</span></td>
-          <td><span class="pl-none">—</span></td>
-          <td class="hide-mobile">—</td>
-          <td class="hide-mobile"><span class="action-tag act-buy">BUY ₹526</span></td>
-          <td class="hide-mobile td-thesis">Mkt cap ≈ portfolio · Biz free · P/E 7.8x · Reliance 74%</td>
+          <td class="col-hide-sm"><span class="grade grade-B">B · 17/25</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="num-cell pl-none">—</td>
+          <td class="col-hide-sm"><span class="action-tag act-buy">BUY ₹526</span></td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="watch" data-grade="c" onclick="go('INTEGRATEDIND.html')">
-          <td><div class="td-ticker">INTEGRATEDIND<div class="td-company">Integrated Industries Ltd</div></div></td>
-          <td><span class="grade grade-C">C+ · 13/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Food / Biscuits</span></td>
-          <td><span class="pl-none">—</span></td>
-          <td class="hide-mobile">—</td>
-          <td class="hide-mobile"><span class="action-tag act-watch">Verify AR first</span></td>
-          <td class="hide-mobile td-thesis">P/E 11.3x · ROCE 30% · 3% tax + 760d payable = verify annual report</td>
+          <td><div class="td-ticker">INTEGRATEDIND<div class="td-company">Integrated Industries</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-C">C+ · 13/25</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="num-cell pl-none">—</td>
+          <td class="col-hide-sm"><span class="action-tag act-watch">Verify AR first</span></td>
           <td class="td-arrow">›</td>
         </tr>
-        <tr class="stock-row" data-section="watch" data-grade="b" onclick="go('WATCHLIST_SCREEN_MAR2026.html')">
-          <td><div class="td-ticker">WATCHLIST<div class="td-company">Mar 2026 Screen · 39 stocks</div></div></td>
-          <td><span class="grade grade-W">Screen</span></td>
-          <td class="hide-mobile"><span class="td-sector">Multi-sector</span></td>
-          <td><span class="pl-none">—</span></td>
-          <td class="hide-mobile">—</td>
-          <td class="hide-mobile"><span class="action-tag act-ref">Full screen</span></td>
-          <td class="hide-mobile td-thesis">Just Dial · Balmer Lawrie · Triveni · Nesco</td>
+        <tr class="stock-row" data-section="watch" data-grade="w" onclick="go('WATCHLIST_SCREEN_MAR2026.html')">
+          <td><div class="td-ticker">WATCHLIST<div class="td-company">Mar 2026 · 39 stocks</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-W">Screen</span></td>
+          <td class="col-hide-sm num-cell num-dim" colspan="7">39 screened ideas · Just Dial · Balmer Lawrie · Triveni · Nesco</td>
+          <td class="num-cell pl-none">—</td>
+          <td class="col-hide-sm"><span class="action-tag act-ref">Full screen</span></td>
           <td class="td-arrow">›</td>
         </tr>
-        <tr class="stock-row" data-section="watch" data-grade="b" onclick="go('PORTFOLIO_OVERVIEW.html')">
+        <tr class="stock-row" data-section="watch" data-grade="w" onclick="go('PORTFOLIO_OVERVIEW.html')">
           <td><div class="td-ticker">OVERVIEW<div class="td-company">Portfolio Summary</div></div></td>
-          <td><span class="grade grade-W">Summary</span></td>
-          <td class="hide-mobile"><span class="td-sector">—</span></td>
-          <td><span class="pl-none">—</span></td>
-          <td class="hide-mobile">₹11.7L total</td>
-          <td class="hide-mobile"><span class="action-tag act-ref">Reference</span></td>
-          <td class="hide-mobile td-thesis">All holdings · Sector allocation · India + US</td>
+          <td class="col-hide-sm"><span class="grade grade-W">Summary</span></td>
+          <td class="col-hide-sm num-cell num-dim" colspan="5">₹15.21L invested · ₹13.84L current · 41 positions</td>
+          <td class="col-hide-sm num-cell">₹13.84L</td>
+          <td class="col-hide-sm num-cell pl-loss">-₹1.37L</td>
+          <td class="num-cell pl-loss">-8.98%</td>
+          <td class="col-hide-sm"><span class="action-tag act-ref">Reference</span></td>
           <td class="td-arrow">›</td>
         </tr>
-        <tr class="stock-row" data-section="watch" data-grade="b" onclick="go('2026-W11.html')">
+        <tr class="stock-row" data-section="watch" data-grade="w" onclick="go('2026-W11.html')">
           <td><div class="td-ticker">W11 JOURNAL<div class="td-company">Weekly Review Mar 9–15</div></div></td>
-          <td><span class="grade grade-W">Journal</span></td>
-          <td class="hide-mobile"><span class="td-sector">—</span></td>
-          <td><span class="pl-none">—</span></td>
-          <td class="hide-mobile">—</td>
-          <td class="hide-mobile"><span class="action-tag act-ref">Review</span></td>
-          <td class="hide-mobile td-thesis">468 trades analysed · 6 behavioural patterns · Action items</td>
-          <td class="td-arrow">›</td>
-        </tr>
-
-        <!-- SECTION: US Stocks -->
-        <tr class="section-row" data-section="us">
-          <td colspan="8">US Stocks</td>
-        </tr>
-        <tr class="stock-row" data-section="us" data-grade="a" onclick="go('us/GOOGL.html')">
-          <td><div class="td-ticker">GOOGL<div class="td-company">Alphabet Inc</div></div></td>
-          <td><span class="grade grade-A">A · 23/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Internet / Cloud</span></td>
-          <td><span class="pl-none">—</span></td>
-          <td class="hide-mobile">₹50K</td>
-          <td class="hide-mobile"><span class="action-tag act-hold">High conviction</span></td>
-          <td class="hide-mobile td-thesis">Search monopoly · Cloud inflection · PEG 0.92</td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="us" data-grade="a" onclick="go('us/AMZN.html')">
-          <td><div class="td-ticker">AMZN<div class="td-company">Amazon.com</div></div></td>
-          <td><span class="grade grade-A">A · 21/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">Cloud / Retail</span></td>
-          <td><span class="pl-none">—</span></td>
-          <td class="hide-mobile">₹50K</td>
-          <td class="hide-mobile"><span class="action-tag act-hold">High conviction</span></td>
-          <td class="hide-mobile td-thesis">AWS + Ads hidden earnings · SOTP $290 vs $212</td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="us" data-grade="a" onclick="go('us/NVDA.html')">
-          <td><div class="td-ticker">NVDA<div class="td-company">NVIDIA Corporation</div></div></td>
-          <td><span class="grade grade-A">A · 22/25</span></td>
-          <td class="hide-mobile"><span class="td-sector">AI / Semiconductors</span></td>
-          <td><span class="pl-none">—</span></td>
-          <td class="hide-mobile">₹50K</td>
-          <td class="hide-mobile"><span class="action-tag act-hold">High conviction</span></td>
-          <td class="hide-mobile td-thesis">AI monopoly · CUDA moat · ROE 101% · fwd P/E 17x</td>
+          <td class="col-hide-sm"><span class="grade grade-W">Journal</span></td>
+          <td class="col-hide-sm num-cell num-dim" colspan="7">468 trades · 6 behavioural patterns · -₹64.8K realized losses</td>
+          <td class="num-cell pl-none">—</td>
+          <td class="col-hide-sm"><span class="action-tag act-ref">Review</span></td>
           <td class="td-arrow">›</td>
         </tr>
 
@@ -477,46 +666,262 @@
   <!-- ═══════════ CARD VIEW ═══════════ -->
   <div class="cards-container" id="cards-view">
 
-    <div class="section-title" data-section="india owned">India — Owned Positions</div>
+    <div class="section-title title-a" data-section="grade-a">Grade A — High Conviction</div>
     <div class="grid">
-      <a class="card" href="GROWW.html"><div class="card-top"><span class="card-ticker">GROWW</span><span class="grade grade-B">B · 19/25</span></div><div class="card-company">Billionbrains Garage Ventures</div><div class="meta"><span class="tag sector">Fintech</span><span class="tag">₹3.53L</span><span class="tag gain">+2%</span></div><div class="card-score">Platform · MTF + AMC optionality · P/E 56x · Hold</div></a>
-      <a class="card" href="KAYNES.html"><div class="card-top"><span class="card-ticker">KAYNES</span><span class="grade grade-B">B · 17/25</span></div><div class="card-company">Kaynes Technology India</div><div class="meta"><span class="tag sector">EMS</span><span class="tag">₹1.32L</span><span class="tag loss">-11%</span></div><div class="card-score">IoT EMS · OSAT optionality · Watch promoter</div></a>
-      <a class="card" href="EPACKPEB.html"><div class="card-top"><span class="card-ticker">EPACKPEB</span><span class="grade grade-B">B · 17/25</span></div><div class="card-company">EPACK Durable Solutions</div><div class="meta"><span class="tag sector">Prefab</span><span class="tag">₹1.03L</span><span class="tag loss">-30%</span></div><div class="card-score">Prefab construction · PLI beneficiary · Review Q4</div></a>
-      <a class="card" href="KERNEX.html"><div class="card-top"><span class="card-ticker">KERNEX</span><span class="grade grade-B">B · 18/25</span></div><div class="card-company">Kernex Microsystems</div><div class="meta"><span class="tag sector">Defence/Rail</span><span class="tag">₹1.01L</span><span class="tag loss">-9%</span></div><div class="card-score">Kavach · ₹3,268Cr order book · Hold</div></a>
-      <a class="card" href="ARTEMISMED.html"><div class="card-top"><span class="card-ticker">ARTEMISMED</span><span class="grade grade-B">B · 16/25</span></div><div class="card-company">Artemis Medicare Services</div><div class="meta"><span class="tag sector">Healthcare</span><span class="tag">₹44K</span><span class="tag loss">-6.5%</span></div><div class="card-score">Hospital chain · NCR expansion · fwd P/E 28x</div></a>
-      <a class="card" href="PARADEEP.html"><div class="card-top"><span class="card-ticker">PARADEEP</span><span class="grade grade-C">C · 11/25</span></div><div class="card-company">Paradeep Phosphates</div><div class="meta"><span class="tag sector">Fertilizers</span><span class="tag">₹38K</span><span class="tag loss">-38%</span></div><div class="card-score">D/E 5.3x · Commodity · Exit on bounce</div></a>
-      <a class="card" href="NAVA.html"><div class="card-top"><span class="card-ticker">NAVA</span><span class="grade grade-B">B · 16/25</span></div><div class="card-company">Nava Limited</div><div class="meta"><span class="tag sector">Power/Mining</span></div><div class="card-score">Zambia mining + India power · Hold</div></a>
-      <a class="card" href="BANCOINDIA.html"><div class="card-top"><span class="card-ticker">BANCOINDIA</span><span class="grade grade-B">B</span></div><div class="card-company">Banco Products (India)</div><div class="meta"><span class="tag sector">Auto Ancillary</span></div><div class="card-score">Gaskets + cooling · Auto OEM supplier</div></a>
-      <a class="card" href="SHILCTECH.html"><div class="card-top"><span class="card-ticker">SHILCTECH</span><span class="grade grade-B">B</span></div><div class="card-company">Shilchar Technologies</div><div class="meta"><span class="tag sector">Transformers</span></div><div class="card-score">Distribution transformers · Power infra</div></a>
+      <a class="card" href="ICICIAMC.html">
+        <div class="card-top"><span class="card-ticker">ICICIAMC</span><span class="grade grade-A">A · 20/25</span></div>
+        <div class="card-company">ICICI Pru AMC</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">6 · ₹2,165</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹2,880</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-gain">+₹4.29K (+33%)</span></div>
+        </div>
+        <div class="meta"><span class="tag sector">Asset Mgmt</span><span class="tag add">Add &lt;₹2,400</span></div>
+        <div class="card-score">India's largest AMC · 73% OPM · SIP flywheel</div>
+      </a>
+      <a class="card" href="us/GOOGL.html">
+        <div class="card-top"><span class="card-ticker">GOOGL</span><span class="grade grade-A">A · 23/25</span></div>
+        <div class="card-company">Alphabet Inc</div>
+        <div class="meta"><span class="tag sector">Internet/Cloud</span><span class="tag">₹50K</span></div>
+        <div class="card-score">Search monopoly · Cloud inflection · PEG 0.92</div>
+      </a>
+      <a class="card" href="us/NVDA.html">
+        <div class="card-top"><span class="card-ticker">NVDA</span><span class="grade grade-A">A · 22/25</span></div>
+        <div class="card-company">NVIDIA Corporation</div>
+        <div class="meta"><span class="tag sector">AI / Semis</span><span class="tag">₹50K</span></div>
+        <div class="card-score">AI monopoly · CUDA moat · ROE 101%</div>
+      </a>
+      <a class="card" href="us/AMZN.html">
+        <div class="card-top"><span class="card-ticker">AMZN</span><span class="grade grade-A">A · 21/25</span></div>
+        <div class="card-company">Amazon</div>
+        <div class="meta"><span class="tag sector">Cloud/Retail</span><span class="tag">₹50K</span></div>
+        <div class="card-score">AWS + Ads · SOTP $290 vs $212</div>
+      </a>
     </div>
 
-    <div class="section-title" data-section="loss">India — Loss Positions Under Review</div>
+    <div class="section-title" data-section="grade-b">Grade B — Core Holdings</div>
     <div class="grid">
-      <a class="card" href="STLTECH.html"><div class="card-top"><span class="card-ticker">STLTECH</span><span class="grade grade-C">C · 12/25</span></div><div class="card-company">Sterlite Technologies</div><div class="meta"><span class="tag sector">Fiber Optic</span><span class="tag loss">-40%</span></div><div class="card-score">Fiber glut recovery · Base case &lt; current · Weak Hold</div></a>
-      <a class="card" href="ETERNAL.html"><div class="card-top"><span class="card-ticker">ETERNAL</span><span class="grade grade-B">B · 15/25</span></div><div class="card-company">Eternal Ltd (Zomato)</div><div class="meta"><span class="tag sector">Food Tech</span><span class="tag loss">-33%</span></div><div class="card-score">Blinkit thesis · P/E 884x · Review Q4 FY26</div></a>
-      <a class="card" href="SWIGGY.html"><div class="card-top"><span class="card-ticker">SWIGGY</span><span class="grade grade-C">C · 10/25</span></div><div class="card-company">Swiggy</div><div class="meta"><span class="tag sector">Food Tech</span><span class="tag loss">-48%</span></div><div class="card-score">Loss-making · OPM improving · Weak Hold</div></a>
+      <a class="card" href="GROWW.html">
+        <div class="card-top"><span class="card-ticker">GROWW</span><span class="grade grade-B">B · 19/25</span></div>
+        <div class="card-company">Billionbrains Garage</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">2,298 · ₹153.79</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹155.79</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-gain">+₹4,690 (+1.3%)</span></div>
+        </div>
+        <div class="card-score">MTF + AMC optionality · P/E 56x · 23% of portfolio</div>
+      </a>
+      <a class="card" href="KERNEX.html">
+        <div class="card-top"><span class="card-ticker">KERNEX</span><span class="grade grade-B">B · 18/25</span></div>
+        <div class="card-company">Kernex Microsystems</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">90 · ₹1,125</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹982</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-loss">-₹12,880 (-12.7%)</span></div>
+        </div>
+        <div class="card-score">Kavach · ₹3,268Cr order book · Hold</div>
+      </a>
+      <a class="card" href="NEWGEN.html">
+        <div class="card-top"><span class="card-ticker">NEWGEN</span><span class="grade grade-B">B · 18/25</span></div>
+        <div class="card-company">Newgen Software</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">200 · ₹447.79</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹441.90</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-loss">-₹1,180 (-1.3%)</span></div>
+        </div>
+        <div class="meta"><span class="tag add">Add &lt;₹400</span></div>
+        <div class="card-score">Low-code BPM · ROE 22% · -52% from peak</div>
+      </a>
+      <a class="card" href="KAYNES.html">
+        <div class="card-top"><span class="card-ticker">KAYNES</span><span class="grade grade-B">B · 17/25</span></div>
+        <div class="card-company">Kaynes Technology</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">31 · ₹3,967</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹3,484</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-loss">-₹15,240 (-12.4%)</span></div>
+        </div>
+        <div class="card-score">IoT EMS · OSAT optionality · Watch promoter</div>
+      </a>
+      <a class="card" href="EPACKPEB.html">
+        <div class="card-top"><span class="card-ticker">EPACKPEB</span><span class="grade grade-B">B · 17/25</span></div>
+        <div class="card-company">EPACK Prefab</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">451 · ₹227.90</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹156.03</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-loss">-₹32,410 (-31.5%)</span></div>
+        </div>
+        <div class="card-score">Prefab construction · PLI beneficiary · Q4 key</div>
+      </a>
+      <a class="card" href="ANANTRAJ.html">
+        <div class="card-top"><span class="card-ticker">ANANTRAJ</span><span class="grade grade-B">B · 17/25</span></div>
+        <div class="card-company">Anant Raj Ltd</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">200 · ₹460.80</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹450</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-loss">-₹2,160 (-2.3%)</span></div>
+        </div>
+        <div class="card-score">NCR real estate + data centers · D/E 0.09x</div>
+      </a>
+      <a class="card" href="SHAKTIPUMP.html">
+        <div class="card-top"><span class="card-ticker">SHAKTIPUMP</span><span class="grade grade-B">B · 16/25</span></div>
+        <div class="card-company">Shakti Pumps</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">200 · ₹518.95</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹500.20</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-loss">-₹3,610 (-3.5%)</span></div>
+        </div>
+        <div class="card-score">PM-KUSUM solar pumps · ROCE 55%</div>
+      </a>
+      <a class="card" href="BANCOINDIA.html">
+        <div class="card-top"><span class="card-ticker">BANCOINDIA</span><span class="grade grade-B">B · 16/25</span></div>
+        <div class="card-company">Banco Products</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">100 · ₹589.50</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹549.90</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-loss">-₹3,960 (-6.7%)</span></div>
+        </div>
+        <div class="card-score">Gaskets + cooling · High dividend</div>
+      </a>
+      <a class="card" href="SAKSOFT.html">
+        <div class="card-top"><span class="card-ticker">SAKSOFT</span><span class="grade grade-B">B · 16/25</span></div>
+        <div class="card-company">Saksoft Ltd</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">450 · ₹129.41</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹127.67</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-loss">-₹787 (-1.4%)</span></div>
+        </div>
+        <div class="meta"><span class="tag add">Add &lt;₹115</span></div>
+        <div class="card-score">Undiscovered compounder · P/E 13.3x · 20% CAGR</div>
+      </a>
+      <a class="card" href="ARTEMISMED.html">
+        <div class="card-top"><span class="card-ticker">ARTEMISMED</span><span class="grade grade-B">B · 16/25</span></div>
+        <div class="card-company">Artemis Medicare</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">181 · ₹245.86</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹225.31</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-loss">-₹3,720 (-8.4%)</span></div>
+        </div>
+        <div class="card-score">Hospital chain · NCR expansion</div>
+      </a>
+      <a class="card" href="NAVA.html">
+        <div class="card-top"><span class="card-ticker">NAVA</span><span class="grade grade-B">B · 16/25</span></div>
+        <div class="card-company">Nava Limited</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">56 · ₹461.65</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹551.79</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-gain">+₹5,040 (+19.5%)</span></div>
+        </div>
+        <div class="card-score">Zambia mining + India power · Best performer</div>
+      </a>
+      <a class="card" href="RSYSTEMS.html">
+        <div class="card-top"><span class="card-ticker">RSYSTEMS</span><span class="grade grade-B">B · 15/25</span></div>
+        <div class="card-company">R Systems International</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">350 · ₹286.50</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹267</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-loss">-₹6,860 (-6.8%)</span></div>
+        </div>
+        <div class="card-score">AI/analytics IT · P/E 16.7x · 4.34% dividend</div>
+      </a>
+      <a class="card" href="ETERNAL.html">
+        <div class="card-top"><span class="card-ticker">ETERNAL</span><span class="grade grade-B">B · 15/25</span></div>
+        <div class="card-company">Eternal Ltd (Zomato)</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">100 · ₹337.35</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹215.70</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-loss">-₹12,170 (-36.1%)</span></div>
+        </div>
+        <div class="card-score">Blinkit thesis · P/E 884x · Q4 review</div>
+      </a>
+      <a class="card" href="SHILCTECH.html">
+        <div class="card-top"><span class="card-ticker">SHILCTECH</span><span class="grade grade-B">B</span></div>
+        <div class="card-company">Shilchar Technologies</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">6 · ₹4,560</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹3,727</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-loss">-₹5,000 (-18.3%)</span></div>
+        </div>
+        <div class="card-score">Distribution transformers · Power infra</div>
+      </a>
     </div>
 
-    <div class="section-title" data-section="watch">Watchlist — New Opportunities</div>
+    <div class="section-title title-c" data-section="grade-c">Grade C — Exit / Reduce</div>
     <div class="grid">
-      <a class="card" href="JUSTDIAL.html"><div class="card-top"><span class="card-ticker">JUSTDIAL</span><span class="grade grade-B">B · 17/25</span></div><div class="card-company">Just Dial</div><div class="meta"><span class="tag sector">Local Search</span><span class="tag watch">BUY ₹526</span></div><div class="card-score">Mkt cap ≈ portfolio · Biz free · P/E 7.8x</div></a>
-      <a class="card" href="INTEGRATEDIND.html"><div class="card-top"><span class="card-ticker">INTEGRATEDIND</span><span class="grade grade-C">C+ · 13/25</span></div><div class="card-company">Integrated Industries Ltd</div><div class="meta"><span class="tag sector">Food / Biscuits</span><span class="tag watch">Verify AR</span></div><div class="card-score">P/E 11.3x · ROCE 30% · 3% tax + 760d payable flags</div></a>
-      <a class="card" href="WATCHLIST_SCREEN_MAR2026.html"><div class="card-top"><span class="card-ticker">WATCHLIST</span><span class="grade grade-W">39 stocks</span></div><div class="card-company">Mar 2026 Valuation Screen</div><div class="meta"><span class="tag watch">Screened</span></div><div class="card-score">Just Dial · Balmer Lawrie · Triveni · Nesco</div></a>
-      <a class="card" href="PORTFOLIO_OVERVIEW.html"><div class="card-top"><span class="card-ticker">OVERVIEW</span><span class="grade grade-W">Portfolio</span></div><div class="card-company">Portfolio Summary</div><div class="meta"><span class="tag">₹10.2L India</span><span class="tag">₹1.5L US</span></div><div class="card-score">All holdings · Sector allocation · Conviction grades</div></a>
+      <a class="card" href="PARADEEP.html">
+        <div class="card-top"><span class="card-ticker">PARADEEP</span><span class="grade grade-C">C · 11/25</span></div>
+        <div class="card-company">Paradeep Phosphates</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">220 · ₹175.85</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹111.41</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-loss">-₹14,180 (-36.7%)</span></div>
+        </div>
+        <div class="card-score">D/E 5.3x · Commodity · Exit on bounce ₹115+</div>
+      </a>
+      <a class="card" href="SWIGGY.html">
+        <div class="card-top"><span class="card-ticker">SWIGGY</span><span class="grade grade-C">C · 10/25</span></div>
+        <div class="card-company">Swiggy</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">49 · ₹565.23</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹282.24</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-loss">-₹13,870 (-50.1%)</span></div>
+        </div>
+        <div class="card-score">Loss-making · Q4 last chance · Weak Hold</div>
+      </a>
+      <a class="card" href="STLTECH.html">
+        <div class="card-top"><span class="card-ticker">STLTECH</span><span class="grade grade-C">C · 12/25</span></div>
+        <div class="card-company">STL Networks</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">1,500 · ₹31.22</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹18.55</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-loss">-₹19,000 (-40.6%)</span></div>
+        </div>
+        <div class="card-score">Fiber glut recovery · Base case &lt; current · 2 qtrs</div>
+      </a>
+      <a class="card" href="RAYMOND.html">
+        <div class="card-top"><span class="card-ticker">RAYMOND</span><span class="grade grade-C">C · 11/25</span></div>
+        <div class="card-company">Raymond Ltd (demerger stub)</div>
+        <div class="card-nums">
+          <div class="card-num"><span class="label">Qty · Avg</span><span class="val">150 · ₹368.75</span></div>
+          <div class="card-num"><span class="label">CMP</span><span class="val">₹355.47</span></div>
+          <div class="card-num"><span class="label">P&L</span><span class="val pl-loss">-₹2,000 (-3.6%)</span></div>
+        </div>
+        <div class="card-score">Demerger stub · Thane land bank · Hold small</div>
+      </a>
     </div>
 
-    <div class="section-title" data-section="us">US Stocks</div>
+    <div class="section-title title-scenario" data-section="watch">Scenario &amp; Watchlist</div>
     <div class="grid">
-      <a class="card" href="us/GOOGL.html"><div class="card-top"><span class="card-ticker">GOOGL</span><span class="grade grade-A">A · 23/25</span></div><div class="card-company">Alphabet Inc</div><div class="meta"><span class="tag sector">Internet/Cloud</span><span class="tag">₹50K</span></div><div class="card-score">Search monopoly · Cloud inflection · PEG 0.92</div></a>
-      <a class="card" href="us/AMZN.html"><div class="card-top"><span class="card-ticker">AMZN</span><span class="grade grade-A">A · 21/25</span></div><div class="card-company">Amazon.com</div><div class="meta"><span class="tag sector">Cloud/Retail</span><span class="tag">₹50K</span></div><div class="card-score">AWS + Ads · SOTP $290 vs $212 · 36% upside</div></a>
-      <a class="card" href="us/NVDA.html"><div class="card-top"><span class="card-ticker">NVDA</span><span class="grade grade-A">A · 22/25</span></div><div class="card-company">NVIDIA Corporation</div><div class="meta"><span class="tag sector">AI / Semis</span><span class="tag">₹50K</span></div><div class="card-score">AI monopoly · CUDA moat · ROE 101% · fwd P/E 17x</div></a>
+      <a class="card" href="NIFTY20K_WATCHLIST.html">
+        <div class="card-top"><span class="card-ticker">NIFTY 20K</span><span class="grade grade-W">Scenario</span></div>
+        <div class="card-company">Buy List if Nifty hits 20,000</div>
+        <div class="meta"><span class="tag add">Deploy ₹85K plan</span></div>
+        <div class="card-score">CDSL · HDFC AMC · Polycab · BSE + portfolio adds</div>
+      </a>
+      <a class="card" href="JUSTDIAL.html">
+        <div class="card-top"><span class="card-ticker">JUSTDIAL</span><span class="grade grade-B">B · 17/25</span></div>
+        <div class="card-company">Just Dial</div>
+        <div class="meta"><span class="tag watch">BUY ₹526</span></div>
+        <div class="card-score">Mkt cap ≈ portfolio · Biz effectively free · P/E 7.8x</div>
+      </a>
+      <a class="card" href="PORTFOLIO_OVERVIEW.html">
+        <div class="card-top"><span class="card-ticker">OVERVIEW</span><span class="grade grade-W">Portfolio</span></div>
+        <div class="card-company">Portfolio Summary — Live</div>
+        <div class="meta"><span class="tag">₹15.21L invested</span><span class="tag loss">-8.98%</span></div>
+        <div class="card-score">41 positions · Sector allocation · India + US</div>
+      </a>
+      <a class="card" href="2026-W11.html">
+        <div class="card-top"><span class="card-ticker">W11 JOURNAL</span><span class="grade grade-W">Journal</span></div>
+        <div class="card-company">Weekly Review Mar 9–15</div>
+        <div class="meta"><span class="tag">468 trades</span></div>
+        <div class="card-score">6 behavioural patterns · -₹64.8K realized losses</div>
+      </a>
     </div>
 
   </div>
 
 </div>
 
-<footer>Personal research notes · Not investment advice · Updated March 2026</footer>
+<footer>Personal research notes · Not investment advice · Live data: Groww MCP 13 Mar 2026 18:35 IST</footer>
 
 <script>
   function go(url) { window.location.href = url; }
@@ -532,71 +937,53 @@
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
 
-    const sectionMap = {
-      'india': ['india owned', 'loss'],
-      'us': ['us'],
-      'owned': ['india owned'],
-      'loss': ['loss'],
-      'watch': ['watch'],
-    };
-
     const rows = document.querySelectorAll('tr.stock-row, tr.section-row');
-    const cardSections = document.querySelectorAll('.cards-container .section-title, .cards-container .grid');
-    const cardRows = document.querySelectorAll('.cards-container .card');
 
     if (key === 'all') {
       rows.forEach(r => r.style.display = '');
-      cardSections.forEach(el => el.style.display = '');
-      cardRows.forEach(c => c.style.display = '');
+      document.querySelectorAll('.cards-container .section-title, .cards-container .grid').forEach(el => el.style.display = '');
       return;
     }
-
-    if (key.startsWith('grade-')) {
-      const g = key.split('-')[1]; // 'a', 'b', 'c'
-      rows.forEach(r => {
-        if (r.classList.contains('section-row')) { r.style.display = ''; return; }
-        r.style.display = r.dataset.grade === g ? '' : 'none';
-      });
-      // For cards just show all (simplification)
-      cardSections.forEach(el => el.style.display = '');
-      cardRows.forEach(c => {
-        const badge = c.querySelector('.grade');
-        if (!badge) { c.style.display = 'none'; return; }
-        const gradeText = badge.textContent.trim().toLowerCase();
-        c.style.display = gradeText.startsWith(g) ? '' : 'none';
-      });
-      return;
-    }
-
-    const allowed = sectionMap[key] || [];
-    let lastSection = null;
 
     rows.forEach(r => {
-      if (r.classList.contains('section-row')) {
-        lastSection = r;
-        r.style.display = 'none'; // hide until we know a child is visible
-        return;
-      }
-      const sec = r.dataset.section;
-      const show = allowed.includes(sec);
+      if (r.classList.contains('section-row')) { r.style.display = ''; return; }
+      const sec = r.dataset.section || '';
+      const grade = r.dataset.grade || '';
+      const action = r.dataset.action || '';
+
+      let show = false;
+      if (key === 'india') show = sec.includes('india');
+      else if (key === 'us') show = sec.includes('us');
+      else if (key === 'grade-a') show = grade === 'a';
+      else if (key === 'grade-b') show = grade === 'b';
+      else if (key === 'grade-c') show = grade === 'c';
+      else if (key === 'add') show = action === 'add';
+      else if (key === 'exit') show = action === 'exit';
+      else if (key === 'watch') show = sec === 'watch';
       r.style.display = show ? '' : 'none';
-      if (show && lastSection) lastSection.style.display = '';
     });
 
-    // Cards: show/hide section titles and grids
-    let currentSectionAllowed = false;
-    document.querySelectorAll('.cards-container > *').forEach(el => {
-      if (el.classList.contains('section-title')) {
-        const sec = el.dataset.section;
-        currentSectionAllowed = allowed.includes(sec);
-        el.style.display = currentSectionAllowed ? '' : 'none';
-      } else if (el.classList.contains('grid')) {
-        el.style.display = currentSectionAllowed ? '' : 'none';
-      }
-    });
+    hideSectionsWithNoVisibleRows();
   }
 
-  // Restore last view preference
+  function hideSectionsWithNoVisibleRows() {
+    const tbody = document.getElementById('stock-tbody');
+    const children = Array.from(tbody.children);
+    let lastSection = null;
+    let hasVisible = false;
+
+    children.forEach(row => {
+      if (row.classList.contains('section-row')) {
+        if (lastSection) lastSection.style.display = hasVisible ? '' : 'none';
+        lastSection = row;
+        hasVisible = false;
+      } else if (row.classList.contains('stock-row')) {
+        if (row.style.display !== 'none') hasVisible = true;
+      }
+    });
+    if (lastSection) lastSection.style.display = hasVisible ? '' : 'none';
+  }
+
   const saved = localStorage.getItem('view');
   if (saved === 'cards') setView('cards');
 </script>
