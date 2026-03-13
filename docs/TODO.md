@@ -27,6 +27,7 @@
 
 - [ ] **Q&A research format** — for complex thesis questions (e.g. NVDA: "why do hyperscalers keep spending?", "when does the bear case happen?") — build a `skills/qa-research.md` skill that structures research as Qs with sourced answers
 - [ ] Template: Question → Evidence → Counterargument → Our view → Confidence level
+- [ ] **Grok API integration** — x.ai's Grok has cheap real-time web access. Evaluate if it can replace some Claude web-search heavy lifting in Q&A research. Pricing vs Claude API cost. Setup: get keys from console.x.ai (needs X account).
 
 ## CODE BACKLOG
 
@@ -37,7 +38,11 @@
 
 ---
 
-## ✅ COMPLETED (2026-03-14 session)
+## ✅ COMPLETED (2026-03-14 session — continuing)
+
+**GROWW vs ICICIAMC:** Extracted 900+ line comparison section from index.html → created `research/GROWW_vs_ICICIAMC.md` (allocation analysis, ROE sustainability, valuation, rebalancing rec). Rendered to HTML. Added cross-links in GROWW.md and ICICIAMC.md thesis files. Index now has simple link card instead of embedded content.
+
+**Previous (earlier today):**
 
 **Research:** Valuation framework doc (`docs/VALUATION_FRAMEWORK.md` → `output/html/VALUATION_FRAMEWORK.html`) — DCF + P/B-ROE theory, India assumptions, worked examples (GROWW, JUSTDIAL), when models disagree · Linked in index.html as Reference row · JUSTDIAL deep thesis v2 (investments > market cap SOTP, Q3 FY26 OPM 31%)
 
