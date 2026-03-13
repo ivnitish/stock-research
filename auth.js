@@ -11,7 +11,7 @@ async function sha256(str) {
 }
 
 function isAuthed() {
-  return sessionStorage.getItem(AUTH_KEY) === '1';
+  return localStorage.getItem(AUTH_KEY) === '1';
 }
 
 function buildOverlay() {
@@ -84,7 +84,7 @@ function buildOverlay() {
     const [uh, ph] = await Promise.all([sha256(u), sha256(p)]);
 
     if (uh === VALID_USER_HASH && ph === VALID_PASS_HASH) {
-      sessionStorage.setItem(AUTH_KEY, '1');
+      localStorage.setItem(AUTH_KEY, '1');
       document.getElementById('auth-overlay').remove();
     } else {
       err.textContent = 'Incorrect username or password.';
