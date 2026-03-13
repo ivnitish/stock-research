@@ -3,6 +3,12 @@
 
 ---
 
+## URGENT — API Key Rotation
+
+- [ ] **Rotate Grok API key** — old key was shared in conversation. Delete at https://console.x.ai/account/api-keys and generate new one.
+
+---
+
 ## DECIDE THESE NOW (Top 5)
 
 | # | What | Why it matters | Effort |
@@ -31,6 +37,7 @@
 
 ## CODE BACKLOG
 
+- [ ] **Test Grok API integration** — Run `python3 src/grok_test.py` (after rotating API key). Compare cost vs Claude. Decide if worth building data layer.
 - [ ] `red_flag_monitor.py` — add 20+ newer positions (NEWGEN, SAKSOFT, ICICIAMC, tracking stocks)
 - [ ] Friend access / Claude API chat widget in index.html
 - [ ] Cards view — tracking stocks section missing
