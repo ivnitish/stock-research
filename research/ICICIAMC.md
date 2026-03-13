@@ -87,7 +87,22 @@ At ₹2,936 CMP (P/E 49.3x):
 
 ---
 
-## 6. Exit Triggers
+## 6. Comparison: ICICIAMC vs GROWW
+
+Why own ICICIAMC (₹13K) instead of GROWW (₹3.53L)? **See dedicated analysis:** `research/GROWW_vs_ICICIAMC.md`
+
+Summary:
+- **Quality:** ICICIAMC Grade A (20/25) vs GROWW Grade B (12/25)
+- **ROE sustainability:** ICICIAMC proven 5+ years, GROWW unproven (1 year post-IPO)
+- **Valuation:** ICICIAMC fair at 49x P/E for toll-booth; GROWW expensive at 56x P/E unless 40%+ ROE sustains
+- **Moat:** ICICIAMC has brand + distribution network; GROWW has brand + UX only
+- **Regulatory exposure:** ICICIAMC (TER risk) < GROWW (F&O/MTF risk)
+
+**Verdict:** ICICIAMC is the better business at a fair price. Your portfolio is inverted — should be 15-20% in ICICIAMC, 15-20% in GROWW.
+
+---
+
+## 7. Exit Triggers
 - [ ] SEBI reduces TER (Total Expense Ratio) limits significantly — would directly cut fee income
 - [ ] Market crash causes AUM to fall > 30% for 2+ years
 - [ ] Promoters (ICICI Bank) reduce stake significantly

@@ -214,7 +214,15 @@ Unrealistic at ₹157 entry. Would need 120x P/E or 50%+ CAGR sustained — bubb
 
 ---
 
-## 11. Research Log
+## 11. Comparison: GROWW vs ICICIAMC
+
+Should you hold GROWW or swap for ICICIAMC? **See dedicated analysis:** `research/GROWW_vs_ICICIAMC.md`
+
+Key takeaway: ICICIAMC is Grade A (21/25) with proven ROE sustainability. GROWW is Grade B (12/25) with unproven 40%+ ROE durability. The allocation (₹3.53L GROWW vs ₹13K ICICIAMC) is inverted relative to quality.
+
+---
+
+## 12. Research Log
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/GROWW.md`*
