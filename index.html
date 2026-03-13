@@ -198,9 +198,9 @@
   <div class="pf-strip">
     <div class="pf-item">Invested: <span>₹15.21L</span></div>
     <div class="pf-item">Current: <span>₹13.84L</span></div>
-    <div class="pf-item">P&amp;L: <span class="pf-red">-₹1.37L (-8.98%)</span></div>
-    <div class="pf-item">India: <span>22 thesis · 19 tracking</span></div>
-    <div class="pf-item">Combined (India+US): <span>~₹16.34L</span></div>
+    <div class="pf-item">P&amp;L: <span class="pf-red">-₹1.37L India / -$332 US</span></div>
+    <div class="pf-item">US: <span>$946.71 current · -25.96%</span></div>
+    <div class="pf-item">Combined invested: <span>~₹16.28L</span></div>
   </div>
   <div class="filters">
     <button class="filter-btn active" onclick="filter('all', this)">All</button>
@@ -239,7 +239,7 @@
       <tbody id="stock-tbody">
 
         <!-- ══ GRADE A ══ -->
-        <tr class="section-row grade-a-section" data-section="grade-a india us">
+        <tr class="section-row grade-a-section" data-section="grade-a india">
           <td colspan="12">Grade A — High Conviction (20–25/25)</td>
         </tr>
         <tr class="stock-row" data-section="grade-a india" data-grade="a" data-action="add" onclick="go('ICICIAMC.html')">
@@ -254,48 +254,6 @@
           <td class="col-hide-sm num-cell pl-gain">+₹4.29K</td>
           <td class="num-cell pl-gain">+33.0%</td>
           <td class="col-hide-sm"><span class="action-tag act-add">Add &lt;₹2,400</span></td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="grade-a us" data-grade="a" onclick="go('us/GOOGL.html')">
-          <td><div class="td-ticker">GOOGL<div class="td-company">Alphabet Inc</div></div></td>
-          <td class="col-hide-sm"><span class="grade grade-A">A · 23/25</span></td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="col-hide-sm num-cell num-dim">₹50K</td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="num-cell pl-none">—</td>
-          <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="grade-a us" data-grade="a" onclick="go('us/NVDA.html')">
-          <td><div class="td-ticker">NVDA<div class="td-company">NVIDIA Corporation</div></div></td>
-          <td class="col-hide-sm"><span class="grade grade-A">A · 22/25</span></td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="col-hide-sm num-cell num-dim">₹50K</td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="num-cell pl-none">—</td>
-          <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
-          <td class="td-arrow">›</td>
-        </tr>
-        <tr class="stock-row" data-section="grade-a us" data-grade="a" onclick="go('us/AMZN.html')">
-          <td><div class="td-ticker">AMZN<div class="td-company">Amazon.com</div></div></td>
-          <td class="col-hide-sm"><span class="grade grade-A">A · 21/25</span></td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="col-hide-sm num-cell num-dim">₹50K</td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="col-hide-sm num-cell num-dim">—</td>
-          <td class="num-cell pl-none">—</td>
-          <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
           <td class="td-arrow">›</td>
         </tr>
 
@@ -586,9 +544,170 @@
           <td class="td-arrow">›</td>
         </tr>
 
+        <!-- ══ US PORTFOLIO — LIVE ══ -->
+        <tr class="section-row" data-section="us" style="background:#1e3a5f; color:#93c5fd;">
+          <td colspan="12">US Portfolio — Live (INDmoney/Alpaca) · $946.71 current · -$332 (-25.96%)</td>
+        </tr>
+        <tr class="stock-row" data-section="us" data-grade="w" onclick="go('us/NVDA.html')">
+          <td><div class="td-ticker">NVDA<div class="td-company">Nvidia Corp</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-A">A · 22/25</span></td>
+          <td class="col-hide-sm num-cell">1</td>
+          <td class="col-hide-sm num-cell">$193.50</td>
+          <td class="col-hide-sm num-cell">$183.12</td>
+          <td class="col-hide-sm num-cell pl-loss">-$10.38</td>
+          <td class="col-hide-sm num-cell num-dim">$193.50</td>
+          <td class="col-hide-sm num-cell">$183.12</td>
+          <td class="col-hide-sm num-cell pl-loss">-$10.38</td>
+          <td class="num-cell pl-loss">-5.36%</td>
+          <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="us" data-grade="w">
+          <td><div class="td-ticker">AMD<div class="td-company">Advanced Micro Devices</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-W">—</span></td>
+          <td class="col-hide-sm num-cell">1</td>
+          <td class="col-hide-sm num-cell">$232.89</td>
+          <td class="col-hide-sm num-cell">$197.75</td>
+          <td class="col-hide-sm num-cell pl-loss">-$35.14</td>
+          <td class="col-hide-sm num-cell num-dim">$232.89</td>
+          <td class="col-hide-sm num-cell">$197.75</td>
+          <td class="col-hide-sm num-cell pl-loss">-$35.14</td>
+          <td class="num-cell pl-loss">-15.09%</td>
+          <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="us" data-grade="w">
+          <td><div class="td-ticker">QQQM<div class="td-company">Invesco Nasdaq-100 ETF</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-W">ETF</span></td>
+          <td class="col-hide-sm num-cell">0.53</td>
+          <td class="col-hide-sm num-cell">$254.29</td>
+          <td class="col-hide-sm num-cell">$245.96</td>
+          <td class="col-hide-sm num-cell pl-loss">-$8.33</td>
+          <td class="col-hide-sm num-cell num-dim">$135.23</td>
+          <td class="col-hide-sm num-cell">$130.82</td>
+          <td class="col-hide-sm num-cell pl-loss">-$4.41</td>
+          <td class="num-cell pl-loss">-3.28%</td>
+          <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="us" data-grade="w">
+          <td><div class="td-ticker">MP<div class="td-company">MP Materials Corp</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-W">—</span></td>
+          <td class="col-hide-sm num-cell">2</td>
+          <td class="col-hide-sm num-cell">$71.63</td>
+          <td class="col-hide-sm num-cell">$60.05</td>
+          <td class="col-hide-sm num-cell pl-loss">-$11.58</td>
+          <td class="col-hide-sm num-cell num-dim">$143.26</td>
+          <td class="col-hide-sm num-cell">$120.10</td>
+          <td class="col-hide-sm num-cell pl-loss">-$23.16</td>
+          <td class="num-cell pl-loss">-16.17%</td>
+          <td class="col-hide-sm"><span class="action-tag act-watch">Rare earth</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="us" data-grade="w">
+          <td><div class="td-ticker">RKLB<div class="td-company">Rocket Lab USA</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-W">—</span></td>
+          <td class="col-hide-sm num-cell">1</td>
+          <td class="col-hide-sm num-cell">$67.94</td>
+          <td class="col-hide-sm num-cell">$68.39</td>
+          <td class="col-hide-sm num-cell pl-gain">+$0.45</td>
+          <td class="col-hide-sm num-cell num-dim">$67.94</td>
+          <td class="col-hide-sm num-cell">$68.39</td>
+          <td class="col-hide-sm num-cell pl-gain">+$0.45</td>
+          <td class="num-cell pl-gain">+0.66%</td>
+          <td class="col-hide-sm"><span class="action-tag act-hold">Space / Launch</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="us" data-grade="w" data-action="exit">
+          <td><div class="td-ticker">RGTI<div class="td-company">Rigetti Computing</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-C">Speculative</span></td>
+          <td class="col-hide-sm num-cell">7</td>
+          <td class="col-hide-sm num-cell">$36.20</td>
+          <td class="col-hide-sm num-cell">$16.08</td>
+          <td class="col-hide-sm num-cell pl-loss">-$20.12</td>
+          <td class="col-hide-sm num-cell num-dim">$253.40</td>
+          <td class="col-hide-sm num-cell">$112.56</td>
+          <td class="col-hide-sm num-cell pl-loss">-$140.84</td>
+          <td class="num-cell pl-loss">-55.58%</td>
+          <td class="col-hide-sm"><span class="action-tag act-watch">Quantum · Speculative</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="us" data-grade="w" data-action="exit">
+          <td><div class="td-ticker">OKLO<div class="td-company">Oklo Inc</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-C">Speculative</span></td>
+          <td class="col-hide-sm num-cell">1</td>
+          <td class="col-hide-sm num-cell">$133.60</td>
+          <td class="col-hide-sm num-cell">$59.56</td>
+          <td class="col-hide-sm num-cell pl-loss">-$74.04</td>
+          <td class="col-hide-sm num-cell num-dim">$133.60</td>
+          <td class="col-hide-sm num-cell">$59.56</td>
+          <td class="col-hide-sm num-cell pl-loss">-$74.04</td>
+          <td class="num-cell pl-loss">-55.42%</td>
+          <td class="col-hide-sm"><span class="action-tag act-watch">Nuclear SMR · Speculative</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="us" data-grade="w" data-action="exit">
+          <td><div class="td-ticker">ACHR<div class="td-company">Archer Aviation</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-C">Speculative</span></td>
+          <td class="col-hide-sm num-cell">4</td>
+          <td class="col-hide-sm num-cell">$12.10</td>
+          <td class="col-hide-sm num-cell">$6.16</td>
+          <td class="col-hide-sm num-cell pl-loss">-$5.94</td>
+          <td class="col-hide-sm num-cell num-dim">$48.40</td>
+          <td class="col-hide-sm num-cell">$24.64</td>
+          <td class="col-hide-sm num-cell pl-loss">-$23.76</td>
+          <td class="num-cell pl-loss">-49.09%</td>
+          <td class="col-hide-sm"><span class="action-tag act-watch">Air taxi · Speculative</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="us" data-grade="w">
+          <td><div class="td-ticker">CRSP<div class="td-company">CRISPR Therapeutics</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-W">—</span></td>
+          <td class="col-hide-sm num-cell">1</td>
+          <td class="col-hide-sm num-cell">$69.00</td>
+          <td class="col-hide-sm num-cell">$48.92</td>
+          <td class="col-hide-sm num-cell pl-loss">-$20.08</td>
+          <td class="col-hide-sm num-cell num-dim">$69.00</td>
+          <td class="col-hide-sm num-cell">$48.92</td>
+          <td class="col-hide-sm num-cell pl-loss">-$20.08</td>
+          <td class="num-cell pl-loss">-29.10%</td>
+          <td class="col-hide-sm"><span class="action-tag act-watch">Gene editing</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="us" data-grade="w">
+          <td><div class="td-ticker">IREN<div class="td-company">IREN Ltd</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-W">—</span></td>
+          <td class="col-hide-sm num-cell">0.02</td>
+          <td class="col-hide-sm num-cell">$72.95</td>
+          <td class="col-hide-sm num-cell">$41.41</td>
+          <td class="col-hide-sm num-cell pl-loss">-$31.54</td>
+          <td class="col-hide-sm num-cell num-dim">$1.49</td>
+          <td class="col-hide-sm num-cell">$0.85</td>
+          <td class="col-hide-sm num-cell pl-loss">-$0.64</td>
+          <td class="num-cell pl-loss">-43.24%</td>
+          <td class="col-hide-sm"><span class="action-tag act-watch">BTC mining / AI</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
         <!-- ══ SCENARIO / WATCHLIST ══ -->
         <tr class="section-row scenario-section" data-section="watch">
           <td colspan="12">Scenario Planning &amp; Watchlist</td>
+        </tr>
+        <tr class="stock-row" data-section="watch" data-grade="a" onclick="go('us/GOOGL.html')">
+          <td><div class="td-ticker">GOOGL<div class="td-company">Alphabet Inc — Research</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-A">A · 23/25</span></td>
+          <td class="col-hide-sm num-cell num-dim" colspan="7">Search monopoly · Cloud inflection · PEG 0.92 · Not currently owned</td>
+          <td class="num-cell pl-none">—</td>
+          <td class="col-hide-sm"><span class="action-tag act-ref">Research · Watchlist</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+        <tr class="stock-row" data-section="watch" data-grade="a" onclick="go('us/AMZN.html')">
+          <td><div class="td-ticker">AMZN<div class="td-company">Amazon.com — Research</div></div></td>
+          <td class="col-hide-sm"><span class="grade grade-A">A · 21/25</span></td>
+          <td class="col-hide-sm num-cell num-dim" colspan="7">AWS + Ads hidden earnings · SOTP $290 vs $212 · Not currently owned</td>
+          <td class="num-cell pl-none">—</td>
+          <td class="col-hide-sm"><span class="action-tag act-ref">Research · Watchlist</span></td>
+          <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="watch" data-grade="w" onclick="go('NIFTY20K_WATCHLIST.html')">
           <td><div class="td-ticker">NIFTY 20K<div class="td-company">Scenario Buy List</div></div></td>
@@ -668,11 +787,11 @@
           <td class="col-hide-sm"></td>
           <td class="col-hide-sm"></td>
           <td class="col-hide-sm"></td>
-          <td class="col-hide-sm" style="text-align:right; font-size:0.82rem; color:#9090b0;">₹15.21L (India)<br><span style="font-size:0.7rem">+₹1.50L (US)</span></td>
-          <td class="col-hide-sm" style="text-align:right; font-size:0.9rem; font-weight:700; color:white;">₹13.84L</td>
-          <td class="col-hide-sm" style="text-align:right; font-size:0.9rem; font-weight:700; color:#f87171;">-₹1.37L</td>
-          <td style="text-align:right; font-size:0.9rem; font-weight:700; color:#f87171;">-8.98%</td>
-          <td class="col-hide-sm" style="font-size:0.7rem; color:#9090b0;">India only · Live 18:35 IST</td>
+          <td class="col-hide-sm" style="text-align:right; font-size:0.75rem; color:#9090b0; line-height:1.5;">₹15.21L India<br>+~₹1.07L US ($1,280)</td>
+          <td class="col-hide-sm" style="text-align:right; font-size:0.9rem; font-weight:700; color:white; line-height:1.5;">₹13.84L India<br><span style="font-size:0.75rem; color:#9090b0;">+~₹79.5K US ($947)</span></td>
+          <td class="col-hide-sm" style="text-align:right; font-size:0.9rem; font-weight:700; color:#f87171; line-height:1.5;">-₹1.37L India<br><span style="font-size:0.75rem;">-~₹27.9K US</span></td>
+          <td style="text-align:right; font-size:0.82rem; font-weight:700; color:#f87171; line-height:1.5;">-8.98%<br><span style="font-size:0.7rem; color:#f87171;">-25.96% US</span></td>
+          <td class="col-hide-sm" style="font-size:0.7rem; color:#9090b0;">India live 18:35 IST<br>US live INDmoney</td>
           <td></td>
         </tr>
       </tfoot>
