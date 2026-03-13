@@ -1,0 +1,24 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<title>TODO</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:960px;margin:40px auto;padding:0 24px;line-height:1.7;color:#1a1a1a}
+table{border-collapse:collapse;width:100%;margin:16px 0}
+td,th{border:1px solid #ddd;padding:10px 12px;text-align:left}
+th{background:#f5f5f5;font-weight:600}
+tr:nth-child(even){background:#fafafa}
+code{background:#f0f0f0;padding:2px 6px;border-radius:4px;font-size:0.9em}
+pre{background:#f4f4f4;padding:16px;overflow:auto;border-radius:8px;font-size:0.85em}
+h1{color:#1a1a2e;border-bottom:3px solid #0f3460;padding-bottom:10px}
+h2{color:#16213e;border-bottom:1px solid #e0e0e0;padding-bottom:6px;margin-top:32px}
+h3{color:#0f3460}
+blockquote{border-left:4px solid #0f3460;margin:12px 0;padding:8px 16px;background:#f0f4ff;border-radius:0 6px 6px 0;color:#333}
+a{color:#0f3460}
+.ticker{font-size:0.8em;color:#666;font-weight:normal}
+</style></head><body>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<div id="content"></div>
+<script>
+marked.setOptions({breaks:true, gfm:true});
+document.getElementById('content').innerHTML=marked.parse('# Research System — TODO\n*Last updated: 2026-03-13*\n\n---\n\n## DECIDE THESE NOW (Top 5)\n\n| # | What | Why it matters | Effort |\n|---|------|---------------|--------|\n| 1 | **Exit PARADEEP** on next bounce to ₹115+ | Grade C·11, D/E 5.3x, -36%. Capital sitting idle in a bad business. | Low |\n| 2 | **Q4 FY26 results watch** — EPACKPEB, KERNEX, ETERNAL | These three are "hold pending result". Need a go/no-go decision in May 2026. | Low (set reminder) |\n| 3 | **KAYNES promoter selling** — check BSE filings | 4.3% stake sold in 9 months. Thesis is conditional on this resolving. | Medium |\n| 4 | **GROWW trim plan** — 26% of portfolio in a B·19 stock | Expected CAGR only 11%. Trimming above ₹190 and redeploying to ICICIAMC improves portfolio CAGR ~1.5%. | Low (set price alert) |\n| 5 | **Kite MCP → XIRR** — connect to get dated order history | Need actual transaction dates to compute real XIRR vs the thesis-estimated 13.5% CAGR. | Medium |\n\n---\n\n## RESEARCH BACKLOG (do when you have time)\n\n- [ ] NWIL / IIL thesis file — 165 shares, +49.9%, no write-up yet\n- [ ] Nesco full thesis — P/E 18.6x, 42% margin, quality compounder\n- [ ] Real US positions thesis — RGTI, OKLO, ACHR etc. (all in loss, speculative)\n- [ ] STLTECH watch trigger — only revisit if DGTR anti-dumping duty granted\n\n## CODE BACKLOG\n\n- [ ] `red_flag_monitor.py` — add 20+ newer positions (NEWGEN, SAKSOFT, ICICIAMC, tracking stocks)\n- [ ] Friend access / Claude API chat widget in index.html\n- [ ] Cards view — tracking stocks section missing\n- [ ] Weekly digest auto-generator (`src/weekly_digest.py`)\n\n---\n\n## ✅ COMPLETED (2026-03-13 session)\n\n**Index.html:** Mobile wrapping fix · Section totals (JS) · Expected CAGR section (~13.5% weighted) · ICICIAMC vs GROWW ROE deep dive · P/B formula corrected (g=6%) · STLNETWORK/STLTECH confusion fixed · Nifty 20K scenario page · Full column table (Qty/Avg/CMP/Invested/Current/P&L) · Auth localStorage fix · 23 tracking stocks · Averaging recommendations · Filter buttons\n\n**Research files:** STLNETWORK.md (C·10, owned) · STLTECH.md (C·11, watchlist) · NIFTY20K_WATCHLIST.md · PORTFOLIO_OVERVIEW.md · GROWW.md v2 · ICICIAMC.md · JUSTDIAL.md · SWIGGY.md · ETERNAL.md\n\n**Automation:** Portfolio price update (daily 7pm) · Red flag monitor (weekly Mon 8am) · DCF model · P/B-ROE model · Decision log review (468 trades, -₹64.8K, 6 patterns) · Weekly journal W11\n');
+</script>
+</body></html>
