@@ -9,3 +9,17 @@ output/
 *.egg-info/
 dist/
 build/
+
+# IDE
+.cursor/
+.vscode/
+
+# Don't track rendered HTML at root — only in output/html/ (separate git repo)
+*.html
+auth.js
+robots.txt
+us/
+
+# Personal notes
+01 - AI knowledge/
+knowledge/
