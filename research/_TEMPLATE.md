@@ -52,25 +52,54 @@
   - Terminal P/E assumed:
   - Probability assessment:
 
-## 6. Risks
+## 6. Competitive Landscape
+
+### Market Position
+<!-- Where does this company sit? Leader/challenger/niche? Market share? Geographic reach? -->
+
+### Structural Advantages vs Peers
+<!-- What can this company do that competitors can't easily replicate? WHY do margins/ROCE differ? -->
+
+### Peer Comparison
+| | THIS STOCK | Peer 1 | Peer 2 | Peer 3 |
+|---|---|---|---|---|
+| Revenue (Cr) | | | | |
+| OPM | | | | |
+| ROCE | | | | |
+| D/E | | | | |
+| Revenue CAGR 3yr | | | | |
+| P/E | | | | |
+| P/B | | | | |
+
+### Why Multiples Differ
+<!-- Why does the market price these companies differently? Where's the relative mispricing? -->
+
+### Key Competitive Dynamics
+- **Market share trend:** gaining / losing / stable
+- **Threat from peers:** which competitor could disrupt this company?
+- **Vulnerability:** where are peers stronger?
+
+---
+
+## 7. Risks
 
 | Risk | Probability | Impact | Mitigation |
 |------|-------------|--------|------------|
 | | | | |
 | | | | |
 
-## 7. Exit Triggers
+## 8. Exit Triggers
 <!-- Thesis is broken if: -->
 
 - [ ]
 - [ ]
 
-## 8. Review Schedule
+## 9. Review Schedule
 
 - **Next quarterly check:** YYYY-MM-DD
 - **Key events to watch:**
 
-## 9. Decision History
+## 10. Decision History
 
 | Date | Action | Price | Quantity | Reasoning |
 |------|--------|-------|----------|-----------|
@@ -78,7 +107,7 @@
 
 ---
 
-## 10. Research Log
+## 11. Research Log
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/{SYMBOL}.md`*

@@ -2,8 +2,8 @@
 
 **Status:** OWNED (unknown shares, ₹27,358 invested, 2.7% of portfolio)
 **Quality Score:** 18/25 (Grade B: Moderate-High Conviction)
-**Last Updated:** 2026-03-11
-**Data Source:** yfinance (Screener.in requires premium; yfinance used as fallback)
+**Last Updated:** 2026-03-17
+**Data Source:** yfinance + YouTube research (Girish Gupta channel)
 
 ---
 ## Quick Summary
@@ -58,14 +58,22 @@ Manufacturer of power and distribution transformers for India's electricity tran
 | Revenue (TTM) | ₹737 Cr |
 | Net Profit (TTM) | ₹185 Cr |
 | OPM | **30.2%** |
-| Revenue Growth (YoY) | 10.7% |
-| ROE | **~44%** |
+| Revenue 3-yr CAGR | **51%** |
+| Profit 3-yr CAGR | **119%** |
+| ROE | **~53%** *(updated from 44%)* |
 | Debt/Equity | **0 (Zero debt)** |
-| Promoter % | 62.12% |
-| P/E | 23.8 |
+| Promoter % | **64%** *(updated from 62.12%)* |
+| FII/DII % | ~3% and rising since March |
+| P/E | ~27x |
 | P/B | 10.5 |
 | Shares Outstanding | ~1.14 Cr |
-| Market Cap | ~₹4,400 Cr |
+| Market Cap | ~₹5,000 Cr |
+| FY26 Order Book | ~₹750–800 Cr |
+| Current Capacity | 7,500 MVA |
+| Target Capacity (Apr 2027) | 14,000 MVA (~2x current) |
+
+**Revenue Mix:** 60% power+renewable transformers, 40% ferrite/industrial/others
+**Geography:** 57% India, 43% exports (25+ countries, 5 continents)
 
 *Note: Very small float (1.14 Cr shares). Institutional buying could move the stock significantly.*
 
@@ -123,20 +131,80 @@ Both models agree: **Shilchar is expensive at current levels.** However, there a
 
 ---
 
-## 6. Risks
+## 6. Competitive Landscape
+
+### Market Position
+Shilchar is a **niche player** in India's transformer market — not competing head-to-head with ABB, Siemens, or Hitachi Energy (which dominate 132kV+ power transformers and turnkey substations). Shilchar operates up to 50 MVA / 132 kV — large enough for direct grid connection but below the mega-project tier. Their sweet spot is renewable energy transformers (inverter duty, wind, hydro) and custom industrial solutions.
+
+### Structural Advantages vs Peers
+
+1. **Avoids government/SEB clients entirely.** This is the single biggest differentiator. State Electricity Boards pay late (12-18 months), destroy working capital, and squeeze margins. By serving only private utilities, EPC players, and renewable companies, Shilchar maintains 30% OPM while peers operating in govt tenders get 10-15%.
+
+2. **Made-to-order + back-to-back RM procurement.** Each order triggers an immediate raw material purchase, hedging against copper/aluminium/CRGO price swings without formal hedging instruments. Peers who stock inventory or bid on long-dated govt tenders absorb the commodity risk.
+
+3. **Outsources low-value components (radiators etc.)** to focus on high-value transformer core + assembly. This reduces capital tied up in non-core manufacturing, improves turnaround speed, and keeps ROE high.
+
+4. **Renewable energy specialization.** As India transitions to 500 GW renewable by 2030, every solar/wind/hydro installation needs inverter duty or step-up transformers. Shilchar is positioned exactly in this structural demand wave.
+
+5. **Export diversification (43% revenue).** 25+ countries, 5 continents. Reduces dependence on India's domestic cycle. US and EU need transformer replacement (aging grid infrastructure).
+
+### Peer Comparison
+
+| | SHILCTECH | Voltamp | EMCO | ABB India | Hitachi Energy |
+|---|---|---|---|---|---|
+| Revenue (Cr) | 737 | ~2,500 | ~800 | ~12,000 | ~5,000 |
+| OPM | **30%** | 15-18% | 10% | 14% | 12% |
+| ROCE | **53%** | ~25% | ~15% | ~30% | ~18% |
+| D/E | **0** | 0.1 | 0.5 | 0 | Low |
+| Revenue CAGR 3yr | **51%** | ~20% | ~15% | ~25% | ~20% |
+| Profit CAGR 3yr | **119%** | ~30% | ~20% | ~35% | ~25% |
+| P/E | ~27x | ~45x | ~25x | ~75x | ~65x |
+| Market Cap (Cr) | 5,000 | ~15,000 | ~2,500 | ~1,50,000 | ~75,000 |
+| Export % | 43% | ~10% | ~15% | 20%+ | 30%+ |
+| Govt/SEB exposure | **Nil** | Medium | High | Low | Low |
+| Promoter % | 64% | ~60% | ~50% | 75% (MNC) | 75% (MNC) |
+
+### Why Multiples Differ
+
+**Shilchar at 27x vs Voltamp at 45x:**
+- Voltamp is 3.5x larger and more liquid (institutional investors can size positions)
+- Voltamp has longer institutional track record and wider analyst coverage
+- Shilchar's Q1/Q2 FY26 disappointed — momentum investors de-rated
+- Shilchar's 43% export exposure carries US tariff risk that Voltamp (mostly domestic) doesn't
+
+**Shilchar at 27x vs ABB India at 75x:**
+- ABB is an MNC subsidiary with global brand, patent portfolio, and systems integration capability
+- ABB plays in turnkey substations (much larger ticket size, recurring service contracts)
+- ABB's margins are lower but business is more diversified and resilient
+- MNC premium: ABB parent guarantees technology roadmap
+
+**The mispricing opportunity:**
+Shilchar has the **best OPM (30% vs 15% industry), best ROCE (53%), best growth (51% revenue CAGR), zero debt, and trades at the lowest P/E** of any pure-play transformer peer. The discount is explained by: small size, Q1/Q2 miss, tariff risk, illiquidity. If tariff risk resolves and revenue growth re-accelerates, a re-rating toward 35-40x (still below Voltamp) would mean 30-50% upside from current levels.
+
+### Key Competitive Dynamics
+- **Market share trend:** Gaining — 7,500 MVA → 14,000 MVA capacity doubling by April 2027. Order book ₹750-800 Cr.
+- **Threat from peers:** ABB/Hitachi could move downstream into Shilchar's niche if renewable transformer demand grows enough to attract them. But they're optimized for large-scale, not custom made-to-order.
+- **Vulnerability:** (1) US tariff resolution is critical for 43% export revenue. (2) CRGO steel is imported — major commodity risk if supply tightens. (3) Very small float means any institutional selling causes outsized price drops.
+
+---
+
+## 7. Risks
 
 | Risk | Probability | Impact | Mitigation |
 |------|-------------|--------|------------|
+| US tariff uncertainty (43% exports, US is major market) | High (near-term) | Medium | Queries still active; resolution likely in time. Diversified to 25+ countries. |
+| Raw material (copper, aluminium, CRGO steel) price spike | Medium | High | Back-to-back RM ordering on each order receipt hedges this |
+| CRGO steel imported → forex risk on RM cost | Medium | Medium | No formal hedge; managed through back-to-back ordering speed |
+| Export forex (43% revenue in USD/EUR) not hedged | Medium | Medium | No hedging policy stated — margin risk if INR strengthens |
+| Q1/Q2 FY26 below expectations — momentum risk | Current | Medium | Price already corrected. FII/DII increasing holdings. |
 | Valuation de-rating if T&D capex delays | Medium | High | Long-term structural demand — not a 1-2 year story |
-| Competition from larger players (ABB, Hitachi) | Low | Medium | Different market segment (not direct competition) |
-| SEB payment delays — working capital stretch | Medium | Low | Common in utility sector; managed with low debt |
-| Raw material cost (CRGO steel) volatility | Medium | Medium | Partly pass-through in tenders |
-| Revenue growth too slow (10.7%) vs high valuation | High | High | If T&D momentum doesn't accelerate, de-rating risk |
+| Competition in highly fragmented industry | Medium | Medium | Niche (renewable, custom, private clients) partially insulates |
+| Capacity expansion (7,500 → 14,000 MVA) execution risk | Low | Medium | April 2027 target; company has track record |
 | Very small float — illiquidity | Inherent | Medium | Harder to exit large position quickly |
 
 ---
 
-## 7. Exit Triggers
+## 8. Exit Triggers
 
 - [ ] OPM falls below 20% for 2 consecutive quarters
 - [ ] Promoter holding drops below 50%
@@ -191,6 +259,34 @@ Both models agree: **Shilchar is expensive at current levels.** However, there a
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/SHILCTECH.md`*
+
+### 2026-03-17 — Updated from YouTube research (Girish Gupta channel)
+
+**Data corrections:**
+- ROE: 53% (was 44% in thesis — significant upgrade)
+- Promoter: 64% (was 62.12%)
+- Market cap: ~₹5,000 Cr (was ₹4,400 Cr)
+- P/E: ~27x
+
+**New data points:**
+- 3-year revenue CAGR 51%, profit CAGR 119% — exceptional compounding
+- Capacity doubling: 7,500 MVA → 14,000 MVA by April 2027
+- FY26 order book: ₹750–800 Cr
+- Revenue split: 57% India, 43% exports (25+ countries, 5 continents)
+- FII/DII both increasing holdings since March
+
+**Key strategy insight (not in original thesis):**
+- Deliberately avoids government/state utility clients because of late payments and poor receivables. Customers are private utilities, EPC players, renewable energy companies, steel/sugar/oil & gas. This is WHY the balance sheet stays clean — better working capital, faster cash rotation.
+- Made-to-order + back-to-back raw material ordering: when order is received, RM order placed immediately. This hedges copper/aluminium price risk without formal hedging instruments.
+- Outsources radiators and other low-value-add components → faster delivery, higher margin focus on what they do best.
+
+**New risks identified:**
+- US tariff uncertainty: US is a major export market. Inquiries active but orders stalling pending tariff clarity. Could impact near-term export growth.
+- CRGO steel (key RM) is imported — forex risk on cost side.
+- Export revenues (43%) not hedged — margin vulnerable if INR strengthens.
+- Q1 + Q2 FY26 disappointing: revenue growth missed market expectations. Not bad results but not the acceleration the market expected. This drove the price correction.
+
+**Thesis update:** Quality fundamentals are better than initial thesis assumed (ROE 53% not 44%, profit CAGR 119%). The price correction from Q1/Q2 miss has improved entry attractiveness. The capacity doubling by April 2027 is a concrete growth catalyst. US tariff situation is the near-term overhang to watch.
 
 ### 2026-03-11 — Initial thesis created
 - Data sourced via yfinance (Screener.in premium required for full data)

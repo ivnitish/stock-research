@@ -1,8 +1,8 @@
 # Integrated Industries Ltd (BSE: 531889) — Investment Thesis
 
-**Status:** WATCHLIST (not owned — investigating)
-**Quality Score:** 13/25 (Grade C+: Watch — earnings quality concerns)
-**Last Updated:** 2026-03-12
+**Status:** OWNED (165 shares, ₹4,613 invested, ~0.5% of portfolio, +52%)
+**Quality Score:** 13/25 (Grade C+: Watch — earnings quality concerns still open)
+**Last Updated:** 2026-03-17
 **Data Source:** Screener.in (consolidated)
 
 ---
@@ -191,6 +191,12 @@ The 760-day payable + 3% tax + related-party vagueness + BSE-only listing is the
 ---
 
 ## 9. Research Log
+
+### 2026-03-17 — Status updated: OWNED
+- User owns 165 shares at ₹27.96 avg. Current ₹42.50 (+52%). Position: ~₹7,012.
+- Small position (~0.5% of portfolio). The three open questions (tax rate, 760-day payable, FCF) still unanswered.
+- Position was initiated before full thesis verification — needs annual report review urgently.
+- Original entry strategy said "verify annual report first" — this is now retroactive. Since you're already in and up 52%, the priority is to verify whether to hold or exit, not whether to buy.
 
 ### 2026-03-12 — Initial thesis
 - Identified via Screener.in BSE: 531889 link from user

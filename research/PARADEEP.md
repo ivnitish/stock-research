@@ -1,8 +1,8 @@
 # Paradeep Phosphates Ltd (PARADEEP.NS) — Investment Thesis
 
-**Status:** OWNED (unknown shares, ₹38,687 invested, 3.8% of portfolio)
+**Status:** OWNED — EXIT IMMEDIATELY (do not wait for bounce)
 **Quality Score:** 11/25 (Grade C: Low Conviction)
-**Last Updated:** 2026-03-11
+**Last Updated:** 2026-03-17
 **Data Source:** Screener.in (consolidated)
 
 ---
@@ -10,15 +10,15 @@
 
 **One-line thesis:** Commodity fertilizer manufacturer with D/E 5.3x — a Munger-disqualifying combination of no pricing power, government-regulated revenues, and dangerous leverage in a cyclical business; down 35% and both valuation models still show overvaluation.
 
-**Action:** EXIT — on any bounce
+**Action:** EXIT IMMEDIATELY — no bounce-waiting
 
 | Level | Price | Trigger |
 |-------|-------|---------|
 | Buy / Add | Do not buy | D/E 5.3x + commodity business; fails Munger quality criteria |
-| Hold | ₹100 – ₹120 | Current range (CMP ₹113) — minimal hold; do not add |
-| Sell / Exit | ₹120 – ₹140 or immediately | DCF bull case barely breakeven at ₹111; exit on any bounce toward ₹120–130 or immediately if D/E rises above 6x |
+| Hold | Do not hold | No recovery case — exit now |
+| Sell / Exit | At market (any price) | No scope for recovery; competitors showing stronger results + better valuations |
 
-**Why now (Mar 2026):** Down 35% from avg cost ₹174. Both DCF and P/B-ROE say still overvalued. FY25 profit (₹552 Cr) may be cyclically elevated — normalized profit of ₹200–300 Cr makes the stock even more overvalued. Capital better deployed in BANCOINDIA or KERNEX.
+**Why now (Mar 2026):** Down ~35% from avg cost ₹174. Both DCF and P/B-ROE say still overvalued. FY25 profit (₹552 Cr) may be cyclically elevated. **Critical update (Mar 2026): Competitors (Chambal, Coromandel, RCF) are posting better quarterly results AND trading at better valuations — this is capital that could work harder elsewhere. No catalyst visible for PARADEEP to close this gap. Do not wait for a bounce.**
 
 ---
 
@@ -136,7 +136,7 @@ Both models say overvalued at current price, with DCF only breakeven in bull cas
 - [ ] ROE falls below 10%
 - [ ] Better capital allocation available (currently no strong hold thesis)
 
-**Current position: HOLD minimal, do not add. Consider exiting on any bounce.**
+**Current position: EXIT IMMEDIATELY at market price. Do not wait for bounce.**
 
 ---
 
@@ -180,6 +180,12 @@ This position fails several Munger criteria:
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/PARADEEP.md`*
+
+### 2026-03-17 — Thesis updated: EXIT IMMEDIATELY
+- **New view:** No scope for recovery. Fertilizer competitors (Chambal, Coromandel, RCF) showing better quarterly results AND trading at better valuations.
+- Removing the "wait for bounce to ₹115+" strategy — no catalyst visible to close the gap vs peers.
+- Capital should be deployed immediately elsewhere rather than waiting for a recovery that may not come.
+- Decision: Sell at market price.
 
 ### 2026-03-11 — Initial thesis created
 - Built 2-model valuation: DCF (bull case barely breakeven at -2%), P/B-ROE (base -27%)

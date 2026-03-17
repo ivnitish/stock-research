@@ -1,11 +1,11 @@
 # Research System — TODO
-*Last updated: 2026-03-14*
+*Last updated: 2026-03-17*
 
 ---
 
 ## URGENT — API Key Rotation
 
-- [ ] **Rotate Grok API key** — old key was shared in conversation. Delete at https://console.x.ai/account/api-keys and generate new one.
+- [ ] **Rotate Grok API key** — deprioritized, do later. Delete at https://console.x.ai/account/api-keys and generate new one.
 
 ---
 
@@ -13,7 +13,7 @@
 
 | # | What | Why it matters | Effort |
 |---|------|---------------|--------|
-| 1 | **Exit PARADEEP** on next bounce to ₹115+ | Grade C·11, D/E 5.3x, -36%. Capital sitting idle in a bad business. | Low |
+| 1 | **Exit PARADEEP immediately** at market price | No recovery scope — competitors (Chambal, Coromandel, RCF) have better Q results + better valuations. Do not wait for bounce. | Low |
 | 2 | **Q4 FY26 results watch** — EPACKPEB, KERNEX, ETERNAL | These three are "hold pending result". Need a go/no-go decision in May 2026. | Low (set reminder) |
 | 3 | **KAYNES promoter selling** — check BSE filings | 4.3% stake sold in 9 months. Thesis is conditional on this resolving. | Medium |
 | 4 | **GROWW trim plan** — 26% of portfolio in a B·19 stock | Expected CAGR only 11%. Trimming above ₹190 and redeploying to ICICIAMC improves portfolio CAGR ~1.5%. | Low (set price alert) |
@@ -23,11 +23,17 @@
 
 ## RESEARCH BACKLOG (do when you have time)
 
-- [ ] NWIL / IIL thesis file — 165 shares, +49.9%, no write-up yet
-- [ ] Nesco full thesis — P/E 18.6x, 42% margin, quality compounder
+- [x] ~~NWIL / IIL~~ = Integrated Industries Ltd — already had thesis, updated status to OWNED (165 shares, +52%)
+- [x] ~~Nesco full thesis~~ — DONE. 19/25 Grade B+, Tower 2 catalyst, asset-value undervaluation
 - [ ] NVDA Q&A deep dive — Q&A-style research (scale limits, AMD shift, hyperscaler spend motives, bear case ₹42 scenario)
 - [ ] Real US positions thesis — RGTI, OKLO, ACHR etc. (all in loss, speculative)
 - [ ] STLTECH watch trigger — only revisit if DGTR anti-dumping duty granted
+
+## NEW — AUTORESEARCH BACKTESTING ENGINE
+
+- [ ] **Approach doc:** `docs/AUTORESEARCH_APPROACH.md` — review and answer 7 decision points before implementation
+- [ ] Inspired by [karpathy/autoresearch](https://github.com/karpathy/autoresearch) — thesis backtesting + scorecard calibration
+- [ ] MVP: backtest 6 core holdings (GROWW, KAYNES, EPACK, KERNEX, SHILCTECH, NESCO) with 1-year lookback
 
 ## RESEARCH SKILL IDEAS
 
@@ -37,11 +43,29 @@
 
 ## CODE BACKLOG
 
-- [ ] **Test Grok API integration** — Run `python3 src/grok_test.py` (after rotating API key). Compare cost vs Claude. Decide if worth building data layer.
+- [ ] **Grok API integration** — Rotate key first (console.x.ai), then run `python3 src/grok_test.py`. Deprioritized — do when bandwidth available.
 - [ ] `red_flag_monitor.py` — add 20+ newer positions (NEWGEN, SAKSOFT, ICICIAMC, tracking stocks)
 - [ ] Friend access / Claude API chat widget in index.html
 - [ ] Cards view — tracking stocks section missing
 - [ ] Weekly digest auto-generator (`src/weekly_digest.py`)
+
+---
+
+## ✅ COMPLETED (2026-03-17 session)
+
+**Research updates:**
+- PARADEEP: EXIT IMMEDIATELY (no bounce-waiting). Competitors have better quarterly results + valuations.
+- SHILCTECH: Full YouTube transcript data (ROE 53%, capacity doubling 7,500→14,000 MVA, strategy insights). Full competitive landscape vs Voltamp/EMCO/ABB/Hitachi Energy.
+- NESCO: Full thesis created (19/25 Grade B+). Tower 2 catalyst, asset-value ₹17,000-24,000 Cr vs ₹7,200 Cr market cap.
+- INTEGRATEDIND: Status corrected WATCHLIST → OWNED (165 shares, +52%).
+
+**Framework improvements:**
+- Peer comparison section added to `_TEMPLATE.md` (5-layer competitive landscape)
+- Autoresearch approach doc created (`docs/AUTORESEARCH_APPROACH.md`)
+
+**Housekeeping:**
+- Grok API deprioritized to later
+- YouTube transcripts added to `data/yt transcripts/`
 
 ---
 
