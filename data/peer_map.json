@@ -1,0 +1,163 @@
+{
+  "_meta": {
+    "description": "Curated peer map for competitive analysis. Direct = same business, competes for same customer. Adjacent = overlapping but different segment/scale. Confidence: HIGH/MEDIUM/LOW.",
+    "last_updated": "2026-03-17",
+    "review_status": "DRAFT — awaiting Nitish review"
+  },
+  "SHILCTECH": {
+    "direct_peers": ["VOLTAMP.NS", "TRANSFORMERS.NS", "TPOWER.NS"],
+    "adjacent_peers": ["ABB.NS", "SIEMENS.NS"],
+    "rationale": "Shilchar makes distribution + renewable transformers (up to 50MVA/132kV). Voltamp is the closest listed peer (same product range, also Gujarat-based). Transformers & Rectifiers and Tpower also compete in similar segment. ABB/Siemens are adjacent — they play in much larger turnkey substations and power transformers (220kV+), different customer tier.",
+    "why_not_others": "Hitachi Energy India is adjacent but unlisted. CG Power is more motors than transformers.",
+    "confidence": "HIGH"
+  },
+  "NESCO": {
+    "direct_peers": ["NIRLON.NS"],
+    "adjacent_peers": ["PRESTIGE.NS", "BRIGADE.NS", "OBEROIRLTY.NS"],
+    "rationale": "Nesco is a unique annuity rental model (IT park + exhibitions) on freehold Mumbai land. Nirlon is the only close comp — also a Mumbai IT park on owned land. Prestige/Brigade/Oberoi are diversified RE developers with commercial rental portfolios but also sell property (different model). Embassy REIT is adjacent but REIT distribution mandate makes P/E comparison invalid.",
+    "why_not_others": "Embassy/Brookfield REITs have different capital structure. DLF is too North India-focused and sales-heavy.",
+    "confidence": "HIGH"
+  },
+  "GROWW": {
+    "direct_peers": ["ANGELONE.NS", "MOTILALOFS.NS"],
+    "adjacent_peers": ["HDFCAMC.NS", "NAM-INDIA.NS"],
+    "rationale": "Discount broker expanding into AMC. Angel One is closest — discount broker, similar customer base, also launching AMC. Motilal Oswal has brokerage + AMC + PMS (closest full-stack comp). HDFC AMC and Nippon are adjacent for AMC competition. Zerodha is the most direct competitor but unlisted.",
+    "why_not_others": "ICICI Securities being delisted. 5paisa too small. HDFC Securities is subsidiary.",
+    "confidence": "HIGH"
+  },
+  "ICICIAMC": {
+    "direct_peers": ["HDFCAMC.NS", "NAM-INDIA.NS", "UTIAMC.NS"],
+    "adjacent_peers": ["ABCAPITAL.NS"],
+    "rationale": "Pure AMC business. HDFC AMC is market leader and closest comp. Nippon Life India AMC is #3 by AUM. UTI AMC is government-backed peer. Aditya Birla Capital has AMC + insurance + NBFC — adjacent, not pure play.",
+    "why_not_others": "SBI MF is largest but unlisted. Axis AMC is subsidiary.",
+    "confidence": "HIGH"
+  },
+  "KAYNES": {
+    "direct_peers": ["DIXON.NS", "SYRMA.NS", "AVALON.NS"],
+    "adjacent_peers": ["CENTUM.NS", "CYIENT.NS"],
+    "rationale": "EMS company with defense/aerospace focus. Dixon is largest Indian EMS (consumer electronics heavy but expanding industrial). Syrma SGS and Avalon are mid-cap EMS peers with similar defense/industrial mix. Centum is adjacent (defense electronics subsystems). Cyient is adjacent (design-led manufacturing for aerospace).",
+    "why_not_others": "Amber Enterprises is EMS but AC components — different end market. BEL is defense electronics but PSU and much larger.",
+    "confidence": "HIGH"
+  },
+  "EPACKPEB": {
+    "direct_peers": ["INTERARCH.NS", "PENNARENT.NS"],
+    "adjacent_peers": ["JINDALSAW.NS"],
+    "rationale": "Makes pre-engineered buildings (PEB). Interarch Building Products is closest PEB peer (listed recently, pure PEB). Pennar Industries has a PEB division. Kirby Building Systems is market leader but unlisted.",
+    "why_not_others": "Tata BlueScope is JV, not pure listed. Note: EPACK also has consumer durables EMS business — those peers would be Dixon/PG Electroplast.",
+    "confidence": "MEDIUM"
+  },
+  "ETERNAL": {
+    "direct_peers": ["SWIGGY.NS"],
+    "adjacent_peers": ["DMART.NS", "NYKAA.NS", "INFOEDGE.NS"],
+    "rationale": "Zomato — food delivery + quick commerce (Blinkit). Swiggy is only direct competitor. DMart is adjacent for grocery/quick commerce angle. Nykaa and Info Edge are adjacent as consumer internet platforms.",
+    "why_not_others": "Amazon/Flipkart are too diversified. Jubilant (Dominos) is a restaurant, not platform.",
+    "confidence": "HIGH"
+  },
+  "SWIGGY": {
+    "direct_peers": ["ETERNAL.NS"],
+    "adjacent_peers": ["DMART.NS", "NYKAA.NS"],
+    "rationale": "Mirror of Eternal. Quick commerce (Instamart) competes with Blinkit and DMart.",
+    "confidence": "HIGH"
+  },
+  "ARTEMISMED": {
+    "direct_peers": ["MAXHEALTH.NS", "APOLLOHOSP.NS", "NH.NS"],
+    "adjacent_peers": ["FORTIS.NS", "KIMS.NS"],
+    "rationale": "Hospital chain (Gurgaon-based). Max Healthcare is closest — similar geography (NCR), similar bed count tier. Apollo is national leader (larger scale). Narayana Health is value-focused hospital chain. Fortis and KIMS are similar-scale regional chains.",
+    "why_not_others": "Aster DM is more Middle East focused. Medanta (Global Health) is NCR-based and probably best direct comp but need to verify ticker.",
+    "confidence": "HIGH"
+  },
+  "JUSTDIAL": {
+    "direct_peers": ["INDIAMART.NS"],
+    "adjacent_peers": ["INFOEDGE.NS", "MAPMYINDIA.NS"],
+    "rationale": "Local search + B2B/B2C listings platform. IndiaMART is closest — B2B marketplace, similar monetization (premium listings). Info Edge is adjacent as classifieds platform. MapMyIndia is adjacent for local discovery. Google Maps is the real competitor but unlisted.",
+    "why_not_others": "Zomato/Swiggy compete for restaurant discovery but are delivery platforms.",
+    "confidence": "MEDIUM"
+  },
+  "KERNEX": {
+    "direct_peers": ["RVNL.NS", "IRCON.NS"],
+    "adjacent_peers": ["RAILTEL.NS", "TITAGARH.NS", "BEL.NS"],
+    "rationale": "Railway signaling (anti-collision/TCAS) and defense electronics. RVNL and IRCON are railway infra PSUs (more EPC than product). RailTel is railway telecom/signaling. Titagarh is rolling stock + signaling. BEL is defense electronics (adjacent, much larger). Real competitor for TCAS is Medha Servo Drives (unlisted) and foreign players (Alstom/Siemens signaling).",
+    "why_not_others": "Texmaco is rolling stock not signaling. BEML is mining equipment + metro.",
+    "confidence": "LOW"
+  },
+  "BANCOINDIA": {
+    "direct_peers": ["NELCAST.NS"],
+    "adjacent_peers": ["BHARATFORG.NS", "ENDURANCE.NS"],
+    "rationale": "Makes gaskets, radiators, heat exchangers for auto/industrial. Nelcast (castings for auto/CV) is similar-scale auto component manufacturer. Bharat Forge is adjacent (much larger, forgings). Endurance is adjacent (suspension, braking). Gasket business competes with Elgi Rubber (unlisted) and Dana/Victor Reinz (foreign).",
+    "why_not_others": "Sundaram Fasteners, Minda Industries are auto components but different products entirely.",
+    "confidence": "MEDIUM"
+  },
+  "NAVA": {
+    "direct_peers": ["MAITHANALL.NS"],
+    "adjacent_peers": ["FACORALLOY.BO", "TATASTEEL.NS"],
+    "rationale": "Ferro alloys producer (ferro silicon, silico manganese) + captive power. Maithan Alloys is closest — similar product, scale, profitability. FACOR Alloys is smaller ferro chrome producer. Tata Steel is adjacent (ferrous metals but vastly different scale).",
+    "why_not_others": "SAIL, JSW are too large and integrated. Hira Ferro Alloys is unlisted.",
+    "confidence": "MEDIUM"
+  },
+  "NEWGEN": {
+    "direct_peers": ["INTELLECT.NS", "RAMCOIND.NS", "MASTEK.NS"],
+    "adjacent_peers": ["PERSISTENT.NS", "LTTS.NS"],
+    "rationale": "Enterprise content management (ECM) and BPM software. Intellect Design Arena is closest (enterprise software for BFSI). Ramco Systems and Mastek are similar-scale Indian product/platform companies. Persistent and LTTS are adjacent (IT services with product engineering). Globally competes with Pegasystems, Appian, Hyland — all unlisted in India.",
+    "why_not_others": "TCS/Infosys are too large and services-model. Zoho is unlisted.",
+    "confidence": "MEDIUM"
+  },
+  "PARADEEP": {
+    "direct_peers": ["COROMANDEL.NS", "CHAMBLFERT.NS", "RCF.NS"],
+    "adjacent_peers": ["GSFC.NS", "DEEPAKFERT.NS"],
+    "rationale": "DAP/NPK phosphatic fertilizers. Coromandel (Murugappa) is market leader — direct competitor, better margins, lower debt. Chambal is urea + phosphatic. RCF is PSU peer. GSFC and Deepak Fertilizers are more diversified chemical + fertilizer.",
+    "why_not_others": "UPL, PI Industries are agrochemicals, not fertilizers. IFFCO is largest but cooperative (unlisted).",
+    "confidence": "HIGH"
+  },
+  "ANANTRAJ": {
+    "direct_peers": ["DLF.NS", "GODREJPROP.NS"],
+    "adjacent_peers": ["PRESTIGE.NS", "OBEROIRLTY.NS", "SOBHA.NS"],
+    "rationale": "Delhi NCR real estate (commercial + residential + data centers). DLF is dominant NCR player. Godrej Properties has significant NCR presence. Prestige/Oberoi/Sobha are large developers but primarily South/West India. Data center angle makes it partially comparable to Nxtra (Airtel, unlisted) or Yotta (Adani, unlisted).",
+    "why_not_others": "Macrotech (Lodha) is primarily Mumbai. Sunteck is Mumbai.",
+    "confidence": "HIGH"
+  },
+  "SHAKTIPUMP": {
+    "direct_peers": ["KSBPUMPS.NS", "KIRLOSBROS.NS"],
+    "adjacent_peers": ["CGPOWER.NS", "CROMPTON.NS"],
+    "rationale": "Solar-powered submersible pumps. KSB and Kirloskar Brothers are established pump manufacturers (larger, industrial + agricultural). CG Power is adjacent (motors). Crompton is adjacent (consumer pumps). Solar pump angle is unique — PM-KUSUM scheme is key demand driver.",
+    "why_not_others": "Grundfos, Xylem are global leaders but not listed in India.",
+    "confidence": "MEDIUM"
+  },
+  "SAKSOFT": {
+    "direct_peers": ["MASTEK.NS", "DATAMATICS.NS", "RSYSTEMS.NS"],
+    "adjacent_peers": ["PERSISTENT.NS", "HAPPSTMNDS.NS"],
+    "rationale": "Small-cap IT services (digital transformation, analytics, cloud). Mastek and Datamatics are similar scale. R Systems is near-mirror peer. Persistent and Happiest Minds are adjacent (slightly larger, similar focus).",
+    "confidence": "HIGH"
+  },
+  "RSYSTEMS": {
+    "direct_peers": ["SAKSOFT.NS", "MASTEK.NS", "DATAMATICS.NS"],
+    "adjacent_peers": ["PERSISTENT.NS", "HAPPSTMNDS.NS"],
+    "rationale": "Same peer set as SAKSOFT. Near-mirror peers in small-cap IT services.",
+    "confidence": "HIGH"
+  },
+  "RAYMOND": {
+    "direct_peers": ["ABFRL.NS", "ARVIND.NS"],
+    "adjacent_peers": ["PAGEIND.NS", "TRENT.NS"],
+    "rationale": "Textiles/branded apparel + aerospace spinoff. ABFRL is closest — branded suiting/apparel, similar price points. Arvind is textile manufacturing + brands. Page Industries and Trent are adjacent premium apparel. Aerospace business competes with HAL/BEL but is nascent.",
+    "why_not_others": "Vedant Fashions is ethnic wear, different segment. HAL/BEL are PSU defense — different framework.",
+    "confidence": "MEDIUM"
+  },
+  "STLNETWORK": {
+    "direct_peers": ["HFCL.NS", "VINDHYATEL.NS"],
+    "adjacent_peers": ["TEJASNET.NS"],
+    "rationale": "Optical fiber and network solutions. HFCL is closest — optical fiber + telecom equipment, similar scale. Vindhya Telelinks is smaller optical fiber manufacturer. Tejas Networks is adjacent (more telecom equipment than fiber).",
+    "confidence": "HIGH"
+  },
+  "STLTECH": {
+    "direct_peers": ["HFCL.NS", "VINDHYATEL.NS"],
+    "adjacent_peers": ["TEJASNET.NS"],
+    "rationale": "Same as STLNETWORK — watchlist version.",
+    "confidence": "HIGH"
+  },
+  "INTEGRATEDIND": {
+    "direct_peers": ["BRITANNIA.NS", "MRSBECTORS.NS"],
+    "adjacent_peers": ["ITC.NS", "BIKAJI.NS"],
+    "rationale": "Biscuit manufacturing via Nurture Well Food acquisition. Britannia is market leader. Mrs Bectors is mid-scale biscuit/bakery manufacturer and OEM supplier — closest comp by scale and business model. ITC (Sunfeast) and Bikaji are adjacent. Parle is #1 by volume but unlisted.",
+    "why_not_others": "Prataap Snacks is chips/snacks not biscuits. Nestle is MNC, different product.",
+    "confidence": "MEDIUM"
+  }
+}
