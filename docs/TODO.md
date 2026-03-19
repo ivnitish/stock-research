@@ -21,6 +21,27 @@
 
 ---
 
+## FRAMEWORK — DCF Growth Rate Methodology Fix (IMPORTANT)
+
+**Problem:** Current DCF models use mechanically declining growth rates (e.g. 20%→10%→5% terminal) without grounding them in business reality. This systematically undervalues companies with strong tailwinds, capacity expansions, or historical hypergrowth that is structurally supported.
+
+**SHILCTECH is the clearest example:** DCF bull case = ₹3,596, but CMP already ₹3,727. The DCF said "overvalued" but the business has ROE 53%, capacity doubling 7,500→14,000 MVA by Apr 2027, and India's T&D capex cycle is multi-decade. The model was wrong because the growth rate assumption was wrong.
+
+**The fix — for each stock, growth rates must be anchored to:**
+
+1. **Capacity-constrained revenue ceiling** — if capacity doubles by FY27, revenue physically cannot grow at 10%. Model: (new capacity × utilization rate × ASP) = revenue ceiling. Growth rate is implied, not assumed.
+2. **Industry tailwind TAM** — India T&D capex ₹9L Cr by 2032, PM-KUSUM target 35L pumps, aerospace order backlog 13-year supply, etc. If the industry is growing 20%/year, a market-share-gaining company can grow faster. Use this as a floor.
+3. **Historical CAGR as a reference point** — if a company grew revenue at 50% CAGR for 3 years, the bear case should be "deceleration to 20-25%", not "collapse to 10%". Deceleration is realistic; reversal to slow growth needs to be justified by specific risks.
+4. **Management investments as a signal** — ₹510 Cr capex commitment (RAYMOND AP plant), ₹750 Cr order book (SHILCTECH) → these are forward-looking indicators that management is confident in demand. Factor in.
+
+**Action items:**
+- [ ] Revise `docs/VALUATION_FRAMEWORK.md` — add "Growth Rate Anchoring" section with this framework
+- [ ] Re-run SHILCTECH DCF with capacity-informed rates: FY27 revenue = 14,000 MVA × utilization × ASP. Implied growth will be higher than current DCF assumes.
+- [ ] Review all DCF models where DCF fair value is significantly below CMP — ask if it's genuine overvaluation or a growth rate anchoring failure
+- [ ] Stocks most likely affected by this issue: SHILCTECH, KAYNES, EPACKPEB, KERNEX (all have capacity expansion underway or industry TAM far from penetrated)
+
+---
+
 ## RESEARCH BACKLOG (do when you have time)
 
 - [x] ~~NWIL / IIL~~ = Integrated Industries Ltd — already had thesis, updated status to OWNED (165 shares, +52%)
