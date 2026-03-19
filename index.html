@@ -128,6 +128,18 @@
   .act-ref     { background: #f0f0f0; color: #555; }
   .act-add     { background: #bbf7d0; color: #065f46; border: 1px solid #86efac; }
 
+
+  /* Valuation tags */
+  .val-tag {
+    display: inline-block; font-size: 0.55rem; font-weight: 700;
+    padding: 1px 5px; border-radius: 6px; margin-left: 4px;
+    vertical-align: middle; letter-spacing: 0.3px;
+  }
+  .val-deep   { background: #065f46; color: white; }
+  .val-under  { background: #dcfce7; color: #166534; }
+  .val-fair   { background: #f1f5f9; color: #64748b; }
+  .val-rich   { background: #fef2f2; color: #991b1b; }
+
   /* Arrow */
   .td-arrow { color: #bbb; font-size: 1rem; text-align: right; padding-right: 10px; }
   tbody tr.stock-row:hover .td-arrow { color: #1a1a2e; }
@@ -248,10 +260,10 @@
 
         <!-- ══ GRADE A ══ -->
         <tr class="section-row grade-a-section" data-section="grade-a india">
-          <td colspan="15">Grade A — High Conviction (20–25/25)</td>
+          <td colspan="16">Grade A — High Conviction (20–25/25)</td>
         </tr>
         <tr class="stock-row" data-section="grade-a india" data-grade="a" data-action="add" onclick="go('ICICIAMC.html')">
-          <td><div class="td-ticker">ICICIAMC<div class="td-company">ICICI Pru AMC</div></div></td>
+          <td><div class="td-ticker">ICICIAMC<div class="td-company">ICICI Pru AMC <span class="val-tag val-fair">Fair</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-A">A · 20/25</span></td>
           <td class="col-hide-sm num-cell">6</td>
           <td class="col-hide-sm num-cell">₹2,165</td>
@@ -263,6 +275,7 @@
           <td class="num-cell pl-gain">+33.0%</td>
           <td class="col-hide-sm"><span class="action-tag act-add">Add &lt;₹2,400</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹3,520</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹2,037</td>
           <td class="col-hide-sm num-cell num-dim">1.2x</td>
           <td class="td-arrow">›</td>
@@ -270,10 +283,10 @@
 
         <!-- ══ GRADE B · 19 ══ -->
         <tr class="section-row" data-section="grade-b india">
-          <td colspan="15">Grade B · 19/25 — Largest Position</td>
+          <td colspan="16">Grade B · 19/25 — Largest Position</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('GROWW.html')">
-          <td><div class="td-ticker">GROWW<div class="td-company">Billionbrains Garage</div></div></td>
+          <td><div class="td-ticker">GROWW<div class="td-company">Billionbrains Garage <span class="val-tag val-fair">Fair</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-B">B · 19/25</span></td>
           <td class="col-hide-sm num-cell">2,298</td>
           <td class="col-hide-sm num-cell">₹153.79</td>
@@ -285,6 +298,7 @@
           <td class="num-cell pl-gain">+1.33%</td>
           <td class="col-hide-sm"><span class="action-tag act-hold">Hold · 23% of PF</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹192</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹111</td>
           <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">2.5x</td>
           <td class="td-arrow">›</td>
@@ -292,10 +306,10 @@
 
         <!-- ══ GRADE B · 18 ══ -->
         <tr class="section-row" data-section="grade-b india">
-          <td colspan="15">Grade B · 18/25 — High Quality</td>
+          <td colspan="16">Grade B · 18/25 — High Quality</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" data-action="avg" onclick="go('KERNEX.html')">
-          <td><div class="td-ticker">KERNEX<div class="td-company">Kernex Microsystems</div></div></td>
+          <td><div class="td-ticker">KERNEX<div class="td-company">Kernex Microsystems <span class="val-tag val-under">Undervalued</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-B">B · 18/25</span></td>
           <td class="col-hide-sm num-cell">90</td>
           <td class="col-hide-sm num-cell">₹1,125</td>
@@ -307,12 +321,13 @@
           <td class="num-cell pl-loss">-12.72%</td>
           <td class="col-hide-sm"><span class="action-tag act-add">Avg below ₹950</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹1,444</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹836</td>
           <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">2.7x</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" data-action="add" onclick="go('NEWGEN.html')">
-          <td><div class="td-ticker">NEWGEN<div class="td-company">Newgen Software</div></div></td>
+          <td><div class="td-ticker">NEWGEN<div class="td-company">Newgen Software <span class="val-tag val-under">Undervalued</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-B">B · 18/25</span></td>
           <td class="col-hide-sm num-cell">200</td>
           <td class="col-hide-sm num-cell">₹447.79</td>
@@ -324,6 +339,7 @@
           <td class="num-cell pl-loss">-1.32%</td>
           <td class="col-hide-sm"><span class="action-tag act-add">Add below ₹400</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹640</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹370</td>
           <td class="col-hide-sm num-cell" style="color:#666">1.9x</td>
           <td class="td-arrow">›</td>
@@ -331,10 +347,10 @@
 
         <!-- ══ GRADE B · 17 ══ -->
         <tr class="section-row" data-section="grade-b india">
-          <td colspan="15">Grade B · 17/25</td>
+          <td colspan="16">Grade B · 17/25</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" data-action="avg" onclick="go('KAYNES.html')">
-          <td><div class="td-ticker">KAYNES<div class="td-company">Kaynes Technology</div></div></td>
+          <td><div class="td-ticker">KAYNES<div class="td-company">Kaynes Technology <span class="val-tag val-under">Undervalued</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-B">B · 17/25</span></td>
           <td class="col-hide-sm num-cell">31</td>
           <td class="col-hide-sm num-cell">₹3,967</td>
@@ -346,12 +362,13 @@
           <td class="num-cell pl-loss">-12.39%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Avg ₹3,200 if promoter clears</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹5,400</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹3,125</td>
           <td class="col-hide-sm num-cell" style="color:#666">1.5x</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" data-action="avg" onclick="go('EPACKPEB.html')">
-          <td><div class="td-ticker">EPACKPEB<div class="td-company">EPACK Prefab</div></div></td>
+          <td><div class="td-ticker">EPACKPEB<div class="td-company">EPACK Prefab <span class="val-tag val-deep">Deep Value</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-B">B · 17/25</span></td>
           <td class="col-hide-sm num-cell">451</td>
           <td class="col-hide-sm num-cell">₹227.90</td>
@@ -363,12 +380,13 @@
           <td class="num-cell pl-loss">-31.53%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Avg ₹130 only after Q4</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹800</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">₹463</td>
           <td class="col-hide-sm num-cell" style="color:#166534;font-weight:700">5x+</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('ANANTRAJ.html')">
-          <td><div class="td-ticker">ANANTRAJ<div class="td-company">Anant Raj Ltd</div></div></td>
+          <td><div class="td-ticker">ANANTRAJ<div class="td-company">Anant Raj Ltd <span class="val-tag val-under">Undervalued</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-B">B · 17/25</span></td>
           <td class="col-hide-sm num-cell">200</td>
           <td class="col-hide-sm num-cell">₹460.80</td>
@@ -380,6 +398,7 @@
           <td class="num-cell pl-loss">-2.34%</td>
           <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹660</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹382</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
@@ -387,10 +406,10 @@
 
         <!-- ══ GRADE B · 16 ══ -->
         <tr class="section-row" data-section="grade-b india">
-          <td colspan="15">Grade B · 16/25</td>
+          <td colspan="16">Grade B · 16/25</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('SHAKTIPUMP.html')">
-          <td><div class="td-ticker">SHAKTIPUMP<div class="td-company">Shakti Pumps</div></div></td>
+          <td><div class="td-ticker">SHAKTIPUMP<div class="td-company">Shakti Pumps <span class="val-tag val-under">Undervalued</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-B">B · 16/25</span></td>
           <td class="col-hide-sm num-cell">200</td>
           <td class="col-hide-sm num-cell">₹518.95</td>
@@ -402,12 +421,13 @@
           <td class="num-cell pl-loss">-3.48%</td>
           <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹720</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹417</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" data-action="avg" onclick="go('BANCOINDIA.html')">
-          <td><div class="td-ticker">BANCOINDIA<div class="td-company">Banco Products</div></div></td>
+          <td><div class="td-ticker">BANCOINDIA<div class="td-company">Banco Products <span class="val-tag val-fair">Fair</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-B">B · 16/25</span></td>
           <td class="col-hide-sm num-cell">100</td>
           <td class="col-hide-sm num-cell">₹589.50</td>
@@ -419,12 +439,13 @@
           <td class="num-cell pl-loss">-6.72%</td>
           <td class="col-hide-sm"><span class="action-tag act-add">Avg below ₹530</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹701</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">₹406</td>
           <td class="col-hide-sm num-cell num-dim">1.3x</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" data-action="add" onclick="go('SAKSOFT.html')">
-          <td><div class="td-ticker">SAKSOFT<div class="td-company">Saksoft Ltd</div></div></td>
+          <td><div class="td-ticker">SAKSOFT<div class="td-company">Saksoft Ltd <span class="val-tag val-deep">Deep Value</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-B">B · 16/25</span></td>
           <td class="col-hide-sm num-cell">450</td>
           <td class="col-hide-sm num-cell">₹129.41</td>
@@ -436,12 +457,13 @@
           <td class="num-cell pl-loss">-1.35%</td>
           <td class="col-hide-sm"><span class="action-tag act-add">Add below ₹115</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹320</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">₹185</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" data-action="avg" onclick="go('ARTEMISMED.html')">
-          <td><div class="td-ticker">ARTEMISMED<div class="td-company">Artemis Medicare</div></div></td>
+          <td><div class="td-ticker">ARTEMISMED<div class="td-company">Artemis Medicare <span class="val-tag val-fair">Fair</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-B">B · 16/25</span></td>
           <td class="col-hide-sm num-cell">181</td>
           <td class="col-hide-sm num-cell">₹245.86</td>
@@ -453,12 +475,13 @@
           <td class="num-cell pl-loss">-8.37%</td>
           <td class="col-hide-sm"><span class="action-tag act-add">Avg below ₹215</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹279</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹161</td>
           <td class="col-hide-sm num-cell num-dim">1.2x</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('NAVA.html')">
-          <td><div class="td-ticker">NAVA<div class="td-company">Nava Limited</div></div></td>
+          <td><div class="td-ticker">NAVA<div class="td-company">Nava Limited <span class="val-tag val-under">Undervalued</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-B">B · 16/25</span></td>
           <td class="col-hide-sm num-cell">56</td>
           <td class="col-hide-sm num-cell">₹461.65</td>
@@ -470,12 +493,13 @@
           <td class="num-cell pl-gain">+19.51%</td>
           <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹838</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹485</td>
           <td class="col-hide-sm num-cell" style="color:#666">1.7x</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('RAYMOND.html')">
-          <td><div class="td-ticker">RAYMOND<div class="td-company">Raymond Ltd (Engineering)</div></div></td>
+          <td><div class="td-ticker">RAYMOND<div class="td-company">Raymond Ltd (Engineering) <span class="val-tag val-under">Undervalued</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-B">B · 16/25</span></td>
           <td class="col-hide-sm num-cell">150</td>
           <td class="col-hide-sm num-cell">₹368.75</td>
@@ -487,6 +511,7 @@
           <td class="num-cell pl-loss">-3.61%</td>
           <td class="col-hide-sm"><span class="action-tag act-hold">Hold · ADD &lt;₹350</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹493</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹285</td>
           <td class="col-hide-sm num-cell num-dim">1.4x</td>
           <td class="td-arrow">›</td>
@@ -494,10 +519,10 @@
 
         <!-- ══ GRADE B · 15 ══ -->
         <tr class="section-row" data-section="grade-b india">
-          <td colspan="15">Grade B · 15/25</td>
+          <td colspan="16">Grade B · 15/25</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" data-action="avg" onclick="go('RSYSTEMS.html')">
-          <td><div class="td-ticker">RSYSTEMS<div class="td-company">R Systems Intl</div></div></td>
+          <td><div class="td-ticker">RSYSTEMS<div class="td-company">R Systems Intl <span class="val-tag val-under">Undervalued</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-B">B · 15/25</span></td>
           <td class="col-hide-sm num-cell">350</td>
           <td class="col-hide-sm num-cell">₹286.50</td>
@@ -509,12 +534,13 @@
           <td class="num-cell pl-loss">-6.84%</td>
           <td class="col-hide-sm"><span class="action-tag act-add">Avg below ₹260 · 4.3% div</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹408</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹236</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('ETERNAL.html')">
-          <td><div class="td-ticker">ETERNAL<div class="td-company">Eternal Ltd (Zomato)</div></div></td>
+          <td><div class="td-ticker">ETERNAL<div class="td-company">Eternal Ltd (Zomato) <span class="val-tag val-rich">Rich</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-B">B · 15/25</span></td>
           <td class="col-hide-sm num-cell">100</td>
           <td class="col-hide-sm num-cell">₹337.35</td>
@@ -526,6 +552,7 @@
           <td class="num-cell pl-loss">-36.07%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Hold — Q4 review</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹218</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹126</td>
           <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">2.4x</td>
           <td class="td-arrow">›</td>
@@ -533,10 +560,10 @@
 
         <!-- ══ GRADE B unscored ══ -->
         <tr class="section-row" data-section="grade-b india">
-          <td colspan="15">Grade B — Unscored Holdings</td>
+          <td colspan="16">Grade B — Unscored Holdings</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('SHILCTECH.html')">
-          <td><div class="td-ticker">SHILCTECH<div class="td-company">Shilchar Technologies</div></div></td>
+          <td><div class="td-ticker">SHILCTECH<div class="td-company">Shilchar Technologies <span class="val-tag val-rich">Rich</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-B">B</span></td>
           <td class="col-hide-sm num-cell">6</td>
           <td class="col-hide-sm num-cell">₹4,559.69</td>
@@ -548,6 +575,7 @@
           <td class="num-cell pl-loss">-18.25%</td>
           <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹3,596</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹2,081</td>
           <td class="col-hide-sm num-cell num-dim">1.0x</td>
           <td class="td-arrow">›</td>
@@ -555,10 +583,10 @@
 
         <!-- ══ GRADE C ══ -->
         <tr class="section-row grade-c-section" data-section="grade-c india">
-          <td colspan="15">Grade C — Exit / Reduce (Action Required)</td>
+          <td colspan="16">Grade C — Exit / Reduce (Action Required)</td>
         </tr>
         <tr class="stock-row" data-section="grade-c india" data-grade="c" data-action="exit" onclick="go('PARADEEP.html')">
-          <td><div class="td-ticker">PARADEEP<div class="td-company">Paradeep Phosphates</div></div></td>
+          <td><div class="td-ticker">PARADEEP<div class="td-company">Paradeep Phosphates <span class="val-tag val-rich">Exit</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-C">C · 11/25</span></td>
           <td class="col-hide-sm num-cell">220</td>
           <td class="col-hide-sm num-cell">₹175.85</td>
@@ -571,11 +599,12 @@
           <td class="col-hide-sm"><span class="action-tag act-exit">EXIT NOW — market price</span></td>
           <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">EXIT</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim"><span style="color:#dc2626;font-weight:700">EXIT</span></td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-c india" data-grade="c" data-action="exit" onclick="go('SWIGGY.html')">
-          <td><div class="td-ticker">SWIGGY<div class="td-company">Swiggy</div></div></td>
+          <td><div class="td-ticker">SWIGGY<div class="td-company">Swiggy <span class="val-tag val-under">Undervalued</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-C">C · 10/25</span></td>
           <td class="col-hide-sm num-cell">49</td>
           <td class="col-hide-sm num-cell">₹565.23</td>
@@ -587,12 +616,13 @@
           <td class="num-cell pl-loss">-50.08%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Weak Hold — Q4</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹385</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹223</td>
           <td class="col-hide-sm num-cell" style="color:#166534;font-weight:700">4.5x</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-c india" data-grade="c" data-action="exit" onclick="go('STLNETWORK.html')">
-          <td><div class="td-ticker">STLNETWORK<div class="td-company">STL Networks Ltd</div></div></td>
+          <td><div class="td-ticker">STLNETWORK<div class="td-company">STL Networks Ltd <span class="val-tag val-under">Undervalued</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-C">C · 12/25</span></td>
           <td class="col-hide-sm num-cell">1,500</td>
           <td class="col-hide-sm num-cell">₹31.22</td>
@@ -604,6 +634,7 @@
           <td class="num-cell pl-loss">-40.58%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Weak Hold — 2 qtrs</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">₹30</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹17</td>
           <td class="col-hide-sm num-cell" style="color:#666">1.6x</td>
           <td class="td-arrow">›</td>
@@ -611,7 +642,7 @@
 
         <!-- ══ US PORTFOLIO — LIVE ══ -->
         <tr class="section-row" data-section="us" style="background:#1e3a5f; color:#93c5fd;">
-          <td colspan="15">US Portfolio — Live (INDmoney/Alpaca) · $946.71 current · -$332 (-25.96%)</td>
+          <td colspan="16">US Portfolio — Live (INDmoney/Alpaca) · $946.71 current · -$332 (-25.96%)</td>
         </tr>
         <tr class="stock-row" data-section="us" data-grade="w" onclick="go('us/NVDA.html')">
           <td><div class="td-ticker">NVDA<div class="td-company">Nvidia Corp</div></div></td>
@@ -626,6 +657,7 @@
           <td class="num-cell pl-loss">-5.36%</td>
           <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
           <td class="col-hide-sm num-cell" style="color:#666">$1,210</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">$700</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
@@ -642,6 +674,7 @@
           <td class="col-hide-sm num-cell pl-loss">-$35.14</td>
           <td class="num-cell pl-loss">-15.09%</td>
           <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -662,6 +695,7 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="us" data-grade="w">
@@ -676,6 +710,7 @@
           <td class="col-hide-sm num-cell pl-loss">-$23.16</td>
           <td class="num-cell pl-loss">-16.17%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Rare earth</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -696,6 +731,7 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="us" data-grade="w" data-action="exit">
@@ -710,6 +746,7 @@
           <td class="col-hide-sm num-cell pl-loss">-$140.84</td>
           <td class="num-cell pl-loss">-55.58%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Quantum · Speculative</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -730,6 +767,7 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="us" data-grade="w" data-action="exit">
@@ -744,6 +782,7 @@
           <td class="col-hide-sm num-cell pl-loss">-$23.76</td>
           <td class="num-cell pl-loss">-49.09%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Air taxi · Speculative</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -764,6 +803,7 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="us" data-grade="w">
@@ -781,12 +821,13 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
 
         <!-- ══ TRACKING — OWNED (real position, no thesis) ══ -->
         <tr class="section-row" data-section="tracking india" style="background:#f5f0ff; color:#5b21b6;">
-          <td colspan="15">Owned — Notable Positions (no formal thesis yet)</td>
+          <td colspan="16">Owned — Notable Positions (no formal thesis yet)</td>
         </tr>
         <tr class="stock-row" data-section="tracking india" data-grade="w" onclick="go('INTEGRATEDIND.html')">
           <td><div class="td-ticker">NWIL<div class="td-company">Nurture Well Industries (IIL sub)</div></div></td>
@@ -803,12 +844,13 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
 
         <!-- ══ TRACKING — 1-SHARE PRICE MONITORS ══ -->
         <tr class="section-row" data-section="tracking india" style="background:#f0f4f8; color:#475569;">
-          <td colspan="15">Tracking — 1 Share · Price Monitor Only (buy more when ready)</td>
+          <td colspan="16">Tracking — 1 Share · Price Monitor Only (buy more when ready)</td>
         </tr>
         <tr class="stock-row" data-section="tracking india" data-grade="w">
           <td><div class="td-ticker">KPITTECH<div class="td-company">KPIT Technologies</div></div></td>
@@ -822,6 +864,7 @@
           <td class="col-hide-sm num-cell pl-loss">-₹496</td>
           <td class="num-cell pl-loss">-42.91%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Monitor</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -842,6 +885,7 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="tracking india" data-grade="w">
@@ -856,6 +900,7 @@
           <td class="col-hide-sm num-cell pl-loss">-₹84</td>
           <td class="num-cell pl-loss">-37.11%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Monitor</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -876,6 +921,7 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="tracking india" data-grade="w">
@@ -890,6 +936,7 @@
           <td class="col-hide-sm num-cell pl-loss">-₹368</td>
           <td class="num-cell pl-loss">-30.79%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Monitor · Healthcare</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -910,10 +957,11 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="tracking india" data-grade="w">
-          <td><div class="td-ticker">NESCO<div class="td-company">Nesco Ltd</div></div></td>
+          <td><div class="td-ticker">NESCO<div class="td-company">Nesco Ltd <span class="val-tag val-under">Undervalued</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-W">—</span></td>
           <td class="col-hide-sm num-cell">1</td>
           <td class="col-hide-sm num-cell">₹1,376.50</td>
@@ -924,6 +972,7 @@
           <td class="col-hide-sm num-cell pl-loss">-₹355</td>
           <td class="num-cell pl-loss">-25.78%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Monitor · Exhibition+IT</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#666">1.7x</td>
@@ -944,6 +993,7 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="tracking india" data-grade="w">
@@ -958,6 +1008,7 @@
           <td class="col-hide-sm num-cell pl-loss">-₹355</td>
           <td class="num-cell pl-loss">-19.71%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Monitor · Insurtech</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -978,6 +1029,7 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="tracking india" data-grade="w">
@@ -992,6 +1044,7 @@
           <td class="col-hide-sm num-cell pl-loss">-₹18</td>
           <td class="num-cell pl-loss">-19.42%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Monitor · Adani media</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -1012,6 +1065,7 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="tracking india" data-grade="w">
@@ -1026,6 +1080,7 @@
           <td class="col-hide-sm num-cell pl-loss">-₹49</td>
           <td class="num-cell pl-loss">-18.42%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Monitor · Tobacco</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -1046,6 +1101,7 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="tracking india" data-grade="w">
@@ -1060,6 +1116,7 @@
           <td class="col-hide-sm num-cell pl-loss">-₹701</td>
           <td class="num-cell pl-loss">-18.21%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Monitor · HPC servers</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -1080,6 +1137,7 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="tracking india" data-grade="w">
@@ -1094,6 +1152,7 @@
           <td class="col-hide-sm num-cell pl-loss">-₹37</td>
           <td class="num-cell pl-loss">-14.13%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Monitor · Heat exchangers</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -1114,6 +1173,7 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="tracking india" data-grade="w">
@@ -1128,6 +1188,7 @@
           <td class="col-hide-sm num-cell pl-gain">+₹5</td>
           <td class="num-cell pl-gain">+1.77%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Monitor · Power capex</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -1148,6 +1209,7 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="tracking india" data-grade="w">
@@ -1162,6 +1224,7 @@
           <td class="col-hide-sm num-cell pl-loss">-₹16</td>
           <td class="num-cell pl-loss">-1.80%</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Monitor · Port infra</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -1182,12 +1245,13 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
 
         <!-- ══ SCENARIO / WATCHLIST ══ -->
         <tr class="section-row scenario-section" data-section="watch">
-          <td colspan="15">Scenario Planning &amp; Watchlist</td>
+          <td colspan="16">Scenario Planning &amp; Watchlist</td>
         </tr>
         <tr class="stock-row" data-section="watch" data-grade="w" onclick="go('STLTECH.html')">
           <td><div class="td-ticker">STLTECH<div class="td-company">Sterlite Technologies Ltd</div></div></td>
@@ -1195,6 +1259,7 @@
           <td class="col-hide-sm num-cell num-dim" colspan="7">OFC manufacturing · Revenue -42% in 2yr · China dumping · P/B 4.44× · Buy only if anti-dumping duty + profit return</td>
           <td class="num-cell pl-none">—</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Watch · Not owned</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -1207,6 +1272,7 @@
           <td class="num-cell pl-none">—</td>
           <td class="col-hide-sm"><span class="action-tag act-ref">Research · Watchlist</span></td>
           <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">$484</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">$280</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
@@ -1218,6 +1284,7 @@
           <td class="num-cell pl-none">—</td>
           <td class="col-hide-sm"><span class="action-tag act-ref">Research · Watchlist</span></td>
           <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">$290</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">$168</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
@@ -1237,10 +1304,11 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="watch" data-grade="b" onclick="go('JUSTDIAL.html')">
-          <td><div class="td-ticker">JUSTDIAL<div class="td-company">Just Dial</div></div></td>
+          <td><div class="td-ticker">JUSTDIAL<div class="td-company">Just Dial <span class="val-tag val-deep">Deep Value</span></div></div></td>
           <td class="col-hide-sm"><span class="grade grade-B">B · 17/25</span></td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -1252,6 +1320,7 @@
           <td class="num-cell pl-none">—</td>
           <td class="col-hide-sm"><span class="action-tag act-buy">BUY ₹526</span></td>
           <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">₹963</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">₹557</td>
           <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">2.2x</td>
           <td class="td-arrow">›</td>
@@ -1269,6 +1338,7 @@
           <td class="num-cell pl-none">—</td>
           <td class="col-hide-sm"><span class="action-tag act-watch">Verify AR first</span></td>
           <td class="col-hide-sm num-cell num-dim">₹55</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">₹32</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
@@ -1279,6 +1349,7 @@
           <td class="col-hide-sm num-cell num-dim" colspan="7">39 screened ideas · Just Dial · Balmer Lawrie · Triveni · Nesco</td>
           <td class="num-cell pl-none">—</td>
           <td class="col-hide-sm"><span class="action-tag act-ref">Full screen</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
@@ -1295,15 +1366,17 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
-        <tr class="stock-row" data-section="watch" data-grade="w" onclick="go('VALUATION_FRAMEWORK.html')"><td><div class="td-ticker">VALUATION<div class="td-company">DCF + P/B-ROE Framework</div></div></td><td class="col-hide-sm"><span class="grade grade-W">Methodology</span></td><td class="col-hide-sm num-cell num-dim" colspan="7">How we value stocks · DCF 3-scenario · Reverse DCF · Justified P/B · Worked examples: GROWW, JUSTDIAL</td><td class="num-cell pl-none">—</td><td class="col-hide-sm"><span class="action-tag act-ref">Reference</span></td><td class="col-hide-sm num-cell num-dim">—</td><td class="col-hide-sm num-cell num-dim">—</td><td class="col-hide-sm num-cell num-dim">—</td><td class="td-arrow">›</td></tr>
+        <tr class="stock-row" data-section="watch" data-grade="w" onclick="go('VALUATION_FRAMEWORK.html')"><td><div class="td-ticker">VALUATION<div class="td-company">DCF + P/B-ROE Framework</div></div></td><td class="col-hide-sm"><span class="grade grade-W">Methodology</span></td><td class="col-hide-sm num-cell num-dim" colspan="7">How we value stocks · DCF 3-scenario · Reverse DCF · Justified P/B · Worked examples: GROWW, JUSTDIAL</td><td class="num-cell pl-none">—</td><td class="col-hide-sm"><span class="action-tag act-ref">Reference</span></td><td class="col-hide-sm num-cell num-dim">—</td><td class="col-hide-sm num-cell num-dim">—</td><td class="col-hide-sm num-cell num-dim">—</td><td class="col-hide-sm num-cell num-dim">—</td><td class="td-arrow">›</td></tr>
         <tr class="stock-row" data-section="watch" data-grade="w" onclick="go('2026-W11.html')">
           <td><div class="td-ticker">W11 JOURNAL<div class="td-company">Weekly Review Mar 9–15</div></div></td>
           <td class="col-hide-sm"><span class="grade grade-W">Journal</span></td>
           <td class="col-hide-sm num-cell num-dim" colspan="7">468 trades · 6 behavioural patterns · -₹64.8K realized losses</td>
           <td class="num-cell pl-none">—</td>
           <td class="col-hide-sm"><span class="action-tag act-ref">Review</span></td>
+          <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="col-hide-sm num-cell num-dim">—</td>
