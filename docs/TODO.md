@@ -79,6 +79,21 @@
 
 ---
 
+## ✅ COMPLETED (2026-03-19 session — PGEL thesis)
+
+**PGEL.md — Full Investment Thesis Created:**
+- Research gathered: Screener data (FY22-FY25 financials + 4 quarterly results), competitor financials (Dixon, Amber, Kaynes, Syrma), industry AC penetration data, capacity expansion plans
+- FY25: Revenue ₹4,870 Cr, PAT ₹288 Cr, OPM 10%, ROCE 19.4% — 64% 3Y revenue CAGR
+- Q2 FY26 shock documented (PAT –96%, OPM 4.6%) and Q3 FY26 recovery (Rev +46% YoY) analyzed
+- Full Section 4b (Bear/Base/Bull FY26-28 with capacity-anchored rationale) completed
+- DCF analysis: CMP ₹505 priced in bull case already (bear ₹151, base ₹260, bull ₹449) — stock expensive on DCF
+- Section 6 competitive landscape: depth analysis vs Amber, Dixon, Kaynes, Syrma + re-rating thesis
+- Status: WATCHLIST — buy below ₹460; strong buy below ₹380 if OPM recovery confirmed
+- Quality Score: 16/25 Grade B– (Growth 5/5, MOAT 2/5, Financials 3/5, Management 3/5, Valuation 3/5)
+- Rendered to PGEL.html and opened in Chrome
+
+---
+
 ## ✅ COMPLETED (2026-03-19 session — continued)
 
 **DCF methodology rollout to 3 stocks:**
