@@ -30,17 +30,60 @@
 
 ## 4. Key Metrics
 
-| Metric | Current | 1Y Ago | 3Y Target |
-|--------|---------|--------|-----------|
-| Revenue (Cr) | | | |
-| Net Profit (Cr) | | | |
-| ROCE % | | | |
-| ROE % | | | |
-| Debt/Equity | | | |
-| Promoter Holding % | | | |
-| P/E | | | |
-| P/B | | | |
-| Market Cap (Cr) | | | |
+### P&L (Last 3 Years + TTM)
+
+| Metric | FY[N-2] | FY[N-1] | FY[N] | TTM |
+|--------|---------|---------|-------|-----|
+| Revenue (Cr) | | | | |
+| Revenue Growth % | | | | |
+| Gross Profit (Cr) | | | | |
+| Gross Margin % | | | | |
+| EBITDA (Cr) | | | | |
+| OPM % | | | | |
+| Net Profit (Cr) | | | | |
+| Net Margin % | | | | |
+| EPS (₹) | | | | |
+| EPS Growth % | | | | |
+
+### Balance Sheet + Returns
+
+| Metric | FY[N-2] | FY[N-1] | FY[N] | TTM |
+|--------|---------|---------|-------|-----|
+| Total Debt (Cr) | | | | |
+| Debt / Equity | | | | |
+| Book Value / Share (₹) | | | | |
+| Cash + Investments (Cr) | | | | |
+| ROCE % | | | | |
+| ROE % | | | | |
+| Capex (Cr) | | | | |
+| FCF (Cr) | | | | |
+| Promoter Holding % | | | | |
+
+### Key Operating Metrics
+<!-- Fill in sector-specific metrics: order book, capacity, AUM, occupancy, etc. -->
+
+| Metric | FY[N-2] | FY[N-1] | FY[N] | TTM |
+|--------|---------|---------|-------|-----|
+| [e.g. Order Book (Cr)] | | | | |
+| [e.g. Capacity / Utilisation %] | | | | |
+| [e.g. Working Capital Days] | | | | |
+| [e.g. Exports % / Domestic %] | | | | |
+
+### CAGRs
+
+| Period | Revenue CAGR | PAT CAGR | EPS CAGR |
+|--------|-------------|---------|---------|
+| 3-Year | | | |
+| 5-Year | | | |
+
+### Quarterly Trend (last 4 quarters)
+
+| Quarter | Revenue (Cr) | OPM % | Net Profit (Cr) | Key comment |
+|---------|-------------|-------|----------------|-------------|
+| Q[N] FY[Y] | | | | |
+| Q[N-1] | | | | |
+| Q[N-2] | | | | |
+| Q[N-3] | | | | |
 
 ---
 
@@ -178,29 +221,74 @@ Answer these before filling the tables — each answer becomes a rationale cell 
 ## 6. Competitive Landscape
 
 ### Market Position
-<!-- Where does this company sit? Leader/challenger/niche? Market share? Geographic reach? -->
+
+<!-- Write 3-5 sentences answering ALL of the following:
+- What specific product / service tier does this company occupy? (Not "EMS company" — which segment, which customer type, which price point)
+- Who are the true direct competitors vs who are adjacent / different tier?
+- What is the addressable market size and this company's rough share?
+- Is it a price leader, quality/spec leader, or niche specialist?
+- Geographic scope: domestic only, export mix, which geographies?
+-->
+
 
 ### Structural Advantages vs Peers
-<!-- What can this company do that competitors can't easily replicate? WHY do margins/ROCE differ? -->
+
+<!-- Rules for this section:
+1. Number each advantage (aim for 3-6).
+2. For each: state WHAT it is → WHY competitors can't easily replicate it → QUANTIFIED EFFECT (OPM delta, ROCE delta, working capital days, or pricing power evidence).
+3. Do NOT list capabilities without explaining the mechanism. "Strong brand" is not an advantage. "Brand commands 15% price premium vs peers, evidenced by OPM 30% vs industry 15%" is.
+-->
+
+1. **[Advantage name]:** [What it is] → [Why it is hard to replicate: structural, not just current state] → [Quantified effect on margins / ROCE / growth]
+
+2. **[Advantage name]:** [What it is] → [Replication barrier] → [Quantified effect]
+
+3. **[Advantage name]:** [What it is] → [Replication barrier] → [Quantified effect]
+
+4. **[Advantage name — if applicable]:** ...
 
 ### Peer Comparison
-| | THIS STOCK | Peer 1 | Peer 2 | Peer 3 |
-|---|---|---|---|---|
-| Revenue (Cr) | | | | |
-| OPM | | | | |
-| ROCE | | | | |
-| D/E | | | | |
-| Revenue CAGR 3yr | | | | |
-| P/E | | | | |
-| P/B | | | | |
+
+<!-- Use 4-5 peers. Include: 2 direct competitors, 1-2 adjacent/larger players, and if applicable 1 MNC peer. Fill all cells — use "~" for estimates. Add sector-specific rows (rows 11-12) as needed. -->
+
+| Metric | **{THIS}** | {Direct Peer 1} | {Direct Peer 2} | {Adjacent/Larger} | {MNC/Global} |
+|--------|-----------|-----------------|-----------------|-------------------|--------------|
+| Revenue (Cr) | | | | | |
+| Revenue CAGR 3yr | | | | | |
+| Profit CAGR 3yr | | | | | |
+| OPM % | | | | | |
+| Net Margin % | | | | | |
+| ROCE % | | | | | |
+| ROE % | | | | | |
+| D/E | | | | | |
+| P/E | | | | | |
+| P/B | | | | | |
+| Market Cap (Cr) | | | | | |
+| Promoter % | | | | | |
+| [Sector metric: e.g. Export %, Govt exposure, AUM Cr, Order Book] | | | | | |
+| [Sector metric 2: e.g. Capacity util, # branches, SKUs] | | | | | |
 
 ### Why Multiples Differ
-<!-- Why does the market price these companies differently? Where's the relative mispricing? -->
+
+<!-- For each material premium or discount vs a peer, write a specific explanation. Format shown below. Do NOT write generic statements like "larger peers get higher multiples." Explain the specific mechanism: liquidity, earnings quality, business model difference, risk. Conclude with the re-rating thesis if one exists. -->
+
+**{This stock} at [X]x P/E vs {Peer 1} at [Y]x:**
+- [Specific reason 1 for discount/premium — e.g. "Peer 1 is 3x larger, institutional investors can build ₹50 Cr+ positions; this stock's float is too small for them"]
+- [Specific reason 2 — e.g. "Last 2 quarters missed estimates, momentum investors de-rated"]
+- [Specific reason 3 — e.g. "43% export revenue carries tariff/FX risk that domestic-only peer doesn't face"]
+
+**{This stock} at [X]x P/E vs {Peer 2} at [Y]x:**
+- [Reason 1]
+- [Reason 2]
+
+**The re-rating thesis:** If [specific condition resolves — e.g. tariff uncertainty clears, promoter selling stops, one strong quarterly result], the multiple would expand from [X]x → [Y]x. At current earnings, that alone implies [Z]% price upside independent of earnings growth. Combined with [A]% PAT CAGR, the total return thesis is [X+A]% over [N] years.
 
 ### Key Competitive Dynamics
-- **Market share trend:** gaining / losing / stable
-- **Threat from peers:** which competitor could disrupt this company?
-- **Vulnerability:** where are peers stronger?
+
+- **Market share trend:** [Gaining / Losing / Stable] — evidence: [order book growth rate / new client wins / capacity expansion vs peers / revenue CAGR vs industry CAGR]
+- **Primary competitive threat:** [Specific company or technology] could disrupt because [specific mechanism — e.g. "moving downstream into our niche", "government mandating open-access pricing"]. Probability: [Low / Medium / High]. Timeline: [X years / specific trigger event].
+- **Key vulnerability:** [1-2 specific weaknesses that peers currently exploit or could exploit — e.g. "single large customer = 35% revenue concentration", "CRGO steel 100% imported — supply shock risk"]
+- **Policy / regulatory tailwind or headwind:** [Any regulation affecting competitive dynamics: PLI eligibility, anti-dumping duties, price caps, procurement mandates, export restrictions]
 
 ---
 
