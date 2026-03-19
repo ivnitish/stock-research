@@ -158,6 +158,76 @@ The old thesis (Thane land bank option value) is now in a separate company (RAYM
 
 ---
 
+## 4b. Order Book & Revenue Visibility Analysis
+
+### Total Order Book
+
+The engineering division has a consolidated order book exceeding **Rs 6,500 Cr** with 2.5-3x current annual revenue visibility. This is significantly higher than the ~Rs 2,300 Cr annualized run-rate, implying a multi-year execution runway.
+
+### Customer & Contract Breakdown
+
+| Customer | Engine Program | Est. Revenue Share | Contract Type |
+|----------|---------------|-------------------|---------------|
+| Safran/CFM | LEAP-1A (A320neo) | ~35-40% of aero revenue | Long-term supply; each engine contains $20K-$35K of Raymond parts |
+| Pratt & Whitney | GTF family (A320neo, A220) | Growing rapidly | New LTA signed Aug 2025; volume ramp FY27+ |
+| GE Aerospace | GE9X, LEAP-1B (737 MAX) | Existing base | Established Tier-1 supplier |
+| Rolls-Royce | Trent family | Smaller share | Existing Tier-1 supplier |
+| HAL | Indian defense programs | <5% | Domestic defense content |
+
+**Key insight:** Raymond supplies all three dominant civil engine OEMs (Safran/GE via CFM, P&W, RR) which together hold ~88% of the global commercial engine market. This diversification across OEMs reduces single-customer dependency.
+
+### Product Mix & Complexity
+
+- **~1,200 distinct SKUs** across 15 engine programs, 28 product families
+- **85% engine components** (hot-section turbine parts, nozzle guide vanes, LP turbine blades) / 15% structural
+- **75% from complex engine parts** — high value-add, high barriers to entry
+- **~83% of aerospace sales are exports** (60% Europe, balance US/Asia)
+
+### Production vs Qualification Split — The Margin Expansion Story
+
+This is a critical dynamic to understand:
+
+| Phase | Typical Volume Capture | Margin Profile |
+|-------|----------------------|----------------|
+| Qualification | ~35% of contracted volume | Lower — investment phase, yields being optimized |
+| Serial Production | ~65% of contracted volume | Higher — learning curve benefits, yield improvements |
+
+Several programs (including P&W GTF components) are currently transitioning from qualification to serial production. This shift is **the primary near-term margin driver** — as programs move to serial, unit costs decline 7-9% due to learning curve and yield improvements.
+
+### AP Plant Impact on Capacity & Costs
+
+| Metric | Current (Bangalore) | Post-AP Plant (May 2027) |
+|--------|-------------------|--------------------------|
+| CNC machining capacity | Existing (capacity-constrained) | +50,000 sq ft additional |
+| Per-unit cost | Baseline | -7 to 9% (AP incentives + scale) |
+| Target EBITDA margin | 18-21% | 15%+ initially, trajectory to 33-35% long-term |
+| Investment | — | Rs 510 Cr (Rs 380 Cr AP govt incentives) |
+
+### Management Guidance
+
+- **FY26 revenue growth:** ~30% reaffirmed for the engineering division
+- **Long-term EBITDA target:** 33-35% for aerospace (up from current 18-21%)
+- **Qualification-to-serial conversion** is the single biggest margin lever in FY27-28
+
+### Revenue Visibility Assessment
+
+| Timeframe | Visibility | Confidence |
+|-----------|-----------|------------|
+| FY26 (remaining) | Near-certain; order book in execution | High |
+| FY27 | Strong; AP plant ramp + serial production transition | Medium-High |
+| FY28+ | Good; LTA frameworks in place, but volumes depend on OEM production rates | Medium |
+
+The 12,000+ aircraft backlog at Boeing and Airbus (13-14 years of production) provides structural demand. Raymond's risk is not demand — it is execution (AP plant on time, yield improvements, customer qualification of new products).
+
+### Data Gaps (Not Available in Public Sources)
+
+- Exact top-3 customer concentration as % of aerospace revenue
+- Individual contract values (LTAs are typically confidential)
+- Bangalore plant utilization rate (likely >80% given AP plant announcement)
+- Specific FY27/FY28 revenue guidance numbers
+
+---
+
 ## 5. Risks
 
 | Risk | Severity | Notes |

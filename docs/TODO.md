@@ -35,6 +35,13 @@
 - [ ] Inspired by [karpathy/autoresearch](https://github.com/karpathy/autoresearch) — thesis backtesting + scorecard calibration
 - [ ] MVP: backtest 6 core holdings (GROWW, KAYNES, EPACK, KERNEX, SHILCTECH, NESCO) with 1-year lookback
 
+## YOUTUBE TRANSCRIPT PIPELINE (idea)
+
+- [ ] **Auto-pull YouTube transcripts** for stock analysis videos using `youtube-transcript-api` or `yt-dlp --write-auto-sub`
+- [ ] Search YouTube API for quality analysis videos per ticker (keywords: "analysis", "deep dive", "thesis", "investor presentation")
+- [ ] Extract key insights and add to relevant research files automatically
+- [ ] Already used manually for SHILCTECH (Girish Gupta) and EPACKPEB (Aakash Gupta)
+
 ## RESEARCH SKILL IDEAS
 
 - [ ] **Q&A research format** — for complex thesis questions (e.g. NVDA: "why do hyperscalers keep spending?", "when does the bear case happen?") — build a `skills/qa-research.md` skill that structures research as Qs with sourced answers
