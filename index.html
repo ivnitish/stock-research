@@ -147,6 +147,13 @@
   .td-arrow { color: #bbb; font-size: 1rem; text-align: right; padding-right: 10px; }
   tbody tr.stock-row:hover .td-arrow { color: #1a1a2e; }
 
+  /* Rows without onclick = no research page yet */
+  tbody tr.stock-row:not([onclick]) { cursor: default; }
+  tbody tr.stock-row:not([onclick]):hover { background: inherit; }
+  tbody tr.stock-row:not([onclick]) .td-arrow { color: #ddd; font-size: 0.65rem; }
+  tbody tr.stock-row:not([onclick]) .td-ticker { color: #999; }
+  tbody tr.stock-row:not([onclick]) .td-company { color: #bbb; }
+
   /* Column hide rules */
   .col-hide-sm   { } /* hidden below 640px */
   .col-hide-md   { } /* hidden below 900px — handled by min-width on table */
