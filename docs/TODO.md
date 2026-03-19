@@ -35,10 +35,10 @@
 4. **Management investments as a signal** — ₹510 Cr capex commitment (RAYMOND AP plant), ₹750 Cr order book (SHILCTECH) → these are forward-looking indicators that management is confident in demand. Factor in.
 
 **Action items:**
-- [ ] Revise `docs/VALUATION_FRAMEWORK.md` — add "Growth Rate Anchoring" section with this framework
-- [ ] Re-run SHILCTECH DCF with capacity-informed rates: FY27 revenue = 14,000 MVA × utilization × ASP. Implied growth will be higher than current DCF assumes.
-- [ ] Review all DCF models where DCF fair value is significantly below CMP — ask if it's genuine overvaluation or a growth rate anchoring failure
-- [ ] Stocks most likely affected by this issue: SHILCTECH, KAYNES, EPACKPEB, KERNEX (all have capacity expansion underway or industry TAM far from penetrated)
+- [x] ~~Revise `docs/VALUATION_FRAMEWORK.md`~~ — DONE (2026-03-19). Growth Rate Anchoring section added.
+- [x] ~~Re-run SHILCTECH DCF~~ — DONE (2026-03-19). Base ₹2,613→₹4,670, verdict "overvalued"→"25% undervalued".
+- [x] ~~Review all DCF models for growth rate anchoring failures~~ — DONE (2026-03-19). Applied to KAYNES, EPACKPEB, KERNEX.
+- [ ] **SHAKTIPUMP** — apply TAM-anchored DCF (PM-KUSUM scheme 35L pump target, only 5L done)
 
 ---
 
@@ -76,6 +76,18 @@
 - [ ] Friend access / Claude API chat widget in index.html
 - [ ] Cards view — tracking stocks section missing
 - [ ] Weekly digest auto-generator (`src/weekly_digest.py`)
+
+---
+
+## ✅ COMPLETED (2026-03-19 session — continued)
+
+**DCF methodology rollout to 3 stocks:**
+- KAYNES: Base ₹1,299→₹1,669 (+28%). Verdict unchanged: genuinely expensive at ₹3,726. OPM recovery (12%→15-16%) is the primary thesis driver. Buy zone updated ₹2,000-2,400. Promoter selling remains key risk.
+- EPACKPEB: Base ₹133→₹234 (+76%). Major verdict reversal: "slightly overvalued" → "46% upside at ₹160". India PEB penetration 15% vs 70%+ global + PLI + data centers. Buy below ₹200.
+- KERNEX: Base ₹852→₹1,689 (+98%). Largest reversal. 17x order book makes sub-30% growth arithmetically impossible — demand pre-sold 17 years. Bear DCF ₹950 = only -7% from CMP. Risk/reward highly asymmetric.
+
+**Valuation framework commit + push (prior session work):**
+- VALUATION_FRAMEWORK.md + SHILCTECH.md committed to main repo
 
 ---
 
