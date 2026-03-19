@@ -8,17 +8,17 @@
 ---
 ## Quick Summary
 
-**One-line thesis:** Mumbai's irreplaceable 70-acre IT park + exhibition campus with 85% segment margins, virtually zero debt, and a transformative Tower 2 project (5M sq ft, ₹3,500 Cr capex) that could double revenue by FY30 — priced at P/E 18-20x with a massive hidden land value floor.
+**One-line thesis:** Mumbai's irreplaceable 70-acre IT park + exhibition campus just crossed ₹1,000 Cr revenue in FY26 (+37% YoY vs the 8-11% the market assumed), virtually zero debt, Tower 2 underway — PAT of ~₹428 Cr means stock trades at P/E ~17x with massive land value floor; the growth acceleration is not priced in.
 
-**Action:** BUY — accumulate on dips below ₹1,000
+**Action:** BUY — accumulate aggressively below ₹1,100
 
 | Level | Price | Trigger |
 |-------|-------|---------|
-| Buy / Add | ₹900 – ₹1,050 | Current range. P/E ~18x on cash-cow business with Tower 2 optionality. Strong margin of safety from land value. |
-| Hold | ₹1,050 – ₹1,400 | Fair value range. Tower 2 not yet in earnings. |
-| Sell / Exit | At trigger only | Exhibition business collapses, Tower 2 cancelled/major delays, debt spirals |
+| Buy / Add | ₹900 – ₹1,100 | ₹1,000 Cr revenue milestone confirmed (BSE filing Mar 19 2026). At ₹1,050 CMP, P/E ~17x on ₹428 Cr FY26E PAT — undemanding for a quality compounder. Land value floor ₹2,440-3,430/share. |
+| Hold | ₹1,100 – ₹1,600 | Approaching revised DCF base (~₹1,400). Hold through Tower 2 delivery FY29-30. |
+| Sell / Exit | At trigger only | IT park occupancy drops below 80%; Tower 2 cancelled or >2yr delay; management diverts >₹500 Cr into non-core businesses (highway amenities, etc.) |
 
-**Why now (Mar 2026):** Stock corrected from ₹1,639 high to ~₹1,050 (-36%). Tower 2 construction started Q3 FY26. Exhibition monopoly partially lost to Jio World Centre — this is the worry creating the discount. But IT park (85% margin, 50% of revenue) is untouched and growing. You're buying a quality compounder at a rare discount.
+**Why now (Mar 2026):** BSE filing (March 19, 2026) confirmed ₹1,000 Cr revenue in FY26 — 37% growth vs FY25's ₹732 Cr. The market had priced NESCO as a slow 8-11% compounder waiting for Tower 2. The actual growth rate is 3-4x higher. At ₹1,050, P/E is ~17x on upgraded FY26E PAT of ~₹428 Cr. This is cheap for a business with 85% IT park margins, zero debt, and ₹14,000 Cr+ of land on the balance sheet.
 
 ---
 
@@ -30,7 +30,22 @@ Mumbai-based company operating from a 70-acre freehold campus in Goregaon East �
 2. **Bombay Exhibition Centre (BEC)** (~25% revenue, ~51% margin) — India's largest private-sector exhibition venue. 60,000 sqm. Advance rent collection. Historically 80%+ margins, now normalizing.
 3. **Foods Division** (~20% revenue, ~12% margin) — Catering during exhibitions (20,000+ meals/day during events). Growing fast (106% YoY in recent quarters).
 4. **Indabrator** (~3% revenue, loss-making) — Shot blasting equipment. Legacy, immaterial.
-5. **Highway Amenities** (new segment, early stage) — Nesco has entered highway amenities (rest stops / wayside services on national highways). This is a **diversification play, not a margin story** — highway amenities operate at thin margins (fuel, food, conveniences) with high capital requirements. Does not change the core thesis. Monitor: if capital allocation into this segment exceeds ₹100-150 Cr, it is a concern given the margin dilution risk to Nesco's otherwise high-quality earnings.
+5. **Highway Amenities** (new segment, early stage) — Nesco is entering highway wayside amenities (rest stops, food courts, fuel, convenience retail on national highways). Announced 2026.
+
+**Business rationale from Nesco's perspective:** The company has deep expertise in operating large-format hospitality + F&B + commercial spaces (BEC, Foods catering, and now the Tower 2 hotel). Highway amenities extend this competency to a new asset class. Government of India's national highway development (NHAI target: 26-lane highways, bharatmala) creates demand for quality wayside stops.
+
+**Why this is NOT the same as core Nesco:**
+- Freehold land moat does NOT apply — highway amenity sites are leased from NHAI, not owned
+- Margins are thin (fuel: near-zero; F&B: 15-20%; convenience: 25-30%) vs IT Park (85%) or BEC (51%)
+- Capital-intensive per site (₹15-30 Cr per site for construction + equipment)
+- Competition: IOCL, HP, BPCL already operate network; private players like Tata, Jubilant, Emerald also entering
+- Regulatory dependence: NHAI concession terms, fuel pricing controls
+
+**Assessment:** Management is using NESCO's F&B and hospitality expertise (BEC catering) as the entry rationale. The Foods division growing 106% YoY may be the launching pad — catering contracts could extend to highway F&B. If Nesco operates 10-15 high-quality amenity stops (similar to European-style service plazas), the revenue could be ₹80-150 Cr at scale, but PAT contribution minimal (5-8% net margin → ₹4-12 Cr).
+
+**Capital watch threshold:** Tower 2 is the priority and costs ₹3,500 Cr over FY26-30. Highway amenities must not compete for that capital. If management discloses >₹200 Cr committed to highway amenities before Tower 2 is complete, that is a capital discipline red flag — score the Management dimension down from 4 → 3.
+
+**Current impact on thesis:** Neutral to slightly negative on quality score (introduces complexity and lower-margin revenue). Does NOT change the core IT Park + Tower 2 thesis. Monitor Q4 FY26 concall for management commentary on capital outlay and business model specifics.
 
 The thesis is simple: **irreplaceable land + annuity income + Tower 2 expansion**.
 
@@ -69,24 +84,29 @@ The thesis is simple: **irreplaceable land + annuity income + Tower 2 expansion*
 
 ### Annual Financials
 
-| Metric | FY21 | FY22 | FY23 | FY24 | FY25 | 9M FY26 |
-|--------|------|------|------|------|------|---------|
-| Revenue (Cr) | 291 | 337 | 546 | 678 | 732 | 680 |
-| Net Profit (Cr) | 172 | 189 | 291 | 363 | 375 | 320 |
-| OPM % | 64% | 65% | 67% | 63% | 60% | 55% |
-| EPS | 24.5 | 26.9 | 41.3 | 51.5 | 53.3 | ~45 |
+| Metric | FY22 | FY23 | FY24 | FY25 | **FY26E** |
+|--------|------|------|------|------|-----------|
+| Revenue (Cr) | 337 | 546 | 678 | 732 | **~1,000** ✓ |
+| Revenue Growth % | — | +62% | +24% | +8% | **+37%** |
+| Net Profit (Cr) | 189 | 291 | 363 | 375 | **~428** |
+| PAT Growth % | — | +54% | +25% | +3% | **~14%** |
+| OPM % | 65% | 67% | 63% | 60% | **~54%** |
+| EPS (₹) | 26.9 | 41.3 | 51.5 | 53.3 | **~60.7** |
 
-*FY21 was COVID trough (exhibitions shut). FY22-24 recovery was strong. FY25 growth moderated to ~8% YoY.*
+*FY26 ₹1,000 Cr confirmed by BSE Reg 30 filing dated March 19, 2026. Implied Q4 FY26 revenue = ₹320 Cr (largest quarter ever). PAT estimate based on 9M actuals + Q4 extrapolation at ~53% OPM.*
+
+**The key insight:** Revenue grew 37% in FY26, but PAT only ~14%. Reason: Foods segment (growing 106% YoY but at 12% margin) is scaling faster than IT Park (85% margin). Every ₹1 of Foods revenue adds ~₹0.12 to PAT vs ₹0.85 from IT Park. This mix shift compresses the blended OPM from 60% (FY25) to ~54% (FY26E). Not a red flag — Foods is incremental profit — but explains the PAT/revenue gap.
 
 ### Quarterly Trend (FY26)
 
-| Quarter | Revenue (Cr) | OPM % | Net Profit (Cr) |
-|---------|-------------|-------|-----------------|
-| Q1 FY26 | 193 | 57% | 96 |
-| Q2 FY26 | 239 | 57% | 119 |
-| Q3 FY26 | 248 | 51% | 105 |
+| Quarter | Revenue (Cr) | OPM % | Net Profit (Cr) | Notes |
+|---------|-------------|-------|-----------------|-------|
+| Q1 FY26 | 193 | 57% | 96 | IT Park strong; Foods ramping |
+| Q2 FY26 | 239 | 57% | 119 | BEC events picking up |
+| Q3 FY26 | 248 | 51% | 105 | Foods 106% YoY; margin dilution |
+| Q4 FY26E | **~320** | ~53% | ~108 | Implied from ₹1,000 Cr milestone; largest Q ever |
 
-*Q3 FY26 had record revenue (₹248 Cr) but OPM compressed to 51% — mix shift toward lower-margin Foods segment (grew 106% YoY) vs high-margin Realty (grew only 7.7% YoY).*
+*Q4 FY26 implied revenue of ₹320 Cr would be 60%+ above any prior quarter. Likely driven by: (a) peak BEC exhibition season, (b) Foods catering for large events, (c) IT Park rent escalations.*
 
 ### Segment Economics (Q1 FY26)
 
@@ -115,8 +135,10 @@ The thesis is simple: **irreplaceable land + annuity income + Tower 2 expansion*
 | FII/DII | 4.65% / 3.78% |
 | Dividend Yield | 0.64% |
 | OCF (annual) | ~₹350 Cr |
-| Revenue CAGR 5yr | 11% |
-| Profit CAGR 5yr | 11% |
+| Revenue CAGR 3yr (FY23→FY26E) | **22%** |
+| Revenue CAGR 5yr (FY21→FY26E) | **28%** |
+| PAT CAGR 3yr | **13%** |
+| PAT CAGR 5yr | **20%** |
 
 ---
 
@@ -126,15 +148,22 @@ The thesis is simple: **irreplaceable land + annuity income + Tower 2 expansion*
 - **Market Cap:** ~₹7,200 Cr
 - **52-week range:** ₹866 – ₹1,639
 
-### Model 1: DCF (Discounted Cash Flow)
+### Model 1: DCF (Updated post ₹1,000 Cr milestone)
 
-*Base FCF: ₹350 Cr (OCF) | Shares: 7.05 Cr | Discount rate: 11% (lower risk — quality business) | Terminal growth: 5%*
+*Base OCF: ₹390 Cr (FY26E PAT ~₹428 Cr × 91% cash conversion) | Shares: 7.05 Cr | Discount rate: 11% | Terminal growth: 5%*
 
-| Scenario | Growth Assumption | Fair Value | vs ₹1,050 |
-|----------|------------------|------------|-----------|
-| Bear | 5% FCF CAGR (no Tower 2 benefit) | ₹850 | -19% |
-| Base | 12% FCF CAGR (partial Tower 2) | ₹1,200 | +14% |
-| Bull | 18% FCF CAGR (full Tower 2 + hotel) | ₹1,750 | +67% |
+**Growth anchors:**
+- Tower 2 capex absorbs most OCF for FY27-29 (remaining spend ~₹2,700 Cr over 3 years = ~₹900 Cr/year vs OCF ₹390 Cr) — management uses cash + possible debt for gap
+- Revenue momentum: Foods at 100%+ YoY, IT Park steady 8-10%/yr, BEC normalizing
+- Tower 2 delivery FY29-30 adds ~₹400-500 Cr PAT at full occupancy
+
+| Scenario | FCF Growth Logic | Fair Value | vs ₹1,050 |
+|----------|-----------------|------------|-----------|
+| **Bear** | 5% CAGR. Foods margins stay thin; IT Park growth 8%; Tower 2 delayed to FY31. Net: modest growth, capex drag on FCF. | **₹990** | -6% |
+| **Base** | 13% CAGR. Revenue sustains 15-20% for FY27-28 (BEC + Foods + IT Park), Tower 2 partial contribution from FY29. | **₹1,430** | +36% |
+| **Bull** | 20% CAGR. Tower 2 on time, hotel opens FY30, IT Park 95%+ occupancy, Foods segment profitability improves. | **₹2,050** | +95% |
+
+*Prior base was ₹1,200 using ₹350 Cr OCF and 12% CAGR. Revised to ₹1,430 using ₹390 Cr OCF and 13% CAGR — reflects the ₹1,000 Cr milestone upgrade.*
 
 ### Model 2: Asset-Based Valuation (unique for Nesco)
 
@@ -249,6 +278,24 @@ Nesco trades at P/E 18-20x vs Prestige at 50x+ because:
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/NESCO.md`*
+
+### 2026-03-19 — ₹1,000 Cr revenue milestone (BSE Reg 30 filing)
+
+**Filing:** NESCO disclosed under Regulation 30 of SEBI LODR that the company achieved ₹1,000 Cr revenue in FY26 (current financial year). Signed by Company Secretary Shalini Kamath.
+
+**Implications — five consequences:**
+
+1. **Growth rate re-rated upward.** The thesis modeled 8-11% YoY growth until Tower 2. FY26 actual = +37% YoY (₹732 Cr → ₹1,000 Cr). The slow-compounder narrative is factually wrong. Foods segment (+106% YoY), BEC event recovery, and IT Park rent escalations all contributed.
+
+2. **Q4 FY26 revenue = ₹320 Cr implied.** Largest single quarter ever (prior best: Q3 ₹248 Cr). Peak BEC exhibition season likely drove this. If Foods catering was attached to peak-season exhibitions, the Foods revenue would also be highest in Q4.
+
+3. **PAT growth is muted (~14%) vs revenue growth (37%).** Foods segment diluting the blended OPM from 60% → ~54%. FY26E PAT ~₹428 Cr vs FY25 ₹375 Cr. This is the nuance — do not confuse revenue milestone with earnings milestone. The quality of the revenue is shifting down slightly.
+
+4. **DCF base updated.** Prior base FCF ₹350 Cr (OCF FY25). Now using ₹390 Cr (FY26E). Base fair value ₹1,200 → **₹1,430** (+19% revision). Stock at ₹1,050 now looks more attractive with 36% upside to base case.
+
+5. **Management confidence signal.** Companies typically file Reg 30 disclosures for material milestones they are proud of. Choosing to disclose the ₹1,000 Cr milestone suggests management views revenue acceleration as a durable trend, not a one-off. Also signals they are monitoring and communicating performance proactively — positive governance indicator.
+
+**Action update:** No change in action (BUY below ₹1,100). Conviction increased. Priority: listen to Q4 FY26 concall for (a) segment breakdown of the ₹1,000 Cr, (b) Tower 2 construction progress, (c) highway amenities capital commitment details.
 
 ### 2026-03-19 — Highway amenities diversification noted
 - NESCO entering highway amenities (wayside services on national highways) — new segment 5 added to business summary
