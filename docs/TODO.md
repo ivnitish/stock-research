@@ -1,5 +1,5 @@
 # Research System — TODO
-*Last updated: 2026-03-17*
+*Last updated: 2026-03-19*
 
 ---
 
@@ -55,6 +55,34 @@
 - [ ] Friend access / Claude API chat widget in index.html
 - [ ] Cards view — tracking stocks section missing
 - [ ] Weekly digest auto-generator (`src/weekly_digest.py`)
+
+---
+
+## ✅ COMPLETED (2026-03-19 session)
+
+**index.html — major UI update:**
+- Added Multibagger potential column (BullTarget/CMP): EPACKPEB 5x+, SWIGGY 4.5x, KERNEX 2.7x, GROWW 2.5x
+- Added Margin column (upside % to Fair Value)
+- Added valuation tags (Deep Value / Undervalued / Fair / Rich) next to company names
+- Renamed "3Y Target" → "Fair Value"
+- RAYMOND moved from Grade C → Grade B 16/25, company name fixed from "stub" to "Engineering"
+- PARADEEP action → "EXIT NOW — market price"
+
+**RAYMOND Section 4b — Order Book Deep Dive (new):**
+- Order book Rs 6,500+ Cr (2.5-3x revenue coverage)
+- Customer breakdown: Safran 35-40%, P&W new LTA, GE+RR existing; all 3 OEMs = 88% global market
+- 1,200 SKUs across 15 engine programs; qualification→serial transition is key margin lever
+- AP plant May 2027; per-unit cost -7-9% post-commissioning
+
+**CONCENTRATION_STRATEGY.md (new):**
+- 41 → 10 positions: exit tracking (Move 1), exit Grade C (Move 2), build ICICIAMC 1%→15-20% (Move 3)
+- Timeline: PARADEEP this week, SWIGGY limit ₹300, STLNETWORK hard deadline June 30 2026
+
+**GitHub Pages fix:**
+- Main repo remote renamed from `origin` → `main-backup` to prevent overwriting HTML repo
+- HTML repo force-pushed to restore ivnitish.github.io/stock-research
+
+**YouTube transcript pipeline idea** added to TODO backlog.
 
 ---
 
