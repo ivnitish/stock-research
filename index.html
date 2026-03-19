@@ -252,7 +252,8 @@
           <th class="col-hide-sm">Action</th>
           <th class="col-hide-sm num">3Y Target</th>
           <th class="col-hide-sm num">Buy Below</th>
-          <th class="col-hide-sm num">Multibagger</th>
+          <th class="col-hide-sm num">Bear Case</th>
+          <th class="col-hide-sm num">Valuation</th>
           <th></th>
         </tr>
       </thead>
@@ -2328,6 +2329,68 @@
   addSectionTotals();
 </script>
 
+
+<script src="valuation_data.js"></script>
+<script>
+(function(){
+  const COLORS = {
+    'Deep Value': '#059669',
+    'Undervalued': '#16a34a',
+    'Fair': '#2563eb',
+    'Rich': '#d97706',
+    'Overvalued': '#dc2626',
+    'Exit': '#9ca3af',
+    'N/A': '#9ca3af',
+  };
+
+  function applyValuation() {
+    if (typeof VALUATION_DATA === 'undefined') return;
+
+    // Remove val-tags (now shown as column instead)
+    document.querySelectorAll('.val-tag').forEach(el => el.remove());
+
+    document.querySelectorAll('tr.stock-row').forEach(row => {
+      const oc = row.getAttribute('onclick') || '';
+      const m  = oc.match(/go\(['"](?:us\/)?([^'"]+)\.html['"]/);
+      if (!m) return;
+      const key = m[1].toUpperCase();
+      const d   = VALUATION_DATA[key];
+      if (!d) return;
+
+      const cells = row.cells;
+      if (cells.length < 15) return;
+      const cell = cells[14]; // Valuation column (was Multibagger)
+      const color = COLORS[d.verdict] || '#9ca3af';
+
+      if (d.verdict === 'Exit') {
+        cell.innerHTML = '<span style="color:#9ca3af;font-size:11px">Exit</span>';
+        cell.style.cssText = '';
+        return;
+      }
+
+      const upside = d.upside_pct !== null
+        ? `${d.upside_pct >= 0 ? '+' : ''}${d.upside_pct.toFixed(0)}%` : '—';
+      const mx = d.multibagger_x !== null
+        ? `${d.multibagger_x.toFixed(1)}x` : '—';
+      const cmpStr = d.cmp ? `CMP ₹${Number(d.cmp).toLocaleString('en-IN')}` : '';
+
+      cell.style.cssText = '';
+      cell.innerHTML =
+        `<div style="font-weight:700;font-size:13px;color:${color}">${upside}</div>` +
+        `<div style="font-size:10px;color:${color};opacity:0.85">${d.verdict}</div>` +
+        `<div style="font-size:10px;color:#9ca3af">${mx} from CMP</div>`;
+      cell.title = `Fair: ₹${d.fair || 'N/A'} | Method: ${d.method} | ${cmpStr} | Updated: ${d.updated}`;
+    });
+  }
+
+  // Run after addSectionTotals finishes
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', applyValuation);
+  } else {
+    applyValuation();
+  }
+})();
+</script>
 <script src="auth.js"></script>
 </body>
 </html>
