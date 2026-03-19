@@ -67,6 +67,9 @@
   th {
     padding: 9px 12px; text-align: left; font-size: 0.65rem; font-weight: 700;
     text-transform: uppercase; letter-spacing: 0.8px; color: #666; white-space: nowrap;
+    position: sticky; top: 0; z-index: 10;
+    background: #f8f9fb;
+    box-shadow: 0 2px 3px -1px rgba(0,0,0,0.07);
   }
   th.num { text-align: right; }
 
@@ -961,9 +964,9 @@
           <td class="col-hide-sm num-cell num-dim">—</td>
           <td class="td-arrow">›</td>
         </tr>
-        <tr class="stock-row" data-section="tracking india" data-grade="w">
+        <tr class="stock-row" data-section="tracking india" data-grade="b" onclick="go('NESCO.html')">
           <td><div class="td-ticker">NESCO<div class="td-company">Nesco Ltd <span class="val-tag val-under">Undervalued</span></div></div></td>
-          <td class="col-hide-sm"><span class="grade grade-W">—</span></td>
+          <td class="col-hide-sm"><span class="grade grade-B">B+ 19/25</span></td>
           <td class="col-hide-sm num-cell">1</td>
           <td class="col-hide-sm num-cell">₹1,376.50</td>
           <td class="col-hide-sm num-cell">₹1,021.10</td>
