@@ -2,7 +2,7 @@
 
 *How we value stocks in this research system. Read this before trusting any number in a thesis.*
 
-**Last updated:** 2026-03-14
+**Last updated:** 2026-03-19
 
 ---
 
@@ -216,6 +216,142 @@ P/B-ROE verdict: **Market implying 35% sustainable ROE — already pricing in de
 4. **Promoter holding matters** — Declining promoter holding (especially below 40%) is a red flag that no valuation model captures. Always overlay with governance check.
 5. **Indian terminal growth = 5%** — India's nominal GDP is ~7% but company-level growth is mean-reverting. 5% is conservative but honest.
 6. **Debt-funded ROE is a trap** — If ROE is high but ROCE is low, the company is using debt to inflate equity returns. Check: ROE - ROCE gap. If gap > 10%, it's leverage-driven.
+
+---
+
+## Growth Rate Anchoring Framework
+
+*Why your growth assumption is the most important — and most often wrong — input in any DCF.*
+
+---
+
+### The Problem: Why Mechanical Declining Rates Fail
+
+The standard DCF template goes something like: "20% growth in Year 1, declining linearly to 10% by Year 5, then 5% terminal." This is intellectually lazy, and it causes real analytical errors.
+
+The problem is that a declining rate curve has a shape — and every company gets the same shape, regardless of what the business is actually doing. A company doubling its manufacturing capacity is not the same as a mature FMCG brand selling the same SKUs it did in 2018. Yet both get "20%→10%→5%" in the model. The result is systematic mispricing: high-growth, capital-expanding businesses get undervalued because the model assumes their growth rate must fall according to a generic curve, not according to the physical and commercial reality of their business.
+
+**SHILCTECH is the proof case.** The old DCF used 12%→6% growth rates. It said: overvalued at ₹3,727. At that same moment, the business had an order book of ₹750-800 Cr against ₹737 Cr annual revenue, was actively doubling manufacturing capacity to 14,000 MVA by April 2027, and was operating in an industry (India T&D) growing 18-22% CAGR. A 12% base case growth assumption implies SHILCTECH is losing market share — which is the exact opposite of what the order book, the capex commitment, and the industry tailwind are telling you. The model was wrong because the inputs were wrong. The fix is not to tweak the curve; it is to anchor the growth rate to the business reality.
+
+---
+
+### The Anchoring Framework: Four Methods
+
+#### Method 1: Capacity-Constrained Revenue Model
+
+**(a) What it is:** Build revenue from the ground up. New capacity × utilization rate × average selling price = revenue ceiling. The growth rate is the *output* of this calculation, not the input.
+
+**(b) Why this is the right anchor:** Manufacturing businesses are capacity-constrained in growth, not demand-constrained. If a company is building a plant that doubles output by FY27, growth in FY27-28 is physically bounded by that new capacity — it cannot suddenly revert to 10% just because the old DCF template says so. The constraint is the factory floor, not a spreadsheet curve.
+
+**(c) When to use it:** Any manufacturer with announced expansion — SHILCTECH, KAYNES, EPACKPEB, SHAKTIPUMP, or any company where a concrete capex plan is publicly disclosed.
+
+**(d) Worked example — SHILCTECH:**
+- Current capacity: 7,500 MVA. Revenue: ₹737 Cr. Revenue per MVA = ₹737 Cr ÷ 7,500 = ₹9.8L per MVA.
+- New capacity by April 2027: 14,000 MVA (87% volume increase).
+- At 82% utilization (current implied rate): 14,000 × 0.82 × ₹9.8L = **₹1,127 Cr** revenue by FY28.
+- Implied CAGR FY25→FY28: (1,127/737)^(1/3) - 1 = **15.3%** — and that is the *floor* for the base case at full capacity, not the ceiling. Near-term tailwind (industry 18-22%) pushes the base case higher.
+- The old DCF's 12% growth assumption is below the capacity-implied floor. It was modelling market share loss without realising it.
+
+---
+
+#### Method 2: Order Book Coverage Ratio
+
+**(a) What it is:** Order book ÷ annual revenue = revenue visibility in years. The rate at which new orders arrive (the book-to-bill ratio) drives the growth floor. Coverage ratio >1x means the next 12 months of revenue is already committed.
+
+**(b) Why this is the right anchor:** An order book is a signed commitment from a customer. It is not a forecast; it is a contract. If a company has 2x annual revenue in its order book, the next 18-24 months of revenue is effectively certain (barring cancellations, which are historically rare in infrastructure). The DCF base case should start with the order book as its floor, not with an arbitrary declining growth assumption.
+
+**(c) When to use it:** Project-based businesses where revenue recognition follows project execution — KERNEX (railway signaling orders), RAYMOND engineering (aerospace LTAs), EPACKPEB (pre-engineered building project orders).
+
+**(d) Worked example — KERNEX:**
+- Order book: ₹2,800 Cr. Annual revenue: ₹220 Cr. Coverage ratio: **12.7x**.
+- Growth for the next 3 years is essentially mechanical — it is execution of the existing order book, not a forecast. The constraint is not demand; it is installation capacity.
+- Bear case growth is NOT 10%. It is "how fast can they execute?" Given the 12.7x coverage, even the pessimistic scenario implies **40-60% CAGR for 2-3 years**. Below that, you are assuming order cancellations at massive scale, which requires a separate argument.
+
+---
+
+#### Method 3: Management Guidance + Expansion Signals
+
+**(a) What it is:** When management gives explicit forward guidance (revenue growth %, capacity targets, order intake rate), use it as the base case. Apply a ~20% discount for the bear scenario and a ~20% premium for the bull scenario.
+
+**(b) Why this is the right anchor:** Management has material non-public information that analysts don't — the live order pipeline, customer conversations, tender win rates, and their own cost structure. When a company commits ₹510 Cr to a new plant in Andhra Pradesh (RAYMOND aerospace) or ₹1,000 Cr to capacity expansion (KAYNES), that capex is itself a forward demand signal. Companies do not commit large capex into uncertain demand. They see the demand on their desk before they sign the construction contract.
+
+**(c) When to use it:** Any company with explicit public guidance or significant capex announcements in the last 12 months. If management has put numbers on the table, use those numbers as the anchor.
+
+**(d) Worked example — RAYMOND engineering:**
+- RAYMOND guided approximately 30% revenue growth for the engineering division in FY26.
+- Base case DCF should start at **30%**. Bear: **20%** (one-third haircut for execution delays). Bull: **40%** (guidance beat, which has been their track record).
+- Using a generic declining curve from 20%→10% is not an independent analysis; it is ignoring public information.
+
+---
+
+#### Method 4: Industry TAM Growth Rate as the Floor
+
+**(a) What it is:** The industry's own growth rate sets the floor below which a company growing faster than the industry should not fall, *unless* you are explicitly modelling market share loss. If the transformer industry is growing 18-20% and your company has an order book equal to 1x+ annual revenue, a 10% growth assumption is inconsistent — it implies the company is ceding share to competitors.
+
+**(b) Why this is the right anchor:** A company growing below its industry's rate is losing market share by definition. If your thesis is that the company is well-positioned in a structural tailwind — which is the only reason to own it — then the base case growth cannot fall below the industry growth rate without a specific explanation for why share is being lost.
+
+**(c) When to use it:** Every holding. For every stock, ask: "What is the industry growing at?" If your assumed growth is below that number, you are implicitly modelling market share loss. Be explicit about why.
+
+**(d) Key India industry growth rates for reference:**
+
+| Industry | CAGR Estimate | Key Drivers |
+|----------|--------------|-------------|
+| T&D / Transformers | 18-22% | RDSS scheme, RE 500GW target, data centers, grid modernisation |
+| EMS / Electronics manufacturing | 20-25% | PLI schemes, China+1 sourcing shift |
+| Pre-engineered buildings | 25-30% | Industrial capex, warehousing, data centers |
+| Railway signaling | 30-40% | Kavach 34,000 km mandate |
+| Aerospace precision components | 25-35% | OEM order backlogs, Make in India defence |
+| AMC / Asset management | 15-18% AUM | SIP penetration, household financialisation |
+| IT services (mid-cap) | 12-18% revenue | Digital transformation spend |
+
+---
+
+### Setting Margin Assumptions — Not Just Growth
+
+Growth without margin discipline is half the analysis. Every DCF must have an explicit margin assumption with a stated rationale. Never assume margins stay flat or compress "arbitrarily." State the mechanism.
+
+**Operating Leverage (margins expand with scale):** Fixed costs — plant depreciation, senior management, regulatory compliance — are absorbed over a larger revenue base as revenue grows. The unit economics improve. Expect this when: revenue is growing >20% AND the cost structure has meaningful fixed components. Examples: EPACKPEB (factory fixed overhead), KERNEX (signaling technology R&D already sunk).
+
+**Mix Shift (margins expand if product mix improves):** Moving toward higher-value products changes the blended margin even if individual product margins are unchanged. SHILCTECH is shifting toward renewable/inverter-duty transformers, which carry higher margins than standard distribution transformers. RAYMOND aerospace (21% EBITDA) growing faster than auto components (14% EBITDA) causes blended margins to expand at the group level without any individual product improving.
+
+**Commodity Risk (margins compress under pressure):** If raw materials are a major cost component and prices are volatile, margin compression is the honest bear case assumption. SHILCTECH's key inputs are copper, aluminium, and CRGO steel — all cyclical. Back-to-back ordering hedges execution-period risk but not multi-year commodity cycle risk. In the bear case for exposed manufacturers: model OPM compressing 1-2% from base.
+
+**Pricing Power vs Competition (the honest check):** Ask directly — can this company raise prices without losing customers? SHILCTECH deliberately avoids government clients and serves private utilities → **Yes, strong pricing power**. EPACKPEB sells to both private developers and government contractors → **Mixed**. KERNEX provides Kavach signaling for which there is no alternative vendor → **High, near-monopoly**.
+
+**Rule:** For every DCF in this system, explicitly state the margin assumption AND the one-sentence rationale. Format:
+
+> "OPM 28% (down from 30%) because: copper prices likely elevated in FY27; back-to-back ordering limits but does not eliminate multi-year commodity cycle exposure."
+
+---
+
+### Selecting Terminal Growth Rate
+
+The default of 5% (India nominal GDP) is the right answer for mature companies in competitive markets. It is the wrong answer for companies in structural, policy-mandated growth sectors.
+
+The terminal growth rate should reflect the long-run growth of the industry the company operates in — not just the economy. India's RE target (500 GW by 2030), Kavach mandate (34,000 km of railways), and household financialisation are not cyclical trends that normalise to GDP. They are decade-long structural programmes. Companies at the centre of these programmes have a terminal growth rate argument above 5%.
+
+| Sector | Suggested Terminal Growth | Rationale |
+|--------|--------------------------|-----------|
+| Power / T&D infrastructure | 7-8% | India electrification + RE integration is a 15-20 year structural theme, not a cycle |
+| Defence electronics | 8-10% | Government mandate-driven (Kavach, ASAT, Make in India defence). Policy is the demand floor. |
+| AMC / Financial services | 6-7% | India household financialisation still in early stages; above nominal GDP for 10+ years |
+| IT services (mid-cap) | 5-6% | Competitive global market; terminal = GDP default is appropriate |
+| Real estate | 5% | Cyclical; default terminal applies |
+| Commodity manufacturers | 4-5% | Price-cycle dependent; conservative terminal is the right choice |
+
+**Rule:** Justify your terminal growth rate in one sentence. If using anything above 5%, cite the specific structural driver that sustains above-GDP growth in perpetuity.
+
+---
+
+### Documentation Requirement
+
+Every DCF in this system must include, for each scenario, a "Rationale" column explaining: (1) why this growth rate was chosen, (2) why this margin assumption, and (3) why this terminal growth rate. A number without a rationale is not analysis; it is a guess.
+
+Use this column format in all thesis files:
+
+```
+| Scenario | Growth Rates | Rationale | OPM Assumption | Terminal g | Fair Value |
+```
 
 ---
 

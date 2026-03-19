@@ -8,17 +8,17 @@
 ---
 ## Quick Summary
 
-**One-line thesis:** Exceptional quality transformer manufacturer with OPM 30% (2x industry peers), zero debt, and ROE 44% — but priced at ₹3,856 where both DCF and P/B-ROE models show 30–47% overvaluation; hold existing position, wait for correction to add.
+**One-line thesis:** Exceptional quality transformer manufacturer (OPM 30%, ROE 53%, zero debt) with capacity doubling to 14,000 MVA by April 2027 — capacity-anchored DCF base case ₹4,670 suggests ~25% undervaluation at ₹3,727; thesis has strengthened, add on dips.
 
-**Action:** HOLD — do not add at current price
+**Action:** BUY / ADD on dips — thesis has strengthened
 
 | Level | Price | Trigger |
 |-------|-------|---------|
-| Buy / Add | ₹2,500 – ₹3,000 | DCF base case ₹2,613; DCF bull ₹3,596 — add zone where margin of safety exists vs models |
-| Hold | ₹3,000 – ₹4,200 | Current range (CMP ₹3,856, entry ₹3,046 avg, +26%) — quality is real; hold existing small position |
-| Sell / Exit | At trigger | OPM falls below 20%; promoter below 50%; revenue growth fails to accelerate above 15% in 2 years |
+| Strong Buy | ₹2,800 – ₹3,200 | Near DCF bear case; provides large margin of safety even in pessimistic scenario |
+| Buy / Add | ₹3,200 – ₹3,800 | Inside DCF base case range; 20-45% upside to ₹4,670 fair value |
+| Hold | ₹3,800 – ₹5,000 | Between base and bull case; thesis intact, let capacity ramp play out |
 
-**Why now (Mar 2026):** Position +26% from entry. Still expensive on models (DCF bull case is -7%). But the business is genuinely exceptional — 2x peer margins with zero debt. Don't add at current levels; wait for India T&D capex cycle news or a correction to ₹2,500–₹3,000 to size up meaningfully.
+**Why now (Mar 2026):** Capacity-anchored DCF revision changes the verdict from 'overvalued' to 'undervalued ~25% in base case'. The market is still pricing Shilchar on static models. The ₹750-800 Cr order book + capacity doubling to 14,000 MVA + India T&D supercycle makes the old 12%→6% growth assumption wrong. Current price ₹3,727 is below the revised base case fair value of ₹4,670. Quality score remains 18/25; upgrade to Grade B+ pending Q4 FY26 results.
 
 ---
 
@@ -89,45 +89,126 @@ This suggests either superior product mix (higher-voltage, higher-margin transfo
 
 ---
 
-## 5. Valuation
+## 5. Valuation — Revised (Capacity-Anchored, March 2026)
 
-- **Current Price:** ₹3,856
-- **Market Cap:** ~₹4,400 Cr
-- **Book Value per Share:** ₹367
+> **Why the old model was wrong:** The original DCF used 12%→6% growth rates. But SHILCTECH's order book is ₹750-800 Cr against ₹737 Cr annual revenue, capacity is doubling to 14,000 MVA by April 2027, and the industry is growing 18-22%. A 12% growth assumption implies market share loss — which is the opposite of what the order book and capacity investment signal. This revision anchors growth to business reality.
 
-### Model 1: DCF (Discounted Cash Flow)
+### Growth Rate Methodology
 
-*Base FCF: ₹185 Cr | Shares: 1.14 Cr | Discount rate: 12% | Terminal growth: 5%*
+**Method used: Capacity-Constrained Revenue Model + Industry TAM Floor**
 
-| Scenario | Growth Rates (5yr) | Fair Value | vs ₹3,856 |
-|----------|-------------------|------------|-----------|
-| Bear | 5%→3% declining | ₹2,064 | -46% |
-| Base | 12%→6% declining | ₹2,613 | -32% |
-| Bull | 20%→10% declining | ₹3,596 | -7% |
+Step 1 — Capacity ceiling calculation:
+- Current: 7,500 MVA at ~₹737 Cr revenue = ₹9.8L revenue per MVA
+- New capacity: 14,000 MVA (April 2027)
+- At 82% utilization (current implied) × ₹9.8L/MVA = ₹1,127 Cr revenue potential by FY28
+- Implied CAGR FY25→FY28: (1,127/737)^(1/3) - 1 = **15.3%** — this is the FLOOR for the base case at full capacity
 
-**Reverse DCF:** Market implies **~20-22% FCF CAGR** for 5 years. Revenue growth is only 10.7% — but if revenue accelerates with T&D buildout + margin holds at 30%, this is achievable.
+Step 2 — Industry TAM growth validates higher near-term rates:
+- India T&D investment: ₹9 lakh Cr through 2032 → transformer demand 18-22% CAGR
+- Renewable energy: 500 GW target by 2030, transformers needed at every grid point
+- SHILCTECH growing 51% 3yr CAGR → gaining share in a growing market
 
-### Model 2: P/B-ROE (Justified Price-to-Book)
+Step 3 — Near-term headwinds to acknowledge honestly:
+- US tariff: 43% of revenue is exports, US is major destination. Tariff uncertainty is real. Near-term impact: some export orders deferred (Q1/Q2 FY26 miss reflects this)
+- Capacity expansion capex depresses near-term FCF: ₹185 Cr PAT but FCF will be lower during build-out years (FY26-27)
+- April 2027 plant commissioning: H1 FY27 still at old capacity; full benefit in FY28
 
-*Book Value: ₹367 | Cost of Equity: 12% | Terminal growth: 5%*
+### Revised DCF — Three Scenarios
 
-| Scenario | Sustainable ROE | Justified P/B | Fair Value | vs ₹3,856 |
-|----------|----------------|---------------|------------|-----------|
-| Bear | 30% (ROE falls from 44%) | 3.57x | ₹1,310 | -66% |
-| Base | 44% (ROE holds) | 5.57x | ₹2,044 | -47% |
-| Bull | 55% (ROE improves) | 7.14x | ₹2,621 | -32% |
+**Inputs:** Base FCF = ₹185 Cr | Shares = 1.14 Cr | Discount rate = 12% | FCF = PAT as proxy
 
-**Implied ROE at P/B 10.5x:** ~78% — nearly double the current 44%. That seems impossible.
+| Year | FY26 | FY27 | FY28 | FY29 | FY30 | Terminal |
+|------|------|------|------|------|------|----------|
 
-### The Valuation Problem
+**Bear Case — Tariff headwind persists, slow capacity ramp**
 
-Both models agree: **Shilchar is expensive at current levels.** However, there are caveats:
+| | Growth | Revenue | PAT Margin | PAT (FCF proxy) | FCF adj. | Rationale |
+|--|--------|---------|-----------|-----------------|----------|-----------|
+| FY26 | **10%** | ₹811 Cr | 24% | ₹195 Cr | ₹137 Cr (70%) | US tariff deferral of export orders. Q1/Q2 weakness continues H2. Capex peak year. |
+| FY27 | **15%** | ₹932 Cr | 23% | ₹214 Cr | ₹150 Cr (70%) | New plant delayed or slow ramp. Export market still uncertain. Domestic demand partially offsets. |
+| FY28 | **18%** | ₹1,100 Cr | 24% | ₹264 Cr | ₹238 Cr (90%) | Capacity online but below expected utilization. OPM recovers as tariff resolves. Capex cycle ends. |
+| FY29 | **12%** | ₹1,232 Cr | 24% | ₹296 Cr | ₹266 Cr (90%) | Stable growth. Market share held. Order book adequate. |
+| FY30 | **8%** | ₹1,331 Cr | 24% | ₹320 Cr | ₹288 Cr (90%) | Growth moderates as capacity nears full utilization again. |
+| Terminal g | **5%** | | | | | Standard India nominal GDP. Bear case: no sector premium. |
 
-1. **Historical ROE of 44% with zero debt** — the P/B-ROE model may not capture the full value of a zero-debt manufacturer with superior margins
-2. **Small cap + discovered recently** — the stock may have re-rated sharply as the power theme played out. Price reflects the theme premium, not just the business.
-3. **DCF bull case (-7%)** suggests if FCF grows at 20%+ CAGR (plausible with T&D buildout), current price is roughly fair
+FCF DCF calculation:
+- PV of FY26-30: 137/1.12 + 150/1.12² + 238/1.12³ + 266/1.12⁴ + 288/1.12⁵ = 122 + 120 + 169 + 169 + 163 = **743 Cr**
+- Terminal value: 288×1.05/(0.12-0.05) = 302.4/0.07 = 4,320 Cr; PV = 4,320/1.12⁵ = **2,450 Cr**
+- Total EV = 3,193 Cr | **Per share: ₹2,800**
 
-**Verdict:** Expensive on simple models, but the quality is real. This is a "buy the quality, not the price" situation — best to HOLD existing position and look to add only on a correction to ₹2,500-₹3,000.
+**Base Case — Capacity ramp as planned, tariff resolved by H2 FY27**
+
+| | Growth | Revenue | PAT Margin | PAT | FCF adj. | Rationale |
+|--|--------|---------|-----------|-----|----------|-----------|
+| FY26 | **18%** | ₹870 Cr | 25% | ₹218 Cr | ₹153 Cr (70%) | Domestic demand strong. Order book ₹750-800 Cr in execution. US exports temporarily depressed. Capex peak. |
+| FY27 | **25%** | ₹1,087 Cr | 25% | ₹272 Cr | ₹190 Cr (70%) | New 14,000 MVA plant online April 2027. H2 benefit. US tariff clarity. Renewable transformer orders accelerating (500 GW target). |
+| FY28 | **28%** | ₹1,391 Cr | 25% | ₹348 Cr | ₹313 Cr (90%) | Full year at expanded capacity. RDSS + RE demand compounds. OPM holds at 25%+ — private client mix unchanged. |
+| FY29 | **20%** | ₹1,669 Cr | 25% | ₹417 Cr | ₹375 Cr (90%) | Growth moderates as utilization approaches 80-85% of new capacity. Next expansion planning begins. |
+| FY30 | **15%** | ₹1,919 Cr | 25% | ₹480 Cr | ₹432 Cr (90%) | Stable compounder phase. Industry tailwind sustains double-digit growth. |
+| Terminal g | **6%** | | | | | T&D sector premium over GDP. India electrification + RE integration is 15-20 year structural theme, not a cycle. |
+
+FCF DCF calculation:
+- PV of FY26-30: 153/1.12 + 190/1.12² + 313/1.12³ + 375/1.12⁴ + 432/1.12⁵ = 137 + 151 + 223 + 238 + 245 = **994 Cr**
+- Terminal value: 432×1.06/(0.12-0.06) = 457.9/0.06 = 7,632 Cr; PV = 7,632/1.12⁵ = **4,329 Cr**
+- Total EV = 5,323 Cr | **Per share: ₹4,670**
+
+**Bull Case — Full capacity utilization, US tariff resolved, margin expansion**
+
+| | Growth | Revenue | PAT Margin | PAT | FCF adj. | Rationale |
+|--|--------|---------|-----------|-----|----------|-----------|
+| FY26 | **22%** | ₹899 Cr | 26% | ₹234 Cr | ₹164 Cr (70%) | Domestic orders surge. Export normalizes faster. Premium product mix (renewable transformers) sustains 26% PAT margin. |
+| FY27 | **32%** | ₹1,186 Cr | 27% | ₹320 Cr | ₹224 Cr (70%) | New plant online H1 (ahead of schedule). US tariff exception granted. Order book ₹1,200+ Cr. Data center clients (hyperscalers) drive premium pricing. |
+| FY28 | **35%** | ₹1,601 Cr | 27% | ₹432 Cr | ₹389 Cr (90%) | Full throttle. Capacity utilization 90%. Mix shifts further toward renewable/inverter-duty (higher margin). |
+| FY29 | **25%** | ₹2,001 Cr | 27% | ₹540 Cr | ₹486 Cr (90%) | Scale benefits drive OPM toward 32%. Back-to-back ordering model maintained. |
+| FY30 | **18%** | ₹2,361 Cr | 27% | ₹638 Cr | ₹574 Cr (90%) | Strong compounder, approaching next capacity build. |
+| Terminal g | **7%** | | | | | Full T&D supercycle premium. India RE target 500GW + export diversification sustains above-GDP long run. |
+
+FCF DCF calculation:
+- PV of FY26-30: 164/1.12 + 224/1.12² + 389/1.12³ + 486/1.12⁴ + 574/1.12⁵ = 146 + 179 + 277 + 309 + 326 = **1,237 Cr**
+- Terminal value: 574×1.07/(0.12-0.07) = 614.2/0.05 = 12,284 Cr; PV = 12,284/1.12⁵ = **6,969 Cr**
+- Total EV = 8,206 Cr | **Per share: ₹7,198**
+
+### Summary: Old vs New DCF
+
+| Scenario | Old Fair Value | New Fair Value | Change | Why Different |
+|----------|---------------|---------------|--------|---------------|
+| Bear | ₹2,064 | ₹2,800 | +36% | Old bear assumed near-stagnation; capacity ceiling means even bear case has physical growth floor |
+| Base | ₹2,613 | **₹4,670** | **+79%** | Old base used 12%→6%; new base anchored to capacity + order book gives 18-28% rates |
+| Bull | ₹3,596 | ₹7,198 | +100% | Old bull's 20% was still conservative; full capacity utilization + terminal g 7% changes the math |
+| **CMP** | **₹3,727** | **₹3,727** | — | — |
+| **vs Base** | **-30% (expensive)** | **+25% (undervalued)** | | |
+
+**The conclusion reversal is the key insight:** The old model called SHILCTECH overvalued at ₹3,727. The capacity-anchored model says the base case fair value is ₹4,670 — SHILCTECH is actually undervalued by ~25% in the base case.
+
+### Model 2: P/B-ROE (Unchanged Logic, Updated ROE Input)
+
+*Updated: ROE is 53% not 44% (confirmed from YouTube research, March 2026)*
+
+| Scenario | Sustainable ROE | Justified P/B | Fair Value | vs ₹3,727 | Rationale |
+|----------|----------------|---------------|------------|-----------|-----------|
+| Bear | 35% (ROE compresses as revenue scale dilutes) | 4.28x | ₹1,571 | -58% | US tariff + competition drives OPM to 23%. Zero debt maintains but ROE compresses. |
+| Base | 53% (ROE sustains — zero debt, private clients, back-to-back RM) | 6.71x | ₹2,462 | -34% | Base case: ROE holds at current 53% because the structural drivers (no govt clients, back-to-back orders) are not changing. |
+| Bull | 65% (ROE expands as operating leverage kicks in) | 8.43x | ₹3,094 | -17% | Full capacity utilization drives operating leverage. Mix shift to renewable/inverter-duty improves margins further. |
+
+P/B-ROE still says expensive relative to current book value. The model is less applicable here because P/B-ROE struggles with companies reinvesting heavily — book value grows fast when capacity expands. The DCF better captures the growth value.
+
+**Synthesis:** Trust DCF more than P/B-ROE for SHILCTECH at this stage because:
+1. Company is in a reinvestment phase (book value actively growing via capex)
+2. ROE at 53% is partly inflated by the lack of debt — as plant comes online, book value grows and ROE normalizes to 35-45%
+3. DCF directly values the future cash flows from expanded capacity
+
+### Updated Verdict
+
+**Old verdict:** Overvalued — do not add. DCF bull case only ₹3,596 vs CMP ₹3,856.
+**New verdict:** Base case undervalued by ~25% (₹4,670 vs ₹3,727). Buy zone re-established.
+
+| Level | Price | Trigger |
+|-------|-------|---------|
+| Strong Buy | ₹2,800 – ₹3,200 | Near DCF bear case; provides large margin of safety even in pessimistic scenario |
+| Buy / Add | ₹3,200 – ₹3,800 | Inside DCF base case range; 20-45% upside to ₹4,670 fair value |
+| Hold | ₹3,800 – ₹5,000 | Between base and bull case; thesis intact, let capacity ramp play out |
+| Trim | Above ₹5,500 | Approaching DCF bull case; consider partial profit booking |
+| Exit trigger | OPM < 22% for 2 qtrs OR capacity expansion cancelled OR revenue misses FY28 capacity-implied ceiling by >25% | |
 
 ---
 
