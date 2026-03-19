@@ -2,7 +2,7 @@
 
 **Status:** OWNED (1 share, ₹1,376 invested, tracking position)
 **Quality Score:** 19/25 (Grade B+: High Conviction)
-**Last Updated:** 2026-03-17
+**Last Updated:** 2026-03-19
 **Data Source:** Screener.in, yfinance, multiple research sources
 
 ---
@@ -30,6 +30,7 @@ Mumbai-based company operating from a 70-acre freehold campus in Goregaon East �
 2. **Bombay Exhibition Centre (BEC)** (~25% revenue, ~51% margin) — India's largest private-sector exhibition venue. 60,000 sqm. Advance rent collection. Historically 80%+ margins, now normalizing.
 3. **Foods Division** (~20% revenue, ~12% margin) — Catering during exhibitions (20,000+ meals/day during events). Growing fast (106% YoY in recent quarters).
 4. **Indabrator** (~3% revenue, loss-making) — Shot blasting equipment. Legacy, immaterial.
+5. **Highway Amenities** (new segment, early stage) — Nesco has entered highway amenities (rest stops / wayside services on national highways). This is a **diversification play, not a margin story** — highway amenities operate at thin margins (fuel, food, conveniences) with high capital requirements. Does not change the core thesis. Monitor: if capital allocation into this segment exceeds ₹100-150 Cr, it is a concern given the margin dilution risk to Nesco's otherwise high-quality earnings.
 
 The thesis is simple: **irreplaceable land + annuity income + Tower 2 expansion**.
 
@@ -248,6 +249,12 @@ Nesco trades at P/E 18-20x vs Prestige at 50x+ because:
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/NESCO.md`*
+
+### 2026-03-19 — Highway amenities diversification noted
+- NESCO entering highway amenities (wayside services on national highways) — new segment 5 added to business summary
+- **Assessment:** Not a margin business. Highway amenities run at thin margins (fuel, food, convenience). Does not alter the core IT park + Tower 2 thesis.
+- **Watch:** Capital allocation into this segment. If >₹150 Cr deployed, flag as margin dilution risk.
+- **Quality score impact:** None currently. If highway amenities grows to >10% of capex, revisit Financials sub-score.
 
 ### 2026-03-17 — Full thesis created
 - Comprehensive data from Screener.in, yfinance, multiple research sources
