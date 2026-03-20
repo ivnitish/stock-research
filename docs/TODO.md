@@ -1,5 +1,5 @@
 # Research System — TODO
-*Last updated: 2026-03-19*
+*Last updated: 2026-03-20*
 
 ---
 
@@ -76,6 +76,39 @@
 - [ ] Friend access / Claude API chat widget in index.html
 - [ ] Cards view — tracking stocks section missing
 - [ ] Weekly digest auto-generator (`src/weekly_digest.py`)
+
+---
+
+## ✅ COMPLETED (2026-03-20 session — GRSE thesis)
+
+**GRSE.md — Full Investment Thesis Created:**
+- Data sourced from Screener.in (FY21-FY25 P&L, balance sheet, cash flows, 6 quarters through Dec 2025)
+- FY25: Revenue ₹5,076 Cr, PAT ₹527 Cr, OPM 8%, ROCE 37%; TTM PAT ₹689 Cr (Dec 2025)
+- 3yr Revenue CAGR 42%, 3yr PAT CAGR 41% — near-zero debt (D/E 0.005x), negative working capital model
+- Quality Score: 17/25 Grade B (MOAT 4, Management 3, Financials 4, Growth Runway 4, Valuation 2)
+- Full Section 4b (Bear/Base/Bull) capacity-anchored: order book ~₹22,000-25,000 Cr (4.5-5x revenue), capacity ceiling ~₹8,000 Cr at current berths
+- DCF: Bear ₹1,420, Base ₹2,650, Bull ₹4,200 vs CMP ₹2,296 — FAIRLY VALUED at base case (7% discount to base)
+- P/B-ROE: not appropriate for order-book-driven business; DCF weighted 90%
+- Section 6: full peer comparison vs Mazagon Dock (41x PE, 49% ROCE), Cochin Shipyard (50x PE, 20% ROCE), L&T defence, Fincantieri
+- Key insight: OPM 8% understates economics — ₹300-350 Cr other income from Navy advance pool adds ~6-7% equivalent OPM; true economics ~14% operating return
+- Status: WATCHLIST — fairly priced at CMP; target entry ₹1,800-2,000 or export order catalyst for re-rating
+- Rendered to GRSE.html and opened in Chrome
+
+---
+
+## ✅ COMPLETED (2026-03-20 session — PATELSAIR thesis)
+
+**PATELSAIR.md — Full Investment Thesis Created:**
+- Data sourced from Screener.in (FY21-FY25 P&L, balance sheet, cash flows, quarterly data through Dec 2025)
+- FY25: Revenue ₹388 Cr, PAT ₹17 Cr, OPM 9%, ROCE 14%; FCF ₹39 Cr (exceptional working capital release)
+- FY26 slowdown flagged: 9M revenue ~₹163 Cr vs 9M FY25 ₹286 Cr — timing vs structural open question; Q4 FY26 is the key test
+- Quality Score: 13/25 Grade C+ (MOAT 2, Management 2, Financials 3, Growth Runway 3, Valuation 3)
+- Full Section 4b (Bear/Base/Bull) with capacity-anchor: fixed assets stable at ₹44 Cr, no capex, working capital-driven model
+- DCF: Bear ₹250, Base ₹444, Bull ₹868 — CMP ₹219 priced near bear case; base implies 103% upside
+- P/B-ROE: bear ₹104, base ₹314, bull ₹628 — stock below book at 0.75x; only makes sense if ROE sustainably <12%
+- Section 6: full peer comparison vs ISGEC (20x PE), Thermax (65x PE), HLE Glascoat, GMM Pfaudler + re-rating thesis
+- Status: WATCHLIST — wait for Q4 FY26 results (May 2026) to confirm timing vs structural thesis
+- Rendered to PATELSAIR.html and opened in Chrome
 
 ---
 

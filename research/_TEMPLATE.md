@@ -87,83 +87,53 @@
 
 ---
 
-## 4b. Forward Growth Estimates (Bear / Base / Bull)
+## 4b. Outlook — Base Estimate + Sensitivity
 
-<!-- This section is the bridge between current metrics and the DCF. Anchor every number to at least one observable fact — order book, capacity, management guidance, or industry data. Do NOT use mechanically declining curves. -->
+<!--
+PURPOSE: Derive the most plausible outcome from HARD DATA, then show what changes the answer.
+NOT three invented scenarios. ONE data-derived base + sensitivity on 1-2 key variables.
 
-### Growth Rate Anchors
+HORIZON: Use FY28 for fast-cycle businesses (consumer, FMCG, software).
+         Use FY30 for order-book / infrastructure / capex-heavy businesses.
+         State your choice and why.
 
-Answer these before filling the tables — each answer becomes a rationale cell in the scenarios below.
+PRIMARY DRIVER: Pick the ONE metric that determines revenue. Everything else follows.
+  - Order-book business  → backlog ÷ execution rate = revenue timeline
+  - Capacity-constrained → capacity × utilisation × ASP = revenue ceiling
+  - Scheme/TAM           → disbursement pace × market share = revenue floor
+  - Market penetration   → industry CAGR × market share trajectory
+  - Recurring/annuity    → installed base × ARPU growth
+-->
 
-| Factor | Evidence / Data Point | Implication for Growth |
-|--------|-----------------------|----------------------|
-| **Current capacity / utilisation** | e.g. 7,500 MVA at 85% util | Revenue ceiling at current capacity = X Cr |
-| **New capacity coming** | e.g. capacity doubling by FY27 | Implied revenue ceiling post-expansion = X Cr |
-| **Order book coverage** | e.g. ₹3,268 Cr backlog vs ₹190 Cr revenue = 17x | Floor growth rate = X% (execution-limited, not demand-limited) |
-| **Management guidance** | e.g. "30% revenue CAGR for FY26-27" (concall date) | Direct input — use as base, adjust ±5% for credibility |
-| **Industry TAM growth** | e.g. India T&D market 18-22% CAGR per NITI Aayog | Floor: company with market share gains ≥ industry rate |
-| **Historical revenue CAGR** | e.g. 5Y CAGR 36% | Bear = deceleration to ~60% of historical (not reversal) |
-| **Investments / capex signals** | e.g. ₹510 Cr committed capex, new plant May 2027 | Management confidence signal; factors into capacity ceiling |
-| **Margin trajectory** | e.g. OPM compressed 14% → 12% due to expansion | Post-capex recovery expected to 15-16% by FY27 |
+**Horizon:** FY[XX] — [reason: order book covers X years / scheme timeline / capacity ramp]
 
----
+**Primary driver:** [ORDER BOOK / CAPACITY / TAM / INSTALLED BASE — pick one]
 
-### Scenario: Bear Case
-<!-- What goes wrong: slowest plausible execution, no tailwinds, margin pressure. NOT catastrophic failure. -->
+[2–3 sentences: what is the hard number, what does it mathematically imply for the target year revenue. Every claim must cite a source — concall, BSE filing, industry report.]
 
-| Year | Revenue (Cr) | Growth % | OPM % | Net Profit (Cr) | Net Margin % | ROCE % | Rationale |
-|------|-------------|---------|-------|----------------|-------------|--------|-----------|
-| FY26E | | | | | | | |
-| FY27E | | | | | | | |
-| FY28E | | | | | | | |
+| Input | Observable Data | Target Year Implied |
+|-------|----------------|---------------------|
+| [e.g. Order book] | [X GW / ₹Y Cr] | Revenue ₹___ Cr |
+| [e.g. Execution rate] | [X MW/q trailing avg] | Revenue CAGR ___% |
+| [e.g. OPM trajectory] | [Z% now → W% target] | PAT ₹___ Cr |
+| [e.g. Recurring revenue] | [X GW O&M @ Y% margin] | Annuity PAT ₹___ Cr |
 
-**Bear assumptions:** [one line each]
-- Revenue growth: anchored to ____. Floor = ____% because ____.
-- OPM: stays at ____% because ____ (competition / input costs / fixed-cost drag).
-- ROCE: ____ because asset turns slow / capital employed grows faster than profits.
+**Base Fair Value:** ₹___ (P/E [X]x on ₹[Y] Cr PAT) → **[+/-__% vs CMP ₹___]**
 
 ---
 
-### Scenario: Base Case
-<!-- Most likely outcome: industry tailwinds play out, management executes largely as guided. -->
+### What Could Change This — Key Sensitivities
 
-| Year | Revenue (Cr) | Growth % | OPM % | Net Profit (Cr) | Net Margin % | ROCE % | Rationale |
-|------|-------------|---------|-------|----------------|-------------|--------|-----------|
-| FY26E | | | | | | | |
-| FY27E | | | | | | | |
-| FY28E | | | | | | | |
+<!-- Only list 1–2 variables that materially move the fair value. Not a laundry list. -->
 
-**Base assumptions:**
-- Revenue growth: ____ (anchored to: capacity ceiling / order book execution / industry TAM).
-- OPM: recovers to ____% by FY__  because ____ (post-capex leverage / mix improvement).
-- ROCE: improves to ____% as new assets start earning.
+| Variable | If worse → Fair Value | If better → Fair Value | What to watch |
+|----------|-----------------------|------------------------|---------------|
+| [e.g. Execution pace] | [X unit/q] → ₹___ (-__%) | [Y unit/q] → ₹___ (+__%) | [Quarterly delivery data] |
+| [e.g. OPM / margins] | [stays flat] → ₹___ (-__%) | [+Xpp by FY__] → ₹___ (+__%) | [Concall OPM guidance] |
 
----
+**Downside:** __% | **Upside:** __% | **Risk/reward:** [asymmetric upside / symmetric / unfavourable]
 
-### Scenario: Bull Case
-<!-- Everything goes right: faster-than-expected capacity ramp, market share gains, margin expansion. -->
-
-| Year | Revenue (Cr) | Growth % | OPM % | Net Profit (Cr) | Net Margin % | ROCE % | Rationale |
-|------|-------------|---------|-------|----------------|-------------|--------|-----------|
-| FY26E | | | | | | | |
-| FY27E | | | | | | | |
-| FY28E | | | | | | | |
-
-**Bull assumptions:**
-- Revenue growth: ____ (new order wins / export / OSAT ramp / capacity fully absorbed ahead of schedule).
-- OPM: expands to ____% because ____ (operating leverage / product mix / pricing power).
-- ROCE: ____% because ____.
-
----
-
-### 3-Year Summary Comparison
-
-| Scenario | FY28 Revenue | Revenue CAGR | FY28 PAT | PAT CAGR | FY28 OPM | FY28 ROCE |
-|----------|-------------|-------------|---------|---------|---------|---------|
-| Bear | | | | | | |
-| Base | | | | | | |
-| Bull | | | | | | |
-| *Current (FY25)* | | *—* | | *—* | | |
+**The one thing that makes the base case wrong:** [1 sentence — the specific event or data point that would invalidate the base estimate]
 
 ---
 
