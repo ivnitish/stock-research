@@ -56,8 +56,11 @@
   ══════════════════════ */
   .table-wrap {
     background: white; border-radius: 12px; border: 1px solid #e8e8e8;
-    overflow-x: auto; /* horizontal scroll for wide table */
+    overflow-x: clip; /* clip, not auto — keeps sticky header working */
     -webkit-overflow-scrolling: touch;
+  }
+  @media (max-width: 1000px) {
+    .table-wrap { overflow-x: auto; } /* mobile: allow horizontal scroll, sticky breaks but acceptable */
   }
 
   table { width: 100%; border-collapse: collapse; min-width: 900px; }
@@ -260,10 +263,10 @@
           <th class="col-hide-sm num">P&amp;L ₹</th>
           <th class="num">P&amp;L %</th>
           <th class="col-hide-sm">Action</th>
-          <th class="col-hide-sm num">3Y Target</th>
-          <th class="col-hide-sm num">Buy Below</th>
-          <th class="col-hide-sm num">Bear Case</th>
-          <th class="col-hide-sm num">Valuation</th>
+          <th class="col-hide-sm num">Target ₹</th>
+          <th class="col-hide-sm num">CMP / Ref</th>
+          <th class="col-hide-sm num">Buy Zone</th>
+          <th class="col-hide-sm num">Upside</th>
           <th></th>
         </tr>
       </thead>
