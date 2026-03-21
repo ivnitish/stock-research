@@ -142,26 +142,57 @@ PRIMARY DRIVER: Pick the ONE metric that determines revenue. Everything else fol
 - **Current Price:** ₹
 - **Market Cap:** ₹ Cr
 - **Shares Outstanding:** Cr
-- **Base PAT (TTM or latest FY):** ₹ Cr
+- **Base Owner Earnings (PAT + D&A − maintenance capex, TTM):** ₹ Cr
 
-<!-- Use Section 4b growth scenarios directly — do not invent new growth rates here. -->
+<!--
+STEP 1 — Pick method from Quality Score (Section 2):
+  Grade A (20-25): Owner Earnings multiple — skip DCF, go straight to multiple
+  Grade B (15-19): Quality-adjusted DCF — use dimension scores to set parameters
+  Grade C (10-14): Graham floor — require 40% margin of safety, no growth credit
+  Grade D (<10):   Asset / NAV value only — do not credit future earnings
 
-### Model 1: DCF (Capacity / Order-Book Anchored)
+STEP 2 — Set DCF parameters from dimension scores (Grade B only):
+  Discount rate:    Financials 5→11% / 4→12% / 3→13% / 2→14% / 1→15%
+  Terminal growth:  Sector default ± MOAT score (5→+2%, 4→+1%, 3→0, 2→-1%, 1→-2%)
+  FCF/PAT %:        Management 5→90% / 4→82% / 3→75% / 2→65% / 1→55%
+  Projection yrs:   Growth Runway 5→8yr / 4→6yr / 3→5yr / 2→4yr / 1→3yr
 
-*FCF adjustment: 70% of PAT during capex years, 85% post-expansion | Discount rate: 12%*
-*Growth rates pulled from Section 4b scenarios — rationale already documented there*
+STEP 3 — Use Section 4b growth rates — do not invent new ones here.
+-->
 
-| Scenario | PAT Growth (Y1→Y5) | Terminal Growth | FCF % | Fair Value | vs CMP |
+**Quality-driven parameters:**
+- **Method:** [Owner Earnings / Quality-adjusted DCF / Graham floor / Asset NAV] — Grade [X]
+- **Discount rate:** [XX]% — Financials score [X/5]
+- **Terminal growth:** [XX]% — sector default [X]% ± MOAT score [X/5] adjustment [±X%]
+- **FCF/PAT conversion:** [XX]% — Management score [X/5]
+- **Projection period:** [X] years — Growth Runway score [X/5]
+
+---
+
+### Model 1: DCF (Quality-Adjusted) — *Skip if Grade A or D*
+
+*Parameters from quality scores above | Growth rates from Section 4b*
+
+| Scenario | PAT Growth (Y1→Yn) | Terminal Growth | FCF % | Fair Value | vs CMP |
 |----------|--------------------|----------------|-------|------------|--------|
-| Bear | | | 70%→85% | ₹ | % |
-| Base | | | 70%→85% | ₹ | % |
-| Bull | | | 65%→85% | ₹ | % |
+| Bear | | | | ₹ | % |
+| Base | | | | ₹ | % |
+| Bull | | | | ₹ | % |
 
-**Terminal growth rationale:** [sector-specific — T&D 7-8%, Defence 8-10%, AMC 6-7%, IT 5-6%, Real estate 5%, Commodity 4-5%]
+### Model 2a: Owner Earnings Multiple — *For Grade A only*
 
-### Model 2: P/B-ROE (Justified Price-to-Book)
+*Owner Earnings = PAT + D&A − maintenance capex*
 
-*Book Value: ₹ | Cost of Equity: 12% | g = 6%*
+```
+Justified Multiple = 1 / (CoE − g)
+CoE = [X]%  |  g = [X]% (MOAT-adjusted terminal)
+Justified P/OE = [X]x
+Fair Value = ₹[OE] × [X]x = ₹
+```
+
+### Model 2b: P/B-ROE — *For capital-light, stable-ROE businesses*
+
+*Book Value: ₹ | Cost of Equity: [X]% | g = [X]%*
 
 | Scenario | Sustainable ROE | Justified P/B | Fair Value | vs CMP |
 |----------|----------------|---------------|------------|--------|
@@ -169,18 +200,15 @@ PRIMARY DRIVER: Pick the ONE metric that determines revenue. Everything else fol
 | Base | % | x | ₹ | % |
 | Bull | % | x | ₹ | % |
 
-**When to weight DCF more:** High-growth, capex-heavy, order-book-driven businesses (KERNEX, KAYNES, EPACK).
-**When to weight P/B-ROE more:** Capital-light, stable-ROE businesses (ICICIAMC, GROWW, NEWGEN).
-
 ### Synthesis
 
-| | DCF | P/B-ROE | Weight |
-|---|---|---|---|
-| Bear | ₹ | ₹ | 60%/40% or explain |
-| Base | ₹ | ₹ | |
-| Bull | ₹ | ₹ | |
+| | DCF / Owner Earnings | P/B-ROE | Weight | Rationale |
+|---|---|---|---|---|
+| Bear | ₹ | ₹ | | |
+| Base | ₹ | ₹ | | |
+| Bull | ₹ | ₹ | | |
 
-**Verdict:** [Undervalued / Fair / Expensive] — [1 sentence explaining which model drives the verdict and why]
+**Verdict:** [Undervalued / Fair / Expensive] — [1 sentence: which model drives it and why]
 
 **"What needs to be true for 5x in [N] years?"**
 - FY[XX] Revenue target: ₹ Cr (at ____% CAGR)

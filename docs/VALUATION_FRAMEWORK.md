@@ -355,6 +355,162 @@ Use this column format in all thesis files:
 
 ---
 
+## Quality Score → Valuation Parameters (The Direct Link)
+
+*Last added: 2026-03-21*
+
+---
+
+### Why Quality Must Connect to Valuation
+
+Our Quality Score has five dimensions — MOAT, Management, Financials, Growth Runway, Valuation. But historically we've run the same DCF assumptions (12% discount rate, 5% terminal growth, 75% FCF conversion) regardless of whether the company scored 8/25 or 22/25. That's inconsistent: a wider moat means more durable cash flows, which means lower uncertainty, which means a lower required return. The valuation inputs *must* reflect what the quality analysis concluded.
+
+Buffett/Munger never do a formal DCF — but their thinking is: "If I'm certain about the earnings 10 years from now, I can pay a higher multiple today." Certainty is worth money. This section systematises that intuition.
+
+---
+
+### Step 1 — Quality Grade → Valuation Method
+
+Before picking parameters, pick the right method. Different quality levels require fundamentally different approaches:
+
+| Grade | Score | Method | Why |
+|-------|-------|--------|-----|
+| **A** | 20–25 | **Owner Earnings multiple** | Certainty is high enough that you don't need a multi-year projection. Just pay a fair multiple on normalised owner earnings. DCF terminal value dominates anyway — skip the noise and go straight to the terminal. |
+| **B** | 15–19 | **Quality-adjusted DCF** | Good business, quantifiable growth anchor (order book / capacity / TAM). Standard DCF structure works; adjust the three parameters below using the dimension scores. |
+| **C** | 10–14 | **Graham margin-of-safety** | Uncertain execution, weak moat, or financial risk. Require ≥40% discount to intrinsic value. Use earnings yield floor: pay ≤6–7x owner earnings (≥15% earnings yield). Do not give credit for growth you cannot quantify. |
+| **D** | <10 | **Asset / NAV value only** | Cannot forecast earnings with any confidence. Value what physically exists today. For operating businesses: EV/Revenue 0.5–1.5x at best. For asset plays: replacement cost minus debt. |
+
+**The Buffett test (apply in sequence):**
+1. Can I estimate owner earnings 10 years from now with >70% confidence? → Grade A method
+2. Do I have a hard quantitative anchor for 5-year growth (order book, capacity plan, TAM)? → Grade B method
+3. Is book value meaningful (asset-heavy, physical assets)? → P/B-ROE or Graham floor
+4. Can I only value current assets? → Grade D, asset NAV only
+
+---
+
+### Step 2 — Quality Score Dimensions → DCF Parameters
+
+For Grade B companies using DCF, each dimension score adjusts a specific input:
+
+#### MOAT Score → Terminal Growth Rate
+
+*Mechanism: A wider moat means the business can sustain above-GDP growth for longer before competition erodes returns. The terminal growth rate should reflect the durable competitive position, not just the GDP average.*
+
+| MOAT Score | Adjustment to Sector Default Terminal g |
+|------------|----------------------------------------|
+| 5 | +2% (e.g. sector default 6% → use 8%) |
+| 4 | +1% |
+| 3 | ±0% (use sector default) |
+| 2 | −1% |
+| 1 | −2% (or floor at 3%) |
+
+**Example:** KERNEX (MOAT 4/5) in railway signaling (sector default 8-10%). Apply +1% → terminal g = 9-10%. DREDGECORP (MOAT 2/5) in port infrastructure (sector default 5%) → terminal g = 4%.
+
+#### Management Score → FCF / PAT Conversion Rate
+
+*Mechanism: Good management allocates capital efficiently, avoids value-destructive acquisitions, and converts earnings to cash. Poor management overstates profits, builds working capital, or burns cash on unproductive capex.*
+
+| Management Score | FCF / PAT Conversion |
+|-----------------|---------------------|
+| 5 | 90% |
+| 4 | 82% |
+| 3 | 75% (default) |
+| 2 | 65% |
+| 1 | 55% |
+
+**Example:** BOSCHLTD (Management 4/5) → use 82% FCF conversion. SWANDEF (Management 2/5) → 65%; they have ₹2,505 Cr debt and negative OCF — actual conversion is negative, so 65% overstates it (use asset method instead, which is correct for Grade D).
+
+#### Financials Score → Discount Rate
+
+*Mechanism: Financial strength (low debt, positive FCF, healthy ROCE) reduces the probability of distress and earnings volatility. Lower risk deserves a lower required return.*
+
+| Financials Score | Discount Rate |
+|-----------------|---------------|
+| 5 | 11% |
+| 4 | 12% (default) |
+| 3 | 13% |
+| 2 | 14% |
+| 1 | 15–16% |
+
+**Example:** KERNEX (Financials 4/5) → 12%. SWANDEF (Financials 1/5) → 16% (or skip DCF entirely — Grade D).
+
+#### Growth Runway Score → Projection Period
+
+*Mechanism: A large, underpenetrated TAM or long order book means you can project growth with confidence for longer. A mature or shrinking TAM means your high-growth assumption runs out of runway faster.*
+
+| Growth Runway Score | Explicit Projection Period |
+|--------------------|---------------------------|
+| 5 | 8 years |
+| 4 | 6 years |
+| 3 | 5 years (default) |
+| 2 | 4 years |
+| 1 | 3 years |
+
+**Example:** EPACKPEB (Growth 5/5, India PEB penetration 15% vs 70% global) → 8-year projection. DREDGECORP (Growth 3/5) → 5 years, standard.
+
+---
+
+### Step 3 — Quick Parameter Lookup by Quality Score
+
+For a Grade B company, use this table to set DCF inputs in one step:
+
+| Total QS | Typical Grade | Discount Rate | Terminal g (above sector default) | FCF % | Projection Period |
+|----------|--------------|---------------|-----------------------------------|-------|-------------------|
+| 20–25 | A | Owner earnings multiple — skip DCF | | | |
+| 17–19 | B+ | 11–12% | +1 to +2% | 82–90% | 6–8 yr |
+| 14–16 | B / B– | 12% | ±0% | 75–82% | 5–6 yr |
+| 10–13 | C+ / C | 13–14% | −1% | 65–75% | 4–5 yr |
+| <10 | D | Asset value — skip DCF | | | |
+
+---
+
+### Owner Earnings Method (For Grade A Companies)
+
+Buffett defines owner earnings as: **Net income + D&A − maintenance capex**. This is the cash the business *actually* generates for the owner each year, stripped of accounting noise.
+
+**Valuation:** Owner Earnings × Justified Multiple = Fair Value
+
+**Justified multiple for a Grade A business:**
+```
+Justified P/OE = 1 / (Required Return − Sustainable Growth)
+              = 1 / (CoE − g)
+
+Example: CoE = 12%, g = 8% (strong moat, structural sector)
+Justified P/OE = 1 / (0.12 − 0.08) = 25x
+```
+
+| Quality Context | CoE | g | Justified P/OE |
+|----------------|-----|---|----------------|
+| A grade, strong moat, structural sector (e.g. AMC, defence EMS) | 11% | 8% | 33x |
+| A grade, capital-light, moderate tailwind | 12% | 7% | 20x |
+| B+ grade, good moat, industry tailwind | 12% | 6% | 17x |
+| B grade, moderate moat | 13% | 5% | 13x |
+
+**Why this is better than DCF for Grade A:** DCF forces you to project year-by-year cash flows, which introduces noise and fake precision. For a great business, the dominant value driver is the terminal value anyway (60–75% of total DCF value). Owner Earnings directly capitalises the terminal, cutting out 5 years of speculative projections.
+
+---
+
+### Grade C — Graham Margin-of-Safety Floor
+
+For uncertain businesses (Grade C), do not give credit for growth. The floor value:
+
+```
+Graham Floor = Owner Earnings × (8.5 + 2g)     [Graham's formula, g in %, use 0 for uncertain]
+
+At g=0 (no-growth assumption):
+Graham Floor = Owner Earnings × 8.5  →  This is ~12% earnings yield
+```
+
+**Require a 40% margin of safety:** Buy only if CMP ≤ 60% of Graham Floor.
+
+**Example — PATELSAIR (C+ 13/25):** Owner earnings ≈ ₹17 Cr. Graham Floor at g=0: ₹17 × 8.5 = ₹144. 60% of ₹144 = ₹86. Current CMP ₹219 is above Graham floor — not a Graham buy. But if you believe Q4 FY26 confirms FY25 was a timing issue (not structural), then normalised earnings are ₹30–35 Cr, Graham Floor = ₹255–298, 60% floor = ₹153–179. Entry below ₹175 with Q4 confirmation = margin of safety exists.
+
+---
+
+*Framework connections: Damodaran's "Quality-adjusted Cost of Capital" (damodaran.com), Greenwald's EPV (Columbia Business School), Buffett's owner earnings definition (1986 Berkshire letter)*
+
+---
+
 ## Decision Integration
 
 After running both models, the output feeds the **Quick Summary** section at the top of each thesis:
