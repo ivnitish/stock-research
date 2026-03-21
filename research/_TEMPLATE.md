@@ -207,40 +207,42 @@ Write the sentence you'd re-read when the stock is -40% and Twitter says "thesis
 
 ## 4. Key Metrics
 
-### P&L (Last 3 Years + TTM)
+<!-- Source: Screener.in → company page → 5-year data tab. Or run: scripts/fetch_bse_filings.py {BSE_CODE} -->
 
-| Metric | FY[N-2] | FY[N-1] | FY[N] | TTM |
-|--------|---------|---------|-------|-----|
-| Revenue (Cr) | | | | |
-| Revenue Growth % | | | | |
-| EBITDA (Cr) | | | | |
-| EBITDA Margin % | | | | |
-| Net Profit (Cr) | | | | |
-| Net Margin % | | | | |
-| EPS (₹) | | | | |
-| EPS Growth % | | | | |
+### P&L (Last 4 Years + TTM)
 
-### Balance Sheet + Returns
+| Metric | FY[N-3] | FY[N-2] | FY[N-1] | FY[N] | TTM |
+|--------|---------|---------|---------|-------|-----|
+| Revenue (Cr) | | | | | |
+| Revenue Growth % | — | | | | |
+| EBITDA (Cr) | | | | | |
+| EBITDA Margin % | | | | | |
+| Net Profit (Cr) | | | | | |
+| Net Margin % | | | | | |
+| EPS (₹) | | | | | |
+| EPS Growth % | — | | | | |
 
-| Metric | FY[N-2] | FY[N-1] | FY[N] | TTM |
-|--------|---------|---------|-------|-----|
-| Total Debt (Cr) | | | | |
-| Debt / Equity | | | | |
-| Cash + Investments (Cr) | | | | |
-| ROCE % | | | | |
-| ROE % | | | | |
-| Capex (Cr) | | | | |
-| FCF (Cr) | | | | |
-| Promoter Holding % | | | | |
+### Balance Sheet + Returns (Last 4 Years)
+
+| Metric | FY[N-3] | FY[N-2] | FY[N-1] | FY[N] | TTM |
+|--------|---------|---------|---------|-------|-----|
+| Total Debt (Cr) | | | | | |
+| Debt / Equity | | | | | |
+| Cash + Investments (Cr) | | | | | |
+| ROCE % | | | | | |
+| ROE % | | | | | |
+| Capex (Cr) | | | | | |
+| FCF (Cr) | | | | | |
+| Promoter Holding % | | | | | |
 
 ### Key Operating Metrics (sector-specific)
 
-| Metric | FY[N-2] | FY[N-1] | FY[N] | TTM |
-|--------|---------|---------|-------|-----|
-| [e.g. Order Book (Cr)] | | | | |
-| [e.g. Capacity / Utilisation %] | | | | |
-| [e.g. Working Capital Days] | | | | |
-| [e.g. Exports % / Domestic %] | | | | |
+| Metric | FY[N-3] | FY[N-2] | FY[N-1] | FY[N] | TTM |
+|--------|---------|---------|---------|-------|-----|
+| [e.g. Order Book (Cr)] | | | | | |
+| [e.g. Capacity / Utilisation %] | | | | | |
+| [e.g. Working Capital Days] | | | | | |
+| [e.g. Exports % / Domestic %] | | | | | |
 
 ### CAGRs
 
@@ -249,7 +251,8 @@ Write the sentence you'd re-read when the stock is -40% and Twitter says "thesis
 | 3-Year | | | |
 | 5-Year | | | |
 
-### Quarterly Trend (last 4 quarters)
+### Quarterly Trend (last 6 quarters)
+<!-- 6 quarters = 1.5 years of trend — enough to spot margin direction and seasonality -->
 
 | Quarter | Revenue (Cr) | EBITDA Margin % | Net Profit (Cr) | Key comment |
 |---------|-------------|-----------------|----------------|-------------|
@@ -257,6 +260,8 @@ Write the sentence you'd re-read when the stock is -40% and Twitter says "thesis
 | Q[N-1] | | | | |
 | Q[N-2] | | | | |
 | Q[N-3] | | | | |
+| Q[N-4] | | | | |
+| Q[N-5] | | | | |
 
 ---
 

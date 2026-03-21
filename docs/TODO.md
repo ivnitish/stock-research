@@ -204,7 +204,20 @@
 - _TEMPLATE.md Section 3: "Why Multi-Bagger" → "Compounding Engine Q&A"
 - index.html: sticky header fix (overflow-x: clip), column rationalization (Target ₹ / Buy Zone / Upside / CMP/Ref), removed GROWW vs ICICIAMC card
 
-**Pending from this session:**
+**Continued this session:**
+- [x] BSE filing fetcher script (`scripts/fetch_bse_filings.py`) — built and tested end-to-end
+  - 20 stocks in PORTFOLIO dict with BSE codes
+  - Filters: Results, Annual Report, Investor Presentation, Analyst Meet, concall transcripts
+  - Downloads to `data/financial statemnt and concals/{SYMBOL}/{YYYYMMDD}_{CATEGORY}_{HEADLINE}.pdf`
+  - Usage: `python3 scripts/fetch_bse_filings.py SYMBOL [--days 180] [--list]` or `ALL`
+  - KERNEX: 3 PDFs downloaded (Q3 results 4.3MB, JV, order win)
+  - RAYMOND: 10 PDFs downloaded (Q3 results 4.1MB, earnings call transcript 636KB, investor pres 3.2MB)
+  - 404s expected for older archived files (BSE CDN limitation, not a bug)
+- [x] render_plan.py table separator bug fixed — old pattern matched `| |` (empty cell), skipping header rows. All 36 research HTMLs re-rendered.
+- [x] _TEMPLATE.md — 4 years + TTM P&L, 6 quarters, Summary Verdict moved to top, Compounding Engine Q&A, correct valuation formula
+- [x] RAYMOND.md — full rewrite with Q3 FY26 call data, 17→16/25 corrected, management claims cross-referenced, full Compounding Engine Q&A, Owner Earnings DCF
+
+**Pending:**
 - [ ] PARADEEP competitive landscape (Section 6) — Chambal/Coromandel/RCF/Deepak data needed
 - [ ] HDFCBANK full thesis — post-merger ROIC, NIM trajectory, loan book quality
 - [ ] Google Sheets 5-min setup (user action required — see docs/SHEETS_SETUP.md)
