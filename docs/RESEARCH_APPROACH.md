@@ -19,8 +19,8 @@ Everything is on-demand — we research when a stock needs a decision, not on a 
 
 | Source | What We Get | How |
 |--------|-------------|-----|
-| **Screener.in** | P&L, Balance Sheet, Cash Flows (10yr), Quarterly trends, Peers, Key ratios | Manual: visit screener.in/company/SYMBOL, copy into MD template |
-| **BSE API** | Quarterly results PDFs, annual reports, concall transcripts, investor presentations | Script: `python3 scripts/fetch_bse_filings.py SYMBOL [--days 365]` |
+| **Screener.in** | P&L, Balance Sheet, Cash Flows (10yr), Quarterly trends, Peers, Key ratios | Claude → WebFetch → screener.in/company/SYMBOL (automatic in session) |
+| **BSE API** | Quarterly results PDFs, annual reports, concall transcripts, investor presentations | Claude runs `python3 src/fetch_bse_filings.py SYMBOL [--days 365]` |
 | **Groww MCP** | Live CMP, fundamentals summary, historical candles | Claude tool: `mcp__growwmcp__fetch_stocks_fundamental_data` |
 | **Kite MCP** | Portfolio holdings, avg buy price, P&L, positions | Claude tool: `mcp__kite__get_holdings` |
 
@@ -59,12 +59,12 @@ Everything is on-demand — we research when a stock needs a decision, not on a 
 
 ## Part 2 — Research Workflow (Per Stock)
 
-### Step 1: Data Gathering (15-20 min)
+### Step 1: Data Gathering (all done by Claude, no manual steps)
 
-1. Run BSE fetcher: `python3 scripts/fetch_bse_filings.py SYMBOL --days 365`
-2. Open Screener.in → copy 4-year P&L + quarterly table into template
-3. Read the most recent concall transcript (in `data/filings/SYMBOL/`)
-4. Fetch peer multiples from Screener peers tab
+1. Claude runs BSE fetcher → downloads concalls, results, presentations to `data/filings/SYMBOL/`
+2. Claude → WebFetch → screener.in/company/SYMBOL → extracts 4-year P&L, balance sheet, quarterly data
+3. Claude reads the downloaded concall transcript PDF
+4. Claude → WebFetch → screener.in peers tab → extracts competitor multiples
 
 ### Step 2: Kill Filter (5 min — stop here if any fails)
 
