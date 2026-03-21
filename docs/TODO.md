@@ -181,7 +181,7 @@
 
 **Housekeeping:**
 - Grok API deprioritized to later
-- YouTube transcripts added to `data/yt transcripts/`
+- YouTube transcripts added to `data/transcripts/`
 
 ---
 
@@ -208,7 +208,7 @@
 - [x] BSE filing fetcher script (`scripts/fetch_bse_filings.py`) — built and tested end-to-end
   - 20 stocks in PORTFOLIO dict with BSE codes
   - Filters: Results, Annual Report, Investor Presentation, Analyst Meet, concall transcripts
-  - Downloads to `data/financial statemnt and concals/{SYMBOL}/{YYYYMMDD}_{CATEGORY}_{HEADLINE}.pdf`
+  - Downloads to `data/filings/{SYMBOL}/{YYYYMMDD}_{CATEGORY}_{HEADLINE}.pdf`
   - Usage: `python3 scripts/fetch_bse_filings.py SYMBOL [--days 180] [--list]` or `ALL`
   - KERNEX: 3 PDFs downloaded (Q3 results 4.3MB, JV, order win)
   - RAYMOND: 10 PDFs downloaded (Q3 results 4.1MB, earnings call transcript 636KB, investor pres 3.2MB)

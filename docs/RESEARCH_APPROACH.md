@@ -25,7 +25,7 @@ Everything is on-demand — we research when a stock needs a decision, not on a 
 | **Kite MCP** | Portfolio holdings, avg buy price, P&L, positions | Claude tool: `mcp__kite__get_holdings` |
 
 **BSE fetcher details:**
-- Saves to: `data/financial statemnt and concals/{SYMBOL}/{YYYYMMDD}_{CATEGORY}_{HEADLINE}.pdf`
+- Saves to: `data/filings/{SYMBOL}/{YYYYMMDD}_{CATEGORY}_{HEADLINE}.pdf`
 - Relevant categories: Quarterly Results, Annual Report, Earnings Call Transcript, Investor Presentation, Analyst Meet
 - Run: `python3 scripts/fetch_bse_filings.py KERNEX` → downloads last 365 days
 - Run: `python3 scripts/fetch_bse_filings.py ALL` → all 20 portfolio stocks
@@ -35,8 +35,8 @@ Everything is on-demand — we research when a stock needs a decision, not on a 
 
 | Source | What We Get | How |
 |--------|-------------|-----|
-| **Earnings call transcripts** | Management tone, specific guidance, claims to verify | From BSE fetcher or `data/financial statemnt and concals/` |
-| **YouTube transcripts** | Analyst views, concall replays, deep dives | Saved to `data/yt transcripts/` — pasted as MD |
+| **Earnings call transcripts** | Management tone, specific guidance, claims to verify | From BSE fetcher or `data/filings/` |
+| **YouTube transcripts** | Analyst views, concall replays, deep dives | Saved to `data/transcripts/` — pasted as MD |
 | **Annual report** | Business overview, risk factors, related-party transactions, capex plans | From BSE fetcher PDF |
 | **Investor presentations** | Management's own version of numbers, order book, capacity | From BSE fetcher PDF |
 | **Web search** | Competitor data, industry TAM, sector news | Claude WebSearch / WebFetch |
@@ -63,7 +63,7 @@ Everything is on-demand — we research when a stock needs a decision, not on a 
 
 1. Run BSE fetcher: `python3 scripts/fetch_bse_filings.py SYMBOL --days 365`
 2. Open Screener.in → copy 4-year P&L + quarterly table into template
-3. Read the most recent concall transcript (in `data/financial statemnt and concals/SYMBOL/`)
+3. Read the most recent concall transcript (in `data/filings/SYMBOL/`)
 4. Fetch peer multiples from Screener peers tab
 
 ### Step 2: Kill Filter (5 min — stop here if any fails)

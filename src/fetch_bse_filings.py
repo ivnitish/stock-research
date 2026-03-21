@@ -9,7 +9,7 @@ Usage:
   python3 scripts/fetch_bse_filings.py KERNEX --list # list only, no download
 
 Downloads: Quarterly results, concall transcripts, annual reports, investor presentations
-Saves to:  data/financial statemnt and concals/{SYMBOL}/{DATE}_{CATEGORY}_{HEADLINE}.pdf
+Saves to:  data/filings/{SYMBOL}/{DATE}_{CATEGORY}_{HEADLINE}.pdf
 """
 
 import sys, os, re, json, time, requests
