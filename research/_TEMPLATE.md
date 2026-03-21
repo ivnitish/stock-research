@@ -21,12 +21,98 @@
 | Valuation | | |
 | **Total** | **/25** | **Grade:** |
 
-## 3. Why This Could Be a Multi-Bagger
-<!-- What specific catalysts could make this a 5-10x in 3-5 years? -->
+## 3. Compounding Engine — Q&A
 
-- **Catalyst 1:**
-- **Catalyst 2:**
-- **Catalyst 3:**
+<!--
+NOT a catalyst list. Multi-baggers are not driven by events; they're driven by
+ROIC × reinvestment runway × holding duration. Each question below forces
+first-principles thinking. Every answer must cite numbers, not narratives.
+
+Reference: VALUATION_FRAMEWORK.md → Quality Score → Valuation Parameters
+-->
+
+### Q1. Is incremental ROIC genuinely high (>20%) — and is it structural, not cyclical?
+
+<!--
+The engine. Without this, nothing compounds. Don't use trailing ROCE as proof —
+show WHY returns on new capital deployed will remain high. Is it asset-light scale?
+Pricing power? Captive demand? Network effects that deepen with scale?
+Show the mechanism, then the number.
+-->
+
+**ROIC on incremental capital:** [X]% — Evidence: [cite specific data: ROCE trend, unit economics, capital deployed vs earnings generated]
+
+**Why it's structural (not cyclical):** [1-2 sentences: what prevents competition from eroding these returns?]
+
+**Honest check:** If ROIC were to drop to [X]%, at what level does the compounding thesis break? [The kill number]
+
+---
+
+### Q2. How much capital can be redeployed at these returns — what's the reinvestment runway?
+
+<!--
+The fuel. TAM is a crude proxy. The real question: how much capital can this
+business absorb at high returns before diminishing returns kick in?
+A ₹500 Cr company with ₹50,000 Cr TAM has 100x runway.
+A ₹5,000 Cr company in a ₹8,000 Cr market is nearly saturated.
+-->
+
+**Reinvestment rate:** [X]% of earnings retained (vs paid out as dividends)
+
+**Capital deployment opportunity:** [Order book / capacity plan / TAM penetration — quantify the ₹ amount of capital that can be deployed at high ROIC]
+
+**Runway estimate:** [X] years before diminishing returns — because: [specific constraint: market saturation, capacity ceiling, regulatory cap]
+
+---
+
+### Q3. What's the implied compounding math?
+
+<!--
+Sanity check. Earnings growth ≈ Reinvestment rate × ROIC.
+A company retaining 70% of earnings at 30% ROIC grows intrinsic value at ~21%.
+Does the math produce a realistic multi-bagger timeline?
+-->
+
+**Compounding formula:**
+- Reinvestment rate: [X]%
+- ROIC on incremental capital: [X]%
+- Implied earnings growth: [X]% × [X]% = **[X]%**
+- At [X]% compounding for [N] years → **[N]x on intrinsic value**
+- Entry P/E [X]x → exit P/E [X]x (re-rating / de-rating) → **total return [N]x**
+
+**Does this pass the smell test?** [Yes/No — and why. If implied growth >30% for >5 years, what specifically sustains it?]
+
+---
+
+### Q4. What specifically kills the compounding?
+
+<!--
+Honesty check. Not a generic risk list — identify the ONE thing that would cause
+ROIC to permanently decline below cost of capital. This should be specific and
+falsifiable, not "competition intensifies" or "macro weakens."
+-->
+
+**The compounding breaks if:** [1 sentence — specific, falsifiable. E.g. "SEBI caps distribution commissions below 50bps, collapsing AMC unit economics" or "CRGO steel supply disruption forces 6-month production halt"]
+
+**How I'd know it's breaking before the stock price tells me:** [leading indicator — order book decline rate, quarterly ROIC trend, customer concentration shift, management capital allocation change]
+
+---
+
+### Q5. Can I hold this through a 40% drawdown? What's my conviction anchor?
+
+<!--
+The human variable. A stock that 20-bags over 15 years will have 3-5 gut-wrenching
+30-50% drawdowns. Your anchor must be rooted in economics (Q1-Q3 above), not in
+price action or narrative. Write the sentence you'd re-read when the stock is -40%
+and Twitter says "thesis broken."
+-->
+
+**My conviction anchor (the sentence I re-read at -40%):**
+> [1 sentence grounded in the ROIC × runway math from Q1-Q3. E.g. "KERNEX has a 17x order book at 25%+ ROIC — the revenue is contractually committed regardless of stock price."]
+
+**What I would NOT do in a drawdown:** [buy more / sell / hold — and why. If sizing is wrong, the drawdown will force a bad decision. State max position size.]
+
+**Historical drawdown test:** Has this stock already had a 30%+ drawdown? What caused it, and did the compounding engine survive? [If yes — that's evidence. If no — you're untested.]
 
 ## 4. Key Metrics
 
