@@ -1,0 +1,553 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>_TEMPLATE.md</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:960px;margin:40px auto;padding:0 24px;color:#1f2937;line-height:1.7;}
+h1{font-size:2em;border-bottom:3px solid #1d4ed8;padding-bottom:8px;color:#1e3a5f;}
+h2{font-size:1.4em;border-bottom:1px solid #e5e7eb;padding-bottom:6px;color:#1d4ed8;margin-top:32px;}
+h3{font-size:1.1em;color:#374151;margin-top:24px;}
+table{border-collapse:collapse;width:100%;margin:16px 0;font-size:13.5px;}
+th{background:#1e3a5f;color:#fff;padding:8px 12px;text-align:left;}
+td{padding:7px 12px;border-bottom:1px solid #f3f4f6;}
+tr:nth-child(even){background:#f9fafb;}
+code{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:#7c3aed;}
+hr{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}
+ul{padding-left:20px;} li{margin:4px 0;}
+strong{color:#111827;}
+</style></head><body><a href="index.html" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a><h1>{COMPANY_NAME} ({SYMBOL}) — Investment Thesis</h1>
+
+<p><strong>Status:</strong> OWNED / WATCHLIST / EXITED</p>
+<p><strong>Quality Score:</strong> X/25 (Grade X)</p>
+<p><strong>Last Updated:</strong> YYYY-MM-DD | <strong>CMP:</strong> ₹ | <strong>Entry:</strong> ₹ | <strong>P&L:</strong> %</p>
+
+<hr>
+
+<p><!--</p>
+<p>═══════════════════════════════════════════════════════════════════════════</p>
+<p>  SUMMARY VERDICT — FILL THIS LAST, READ THIS FIRST</p>
+<p>  This is the output of the entire analysis below. Do not fill until Sections 1-7 are complete.</p>
+<p>  The goal: if a company survives rigorous skepticism, that is a meaningful signal.</p>
+<p>  Base rate for any stock becoming a multi-bagger is low. Find reasons to REJECT.</p>
+<p>═══════════════════════════════════════════════════════════════════════════</p>
+<p>--></p>
+
+<h2>Summary Verdict</h2>
+
+<ul>
+<li><strong>Company:</strong> [Name]</li>
+<li><strong>Kill Filter Result:</strong> PASS / FAIL — [if FAIL: which filter triggered and stop here]</li>
+<li><strong>Compounding Engine Score:</strong> Strong / Moderate / Weak</li>
+<li><strong>Reinvestment Runway:</strong> [X] years estimated</li>
+<li><strong>Competitive Trajectory:</strong> Widening / Stable / Narrowing</li>
+<li><strong>Management Quality:</strong> High / Medium / Low</li>
+<li><strong>Valuation:</strong> Attractive / Fair / Expensive — implied market growth rate: [X]%</li>
+<li><strong>Overall Multi-Bagger Probability:</strong> High / Medium / Low / Not a candidate</li>
+</ul>
+
+<h3>The Bull Case</h3>
+<p><!-- 3 sentences only. Ground each sentence in ROIC × runway × re-rating math from Sections 3 and 5. --></p>
+
+<p>[Sentence 1: The compounding engine — what sustains high ROIC and for how long]</p>
+<p>[Sentence 2: The re-rating catalyst — what closes the valuation gap to peers]</p>
+<p>[Sentence 3: The math — "if [X] plays out, intrinsic value reaches ₹Y by FYZ = Nx from CMP"]</p>
+
+<h3>The Bear Case</h3>
+<p><!-- 3 sentences only. Must be specific — not "competition intensifies." --></p>
+
+<p>[Sentence 1: The specific mechanism that breaks ROIC permanently]</p>
+<p>[Sentence 2: How this plays out operationally — the cascade of consequences]</p>
+<p>[Sentence 3: Bear case value — "in this scenario, multiple compresses to Xx on ₹Y earnings = ₹Z/share = W% drawdown"]</p>
+
+<h3>Key Monitorables</h3>
+<p><!-- 3-5 metrics to check every quarter. Must be: measurable, specific, and directly tied to the compounding thesis. --></p>
+
+<p>1. <strong>[Metric name]:</strong> [Threshold that validates thesis] vs [threshold that triggers concern] — Source: [concall / BSE filing / Screener.in]</p>
+<p>2. <strong>[Metric name]:</strong> ...</p>
+<p>3. <strong>[Metric name]:</strong> ...</p>
+<p>4. <strong>[Metric — optional]:</strong> ...</p>
+<p>5. <strong>[Metric — optional]:</strong> ...</p>
+
+<h3>Data Gaps</h3>
+<p><!-- What is missing that would change conviction? State exactly what to find and where. --></p>
+
+<p>1. [e.g. "Customer concentration: top-3 customer % of revenue not disclosed — check investor presentation or annual report"]</p>
+<p>2. [Gap 2]</p>
+<p>3. [Gap 3]</p>
+
+<hr>
+
+<h2>1. Business Summary</h2>
+<p><!-- 3-4 sentences: what does this company do, who are its customers, what's its competitive position, what changed recently --></p>
+
+
+<hr>
+
+<h2>2. Quality Score + Kill Filter</h2>
+
+<p><!--</p>
+<p>KILL FILTER — check these first. If any FAIL, stop the analysis.</p>
+<p>  ✗ Negative FCF for 3+ consecutive years with no clear path to positive</p>
+<p>  ✗ Promoter pledging > 50% of holding OR consistent stake reduction without explanation</p>
+<p>  ✗ Auditor qualification or CARO issues in last 2 financial years</p>
+<p>  ✗ Revenue growth < inflation rate (real decline) while management claims growth</p>
+<p>  ✗ Related party transactions > 10% of revenue with unclear commercial purpose</p>
+<p>  ✗ Cash flow from operations consistently < reported PAT (earnings quality issue)</p>
+<p>--></p>
+
+<p><strong>Kill Filter:</strong> PASS / FAIL — [note any flags]</p>
+
+<table>
+<tr><th>Dimension</th><th>Score (1-5)</th><th>Notes</th></tr>
+<tr><td>MOAT</td><td></td><td></td></tr>
+<tr><td>Management</td><td></td><td></td></tr>
+<tr><td>Financials</td><td></td><td></td></tr>
+<tr><td>Growth Runway</td><td></td><td></td></tr>
+<tr><td>Valuation</td><td></td><td></td></tr>
+<tr><td><strong>Total</strong></td><td><strong>/25</strong></td><td><strong>Grade:</strong></td></tr>
+</table>
+
+<hr>
+
+<h2>3. Compounding Engine — Q&A</h2>
+
+<p><!--</p>
+<p>NOT a catalyst list. Multi-baggers are not driven by events — they are driven by</p>
+<p>ROIC × Reinvestment Rate × Holding Duration. Each question forces first-principles</p>
+<p>thinking. Every answer must cite numbers, not narratives.</p>
+
+<p>GENERAL ANALYSIS INSTRUCTIONS (apply throughout this document):</p>
+<p>1. Always show your math. If you compute ROIC, show numerator and denominator. If you estimate runway, show TAM and penetration numbers.</p>
+<p>2. Be specific. Not "margins are healthy" — say "EBITDA margin 18.5%, up from 14.2% three years ago, driven by operating leverage on a 38% revenue CAGR."</p>
+<p>3. Distinguish facts from inferences — label opinions as such ("Inference: ...", "Fact: ...").</p>
+<p>4. If analyzing an earnings call: first extract KEY numbers and management claims, then map them to this framework. Do not summarize — evaluate through the multi-bagger lens.</p>
+<p>5. Be skeptical of management narratives. Cross-reference claims against financials. If management says "gaining market share" but revenue growth is below industry growth, flag the contradiction explicitly.</p>
+<p>6. For Indian small/mid caps: pay extra attention to promoter quality, related party transactions, and cash flow vs reported profits. These are the most common places where small-cap stories fall apart.</p>
+<p>--></p>
+
+<h3>Q1. Is incremental ROIC genuinely high (>20%) — and is it structural, not cyclical?</h3>
+
+<p><!--</p>
+<p>The engine. Without this, nothing compounds. Don't use trailing ROCE as proof —</p>
+<p>show WHY returns on new capital deployed will remain high.</p>
+<p>Show the mechanism, then the number.</p>
+<p>ROIC = NOPAT / Invested Capital (show both components explicitly).</p>
+<p>--></p>
+
+<p><strong>ROIC calculation:</strong></p>
+<ul>
+<li>NOPAT = EBIT × (1 − tax rate) = ₹[X] Cr × (1 − [X]%) = <strong>₹[X] Cr</strong></li>
+<li>Invested Capital = Total Assets − Cash − Non-interest-bearing current liabilities = <strong>₹[X] Cr</strong></li>
+<li><strong>Incremental ROIC: [X]%</strong> (use last 2-3 years' incremental capital and incremental NOPAT, not total)</li>
+</ul>
+
+<p><strong>Why it's structural (not cyclical):</strong> [1-2 sentences — what prevents competition from eroding these returns? Is it asset-light scale? Pricing power? Captive demand? Network effects? Regulatory moat?]</p>
+
+<p><strong>Honest check:</strong> If ROIC drops to [X]%, the compounding thesis breaks because [specific mechanism].</p>
+
+<hr>
+
+<h3>Q2. How much capital can be redeployed at these returns — what's the reinvestment runway?</h3>
+
+<p><!--</p>
+<p>The fuel. TAM is a crude proxy. The real question: how much capital can this</p>
+<p>business absorb at high returns before diminishing returns kick in?</p>
+<p>Runway estimate = (Addressable capital opportunity) / (Annual capital deployed)</p>
+<p>--></p>
+
+<p><strong>Reinvestment rate:</strong> [X]% of earnings retained (vs [X]% paid as dividends)</p>
+<ul>
+<li>Retained earnings last year: ₹[X] Cr | Capex: ₹[X] Cr | Working capital increase: ₹[X] Cr</li>
+</ul>
+
+<p><strong>Capital deployment opportunity:</strong></p>
+<ul>
+<li>Order book / TAM penetration / capacity plan: [quantify in ₹]</li>
+<li>At current deployment rate of ₹[X] Cr/year, this represents [X] years of runway</li>
+</ul>
+
+<p><strong>Runway estimate:</strong> [X] years — because: [specific constraint: market saturation ceiling, capacity limit, regulatory cap, addressable capital exhaustion]</p>
+
+<hr>
+
+<h3>Q3. What's the implied compounding math?</h3>
+
+<p><!--</p>
+<p>Sanity check. Earnings growth ≈ Reinvestment Rate × ROIC.</p>
+<p>A company retaining 70% of earnings at 30% ROIC grows intrinsic value at ~21%.</p>
+<p>Does this produce a realistic multi-bagger timeline?</p>
+<p>--></p>
+
+<p><strong>Compounding formula:</strong></p>
+<ul>
+<li>Reinvestment rate: [X]%</li>
+<li>ROIC on incremental capital: [X]%</li>
+<li><strong>Implied earnings CAGR: [X]% × [X]% = [X]%</strong> (this is g, used in Section 5 valuation)</li>
+<li>At [X]% compounding for [N] years → <strong>[N]x on intrinsic value</strong></li>
+<li>Entry multiple [X]x → exit multiple [X]x (re-rating / de-rating assumption) → <strong>total return [N]x</strong></li>
+</ul>
+
+<p><strong>Smell test:</strong> [Yes/No and why. If implied growth >30% for >5 years, what specifically sustains it?]</p>
+
+<hr>
+
+<h3>Q4. What specifically kills the compounding?</h3>
+
+<p><!--</p>
+<p>Honesty check. NOT a generic risk list — identify the ONE thing that would cause</p>
+<p>ROIC to permanently decline below cost of capital. Specific and falsifiable.</p>
+<p>--></p>
+
+<p><strong>The compounding breaks if:</strong> [1 sentence — specific, falsifiable. E.g. "SEBI caps distribution commissions below 50bps, collapsing AMC unit economics" or "Boeing halts 737 MAX production for >6 months, removing 40% of aerospace revenue"]</p>
+
+<p><strong>Leading indicator I'd see before the stock price tells me:</strong> [specific metric — order book decline rate, quarterly ROIC trend, customer concentration shift, management capital allocation change]</p>
+
+<hr>
+
+<h3>Q5. Can I hold through a 40% drawdown? What's my conviction anchor?</h3>
+
+<p><!--</p>
+<p>The human variable. A stock that 20-bags over 15 years will have 3-5 gut-wrenching</p>
+<p>30-50% drawdowns. Your anchor must be rooted in economics (Q1-Q3), not price action.</p>
+<p>Write the sentence you'd re-read when the stock is -40% and Twitter says "thesis broken."</p>
+<p>--></p>
+
+<p><strong>My conviction anchor (the sentence I re-read at -40%):</strong></p>
+<p>> [1 sentence grounded in ROIC × runway math. E.g. "KERNEX has ₹3,268 Cr of signed orders at 35%+ ROIC — the revenue is contractually committed regardless of price action."]</p>
+
+<p><strong>What I will NOT do in a drawdown:</strong> [buy more / sell / hold — state max position size and why]</p>
+
+<hr>
+
+<h2>4. Key Metrics</h2>
+
+<h3>P&L (Last 3 Years + TTM)</h3>
+
+<table>
+<tr><th>Metric</th><th>FY[N-2]</th><th>FY[N-1]</th><th>FY[N]</th><th>TTM</th></tr>
+<tr><td>Revenue (Cr)</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Revenue Growth %</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>EBITDA (Cr)</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>EBITDA Margin %</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Net Profit (Cr)</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Net Margin %</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>EPS (₹)</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>EPS Growth %</td><td></td><td></td><td></td><td></td></tr>
+</table>
+
+<h3>Balance Sheet + Returns</h3>
+
+<table>
+<tr><th>Metric</th><th>FY[N-2]</th><th>FY[N-1]</th><th>FY[N]</th><th>TTM</th></tr>
+<tr><td>Total Debt (Cr)</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Debt / Equity</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Cash + Investments (Cr)</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>ROCE %</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>ROE %</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Capex (Cr)</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>FCF (Cr)</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Promoter Holding %</td><td></td><td></td><td></td><td></td></tr>
+</table>
+
+<h3>Key Operating Metrics (sector-specific)</h3>
+
+<table>
+<tr><th>Metric</th><th>FY[N-2]</th><th>FY[N-1]</th><th>FY[N]</th><th>TTM</th></tr>
+<tr><td>[e.g. Order Book (Cr)]</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>[e.g. Capacity / Utilisation %]</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>[e.g. Working Capital Days]</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>[e.g. Exports % / Domestic %]</td><td></td><td></td><td></td><td></td></tr>
+</table>
+
+<h3>CAGRs</h3>
+
+<table>
+<tr><th>Period</th><th>Revenue CAGR</th><th>PAT CAGR</th><th>EPS CAGR</th></tr>
+<tr><td>3-Year</td><td></td><td></td><td></td></tr>
+<tr><td>5-Year</td><td></td><td></td><td></td></tr>
+</table>
+
+<h3>Quarterly Trend (last 4 quarters)</h3>
+
+<table>
+<tr><th>Quarter</th><th>Revenue (Cr)</th><th>EBITDA Margin %</th><th>Net Profit (Cr)</th><th>Key comment</th></tr>
+<tr><td>Q[N] FY[Y]</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Q[N-1]</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Q[N-2]</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Q[N-3]</td><td></td><td></td><td></td><td></td></tr>
+</table>
+
+<hr>
+
+<h2>4b. Outlook — Base Estimate + Sensitivity</h2>
+
+<p><!--</p>
+<p>PURPOSE: Derive the most plausible outcome from HARD DATA, then show what changes the answer.</p>
+<p>NOT three invented scenarios. ONE data-derived base + sensitivity on 1-2 key variables.</p>
+
+<p>PRIMARY DRIVER — pick the ONE metric that determines revenue:</p>
+<li style="margin-left:20px">Order-book business  → backlog ÷ execution rate = revenue timeline</li>
+<li style="margin-left:20px">Capacity-constrained → capacity × utilisation × ASP = revenue ceiling</li>
+<li style="margin-left:20px">Scheme/TAM           → disbursement pace × market share = revenue floor</li>
+<li style="margin-left:20px">Market penetration   → industry CAGR × market share trajectory</li>
+<li style="margin-left:20px">Recurring/annuity    → installed base × ARPU growth</li>
+<p>--></p>
+
+<p><strong>Horizon:</strong> FY[XX] — [reason]</p>
+
+<p><strong>Primary driver:</strong> [ORDER BOOK / CAPACITY / TAM / INSTALLED BASE]</p>
+
+<p>[2-3 sentences: what is the hard number, what does it mathematically imply for the target year. Every claim must cite a source — concall, BSE filing, industry report.]</p>
+
+<table>
+<tr><th>Input</th><th>Observable Data</th><th>Target Year Implied</th></tr>
+<tr><td>[e.g. Order book]</td><td>[₹X Cr]</td><td>Revenue ₹___ Cr</td></tr>
+<tr><td>[e.g. Execution rate]</td><td>[₹X Cr/quarter trailing avg]</td><td>Revenue CAGR ___%</td></tr>
+<tr><td>[e.g. OPM trajectory]</td><td>[Z% now → W% target]</td><td>PAT ₹___ Cr</td></tr>
+</table>
+
+<p><strong>Base Fair Value:</strong> ₹___ (P/E [X]x on ₹[Y] PAT) → <strong>[+/-__% vs CMP]</strong></p>
+
+<h3>Key Sensitivities</h3>
+
+<table>
+<tr><th>Variable</th><th>If worse → Fair Value</th><th>If better → Fair Value</th><th>What to watch</th></tr>
+<tr><td>[e.g. Execution pace]</td><td>₹___ (-__%)</td><td>₹___ (+__%)</td><td>[Quarterly delivery data]</td></tr>
+<tr><td>[e.g. OPM / margins]</td><td>₹___ (-__%)</td><td>₹___ (+__%)</td><td>[Concall OPM guidance]</td></tr>
+</table>
+
+<p><strong>Risk/reward:</strong> Downside __% / Upside __%  → [asymmetric upside / symmetric / unfavourable]</p>
+
+<p><strong>The one thing that makes the base case wrong:</strong> [1 sentence]</p>
+
+<hr>
+
+<h2>5. Valuation</h2>
+
+<ul>
+<li><strong>Current Price:</strong> ₹ | <strong>Market Cap:</strong> ₹ Cr | <strong>Shares:</strong> Cr</li>
+<li><strong>Owner Earnings (PAT + D&A − maintenance capex, TTM):</strong> ₹ Cr</li>
+<li><strong>Current earnings (PAT TTM):</strong> ₹ Cr — Source: Screener.in → P&L</li>
+</ul>
+
+<p><!--</p>
+<p>STEP 1 — Pick method from Quality Score (Section 2):</p>
+<p>  Grade A (20-25): Owner Earnings multiple — skip DCF, go straight to justified multiple</p>
+<p>  Grade B (15-19): Quality-adjusted DCF — use dimension scores to set parameters</p>
+<p>  Grade C (10-14): Graham floor — require 40% margin of safety, no growth credit</p>
+<p>  Grade D (<10):   Asset / NAV value only — do not credit future earnings</p>
+
+<p>STEP 2 — Set parameters from dimension scores (Grade B/A):</p>
+<p>  r (discount rate):   Financials 5→11% / 4→12% / 3→13% / 2→14% / 1→15%</p>
+<p>  Terminal growth (g): Sector default ± MOAT score (5→+2%, 4→+1%, 3→0, 2→-1%, 1→-2%)</p>
+<p>  FCF/PAT %:           Management 5→90% / 4→82% / 3→75% / 2→65% / 1→55%</p>
+<p>  Projection years (n): Growth Runway 5→8yr / 4→6yr / 3→5yr / 2→4yr / 1→3yr</p>
+
+<p>STEP 3 — Use Section 4b growth rates. Do not invent new ones here.</p>
+<p>--></p>
+
+<h3>5.1 — Valuation Parameters</h3>
+
+<p><strong>Method:</strong> [Owner Earnings multiple / Quality-adjusted DCF / Graham floor / Asset NAV] — Grade [X]</p>
+
+<table>
+<tr><th>Parameter</th><th>Value</th><th>Derivation</th></tr>
+<tr><td><strong>g</strong> (sustainable earnings growth)</td><td>[X]%</td><td>Reinvestment Rate [X]% × ROIC [X]% = [X]% (from Q3 Compounding Engine)</td></tr>
+<tr><td><strong>n</strong> (runway duration)</td><td>[X] years</td><td>From Q2 Compounding Engine — [specific constraint]</td></tr>
+<tr><td><strong>r</strong> (required return)</td><td>[X]%</td><td>Financials score [X/5] → [X]%; typical range 12-15% for Indian equities</td></tr>
+<tr><td><strong>Terminal Multiple</strong></td><td>[X]x P/E</td><td>[15-20x if business still growing at end of runway; 10-12x if mature/commodity]</td></tr>
+<tr><td><strong>FCF/PAT conversion</strong></td><td>[X]%</td><td>Management score [X/5]</td></tr>
+</table>
+
+<p><strong>Formula (for growth phase):</strong></p>
+<p><code>`</code></p>
+<p>Intrinsic Value = Owner Earnings × [ (1 - (1+g)^n / (1+r)^n) / (r-g) ]</p>
+<p>               + Terminal Value × 1/(1+r)^n</p>
+
+<p>where Terminal Value = Year-n Earnings × Terminal Multiple</p>
+<p><code>`</code></p>
+
+<hr>
+
+<h3>5.2 — Margin of Safety Assessment</h3>
+
+<p><!--</p>
+<p>Sources:</p>
+<p>  Current market cap → BSE/NSE or Screener.in (top of page)</p>
+<p>  Current earnings   → Screener.in → Profit & Loss → TTM PAT</p>
+<p>  Implied growth     → solve: Market Cap = Current Earnings × [ (1 - (1+g)^n / (1+r)^n) / (r-g) ] + Terminal for g</p>
+<p>--></p>
+
+<p><strong>Reverse DCF — what growth rate is the market implying at current price?</strong></p>
+<ul>
+<li>Market Cap: ₹[X] Cr | TTM PAT: ₹[X] Cr | Current P/E: [X]x</li>
+<li>At r=[X]%, n=[X] years, Terminal Multiple=[X]x → <strong>Implied g = [X]%</strong></li>
+<li>Is this reasonable? [Yes/No — compare to Section 3 Q3 compounding math]</li>
+<li>Gap between implied growth ([X]%) and estimated actual growth ([X]%) = <strong>[X]pp. This is the margin of safety.</strong></li>
+</ul>
+
+<p><strong>What could go wrong (top 2-3 risks that break the compounding thesis):</strong></p>
+
+<table>
+<tr><th>Risk</th><th>Mechanism</th><th>Bear Case Impact</th><th>Bear Case Value</th></tr>
+<tr><td>[Risk 1]</td><td>[How it breaks ROIC]</td><td>EBITDA drops to ₹X Cr</td><td>₹Y/share ([Z]% drawdown)</td></tr>
+<tr><td>[Risk 2]</td><td>[Mechanism]</td><td></td><td></td></tr>
+<tr><td>[Risk 3]</td><td>[Mechanism]</td><td></td><td></td></tr>
+</table>
+
+<p><strong>If the biggest risk materializes:</strong> [1 sentence describing worst single-risk scenario and its implied price]</p>
+
+<hr>
+
+<h3>5.3 — Position Sizing</h3>
+
+<p><!--</p>
+<p>Based on conviction from Sections 2-4:</p>
+<p>  High conviction (Kill Filter PASS, all 4 Compounding Engine phases strong): 5-10% position</p>
+<p>  Moderate conviction (1 phase weak or 1 data gap): 2-5% position</p>
+<p>  Speculative (2+ phases weak but potential): 1-2% position or watchlist only</p>
+<p>--></p>
+
+<ul>
+<li><strong>Conviction level:</strong> High / Moderate / Speculative — based on: [which phases are strong/weak]</li>
+<li><strong>Recommended position size:</strong> [X-Y]%</li>
+<li><strong>Current position:</strong> [X]%</li>
+<li><strong>Action:</strong> [At sizing; Add on dips below ₹X; Trim above ₹Y; Exit if Z]</li>
+</ul>
+
+<hr>
+
+<h3>5.4 — Valuation Models</h3>
+
+<p>#### Model 1: DCF / Owner Earnings Multiple</p>
+<p><em>Parameters from 5.1 | Growth rates from Section 4b</em></p>
+
+<table>
+<tr><th>Scenario</th><th>PAT Growth (Y1→Yn)</th><th>Terminal Multiple</th><th>Fair Value</th><th>vs CMP</th></tr>
+<tr><td>Bear</td><td></td><td>[X]x</td><td>₹</td><td>%</td></tr>
+<tr><td>Base</td><td></td><td>[X]x</td><td>₹</td><td>%</td></tr>
+<tr><td>Bull</td><td></td><td>[X]x</td><td>₹</td><td>%</td></tr>
+</table>
+
+<p>#### Model 2: P/B-ROE <em>(for capital-light, stable-ROE businesses)</em></p>
+<p><em>Book Value: ₹ | CoE: [X]% | g: [X]%</em></p>
+
+<table>
+<tr><th>Scenario</th><th>Sustainable ROE</th><th>Justified P/B</th><th>Fair Value</th><th>vs CMP</th></tr>
+<tr><td>Bear</td><td>%</td><td>x</td><td>₹</td><td>%</td></tr>
+<tr><td>Base</td><td>%</td><td>x</td><td>₹</td><td>%</td></tr>
+<tr><td>Bull</td><td>%</td><td>x</td><td>₹</td><td>%</td></tr>
+</table>
+
+<p>#### Synthesis</p>
+
+<table>
+<tr><th>Bear</th><th>₹</th><th>₹</th><th></th><th></th></tr>
+<tr><td>Base</td><td>₹</td><td>₹</td><td></td><td></td></tr>
+<tr><td>Bull</td><td>₹</td><td>₹</td><td></td><td></td></tr>
+</table>
+
+<p><strong>Verdict:</strong> [Undervalued / Fair / Expensive] — [1 sentence: which model drives it and why]</p>
+
+<p><strong>"What needs to be true for 5x in [N] years?"</strong></p>
+<ul>
+<li>FY[XX] PAT target: ₹ Cr (at ____% CAGR)</li>
+<li>Exit multiple: [X]x P/E — justification: [still growing / mature / peers at X]</li>
+<li>Probability: [Low / Medium / High] because ____</li>
+</ul>
+
+<hr>
+
+<h2>6. Competitive Landscape</h2>
+
+<h3>Market Position</h3>
+<p><!-- 3-5 sentences: which specific segment, who are direct competitors (not adjacent), addressable market size + this company's share, price/quality/niche positioning, geographic scope --></p>
+
+
+<h3>Structural Advantages vs Peers</h3>
+
+<p><!-- For each advantage: WHAT it is → WHY competitors can't replicate it → QUANTIFIED EFFECT on margins/ROCE/working capital.</p>
+<p>"Strong brand" is not an advantage. "Brand commands 15% price premium vs peers, evidenced by OPM 30% vs industry 15%" is. --></p>
+
+<p>1. <strong>[Advantage]:</strong> [What] → [Replication barrier] → [Quantified: OPM delta, ROCE delta, WC days, pricing evidence]</p>
+<p>2. <strong>[Advantage]:</strong> ...</p>
+<p>3. <strong>[Advantage]:</strong> ...</p>
+
+<h3>Peer Comparison</h3>
+
+<table>
+<tr><th>Metric</th><th><strong>{THIS}</strong></th><th>{Peer 1}</th><th>{Peer 2}</th><th>{Peer 3}</th><th>{MNC/Global}</th></tr>
+<tr><td>Revenue (Cr)</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Revenue CAGR 3yr</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>OPM %</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Net Margin %</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>ROCE %</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>D/E</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>P/E</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Market Cap (Cr)</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Promoter %</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>[Sector metric]</td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
+
+<h3>Why Multiples Differ + Re-rating Thesis</h3>
+
+<p><strong>{This stock} at [X]x vs {Peer} at [Y]x:</strong></p>
+<ul>
+<li>[Specific reason — mechanism, not generic statement]</li>
+<li>[Specific reason]</li>
+</ul>
+
+<p><strong>Re-rating thesis:</strong> If [specific condition], multiple expands from [X]x → [Y]x. At current earnings that alone = [Z]% price upside. Combined with [A]% PAT CAGR → total return [X+A]% over [N] years.</p>
+
+<h3>Competitive Dynamics</h3>
+
+<ul>
+<li><strong>Market share trend:</strong> Gaining / Losing / Stable — evidence: [revenue CAGR vs industry CAGR / order book growth]</li>
+<li><strong>Primary competitive threat:</strong> [Specific company or technology] because [mechanism]. Probability: [Low/Medium/High].</li>
+<li><strong>Key vulnerability:</strong> [1-2 specific weaknesses — customer concentration, import dependency, regulatory exposure]</li>
+<li><strong>Policy tailwind/headwind:</strong> [PLI, anti-dumping, mandates, price caps]</li>
+</ul>
+
+<hr>
+
+<h2>7. Risks</h2>
+
+<table>
+<tr><th>Risk</th><th>Probability</th><th>Impact</th><th>Mitigation</th></tr>
+</table>
+
+<hr>
+
+<h2>8. Exit Triggers</h2>
+<p><!-- Each trigger must be specific and falsifiable — not "thesis weakens" --></p>
+
+<ul>
+<li>[ ] [Specific, measurable — e.g. "Revenue growth falls below 15% for 2 consecutive quarters"]</li>
+<li>[ ] [Specific trigger]</li>
+<li>[ ] [Specific trigger]</li>
+</ul>
+
+<h2>9. Review Schedule</h2>
+
+<ul>
+<li><strong>Next quarterly check:</strong> YYYY-MM-DD</li>
+<li><strong>Key events to watch:</strong></li>
+</ul>
+
+<h2>10. Decision History</h2>
+
+<table>
+<tr><th>Date</th><th>Action</th><th>Price</th><th>Quantity</th><th>Reasoning</th></tr>
+</table>
+
+<hr>
+
+<h2>11. Research Log</h2>
+
+<p><em>New learnings, commentary, and thesis updates — most recent first.</em></p>
+<p><em>Full edit history: <code>git log research/{SYMBOL}.md</code></em></p>
+
+<h3>YYYY-MM-DD — Initial thesis</h3>
+<p>-</p>
+<p>-</p>
+
+<h3>YYYY-MM-DD — {Event / Quarterly results / New insight}</h3>
+<p>-</p>
+<script src="notes.js"></script></body></html>
