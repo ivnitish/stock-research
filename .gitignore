@@ -17,6 +17,7 @@ output/*.png
 research/*.html
 docs/*.html
 data/*.html
+archive/
 
 # IDE
 .cursor/
@@ -27,5 +28,5 @@ data/*.html
 knowledge/
 
 # Large binary downloads
-data/financial statemnt and concals/
-pdf downloads/
+data/filings/
+data/pdf downloads/

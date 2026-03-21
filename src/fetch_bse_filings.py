@@ -61,7 +61,7 @@ RELEVANT_SUBCATS = {
     "Outcome of Board Meeting",
 }
 
-BASE_DATA_DIR = Path(__file__).parent.parent / "data" / "financial statemnt and concals"
+BASE_DATA_DIR = Path(__file__).parent.parent / "data" / "filings"
 BSE_API = "https://api.bseindia.com/BseIndiaAPI/api/AnnSubCategoryGetData/w"
 BSE_PDF = "https://www.bseindia.com/xml-data/corpfiling/AttachLive/{filename}"
 HEADERS = {
