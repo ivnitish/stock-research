@@ -1,5 +1,5 @@
 # Research System — TODO
-*Last updated: 2026-03-20*
+*Last updated: 2026-03-21*
 
 ---
 
@@ -182,6 +182,32 @@
 **Housekeeping:**
 - Grok API deprioritized to later
 - YouTube transcripts added to `data/yt transcripts/`
+
+---
+
+## ✅ COMPLETED (2026-03-21 session)
+
+**Market Notes:**
+- `MARKET_NOTE_MAR2026.html` created — Nifty 25,500 support analysis + HDFC Bank 52-week low setup
+- Two Hindi YouTube transcripts (Vivek Singhal / Trading Vivek): Nifty support levels + HDFC Bank panic sell
+- HDFC Bank section: 30yr 52W-low pattern, P/B 2.2x vs 10yr median 3.6x, P/E 16.6x vs median 23.6x, RBI governance clearance, record earnings
+- index.html: MKT NOTE + HDFCBANK rows added to watchlist table; MKT NOTE card added to cards view
+- HDFCBANK added to watchlist as "Watch · Thesis needed"
+
+**Prior session (continuing):**
+- SWANDEF.md — full thesis (D·9/25), Compounding Engine Q&A, FV ₹95–665 vs CMP ₹2,057. Verdict: watch only, entry at ₹600–800
+- KERNEX.md — Compounding Engine Q&A written (incremental ROIC ~50%, 12-15yr runway, kill condition)
+- Google Sheets backend (docs/SHEETS_SETUP.md) — Apps Script + notes widget for all thesis pages
+- notes.js + submit.html — created; full thesis submission + per-stock notes widget
+- Alpha Vantage MCP added (YUS2XHH8BEO3Y539), Indian stocks: price only (TICKER.BSE)
+- Quality Score → Valuation parameter mapping added to VALUATION_FRAMEWORK.md
+- _TEMPLATE.md Section 3: "Why Multi-Bagger" → "Compounding Engine Q&A"
+- index.html: sticky header fix (overflow-x: clip), column rationalization (Target ₹ / Buy Zone / Upside / CMP/Ref), removed GROWW vs ICICIAMC card
+
+**Pending from this session:**
+- [ ] PARADEEP competitive landscape (Section 6) — Chambal/Coromandel/RCF/Deepak data needed
+- [ ] HDFCBANK full thesis — post-merger ROIC, NIM trajectory, loan book quality
+- [ ] Google Sheets 5-min setup (user action required — see docs/SHEETS_SETUP.md)
 
 ---
 
