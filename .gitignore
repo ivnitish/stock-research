@@ -1,7 +1,6 @@
 venv/
 __pycache__/
 *.pyc
-output/
 *.xlsx
 *.xls
 .env
@@ -10,16 +9,23 @@ output/
 dist/
 build/
 
+# Generated portfolio CSVs/PNGs (daily noise)
+output/*.csv
+output/*.png
+
+# Rendered HTML preview files outside output/html/ (local only)
+research/*.html
+docs/*.html
+data/*.html
+
 # IDE
 .cursor/
 .vscode/
 
-# Don't track rendered HTML at root — only in output/html/ (separate git repo)
-*.html
-auth.js
-robots.txt
-us/
-
 # Personal notes
 01 - AI knowledge/
 knowledge/
+
+# Large binary downloads
+data/financial statemnt and concals/
+pdf downloads/

@@ -1,0 +1,209 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>WATCHLIST_SCREEN_MAR2026.md</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:960px;margin:40px auto;padding:0 24px;color:#1f2937;line-height:1.7;}
+h1{font-size:2em;border-bottom:3px solid #1d4ed8;padding-bottom:8px;color:#1e3a5f;}
+h2{font-size:1.4em;border-bottom:1px solid #e5e7eb;padding-bottom:6px;color:#1d4ed8;margin-top:32px;}
+h3{font-size:1.1em;color:#374151;margin-top:24px;}
+table{border-collapse:collapse;width:100%;margin:16px 0;font-size:13.5px;}
+th{background:#1e3a5f;color:#fff;padding:8px 12px;text-align:left;}
+td{padding:7px 12px;border-bottom:1px solid #f3f4f6;}
+tr:nth-child(even){background:#f9fafb;}
+code{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:#7c3aed;}
+hr{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}
+ul{padding-left:20px;} li{margin:4px 0;}
+strong{color:#111827;}
+</style></head><body><a href="index.html" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a><h1>Watchlist Valuation Screen — March 2026</h1>
+
+<p><strong>Objective:</strong> Identify stocks from the Sep 2025 watchlist with 20-30% margin of safety (trading meaningfully below intrinsic value).</p>
+<p><strong>Method:</strong> yfinance batch fetch + Munger-style quick filter (P/E, P/B, ROE, growth, margin)</p>
+<p><strong>Date:</strong> 2026-03-12</p>
+
+<hr>
+
+<h2>Quick Verdict: Which Have Margin of Safety?</h2>
+
+<h3>Tier 1: Clear Value — Investigate Further (Low P/E + Decent Business)</h3>
+
+<table>
+<tr><th>Stock</th><th>Price</th><th>P/E</th><th>P/B</th><th>Net Margin</th><th>Rev Growth</th><th>EPS Growth</th><th>From 52w High</th><th>Verdict</th></tr>
+<tr><td><strong>Just Dial</strong></td><td>₹526</td><td>7.8x</td><td>0.92x</td><td>46.4%</td><td>6.4%</td><td>5.9%</td><td>-50%</td><td><strong>Deep value. Below book. High margins. Turnaround.</strong></td></tr>
+<tr><td><strong>Balmer Lawrie</strong></td><td>₹169</td><td>10.8x</td><td>1.48x</td><td>10.4%</td><td>4.2%</td><td>3.2%</td><td>-29%</td><td><strong>Cheap PSU. Steady earnings. Near 30% MOS.</strong></td></tr>
+<tr><td><strong>S Chand</strong></td><td>₹150</td><td>11x</td><td>0.58x</td><td>6.7%</td><td>-1.2%</td><td>flat</td><td>-42%</td><td><strong>Deep discount to book. Forward P/E 5.8x. Education publisher recovering.</strong></td></tr>
+<tr><td><strong>Nesco</strong></td><td>₹1,080</td><td>18.6x</td><td>2.72x</td><td>42.2%</td><td>15.3%</td><td>-4.8%</td><td>-34%</td><td><strong>Premium quality at reasonable price. Mumbai expo + IT park.</strong></td></tr>
+<tr><td><strong>Triveni Engineering</strong></td><td>₹362</td><td>25.9x</td><td>2.58x</td><td>4.6%</td><td>16.5%</td><td>97.9%</td><td>-23%</td><td><strong>Earnings doubling. Corporate action (Power Transmission demerger) = value unlock.</strong></td></tr>
+</table>
+
+<h3>Tier 2: Watch — Good Business, Reasonable Valuation</h3>
+
+<table>
+<tr><th>Stock</th><th>Price</th><th>P/E</th><th>P/B</th><th>ROE</th><th>Rev Growth</th><th>EPS Growth</th><th>From 52w High</th><th>Notes</th></tr>
+<tr><td><strong>Accelya Solutions</strong></td><td>₹1,203</td><td>16.7x</td><td>6.83x</td><td>39.1%</td><td>-0.2%</td><td>-57%</td><td>-21%</td><td>High ROE (39%), aviation IT. Revenue flat but one-time charges. Watch.</td></tr>
+<tr><td><strong>MM Forgings</strong></td><td>₹448</td><td>25x</td><td>2.34x</td><td>—</td><td>10.6%</td><td>-33.8%</td><td>-11%</td><td>Forward P/E 14.4x. Auto forgings — cyclical. Wait for earnings recovery.</td></tr>
+<tr><td><strong>Taj GVK</strong></td><td>₹307</td><td>15.4x</td><td>2.79x</td><td>—</td><td>6%</td><td>-10.2%</td><td>-42%</td><td>Hotel company. 26% net margin. 42% off peak but forward P/E misleading (105x).</td></tr>
+<tr><td><strong>GRSE</strong></td><td>₹2,420</td><td>40.2x</td><td>12.07x</td><td>—</td><td>49.1%</td><td>74%</td><td>-32%</td><td>Expensive P/B but earnings growing fast. Defence shipbuilding. High quality.</td></tr>
+<tr><td><strong>Midhani</strong></td><td>₹333</td><td>56.9x</td><td>4.33x</td><td>—</td><td>15.8%</td><td>8.8%</td><td>-29%</td><td>Alloy + defence materials. Near 30% off peak but not cheap on P/E. Forward P/E 34x.</td></tr>
+<tr><td><strong>Krsnaa Diagnostics</strong></td><td>₹608</td><td>24.8x</td><td>2.14x</td><td>—</td><td>3.8%</td><td>-20.7%</td><td>-32%</td><td>Forward P/E 15.6x suggests recovery expected. Diagnostics compounder.</td></tr>
+<tr><td><strong>Thermax</strong></td><td>₹3,098</td><td>51.2x</td><td>6.91x</td><td>—</td><td>5.1%</td><td>76.1%</td><td>-24%</td><td>Quality engineering. Expensive. Better at ₹2,500-2,700.</td></tr>
+</table>
+
+<h3>Tier 2B: Investigate Before Buying — Earnings Quality Unverified</h3>
+
+<table>
+<tr><th>Stock</th><th>BSE Code</th><th>Price</th><th>P/E</th><th>ROCE</th><th>Notes</th></tr>
+<tr><td><strong>Integrated Industries</strong></td><td>531889</td><td>₹42.3</td><td>11.3x</td><td>30.5%</td><td>⚠️ Full thesis written. P/E cheap, ROCE excellent, but 3% tax rate + 760-day payable need annual report verification before buying. BSE-only.</td></tr>
+</table>
+
+<h3>Tier 3: Avoid / Distressed</h3>
+
+<table>
+<tr><th>Stock</th><th>Price</th><th>Issue</th><th>Notes</th></tr>
+<tr><td>STL Networks</td><td>₹202</td><td>Negative net margin, 93x D/E</td><td>We own this at -40%. Turnaround unclear.</td></tr>
+<tr><td>Dredging Corp</td><td>₹948</td><td>-5.1% net margin, -14.9% revenue</td><td>Loss-making. "Asymmetric bet" requires catalysts we don't see.</td></tr>
+<tr><td>Raymond Realty</td><td>₹395</td><td>42x D/E, high debt</td><td>Early stage post-demerger. Revenue jump is base effect (721% YoY).</td></tr>
+<tr><td>Hindware Home</td><td>₹210</td><td>-2% net margin, losing money</td><td>High debt (119x D/E). Operating losses. Avoid.</td></tr>
+<tr><td>All Cargo Terminals</td><td>₹8</td><td>Near 52w low, 79% off high</td><td>Revenue up 111% looks like base effect. Near-zero margins.</td></tr>
+<tr><td>Wendt India</td><td>₹6,640</td><td>-64% earnings growth</td><td>59x P/E with collapsing earnings. Very expensive.</td></tr>
+<tr><td>PPAP Automotive</td><td>₹204</td><td>P/E 1,700x (near zero profit)</td><td>Effectively unprofitable currently.</td></tr>
+</table>
+
+<h3>Cannot Assess (yfinance ticker issues — need NSE website)</h3>
+
+<p>These returned no data and need correct NSE ticker symbols:</p>
+<ul>
+<li>Paushak Ltd → try <code>PAUSHAK</code> on NSE</li>
+<li>DISA India → try <code>DISA</code> on NSE</li>
+<li>Nile Ltd → try <code>NILEEXP</code> on NSE</li>
+<li>CUMI (Carborundum Universal) → try <code>CARBORUNDUM</code> on NSE</li>
+<li>National Peroxide → try <code>NATPEROXID</code> on NSE</li>
+<li>Stovec Industries → try <code>STOVEC</code> on NSE</li>
+<li>Poddar Pigments → correct ticker unclear</li>
+<li>OCCL → try <code>OCCL</code> on NSE website directly</li>
+<li>Patels Airtemp → try <code>PATELSLTD</code> on NSE</li>
+<li>Banka Bioloo → small-cap, may be BSE SME</li>
+<li>Oriental Hotels (Taj) → try <code>ORIENTHOT</code> on NSE</li>
+<li>NMDC Steel → recently listed, ticker may be <code>NMDC</code> or <code>NMDCSTEEL</code></li>
+</ul>
+
+<hr>
+
+<h2>Deep Dive Candidates: Top 3 With Margin of Safety</h2>
+
+<h3>1. Just Dial — The Highest Conviction Value Pick</h3>
+
+<p><strong>Why interesting:</strong> P/E 7.8x, P/B 0.92x (below book value!), 46% net margins, ₹4,473 Cr market cap. Trading at 50% off 52-week high.</p>
+
+<p><strong>What is Just Dial?</strong> Local search + business discovery platform. 150M+ users. Was a high-flyer, fell on concerns about competition from Google/Jio. Now recovering with subscription model + SME services.</p>
+
+<p><strong>Why it could be cheap:</strong></p>
+<ul>
+<li>Cash-rich balance sheet (book value ₹574/share, stock at ₹526 = trading below book)</li>
+<li>46% net margins are exceptional (basically all revenue drops to profit at scale)</li>
+<li>Revenue growing slowly (6.4%) but stable — not declining</li>
+</ul>
+
+<p><strong>Key risks:</strong> Structural competition from Google Local, Jio Business. Revenue growth has been flat for years. The "platform" MOAT is questionable.</p>
+
+<p><strong>Quick valuation:</strong></p>
+<ul>
+<li>EPS implied: ₹526 / 7.8x P/E = ₹67/share</li>
+<li>At 15x P/E: ₹1,005/share (91% upside)</li>
+<li>At 12x P/E + stable business: ₹804/share (53% upside)</li>
+<li>Even at 10x P/E (conservative): ₹670/share (27% upside = 20-30% MOS territory)</li>
+</ul>
+
+<p><strong>Verdict: Worth full thesis. Buy range: ₹450-550. The below-book-value case is compelling for a profitable, cash-generating business.</strong></p>
+
+<hr>
+
+<h3>2. Balmer Lawrie — Cheap PSU With Steady Cash Flows</h3>
+
+<p><strong>Why interesting:</strong> P/E 10.8x, P/B 1.48x, 10.4% net margin, government-owned (80% stake). Revenue growing slowly (4.2%), earnings stable.</p>
+
+<p><strong>What is Balmer Lawrie?</strong> Diversified PSU: industrial packaging (drums), logistics infrastructure (cold chain, warehouses), lubricants, travel services. ~₹2,889 Cr market cap.</p>
+
+<p><strong>Why it could be cheap:</strong></p>
+<ul>
+<li>P/E 10.8x for a consistently profitable business = clear value</li>
+<li>PSU with 80% government holding — not going anywhere</li>
+<li>Dividends: PSUs often yield 3-5% at these valuations</li>
+<li>Trading 29% below 52-week high</li>
+</ul>
+
+<p><strong>Key risks:</strong> PSU capital allocation (government may redirect profits). Revenue growth is anaemic (4.2%). Not a growth story — pure value/dividend.</p>
+
+<p><strong>Quick valuation:</strong></p>
+<ul>
+<li>Net profit ~₹300 Cr × 15x P/E = ₹4,500 Cr fair value vs ₹2,889 Cr current = <strong>56% upside</strong></li>
+<li>20-30% margin of safety clearly present at current price</li>
+</ul>
+
+<p><strong>Verdict: Value + dividend play. Not a multi-bagger but solid 20-30% upside + dividends. Worth small position.</strong></p>
+
+<hr>
+
+<h3>3. Triveni Engineering — Corporate Action + Earnings Doubling</h3>
+
+<p><strong>Why interesting:</strong> P/E 25.9x, P/B 2.58x, earnings growth 97.9%, revenue growth 16.5%, forward P/E 19.4x. Corporate action: Power Transmission business demerger (275/share implied value).</p>
+
+<p><strong>What is Triveni Engineering?</strong> Sugar + Power Transmission (gears, turbines, water treatment). The Power Transmission segment is high-quality, capital-light, and deserves a premium multiple. Sugar is cyclical.</p>
+
+<p><strong>The corporate action angle:</strong></p>
+<ul>
+<li>Demerger of Power Transmission at ₹275/share book value</li>
+<li>If Sugar is valued at 10x P/E and Power Transmission at 30x P/E (engineering specialty)</li>
+<li>The combined value could be significantly higher than current market cap</li>
+</ul>
+
+<p><strong>Key risks:</strong> Sugar is cyclical and government-controlled (FRP prices, ethanol policy). Demerger timeline unclear.</p>
+
+<p><strong>Verdict: Corporate action creates value unlock potential. Earnings doubling (97.9%) with forward P/E 19.4x is reasonable. Monitor demerger progress.</strong></p>
+
+<hr>
+
+<h2>Action Plan</h2>
+
+<table>
+<tr><th>Stock</th><th>Action</th><th>Entry Range</th><th>Why</th></tr>
+<tr><td>Just Dial</td><td>Build full thesis</td><td>₹450-550</td><td>Below book, 46% margins, 7.8x P/E</td></tr>
+<tr><td>Balmer Lawrie</td><td>Consider small position</td><td>₹155-170</td><td>10.8x P/E, stable PSU</td></tr>
+<tr><td>Triveni Engineering</td><td>Full thesis after monitoring demerger</td><td>Current or lower</td><td>Corporate action + earnings growth</td></tr>
+<tr><td>Nesco</td><td>Full thesis</td><td>₹900-1,100</td><td>Quality at fair price (not cheap but good)</td></tr>
+<tr><td>GRSE</td><td>Monitor — too expensive now</td><td>₹1,800-2,000</td><td>Good business, wait for re-entry</td></tr>
+<tr><td>Accelya Solutions</td><td>Monitor earnings</td><td>₹1,100-1,200</td><td>ROE 39% is special; watch for revenue recovery</td></tr>
+</table>
+
+<hr>
+
+<h2>Stocks to Drop From Watchlist (No Margin of Safety + Poor Fundamentals)</h2>
+
+<ul>
+<li>STL Networks (already own, thesis broken — evaluate exit)</li>
+<li>Wendt India (good business, very expensive, -64% earnings growth)</li>
+<li>Hindware Home (loss-making, high debt)</li>
+<li>All Cargo Terminals (near-zero margins, collapsed from peak)</li>
+<li>PPAP Automotive (effectively unprofitable)</li>
+<li>Dredging Corp (loss-making, high debt — "asymmetric bet" needs clearer catalyst)</li>
+</ul>
+
+<hr>
+
+<h2>Notes on Super 16 (Feb 2026 List)</h2>
+
+<p>From the user's "Super 16" list:</p>
+<ul>
+<li><strong>Nesco (5-8x):</strong> The numbers support a quality compounder thesis but 5-8x needs revenue reaching ₹5,000 Cr from current (check Screener). At P/E 18.6x it's reasonably priced.</li>
+<li><strong>Artemis Medical (4x):</strong> Already in portfolio. P/E 100.7x (trailing) but forward P/E 27.8x — growth stock. Worth full thesis.</li>
+<li><strong>GRSE (up to 3x):</strong> 31.6% off 52-week high. P/E 40x but 74% earnings growth. The defense sector is the real story here.</li>
+<li><strong>Bosch Home Comfort (compounder):</strong> Need ticker — likely BSHMI or unlisted entity.</li>
+<li><strong>Krsnaa Diagnostics (compounder):</strong> P/E 24.8x, forward 15.6x. Worth monitoring for margin recovery.</li>
+<li><strong>Dredging Corp (3-5x):</strong> Currently loss-making. This is a pure turnaround bet — needs specific catalyst.</li>
+<li><strong>BSE (portfolio stock):</strong> P/E 53.6x but 170.9% earnings growth. Revenue growing 48.6%. Quality exchange business but expensive.</li>
+<li><strong>Nile Ltd, Patels Airtemp:</strong> Couldn't fetch data — need correct tickers.</li>
+<li><strong>Jubilant Pharmova (3-5x):</strong> P/E 34.7x, revenue flat (-0.5%), earnings down 32%. Need to understand recovery thesis.</li>
+<li><strong>Amrutanjan (compounder):</strong> P/E 28x, P/B 4.67x, stable 15% revenue growth. Classic consumer compounder.</li>
+</ul>
+
+<hr>
+
+<p><em>Data source: yfinance batch fetch (2026-03-12). Some tickers may have data quality issues. Verify key figures on NSE/Screener.in before trading.</em></p>
+<script src="notes.js"></script></body></html>

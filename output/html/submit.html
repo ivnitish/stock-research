@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Submit Thesis — Stock Research</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f4f6fb;
+    color: #1f2937;
+    min-height: 100vh;
+    padding: 32px 16px 64px;
+  }
+  .container { max-width: 760px; margin: 0 auto; }
+
+  .header {
+    background: #1a1a2e;
+    color: white;
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-bottom: 28px;
+  }
+  .header h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 4px; }
+  .header p { font-size: 0.85rem; color: #9090b0; line-height: 1.5; }
+
+  .card {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e8e8e8;
+    padding: 28px;
+    margin-bottom: 20px;
+  }
+  .card h2 {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .row { display: flex; gap: 16px; margin-bottom: 18px; }
+  .row .field { flex: 1; }
+
+  .field { margin-bottom: 18px; }
+  .field label {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 6px;
+  }
+  .field .hint {
+    font-size: 0.72rem;
+    color: #9ca3af;
+    margin-bottom: 6px;
+    font-style: italic;
+  }
+  input[type="text"], select, textarea {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 7px;
+    font-size: 0.88rem;
+    font-family: inherit;
+    color: #1f2937;
+    background: #fafafa;
+    transition: border 0.15s;
+    outline: none;
+  }
+  input[type="text"]:focus, select:focus, textarea:focus {
+    border-color: #1d4ed8;
+    background: white;
+  }
+  textarea { resize: vertical; line-height: 1.6; }
+
+  .q-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  .q-num {
+    background: #1a1a2e;
+    color: white;
+    border-radius: 50%;
+    width: 22px; height: 22px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .q-text { font-size: 0.82rem; font-weight: 600; color: #1e3a5f; }
+
+  .grade-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px; }
+  .grade-btn {
+    padding: 5px 14px;
+    border: 1.5px solid #d1d5db;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: white;
+    color: #555;
+    transition: all 0.15s;
+  }
+  .grade-btn:hover { border-color: #1d4ed8; color: #1d4ed8; }
+  .grade-btn.selected { background: #1a1a2e; color: white; border-color: #1a1a2e; }
+
+  .submit-btn {
+    width: 100%;
+    padding: 14px;
+    background: #1a1a2e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s;
+    letter-spacing: 0.3px;
+  }
+  .submit-btn:hover { background: #1d4ed8; }
+  .submit-btn:disabled { background: #9ca3af; cursor: not-allowed; }
+
+  .status {
+    display: none;
+    padding: 14px 18px;
+    border-radius: 8px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    margin-top: 16px;
+    text-align: center;
+  }
+  .status.success { display: block; background: #dcfce7; color: #166534; border: 1px solid #86efac; }
+  .status.error { display: block; background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; }
+
+  .back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 6px 14px;
+    background: #1a1a2e;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 500;
+  }
+
+  @media (max-width: 600px) {
+    .row { flex-direction: column; gap: 0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <a href="index.html" class="back-link">← Portfolio</a>
+
+  <div class="header">
+    <h1>Submit an Investment Thesis</h1>
+    <p>Share your research on a stock. All submissions are stored and reviewed. Use the Q&A format to structure your thinking — answer each question with numbers, not narratives.</p>
+  </div>
+
+  <form id="thesis-form">
+
+    <!-- Basic info -->
+    <div class="card">
+      <h2>Stock Details</h2>
+      <div class="row">
+        <div class="field">
+          <label>Your Name</label>
+          <input type="text" id="author" placeholder="e.g. Raj" required>
+        </div>
+        <div class="field">
+          <label>Ticker / Symbol</label>
+          <input type="text" id="ticker" placeholder="e.g. KAYNES or NVDA" required style="text-transform:uppercase">
+        </div>
+      </div>
+      <div class="field">
+        <label>Company Name</label>
+        <input type="text" id="company" placeholder="e.g. Kaynes Technology India Ltd" required>
+      </div>
+      <div class="row">
+        <div class="field">
+          <label>CMP (₹ or $)</label>
+          <input type="text" id="cmp" placeholder="e.g. ₹3,726">
+        </div>
+        <div class="field">
+          <label>Market Cap (Cr or $B)</label>
+          <input type="text" id="mcap" placeholder="e.g. ₹22,300 Cr">
+        </div>
+      </div>
+      <div class="field">
+        <label>Your Grade</label>
+        <div class="hint">Based on MOAT / Management / Financials / Growth Runway / Valuation (5 points each)</div>
+        <div class="grade-row" id="grade-row">
+          <button type="button" class="grade-btn" data-grade="A">A (20–25)</button>
+          <button type="button" class="grade-btn" data-grade="B">B (15–19)</button>
+          <button type="button" class="grade-btn" data-grade="C">C (10–14)</button>
+          <button type="button" class="grade-btn" data-grade="D">D (&lt;10)</button>
+        </div>
+        <input type="hidden" id="grade" value="">
+      </div>
+      <div class="field">
+        <label>One-line thesis</label>
+        <div class="hint">What is this company, and why does the stock deserve attention right now?</div>
+        <textarea id="one_liner" rows="2" placeholder="e.g. India's leading AMC with 25% ROE and capital-light model trading at justified premium — strong compounder thesis"></textarea>
+      </div>
+    </div>
+
+    <!-- Compounding Engine Q&A -->
+    <div class="card">
+      <h2>Compounding Engine — Q&amp;A</h2>
+
+      <div class="field">
+        <div class="q-label">
+          <div class="q-num">1</div>
+          <div class="q-text">Is incremental ROIC genuinely high (&gt;20%) — and is it structural, not cyclical?</div>
+        </div>
+        <div class="hint">Show the number AND the mechanism. What prevents competition from eroding these returns?</div>
+        <textarea id="q1" rows="4" placeholder="ROIC on incremental capital: ~X% — Evidence: [cite specific data]&#10;&#10;Why it's structural: [the moat mechanism, not just 'strong brand']&#10;&#10;Breaks if: [the kill number — at what ROIC does the thesis die?]"></textarea>
+      </div>
+
+      <div class="field">
+        <div class="q-label">
+          <div class="q-num">2</div>
+          <div class="q-text">How much capital can be redeployed at these returns — what's the reinvestment runway?</div>
+        </div>
+        <div class="hint">TAM is a crude proxy. Quantify: how many ₹ of capital can this business absorb at high ROIC before saturation?</div>
+        <textarea id="q2" rows="4" placeholder="Reinvestment rate: ~X% of earnings retained&#10;&#10;Capital deployment opportunity: [order book / TAM / capacity plan — in ₹]&#10;&#10;Runway estimate: X years before diminishing returns — because: [specific constraint]"></textarea>
+      </div>
+
+      <div class="field">
+        <div class="q-label">
+          <div class="q-num">3</div>
+          <div class="q-text">What's the implied compounding math?</div>
+        </div>
+        <div class="hint">Reinvestment rate × ROIC = implied earnings growth. Does the math produce a realistic multi-bagger timeline?</div>
+        <textarea id="q3" rows="4" placeholder="Reinvestment rate: X% × ROIC: X% = implied growth: X%&#10;At X% for N years → Nx on earnings&#10;Entry P/E Xx → exit P/E Xx → total return Nx&#10;&#10;Smell test: [does this pass? why or why not?]"></textarea>
+      </div>
+
+      <div class="field">
+        <div class="q-label">
+          <div class="q-num">4</div>
+          <div class="q-text">What specifically kills the compounding?</div>
+        </div>
+        <div class="hint">Not a generic risk list — one specific, falsifiable event. And what's the leading indicator you'd watch?</div>
+        <textarea id="q4" rows="3" placeholder="The compounding breaks if: [1 specific, falsifiable sentence]&#10;&#10;Leading indicator I'd watch: [the metric that shows it's breaking BEFORE price drops]"></textarea>
+      </div>
+
+      <div class="field">
+        <div class="q-label">
+          <div class="q-num">5</div>
+          <div class="q-text">Can you hold through a 40% drawdown? What's your conviction anchor?</div>
+        </div>
+        <div class="hint">Write the sentence you'd re-read when the stock is -40% and the narrative is turning negative.</div>
+        <textarea id="q5" rows="3" placeholder="My conviction anchor: [1 sentence grounded in Q1-Q3 economics, not price action or narrative]&#10;&#10;Max position size I'd be comfortable holding through a 40% drop: X%"></textarea>
+      </div>
+    </div>
+
+    <!-- Valuation -->
+    <div class="card">
+      <h2>Valuation (optional but encouraged)</h2>
+      <div class="field">
+        <label>Base Case Fair Value / Target</label>
+        <input type="text" id="fair_value" placeholder="e.g. ₹1,689 (DCF base, FY29)">
+      </div>
+      <div class="field">
+        <label>Buy Zone / Entry Trigger</label>
+        <input type="text" id="buy_zone" placeholder="e.g. Below ₹950 — bear DCF floor">
+      </div>
+      <div class="field">
+        <label>Key risks / what you're watching</label>
+        <textarea id="risks" rows="3" placeholder="What are the 1-2 things that would make you exit?"></textarea>
+      </div>
+    </div>
+
+    <button type="submit" class="submit-btn" id="submit-btn">Submit Thesis →</button>
+    <div class="status" id="status-msg"></div>
+
+  </form>
+</div>
+
+<script>
+  // ── Grade buttons ──
+  document.querySelectorAll('.grade-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.grade-btn').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      document.getElementById('grade').value = btn.dataset.grade;
+    });
+  });
+
+  // ── Ticker uppercase ──
+  document.getElementById('ticker').addEventListener('input', function() {
+    this.value = this.value.toUpperCase();
+  });
+
+  // ── Form submit ──
+  const APPS_SCRIPT_URL = 'YOUR_APPS_SCRIPT_URL_HERE'; // paste deployed URL here
+
+  document.getElementById('thesis-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+
+    const btn = document.getElementById('submit-btn');
+    const status = document.getElementById('status-msg');
+    btn.disabled = true;
+    btn.textContent = 'Submitting…';
+    status.className = 'status';
+
+    const payload = {
+      author:     document.getElementById('author').value.trim(),
+      ticker:     document.getElementById('ticker').value.trim(),
+      company:    document.getElementById('company').value.trim(),
+      cmp:        document.getElementById('cmp').value.trim(),
+      mcap:       document.getElementById('mcap').value.trim(),
+      grade:      document.getElementById('grade').value,
+      one_liner:  document.getElementById('one_liner').value.trim(),
+      q1:         document.getElementById('q1').value.trim(),
+      q2:         document.getElementById('q2').value.trim(),
+      q3:         document.getElementById('q3').value.trim(),
+      q4:         document.getElementById('q4').value.trim(),
+      q5:         document.getElementById('q5').value.trim(),
+      fair_value: document.getElementById('fair_value').value.trim(),
+      buy_zone:   document.getElementById('buy_zone').value.trim(),
+      risks:      document.getElementById('risks').value.trim(),
+      submitted_at: new Date().toISOString()
+    };
+
+    try {
+      const res = await fetch(APPS_SCRIPT_URL, {
+        method: 'POST',
+        body: JSON.stringify(payload)
+      });
+      const json = await res.json();
+      if (json.result === 'success') {
+        status.className = 'status success';
+        status.textContent = '✓ Thesis submitted successfully. We\'ll review and add it to the research system.';
+        document.getElementById('thesis-form').reset();
+        document.querySelectorAll('.grade-btn').forEach(b => b.classList.remove('selected'));
+      } else {
+        throw new Error(json.error || 'Unknown error');
+      }
+    } catch (err) {
+      status.className = 'status error';
+      status.textContent = 'Submission failed: ' + err.message + '. Try again or contact Nitheesh.';
+    }
+
+    btn.disabled = false;
+    btn.textContent = 'Submit Thesis →';
+  });
+</script>
+</body>
+</html>
