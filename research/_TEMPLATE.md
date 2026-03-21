@@ -58,6 +58,20 @@
 
 ---
 
+## Quick Summary
+
+**One-line thesis:** [What is the core bet in one sentence — the ROIC engine, the runway, and the mis-pricing]
+
+**Action:** [HOLD / ADD / EXIT] — [1 sentence why now]
+
+| Level | Price | Trigger |
+|-------|-------|---------|
+| Buy / Add | ₹ | [Condition — dip, catalyst, margin of safety] |
+| Hold | ₹ – ₹ | [Current range — let X play out] |
+| Exit | ₹ or thesis break | [Re-rating complete / specific thesis break condition] |
+
+---
+
 ## 1. Business Summary
 <!-- 3-4 sentences: what does this company do, who are its customers, what's its competitive position, what changed recently -->
 
@@ -321,12 +335,29 @@ STEP 3 — Use Section 4b growth rates. Do not invent new ones here.
 | **Terminal Multiple** | [X]x P/E | [15-20x if business still growing at end of runway; 10-12x if mature/commodity] |
 | **FCF/PAT conversion** | [X]% | Management score [X/5] |
 
-**Formula (for growth phase):**
+**Formula (PE Terminal Multiple approach):**
 ```
-Intrinsic Value = Owner Earnings × [ (1 - (1+g)^n / (1+r)^n) / (r-g) ]
-               + Terminal Value × 1/(1+r)^n
+Year-n Earnings  = Current Earnings × (1+g)^n
+Terminal Value   = Year-n Earnings × Terminal Multiple (PE)
+PV of Terminal   = Terminal Value / (1+r)^n
+PV of interim CF = Σ [Earnings × (1+g)^t / (1+r)^t]  for t = 1 to n
+Intrinsic Value  = PV of interim CF + PV of Terminal
 
-where Terminal Value = Year-n Earnings × Terminal Multiple
+Simplified for quick check:
+  If g < r: PV of interim ≈ Earnings × (1+g)/r × [1 - ((1+g)/(1+r))^n]
+  PV of Terminal ≈ Earnings × (1+g)^n × Multiple / (1+r)^n
+
+Note: Do NOT use a perpetuity (Gordon Growth) formula when using a terminal PE multiple
+— that double-counts. Use terminal PE OR terminal growth rate, not both.
+```
+
+**Quick reverse DCF (implied growth at current price):**
+```
+At current P/E = X, r = 13%, n = 5 years, Terminal Multiple = 15x:
+  Implied g ≈ solve: Current Market Cap = PV formula above
+  Shortcut: if P/E < Terminal Multiple → market implies g < r (low growth priced in)
+            if P/E ≈ Terminal Multiple → market implies g ≈ 0 (flat earnings priced in)
+            if P/E > Terminal Multiple → market prices in re-rating, not just growth
 ```
 
 ---
@@ -361,13 +392,25 @@ Sources:
 ### 5.3 — Position Sizing
 
 <!--
-Based on conviction from Sections 2-4:
-  High conviction (Kill Filter PASS, all 4 Compounding Engine phases strong): 5-10% position
-  Moderate conviction (1 phase weak or 1 data gap): 2-5% position
-  Speculative (2+ phases weak but potential): 1-2% position or watchlist only
+Score each of the four phases below to arrive at overall conviction.
+Phase 1 = Kill Filter (Section 2)
+Phase 2 = Compounding Engine — ROIC + Runway (Section 3, Q1-Q3)
+Phase 3 = Management + Financials (Section 3 Q4-Q5 + Section 4)
+Phase 4 = Competitive Landscape (Section 6)
+
+  All 4 phases strong → High conviction → 5-10% position
+  1 phase weak        → Moderate conviction → 2-5% position
+  2+ phases weak      → Speculative → 1-2% position or watchlist only
 -->
 
-- **Conviction level:** High / Moderate / Speculative — based on: [which phases are strong/weak]
+| Phase | Assessment | Strong / Weak |
+|-------|-----------|---------------|
+| Phase 1 — Kill Filter | [PASS/FAIL + note] | |
+| Phase 2 — Compounding Engine (ROIC + Runway) | [Strong ROIC / Weak runway / etc.] | |
+| Phase 3 — Management + Financials | [Cash flow quality / Promoter / Earnings clarity] | |
+| Phase 4 — Competitive Landscape | [Widening moat / Stable / Narrowing] | |
+
+- **Conviction level:** High / Moderate / Speculative
 - **Recommended position size:** [X-Y]%
 - **Current position:** [X]%
 - **Action:** [At sizing; Add on dips below ₹X; Trim above ₹Y; Exit if Z]
