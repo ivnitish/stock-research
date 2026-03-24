@@ -27,18 +27,41 @@
 - **Overall Multi-Bagger Probability:** High / Medium / Low / Not a candidate
 
 ### The Bull Case
-<!-- 3 sentences only. Ground each sentence in ROIC × runway × re-rating math from Sections 3 and 5. -->
+<!--
+Write as a flowing narrative paragraph (3-5 sentences), NOT rigid slot-filling.
+Weave numbers into the explanation naturally. The reader should understand:
+  1. What makes this company compound (the engine + why it sustains)
+  2. What specific event/milestone re-rates the stock
+  3. The math of where intrinsic value lands and what that means as a multiple of CMP
 
-[Sentence 1: The compounding engine — what sustains high ROIC and for how long]
-[Sentence 2: The re-rating catalyst — what closes the valuation gap to peers]
-[Sentence 3: The math — "if [X] plays out, intrinsic value reaches ₹Y by FYZ = Nx from CMP"]
+Good example (EPACK):
+"EPACK's compounding engine runs at 27% incremental ROIC on capital deployed into a market
+where India's PEB penetration is 15% versus 70%+ globally — the runway is measured in decades,
+not years, with industry CAGR of 12-13% and EPACK growing at 2-3x industry rate via capacity
+expansion (current 170,000 MTPA → 220,000 MTPA by FY27). The re-rating catalyst is FY26 revenue
+delivery at ₹1,500+ Cr..."
+
+Bad example: "ROIC 27%. Runway 10+ years. At 20x terminal = ₹260."
+The reader must understand WHY the engine works, not just the formula output.
+-->
+
+[Write narrative paragraph here — numbers woven into explanation, cause → effect → implication]
 
 ### The Bear Case
-<!-- 3 sentences only. Must be specific — not "competition intensifies." -->
+<!--
+Write as a flowing narrative paragraph (3-5 sentences), NOT rigid slot-filling.
+Each point should explain the mechanism clearly so a reader understands the chain of causation.
 
-[Sentence 1: The specific mechanism that breaks ROIC permanently]
-[Sentence 2: How this plays out operationally — the cascade of consequences]
-[Sentence 3: Bear case value — "in this scenario, multiple compresses to Xx on ₹Y earnings = ₹Z/share = W% drawdown"]
+Good example (EPACK):
+"Steel is 50-60% of input cost, and PEB contracts have limited real-time pass-through — a 20%
+steel price spike without corresponding price escalation clauses compresses OPM from 10% to
+6-7%, destroying the thin-margin economics of the business."
+
+Bad example: "Steel price risk. OPM drops. Stock falls 60%."
+Show the mechanism, the cascade, and the math of the downside.
+-->
+
+[Write narrative paragraph here — specific mechanism → operational cascade → bear case value with math]
 
 ### Key Monitorables
 <!-- 3-5 metrics to check every quarter. Must be: measurable, specific, and directly tied to the compounding thesis. -->
@@ -106,36 +129,43 @@ KILL FILTER — check these first. If any FAIL, stop the analysis.
 ## 3. Compounding Engine — Q&A
 
 <!--
-NOT a catalyst list. Multi-baggers are not driven by events — they are driven by
-ROIC × Reinvestment Rate × Holding Duration. Each question forces first-principles
-thinking. Every answer must cite numbers, not narratives.
+NOT a catalyst list. Multi-baggers are driven by ROIC × Reinvestment Rate × Holding Duration.
+
+WRITING STYLE: Each answer should read as a narrative explanation with numbers embedded —
+not a formula dump. The goal is that someone reading Q1-Q5 understands the investment thesis
+as clearly as reading an analyst note. Show the math, but EXPLAIN why the numbers matter.
+
+Good: "EPACK deploys capital at 27% incremental ROIC into India's PEB market where penetration
+is 15% vs 70% globally — meaning the addressable opportunity grows as India industrializes,
+and EPACK captures disproportionate share by being the only player with MNC OEM relationships."
+
+Bad: "ROIC = NOPAT/IC = ₹85/₹315 = 27%. TAM = ₹50,000 Cr. Penetration = 15%."
+
+Both have the same numbers. The first explains WHY they matter.
 
 GENERAL ANALYSIS INSTRUCTIONS (apply throughout this document):
-1. Always show your math. If you compute ROIC, show numerator and denominator. If you estimate runway, show TAM and penetration numbers.
-2. Be specific. Not "margins are healthy" — say "EBITDA margin 18.5%, up from 14.2% three years ago, driven by operating leverage on a 38% revenue CAGR."
-3. Distinguish facts from inferences — label opinions as such ("Inference: ...", "Fact: ...").
-4. If analyzing an earnings call: first extract KEY numbers and management claims, then map them to this framework. Do not summarize — evaluate through the multi-bagger lens.
-5. Be skeptical of management narratives. Cross-reference claims against financials. If management says "gaining market share" but revenue growth is below industry growth, flag the contradiction explicitly.
-6. For Indian small/mid caps: pay extra attention to promoter quality, related party transactions, and cash flow vs reported profits. These are the most common places where small-cap stories fall apart.
+1. Always show your math — but weave it into explanations, don't dump formulas without context.
+2. Be specific with numbers. Not "margins are healthy" — say "EBITDA margin 18.5%, up from 14.2% three years ago, driven by operating leverage on 38% revenue CAGR."
+3. Distinguish facts from inferences — label opinions as such.
+4. For earnings calls: extract KEY numbers and management claims first, then evaluate through the multi-bagger lens.
+5. Be skeptical of management narratives. Cross-reference against financials.
+6. For Indian small/mid caps: pay extra attention to promoter quality, related party transactions, and cash flow vs reported profits.
 -->
 
 ### Q1. Is incremental ROIC genuinely high (>20%) — and is it structural, not cyclical?
 
 <!--
-The engine. Without this, nothing compounds. Don't use trailing ROCE as proof —
-show WHY returns on new capital deployed will remain high.
-Show the mechanism, then the number.
-ROIC = NOPAT / Invested Capital (show both components explicitly).
+The engine. Without this, nothing compounds. Start with WHY this business earns high returns,
+then show the ROIC math to prove it. Don't lead with the formula — lead with the explanation.
+
+Example flow: "Banco earns 30%+ ROIC because gasket manufacturing is an asset-light business
+where 60% of revenue is replacement demand (non-discretionary) and raw material (cork, rubber)
+is <40% of cost. The math: NOPAT ₹294 Cr on invested capital of ₹953 Cr = 30.8% incremental ROIC."
 -->
 
-**ROIC calculation:**
-- NOPAT = EBIT × (1 − tax rate) = ₹[X] Cr × (1 − [X]%) = **₹[X] Cr**
-- Invested Capital = Total Assets − Cash − Non-interest-bearing current liabilities = **₹[X] Cr**
-- **Incremental ROIC: [X]%** (use last 2-3 years' incremental capital and incremental NOPAT, not total)
-
-**Why it's structural (not cyclical):** [1-2 sentences — what prevents competition from eroding these returns? Is it asset-light scale? Pricing power? Captive demand? Network effects? Regulatory moat?]
-
-**Honest check:** If ROIC drops to [X]%, the compounding thesis breaks because [specific mechanism].
+[Start with 2-3 sentences explaining WHY this business earns high returns — the structural mechanism.
+Then show the math: NOPAT calculation, Invested Capital, Incremental ROIC over 2-3 years.
+End with what would break this — the honest check.]
 
 ---
 
@@ -144,33 +174,30 @@ ROIC = NOPAT / Invested Capital (show both components explicitly).
 <!--
 The fuel. TAM is a crude proxy. The real question: how much capital can this
 business absorb at high returns before diminishing returns kick in?
-Runway estimate = (Addressable capital opportunity) / (Annual capital deployed)
+
+Write as narrative: "India's PEB penetration is 15% vs 70%+ globally, meaning the market itself
+grows as India industrializes. EPACK retains 85% of earnings and deploys ₹200 Cr/year into
+capacity expansion..."
 -->
 
-**Reinvestment rate:** [X]% of earnings retained (vs [X]% paid as dividends)
-- Retained earnings last year: ₹[X] Cr | Capex: ₹[X] Cr | Working capital increase: ₹[X] Cr
-
-**Capital deployment opportunity:**
-- Order book / TAM penetration / capacity plan: [quantify in ₹]
-- At current deployment rate of ₹[X] Cr/year, this represents [X] years of runway
-
-**Runway estimate:** [X] years — because: [specific constraint: market saturation ceiling, capacity limit, regulatory cap, addressable capital exhaustion]
+[Explain the reinvestment opportunity as a story — what is the market size, where is penetration today,
+how much room exists, and how fast can this company deploy capital into that opportunity.
+Include: reinvestment rate, capital deployment numbers, and runway estimate with the binding constraint.]
 
 ---
 
 ### Q3. What's the implied compounding math?
 
 <!--
-Sanity check. Earnings growth ≈ Reinvestment Rate × ROIC.
-A company retaining 70% of earnings at 30% ROIC grows intrinsic value at ~21%.
-Does this produce a realistic multi-bagger timeline?
+Sanity check. Does the math produce a realistic multi-bagger timeline?
+Write as: "If EPACK retains 85% of earnings and earns 27% on that capital, intrinsic value
+compounds at ~23% per year. Over 5 years that's a 2.8x — and if the market re-rates from
+18x to 22x as execution proves out, total return approaches 3.5x."
 -->
 
-**Compounding formula:**
-- Reinvestment rate: [X]%
-- ROIC on incremental capital: [X]%
-- **Implied earnings CAGR: [X]% × [X]% = [X]%** (this is g, used in Section 5 valuation)
-- At [X]% compounding for [N] years → **[N]x on intrinsic value**
+[Connect reinvestment rate × ROIC → implied growth. Then extend to multi-bagger math:
+how many years, what entry/exit multiple assumption, and what total return that implies.
+End with smell test — is this growth rate sustainable given industry/capacity constraints?]
 - Entry multiple [X]x → exit multiple [X]x (re-rating / de-rating assumption) → **total return [N]x**
 
 **Smell test:** [Yes/No and why. If implied growth >30% for >5 years, what specifically sustains it?]
@@ -546,3 +573,12 @@ Phase 4 = Competitive Landscape (Section 6)
 
 ### YYYY-MM-DD — {Event / Quarterly results / New insight}
 -
+
+---
+
+## Version History
+
+| Version | Date | Description | Link |
+|---------|------|-------------|------|
+| v2 (current) | YYYY-MM-DD | Full framework rewrite — new template | This file |
+| v1 | YYYY-MM-DD | Original thesis | [archive/{SYMBOL}_v1.md](archive/{SYMBOL}_v1.md) |

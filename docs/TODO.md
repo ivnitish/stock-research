@@ -1,5 +1,5 @@
 # Research System — TODO
-*Last updated: 2026-03-21*
+*Last updated: 2026-03-22*
 
 ---
 
@@ -76,6 +76,39 @@
 - [ ] Friend access / Claude API chat widget in index.html
 - [ ] Cards view — tracking stocks section missing
 - [ ] Weekly digest auto-generator (`src/weekly_digest.py`)
+
+---
+
+## ✅ COMPLETED (2026-03-22 session — template v2 rewrites + versioning)
+
+**Research rewrites to new template (5 stocks):**
+- RAYMOND.md — v2 rewrite: Summary Verdict, Kill Filter, Compounding Engine Q&A, DCF math. Base ₹530 (+42%)
+- NESCO.md — v2 rewrite: Base ₹1,430 (+36%), land value floor, Tower 2 catalyst
+- EPACKPEB.md — v2 rewrite: Base ₹260 (+59%), full competitive landscape vs Interarch
+- KERNEX.md — v2 rewrite: Major corrections — normalised PAT ₹24 Cr (not ₹50 Cr), DCF base ₹874 (was ₹1,689). Score 18→17
+- GRSE.md — v2 rewrite: Full template restructure, incremental ROIC 34%, narrative bull/bear cases
+
+**BANCOINDIA.md** was rewritten earlier this session as the reference implementation.
+
+**Template improvements:**
+- Bull/bear case guidance rewritten — emphasizes narrative with numbers woven in, good/bad examples
+- Compounding Engine Q&A guidance updated — "explain WHY first, then show the math"
+- Version History section added to template
+
+**Research versioning system implemented:**
+- `research/archive/` created — stores old versions as `SYMBOL_v1.md`
+- All 6 rewritten stocks have v1 archived: BANCOINDIA, RAYMOND, NESCO, EPACKPEB, KERNEX, GRSE
+- Each research file has Version History table at bottom linking to older versions
+- Future rewrites will follow this pattern automatically
+
+**Feedback captured:**
+- Research writing quality: narrative over formula, EPACK bull case as model example
+- Saved to memory: `feedback_research_writing_quality.md`
+
+**Pending:**
+- [ ] Improve bull/bear narrative quality in RAYMOND, NESCO, EPACKPEB, KERNEX (GRSE done as reference)
+- [ ] PARADEEP competitive landscape (Section 6) — carried over
+- [ ] HDFCBANK full thesis — carried over
 
 ---
 

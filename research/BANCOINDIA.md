@@ -370,3 +370,12 @@ Per share = 16,041 / 14.3 = ₹1,122
 
 ### 2026-03-11 — Initial thesis (old template)
 - Grade A 20/25. DCF base ₹567. P/B-ROE base ₹407. Key insight: implied growth 13% very conservative vs 39% CAGR.
+
+---
+
+## Version History
+
+| Version | Date | Description | Link |
+|---------|------|-------------|------|
+| v2 (current) | 2026-03-22 | Full framework rewrite — new template with Summary Verdict, Kill Filter, Compounding Engine Q&A, DCF math | This file |
+| v1 | Pre-2026-03-22 | Original thesis | [archive/BANCOINDIA_v1.md](archive/BANCOINDIA_v1.md) |
