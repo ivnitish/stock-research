@@ -573,6 +573,31 @@ Kernex is one of three RDSO-approved Kavach v4.0 OEMs, alongside HBL Engineering
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/KERNEX.md`*
 
+### 2026-03-25 — Order Book Update & Revised Valuation (Post Q3 FY26)
+
+**Order Book Update:**
+- Q3 FY26 order book: ₹3,268 Cr (12.6x FY25 revenue of ₹259 Cr)
+- NEW: CLW contract — ₹2,465 Cr for 3,024 Kavach locomotive sets, 12-month execution deadline (flows through FY27)
+- NEW: BLW contract — ₹411 Cr for 505 Kavach units
+- Potential total order book post new wins: ~₹6,100 Cr (~24x FY25 revenue)
+
+**Revised Valuation Scenario (FY27):**
+- If ₹1,000+ Cr revenue executed in FY27 at 10% EBITDA margin → ~₹100 Cr PAT
+- At 20x forward PE → implied market cap ₹2,000 Cr+ vs current ~₹800 Cr
+- Upside case: 2.5x from current ₹915 if execution holds
+- Previous ₹700 buy zone was set before CLW/BLW order wins — reassess threshold given order book step-change
+
+**Key Remaining Risks (unchanged):**
+- Promoter holding low (28.89%) and declining
+- First profitable year (FY25) — execution capacity at scale unproven
+- Balance sheet leverage (D/E 0.51x, will rise with working capital)
+- 12-month CLW deadline is aggressive — any execution slippage = significant downside
+- Bear case ₹536/share still valid if execution disappoints
+
+**Revised Action:** Positions below ₹1,000 are justifiable given order book step-change. Watch Q4 FY26 as confirmation of execution velocity.
+
+---
+
 ### 2026-03-22 — Full framework rewrite (new template)
 
 **Key corrections from old thesis:**

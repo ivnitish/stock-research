@@ -483,6 +483,39 @@ GRSE occupies the mid-tier of India's naval shipbuilding hierarchy: it builds fr
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/GRSE.md`*
 
+### 2026-03-25 — NGC Contract & Revised Outlook (Post Q3 FY26)
+
+**Order Book Update (Q3 FY26):**
+- Current order book: ₹18,482 Cr as of Dec 31, 2025 (down from ₹22,000-25,000 Cr due to strong execution, not demand weakness)
+- Q2 FY26 revenue: +45% YoY — execution accelerating
+- 30% revenue growth guidance for FY26
+
+**NGC Contract (Critical Catalyst):**
+- Next Generation Corvette (NGC): 5-ship contract worth ~₹33,000 Cr
+- Price negotiations COMPLETED as of Q3 FY26 analyst meet
+- Expected to be signed by end of FY26 (March 31, 2026)
+- If signed: order book jumps to ~₹51,000 Cr — largest in GRSE history
+- Binary catalyst: if it slips to FY27, near-term pressure continues; if signed, massive re-rating
+
+**Export Progress:**
+- Dredger for Bangladesh delivered
+- 12 multipurpose vessels for German client (expanded from initial 4) — ~5% of order book is exports
+- First Indian shipyard with meaningful export track record
+
+**Analyst Targets (as of Jan 2026):**
+- Antique Stock Broking: BUY, TP ₹3,026 (42x FY28E earnings)
+- ICICI Direct: HOLD, TP ₹2,950
+- Both imply 38-40% upside from CMP ₹2,136
+
+**Revised Valuation:**
+- Previous ₹1,800-2,000 buy zone was pre-NGC. With NGC price negotiations complete, ₹2,136 is not obviously expensive.
+- At ₹2,136 and NGC pending, risk/reward is asymmetric — downside to ₹1,800 (-16%) vs upside to ₹3,000 (+40%)
+- Base DCF ₹2,459 remains valid; NGC adds optionality on top
+
+**Revised Action:** ₹2,136 justifiable as a tracking/starter position given NGC catalyst. Full position on NGC confirmation or correction to ₹1,900-2,000.
+
+---
+
 ### 2026-03-22 — Restructured to new template format
 
 - Migrated from old format to new template with Summary Verdict, Kill Filter, Compounding Engine Q&A (Q1-Q5), and full valuation framework
