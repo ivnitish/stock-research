@@ -509,3 +509,46 @@ GRSE occupies the mid-tier of India's naval shipbuilding hierarchy: it builds fr
 |---------|------|-------------|------|
 | v2 (current) | 2026-03-22 | Full framework rewrite — new template with Summary Verdict, Kill Filter, Compounding Engine Q&A, DCF math | This file |
 | v1 | Pre-2026-03-22 | Original thesis | [archive/GRSE_v1.md](archive/GRSE_v1.md) |
+
+---
+
+## 🆕 NGC Catalyst & Revised Outlook (March 2026)
+
+### Order Book Update (Q3 FY26)
+- **Current order book:** ₹18,482 Cr as of Dec 31, 2025
+  - Declined from ₹22,000–25,000 Cr due to **strong execution, not demand weakness**
+- **Q2 FY26 revenue:** +45% YoY — execution accelerating
+- **FY26 revenue growth guidance:** 30%
+
+### NGC Contract — Binary Catalyst
+| Item | Detail |
+|---|---|
+| Contract | Next Generation Corvette (NGC) — 5 ships |
+| Value | ~₹33,000 Cr |
+| Status | Price negotiations COMPLETED (Q3 FY26) |
+| Expected signing | End of FY26 (March 31, 2026) |
+| If signed | Order book → ~₹51,000 Cr (largest in GRSE history) |
+| If delayed | Near-term pressure continues into FY27 |
+
+> **This is a binary event.** NGC signing = massive re-rating. Delay = continued weakness.
+
+### Export Progress
+- Dredger for Bangladesh: delivered ✓
+- German client: 12 multipurpose vessels (expanded from initial 4)
+- Export = ~5% of order book — first Indian shipyard with meaningful export track record
+
+### Analyst Targets (Jan 2026)
+| Broker | Rating | Target |
+|---|---|---|
+| Antique Stock Broking | BUY | ₹3,026 (42x FY28E) |
+| ICICI Direct | HOLD | ₹2,950 |
+| Implied upside from ₹2,136 | | **38–40%** |
+
+### Revised Valuation
+- Previous ₹1,800–2,000 buy zone was pre-NGC
+- With NGC negotiations complete, **₹2,136 is not obviously expensive**
+- Risk/reward: Downside ₹1,800 (–16%) vs Upside ₹3,000 (+40%)
+- Base DCF ₹2,459 unchanged; NGC adds optionality
+
+### Revised Action
+**₹2,136 justifiable as a starter/tracking position** given NGC catalyst pending. Full position on NGC confirmation or correction to ₹1,900–2,000.
