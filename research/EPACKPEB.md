@@ -572,6 +572,41 @@ EPACK operates in India's pre-engineered building (PEB) segment, estimated at �
 
 ---
 
+## 8a. Sectoral & Technology Analysis
+
+### Tailwinds
+
+| Factor | Detail |
+|--------|--------|
+| **Penetration gap** | India PEB penetration ~15% vs 70%+ in US/Europe/China — structural multi-decade catch-up story; not a cyclical move |
+| **Economic case** | PEB is 30-40% cheaper and 50% faster than conventional construction; economic argument strengthens as land costs and labour costs rise |
+| **India market size** | ~₹465–485B in FY25, projected ₹730–800B by FY30 at 9–11% CAGR (IMARC). Global market: $2.3B (2025) → $6.5B by 2034 at 12%+ CAGR |
+| **Demand pillar 1: Warehousing/logistics** | E-commerce + 3PL expansion driving warehouse construction across tier-2/3 cities — PEB is the dominant format |
+| **Demand pillar 2: PLI-driven MNC capex** | Daikin, LG, Samsung, Haier, Voltas — EPACK's core clients — are building factories under PLI schemes; this is structural investment, not one-time |
+| **Demand pillar 3: Government infra** | Union Budget 2025-26 earmarked ₹128.6B for capital projects (3.1% of GDP); industrial parks, defence corridors, food processing clusters = PEB demand |
+| **Peer comparison** | EPACK leads listed peers: revenue growth 25.3% vs Pennar 3.1%, Interarch 12.4%; EBITDA margin 10.4% (best in class); ROE 22.7% |
+| **MNC OEM stickiness** | Consumer durable MNC clients are stickier and better-paying than commodity industrial clients; repeat project relationships across factory expansions |
+
+### Headwinds / Risks
+
+| Factor | Detail |
+|--------|--------|
+| **Steel + EPS cost exposure** | Steel and EPS (polystyrene) beads together = 50–70% of input costs; no real-time pass-through — a 20% steel price spike directly compresses OPM by 2-3pp |
+| **PLI policy dependency** | PLI is a government policy, not a permanent market force; if disbursements slow or scheme is restructured, the consumer durables OEM capex pipeline risks drying up |
+| **Unit 4 underutilisation** | Capacity utilisation at Unit 4 (Mambattu/AP) fell from 73.7% → 50.3% in FY25 — capacity built ahead of demand creates fixed-cost drag if volumes disappoint in FY26 |
+| **Unorganised sector pricing pressure** | Unorganised players (smaller regional fabricators) create constant pricing pressure at the lower end of the market, limiting EPACK's pricing power |
+| **Related-party EPS supply** | EPS resin sourced from group company Epack Petrochem — minor governance flag; 60-70% of Petrochem's sales go to EPACK, creating captive dependency in both directions |
+| **Project-based revenue lumpiness** | Quarterly results are inherently lumpy (Q3 FY26 was -25% QoQ due to monsoon execution delays in South India); this creates noise around thesis validation |
+
+### Technology Considerations
+
+- **Mature, low-tech manufacturing process:** PEB is structural steel fabrication — there is no IP moat. Competitive advantage comes from scale, execution quality, multi-location manufacturing, and client relationships, not proprietary technology.
+- **No near-term disruption risk:** Modular/volumetric construction technology (3D-printed structures, timber frame) remains expensive and operationally niche in India. PEB's position is not under technological threat within the 5-10 year investment horizon.
+- **Potential upside from BIM/design automation:** Adoption of Building Information Modelling (BIM) and parametric design tools could compress project design-to-delivery timelines further, improving throughput per engineer and compressing working capital cycles. EPACK has mentioned investment in design capabilities — track adoption rate.
+- **EPS/insulated panel technology:** Growing demand for energy-efficient buildings (cold chains, data centers, pharma warehousing) where insulated sandwich panels (EPS/PIR) command higher margins than plain PEB. EPACK's backward integration into EPS resin via Petrochem positions it to capture this premium segment.
+
+---
+
 ## 8. Exit Triggers
 
 - [ ] ROE drops below 15% for 2 consecutive quarters
