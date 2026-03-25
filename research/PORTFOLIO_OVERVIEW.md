@@ -1,4 +1,4 @@
-# Portfolio Overview — Live (2026-03-13)
+# Portfolio Overview — Live (2026-03-24)
 
 **Source:** Groww MCP live data
 **Invested:** ₹15.21L | **Current:** ₹14.32L | **P&L:** -₹88.7K (-5.83%)
@@ -13,20 +13,20 @@
 | 1 | [GROWW](GROWW.md) | Billionbrains Garage | ₹3.53L | ₹3.64L | **+2.9%** | B·19 | Hold |
 | 2 | [KAYNES](KAYNES.md) | Kaynes Technology | ₹1.23L | ₹1.15L | -6.7% | B·17 | Hold |
 | 3 | [EPACKPEB](EPACKPEB.md) | EPACK Prefab | ₹1.03L | ₹73K | -29.0% | B·17 | Hold — Q4 key |
-| 4 | [KERNEX](KERNEX.md) | Kernex Microsystems | ₹1.01L | ₹89.4K | -11.7% | B·18 | Hold |
+| 4 | [KERNEX](KERNEX.md) | Kernex Microsystems | ₹1.01L | ₹83.5K | -17.6% | B·17 | Hold |
 | 5 | [RSYSTEMS](RSYSTEMS.md) | R Systems International | ₹1.0L | ₹1.01L | +0.6% | B·15 | Hold |
 | 6 | [SHAKTIPUMP](SHAKTIPUMP.md) | Shakti Pumps | ₹1.04L | ₹1.05L | +1.4% | B·16 | Hold |
 | 7 | [ANANTRAJ](ANANTRAJ.md) | Anant Raj | ₹92.2K | ₹93.9K | +1.9% | B·17 | Hold |
 | 8 | [NEWGEN](NEWGEN.md) | Newgen Software | ₹89.6K | ₹90.4K | +0.9% | B·18 | Hold |
-| 9 | [BANCOINDIA](BANCOINDIA.md) | Banco Products | ₹58.95K | ₹57.5K | -2.4% | B | Hold |
+| 9 | [BANCOINDIA](BANCOINDIA.md) | Banco Products | ₹58.95K | ₹55.1K | -6.5% | B·19 | Hold |
 | 10 | [SAKSOFT](SAKSOFT.md) | Saksoft | ₹58.2K | ₹59.1K | +1.4% | B·16 | Hold |
-| 11 | [RAYMOND](RAYMOND.md) | Raymond (stub) | ₹55.3K | ₹56.7K | +2.5% | C·11 | Hold small |
+| 11 | [RAYMOND](RAYMOND.md) | Raymond Engineering | ₹55.3K | ₹52.6K | -4.9% | B·17 | Hold |
 | 12 | [ARTEMISMED](ARTEMISMED.md) | Artemis Medicare | ₹44.5K | ₹41.6K | -6.6% | B·16 | Hold |
-| 13 | [STLTECH](STLTECH.md) | Sterlite Tech | ₹46.8K | ₹29.3K | -37.4% | C·12 | Weak Hold |
-| 14 | [PARADEEP](PARADEEP.md) | Paradeep Phosphates | ₹38.7K | ₹24.8K | -36.0% | C·11 | Exit on bounce |
+| 13 | [STLNETWORK](STLNETWORK.md) | STL Network | ₹46.8K | ₹27.2K | -42.0% | C·12 | Weak Hold |
+| 14 | [PARADEEP](PARADEEP.md) | Paradeep Phosphates | ₹38.7K | ₹24.3K | -37.3% | C·11 | **EXIT NOW** |
 | 15 | [ETERNAL](ETERNAL.md) | Eternal (Zomato) | ₹33.7K | ₹22.1K | -34.4% | B·15 | Hold — Q4 review |
 | 16 | [NAVA](NAVA.md) | Nava Ltd | ₹25.85K | ₹32.2K | **+24.7%** | B·16 | Hold |
-| 17 | [SHILCTECH](SHILCTECH.md) | Shilchar Technologies | ₹27.4K | ₹23K | -16.0% | B | Hold |
+| 17 | [SHILCTECH](SHILCTECH.md) | Shilchar Technologies | ₹27.4K | ₹33.9K | +23.7% | B·18 | Hold |
 | 18 | [SWIGGY](SWIGGY.md) | Swiggy | ₹27.7K | ₹13.8K | -50.3% | C·10 | Weak Hold |
 | 19 | [ICICIAMC](ICICIAMC.md) | ICICI Pru AMC | ₹13K | ₹17.6K | **+35.6%** | A·20 | Hold — add on dip |
 | 20 | [NETWEB](NETWEB.md) | Netweb Technologies | ₹3.88K | ₹3.23K | -16.9% | — | Tracking |

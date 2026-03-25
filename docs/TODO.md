@@ -1,5 +1,5 @@
 # Research System — TODO
-*Last updated: 2026-03-22*
+*Last updated: 2026-03-25*
 
 ---
 
@@ -15,7 +15,7 @@
 |---|------|---------------|--------|
 | 1 | **Exit PARADEEP immediately** at market price | No recovery scope — competitors (Chambal, Coromandel, RCF) have better Q results + better valuations. Do not wait for bounce. | Low |
 | 2 | **Q4 FY26 results watch** — EPACKPEB, KERNEX, ETERNAL | These three are "hold pending result". Need a go/no-go decision in May 2026. | Low (set reminder) |
-| 3 | **KAYNES promoter selling** — check BSE filings | 4.3% stake sold in 9 months. Thesis is conditional on this resolving. | Medium |
+| 3 | ~~**KAYNES promoter selling**~~ ✅ DONE (2026-03-25) | Two discrete block sales (Dec 2023 -5.74%, Jun 2025 -4.23%), stopped for 2 quarters. Promoter 53.46% — above 50% threshold. No pledge. Still needs concall explanation. | — |
 | 4 | **GROWW trim plan** — 26% of portfolio in a B·19 stock | Expected CAGR only 11%. Trimming above ₹190 and redeploying to ICICIAMC improves portfolio CAGR ~1.5%. | Low (set price alert) |
 | 5 | **Kite MCP → XIRR** — connect to get dated order history | Need actual transaction dates to compute real XIRR vs the thesis-estimated 13.5% CAGR. | Medium |
 
@@ -46,9 +46,11 @@
 
 - [x] ~~NWIL / IIL~~ = Integrated Industries Ltd — already had thesis, updated status to OWNED (165 shares, +52%)
 - [x] ~~Nesco full thesis~~ — DONE. 19/25 Grade B+, Tower 2 catalyst, asset-value undervaluation
+- [x] ~~HDFCBANK full thesis~~ — DONE (2026-03-25). Banking-specific framework (NIM, CASA, P/B-ROE). Post-merger integration + governance crisis analysis.
 - [ ] NVDA Q&A deep dive — Q&A-style research (scale limits, AMD shift, hyperscaler spend motives, bear case ₹42 scenario)
 - [ ] Real US positions thesis — RGTI, OKLO, ACHR etc. (all in loss, speculative)
 - [ ] STLTECH watch trigger — only revisit if DGTR anti-dumping duty granted
+- [ ] **KCP Limited** — AGM transcript analysed (2026-03-25). Cement + heavy engg + Vietnam sugar. Rs 978 Cr cash, 75 acres Chennai land, subsidiary for monetization. Interesting value play — needs Screener data for full thesis.
 
 ## NEW — AUTORESEARCH BACKTESTING ENGINE
 
@@ -76,6 +78,23 @@
 - [ ] Friend access / Claude API chat widget in index.html
 - [ ] Cards view — tracking stocks section missing
 - [ ] Weekly digest auto-generator (`src/weekly_digest.py`)
+
+---
+
+## ✅ COMPLETED (2026-03-25 session)
+
+**Research:**
+- KAYNES promoter selling investigation — 12-quarter shareholding trend extracted from Screener. Two discrete block sales (not drip-selling), stopped for 2 quarters, promoter 53.46%. Concern downgraded. Research file updated.
+- HDFCBANK full thesis — banking-specific framework (NIM, CASA, P/B-ROE, governance crisis). Post-merger integration analysis with peer comparison.
+- KCP Limited AGM transcript (Aug 2025) analysed — cement/heavy engg/Vietnam sugar. Key: Rs 978 Cr cash, 75-acre Chennai land, subsidiary for monetization.
+
+**Code:**
+- `red_flag_monitor.py` — added 9 missing positions (ANANTRAJ, ICICIAMC, INTEGRATEDIND, NEWGEN, RSYSTEMS, SAKSOFT, RAYMOND, NESCO, SHAKTIPUMP). Fixed STLNETWORK ticker (was STLTECH.NS showing +477%, now STLNETWORK.NS showing -42% correctly). Fixed INTEGRATEDIND ticker (.NS→.BO). Updated stale scores (BANCOINDIA 0→19, SHILCTECH 0→18, KERNEX 18→17). Now monitors 24 holdings.
+- PORTFOLIO_OVERVIEW.md — fixed RAYMOND (C·11→B·17), STL ticker, PARADEEP action (→EXIT NOW), scores for BANCOINDIA/SHILCTECH/KERNEX.
+
+**Pending:**
+- [ ] KCP full thesis if user interested
+- [ ] Bull/bear narrative improvements on RAYMOND/NESCO/EPACKPEB/KERNEX (marginal — current versions already strong)
 
 ---
 

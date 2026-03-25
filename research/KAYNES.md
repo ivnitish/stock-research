@@ -18,7 +18,7 @@
 | Hold | ₹2,400 – ₹4,500 | Current range (CMP ₹3,726) — capex cycle peaked, OPM recovery in motion; hold existing position |
 | Sell / Exit | Above ₹5,500 or at trigger | Revenue growth drops below 20% YoY; OPM stays below 12% for 3 quarters (structural, not transitional); promoter drops below 48% |
 
-**Why now (Mar 2026):** Stock is 52% off peak (₹7,705). The capex-driven FCF trough is behind us (CapEx fell from ₹1,505 Cr to ₹355 Cr). But promoter selling of 4.3% in 9 months is an unexplained concern that needs resolution via Q4 FY26 results and concall.
+**Why now (Mar 2026):** Stock is 52% off peak (₹7,705). The capex-driven FCF trough is behind us (CapEx fell from ₹1,505 Cr to ₹355 Cr). Promoter selling concern partially resolved — the 10.1% total drop (Mar 2023→Dec 2025) happened in two discrete block sales, not continuous selling, and has stopped for 2 quarters. Still needs management explanation at Q4 FY26 concall.
 
 ---
 
@@ -252,15 +252,18 @@ OPM recovering to 15-17% — margins improving, not collapsing.
 
 FCF is deeply negative — KAYNES is in heavy investment phase. Capex peaked in FY24 (₹1,505 Cr) and dropped sharply to ₹355 Cr in FY25. As capex normalizes, FCF should turn positive from FY26-27.
 
-**Shareholding (red flag — monitor closely):**
+**Shareholding (investigated 2026-03-25 — concern downgraded from "serious" to "moderate"):**
 
-| Category | Mar 2025 | Dec 2025 | Change |
-|----------|----------|----------|--------|
-| Promoters | 57.75% | 53.46% | **-4.29%** |
-| FIIs | 11.17% | 8.87% | -2.30% |
-| DIIs | 16.98% | 16.73% | -0.25% |
+| Quarter | Promoter % | QoQ Change | FII % | DII % |
+|---------|-----------|------------|-------|-------|
+| Mar 2023 | 63.57% | — | — | — |
+| Dec 2023 | 57.83% | **-5.74%** | — | — |
+| Mar 2025 | 57.75% | 0.00% | 11.17% | 16.98% |
+| Jun 2025 | 53.52% | **-4.23%** | 12.55% | 20.73% |
+| Sep 2025 | 53.46% | -0.06% | 10.96% | 23.66% |
+| Dec 2025 | 53.46% | 0.00% | 8.87% | 16.73% |
 
-Promoter holding dropped 4.3% in 9 months. FIIs also exiting. This is a material concern — why are promoters selling?
+**Key finding:** Total 10.1% decline since Mar 2023 happened in exactly **two discrete block sales** (Dec 2023: -5.74%, Jun 2025: -4.23%), not continuous drip-selling. Selling has **stopped for 2 consecutive quarters** (Sep-Dec 2025 change is only -0.06%, likely ESOP dilution). No promoter pledge detected. Promoters still hold 53.46% — above the 50% comfort threshold and well above our 40% kill filter. FII exit (-6% from peak) is broader market trend, not KAYNES-specific. The lack of management explanation for the block sales remains the core issue — Q4 FY26 concall is the resolution point.
 
 **D/E correction:** Screener shows D/E = 0.33 (not 18.9 as yfinance showed — yfinance was wrong, likely including client advances).
 
