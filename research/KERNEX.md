@@ -608,3 +608,35 @@ Kernex is one of three RDSO-approved Kavach v4.0 OEMs, alongside HBL Engineering
 |---------|------|-------------|------|
 | v2 (current) | 2026-03-22 | Full framework rewrite — new template with Summary Verdict, Kill Filter, Compounding Engine Q&A, DCF math | This file |
 | v1 | Pre-2026-03-22 | Original thesis | [archive/KERNEX_v1.md](archive/KERNEX_v1.md) |
+
+---
+
+## 🆕 Order Book Update & Revised Valuation (March 2026)
+
+### New Order Wins (Post Q3 FY26)
+- **Q3 FY26 order book:** ₹3,268 Cr (12.6x FY25 revenue of ₹259 Cr)
+- **NEW — CLW contract:** ₹2,465 Cr for 3,024 Kavach locomotive sets; 12-month execution deadline → flows through FY27
+- **NEW — BLW contract:** ₹411 Cr for 505 Kavach units
+- **Potential total order book post wins:** ~₹6,100 Cr (~24x FY25 revenue)
+
+### Revised FY27 Valuation Scenario
+| Metric | Value |
+|---|---|
+| FY27 Revenue (if executed) | ₹1,000+ Cr |
+| EBITDA Margin | ~10% |
+| Implied PAT | ~₹100 Cr |
+| At 20x forward PE | Market cap ₹2,000 Cr+ |
+| Current market cap | ~₹800 Cr |
+| **Upside potential** | **~2.5x from ₹915** |
+
+> Previous ₹700 buy zone was set before CLW/BLW order wins. With order book at ~₹6,100 Cr, threshold should be reassessed.
+
+### Key Remaining Risks (Unchanged)
+- Promoter holding only 28.89% and declining — governance concern
+- FY25 was first ever profitable year — execution capacity at scale unproven
+- D/E rising (0.51x); working capital will balloon as revenue scales
+- 12-month CLW deadline is aggressive — execution slippage = significant downside
+- Bear case ₹536/share still valid if execution disappoints
+
+### Revised Action
+**Below ₹1,000 is justifiable** given order book step-change. Q4 FY26 results are the key execution confirmation.
