@@ -23,7 +23,7 @@ India builds only 15% of its industrial structures using pre-engineered building
 ### Strengths
 
 - **Structural tailwind with decades of runway.** PEB penetration in India at 15% vs 70%+ globally. Industry growing at 12-13% CAGR. EPACK growing at 2-3x industry rate. This is secular, not cyclical.
-- **Strong return on capital.** ROCE 23.7%, ROE 22.8% — exceptional for a construction-adjacent business. Working capital days just 8 (payable days 103 exceed debtor + inventory days — customers and suppliers partially fund operations).
+- **Strong return on capital.** ROCE 23.7%, ROE 22.8% — exceptional for a construction-adjacent business. PEB asset turns of 6-7x explain how 10% OPM generates 23% ROCE. Working capital days currently 8 but management guides normalised 33-35 days — still good, but the current number is artificially low from stretched payables.
 - **Promoter-led, well-capitalised.** Promoter at 65.06%, no pledge. IPO raised ₹504 Cr (Sep 2025), D/E (Debt-to-Equity ratio) improved from 0.89 to 0.32. Capacity expansion fully funded.
 - **Visible revenue pipeline.** Order book ₹1,216 Cr (Jan 2026) = 7-8 months visibility. 9M FY26 revenue ₹1,054 Cr (+41% YoY). ICRA upgraded credit rating to A+.
 - **Niche positioning in high-value PEB segment.** Consumer durable OEM clients (Daikin, Samsung, LG) are stickier and better-paying than commodity industrial clients. End-to-end capability (design + fabrication + erection + EPS insulation panels) captures higher project value (₹6-7L per metric tonne vs ₹4-5L/MT for fabrication-only players).
@@ -704,6 +704,96 @@ At 23% ROCE with a 15-year runway, every rupee retained is worth 3-4x more than 
 
 ---
 
+## 9a. External Analyst Views — YouTube Transcript Analysis (4 transcripts, same analyst)
+
+*Source: `/data/transcripts/epack.md` — 4 Hinglish video transcripts covering EPACK post-IPO analysis, Q2/Q3 FY26 results, and Interarch comparison. Same unnamed analyst across all 4.*
+
+### Where the transcripts CONFIRM our thesis
+
+| Our claim | Transcript evidence | Confidence boost? |
+|---|---|---|
+| PEB penetration 15% vs 70%+ globally | Analyst says 3-5% of construction market, growing to 5-7%. Industry ₹22,000 Cr → ₹35-40K Cr in 5 years (12-14% CAGR) | Yes — directionally aligned, though penetration definition differs |
+| ROCE 23-24% | Analyst confirms "consistently 20%+" | Yes |
+| End-to-end capability is a differentiator | Detailed: design + fabrication + erection + SIP panels. ₹6-7L/MT project value vs ₹4-5L for fabrication-only | Yes — first quantification of the value premium |
+| Capacity expansion to 220,000 MT by FY27 | Confirmed: AP brownfield (₹58 Cr, +30-35K MT), Gujarat (+50K MT), Rajasthan SIP (₹100 Cr) | Yes |
+| OPM guidance 10-11% stable | Management explicitly says 10.5-11.5%, no margin expansion focus — penetration-first strategy | Yes — validates our 10% base assumption |
+| Order book ₹1,200+ Cr | Confirmed post-Q3 FY26 at ₹1,216 Cr, 7-8 months visibility | Yes |
+| Steel is 50-60% of input cost | Analyst says 60-70% | Slight correction — risk is slightly higher than we modeled |
+
+### Where the transcripts CHALLENGE our thesis
+
+**1. Repeat customer rate is weaker than we assumed.**
+Our thesis mentions "sticky OEM relationships" as a core moat. But the transcript reveals **EPACK's repeat customer rate is only 40-45% vs Interarch's 80-85%.** This is a significant gap. Interarch's clients come back nearly 9 out of 10 times; EPACK's come back less than half the time. This means:
+- Customer acquisition costs are structurally higher for EPACK
+- The "OEM relationship moat" may be thinner than we thought — if Samsung builds one factory with EPACK, they might use Interarch for the next one
+- Revenue predictability is lower
+
+**Our response:** Downgrade the moat claim. The OEM relationship is a *positioning advantage*, not a *switching-cost moat*. Interarch's model produces stickier economics.
+
+**2. EPACK is a hybrid business, not a pure PEB play.**
+The analyst makes a nuanced distinction: Interarch does 100% PEB (complex, high-engineering, data centres, EV plants, semiconductor factories). EPACK does PEB + prefab (modular toilets, worker shelters, PMAY housing) + packaging (thermocol for LG). The prefab segment needs less customization and has lower barriers to entry. Our thesis treats EPACK as a pure PEB company — it's not. Roughly 15% is packaging (low-growth, LG-dependent) and some portion of "PEB" revenue is actually simpler prefab work.
+
+**Our response:** This is a valid critique. Interarch's pure PEB focus gives it higher entry barriers in the fastest-growing segments (data centres, renewables, semiconductors). EPACK's hybrid model dilutes the quality of revenue. We should adjust MOAT score consideration.
+
+**3. FY27 growth guidance was CUT from 30-35% to 20%.**
+In the Q2 con-call, management guided 30-35% medium-term growth. By Q3, this was revised to "20% on a safer side" citing geopolitical uncertainty. Even if actual delivery is higher, guidance cuts signal either:
+- Management is sandbagging (benign — under-promise, over-deliver)
+- Genuine demand slowdown visible to management but not yet in numbers (concerning)
+
+**Our response:** Our base case uses 22% EPS CAGR. The revised 20% guidance is below our estimate — if that's the actual growth rate (not sandbagging), our base case fair value needs minor downward revision. Monitor FY27 Q1 for confirmation.
+
+**4. Export potential is limited.**
+The analyst explicitly says US export is NOT viable for PEB (6-7 week shipping destroys the speed advantage that IS PEB's value proposition). Only Middle East and Africa are target export markets. Currently 98-99% domestic.
+
+**Our response:** Our thesis didn't model export upside, so this doesn't hurt us. But it means the TAM is genuinely India-only. International expansion via local manufacturing (like Penar Industries in the US) is capital-intensive and not on EPACK's horizon.
+
+**5. Working capital advantage is unsustainable.**
+We highlight "working capital days just 8" as a strength. The transcript reveals management itself says normalized WC will be 33-35 days, not 8 — current numbers are artificially good due to stretched payable days. This means:
+- Our "8-day WC cycle" claim overstates the structural advantage
+- As the business normalises, ₹30-40 Cr more working capital will be needed
+- This will show up as lower CFO in coming quarters
+
+**Our response:** Correct our thesis. 33-35 days is still very good for a construction-adjacent business, but 8 days was too good to be sustainable and we should have flagged this.
+
+**6. Packaging segment has LG concentration risk.**
+LG is 50-60% of the packaging segment's revenue. Packaging is 15-16% of total revenue. So LG is ~8-9% of total EPACK revenue through one segment alone. If LG shifts packaging suppliers, that's an 8% revenue hit with no warning.
+
+**Our response:** Add to concerns. Not thesis-breaking but a monitoring item.
+
+### New data points to incorporate
+
+| Data point | Source | Impact on thesis |
+|---|---|---|
+| PEB asset turnover: 6-7x | T1 con-call | Explains high ROCE on thin margins — validates our ROCE-margin worked example |
+| SIP asset turnover: 2.5x | T1 | Rajasthan SIP expansion (₹100 Cr) generates only ₹250 Cr revenue — lower return than PEB |
+| Renewable energy: 25-30% of current order book | T3 | NEW and important — sector diversification beyond consumer durables. Becoming "preferred vendor" |
+| World record: 1.5 lakh sq ft factory in 150 hours | T1 | Speed execution claim — marketing value, hard to verify independently |
+| FY27 revenue guidance: ₹1,800 Cr (20% growth) | T3 | Below our earlier 22% assumption — needs monitoring |
+| Employee cost: 8-9% → 11-12% of revenue | T3 | Pre-hiring for capacity. Will compress margins near-term before normalising |
+| IPO use: ₹70 Cr debt repaid, ₹58 Cr AP expansion, ₹100 Cr Rajasthan SIP | T1 | Good deployment detail — matches our "IPO capital undeployed" incremental ROIC concern |
+| Repeat customer rate: 40-45% | T3 | Weaker than Interarch's 80-85% — moat is thinner than claimed |
+
+### Honest assessment: Is Interarch a better business?
+
+The analyst thinks so ("slightly better model holistically"), and the data supports it:
+
+| | EPACK | Interarch | Winner |
+|---|---|---|---|
+| Purity of PEB focus | Hybrid (PEB + prefab + packaging) | 100% PEB | Interarch |
+| Repeat customer rate | 40-45% | 80-85% | Interarch — by a mile |
+| D/E | 0.60x | 0.03x | Interarch |
+| Net margin | 5.2% | 7.4% | Interarch |
+| ROCE | 23.7% | 24.8% | Tie |
+| Revenue growth | 36% CAGR | ~25% CAGR | EPACK |
+| **Valuation (P/B)** | **2.0x** | **3.6x** | **EPACK — much cheaper** |
+| **Valuation (P/E)** | **17x** | **21x** | **EPACK — cheaper** |
+
+Interarch is arguably the higher-quality business. But EPACK is significantly cheaper. The question is whether EPACK's discount is *justified* (weaker model, hybrid dilution, lower repeat rates) or *excessive* (market hasn't priced in renewable sector breakthrough, capacity ramp, IPO capital deployment).
+
+**Our view:** The discount is excessive at 2.0x P/B vs justified 2.67x. Interarch is premium at 3.6x P/B vs justified 2.0x. At today's prices, EPACK offers better risk-adjusted returns despite being the slightly weaker business. But we should be honest: if both were at the same P/E, we'd pick Interarch.
+
+---
+
 ## 10. Decision History
 
 | Date | Action | Price | Quantity | Reasoning |
@@ -716,6 +806,19 @@ At 23% ROCE with a 15-year runway, every rupee retained is worth 3-4x more than 
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/EPACKPEB.md`*
+
+### 2026-03-28 — YouTube transcript analysis (4 videos) + Cash quality analysis
+
+- **4 Hinglish transcripts analysed** (same unnamed analyst): Full company analysis, Q2/Q3 FY26 con-call breakdowns, Interarch comparison.
+- **Thesis confirmations:** PEB penetration tailwind, 20%+ ROCE, capacity expansion timeline, order book, margin guidance all align with our research.
+- **Thesis challenges identified (honest):**
+  1. Repeat customer rate only 40-45% vs Interarch's 80-85% — OEM relationship moat is thinner than we claimed
+  2. EPACK is hybrid (PEB + prefab + packaging), not pure PEB — Interarch has higher barriers in fastest-growing segments
+  3. FY27 growth guidance cut from 30-35% to 20% — below our 22% base case
+  4. Working capital 8 days is unsustainable — management guides 33-35 days normalised
+  5. Packaging segment has LG concentration risk (50-60% of segment = ~8% of total revenue)
+- **New positive:** Renewable energy now 25-30% of order book — sector diversification beyond consumer durables
+- **Honest verdict on Interarch vs EPACK:** Interarch is arguably the better business (pure PEB, 85% repeat, near-zero debt, higher margins). But EPACK is significantly cheaper (2.0x P/B vs 3.6x, 17x PE vs 21x). At today's prices, EPACK offers better risk-adjusted returns.
 
 ### 2026-03-28 — Cash quality analysis added (EPACK vs Interarch)
 
