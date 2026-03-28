@@ -72,12 +72,42 @@
 - [ ] Inspired by [karpathy/autoresearch](https://github.com/karpathy/autoresearch) — thesis backtesting + scorecard calibration
 - [ ] MVP: backtest 6 core holdings (GROWW, KAYNES, EPACK, KERNEX, SHILCTECH, NESCO) with 1-year lookback
 
-## YOUTUBE TRANSCRIPT PIPELINE (idea)
+## CONCALL DEEP DIVE — TOP 5 STOCKS (PRIORITY)
 
-- [ ] **Auto-pull YouTube transcripts** for stock analysis videos using `youtube-transcript-api` or `yt-dlp --write-auto-sub`
-- [ ] Search YouTube API for quality analysis videos per ticker (keywords: "analysis", "deep dive", "thesis", "investor presentation")
-- [ ] Extract key insights and add to relevant research files automatically
-- [ ] Already used manually for SHILCTECH (Girish Gupta) and EPACKPEB (Aakash Gupta)
+Gap identified: our research relies too heavily on Screener numbers. Concalls reveal qualitative insights (repeat customer rates, real WC guidance, competitive dynamics, management candor) that numbers miss. EPACK transcript analysis proved this — 6 thesis challenges found that pure number-crunching missed.
+
+**Process:** `fetch_bse_filings.py SYMBOL` → read concall PDFs → extract against standard question set → update research file
+
+Standard questions for every concall:
+1. Repeat customer rate / customer stickiness
+2. Real working capital guidance (not balance sheet snapshot)
+3. Customer concentration (top 5 clients as % of revenue)
+4. Segment-wise revenue breakup and growth
+5. What did management say about competition?
+6. Growth guidance — did they revise it? Up or down?
+7. Capex planned and expected return/timeline
+8. Any related-party transaction disclosures
+9. What risks did analysts ask about?
+10. What did management NOT answer or dodge?
+
+| Stock | Filings fetched? | Concall available? | Status |
+|---|---|---|---|
+| EPACKPEB | Fetching | Expected yes | YouTube done, concall pending |
+| RAYMOND | YES (11 filings) | YES — Q3 FY26 transcript | Read pending |
+| GRSE | Fetching | Expected yes | Pending |
+| NESCO | Fetching | Likely limited (small team) | Pending |
+| KERNEX | YES (4 filings, no concall) | Small-cap — may not do concalls | YouTube may be only option |
+
+## YOUTUBE TRANSCRIPT PIPELINE
+
+**Current workflow (manual):** User provides video links → `yt-dlp --write-auto-sub --skip-download --sub-lang hi,en "URL"` → Claude analyses transcript → findings added to research file
+
+**Already done:** EPACKPEB (4 transcripts analysed, 6 thesis challenges found), SHILCTECH (Girish Gupta)
+
+- [ ] **Install yt-dlp** if not already: `pip install yt-dlp`
+- [ ] Build simple script: `src/yt_transcript.py URL` → downloads subs → saves to `data/transcripts/SYMBOL_videoID.txt`
+- [ ] Search YouTube API (free tier, needs Google API key) for quality analysis videos per ticker
+- [ ] Curate list of trusted Hindi/English stock analysis channels (filter out promotional noise)
 
 ## RESEARCH SKILL IDEAS
 

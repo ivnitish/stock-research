@@ -23,7 +23,7 @@ PORTFOLIO = {
     "KERNEX":     532686,
     "NEWGEN":     540900,
     "KAYNES":     543664,
-    "EPACKPEB":   544076,
+    "EPACKPEB":   544540,
     "ANANTRAJ":   500007,
     "SHAKTIPUMP": 531431,
     "BANCOINDIA": 500039,
@@ -38,6 +38,9 @@ PORTFOLIO = {
     "STLNETWORK": 532517,
     "SWANDEF":    543399,
     "HDFCBANK":   500180,
+    "GRSE":       542011,
+    "NESCO":      505355,
+    "DREDGECORP": 523618,
     # US stocks don't have BSE codes — skip them
 }
 
