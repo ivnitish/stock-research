@@ -296,6 +296,28 @@ DCI operates in the specialised niche of port dredging in India, holding over 80
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/DREDGECORP.md`*
 
+### 2026-03-28 — Golden Jubilee press release: ₹3,000 Cr revenue target, 11 new dredgers, ₹1,000 Cr equity raise
+
+**Source:** DCIL BSE press release dated 27/03/2026 — "DCIL Marks 50 Years with Ambitious Expansion Roadmap, Modernisation Push, and ₹3,000 Crore Growth Target"
+
+Key data points from the press release:
+- **Revenue target:** ₹3,000 Cr turnover within 5-10 years (vs current ₹1,146 Cr highest-ever). This is ~2.6x current revenue — ambitious but implies only ~10-20% CAGR depending on timeline.
+- **Order book:** ₹1,400 Cr (first official confirmation; our thesis estimated ₹2,000-3,000 Cr — actual figure is at the low end)
+- **Fleet expansion:** 11 new dredgers planned — hopper dredgers, cutter suction dredgers, specialised shallow-water and inland vessels
+- **Shipyard partners:** Cochin Shipyard, Hindustan Shipyard, **GRSE**, Goa Shipyard, BEML — confirms GRSE as dredger builder for DCIL
+- **₹1,000 Cr equity raise via rights issue** — significant dilution risk. At current ~2.80 Cr shares, this could add ~1.0-1.5 Cr new shares (depending on issue price), diluting EPS by 35-50%
+- **Diversification:** Submarine cable trenching, offshore wind energy support, inland waterways — new segments but unproven
+- **Sagarmala pipeline:** 384 projects worth ₹1.4 lakh Cr. Vadhavan port ₹75,000 Cr. VOC Port expansion. Galathea Bay development.
+- **Market position confirmed:** 80% of maintenance dredging, 110 million cubic metres of 150 million total annually, ~10% capital dredging share
+- **Productivity improvement target:** 10-15% improvement in dredger productivity
+
+**Thesis impact: Mixed — more detail but also more risk.**
+- POSITIVE: Official ₹3,000 Cr target gives a growth anchor. 11 new dredgers confirms fleet expansion is real. GRSE/Cochin Shipyard partnerships add credibility.
+- NEGATIVE: ₹1,000 Cr equity raise is a major dilution event not in our model. At ₹868/share, rights issue at discount (say ₹600-700) would dilute EPS significantly. Our base case ₹120 Cr PAT by FY28 divided by ~4.0 Cr shares (post-dilution) = ₹30 EPS, not ₹43. At 12x PE → ₹360/share, much worse than current ₹620 base fair value.
+- NEGATIVE: ₹1,400 Cr order book is lower than our ₹2,000-3,000 Cr estimate — suggests less near-term visibility than assumed.
+
+**Action:** Need to revise fair value estimate once rights issue terms are announced. The dilution alone could cut base fair value from ₹620 to ₹350-400. Stock remains overvalued at ₹868.
+
 ### 2026-03-20 — Initial thesis
 
 - Company is deeply loss-making in 3 of last 5 years (FY21, FY23, FY25) — earnings quality is poor

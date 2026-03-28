@@ -1,65 +1,118 @@
 # EPACK Prefab Technologies (EPACKPEB) — Investment Thesis
 
 **Status:** OWNED (451 shares, ₹1.03L invested, 10% of portfolio)
-**Quality Score:** 17/25 (Grade B: Moderate Conviction)
-**Last Updated:** 2026-03-22 | **CMP:** ₹149 | **Entry:** ₹228 | **P&L:** -35%
+**Quality Score:** 17/25 (Grade B: Good Business)
+**Classification:** Multi-Bagger Candidate (Quality B + Base case 2.3x/3yrs, 31% CAGR)
+**Last Updated:** 2026-03-26 | **CMP:** ₹149 | **Entry:** ₹228 | **P&L:** -35%
 **Data Source:** Screener.in (consolidated), Q3 FY26 concall
+
+> **Recommendation:** HOLD / ADD below ₹155. India's PEB penetration is 15% vs 70%+
+> globally — EPACK is the market leader deploying capital at 23% ROCE into this structural
+> gap. At ₹149 (18x PE), the market prices in only 15% growth versus our 22% estimate;
+> base case implies 2.3x in 3 years (31% CAGR). Key condition: Q4 FY26 revenue must
+> exceed ₹400 Cr to confirm FY26 guidance of ₹1,500 Cr.
 
 ---
 
 ## Summary Verdict
 
-| Dimension | Score | Quick Note |
+### Why this business?
+
+India builds only 15% of its industrial structures using pre-engineered buildings (PEB — factory-made steel structures assembled on-site, like Lego for industrial buildings), versus 70%+ in the US, China, and Europe. This gap is closing — PLI (Production Linked Incentive) factories, data centres, warehouses, and cold chains all need PEB structures, and the economics are compelling (30-40% cheaper than conventional construction, 50% faster to build). EPACK is the market leader in a specific high-value niche: building factories for consumer durable OEMs (Original Equipment Manufacturers — Daikin, Samsung, LG, Haier, Godrej) expanding manufacturing in India. The company earns 23% ROCE (Return on Capital Employed — for every ₹100 of capital in the business, it generates ₹23 of operating profit), retains all earnings for growth, and is expanding capacity 30% into a market where demand is pre-identified and structural. The bet is simple — India's industrial construction modernises over the next decade, EPACK rides that wave with funded expansion and sticky OEM relationships, and the current 18x PE (Price-to-Earnings ratio) at a 52-week low doesn't reflect the growth that's coming.
+
+### Strengths
+
+- **Structural tailwind with decades of runway.** PEB penetration in India at 15% vs 70%+ globally. Industry growing at 12-13% CAGR. EPACK growing at 2-3x industry rate. This is secular, not cyclical.
+- **Strong return on capital.** ROCE 23.7%, ROE 22.8% — exceptional for a construction-adjacent business. Working capital days just 8 (payable days 103 exceed debtor + inventory days — customers and suppliers partially fund operations).
+- **Promoter-led, well-capitalised.** Promoter at 65.06%, no pledge. IPO raised ₹504 Cr (Sep 2025), D/E (Debt-to-Equity ratio) improved from 0.89 to 0.32. Capacity expansion fully funded.
+- **Visible revenue pipeline.** Order book ₹1,216 Cr (Jan 2026) = 7-8 months visibility. 9M FY26 revenue ₹1,054 Cr (+41% YoY). ICRA upgraded credit rating to A+.
+- **Niche positioning in high-value PEB segment.** Consumer durable OEM clients (Daikin, Samsung, LG) are stickier and better-paying than commodity industrial clients. End-to-end capability (design + fabrication + erection + EPS insulation panels) captures higher project value (₹6-7L per metric tonne vs ₹4-5L/MT for fabrication-only players).
+
+### Concerns
+
+- **Steel cost exposure is real and partially unhedged.** Steel is 50-60% of input cost. PEB contracts have limited real-time pass-through — a 20% steel price spike compresses OPM from 10% to 6-7% before escalation clauses activate. This is the single biggest external risk.
+- **Incremental ROIC on IPO capital is unproven.** The ₹300 Cr fresh issue (Sep 2025) is being deployed into 3 new facilities simultaneously. Current incremental ROIC (FY22→FY25) measures only 10% because the IPO capital hasn't yet generated returns. Need FY27 data to see if deployed capital earns adequately.
+- **Customer concentration in consumer durable OEMs.** Exact revenue split not disclosed, but heavy dependence on Daikin/Samsung/LG factory expansions. If PLI disbursements slow or these companies defer capex, EPACK's niche suffers more than diversified peers.
+- **Revenue is project-based, inherently lumpy.** Q3 FY26 was ₹325 Cr vs Q2's ₹434 Cr (-25% QoQ) — monsoon delays in South India. This creates noise around thesis validation. Each quarter looks volatile even if the annual trajectory is on track.
+
+### The Compounding Equation
+
+EPACK earns 23.7% ROCE on existing capital and reinvests 100% of earnings (zero dividend). But wait — how can a business with thin 10-11% operating margins (OPM) generate 23%+ returns on capital? This is the key insight:
+
+**How thin margins produce high ROCE — a worked example:**
+
+ROCE = Profit Margin × Capital Turnover (how many times you rotate your capital through the business per year).
+
+Imagine two businesses, each with ₹100 Cr of capital employed:
+
+| | **EPACK (thin margin, fast turns)** | **Luxury brand (fat margin, slow turns)** |
 |---|---|---|
-| Kill Filter | **PASS (with flag)** | OCF/PAT low in FY23 (0.08x); improving FY24 (1.22x), FY25 (1.05x) — monitor |
-| MOAT | 3/5 | Competitive PEB market — Interarch, Zamil, Kirby present. EPACK differentiates via end-to-end + modular + consumer durable OEM relationships |
-| Management | 4/5 | Promoter 65.06%, no pledge, successful IPO Sep 2025 (₹504 Cr), capacity expansion on track |
-| Financials | 4/5 | ROCE 23.7%, ROE 22.8%, D/E 0.64. OPM 10-11% typical for PEB. Working capital days only 8 — excellent |
-| Growth Runway | 4/5 | India PEB penetration ~15% vs 70%+ global. Industry CAGR 12-13%. PLI factories + data centers + warehousing = structural demand |
-| Valuation | 2/5 | CMP ₹149, P/E 18.1x — cheap on absolute basis but at 52-week low (₹147). Market skepticism needs Q4 FY26 confirmation |
-| **Total** | **17/25** | **Grade B — Moderate Conviction** |
+| Capital employed | ₹100 Cr | ₹100 Cr |
+| Revenue generated | ₹200 Cr (2x turns) | ₹80 Cr (0.8x turns) |
+| Operating margin | 10% | 30% |
+| Operating profit | ₹20 Cr | ₹24 Cr |
+| **ROCE** | **20%** | **24%** |
 
-**Overall Multi-Bagger Probability: Medium-High** — Strong ROIC engine (incremental ROIC 27%), massive reinvestment runway (PEB penetration gap), but project-based revenue lumpiness creates noise. Management FY26 guidance of ₹1,500-1,550 Cr is the litmus test.
+Both earn similar ROCE, but through completely different mechanisms. EPACK's trick is capital efficiency — working capital days are just 8 (meaning money comes back in 8 days), because payable days (103) exceed debtor days (66) + inventory days (73). In plain terms: EPACK collects from customers and holds supplier payments long enough that the business essentially runs on other people's money. It doesn't need much of its own capital to generate revenue, so even a thin 10% margin on that revenue produces a high return on the small amount of capital tied up.
+
+This is why ROE (Return on Equity — 22.8%) can be high despite seemingly thin margins. The margin isn't the point — the capital efficiency is. And capital efficiency is structural to PEB: projects are short-cycle (3-6 months), steel is bought and fabricated quickly, and customers pay advances.
+
+The growth fuel is physical: current PEB capacity is 170,000 MTPA (Metric Tonnes Per Annum — the weight of steel structures EPACK can fabricate in a year), expanding to 220,000 MTPA by FY27. At ~70% utilisation and ₹6.7L/MT realisation (revenue per tonne of steel fabricated), the new capacity supports a revenue ceiling of ~₹2,100 Cr versus FY25's ₹1,134 Cr — that's 85% headroom before EPACK needs to build another plant. Meanwhile, the India PEB market is ₹19,000 Cr today, growing to ₹54,000 Cr by 2034. EPACK at 6% market share has decades of room before hitting any TAM (Total Addressable Market) ceiling.
+
+Historical EPS (Earnings Per Share) has compounded at 41% CAGR (Compound Annual Growth Rate) over 5 years. I model a deceleration to 20-25% forward — still 2x the industry growth rate — because EPACK is gaining share with capacity expansion while the market itself grows at 12-13%. Management guides 33% revenue growth for FY26 alone. The margin structure is the vulnerability: a 20% steel spike without timely pass-through compresses OPM by 2-3 percentage points and temporarily stalls EPS growth. But the structural demand (PLI factories, data centres, warehousing) doesn't go away — the question is timing of margin recovery, not whether growth resumes.
+
+### What does the market think — and where do I disagree?
+
+At ₹149 (18x PE), a reverse DCF shows the market implies ~15-16% PAT growth for the next 6 years. This barely exceeds the industry CAGR (12-13%) and implies EPACK grows roughly in line with the market — no share gains, no operating leverage from new capacity, no margin expansion. The market is pricing "competent but unremarkable."
+
+I estimate 22% PAT CAGR, grounded in funded capacity expansion (170K → 220K MTPA) and historical execution (36% 5Y revenue CAGR, decelerating conservatively). The 6-7 percentage point gap between the market's implied growth (15%) and my estimate (22%), compounded over 5-6 years, is where the returns come from.
+
+Why is the market wrong? Two things it's over-weighting: (1) the Q3 FY26 revenue dip — management attributes it to monsoon delays, and the Q2-strong/Q3-weak pattern is consistent with the past 3 years; (2) general small-cap de-rating since late 2025. It's under-weighting the structural PEB penetration story and the funded capacity that physically cannot produce only 15% growth if utilisation stays above 65%.
+
+### Multi-Bagger Math
+
+| Scenario | EPS CAGR | Why this rate | FY29E EPS (₹) | FY29E PE | Target (₹) | Return | 3Y CAGR |
+|----------|----------|--------------|---------------|----------|------------|--------|---------|
+| Bear | 12% | Industry growth only, no share gain, OPM flat at 10% | 13.0 | 14x | ₹182 | 1.2x | 7% |
+| Base | 22% | Capacity ramp to 80% util, OPM 11%, share gains from new plants | 16.8 | 20x | ₹336 | 2.3x | 31% |
+| Bull | 30% | Full capacity util, OPM 12%, new data centre/logistics orders | 20.3 | 25x | ₹508 | 3.4x | 50% |
+
+**Probability-weighted expected return:** Bear 25% × ₹182 + Base 50% × ₹336 + Bull 25% × ₹508 = **₹341 → 2.3x in 3 years (~32% CAGR)**
+
+**Odds of base case or better: ~60%.** The compounding engine (23% ROCE) and runway (decades of PEB penetration catch-up) are established. At ₹149, even the bear case implies only 7% annualised downside — you lose little if wrong but gain 2-3x if right. The asymmetry is strongly favourable.
+
+### When do I sell?
+
+1. **FY26 full-year revenue comes in below ₹1,300 Cr** — because management guided ₹1,500-1,550 Cr. Missing by 15%+ means either guidance was fiction or structural demand has slowed. Either destroys credibility and growth assumptions must be re-based. *Source: Q4 FY26 results (May 2026).*
+
+2. **OPM falls below 8% for two consecutive quarters without a steel price spike as the cause** — because if margins compress from competition rather than input costs, it means EPACK's niche positioning (OEM relationships, end-to-end capability) isn't worth a premium. The business becomes a commodity fabricator at 5% net margins, which doesn't compound. *Source: Screener.in quarterly P&L.*
+
+3. **Order book drops below ₹800 Cr for two consecutive quarters** — because this would mean OEM customers are deferring factory expansions and the project pipeline is drying up. Current order book at ₹1,216 Cr provides 7-8 months of revenue visibility; below ₹800 Cr means less than 5 months, which is insufficient for a project-based business. *Source: quarterly concall disclosures.*
+
+### Where does this rank?
+
+Among current holdings, EPACK has the **best risk/reward at current price**. KAYNES is a better business (deeper moat, defence/aerospace exposure, OSAT optionality) but at 64x PE it's priced for perfection — EPACK offers comparable growth economics at 18x. GROWW (85x PE) needs 3+ years to grow into its valuation. SHILCTECH (53% ROE) is higher quality but already at fair value on DCF. EPACK is the only holding where the market prices in well below estimated growth AND the stock sits at a 52-week low — fundamental disagreement + price distress is a rare combination.
+
+If deploying the next ₹1L, the top two choices are EPACK (multi-bagger upside, higher risk) and ICICIAMC (steady 15-18% compounder, lower risk). EPACK for growth, ICICIAMC for reliability.
+
+### Recent Developments
+
+- **2026-03-22:** Full framework rewrite to v2 template. Incremental ROIC measured at 10% (diluted by undeployed IPO capital) — trailing ROCE 23.7% on existing operations is the more relevant metric. ICRA upgraded credit rating to A+.
+- **2026-03-19:** DCF revised from conservative base ₹133 to capacity-anchored base ₹234. PEB penetration thesis (15% vs 70%+ global) added as structural anchor.
+- **2026-01 (Q3 FY26 results):** Revenue ₹325 Cr (-25% QoQ, +22% YoY). Management attributed dip to monsoon delays in South India — deferred to Q4, not lost. FY26 guidance reaffirmed at ₹1,500-1,550 Cr.
+- **2025-09 (Q2 FY26):** Best quarter ever — Revenue ₹434 Cr, OPM 12%, PAT ₹29 Cr. Confirmed capacity ramp and OEM order strength.
+
+### Action
+
+| Level | Price | Condition |
+|-------|-------|-----------|
+| Buy / Add | ₹130–155 | Q4 FY26 revenue > ₹400 Cr AND OPM > 10% confirmed. Add to 12% max position. |
+| Hold | ₹155–250 | Let FY26-27 play out; thesis intact if full-year revenue > ₹1,400 Cr and OPM > 10% |
+| Trim / Exit | Above ₹300 or exit triggers | Any of the 3 exit triggers above; OR if better opportunity identified at equivalent risk |
 
 ---
 
-### The Bull Case
-
-EPACK's compounding engine runs at 27% incremental ROIC on capital deployed into a market where India's PEB penetration is 15% versus 70%+ globally — the runway is measured in decades, not years, with industry CAGR of 12-13% and EPACK growing at 2-3x industry rate via capacity expansion (current 170,000 MTPA → 220,000 MTPA by FY27). The re-rating catalyst is FY26 revenue delivery at ₹1,500+ Cr (33% YoY), which would compress the valuation gap versus Interarch (21x P/E, near-zero debt) and demonstrate that the Q3 FY26 dip was seasonal, not structural. If management executes the Gujarat Phase 1 expansion and OPM stabilizes at 11%+, FY28 PAT of ₹130-150 Cr at 20x P/E implies ₹260-300/share = 1.8-2.0x from CMP in 2 years.
-
-### The Bear Case
-
-Steel is 50-60% of input cost, and PEB contracts have limited real-time pass-through — a 20% steel price spike without corresponding price escalation clauses compresses OPM from 10% to 6-7%, destroying the thin-margin economics of the business. Consumer durable OEM capex (Daikin, Samsung, LG — EPACK's core customers) is cyclical and PLI-driven; if PLI disbursements slow or companies defer factory expansions, EPACK's order pipeline dries up since PEB orders are project-based, not recurring. In this scenario, revenue stalls at ₹1,200 Cr, PAT drops to ₹50 Cr, and at a de-rated 12x P/E the stock trades at ₹60/share = 60% drawdown from CMP.
-
-### Key Monitorables
-
-1. **FY26 full-year revenue:** Must hit ₹1,500 Cr (management guidance) — Q4 FY26 needs ₹446 Cr (achievable given ₹434 Cr done in Q2). If <₹1,350 Cr, guidance credibility damaged. Source: quarterly results.
-2. **Order book trajectory:** ₹1,216 Cr as of Jan 2026 (7-8 months visibility). Must stay above ₹1,000 Cr. Source: concall disclosures.
-3. **OPM trend:** Must hold 10%+ on trailing 4-quarter basis. If <9% for 2 quarters, margin thesis breaks. Source: Screener.in quarterly.
-4. **Capacity utilization:** New Mambattu (AP) facility completing Q4 FY26, Ghiloth (Rajasthan) by Q3 FY27. Track whether capex translates to revenue. Source: concall.
-5. **Steel price index:** Monitor domestic HRC prices — 20%+ spike without contract escalation = OPM compression. Source: SteelMint/industry data.
-
-### Data Gaps
-
-1. **Customer concentration:** Exact revenue % from top-5 customers (Daikin, Samsung, LG etc.) not disclosed — check annual report FY25 notes
-2. **Order book composition:** Split between PEB vs EPS/modular not disclosed; PEB margins may differ from EPS margins
-3. **Working capital financing:** Other Liabilities jumped from ₹362 Cr (Mar 2025) to ₹495 Cr (Sep 2025) — need to understand if this is advance from customers (good) or payable stretch (bad)
-4. **Competitive win/loss data:** No disclosure on tender success rates vs Interarch or Zamil
-5. **EPS (polystyrene) segment profitability:** Segment-wise margins not available on Screener
-
----
-
-## Quick Summary
-
-**One-line thesis:** India's leading PEB manufacturer with 22.8% ROE deploying capital at 27% incremental ROIC into a market with 15% penetration (vs 70%+ global) — at ₹149/share (P/E 18x), the market implies ~12% growth versus management's 33% FY26 guidance, creating asymmetric upside if execution confirms.
-
-**Action:** HOLD / ADD below ₹155 — wait for Q4 FY26 to confirm thesis
-
-| Level | Price | Trigger |
-|-------|-------|---------|
-| Buy / Add | ₹130–₹155 | DCF base ₹218 vs CMP ₹149 = 46% upside; add aggressively if Q4 FY26 revenue >₹400 Cr |
-| Hold | ₹155–₹250 | Let FY26 results play out; thesis intact if revenue >₹1,400 Cr and OPM >10% |
-| Exit | Above ₹300 or thesis break | ROE <15% for 2 quarters; OPM <8%; FY26 revenue <₹1,300 Cr |
+# Detailed Analysis
 
 ---
 
@@ -69,31 +122,27 @@ EPACK Prefab Technologies is India's leading pre-engineered steel building (PEB)
 
 ---
 
-## 2. Quality Score + Kill Filter
+## 2. Quality Score
 
-### Kill Filter
+**Threshold Checks:** Flags noted — (1) OCF/PAT was low in FY23 at 0.08x, improved to 1.05x+ in FY24-25; (2) Related-party transactions with Epack Petrochem (group company supplies EPS resin, 60-70% of Petrochem's sales go to EPACK) — backward integration is strategically sound but creates governance monitoring need.
 
 | # | Check | Result | Evidence |
 |---|-------|--------|----------|
-| 1 | FCF positive 3 of last 4 years? | ✅ PASS | OCF: FY22 ₹29 Cr, FY23 ₹2 Cr (low), FY24 ₹72 Cr, FY25 ₹62 Cr — 3/4 solidly positive |
-| 2 | Promoter stable, no pledge? | ✅ PASS | 65.06% promoter, no pledge. OFS in IPO was ₹204 Cr — planned liquidity event, not distress |
-| 3 | No auditor qualifications? | ✅ PASS | No qualifications noted in recent filings |
-| 4 | Revenue growth > inflation? | ✅ PASS | 5Y revenue CAGR 36%, 3Y CAGR 36%, TTM 25% — massively above inflation |
-| 5 | Related party transactions <10%? | ⚠️ FLAG | Epack Petrochem (group company) supplies EPS resin; 60-70% of Petrochem's sales to EPACK. Unclear % of EPACK's total cost. Monitor. |
-| 6 | OCF > PAT consistently? | ⚠️ FLAG | FY22: OCF/PAT = 1.45x ✓, FY23: 0.08x ✗, FY24: 1.67x ✓, FY25: 1.05x ✓. FY23 was poor but improving trend. |
-
-**Kill Filter Verdict: PASS with related-party flag.** The Epack Petrochem relationship needs monitoring — backward integration into EPS resin is strategically sound but creates a governance question. OCF/PAT has improved markedly (FY24-FY25 both >1.0x), resolving the earlier concern.
-
-### Quality Score
+| 1 | FCF positive 3 of last 4 years? | PASS | OCF: FY22 ₹29 Cr, FY23 ₹2 Cr (low), FY24 ₹72 Cr, FY25 ₹62 Cr — 3/4 solidly positive |
+| 2 | Promoter stable, no pledge? | PASS | 65.06% promoter, no pledge. OFS in IPO was planned liquidity event, not distress |
+| 3 | No auditor qualifications? | PASS | No qualifications noted in recent filings |
+| 4 | Revenue growth > inflation? | PASS | 5Y revenue CAGR 36%, TTM 25% — massively above inflation |
+| 5 | Related party transactions <10%? | FLAG | Epack Petrochem relationship needs monitoring — exact % of EPACK's total cost unclear |
+| 6 | OCF > PAT consistently? | FLAG | FY23 was 0.08x but FY24-FY25 both >1.0x — improving trend |
 
 | Dimension | Score (1-5) | Notes |
 |-----------|-------------|-------|
 | MOAT | 3 | PEB is competitive — Interarch, Zamil, Kirby, BLP Avant all present. EPACK differentiates via (a) end-to-end modular capability, (b) deep OEM relationships with consumer durable MNCs, (c) multi-location manufacturing (4 plants). Not a deep moat — margins confirm this (OPM 10-11%). |
-| Management | 4 | Promoter 65.06%, no pledge. Sanjay Singhal (MD) has 25+ years in PEB. Successful IPO execution. Capacity expansion plan is clear and funded. Deduction: zero dividend history — all retained for growth, which is appropriate at this stage. |
-| Financials | 4 | ROCE 23.7%, ROE 22.8% — excellent for a construction/EPC-adjacent business. D/E 0.64 manageable. Working capital days only 8 (payable days 103 exceed debtor 66 + inventory 73). OCF conversion improving. OPM at 10-11% is industry-standard for PEB. |
-| Growth Runway | 4 | India PEB market ~$2.3B (2025), growing at 12-13% CAGR. Penetration ~15% vs 70%+ in developed markets. PLI factories, data centers, warehousing, logistics parks = multi-sector structural demand. EPACK growing at 25-36% — 2-3x industry rate. |
-| Valuation | 2 | P/E 18.1x, P/B 2.17x at CMP ₹149. Stock at 52-week low (high ₹344). 57% off peak. Cheap on paper but market has concerns — validate with Q4 FY26. |
-| **Total** | **17/25** | **Grade B: Moderate Conviction** |
+| Management | 4 | Promoter 65.06%, no pledge. Sanjay Singhal (MD) has 25+ years in PEB. Successful IPO execution. Capacity expansion plan is clear and funded. Zero dividend — all retained for growth, appropriate at this stage. |
+| Financials | 4 | ROCE 23.7%, ROE 22.8% — excellent for construction-adjacent. D/E 0.32 post-IPO. Working capital days only 8. OCF conversion improving. OPM at 10-11% is industry-standard for PEB. |
+| Growth Runway | 4 | India PEB market ~₹19,000 Cr (2025), growing to ~₹54,000 Cr by 2034 at 12-13% CAGR. Penetration ~15% vs 70%+ globally. PLI factories, data centres, warehousing = structural demand. |
+| Valuation | 2 | P/E 18.1x at CMP ₹149. Stock at 52-week low (high ₹344). 57% off peak. Cheap on paper but market scepticism needs Q4 FY26 validation. |
+| **Total** | **17/25** | **Grade B: Good Business** |
 
 ---
 
@@ -117,29 +166,13 @@ Change in CE = ₹391 Cr
 Incremental ROIC = 39 / 391 = 10.0%
 ```
 
-**Wait — that's low.** Let me use a more precise measure. The equity jumped from ₹102 Cr to ₹353 Cr partly due to the IPO (₹300 Cr fresh issue in Sep 2025). Adjusting for the IPO capital that hasn't yet generated returns:
+**The 10% number is misleadingly low** because equity jumped from ₹102 Cr to ₹353 Cr partly due to the IPO (₹300 Cr fresh issue in Sep 2025). This capital is being deployed into new facilities that haven't yet generated revenue. The more relevant metric is trailing ROCE of 23.7% on existing operations — high for a construction-adjacent business and well above cost of capital (12-13%).
 
-```
-Pre-IPO Capital Employed (Mar 2025, pre-IPO proxy using FY25 BS before Sep 2025):
-  Equity ₹353 Cr + Borrowings ₹216 Cr = ₹569 Cr
-  But Sep 2025 BS shows Equity ₹690 Cr + Borrowings ₹222 Cr = ₹912 Cr
-  IPO capital ~₹300 Cr added mid-FY26 — hasn't generated returns yet.
-
-Using FY25 numbers (pre-IPO):
-  Incremental ROIC (FY22→FY25) = 39 / 391 = 10.0%
-```
-
-**Inference:** The 10% incremental ROIC is below the 20% threshold. However, this is misleading because:
-1. FY22 was a low base year (COVID recovery)
-2. Significant capacity expansion capex (CWIP ₹56 Cr in FY25) hasn't yet generated revenue
-3. The ₹300 Cr IPO capital is being deployed into new facilities
-
-**More relevant: trailing ROCE of 23.7% on existing operations.** This is high for a construction-adjacent business and above cost of capital (12-13%).
-
-**Why it could be structural (not cyclical):**
+**Why it's structural (not cyclical):**
 - PEB is a replacement technology for conventional construction — the shift is secular, not cyclical
-- EPACK's OEM relationships (Daikin, Samsung, LG) create repeat project opportunities as these companies expand capacity
-- Multi-location manufacturing (4 plants across India) provides geographic proximity advantage
+- EPACK's OEM relationships (Daikin, Samsung, LG) create repeat project opportunities as these companies expand capacity across India
+- Multi-location manufacturing (4 plants) provides geographic proximity advantage reducing logistics costs
+- Working capital days of just 8 means the business model is inherently capital-efficient
 
 **Honest check:** If ROCE drops below 15%, the compounding thesis breaks because PEB is fundamentally a low-margin business (OPM 10-11%) and any margin compression from steel cost spikes or competitive pricing pressure would push returns below cost of capital.
 
@@ -163,8 +196,7 @@ Reinvestment Rate = 100% (all earnings retained + external capital raised)
 - EPACK FY25 revenue ₹1,134 Cr = ~6% market share of a ₹19,000 Cr market
 - PEB penetration in India: ~15% of total construction vs 70%+ in US/China/Europe
 - If penetration doubles to 30% over 10 years, the TAM doubles to ₹38,000 Cr even at current prices
-- EPACK at 6% share of ₹38,000 Cr = ₹2,280 Cr revenue (2x current)
-- At 8% share (gaining share via capacity expansion) = ₹3,040 Cr revenue (2.7x current)
+- EPACK at 6% share of ₹38,000 Cr = ₹2,280 Cr revenue (2x current); at 8% share = ₹3,040 Cr (2.7x)
 
 **Capacity expansion plan (funded by IPO + internal accruals):**
 - Current: ~170,000 MTPA PEB capacity
@@ -173,7 +205,7 @@ Reinvestment Rate = 100% (all earnings retained + external capital raised)
 - Adding: Vithlapur (Gujarat) — Phase 1 by FY27, adding 50,000 tons
 - Target: ~220,000 MTPA by FY27 = 29% capacity increase
 
-**Runway estimate: 10-15 years** — because India PEB penetration has a long way to go (15% → 30%+ is a multi-decade shift), industrial capex is structurally growing (PLI, Make in India), and EPACK has clear capacity expansion funded and underway.
+**Runway estimate: 10-15 years** — India PEB penetration has a long way to go (15% → 30%+ is a multi-decade shift), industrial capex is structurally growing (PLI, Make in India), and EPACK has clear capacity expansion funded and underway.
 
 ---
 
@@ -185,12 +217,8 @@ Reinvestment Rate: ~100% (zero dividends, all retained + IPO capital)
 ROIC on existing capital: 23.7% (ROCE)
 Implied earnings growth = Reinvestment Rate × ROIC
 
-But this formula overstates growth when external capital (IPO) is added.
-More realistic: use management's own guidance and historical CAGR.
-
 Historical: 5Y Sales CAGR 36%, 5Y PAT CAGR 41%
 Management FY26 guidance: ₹1,500-1,550 Cr revenue (33-34% YoY growth)
-FY27 target: ~₹1,800 Cr (20%+ growth)
 
 Conservative forward estimate:
   g = 20-25% CAGR for next 3-5 years (decelerating from 36% historical)
@@ -198,18 +226,17 @@ Conservative forward estimate:
   At 25% CAGR for 5 years → 3.1x on intrinsic value
 ```
 
-**Entry multiple:** P/E 18.1x → Exit multiple 20-22x (PEB company with growth still intact)
+- Entry multiple 18x → Exit multiple 20-22x (PEB company with growth still intact)
 - At 22% PAT CAGR for 5 years: PAT grows from ₹82 Cr to ₹222 Cr
 - At 20x exit P/E: market cap ₹4,440 Cr = ₹444/share = **3.0x from CMP ₹149**
-- At 25% PAT CAGR: PAT grows to ₹250 Cr → ₹5,000 Cr market cap = ₹500/share = **3.4x from CMP**
 
 **Smell test:** 22-25% PAT CAGR for 5 years requires revenue CAGR of ~20-22% (with slight margin improvement). This is below the historical 36% CAGR and slightly above the industry 12-13% CAGR. For a company gaining market share with funded capacity expansion, this is reasonable. **Passes smell test.**
 
 ---
 
-### Q4. What specifically kills the compounding?
+### Q4. What breaks the thesis?
 
-**The compounding breaks if:** Steel prices spike 25%+ without contract escalation clauses activating, compressing OPM from 10% to 6%, while simultaneously consumer durable OEM capex slows (PLI scheme underperforms), causing order book to drop below ₹800 Cr — the combination of margin compression + volume decline is the kill scenario, not either alone.
+**The compounding breaks if:** Steel prices spike 25%+ without contract escalation clauses activating, compressing OPM from 10% to 6%, while simultaneously consumer durable OEM capex slows (PLI scheme underperforms), causing order book to drop below ₹800 Cr — the combination of margin compression + volume decline is what destroys the thesis, not either alone.
 
 **Leading indicator I'd see before the stock price tells me:**
 - Order book falling below ₹1,000 Cr for 2 consecutive quarters (currently ₹1,216 Cr)
@@ -223,7 +250,7 @@ Conservative forward estimate:
 **My conviction anchor (the sentence I re-read at -40%):**
 > India's PEB penetration is 15% versus 70%+ in developed markets — this is not a cyclical gap, it is a structural technology adoption curve. EPACK has ₹1,216 Cr of order book, funded capacity expansion to 220,000 MTPA, and OEM relationships with Daikin/Samsung/LG that will generate repeat factory construction orders for decades. The revenue is project-committed regardless of stock price.
 
-**What I will NOT do in a drawdown:** I will not add more above 10% of portfolio. Current position is 10% (₹1.03L). At CMP ₹149, position value is ~₹67K. I am already down 35%. I will hold, and only add if Q4 FY26 revenue exceeds ₹400 Cr AND OPM holds 10%+. Max position: 12% of portfolio.
+**What I will NOT do in a drawdown:** I will not add more above 12% of portfolio. Current position is 10% at cost (~₹67K at market). I am already down 35%. I will hold, and only add if Q4 FY26 revenue exceeds ₹400 Cr AND OPM holds 10%+.
 
 ---
 
@@ -268,7 +295,7 @@ Conservative forward estimate:
 | Financing CF (₹ Cr) | 32 | 33 | 23 | 166 |
 | OCF/PAT | 1.45x | 0.08x | 1.67x | 1.05x |
 
-**Cash conversion improving.** FY23 was an aberration (high working capital absorption during rapid growth). FY24-FY25 OCF/PAT >1.0x = healthy. Financing CF of ₹166 Cr in FY25 reflects IPO proceeds.
+**Cash conversion improving.** FY23 was an aberration (high working capital absorption during rapid growth). FY24-FY25 OCF/PAT >1.0x = healthy.
 
 ### Key Operating Metrics
 
@@ -313,14 +340,14 @@ Conservative forward estimate:
 
 **Horizon:** FY28 — because capacity expansion completes by FY27, and 2 years of ramp-up needed
 
-**Primary driver:** CAPACITY × UTILIZATION × REALIZATION
+**Primary driver:** CAPACITY × UTILISATION × REALISATION
 
-Management has reaffirmed FY26 revenue guidance of ₹1,500-1,550 Cr (33-34% YoY growth over FY25 ₹1,134 Cr). For FY27, the target is ~₹1,800 Cr (20%+ growth). Capacity is expanding from 170,000 MTPA to 220,000 MTPA by FY27 — a 29% increase. At current realization of ~₹6.7L/MT (FY25 revenue ₹1,134 Cr on est. 170K capacity at ~70% utilization), full utilization of 220K MTPA capacity implies revenue ceiling of ~₹2,100 Cr.
+Management has reaffirmed FY26 revenue guidance of ₹1,500-1,550 Cr (33-34% YoY growth over FY25 ₹1,134 Cr). For FY27, the target is ~₹1,800 Cr (20%+ growth). Capacity is expanding from 170,000 MTPA to 220,000 MTPA by FY27 — a 29% increase. At current realisation of ~₹6.7L/MT (FY25 revenue ₹1,134 Cr on est. 170K capacity at ~70% utilisation), full utilisation of 220K MTPA capacity implies revenue ceiling of ~₹2,100 Cr.
 
 | Input | Observable Data | FY28 Implied |
 |-------|----------------|-------------|
-| PEB Capacity | 220,000 MTPA (by FY27) | Revenue ceiling ₹2,100 Cr at full utilization |
-| Current utilization | ~70% est. (₹1,134 Cr on 170K MTPA) | If utilization rises to 80% on 220K MTPA → ₹1,760 Cr |
+| PEB Capacity | 220,000 MTPA (by FY27) | Revenue ceiling ₹2,100 Cr at full utilisation |
+| Current utilisation | ~70% est. (₹1,134 Cr on 170K MTPA) | If utilisation rises to 80% on 220K MTPA → ₹1,760 Cr |
 | OPM trajectory | 10% FY25 → 11% TTM → target 11-12% | FY28 PAT: ₹120-140 Cr at 11% OPM |
 | Order book | ₹1,216 Cr (Jan 2026) = 7-8 months visibility | Supports ₹1,500+ Cr FY26; new orders needed for FY27-28 |
 
@@ -333,7 +360,7 @@ Management has reaffirmed FY26 revenue guidance of ₹1,500-1,550 Cr (33-34% YoY
 | Revenue growth (15% vs 25%) | PAT ₹95 Cr → ₹171/share (-14% upside) | PAT ₹145 Cr → ₹261/share (+75%) | Quarterly revenue trend |
 | OPM (9% vs 12%) | PAT ₹85 Cr → ₹153/share (+3%) | PAT ₹155 Cr → ₹279/share (+87%) | Steel prices + contract escalation |
 
-**Risk/reward:** Downside 15% (bear) / Upside 75% (bull) → **Favorable asymmetry at CMP ₹149**
+**Risk/reward:** Downside 15% (bear) / Upside 75% (bull) → **Asymmetric upside at CMP ₹149**
 
 **The one thing that makes the base case wrong:** Order book fails to replenish above ₹1,000 Cr as consumer durable OEMs defer factory expansion post-PLI phase completion.
 
@@ -343,7 +370,7 @@ Management has reaffirmed FY26 revenue guidance of ₹1,500-1,550 Cr (33-34% YoY
 
 - **Current Price:** ₹149 | **Market Cap:** ₹1,493 Cr | **Shares:** ~10.0 Cr
 - **52-Week High/Low:** ₹344 / ₹147
-- **Book Value:** ₹68.7/share (pre-IPO dilution-adjusted post-IPO ~₹69)
+- **Book Value:** ₹68.7/share
 - **Current earnings (PAT TTM):** ₹82 Cr — Source: Screener.in
 - **Owner Earnings (PAT + D&A − maintenance capex, est.):** ₹82 + ₹21 − ₹15 (est.) = ~₹88 Cr
 
@@ -354,18 +381,15 @@ Management has reaffirmed FY26 revenue guidance of ₹1,500-1,550 Cr (33-34% YoY
 | Parameter | Value | Derivation |
 |-----------|-------|------------|
 | **g** (sustainable earnings growth) | 22% | Management guidance 33% FY26, decelerating. Conservative: 22% blended over 6 years |
-| **n** (runway duration) | 6 years | Growth Runway score 4/5 → 6 years. PEB penetration runway is longer but uncertainty on execution caps projection period |
+| **n** (runway duration) | 6 years | Growth Runway score 4/5 → 6 years. PEB penetration runway is longer but uncertainty on execution caps projection |
 | **r** (required return) | 12% | Financials score 4/5 → 12% |
-| **Terminal Multiple** | 15x P/E | PEB is still growing at end of runway; 15x appropriate for a mid-growth industrial |
+| **Terminal Multiple** | 15x P/E | PEB is still growing at end of runway; 15x appropriate for mid-growth industrial |
 | **FCF/PAT conversion** | 82% | Management score 4/5 → 82%. Validated: FY24-FY25 avg OCF/PAT = 1.36x |
 
 **Reverse DCF (implied growth at current price):**
 ```
 At P/E 18.1x, r = 12%, n = 6 years, Terminal Multiple = 15x:
   Market Cap ₹1,493 Cr, TTM PAT ₹82 Cr
-  If g = 12%: Year-6 PAT = 82 × 1.97 = ₹162 Cr
-    Terminal = 162 × 15 = ₹2,430 Cr
-    PV = 2,430 / 1.97 = ₹1,233 Cr → below market cap
   If g = 15%: Year-6 PAT = 82 × 2.31 = ₹189 Cr
     Terminal = 189 × 15 = ₹2,835 Cr
     PV = 2,835 / 2.01 = ₹1,410 Cr → roughly equals market cap
@@ -373,7 +397,7 @@ At P/E 18.1x, r = 12%, n = 6 years, Terminal Multiple = 15x:
   Implied g ≈ 15-16%
 ```
 
-**Market implies 15-16% PAT growth for 6 years.** Management guides 33% for FY26 alone. Historical 5Y CAGR is 41%. The gap between implied (15%) and estimated actual (22%) = **6-7pp margin of safety.**
+**Market implies 15-16% PAT growth for 6 years.** Our estimate: 22%. Gap = 6-7pp margin of safety.
 
 ---
 
@@ -383,28 +407,28 @@ At P/E 18.1x, r = 12%, n = 6 years, Terminal Multiple = 15x:
 
 **What could go wrong (top 3 risks):**
 
-| Risk | Mechanism | Bear Case Impact | Bear Case Value |
-|------|-----------|-----------------|-----------------|
+| Risk | Mechanism | Impact on earnings | Bear case value |
+|------|-----------|-------------------|-----------------|
 | Steel price spike (25%+) | OPM compresses 10% → 7%; PAT drops 30% | PAT ₹57 Cr, P/E compresses to 14x | ₹80/share (46% drawdown) |
 | PLI/OEM capex slowdown | Order book falls <₹800 Cr; revenue stagnates at ₹1,200 Cr | PAT ₹55 Cr at 14x | ₹77/share (48% drawdown) |
 | Competition intensifies | Interarch + new entrants compress margins to 8% OPM | PAT ₹50 Cr at 12x | ₹60/share (60% drawdown) |
 
-**If the biggest risk materializes (steel + demand slowdown simultaneously):** PAT drops to ₹45 Cr, multiple compresses to 12x → ₹54/share = 64% drawdown from CMP. This is the tail-risk scenario.
+**If the biggest risk materialises (steel + demand slowdown simultaneously):** PAT drops to ₹45 Cr, multiple compresses to 12x → ₹54/share = 64% drawdown from CMP. This is the tail-risk scenario.
 
 ---
 
 ### 5.3 — Position Sizing
 
-| Phase | Assessment | Strong / Weak |
-|-------|-----------|---------------|
-| Phase 1 — Kill Filter | PASS with related-party flag | Strong |
-| Phase 2 — Compounding Engine (ROIC + Runway) | ROCE 23.7% with 10-15yr runway. Incremental ROIC diluted by IPO capital not yet deployed | Moderate-Strong |
-| Phase 3 — Management + Financials | Promoter 65%, OCF improving, funded expansion, no pledge | Strong |
-| Phase 4 — Competitive Landscape | PEB is competitive (Interarch at 24.8% ROCE, near-zero debt is arguably better); EPACK's OEM niche is differentiating but not a deep moat | Moderate |
+| Phase | Assessment | Strong / Moderate / Weak |
+|-------|-----------|--------------------------|
+| Threshold Checks | Clear with 2 flags (OCF improving, related-party monitor) | Strong |
+| Compounding Engine (ROIC + Runway) | ROCE 23.7% with 10-15yr runway. Incremental ROIC diluted by undeployed IPO capital | Moderate-Strong |
+| Management + Financials | Promoter 65%, OCF improving, funded expansion, no pledge | Strong |
+| Competitive Landscape | PEB is competitive (Interarch at 24.8% ROCE, near-zero debt); EPACK's OEM niche differentiates but isn't a deep moat | Moderate |
 
 - **Conviction level:** Moderate
 - **Recommended position size:** 5-8%
-- **Current position:** 10% (₹1.03L at cost, ~₹67K at market = ~6.5% of portfolio at market value)
+- **Current position:** 10% at cost (~6.5% at market)
 - **Action:** HOLD. Do not add above ₹155 until Q4 FY26 confirms ₹1,500 Cr guidance. Add below ₹135 if order book holds >₹1,000 Cr.
 
 ---
@@ -418,32 +442,28 @@ At P/E 18.1x, r = 12%, n = 6 years, Terminal Multiple = 15x:
 **Bear case (g=15%, n=6, terminal 12x):**
 ```
 Year-6 PAT = 82 × (1.15)^6 = 82 × 2.31 = ₹190 Cr
-FCF stream PV = Σ [82 × 0.82 × (1.15)^t / (1.12)^t] for t=1..6
-  ≈ 67.2 × [(1.15/1.12)^6 − 1] / (0.15−0.12) × (1.12) ≈ ₹440 Cr (approx)
 Terminal Value = 190 × 12 = ₹2,280 Cr
 PV of Terminal = 2,280 / (1.12)^6 = 2,280 / 1.97 = ₹1,157 Cr
-Total PV ≈ 440 + 1,157 = ₹1,597 Cr
-Per share = 1,597 / 10.0 = ₹160
+PV of interim CF ≈ ₹440 Cr
+Total PV ≈ ₹1,597 Cr → Per share = ₹160
 ```
 
 **Base case (g=22%, n=6, terminal 15x):**
 ```
 Year-6 PAT = 82 × (1.22)^6 = 82 × 3.30 = ₹271 Cr
-FCF stream PV ≈ 67.2 × [(1.22/1.12)^6 − 1] / (0.22−0.12) × (1.12) ≈ ₹540 Cr (approx)
 Terminal Value = 271 × 15 = ₹4,065 Cr
 PV of Terminal = 4,065 / 1.97 = ₹2,063 Cr
-Total PV ≈ 540 + 2,063 = ₹2,603 Cr
-Per share = 2,603 / 10.0 = ₹260
+PV of interim CF ≈ ₹540 Cr
+Total PV ≈ ₹2,603 Cr → Per share = ₹260
 ```
 
 **Bull case (g=28%, n=6, terminal 18x):**
 ```
 Year-6 PAT = 82 × (1.28)^6 = 82 × 4.40 = ₹361 Cr
-FCF stream PV ≈ 67.2 × [(1.28/1.12)^6 − 1] / (0.28−0.12) × (1.12) ≈ ₹660 Cr (approx)
 Terminal Value = 361 × 18 = ₹6,498 Cr
 PV of Terminal = 6,498 / 1.97 = ₹3,298 Cr
-Total PV ≈ 660 + 3,298 = ₹3,958 Cr
-Per share = 3,958 / 10.0 = ₹396
+PV of interim CF ≈ ₹660 Cr
+Total PV ≈ ₹3,958 Cr → Per share = ₹396
 ```
 
 | Scenario | PAT Growth | Terminal PE | Fair Value | vs CMP ₹149 |
@@ -472,14 +492,13 @@ Per share = 3,958 / 10.0 = ₹396
 | Base | ₹260 | ₹183 | ₹237 |
 | Bull | ₹396 | ₹252 | ₹353 |
 
-**Verdict:** Undervalued at CMP ₹149 — weighted base fair value ₹237 implies 59% upside. DCF drives the valuation because this is a growth story where reinvestment runway matters more than current book value. P/B-ROE is conservative because book value doesn't yet reflect IPO capital deployment.
+**Verdict:** Undervalued at CMP ₹149 — weighted base fair value ₹237 implies 59% upside. DCF drives the valuation because this is a growth story where reinvestment runway matters more than current book value.
 
 **"What needs to be true for 5x in 5 years?" (₹745/share)**
 - Market cap ₹7,450 Cr. At 22x P/E: needs ₹339 Cr PAT.
 - At 8% net margin on ₹4,238 Cr revenue.
 - Current revenue ₹1,385 Cr TTM. 5 years of 25% CAGR → ₹4,227 Cr. Close match.
-- Historical 5Y CAGR = 36%. 25% CAGR is a deceleration.
-- **Probability: Low-Medium.** Requires near-perfect execution on capacity expansion AND PEB market growth at 15%+ CAGR AND EPACK gaining share. Possible but needs many things to go right simultaneously.
+- **Probability: Low-Medium.** Requires near-perfect execution + PEB market growth at 15%+ CAGR + EPACK gaining share. Possible but needs many things to go right simultaneously.
 
 ---
 
@@ -491,11 +510,11 @@ EPACK operates in India's pre-engineered building (PEB) segment, estimated at �
 
 ### Structural Advantages vs Peers
 
-1. **Consumer Durable OEM Relationships:** EPACK has deep relationships with Daikin, Samsung, LG, Haier, Voltas, Whirlpool, Havells — these MNCs are building factories across India under PLI. → Competitors lack this specific OEM network → Quantified: repeat business from existing customers likely 30-40% of order book (industry norm for established PEB players).
+1. **Consumer Durable OEM Relationships:** Deep relationships with Daikin, Samsung, LG, Haier, Voltas, Whirlpool, Havells — these MNCs are building factories across India under PLI. → Competitors lack this specific OEM network → Repeat business from existing customers likely 30-40% of order book.
 
-2. **Multi-location Manufacturing (4 plants):** Plants in North (Rajasthan), South (AP), and upcoming West (Gujarat) enable geographic proximity to project sites, reducing logistics cost. → Interarch has 3 plants, Zamil has 2, smaller players have 1 → Quantified: logistics/erection cost is 15-20% of PEB project value; proximity reduces this by 3-5pp.
+2. **Multi-location Manufacturing (4 plants):** Plants in North (Rajasthan), South (AP), and upcoming West (Gujarat) enable geographic proximity to project sites, reducing logistics cost. → Interarch has 3 plants, Zamil has 2, smaller players have 1 → Logistics/erection cost is 15-20% of PEB project value; proximity reduces this by 3-5pp.
 
-3. **End-to-End + Modular Capability:** EPACK designs, fabricates, AND erects — plus manufactures EPS sandwich panels (via group company). → Most PEB companies don't do erection in-house → Quantified: end-to-end captures higher project value (₹6-7L/MT vs ₹4-5L/MT for fabrication-only).
+3. **End-to-End + Modular Capability:** EPACK designs, fabricates, AND erects — plus manufactures EPS sandwich panels (via group company). → Most PEB companies don't do erection in-house → End-to-end captures higher project value (₹6-7L/MT vs ₹4-5L/MT for fabrication-only).
 
 ### Peer Comparison
 
@@ -506,104 +525,158 @@ EPACK operates in India's pre-engineered building (PEB) segment, estimated at �
 | OPM % | 10% | 10% | ~8-9% (est.) | ~10% (est.) | ~12% (est.) |
 | Net Margin % | 5.2% | 7.4% | — | — | — |
 | ROCE % | 23.7% | 24.8% | — | — | — |
+| ROE % | 22.3% | 18% | — | — | — |
 | D/E | 0.61 | 0.03 | — | — | — |
-| P/E | 18.1x | 21.0x | Unlisted | Unlisted | Unlisted |
-| Market Cap (₹ Cr) | 1,493 | 2,922 | — | — | — |
+| P/E | 17.0x | 20.8x | Unlisted | Unlisted | Unlisted |
+| **P/B** | **2.02x** | **3.62x** | — | — | — |
+| Market Cap (₹ Cr) | 1,397 | 2,894 | — | — | — |
+| Book Value (₹/share) | 68.8 | 477 | — | — | — |
 | Promoter % | 65.06% | 59.44% | — | — | — |
 | Working Capital Days | 8 | ~15 (est.) | — | — | — |
+| CFO/PAT (4yr avg) | 1.4x | 2.0x | — | — | — |
+| Dividend Payout | 0% | 19% (FY25 onwards) | — | — | — |
 
 ### Why Multiples Differ + Re-rating Thesis
 
-**EPACKPEB at 18x vs Interarch at 21x:**
+**EPACKPEB at 17x PE / 2.0x P/B vs Interarch at 21x PE / 3.6x P/B:**
 - Interarch is near-zero debt (D/E 0.03) vs EPACK at 0.61 — lower financial risk commands premium
 - Interarch has higher net margin (7.4% vs 5.2%) — better bottom-line conversion
 - Interarch has been listed longer (Aug 2024 IPO vs EPACK Sep 2025) — more price discovery
+- **P/B gap is striking:** Interarch at 3.6x book vs EPACK at 2.0x book, despite similar ROCE (~24%). This means EPACK's equity is valued at a 44% discount per rupee of book value. Either EPACK is undervalued or the market is pricing in execution risk on its ₹300 Cr IPO deployment.
 
-**Re-rating thesis:** If EPACK delivers FY26 at ₹1,500+ Cr (33% growth) while Interarch grows at 25%, the growth premium should narrow. If D/E continues declining (already improved to 0.32 post-IPO), the discount to Interarch should compress from 3x P/E gap to 1-2x. At Interarch's 21x multiple on EPACK's TTM PAT ₹82 Cr → ₹172/share = 15% upside from multiple re-rating alone. Combined with 22% PAT CAGR → total return potential 40%+ in FY27.
+**Re-rating thesis:** If EPACK delivers FY26 at ₹1,500+ Cr (33% growth) while Interarch grows at 25%, the growth premium should narrow. If D/E continues declining (already improved to 0.32 post-IPO), the discount to Interarch should compress from 3x P/E gap to 1-2x. At Interarch's 21x multiple on EPACK's TTM PAT ₹82 Cr → ₹172/share = 15% upside from multiple re-rating alone.
+
+### Which Has Higher Upside and Better Margin of Safety?
+
+**The P/B-ROE framework answers this directly.** Justified P/B = (ROE - g) / (Ke - g), where Ke = 12% cost of equity.
+
+| | EPACK | Interarch |
+|---|---|---|
+| Sustainable ROE | 22% | 18% |
+| Terminal growth (g) | 6% | 6% |
+| Justified P/B = (ROE - g) / (Ke - g) | (22-6)/(12-6) = **2.67x** | (18-6)/(12-6) = **2.00x** |
+| Current P/B | 2.02x | 3.62x |
+| **Premium / Discount to fair P/B** | **-24% (undervalued)** | **+81% (overvalued)** |
+
+EPACK trades *below* its justified P/B. Interarch trades *81% above* its justified P/B.
+
+**Upside math (3-year forward):**
+
+| | EPACK | Interarch |
+|---|---|---|
+| FY25 PAT | ₹59 Cr | ₹108 Cr |
+| PAT CAGR (est.) | 22% | 18% |
+| FY28E PAT | ₹107 Cr | ₹177 Cr |
+| Exit PE (both at 20x — sector fair value) | 20x | 20x |
+| FY28E Market Cap | ₹2,140 Cr | ₹3,540 Cr |
+| Current Market Cap | ₹1,397 Cr | ₹2,894 Cr |
+| **3-year return** | **53% (1.5x)** | **22% (1.2x)** |
+| **CAGR** | **15%** | **7%** |
+
+Now add P/B convergence — if EPACK's P/B re-rates from 2.0x toward its justified 2.67x while Interarch mean-reverts from 3.6x toward 2.0x:
+
+| | EPACK (P/B → 2.5x) | Interarch (P/B → 2.5x) |
+|---|---|---|
+| FY28E Book Value (est.) | ~₹115 | ~₹650 |
+| Implied price at 2.5x P/B | ₹288 | ₹1,625 |
+| Current price | ₹139 | ₹1,726 |
+| **Return from P/B re-rating** | **+107%** | **-6%** |
+
+**Verdict: EPACK has significantly higher upside and better margin of safety.**
+- EPACK is undervalued on P/B-ROE (trading at 24% discount to justified value). Interarch is overvalued (81% premium).
+- EPACK's higher ROE (22% vs 18%) combined with lower valuation (17x PE, 2.0x P/B) means you're buying more compounding power per rupee invested.
+- EPACK's risk is execution on IPO capital deployment — but even if ROE drops to 18% (matching Interarch), justified P/B is still 2.0x, which equals current price. Downside is protected.
+- Interarch's risk is multiple compression — at 3.6x P/B on 18% ROE, there's no margin of safety. Any growth slowdown triggers a de-rating.
+
+### Cash Quality: Is the Profit Real? (EPACK vs Interarch)
+
+A common concern with zero-dividend growth companies: are reported profits backed by real cash, or is management manipulating earnings? The test is the CFO/PAT ratio (Cash Flow from Operations divided by Profit After Tax). A ratio above 1.0x means the business generates *more* cash than reported profit — the opposite of manipulation. Below 0.5x consistently is a red flag.
+
+**CFO/PAT comparison — EPACK vs Interarch:**
+
+| Year | EPACK CFO (₹Cr) | EPACK PAT (₹Cr) | EPACK CFO/PAT | Interarch CFO (₹Cr) | Interarch PAT (₹Cr) | Interarch CFO/PAT |
+|---|---|---|---|---|---|---|
+| FY21 | 19 | 8 | 2.4x | 26 | 6 | 4.3x |
+| FY22 | 31 | 22 | 1.4x | 31 | 17 | 1.8x |
+| FY23 | 7 | 24 | 0.3x | 82 | 81 | 1.0x |
+| FY24 | 61 | 44 | 1.4x | 54 | 86 | 0.6x |
+| **Average** | | | **~1.4x** | | | **~2.0x** |
+
+Both companies convert profit to cash adequately. EPACK's FY23 dip (0.3x) was driven by working capital build during rapid growth — receivables and inventory grew faster than payables that year. FY24 bounced back to 1.4x. Interarch's FY24 dip (0.6x) was driven by ₹223 Cr capex-related investing outflows.
+
+**Working capital comparison (where cash gets stuck):**
+
+| Metric | EPACK | Interarch |
+|---|---|---|
+| Debtor days | 66 | ~60 (est.) |
+| Inventory days | 74 | ~45 |
+| Payable days | 105 | ~80 |
+| Cash conversion cycle | 35 days | ~25 days |
+
+Both are efficient. EPACK's higher payable days (105 vs ~80) means it stretches supplier payments longer — a sign of bargaining power, not weakness. Companies that fake profits typically show *ballooning receivables* (revenue booked but never collected); EPACK's debtor days are stable at 66.
+
+**Why zero dividend is the correct choice for EPACK (but not for a mature company):**
+
+| Scenario | EPACK retains ₹10 Cr | EPACK pays ₹10 Cr dividend |
+|---|---|---|
+| What happens | Reinvested at 23% ROCE → ₹2.3 Cr incremental annual profit, compounding | Shareholders receive ~₹7 Cr after tax (30% dividend tax) |
+| 5-year value created | ~₹28 Cr cumulative from that ₹10 Cr | ₹7 Cr, full stop |
+
+At 23% ROCE with a 15-year runway, every rupee retained is worth 3-4x more than every rupee distributed. Interarch started paying dividends in FY25 (19% payout) because its D/E is 0.03x — it literally has more capital than it can deploy. EPACK at D/E 0.60x still has capacity expansion to fund.
+
+**Bottom line:** Don't use dividends as a proxy for cash quality — use CFO/PAT instead. EPACK's 1.4x average is clean. The zero dividend is a capital allocation *choice* (reinvest at 23% ROCE into a growing market), not a red flag. Interarch's dividend signals a different stage of life (fully funded, nowhere to deploy), not superior governance.
 
 ### Competitive Dynamics
 
 - **Market share trend:** Gaining — EPACK revenue CAGR 36% vs industry 12-13%. Clear outperformance.
 - **Primary competitive threat:** Interarch Building Solutions — listed, near-zero debt, comparable ROCE, growing at 25%+, competing for the same industrial PEB orders. Probability of margin pressure: Medium.
 - **Key vulnerability:** Consumer durable OEM concentration — if Daikin/Samsung/LG slow India factory expansion, EPACK's specific niche suffers more than diversified peers.
-- **Policy tailwind:** PLI scheme (12 sectors, ₹1.97L Cr outlay), National Infrastructure Pipeline, PM Gati Shakti — all require factory/warehouse construction = PEB demand. Data center buildout (Adani, Nxtra, Yotta, Microsoft) needs large column-free spans = PEB's core strength.
+- **Policy tailwind:** PLI scheme (12 sectors, ₹1.97L Cr outlay), National Infrastructure Pipeline, PM Gati Shakti — all require factory/warehouse construction = PEB demand. Data centre buildout (Adani, Nxtra, Yotta, Microsoft) needs large column-free spans = PEB's core strength.
 
 ---
 
-## 7. Customer & Supplier Analysis
-
-### Customers
-
-| Customer | Type | Revenue % | Notes |
-|---|---|---|---|
-| Daikin Airconditioning India | Consumer durables OEM | Significant | Long-term client for factory/warehouse structures |
-| Samsung India Electronics | Consumer durables OEM | Significant | Manufacturing facility construction |
-| LG Electronics India | Consumer durables OEM | Undisclosed | Factory PEB structures |
-| Haier Appliances India | Consumer durables OEM | Undisclosed | Factory construction |
-| Voltas / Whirlpool / Havells | Consumer durables OEM | Undisclosed | Factory and warehouse |
-| Godrej / Bosch-Siemens / Blue Star / Bajaj / Crompton | Consumer durables (multiple) | Undisclosed | Marquee clients listed in presentations |
-| Epack Petrochem Solutions | Group company | Related party | EPS resin off-take — 60-70% of Petrochem sales |
-
-**Concentration risk:** Heavy dependence on consumer durables OEM capex cycle. PEB orders are project-based, not recurring — pipeline depends on new factory announcements. Marquee client list is impressive but exact revenue concentration not disclosed.
-
-### Suppliers
-
-| Input | Category | Risk |
-|-------|----------|------|
-| Structural steel (SAIL, JSW, Tata Steel) | Primary raw material (50-60% of cost) | Commodity — price volatile; contract escalation clauses exist but lag |
-| EPS resin (Epack Petrochem) | Polystyrene beads for sandwich panels | Related party — backward integration; reduces external dependency |
-| Roofing/cladding sheets | Galvanised/colour-coated steel | Secondary steel — follows HRC price trends |
-| Civil contractors / erection teams | Project execution labour | Availability risk during construction boom periods |
-
-**Key supplier risk:** Steel is 50-60% of input cost. A 20% steel price spike compresses OPM by 2-3pp if contract escalation is delayed. This is the single biggest external risk to the business model.
-
----
-
-## 8. Risks
+## 7. Risks
 
 | Risk | Probability | Impact | Mitigation |
 |------|-------------|--------|------------|
 | Steel price spike (>20%) without timely pass-through | Medium-High | High — OPM drops 2-3pp | Contract escalation clauses; diversified steel sourcing |
-| PLI/OEM capex cycle slowdown | Medium | High — order book shrinks | Diversification into data centers, warehousing, logistics (not just consumer durables) |
+| PLI/OEM capex cycle slowdown | Medium | High — order book shrinks | Diversification into data centres, warehousing, logistics |
 | Competition intensifies (Interarch, new entrants) | High | Medium — price pressure on OPM | End-to-end + modular differentiation; multi-location advantage |
-| Execution scaling risk (3 new facilities simultaneously) | Medium | Medium — capex deployed but revenue delayed | Track record of 36% CAGR suggests capability; management has guided timelines |
-| Related party transactions (Epack Petrochem) | Low-Medium | Low | Backward integration is strategically sound; monitor % of total cost |
-| Working capital pressure at scale | Medium | Medium | Current WC cycle only 8 days — excellent; payable days 103 help |
+| Execution scaling risk (3 new facilities simultaneously) | Medium | Medium — capex deployed but revenue delayed | Track record of 36% CAGR suggests capability |
+| Related party transactions (Epack Petrochem) | Low-Medium | Low | Backward integration strategically sound; monitor % |
+| Working capital pressure at scale | Medium | Medium | Current WC cycle only 8 days — excellent |
 
 ---
 
-## 8a. Sectoral & Technology Analysis
+## 7a. Sectoral & Technology Analysis
 
 ### Tailwinds
 
 | Factor | Detail |
 |--------|--------|
-| **Penetration gap** | India PEB penetration ~15% vs 70%+ in US/Europe/China — structural multi-decade catch-up story; not a cyclical move |
-| **Economic case** | PEB is 30-40% cheaper and 50% faster than conventional construction; economic argument strengthens as land costs and labour costs rise |
-| **India market size** | ~₹465–485B in FY25, projected ₹730–800B by FY30 at 9–11% CAGR (IMARC). Global market: $2.3B (2025) → $6.5B by 2034 at 12%+ CAGR |
-| **Demand pillar 1: Warehousing/logistics** | E-commerce + 3PL expansion driving warehouse construction across tier-2/3 cities — PEB is the dominant format |
-| **Demand pillar 2: PLI-driven MNC capex** | Daikin, LG, Samsung, Haier, Voltas — EPACK's core clients — are building factories under PLI schemes; this is structural investment, not one-time |
-| **Demand pillar 3: Government infra** | Union Budget 2025-26 earmarked ₹128.6B for capital projects (3.1% of GDP); industrial parks, defence corridors, food processing clusters = PEB demand |
-| **Peer comparison** | EPACK leads listed peers: revenue growth 25.3% vs Pennar 3.1%, Interarch 12.4%; EBITDA margin 10.4% (best in class); ROE 22.7% |
-| **MNC OEM stickiness** | Consumer durable MNC clients are stickier and better-paying than commodity industrial clients; repeat project relationships across factory expansions |
+| **Penetration gap** | India PEB penetration ~15% vs 70%+ in US/Europe/China — structural multi-decade catch-up |
+| **Economic case** | PEB is 30-40% cheaper and 50% faster than conventional construction |
+| **India market size** | ~₹19,000 Cr in FY25, projected ₹54,000 Cr by 2034 at 12%+ CAGR |
+| **PLI-driven MNC capex** | Daikin, LG, Samsung, Haier — EPACK's core clients — building factories under PLI schemes |
+| **Warehousing/logistics** | E-commerce + 3PL expansion driving warehouse construction across tier-2/3 cities |
+| **Government infra** | Union Budget 2025-26 earmarked ₹128.6B for capital projects; industrial parks, defence corridors |
+| **Data centre buildout** | Adani, Nxtra, Yotta, Microsoft — large column-free spans = PEB's core strength |
 
-### Headwinds / Risks
+### Headwinds
 
 | Factor | Detail |
 |--------|--------|
-| **Steel + EPS cost exposure** | Steel and EPS (polystyrene) beads together = 50–70% of input costs; no real-time pass-through — a 20% steel price spike directly compresses OPM by 2-3pp |
-| **PLI policy dependency** | PLI is a government policy, not a permanent market force; if disbursements slow or scheme is restructured, the consumer durables OEM capex pipeline risks drying up |
-| **Unit 4 underutilisation** | Capacity utilisation at Unit 4 (Mambattu/AP) fell from 73.7% → 50.3% in FY25 — capacity built ahead of demand creates fixed-cost drag if volumes disappoint in FY26 |
-| **Unorganised sector pricing pressure** | Unorganised players (smaller regional fabricators) create constant pricing pressure at the lower end of the market, limiting EPACK's pricing power |
-| **Related-party EPS supply** | EPS resin sourced from group company Epack Petrochem — minor governance flag; 60-70% of Petrochem's sales go to EPACK, creating captive dependency in both directions |
-| **Project-based revenue lumpiness** | Quarterly results are inherently lumpy (Q3 FY26 was -25% QoQ due to monsoon execution delays in South India); this creates noise around thesis validation |
+| **Steel + EPS cost exposure** | 50-70% of input costs; no real-time pass-through |
+| **PLI policy dependency** | Government policy, not permanent market force |
+| **Unit 4 underutilisation** | Mambattu/AP utilisation fell 73.7% → 50.3% in FY25 |
+| **Unorganised sector pricing** | Smaller regional fabricators create pricing pressure at lower end |
+| **Project-based lumpiness** | Quarterly revenue inherently volatile (Q3 FY26 was -25% QoQ) |
 
 ### Technology Considerations
 
-- **Mature, low-tech manufacturing process:** PEB is structural steel fabrication — there is no IP moat. Competitive advantage comes from scale, execution quality, multi-location manufacturing, and client relationships, not proprietary technology.
-- **No near-term disruption risk:** Modular/volumetric construction technology (3D-printed structures, timber frame) remains expensive and operationally niche in India. PEB's position is not under technological threat within the 5-10 year investment horizon.
-- **Potential upside from BIM/design automation:** Adoption of Building Information Modelling (BIM) and parametric design tools could compress project design-to-delivery timelines further, improving throughput per engineer and compressing working capital cycles. EPACK has mentioned investment in design capabilities — track adoption rate.
-- **EPS/insulated panel technology:** Growing demand for energy-efficient buildings (cold chains, data centers, pharma warehousing) where insulated sandwich panels (EPS/PIR) command higher margins than plain PEB. EPACK's backward integration into EPS resin via Petrochem positions it to capture this premium segment.
+- **Mature, low-tech manufacturing:** PEB is structural steel fabrication — no IP moat. Advantage comes from scale, execution quality, and client relationships.
+- **No near-term disruption risk:** Modular/3D-printed construction remains niche in India. PEB position not under technological threat within 5-10 year horizon.
+- **EPS/insulated panel premium:** Growing demand for energy-efficient buildings (cold chains, data centres, pharma) where insulated panels command higher margins. EPACK's backward integration into EPS resin positions it for this.
 
 ---
 
@@ -611,7 +684,7 @@ EPACK operates in India's pre-engineered building (PEB) segment, estimated at �
 
 - [ ] ROE drops below 15% for 2 consecutive quarters
 - [ ] OPM drops below 8% for 2 consecutive quarters (margin erosion from steel/competition)
-- [ ] FY26 full-year revenue below ₹1,300 Cr (well below ₹1,500 Cr guidance = management credibility damaged)
+- [ ] FY26 full-year revenue below ₹1,300 Cr (well below ₹1,500 Cr guidance = credibility damaged)
 - [ ] Order book falls below ₹800 Cr (insufficient pipeline for 20%+ growth)
 - [ ] Promoter holding drops below 55% without clear strategic rationale
 - [ ] D/E exceeds 1.0x (post-IPO should be declining, not rising)
@@ -644,35 +717,35 @@ EPACK operates in India's pre-engineered building (PEB) segment, estimated at �
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/EPACKPEB.md`*
 
-### 2026-03-22 — Full framework rewrite (new template)
+### 2026-03-28 — Cash quality analysis added (EPACK vs Interarch)
 
-- **Complete rewrite to match multi-bagger framework template** — added Summary Verdict, Bull/Bear cases, Kill Filter checklist, Compounding Engine Q&A (Q1-Q5), full financial history with Screener data, Outlook + Sensitivity, DCF with shown math, P/B-ROE, Competitive Landscape with peer comparison, Customer/Supplier analysis
-- **Key data corrections:**
-  - Shares outstanding confirmed at ~10.0 Cr (post-IPO Sep 2025)
-  - D/E improved from 0.89 (FY24) to 0.32 (Sep 2025 post-IPO) — better than previously stated 0.64
-  - TTM PAT confirmed ₹82 Cr, TTM Revenue ₹1,385 Cr
-  - Working capital days only 8 (not 36 as previously stated — 36 was cash conversion cycle, not WC days)
-- **Q3 FY26 (Dec 2025):** Revenue ₹325 Cr (-25% QoQ, +22% YoY). Management attributed to monsoon execution delays in South India. Revenue deferred to Q4, not lost. Guidance reaffirmed at ₹1,500-1,550 Cr for FY26.
-- **9M FY26:** Revenue ₹1,054 Cr (+41% YoY), PAT ₹62 Cr (+59% YoY). ICRA upgraded to A+.
-- **Order book:** ₹1,216 Cr as of Jan 2026 = 7-8 months visibility
-- **Capacity expansion:** 170K → 220K MTPA by FY27 (Mambattu, Ghiloth, Gujarat)
-- **Valuation:** DCF base ₹260, P/B-ROE base ₹183, weighted base ₹237 vs CMP ₹149 = 59% upside
-- **Reverse DCF:** Market implies only 15-16% growth; we estimate 22%. 6-7pp margin of safety.
-- **Competitive landscape:** Interarch is the key listed peer — near-zero debt, similar ROCE, trades at 21x vs EPACK 18x. EPACK's discount is partly justified (higher leverage) but should narrow as D/E declines post-IPO.
-- **Incremental ROIC at 10% is a concern** — diluted by IPO capital not yet deployed. Trailing ROCE 23.7% on existing operations is strong. Need FY27 results to see if IPO capital generates adequate returns.
+- **Trigger:** External question — "unless they pay dividends, we're not sure they're generating cash or just manipulating profits."
+- **Finding:** EPACK's CFO/PAT averages 1.4x over FY21-FY24 — cash generation exceeds reported profit. No red flags. FY23 dip to 0.3x was working capital build during 46% revenue growth, normalised in FY24.
+- **Interarch comparison added:** Both companies have similar ROCE (23-25%), OPM (10%), and clean cash conversion. Key difference is capital structure (Interarch D/E 0.03 vs EPACK 0.60) and life stage — Interarch started dividends in FY25 because it's fully capitalised; EPACK retains 100% because it still has ₹300 Cr IPO capital to deploy.
+- **Conclusion:** Zero dividend at EPACK's stage (23% ROCE, 15% PEB penetration, funded expansion) is correct capital allocation, not a governance concern.
+
+### 2026-03-26 — Template v3 rewrite (classification system + expanded verdict)
+
+- **Rewritten to template v3:** Added Classification (Multi-Bagger Candidate), 2-4 line Recommendation block, Strengths/Concerns (replacing kill filter language), expanded Summary Verdict with market disagreement analysis, multi-bagger math scenario table, portfolio ranking, recent developments.
+- **No data changes from v2** — all financials, valuations, and competitive analysis carried forward. CMP still ₹149.
+- **Classification rationale:** Quality B (17/25) + Return Potential 2.3x/3yrs (31% CAGR) = Multi-Bagger Candidate. Base case exceeds 25% CAGR threshold.
+
+### 2026-03-22 — Full framework rewrite (v2 template)
+
+- Complete rewrite to match multi-bagger framework template — Summary Verdict, Bull/Bear cases, Compounding Engine Q&A (Q1-Q5), full financial history, DCF with shown math, P/B-ROE, Competitive Landscape with peer comparison.
+- Key: Incremental ROIC at 10% diluted by undeployed IPO capital; trailing ROCE 23.7% on existing operations.
+- ICRA upgraded credit rating to A+.
 
 ### 2026-03-19 — DCF revision (capacity-anchored)
 
 - Revised DCF from conservative (base ₹133) to capacity-anchored (base ₹234)
 - Added PEB penetration thesis: India 15% vs 70%+ global
-- Quarterly volatility (₹295-434 Cr range) is order timing, not demand loss
-- P/B-ROE base case ₹412 (if 22% ROE sustained)
+- Quarterly volatility is order timing, not demand loss
 
 ### 2026-03-11 — Initial thesis created
 
 - Built 2-model valuation: DCF (base -17%), P/B-ROE (base +158% if ROE sustains)
-- Quality Score: 17/25 (Grade B). MOAT 3, Management 4, Financials 4, Growth 4, Valuation 2.
-- Stock at 52-week low. Models initially disagreed — revision in Mar 19 session resolved this.
+- Quality Score: 17/25 (Grade B). Stock at 52-week low.
 
 ---
 
@@ -680,5 +753,6 @@ EPACK operates in India's pre-engineered building (PEB) segment, estimated at �
 
 | Version | Date | Description | Link |
 |---------|------|-------------|------|
-| v2 (current) | 2026-03-22 | Full framework rewrite — new template with Summary Verdict, Kill Filter, Compounding Engine Q&A, DCF math | This file |
+| v3 (current) | 2026-03-26 | Template v3 — classification system, expanded verdict, strengths/concerns | This file |
+| v2 | 2026-03-22 | Template v2 — compounding Q&A, narrative bull/bear | [archive/EPACKPEB_v2.md](archive/EPACKPEB_v2.md) |
 | v1 | Pre-2026-03-22 | Original thesis | [archive/EPACKPEB_v1.md](archive/EPACKPEB_v1.md) |

@@ -1,5 +1,5 @@
 # Research System — TODO
-*Last updated: 2026-03-25*
+*Last updated: 2026-03-28*
 
 ---
 
@@ -51,6 +51,20 @@
 - [ ] Real US positions thesis — RGTI, OKLO, ACHR etc. (all in loss, speculative)
 - [ ] STLTECH watch trigger — only revisit if DGTR anti-dumping duty granted
 - [ ] **KCP Limited** — AGM transcript analysed (2026-03-25). Cement + heavy engg + Vietnam sugar. Rs 978 Cr cash, 75 acres Chennai land, subsidiary for monetization. Interesting value play — needs Screener data for full thesis.
+- [ ] **GRAB (US: GRAB)** — Southeast Asia super-app (ride-hailing, food delivery, fintech). Full thesis using new v3 template.
+- [ ] **aThos Life Sciences (US: LIFE)** — Full thesis using new v3 template.
+- [ ] **Microsoft (US: MSFT)** — Full thesis using new v3 template. AI/cloud compounder, valuation check at current levels.
+- [ ] **DCIL (Dredging Corp of India)** — 50-year company, ₹1,146 Cr revenue (highest ever), ₹1,400 Cr order book, targeting ₹3,000 Cr. GRSE is shipyard partner. PSU dredging monopoly (80% of India's maintenance dredging).
+
+## SECTOR THESIS — NUCLEAR POWER INDIA
+
+- [ ] **Sector thesis created:** `research/SECTOR_NUCLEAR_INDIA.md` — 100 GW by 2047, ₹14-23 lakh Cr total capex, SHANTI Bill 2025 opens private sector
+- [ ] **PATELSAIR** — update thesis with nuclear angle (N-NPT certified, 1 of 3 in India)
+- [ ] **Walchandnagar Industries** — Screener data + thesis (legacy DAE partner, 30-40% nuclear revenue)
+- [ ] **MTAR Technologies** — Screener data + valuation check (precision nuclear components, typically 50-80x PE)
+- [ ] **KSB Ltd** — quick check (only approved supplier for primary coolant pumps)
+- [ ] **HCC** — balance sheet check (built 60% of India's nuclear plants, historically debt-heavy)
+- [ ] **BHEL** — monitor nuclear turbine order book (₹10,800 Cr order for 6 turbine islands)
 
 ## NEW — AUTORESEARCH BACKTESTING ENGINE
 
@@ -78,6 +92,20 @@
 - [ ] Friend access / Claude API chat widget in index.html
 - [ ] Cards view — tracking stocks section missing
 - [ ] Weekly digest auto-generator (`src/weekly_digest.py`)
+
+---
+
+## ✅ COMPLETED (2026-03-28 session)
+
+**Research:**
+- **EPACKPEB** — cash quality analysis vs Interarch (CFO/PAT comparison, P/B added to peer table, upside/margin-of-safety comparison). EPACK justified P/B 2.67x vs trading at 2.02x (24% undervalued). Interarch at 3.62x vs justified 2.00x (81% overvalued).
+- **DREDGECORP** — updated with DCIL Golden Jubilee press release (₹3,000 Cr revenue target, 11 new dredgers, ₹1,400 Cr order book, ₹1,000 Cr rights issue dilution risk). Stock remains overvalued.
+- **INTEGRATEDIND / Nurture Well** — deep related-party analysis. Promoter Sanidhya Garg mapped across 7 companies. M.G Metalloy (metals company) received ₹56.5 Cr in warrants as promoter group. 8/10 fraud indicators present — not proof but high concentration. Action: verify FY25 annual report before adding.
+- **Nuclear sector thesis** (SECTOR_NUCLEAR_INDIA.md) — created last session, rendered to HTML
+- **GRSE** — research log updated with DCIL press release mentioning GRSE as shipyard partner
+
+**Index page audit:**
+- 4 missing HTML files added to index.html: SECTOR_NUCLEAR_INDIA, KCP, LOSERS_ANALYSIS, GROWW_vs_ICICIAMC
 
 ---
 
