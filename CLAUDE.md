@@ -23,9 +23,9 @@ When the user gives you a company name, ticker, earnings call transcript, annual
 
 ---
 
-## PHASE 0: KILL FILTERS (Run first. If any fail, stop and explain why.)
+## PHASE 0: THRESHOLD CHECKS (Run first. Flag concerns clearly.)
 
-### 0.1 — Accounting & Governance Red Flags
+### 0.1 — Accounting & Governance Concerns
 - [ ] Qualified or adverse audit opinion in any of the last 3 years
 - [ ] Frequent auditor changes (2+ in 5 years)
 - [ ] Related-party transactions exceeding 5% of revenue
@@ -35,7 +35,7 @@ When the user gives you a company name, ticker, earnings call transcript, annual
 
 **Where to find:** Annual report → Auditor's Report + Notes → Related Party Transactions | Screener.in → Cash Flow vs PAT | BSE filings → Shareholding Pattern → Promoter Pledge
 
-### 0.2 — Capital Structure Red Flags
+### 0.2 — Capital Structure Concerns
 - [ ] D/E > 1.5x (except financials/infrastructure)
 - [ ] Interest coverage < 3x
 - [ ] Planned equity dilution > 15% of current equity base
@@ -44,7 +44,7 @@ When the user gives you a company name, ticker, earnings call transcript, annual
 
 **Where to find:** Screener.in → Balance Sheet → Borrowings | BSE filings → Board resolutions for QIP/warrants/preferential allotment
 
-### 0.3 — Business Viability Red Flags
+### 0.3 — Business Viability Concerns
 - [ ] Single customer > 30% of revenue
 - [ ] Revenue dependent on one commodity or reversible regulatory tailwind
 - [ ] No visible path to profitability (pre-profit: gross margins not improving over 3 quarters)
@@ -150,7 +150,7 @@ Signs of narrowing: commoditization, new tech enabling smaller competitors, regu
 
 ## PHASE 5: VALUATION SANITY CHECK
 
-Only run this if Phases 0-4 pass.
+Only run this if Phases 0-4 show no disqualifying concerns.
 
 ### 5.1 — Intrinsic Value Estimation
 ```
@@ -181,23 +181,28 @@ PV              = PV of interim CFs + Terminal Value / (1+r)^n
 
 ## OUTPUT FORMAT
 
-### Summary Verdict
-- Company | Kill Filter: PASS/FAIL | Compounding Engine: Strong/Moderate/Weak
-- Reinvestment Runway: X years | Competitive Trajectory: Widening/Stable/Narrowing
-- Management Quality: High/Medium/Low | Valuation: Attractive/Fair/Expensive (implied growth rate)
-- Overall Multi-Bagger Probability: High/Medium/Low/Not a candidate
+Always use `research/_TEMPLATE.md` as the structural guide. The output has two layers:
 
-### Bull Case (3 sentences)
-What has to go RIGHT for this to be a multi-bagger.
+### Layer 1: Summary Verdict (~1-2 pages, read this first)
+- **Recommendation** (2-4 line block at top): BUY/HOLD/ADD/EXIT, core bet, expected return, key condition
+- **Classification**: Multi-Bagger Candidate / Quality Compounder / Fairly Valued / Overvalued / Exit
+  - Classification = Quality Score (A/B/C/D) × Return Potential (from Multi-Bagger Math table)
+  - A high-quality business at the wrong price is not a multi-bagger
+- **Why this business?** — the core thesis in 3-5 sentences, first-principles anchor
+- **Strengths** — 3-5 specific, verifiable positives
+- **Concerns** — 2-4 specific negatives or monitoring items (replaces "kill filter" language)
+- **The Compounding Equation** — ROIC × reinvestment = growth, grounded in physical reality
+- **What does the market think — and where do I disagree?** — reverse DCF, quantified disagreement
+- **Multi-Bagger Math table** — bear/base/bull with EPS CAGR, PE trajectory, return multiple, probability
+- **When do I sell?** — 2-3 specific, measurable exit triggers (not generic risks)
+- **Where does this rank?** — vs 2-3 portfolio alternatives, forces relative comparison
+- **Recent Developments** — rolling 3-5 bullets of latest research/news
+- **Action table** — buy/hold/exit price levels with specific conditions
 
-### Bear Case (3 sentences)
-What could BREAK the compounding thesis.
-
-### Key Monitorables
-3-5 specific metrics/events to track quarterly.
-
-### Data Gaps
-What information is missing that would improve conviction.
+### Layer 2: Detailed Analysis (supporting evidence)
+Sections 1-11 per template — Business Summary, Quality Score, Compounding Engine Q&A,
+Key Metrics, Outlook, Valuation, Competitive Landscape, Risks, Exit Triggers, Review Schedule,
+Decision History, Research Log, Version History.
 
 ---
 

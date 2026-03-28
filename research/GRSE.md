@@ -483,6 +483,16 @@ GRSE occupies the mid-tier of India's naval shipbuilding hierarchy: it builds fr
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/GRSE.md`*
 
+### 2026-03-28 — DCIL fleet expansion (GRSE as shipyard partner)
+
+- **Dredging Corporation of India (DCIL)** press release dated 27/03/2026: DCIL marks 50 years, announces ambitious expansion — ₹3,000 Cr revenue target (up from ₹1,146 Cr current), 11 new dredgers to be inducted.
+- **GRSE named as one of the collaborating shipyards** alongside Cochin Shipyard, Hindustan Shipyard, Goa Shipyard, and BEML under Atmanirbhar Bharat / Make in India initiative.
+- DCIL fleet expansion includes high-capacity hopper dredgers, cutter suction dredgers, and specialised shallow-water/inland vessels.
+- DCIL also exploring submarine cable trenching, offshore wind support, inland waterways — all require specialised vessels.
+- **Thesis impact: Neutral to mildly positive.** GRSE's primary order book driver remains Navy warships (NGC, frigates). Dredger orders are smaller in value but add diversification. Monitor if DCIL places orders with GRSE specifically.
+
+---
+
 ### 2026-03-25 — NGC Contract & Revised Outlook (Post Q3 FY26)
 
 **Order Book Update (Q3 FY26):**
