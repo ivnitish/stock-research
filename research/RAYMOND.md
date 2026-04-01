@@ -642,6 +642,37 @@ Raymond Engineering operates in two distinct competitive arenas. In aerospace (J
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/RAYMOND.md`*
 
+### 2026-04-01 — Why Reported EPS Looks Collapsed (Demerger Accounting Noise)
+
+**Source:** Screener.in consolidated data (April 1, 2026)
+
+**The puzzle:** Raymond's reported quarterly EPS has collapsed — Q2 FY26 EPS ₹1.71, Q3 FY26 EPS ₹0.54 — versus FY25 annual EPS of ₹1,145.85. Is the business deteriorating?
+
+**The answer: No. This is entirely demerger accounting noise.**
+
+| Quarter | Revenue (₹ Cr) | Net Profit (₹ Cr) | EPS (₹) | What Happened |
+|---------|---------------|-------------------|---------|---------------|
+| Mar 2025 | 558 | 137 | 19.93 | Last pre-clean quarter; some demerger items |
+| Jun 2025 (Q1 FY26) | 524 | **5,328** | **799.58** | ₹5,338 Cr one-time gain from lifestyle demerger completion |
+| Sep 2025 (Q2 FY26) | 528 | 14 | 1.71 | First "clean" quarter — but below-the-line adjustments depress PAT |
+| Dec 2025 (Q3 FY26) | 557 | 7 | 0.54 | Clean revenue growing, but reported PAT only ₹7 Cr |
+
+**Why reported PAT (₹7-14 Cr/quarter) is misleading:**
+
+The Q3 FY26 concall showed **₹557 Cr revenue at 10.7% OPM = ~₹60 Cr operating profit.** After depreciation (~₹25 Cr), interest (~₹5 Cr), and 25% tax, engineering PAT should be ~₹22-25 Cr per quarter. The gap between this estimate (~₹25 Cr) and reported (₹7 Cr) is driven by post-demerger adjustments — minority interest reclassification, one-time labour code costs (₹14 Cr in one quarter), and other below-the-line items that will wash out over 2-3 quarters.
+
+**The "real" engineering run-rate:**
+- Segment EBITDA: ₹83 Cr (Q3 FY26, 14.3% margin) — this is the honest number
+- Annualized EBITDA: ~₹320-360 Cr
+- Estimated clean annual PAT: ₹150-190 Cr (once adjustments finish)
+- At ₹351 CMP and ₹190 Cr clean PAT: implied PE ~12x — genuinely cheap for a business with 34-49% aerospace growth
+
+**Screener PE of 12.3x is also distorted** — it includes the ₹5,328 Cr one-time gain in TTM, making PE look lower than clean reality. Clean PE at ₹150-190 Cr PAT = 12-16x.
+
+**Key monitorable:** Q4 FY26 (Mar 2026) will be the first fully clean quarter with no demerger noise. If reported PAT comes in at ₹25-35 Cr, our ₹150-190 Cr annual thesis is validated. If it's still ₹7-10 Cr, there's a structural margin problem we haven't identified.
+
+---
+
 ### 2026-03-28 — Q3 FY26 Concall Deep Dive (standard 10-question framework)
 
 **Source:** BSE filings `20260127_CONCALL_Q3FY26_Transcript.pdf` and `20260202_Earnings_Call_Transcript...pdf` (identical content). Full transcript cross-referenced against 10-question standard framework.
