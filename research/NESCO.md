@@ -2,7 +2,17 @@
 
 **Status:** OWNED (1 share, ₹1,376 invested, tracking position)
 **Quality Score:** 19/25 (Grade B+: High Conviction)
+**Classification:** Quality Compounder (Quality B+ + Base case 1.9x/5yrs, 14% CAGR; bull case 2.7-3.0x)
 **Last Updated:** 2026-03-22 | **CMP:** ₹1,055 | **Entry:** ₹1,376 | **P&L:** -23%
+**Data Source:** Screener.in (consolidated), Q3 FY26 BSE filing
+
+> **Recommendation:** BUY / accumulate aggressively below ₹1,100. Nesco owns 70 irreplaceable
+> freehold acres in Goregaon, Mumbai, earning 85% IT park margins on land acquired decades ago
+> at negligible cost — and Tower 2 (₹3,500 Cr, FY29-30) nearly triples leasable area. At ₹1,055
+> (18x PE), the market prices in only 8% earnings growth — essentially no credit for Tower 2 —
+> versus our blended 15-18% estimate; land value alone (₹14,000-21,000 Cr) is 2-3x the entire
+> market cap. Key condition: Tower 2 must stay on track for FY29-30 delivery (watch CWIP
+> trajectory quarterly, currently ₹761 Cr).
 
 ---
 
@@ -20,6 +30,45 @@
 
 **Overall Multi-Bagger Probability: Medium-High** — Strong compounding engine with structurally high ROIC (85% IT park margins on zero-cost land), massive reinvestment runway (Tower 2 nearly triples leasable area), and land value floor far exceeding market cap. Timeline is 4-5 years (Tower 2 delivery FY29-30).
 
+### Why this business?
+
+Nesco sits on 70 freehold acres in Goregaon East, Mumbai — a location where no developer, at any price, can assemble a comparable campus today. That land was acquired decades ago at negligible cost, which means the denominator in any return calculation is effectively zero: every rupee of rental income from the IT park earns near-infinite return on the original land investment, and the visible 85% PBIT margin on the IT park segment reflects this. Blue-chip tenants like HSBC, KPMG, BlackRock, and MSCI sit on 9-year leases with built-in rent escalations, generating ₹350+ Cr of annual operating cash flow with the predictability of an annuity. The business has operated with virtually zero debt for decades — no interest cost, no refinancing risk, no dilution. Tower 2, Nesco's largest project ever at ₹3,500 Cr, nearly triples leasable area from 1.87M to ~7M sq ft and adds a 732-room hotel, funded primarily from internal accruals. The bet is that this irreplaceable land converts into a much larger earnings stream over FY29-34, while the market today prices only the current ₹408 Cr PAT at a pedestrian 18x multiple and gives zero credit to either the land value (₹14,000-21,000 Cr, or 2-3x the market cap) or the step-function earnings jump Tower 2 will deliver.
+
+### Strengths
+
+- **Irreplaceable physical moat.** 70 freehold acres in Goregaon, Mumbai — no competitor can replicate this asset at any cost. At current market rates (₹200-300 Cr/acre), just the land is worth ₹14,000-21,000 Cr, which is 2-3x the entire market cap before counting the operating business.
+- **Annuity income with exceptional margins.** IT park PBIT margin runs at 83-85% because the land cost is sunk and maintenance costs are minimal. Blue-chip tenants on long leases with contractual rent escalations make this closer to a toll road than a real estate business. OCF/PAT averaging 0.96x over 4 years confirms profits are real cash.
+- **Fortress balance sheet.** D/E of 0.04, effectively zero debt for decades, ₹1,321 Cr of cash and investments on the balance sheet. Tower 2's ₹3,500 Cr cost is being funded from internal accruals without equity dilution. Promoter at 68.54%, rock steady, no pledge.
+- **Massive funded reinvestment runway.** Tower 2 (5M sq ft IT park + 732-room hotel + 172 serviced apartments) nearly triples leasable area with an incremental ROIC likely exceeding 25% given the zero land cost. This is 7-10 years of visible capital deployment at high returns.
+- **FY26 growth inflection confirmed.** BSE filing (March 19, 2026) confirmed ₹1,000 Cr revenue in FY26, representing 37% growth versus FY25's ₹732 Cr — shattering the market's 8-11% "slow compounder" assumption.
+
+### Concerns
+
+- **BEC exhibition monopoly eroding.** Jio World Convention Centre (7x larger, Reliance-backed) and Adani's planned venue are structurally taking share. BEC revenue grew only 2% YoY in Q3 FY26 versus Foods at 106%. BEC is ~25% of revenue and likely to shrink further in the mix.
+- **OPM compression from Foods mix shift.** Foods segment now nearly equals IT Park in revenue but contributes only 13% margin versus IT Park's 83%. Blended OPM has fallen from 65% (FY22) to 52% (Q3 FY26). Absolute profit still grows, but the margin dilution means earnings growth will lag revenue growth until Tower 2's high-margin sq ft comes online.
+- **Tower 2 execution risk on the largest project in company history.** ₹3,500 Cr over 4-5 years with ₹761 Cr of CWIP already deployed. Construction cost inflation, regulatory delays, or a Mumbai real estate downturn could push delivery to FY32+ and force Nesco to take on meaningful debt for the first time.
+- **Way-Side Amenities: capital deployed, no returns yet.** ₹260 Cr of segment assets already committed to highway amenities, currently loss-making (₹1.67 Cr loss in Q3 FY26). If this grows to ₹500+ Cr before Tower 2 delivers, it signals a capital discipline breakdown in a management team whose strength has always been patience and focus.
+
+### The Compounding Equation
+
+Nesco's compounding engine is unusual because it doesn't rely on thin margins and fast capital turns like a manufacturing business. Instead, it earns extraordinary margins (85% IT park PBIT) on capital that was deployed decades ago at a fraction of today's replacement cost. The 70-acre Goregaon campus, acquired when Mumbai's western suburbs were undeveloped, now sits in a premium commercial corridor — the land alone is worth ₹14,000-21,000 Cr at current rates, but it sits on the balance sheet at historical cost of a few hundred crores. This is why ROCE appears to be a healthy-but-not-spectacular 21% — the denominator includes ₹1,321 Cr of cash and investments that depress the ratio. Strip those out and look at the IT park segment alone: ₹83 Cr quarterly profit on capital employed of ₹1,278 Cr yields 26% annualised ROCE, and even this understates the real return because the land cost in that capital employed is far below market value.
+
+The reinvestment fuel is Tower 2. Nesco retains 88% of earnings (only 12% paid as dividends) and channels nearly all of it into the ₹3,500 Cr Tower 2 project. Incremental ROIC over FY22-FY25 measured 30.5% — every rupee of new capital generated 30 paise of additional annual after-tax profit. The growth math works out to a theoretical 26.8% earnings CAGR (88% reinvestment rate times 30.5% ROIC), but this overstates near-term reality because Tower 2 capex is a cash drain now with returns arriving in FY30+. The realistic trajectory is 10-12% PAT CAGR through FY29 (rent escalations plus Foods growth minus OPM compression), then a step-function jump as Tower 2's 5M sq ft fills at 85% margins. Blended over 7 years, this implies 15-18% earnings CAGR — not the fastest compounder in a portfolio, but one where the downside is anchored by land worth 2-3x the market cap and the upside is a genuine 3x if Tower 2 executes on schedule.
+
+### What does the market think — and where do I disagree?
+
+At ₹1,055 (18.2x PE), a reverse DCF using r=12%, n=8 years, and an 18x terminal multiple implies the market expects only ~8% earnings growth for the next 8 years. That is essentially IT park rent escalations with zero credit for Tower 2, zero credit for the Foods segment doubling, and zero credit for ₹14,000-21,000 Cr of land value sitting on the balance sheet at historical cost. The market is pricing Nesco as a sleepy annuity business with no growth catalyst.
+
+I estimate 15-18% blended PAT CAGR over 7 years, driven by Tower 2 nearly tripling leasable area at 85% margins on zero-cost land. The 7-10 percentage point gap between the market's implied growth (8%) and my estimate (15-18%), compounded over 7-8 years, is where the returns come from. At base case (₹650 Cr FY30 PAT at 22x PE), fair value is ₹2,028/share — nearly 2x from current levels.
+
+Why is the market wrong? It is over-weighting three things: (1) the OPM compression from Foods mix shift, which is a revenue-quality issue, not a business-quality issue — absolute profit still grows; (2) BEC's competitive decline, which affects ~25% of revenue but not the core IT park cash cow; and (3) the 4-5 year wait for Tower 2 to deliver, which the market discounts heavily because near-term earnings growth looks unexciting at 10-12%. It is under-weighting the asset value floor (land worth 2-3x market cap provides massive downside protection) and the step-function earnings jump when Tower 2 commissions — this is not a gradual re-rating story but a binary catalyst where PAT could nearly double in 2-3 years post-delivery.
+
+| Level | Price | Trigger |
+|-------|-------|---------|
+| Buy / Add | ₹900 – ₹1,100 | ₹1,000 Cr revenue milestone confirmed (BSE filing Mar 19 2026). At ₹1,055 CMP, P/E ~18x on TTM PAT ₹408 Cr — undemanding for a quality compounder. Land value floor ₹2,440-3,430/share. |
+| Hold | ₹1,100 – ₹1,600 | Approaching revised DCF base (~₹1,430). Hold through Tower 2 delivery FY29-30. |
+| Exit | At trigger only | IT park occupancy <80%; Tower 2 cancelled or >2yr delay; management diverts >₹500 Cr into non-core businesses. |
+
 ---
 
 ### The Bull Case
@@ -34,32 +83,17 @@ BEC exhibition revenue is in structural decline — Jio World Convention Centre 
 
 1. **Tower 2 construction progress:** On track for FY29-30 delivery vs any disclosed delays — Source: quarterly concall, BSE Reg 30 filings, CWIP trajectory (currently ₹761 Cr)
 2. **IT Park occupancy rate:** Must stay >90%; concern threshold <85% — Source: quarterly results, investor presentation
-3. **Blended OPM trajectory:** Currently 51% (Q1 FY26) vs 60% (FY25) — if Foods mix shift pushes OPM below 45%, earnings growth decouples from revenue growth — Source: Screener.in quarterly
+3. **Blended OPM trajectory:** Currently 52% (Q3 FY26, per BSE filing) vs 60% (FY25) — if Foods mix shift pushes OPM below 45%, earnings growth decouples from revenue growth — Source: BSE quarterly filings, segment breakup
 4. **BEC exhibition revenue:** Track QoQ and YoY — structural decline from Jio/Adani competition or stabilization? — Source: segment breakup in quarterly filings
 5. **Capital allocation to highway amenities:** If >₹200 Cr committed before Tower 2 completion, that is a capital discipline red flag — Source: concall, annual report
+6. **Way-Side Amenities segment losses:** ₹260 Cr segment assets deployed, currently loss-making (₹1.67 Cr loss in Q3 FY26, per BSE filing). Business model: premises on long-term lease. If assets grow to ₹500+ Cr before Tower 2 delivers, downgrade Management score. Track quarterly for revenue ramp or continued losses.
 
 ### Data Gaps
 
-1. **Segment-wise quarterly breakup not available on Screener:** Need to source from BSE quarterly filings or concall transcripts to track IT Park vs BEC vs Foods revenue independently
+1. **~~Segment-wise quarterly breakup~~:** ✅ CLOSED — BSE standalone quarterly filings include segment reporting. Q3 FY26 data extracted (see Research Log 2026-03-28). Use BSE filings going forward, not Screener, for segment data.
 2. **Tower 2 detailed construction timeline:** Phase-wise commissioning dates, pre-leasing status, hotel operator identity — check investor presentation or annual report
-3. **Highway amenities: specific capital commitment and business model** — management has announced entry but no financial details disclosed yet. Q4 FY26 concall is the first chance to get specifics
+3. **Highway amenities: ~~specific capital commitment~~** — PARTIALLY CLOSED: Way-Side Amenities segment now reporting with ₹260 Cr segment assets, currently loss-making (₹1.67 Cr loss in Q3 FY26). Business model: premises on long-term lease. Still need: total committed capital, revenue ramp timeline, target margins.
 4. **Tenant concentration:** Top-5 tenant % of IT park revenue not disclosed — important for understanding renewal risk
-
----
-
-## Quick Summary
-
-**One-line thesis:** Mumbai's irreplaceable 70-acre IT park + exhibition campus with 85% IT park margins, virtually zero debt, and Tower 2 (₹3,500 Cr, FY30) nearly tripling leasable area — trading at P/E 18x with land value floor of ₹2,440-3,430/share (2.3-3.3x current price).
-
-**Action:** BUY — accumulate aggressively below ₹1,100
-
-| Level | Price | Trigger |
-|-------|-------|---------|
-| Buy / Add | ₹900 – ₹1,100 | ₹1,000 Cr revenue milestone confirmed (BSE filing Mar 19 2026). At ₹1,055 CMP, P/E ~18x on TTM PAT ₹408 Cr — undemanding for a quality compounder. Land value floor ₹2,440-3,430/share. |
-| Hold | ₹1,100 – ₹1,600 | Approaching revised DCF base (~₹1,430). Hold through Tower 2 delivery FY29-30. |
-| Exit | At trigger only | IT park occupancy <80%; Tower 2 cancelled or >2yr delay; management diverts >₹500 Cr into non-core businesses. |
-
-**Why now (Mar 2026):** BSE filing (March 19, 2026) confirmed ₹1,000 Cr revenue in FY26 — 37% growth vs FY25's ₹732 Cr. The market had priced NESCO as a slow 8-11% compounder. At ₹1,055, P/E is ~18x on TTM PAT of ₹408 Cr. Cheap for a business with 85% IT park margins, zero debt, and ₹14,000 Cr+ of land on the balance sheet.
 
 ---
 
@@ -188,7 +222,7 @@ Implied earnings CAGR = 88% × 30.5% = 26.8%
 ```
 
 **But this overstates near-term growth** because Tower 2 capex is a cash drain NOW with returns arriving in FY30+. The actual earnings trajectory is:
-- FY26-FY29: Revenue grows 10-15% (IT Park escalations + BEC + Foods), but OPM compresses from 60% to ~50% (Foods mix). PAT CAGR ~10-12%.
+- FY26-FY29: Revenue grows 10-15% (IT Park escalations + BEC + Foods), but OPM compresses from 60% to ~52% (Foods mix, per Q3 FY26 BSE filing). PAT CAGR ~10-12%.
 - FY30-FY34: Tower 2 commissions. Revenue jumps 40-60% as 5M sq ft fills. PAT could double in 2-3 years.
 
 **Realistic blended 7-year CAGR: 15-18%** (front-loaded capex, back-loaded returns).
@@ -275,14 +309,21 @@ Entry at 18x P/E → exit at 25x P/E (re-rating on proven Tower 2 execution) →
 | CWIP / Tower 2 (₹ Cr) | — | — | — | 753 | ₹761 Cr as of Sep 2025 |
 | Promoter Holding % | 68.54 | 68.54 | 68.54 | 68.54 | Rock steady |
 
-### Segment Economics (Q1 FY26)
+### Segment Economics (Q3 FY26)
 
-| Segment | Revenue (₹ Cr) | PBIT Margin | Notes |
-|---------|-------------|-------------|-------|
-| Nesco IT Park | ~98 | ~85% | Cash cow — annuity rental |
-| BEC (Exhibition) | ~40 | ~51% | Structural pressure from Jio/Adani |
-| Foods | ~47 | ~12% | Growing 100%+ YoY, margin dilutive |
-| Indabrator | ~7 | Loss | Legacy, immaterial |
+*Source: BSE standalone filing, Q3 FY26 (quarter ended 31 Dec 2025)*
+
+| Segment | Q3 FY26 Rev (₹ Cr) | Segment Profit (₹ Cr) | Margin | Q3 FY25 Rev | YoY Growth | Capital Employed (₹ Cr) | ROCE (ann.) |
+|---------|---------------------|----------------------|--------|-------------|------------|------------------------|-------------|
+| Realty (IT Park) | 100.11 | 83.49 | 83% | 92.94 | +8% | 1,277.90 | 26% |
+| BEC (Exhibition) | 68.21 | 36.36 | 53% | 67.13 | +2% | 213.14 | 68% |
+| Foods | 70.43 | 9.13 | 13% | 34.19 | +106% | 48.54 | 75% |
+| Indabrator | 9.17 | 0.56 | 6% | 10.00 | -8% | 39.29 | 6% |
+| Way-Side Amenities | — | (1.67) | loss | — | NEW | (6.87) | NM |
+| Unallocable | — | — | — | — | — | 1,331.48 | — |
+| **Total** | **247.92** | **127.87** | **52%** | **206.54** | **+20%** | — | — |
+
+**Segment ROCE highlights:** BEC (68%) and Foods (75%) have extraordinary ROCE on small capital bases. Realty at 26% is healthy but depressed by Tower 2 CWIP in the denominator. The ₹1,331 Cr unallocable is likely cash/investments — consistent with "large cash pile depresses ROE" observation. Way-Side Amenities has ₹260 Cr segment assets deployed (per Q3 FY26 BSE filing) but is loss-making.
 
 ### CAGRs
 
@@ -291,9 +332,9 @@ Entry at 18x P/E → exit at 25x P/E (re-rating on proven Tower 2 execution) →
 | 3-Year (FY22→FY25) | 29% | 26% | 26% |
 | Including FY26E (FY22→FY26E) | ~31% | ~23% | ~23% |
 
-### Quarterly Trend (Last 8 Quarters)
+### Quarterly Trend (Last 10 Quarters)
 
-*Source: Screener.in consolidated*
+*Source: Screener.in consolidated (FY24-FY25); BSE standalone filing (Q2-Q3 FY26)*
 
 | Quarter | Revenue (₹ Cr) | OPM % | Net Profit (₹ Cr) | EPS (₹) | Key Comment |
 |---------|--------|-------|---------|---------|-------------|
@@ -304,9 +345,13 @@ Entry at 18x P/E → exit at 25x P/E (re-rating on proven Tower 2 execution) →
 | Q2 FY25 | 192 | 56% | 89 | 12.58 | OPM dip — Foods mix shift |
 | Q3 FY25 | 193 | 57% | 96 | 13.64 | Foods 106% YoY |
 | Q4 FY25 | 239 | 57% | 119 | 16.88 | Strongest quarter; BEC peak season |
-| **Q1 FY26** | **248** | **51%** | **105** | **14.85** | OPM compression continues; Foods dilution |
+| Q1 FY26 | 248 | 51% | 105 | 14.85 | OPM compression continues; Foods dilution |
+| Q2 FY26 | 239 | ~54% | 119 | 16.88 | BSE standalone |
+| **Q3 FY26** | **248** | **52%** | **105** | **14.85** | Rev +20% YoY, PAT -5% YoY; Foods +106% YoY (BSE standalone) |
 
-**Key insight:** OPM trending down from 65% (FY22) to 51% (Q1 FY26). This is primarily mix shift — Foods segment growing 100%+ YoY at 12% margin vs IT Park at 85%. Not a deterioration of core business. Every ₹1 of Foods revenue adds ₹0.12 to PAT vs ₹0.85 from IT Park. Absolute profit still growing.
+**9M FY26 standalone:** Revenue ₹680 Cr (+26% YoY), PAT ₹320 Cr (+12% YoY). On track for ₹420-430 Cr FY26E PAT assuming strong Q4 BEC peak season.
+
+**Key insight:** OPM trending down from 65% (FY22) to 52% blended (Q3 FY26, per BSE filing). This is primarily mix shift — Foods segment growing 106% YoY at 13% margin vs IT Park at 83%. Not a deterioration of core business. Every ₹1 of Foods revenue adds ₹0.13 to PAT vs ₹0.83 from IT Park. Absolute profit still growing.
 
 ---
 
@@ -325,7 +370,7 @@ The primary revenue driver is leasable area × occupancy × rental rate per sq f
 | Tower 2 hotel | 732 rooms + 172 serviced apartments | Revenue ₹100-200 Cr/yr (hotel industry benchmarks) |
 | BEC + Foods | Currently ₹300+ Cr combined | Revenue ₹350-400 Cr/yr (modest growth) |
 | **Total FY30E Revenue** | | **₹1,330-1,650 Cr** |
-| OPM (blended) | IT Park 85%, Hotel 25-30%, BEC 50%, Foods 12% | ~55-60% blended |
+| OPM (blended) | IT Park 83%, Hotel 25-30%, BEC 53%, Foods 13% (per Q3 FY26 BSE filing) | ~52-55% near-term, ~55-60% post-Tower 2 |
 | **FY30E PAT** | | **₹550-750 Cr** |
 
 **Base Fair Value (FY30E):** ₹650 Cr PAT × 22x P/E = ₹14,300 Cr market cap / 7.05 Cr shares = **₹2,028/share**
@@ -340,6 +385,10 @@ PV at 13% discount rate (4 years): ₹2,028 / 1.13^4 = **₹1,244/share** → **
 | OPM compression (45% vs 55%) | ₹900 (-15%) | ₹1,300 (+23%) | Foods segment growth rate vs IT Park |
 
 **Risk/reward:** Downside 15% (₹900, bear) / Upside 95% (₹2,050, bull) → **asymmetric upside (6:1 ratio)**
+
+**Near-term OPM dilution from Foods:** Foods grew +106% YoY in Q3 FY26 at only 13% margin (per BSE filing), now nearly equal to IT Park in revenue but contributing only 11% of IT Park's profit. This is the primary OPM compression driver — blended segment margin fell to 52% in Q3 FY26. As long as Foods grows faster than IT Park, blended OPM stays in the 50-54% range rather than the historical 60%. Absolute PAT still grows, but slower than revenue.
+
+**FY26E tracking (as of Q3 FY26):** 9M FY26 PAT ₹320 Cr. With Q4 being BEC peak season, FY26E PAT of ₹420-430 Cr looks achievable, implying ~14% YoY growth. Revenue on track for the confirmed ₹1,000 Cr milestone (+37% YoY).
 
 **The one thing that makes the base case wrong:** Tower 2 gets delayed to FY32+ AND Mumbai office market enters structural oversupply, making the new 5M sq ft difficult to lease at premium rates.
 
@@ -538,7 +587,7 @@ Nesco occupies a unique niche: it's neither a pure developer (doesn't sell), nor
 |------|-------------|--------|------------|
 | Jio World Centre + Adani stealing exhibition business | High | High | BEC can target mid-tier events at lower price point. Exhibition is ~25% of revenue and declining in mix. IT park (50%+) unaffected. |
 | Tower 2 execution: delays, cost overruns | Medium | High | ₹1,321 Cr cash/investments + ₹350 Cr annual OCF funds most of it. Zero debt means no interest burden if delayed. |
-| OPM compression from Foods mix shift | Medium | Medium | Foods at 12% margin dilutes blended OPM. But absolute profit still grows. OPM may stabilize at 50-55% as mix normalizes. |
+| OPM compression from Foods mix shift | Medium | Medium | Foods at 13% margin, +106% YoY (Q3 FY26 BSE filing), dilutes blended OPM to 52%. Absolute profit still grows. OPM may stabilize at 50-54% near-term. |
 | Mumbai office space oversupply | Low | High | Goregaon is established micro-market. Blue-chip tenants unlikely to vacate. IT Park occupancy at 98%. |
 | IT sector layoffs reducing office demand | Low-Medium | Medium | GCC demand (new wave of offices for global firms) partially offsets. Data centres also need space. |
 | Highway amenities capital misallocation | Low-Medium | Medium | Capital watch: if >₹200 Cr committed before Tower 2 is complete, downgrade management score. Currently early-stage. |
@@ -585,6 +634,73 @@ Nesco occupies a unique niche: it's neither a pure developer (doesn't sell), nor
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/NESCO.md`*
+
+### 2026-03-28 — Q3 FY26 BSE Standalone Results + Segment Breakdown
+
+**Source:** BSE filing Q3FY26_Results.pdf (standalone, unaudited, quarter ended 31 Dec 2025). Clean audit review by S G D G & Associates LLP — no qualifications.
+
+**Q3 FY26 Headline (Standalone, ₹ Cr):**
+
+| Metric | Q3 FY26 | Q2 FY26 | Q3 FY25 | 9M FY26 | 9M FY25 |
+|--------|---------|---------|---------|---------|---------|
+| Revenue from Operations | 247.92 | 239.18 | 206.54 | 680.44 | 540.00 |
+| Total Income | 274.42 | 263.58 | 237.99 | 759.45 | 634.11 |
+| PBT | 131.85 | 143.49 | 141.84 | 399.22 | 377.34 |
+| PAT | 104.64 | 118.91 | 109.94 | 319.75 | 286.60 |
+| EPS (₹, not annualised) | 14.85 | 16.88 | 15.60 | 45.38 | 40.68 |
+
+Revenue +20% YoY, PAT -5% YoY. Top-line growing but bottom-line slipped due to higher other expenses (₹70.7 Cr vs ₹62.9 Cr QoQ). 9M FY26 PAT ₹320 Cr (+12% YoY) on 9M revenue ₹680 Cr (+26% YoY) — margin compression continuing.
+
+**Segment Breakdown (Q3 FY26 Revenue → Segment Profit, ₹ Cr):**
+
+| Segment | Q3 FY26 Rev | Segment Profit | Margin | Q3 FY25 Rev | YoY Growth |
+|---------|-------------|---------------|--------|-------------|------------|
+| Realty (IT Park) | 100.11 | 83.49 | 83% | 92.94 | +8% |
+| Bombay Exhibition Centre | 68.21 | 36.36 | 53% | 67.13 | +2% |
+| Indabrator | 9.17 | 0.56 | 6% | 10.00 | -8% |
+| Foods | 70.43 | 9.13 | 13% | 34.19 | **+106%** |
+| Way-Side Amenities (NEW) | — | (1.67) | loss | — | NEW |
+| **Total** | **247.92** | **127.87** | **52%** | **206.54** | **+20%** |
+
+*(Merged into: Key Metrics segment table)*
+
+**Key Segment Insights:**
+
+1. **IT Park (Realty) remains the cash cow:** ₹100 Cr revenue at 83% margin = ₹83 Cr profit. Steady 8% growth, consistent with rent escalation. This is the compounding engine — zero incremental capital on 70 freehold acres. Confirms thesis.
+
+2. **BEC essentially flat (+2% YoY):** ₹68 Cr revenue at 53% margin. Not growing, not dying. The Jio World Centre competition concern hasn't killed BEC but has capped growth. Consistent with our "BEC stabilizes, doesn't grow" base case.
+
+3. **Foods is the growth story — but at what margin?** ₹70 Cr revenue (+106% YoY!) at 13% margin. Foods is now nearly equal to IT Park in revenue but contributes only 11% of IT Park's profit. Every ₹100 of revenue shift from IT Park to Foods costs ₹72 of profit margin. This is the OPM compression driver we flagged. *(Noted in: Outlook section)*
+
+4. **Way-Side Amenities (NEW SEGMENT):** First appearance. Loss-making (₹1.67 Cr). Described as "business conducted from premises acquired on long-term lease." Segment assets: ₹259.97 Cr — significant capital deployed in a loss-making venture. This is the highway amenities diversification we noted earlier. *(Added to: Key Monitorables #6)*
+
+5. **Indabrator declining:** ₹9 Cr revenue, -8% YoY, 6% margin. Immaterial to thesis.
+
+**Capital Employed by Segment (₹ Cr):**
+
+| Segment | Capital Employed | ROCE (annualised) |
+|---------|-----------------|-------------------|
+| Realty | 1,277.90 | 26% |
+| BEC | 213.14 | 68% |
+| Indabrator | 39.29 | 6% |
+| Foods | 48.54 | 75% |
+| Way-Side Amenities | (6.87) | NM (loss) |
+| Unallocable | 1,331.48 | — |
+
+BEC and Foods have extraordinary ROCE (68% and 75%) on small capital bases. Realty at 26% is healthy. The ₹1,331 Cr unallocable is likely cash/investments — consistent with "large cash pile depresses ROE" observation.
+*(Merged into: Key Metrics segment table)*
+
+**Sections updated with Q3 FY26 data:**
+- Key Metrics → new segment table with revenue, margins, capital employed, ROCE (replaced Q1 FY26 table)
+- Key Metrics → quarterly trend table updated with Q2 and Q3 FY26
+- Key Monitorables → added Way-Side Amenities as item #6 (₹260 Cr assets, loss-making, watch ₹500+ Cr threshold)
+- Outlook → added Foods OPM dilution note and FY26E PAT tracking (₹420-430 Cr)
+- Risks → updated OPM compression row with Q3 quantified data (blended 52%)
+- Data Gaps → closed #1 (segment data from BSE filings), partially closed #3 (Way-Side Amenities: ₹260 Cr assets, long-term lease model)
+
+**No change to Quality Score (19/25) or fair value estimates.** Q3 data is in line with expectations. Tower 2 remains the thesis catalyst.
+
+---
 
 ### 2026-03-22 — Full framework rewrite (new template)
 

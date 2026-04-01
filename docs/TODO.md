@@ -92,11 +92,11 @@ Standard questions for every concall:
 
 | Stock | Filings fetched? | Concall available? | Status |
 |---|---|---|---|
-| EPACKPEB | Fetching | Expected yes | YouTube done, concall pending |
-| RAYMOND | YES (11 filings) | YES — Q3 FY26 transcript | Read pending |
-| GRSE | Fetching | Expected yes | Pending |
-| NESCO | Fetching | Likely limited (small team) | Pending |
-| KERNEX | YES (4 filings, no concall) | Small-cap — may not do concalls | YouTube may be only option |
+| EPACKPEB | YES (7 filings) | YES — Q3 FY26 concall | YouTube done + concall pending |
+| RAYMOND | YES (11 filings) | YES — Q3 FY26 transcript | **DONE** — all monitorables met, value unlock timeline pushed out |
+| GRSE | YES (10 filings) | YES — Q3 FY26 earnings call | **DONE** — NGC ₹33K Cr step-change, FY28 gap risk flagged |
+| NESCO | YES (2 filings) | No concall — Q3 results only | **DONE** — segment data extracted, WSA ₹260 Cr yellow flag |
+| KERNEX | YES (7 filings) | No concall — investor pres only | **DONE** — March 2025 pres cross-referenced, TAM 2x (85,000 km) |
 
 ## YOUTUBE TRANSCRIPT PIPELINE
 
@@ -127,7 +127,13 @@ Standard questions for every concall:
 
 ## ✅ COMPLETED (2026-03-28 session)
 
-**Research:**
+**Concall Deep Dives (BSE filing analysis):**
+- **KERNEX** — March 2025 investor presentation cross-referenced with thesis. TAM doubled: 85,000 km full network (was 44,000 km). Production capacity quantified: 450 units/month. Bid pipeline ₹4,033 Cr incremental. TCAS 4.0 production-ready (99% software complete). New products (NMS, Pulse Generators, Radio Modems, Drones). Research file updated with 50+ line research log entry.
+- **NESCO** — Q3 FY26 standalone results with full segment breakdown. IT Park ₹100 Cr at 83% margin (cash cow confirmed). Foods ₹70 Cr at 13% margin (+106% YoY, OPM diluter). **Yellow flag: Way-Side Amenities segment has ₹260 Cr assets deployed but is loss-making** — capital discipline concern. Research file updated.
+- **GRSE** — Q3 FY26 earnings call deep dive (12 Feb 2026). Revenue ₹1,896 Cr (+49% YoY), 9M ₹4,883 Cr (approaching full FY25). NGC ₹33K Cr step-change: order book target ₹50K Cr by FY26-end. New: govt ₹69,725 Cr shipbuilding incentive, 30mm naval guns (no domestic competition), 207 commercial platforms pipeline. FY28 revenue gap risk flagged. Thesis strengthened.
+- **RAYMOND** — Q3 FY26 concall deep dive (27 Jan 2026). Aerospace ₹105 Cr (+49%, first >₹100 Cr quarter). Auto EBITDA 13.7% (+330bps, structural). Net cash ₹214 Cr. New: Sinnar plant built Jan 2026, kit value $35K/aircraft, LEAP-1C for COMAC C919. Value unlock timeline pushed out (needs AP plant + tariff stability). All key monitorables met.
+
+**Earlier this session:**
 - **EPACKPEB** — cash quality analysis vs Interarch (CFO/PAT comparison, P/B added to peer table, upside/margin-of-safety comparison). EPACK justified P/B 2.67x vs trading at 2.02x (24% undervalued). Interarch at 3.62x vs justified 2.00x (81% overvalued).
 - **DREDGECORP** — updated with DCIL Golden Jubilee press release (₹3,000 Cr revenue target, 11 new dredgers, ₹1,400 Cr order book, ₹1,000 Cr rights issue dilution risk). Stock remains overvalued.
 - **INTEGRATEDIND / Nurture Well** — deep related-party analysis. Promoter Sanidhya Garg mapped across 7 companies. M.G Metalloy (metals company) received ₹56.5 Cr in warrants as promoter group. 8/10 fraud indicators present — not proof but high concentration. Action: verify FY25 annual report before adding.

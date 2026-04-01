@@ -1,103 +1,143 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>TODO.md</title>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TODO</title>
 <style>
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:960px;margin:40px auto;padding:0 24px;color:#1f2937;line-height:1.7;}
-h1{font-size:2em;border-bottom:3px solid #1d4ed8;padding-bottom:8px;color:#1e3a5f;}
-h2{font-size:1.4em;border-bottom:1px solid #e5e7eb;padding-bottom:6px;color:#1d4ed8;margin-top:32px;}
-h3{font-size:1.1em;color:#374151;margin-top:24px;}
-table{border-collapse:collapse;width:100%;margin:16px 0;font-size:13.5px;}
-th{background:#1e3a5f;color:#fff;padding:8px 12px;text-align:left;}
-td{padding:7px 12px;border-bottom:1px solid #f3f4f6;}
-tr:nth-child(even){background:#f9fafb;}
-code{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:#7c3aed;}
-hr{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}
-ul{padding-left:20px;} li{margin:4px 0;}
-strong{color:#111827;}
-</style></head><body><h1>Research System — TODO</h1>
-<p><em>Last updated: 2026-03-20</em></p>
-
-<hr>
-
-<h2>URGENT — API Key Rotation</h2>
-
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+         max-width: 900px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #1a1a1a; }
+  h1 { border-bottom: 2px solid #333; padding-bottom: 8px; }
+  h2 { border-bottom: 1px solid #ccc; padding-bottom: 6px; margin-top: 2em; }
+  h3 { margin-top: 1.5em; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 0.9em; }
+  th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+  th { background: #f5f5f5; font-weight: 600; }
+  tr:nth-child(even) { background: #fafafa; }
+  code { background: #f0f0f0; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; }
+  pre { background: #f5f5f5; padding: 16px; border-radius: 6px; overflow-x: auto; }
+  pre code { background: none; padding: 0; }
+  blockquote { border-left: 4px solid #0066cc; margin: 1em 0; padding: 12px 20px;
+               background: #f0f7ff; color: #1a1a1a; }
+  blockquote strong { color: #004499; }
+  strong { color: #1a1a1a; }
+  a { color: #0066cc; }
+  hr { border: none; border-top: 1px solid #ddd; margin: 2em 0; }
+</style>
+</head>
+<body>
+<h1 id="research-system-todo">Research System — TODO</h1>
+<p><em>Last updated: 2026-03-28</em></p>
+<hr />
+<h2 id="urgent-api-key-rotation">URGENT — API Key Rotation</h2>
 <ul>
 <li>[ ] <strong>Rotate Grok API key</strong> — deprioritized, do later. Delete at https://console.x.ai/account/api-keys and generate new one.</li>
 </ul>
-
-<hr>
-
-<h2>DECIDE THESE NOW (Top 5)</h2>
-
+<hr />
+<h2 id="decide-these-now-top-5">DECIDE THESE NOW (Top 5)</h2>
 <table>
-<tr><th>#</th><th>What</th><th>Why it matters</th><th>Effort</th></tr>
-<tr><td>1</td><td><strong>Exit PARADEEP immediately</strong> at market price</td><td>No recovery scope — competitors (Chambal, Coromandel, RCF) have better Q results + better valuations. Do not wait for bounce.</td><td>Low</td></tr>
-<tr><td>2</td><td><strong>Q4 FY26 results watch</strong> — EPACKPEB, KERNEX, ETERNAL</td><td>These three are "hold pending result". Need a go/no-go decision in May 2026.</td><td>Low (set reminder)</td></tr>
-<tr><td>3</td><td><strong>KAYNES promoter selling</strong> — check BSE filings</td><td>4.3% stake sold in 9 months. Thesis is conditional on this resolving.</td><td>Medium</td></tr>
-<tr><td>4</td><td><strong>GROWW trim plan</strong> — 26% of portfolio in a B·19 stock</td><td>Expected CAGR only 11%. Trimming above ₹190 and redeploying to ICICIAMC improves portfolio CAGR ~1.5%.</td><td>Low (set price alert)</td></tr>
-<tr><td>5</td><td><strong>Kite MCP → XIRR</strong> — connect to get dated order history</td><td>Need actual transaction dates to compute real XIRR vs the thesis-estimated 13.5% CAGR.</td><td>Medium</td></tr>
+<thead>
+<tr>
+<th>#</th>
+<th>What</th>
+<th>Why it matters</th>
+<th>Effort</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Exit PARADEEP immediately</strong> at market price</td>
+<td>No recovery scope — competitors (Chambal, Coromandel, RCF) have better Q results + better valuations. Do not wait for bounce.</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Q4 FY26 results watch</strong> — EPACKPEB, KERNEX, ETERNAL</td>
+<td>These three are "hold pending result". Need a go/no-go decision in May 2026.</td>
+<td>Low (set reminder)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>~~<strong>KAYNES promoter selling</strong>~~ ✅ DONE (2026-03-25)</td>
+<td>Two discrete block sales (Dec 2023 -5.74%, Jun 2025 -4.23%), stopped for 2 quarters. Promoter 53.46% — above 50% threshold. No pledge. Still needs concall explanation.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>GROWW trim plan</strong> — 26% of portfolio in a B·19 stock</td>
+<td>Expected CAGR only 11%. Trimming above ₹190 and redeploying to ICICIAMC improves portfolio CAGR ~1.5%.</td>
+<td>Low (set price alert)</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Kite MCP → XIRR</strong> — connect to get dated order history</td>
+<td>Need actual transaction dates to compute real XIRR vs the thesis-estimated 13.5% CAGR.</td>
+<td>Medium</td>
+</tr>
+</tbody>
 </table>
-
-<hr>
-
-<h2>FRAMEWORK — DCF Growth Rate Methodology Fix (IMPORTANT)</h2>
-
+<hr />
+<h2 id="framework-dcf-growth-rate-methodology-fix-important">FRAMEWORK — DCF Growth Rate Methodology Fix (IMPORTANT)</h2>
 <p><strong>Problem:</strong> Current DCF models use mechanically declining growth rates (e.g. 20%→10%→5% terminal) without grounding them in business reality. This systematically undervalues companies with strong tailwinds, capacity expansions, or historical hypergrowth that is structurally supported.</p>
-
-<p><strong>SHILCTECH is the clearest example:</strong> DCF bull case = ₹3,596, but CMP already ₹3,727. The DCF said "overvalued" but the business has ROE 53%, capacity doubling 7,500→14,000 MVA by Apr 2027, and India's T&D capex cycle is multi-decade. The model was wrong because the growth rate assumption was wrong.</p>
-
+<p><strong>SHILCTECH is the clearest example:</strong> DCF bull case = ₹3,596, but CMP already ₹3,727. The DCF said "overvalued" but the business has ROE 53%, capacity doubling 7,500→14,000 MVA by Apr 2027, and India's T&amp;D capex cycle is multi-decade. The model was wrong because the growth rate assumption was wrong.</p>
 <p><strong>The fix — for each stock, growth rates must be anchored to:</strong></p>
-
-<p>1. <strong>Capacity-constrained revenue ceiling</strong> — if capacity doubles by FY27, revenue physically cannot grow at 10%. Model: (new capacity × utilization rate × ASP) = revenue ceiling. Growth rate is implied, not assumed.</p>
-<p>2. <strong>Industry tailwind TAM</strong> — India T&D capex ₹9L Cr by 2032, PM-KUSUM target 35L pumps, aerospace order backlog 13-year supply, etc. If the industry is growing 20%/year, a market-share-gaining company can grow faster. Use this as a floor.</p>
-<p>3. <strong>Historical CAGR as a reference point</strong> — if a company grew revenue at 50% CAGR for 3 years, the bear case should be "deceleration to 20-25%", not "collapse to 10%". Deceleration is realistic; reversal to slow growth needs to be justified by specific risks.</p>
-<p>4. <strong>Management investments as a signal</strong> — ₹510 Cr capex commitment (RAYMOND AP plant), ₹750 Cr order book (SHILCTECH) → these are forward-looking indicators that management is confident in demand. Factor in.</p>
-
-<p><strong>Action items:</strong></p>
-<ul>
-<li>[x] ~~Revise <code>docs/VALUATION_FRAMEWORK.md</code>~~ — DONE (2026-03-19). Growth Rate Anchoring section added.</li>
-<li>[x] ~~Re-run SHILCTECH DCF~~ — DONE (2026-03-19). Base ₹2,613→₹4,670, verdict "overvalued"→"25% undervalued".</li>
-<li>[x] ~~Review all DCF models for growth rate anchoring failures~~ — DONE (2026-03-19). Applied to KAYNES, EPACKPEB, KERNEX.</li>
-<li>[ ] <strong>SHAKTIPUMP</strong> — apply TAM-anchored DCF (PM-KUSUM scheme 35L pump target, only 5L done)</li>
-</ul>
-
-<hr>
-
-<h2>RESEARCH BACKLOG (do when you have time)</h2>
-
+<ol>
+<li><strong>Capacity-constrained revenue ceiling</strong> — if capacity doubles by FY27, revenue physically cannot grow at 10%. Model: (new capacity × utilization rate × ASP) = revenue ceiling. Growth rate is implied, not assumed.</li>
+<li><strong>Industry tailwind TAM</strong> — India T&amp;D capex ₹9L Cr by 2032, PM-KUSUM target 35L pumps, aerospace order backlog 13-year supply, etc. If the industry is growing 20%/year, a market-share-gaining company can grow faster. Use this as a floor.</li>
+<li><strong>Historical CAGR as a reference point</strong> — if a company grew revenue at 50% CAGR for 3 years, the bear case should be "deceleration to 20-25%", not "collapse to 10%". Deceleration is realistic; reversal to slow growth needs to be justified by specific risks.</li>
+<li><strong>Management investments as a signal</strong> — ₹510 Cr capex commitment (RAYMOND AP plant), ₹750 Cr order book (SHILCTECH) → these are forward-looking indicators that management is confident in demand. Factor in.</li>
+</ol>
+<p><strong>Action items:</strong>
+- [x] ~~Revise <code>docs/VALUATION_FRAMEWORK.md</code>~~ — DONE (2026-03-19). Growth Rate Anchoring section added.
+- [x] ~~Re-run SHILCTECH DCF~~ — DONE (2026-03-19). Base ₹2,613→₹4,670, verdict "overvalued"→"25% undervalued".
+- [x] ~~Review all DCF models for growth rate anchoring failures~~ — DONE (2026-03-19). Applied to KAYNES, EPACKPEB, KERNEX.
+- [ ] <strong>SHAKTIPUMP</strong> — apply TAM-anchored DCF (PM-KUSUM scheme 35L pump target, only 5L done)</p>
+<hr />
+<h2 id="research-backlog-do-when-you-have-time">RESEARCH BACKLOG (do when you have time)</h2>
 <ul>
 <li>[x] ~~NWIL / IIL~~ = Integrated Industries Ltd — already had thesis, updated status to OWNED (165 shares, +52%)</li>
 <li>[x] ~~Nesco full thesis~~ — DONE. 19/25 Grade B+, Tower 2 catalyst, asset-value undervaluation</li>
-<li>[ ] NVDA Q&A deep dive — Q&A-style research (scale limits, AMD shift, hyperscaler spend motives, bear case ₹42 scenario)</li>
+<li>[x] ~~HDFCBANK full thesis~~ — DONE (2026-03-25). Banking-specific framework (NIM, CASA, P/B-ROE). Post-merger integration + governance crisis analysis.</li>
+<li>[ ] NVDA Q&amp;A deep dive — Q&amp;A-style research (scale limits, AMD shift, hyperscaler spend motives, bear case ₹42 scenario)</li>
 <li>[ ] Real US positions thesis — RGTI, OKLO, ACHR etc. (all in loss, speculative)</li>
 <li>[ ] STLTECH watch trigger — only revisit if DGTR anti-dumping duty granted</li>
+<li>[ ] <strong>KCP Limited</strong> — AGM transcript analysed (2026-03-25). Cement + heavy engg + Vietnam sugar. Rs 978 Cr cash, 75 acres Chennai land, subsidiary for monetization. Interesting value play — needs Screener data for full thesis.</li>
+<li>[ ] <strong>GRAB (US: GRAB)</strong> — Southeast Asia super-app (ride-hailing, food delivery, fintech). Full thesis using new v3 template.</li>
+<li>[ ] <strong>aThos Life Sciences (US: LIFE)</strong> — Full thesis using new v3 template.</li>
+<li>[ ] <strong>Microsoft (US: MSFT)</strong> — Full thesis using new v3 template. AI/cloud compounder, valuation check at current levels.</li>
+<li>[ ] <strong>DCIL (Dredging Corp of India)</strong> — 50-year company, ₹1,146 Cr revenue (highest ever), ₹1,400 Cr order book, targeting ₹3,000 Cr. GRSE is shipyard partner. PSU dredging monopoly (80% of India's maintenance dredging).</li>
 </ul>
-
-<h2>NEW — AUTORESEARCH BACKTESTING ENGINE</h2>
-
+<h2 id="sector-thesis-nuclear-power-india">SECTOR THESIS — NUCLEAR POWER INDIA</h2>
+<ul>
+<li>[ ] <strong>Sector thesis created:</strong> <code>research/SECTOR_NUCLEAR_INDIA.md</code> — 100 GW by 2047, ₹14-23 lakh Cr total capex, SHANTI Bill 2025 opens private sector</li>
+<li>[ ] <strong>PATELSAIR</strong> — update thesis with nuclear angle (N-NPT certified, 1 of 3 in India)</li>
+<li>[ ] <strong>Walchandnagar Industries</strong> — Screener data + thesis (legacy DAE partner, 30-40% nuclear revenue)</li>
+<li>[ ] <strong>MTAR Technologies</strong> — Screener data + valuation check (precision nuclear components, typically 50-80x PE)</li>
+<li>[ ] <strong>KSB Ltd</strong> — quick check (only approved supplier for primary coolant pumps)</li>
+<li>[ ] <strong>HCC</strong> — balance sheet check (built 60% of India's nuclear plants, historically debt-heavy)</li>
+<li>[ ] <strong>BHEL</strong> — monitor nuclear turbine order book (₹10,800 Cr order for 6 turbine islands)</li>
+</ul>
+<h2 id="new-autoresearch-backtesting-engine">NEW — AUTORESEARCH BACKTESTING ENGINE</h2>
 <ul>
 <li>[ ] <strong>Approach doc:</strong> <code>docs/AUTORESEARCH_APPROACH.md</code> — review and answer 7 decision points before implementation</li>
-<li>[ ] Inspired by [karpathy/autoresearch](https://github.com/karpathy/autoresearch) — thesis backtesting + scorecard calibration</li>
+<li>[ ] Inspired by <a href="https://github.com/karpathy/autoresearch">karpathy/autoresearch</a> — thesis backtesting + scorecard calibration</li>
 <li>[ ] MVP: backtest 6 core holdings (GROWW, KAYNES, EPACK, KERNEX, SHILCTECH, NESCO) with 1-year lookback</li>
 </ul>
-
-<h2>YOUTUBE TRANSCRIPT PIPELINE (idea)</h2>
-
+<h2 id="youtube-transcript-pipeline-idea">YOUTUBE TRANSCRIPT PIPELINE (idea)</h2>
 <ul>
 <li>[ ] <strong>Auto-pull YouTube transcripts</strong> for stock analysis videos using <code>youtube-transcript-api</code> or <code>yt-dlp --write-auto-sub</code></li>
 <li>[ ] Search YouTube API for quality analysis videos per ticker (keywords: "analysis", "deep dive", "thesis", "investor presentation")</li>
 <li>[ ] Extract key insights and add to relevant research files automatically</li>
 <li>[ ] Already used manually for SHILCTECH (Girish Gupta) and EPACKPEB (Aakash Gupta)</li>
 </ul>
-
-<h2>RESEARCH SKILL IDEAS</h2>
-
+<h2 id="research-skill-ideas">RESEARCH SKILL IDEAS</h2>
 <ul>
-<li>[ ] <strong>Q&A research format</strong> — for complex thesis questions (e.g. NVDA: "why do hyperscalers keep spending?", "when does the bear case happen?") — build a <code>skills/qa-research.md</code> skill that structures research as Qs with sourced answers</li>
+<li>[ ] <strong>Q&amp;A research format</strong> — for complex thesis questions (e.g. NVDA: "why do hyperscalers keep spending?", "when does the bear case happen?") — build a <code>skills/qa-research.md</code> skill that structures research as Qs with sourced answers</li>
 <li>[ ] Template: Question → Evidence → Counterargument → Our view → Confidence level</li>
-<li>[ ] <strong>Grok API integration</strong> — x.ai's Grok has cheap real-time web access. Evaluate if it can replace some Claude web-search heavy lifting in Q&A research. Pricing vs Claude API cost. Setup: get keys from console.x.ai (needs X account).</li>
+<li>[ ] <strong>Grok API integration</strong> — x.ai's Grok has cheap real-time web access. Evaluate if it can replace some Claude web-search heavy lifting in Q&amp;A research. Pricing vs Claude API cost. Setup: get keys from console.x.ai (needs X account).</li>
 </ul>
-
-<h2>CODE BACKLOG</h2>
-
+<h2 id="code-backlog">CODE BACKLOG</h2>
 <ul>
 <li>[ ] <strong>Grok API integration</strong> — Rotate key first (console.x.ai), then run <code>python3 src/grok_test.py</code>. Deprioritized — do when bandwidth available.</li>
 <li>[ ] <code>red_flag_monitor.py</code> — add 20+ newer positions (NEWGEN, SAKSOFT, ICICIAMC, tracking stocks)</li>
@@ -105,156 +145,177 @@ strong{color:#111827;}
 <li>[ ] Cards view — tracking stocks section missing</li>
 <li>[ ] Weekly digest auto-generator (<code>src/weekly_digest.py</code>)</li>
 </ul>
-
-<hr>
-
-<h2>✅ COMPLETED (2026-03-20 session — GRSE thesis)</h2>
-
-<p><strong>GRSE.md — Full Investment Thesis Created:</strong></p>
-<ul>
-<li>Data sourced from Screener.in (FY21-FY25 P&L, balance sheet, cash flows, 6 quarters through Dec 2025)</li>
-<li>FY25: Revenue ₹5,076 Cr, PAT ₹527 Cr, OPM 8%, ROCE 37%; TTM PAT ₹689 Cr (Dec 2025)</li>
-<li>3yr Revenue CAGR 42%, 3yr PAT CAGR 41% — near-zero debt (D/E 0.005x), negative working capital model</li>
-<li>Quality Score: 17/25 Grade B (MOAT 4, Management 3, Financials 4, Growth Runway 4, Valuation 2)</li>
-<li>Full Section 4b (Bear/Base/Bull) capacity-anchored: order book ~₹22,000-25,000 Cr (4.5-5x revenue), capacity ceiling ~₹8,000 Cr at current berths</li>
-<li>DCF: Bear ₹1,420, Base ₹2,650, Bull ₹4,200 vs CMP ₹2,296 — FAIRLY VALUED at base case (7% discount to base)</li>
-<li>P/B-ROE: not appropriate for order-book-driven business; DCF weighted 90%</li>
-<li>Section 6: full peer comparison vs Mazagon Dock (41x PE, 49% ROCE), Cochin Shipyard (50x PE, 20% ROCE), L&T defence, Fincantieri</li>
-<li>Key insight: OPM 8% understates economics — ₹300-350 Cr other income from Navy advance pool adds ~6-7% equivalent OPM; true economics ~14% operating return</li>
-<li>Status: WATCHLIST — fairly priced at CMP; target entry ₹1,800-2,000 or export order catalyst for re-rating</li>
-<li>Rendered to GRSE.html and opened in Chrome</li>
-</ul>
-
-<hr>
-
-<h2>✅ COMPLETED (2026-03-20 session — PATELSAIR thesis)</h2>
-
-<p><strong>PATELSAIR.md — Full Investment Thesis Created:</strong></p>
-<ul>
-<li>Data sourced from Screener.in (FY21-FY25 P&L, balance sheet, cash flows, quarterly data through Dec 2025)</li>
-<li>FY25: Revenue ₹388 Cr, PAT ₹17 Cr, OPM 9%, ROCE 14%; FCF ₹39 Cr (exceptional working capital release)</li>
-<li>FY26 slowdown flagged: 9M revenue ~₹163 Cr vs 9M FY25 ₹286 Cr — timing vs structural open question; Q4 FY26 is the key test</li>
-<li>Quality Score: 13/25 Grade C+ (MOAT 2, Management 2, Financials 3, Growth Runway 3, Valuation 3)</li>
-<li>Full Section 4b (Bear/Base/Bull) with capacity-anchor: fixed assets stable at ₹44 Cr, no capex, working capital-driven model</li>
-<li>DCF: Bear ₹250, Base ₹444, Bull ₹868 — CMP ₹219 priced near bear case; base implies 103% upside</li>
-<li>P/B-ROE: bear ₹104, base ₹314, bull ₹628 — stock below book at 0.75x; only makes sense if ROE sustainably <12%</li>
-<li>Section 6: full peer comparison vs ISGEC (20x PE), Thermax (65x PE), HLE Glascoat, GMM Pfaudler + re-rating thesis</li>
-<li>Status: WATCHLIST — wait for Q4 FY26 results (May 2026) to confirm timing vs structural thesis</li>
-<li>Rendered to PATELSAIR.html and opened in Chrome</li>
-</ul>
-
-<hr>
-
-<h2>✅ COMPLETED (2026-03-19 session — PGEL thesis)</h2>
-
-<p><strong>PGEL.md — Full Investment Thesis Created:</strong></p>
-<ul>
-<li>Research gathered: Screener data (FY22-FY25 financials + 4 quarterly results), competitor financials (Dixon, Amber, Kaynes, Syrma), industry AC penetration data, capacity expansion plans</li>
-<li>FY25: Revenue ₹4,870 Cr, PAT ₹288 Cr, OPM 10%, ROCE 19.4% — 64% 3Y revenue CAGR</li>
-<li>Q2 FY26 shock documented (PAT –96%, OPM 4.6%) and Q3 FY26 recovery (Rev +46% YoY) analyzed</li>
-<li>Full Section 4b (Bear/Base/Bull FY26-28 with capacity-anchored rationale) completed</li>
-<li>DCF analysis: CMP ₹505 priced in bull case already (bear ₹151, base ₹260, bull ₹449) — stock expensive on DCF</li>
-<li>Section 6 competitive landscape: depth analysis vs Amber, Dixon, Kaynes, Syrma + re-rating thesis</li>
-<li>Status: WATCHLIST — buy below ₹460; strong buy below ₹380 if OPM recovery confirmed</li>
-<li>Quality Score: 16/25 Grade B– (Growth 5/5, MOAT 2/5, Financials 3/5, Management 3/5, Valuation 3/5)</li>
-<li>Rendered to PGEL.html and opened in Chrome</li>
-</ul>
-
-<hr>
-
-<h2>✅ COMPLETED (2026-03-19 session — continued)</h2>
-
-<p><strong>DCF methodology rollout to 3 stocks:</strong></p>
-<ul>
-<li>KAYNES: Base ₹1,299→₹1,669 (+28%). Verdict unchanged: genuinely expensive at ₹3,726. OPM recovery (12%→15-16%) is the primary thesis driver. Buy zone updated ₹2,000-2,400. Promoter selling remains key risk.</li>
-<li>EPACKPEB: Base ₹133→₹234 (+76%). Major verdict reversal: "slightly overvalued" → "46% upside at ₹160". India PEB penetration 15% vs 70%+ global + PLI + data centers. Buy below ₹200.</li>
-<li>KERNEX: Base ₹852→₹1,689 (+98%). Largest reversal. 17x order book makes sub-30% growth arithmetically impossible — demand pre-sold 17 years. Bear DCF ₹950 = only -7% from CMP. Risk/reward highly asymmetric.</li>
-</ul>
-
-<p><strong>Valuation framework commit + push (prior session work):</strong></p>
-<ul>
-<li>VALUATION_FRAMEWORK.md + SHILCTECH.md committed to main repo</li>
-</ul>
-
-<hr>
-
-<h2>✅ COMPLETED (2026-03-19 session)</h2>
-
-<p><strong>index.html — major UI update:</strong></p>
-<ul>
-<li>Added Multibagger potential column (BullTarget/CMP): EPACKPEB 5x+, SWIGGY 4.5x, KERNEX 2.7x, GROWW 2.5x</li>
-<li>Added Margin column (upside % to Fair Value)</li>
-<li>Added valuation tags (Deep Value / Undervalued / Fair / Rich) next to company names</li>
-<li>Renamed "3Y Target" → "Fair Value"</li>
-<li>RAYMOND moved from Grade C → Grade B 16/25, company name fixed from "stub" to "Engineering"</li>
-<li>PARADEEP action → "EXIT NOW — market price"</li>
-</ul>
-
-<p><strong>RAYMOND Section 4b — Order Book Deep Dive (new):</strong></p>
-<ul>
-<li>Order book Rs 6,500+ Cr (2.5-3x revenue coverage)</li>
-<li>Customer breakdown: Safran 35-40%, P&W new LTA, GE+RR existing; all 3 OEMs = 88% global market</li>
-<li>1,200 SKUs across 15 engine programs; qualification→serial transition is key margin lever</li>
-<li>AP plant May 2027; per-unit cost -7-9% post-commissioning</li>
-</ul>
-
-<p><strong>CONCENTRATION_STRATEGY.md (new):</strong></p>
-<ul>
-<li>41 → 10 positions: exit tracking (Move 1), exit Grade C (Move 2), build ICICIAMC 1%→15-20% (Move 3)</li>
-<li>Timeline: PARADEEP this week, SWIGGY limit ₹300, STLNETWORK hard deadline June 30 2026</li>
-</ul>
-
-<p><strong>GitHub Pages fix:</strong></p>
-<ul>
-<li>Main repo remote renamed from <code>origin</code> → <code>main-backup</code> to prevent overwriting HTML repo</li>
-<li>HTML repo force-pushed to restore ivnitish.github.io/stock-research</li>
-</ul>
-
+<hr />
+<h2 id="completed-2026-03-28-session">✅ COMPLETED (2026-03-28 session)</h2>
+<p><strong>Research:</strong>
+- <strong>EPACKPEB</strong> — cash quality analysis vs Interarch (CFO/PAT comparison, P/B added to peer table, upside/margin-of-safety comparison). EPACK justified P/B 2.67x vs trading at 2.02x (24% undervalued). Interarch at 3.62x vs justified 2.00x (81% overvalued).
+- <strong>DREDGECORP</strong> — updated with DCIL Golden Jubilee press release (₹3,000 Cr revenue target, 11 new dredgers, ₹1,400 Cr order book, ₹1,000 Cr rights issue dilution risk). Stock remains overvalued.
+- <strong>INTEGRATEDIND / Nurture Well</strong> — deep related-party analysis. Promoter Sanidhya Garg mapped across 7 companies. M.G Metalloy (metals company) received ₹56.5 Cr in warrants as promoter group. 8/10 fraud indicators present — not proof but high concentration. Action: verify FY25 annual report before adding.
+- <strong>Nuclear sector thesis</strong> (SECTOR_NUCLEAR_INDIA.md) — created last session, rendered to HTML
+- <strong>GRSE</strong> — research log updated with DCIL press release mentioning GRSE as shipyard partner</p>
+<p><strong>Index page audit:</strong>
+- 4 missing HTML files added to index.html: SECTOR_NUCLEAR_INDIA, KCP, LOSERS_ANALYSIS, GROWW_vs_ICICIAMC</p>
+<hr />
+<h2 id="completed-2026-03-25-session">✅ COMPLETED (2026-03-25 session)</h2>
+<p><strong>Research:</strong>
+- KAYNES promoter selling investigation — 12-quarter shareholding trend extracted from Screener. Two discrete block sales (not drip-selling), stopped for 2 quarters, promoter 53.46%. Concern downgraded. Research file updated.
+- HDFCBANK full thesis — banking-specific framework (NIM, CASA, P/B-ROE, governance crisis). Post-merger integration analysis with peer comparison.
+- KCP Limited AGM transcript (Aug 2025) analysed — cement/heavy engg/Vietnam sugar. Key: Rs 978 Cr cash, 75-acre Chennai land, subsidiary for monetization.</p>
+<p><strong>Code:</strong>
+- <code>red_flag_monitor.py</code> — added 9 missing positions (ANANTRAJ, ICICIAMC, INTEGRATEDIND, NEWGEN, RSYSTEMS, SAKSOFT, RAYMOND, NESCO, SHAKTIPUMP). Fixed STLNETWORK ticker (was STLTECH.NS showing +477%, now STLNETWORK.NS showing -42% correctly). Fixed INTEGRATEDIND ticker (.NS→.BO). Updated stale scores (BANCOINDIA 0→19, SHILCTECH 0→18, KERNEX 18→17). Now monitors 24 holdings.
+- PORTFOLIO_OVERVIEW.md — fixed RAYMOND (C·11→B·17), STL ticker, PARADEEP action (→EXIT NOW), scores for BANCOINDIA/SHILCTECH/KERNEX.</p>
+<p><strong>Pending:</strong>
+- [ ] KCP full thesis if user interested
+- [ ] Bull/bear narrative improvements on RAYMOND/NESCO/EPACKPEB/KERNEX (marginal — current versions already strong)</p>
+<hr />
+<h2 id="completed-2026-03-22-session-template-v2-rewrites-versioning">✅ COMPLETED (2026-03-22 session — template v2 rewrites + versioning)</h2>
+<p><strong>Research rewrites to new template (5 stocks):</strong>
+- RAYMOND.md — v2 rewrite: Summary Verdict, Kill Filter, Compounding Engine Q&amp;A, DCF math. Base ₹530 (+42%)
+- NESCO.md — v2 rewrite: Base ₹1,430 (+36%), land value floor, Tower 2 catalyst
+- EPACKPEB.md — v2 rewrite: Base ₹260 (+59%), full competitive landscape vs Interarch
+- KERNEX.md — v2 rewrite: Major corrections — normalised PAT ₹24 Cr (not ₹50 Cr), DCF base ₹874 (was ₹1,689). Score 18→17
+- GRSE.md — v2 rewrite: Full template restructure, incremental ROIC 34%, narrative bull/bear cases</p>
+<p><strong>BANCOINDIA.md</strong> was rewritten earlier this session as the reference implementation.</p>
+<p><strong>Template improvements:</strong>
+- Bull/bear case guidance rewritten — emphasizes narrative with numbers woven in, good/bad examples
+- Compounding Engine Q&amp;A guidance updated — "explain WHY first, then show the math"
+- Version History section added to template</p>
+<p><strong>Research versioning system implemented:</strong>
+- <code>research/archive/</code> created — stores old versions as <code>SYMBOL_v1.md</code>
+- All 6 rewritten stocks have v1 archived: BANCOINDIA, RAYMOND, NESCO, EPACKPEB, KERNEX, GRSE
+- Each research file has Version History table at bottom linking to older versions
+- Future rewrites will follow this pattern automatically</p>
+<p><strong>Feedback captured:</strong>
+- Research writing quality: narrative over formula, EPACK bull case as model example
+- Saved to memory: <code>feedback_research_writing_quality.md</code></p>
+<p><strong>Pending:</strong>
+- [ ] Improve bull/bear narrative quality in RAYMOND, NESCO, EPACKPEB, KERNEX (GRSE done as reference)
+- [ ] PARADEEP competitive landscape (Section 6) — carried over
+- [ ] HDFCBANK full thesis — carried over</p>
+<hr />
+<h2 id="completed-2026-03-20-session-grse-thesis">✅ COMPLETED (2026-03-20 session — GRSE thesis)</h2>
+<p><strong>GRSE.md — Full Investment Thesis Created:</strong>
+- Data sourced from Screener.in (FY21-FY25 P&amp;L, balance sheet, cash flows, 6 quarters through Dec 2025)
+- FY25: Revenue ₹5,076 Cr, PAT ₹527 Cr, OPM 8%, ROCE 37%; TTM PAT ₹689 Cr (Dec 2025)
+- 3yr Revenue CAGR 42%, 3yr PAT CAGR 41% — near-zero debt (D/E 0.005x), negative working capital model
+- Quality Score: 17/25 Grade B (MOAT 4, Management 3, Financials 4, Growth Runway 4, Valuation 2)
+- Full Section 4b (Bear/Base/Bull) capacity-anchored: order book ~₹22,000-25,000 Cr (4.5-5x revenue), capacity ceiling ~₹8,000 Cr at current berths
+- DCF: Bear ₹1,420, Base ₹2,650, Bull ₹4,200 vs CMP ₹2,296 — FAIRLY VALUED at base case (7% discount to base)
+- P/B-ROE: not appropriate for order-book-driven business; DCF weighted 90%
+- Section 6: full peer comparison vs Mazagon Dock (41x PE, 49% ROCE), Cochin Shipyard (50x PE, 20% ROCE), L&amp;T defence, Fincantieri
+- Key insight: OPM 8% understates economics — ₹300-350 Cr other income from Navy advance pool adds ~6-7% equivalent OPM; true economics ~14% operating return
+- Status: WATCHLIST — fairly priced at CMP; target entry ₹1,800-2,000 or export order catalyst for re-rating
+- Rendered to GRSE.html and opened in Chrome</p>
+<hr />
+<h2 id="completed-2026-03-20-session-patelsair-thesis">✅ COMPLETED (2026-03-20 session — PATELSAIR thesis)</h2>
+<p><strong>PATELSAIR.md — Full Investment Thesis Created:</strong>
+- Data sourced from Screener.in (FY21-FY25 P&amp;L, balance sheet, cash flows, quarterly data through Dec 2025)
+- FY25: Revenue ₹388 Cr, PAT ₹17 Cr, OPM 9%, ROCE 14%; FCF ₹39 Cr (exceptional working capital release)
+- FY26 slowdown flagged: 9M revenue ~₹163 Cr vs 9M FY25 ₹286 Cr — timing vs structural open question; Q4 FY26 is the key test
+- Quality Score: 13/25 Grade C+ (MOAT 2, Management 2, Financials 3, Growth Runway 3, Valuation 3)
+- Full Section 4b (Bear/Base/Bull) with capacity-anchor: fixed assets stable at ₹44 Cr, no capex, working capital-driven model
+- DCF: Bear ₹250, Base ₹444, Bull ₹868 — CMP ₹219 priced near bear case; base implies 103% upside
+- P/B-ROE: bear ₹104, base ₹314, bull ₹628 — stock below book at 0.75x; only makes sense if ROE sustainably &lt;12%
+- Section 6: full peer comparison vs ISGEC (20x PE), Thermax (65x PE), HLE Glascoat, GMM Pfaudler + re-rating thesis
+- Status: WATCHLIST — wait for Q4 FY26 results (May 2026) to confirm timing vs structural thesis
+- Rendered to PATELSAIR.html and opened in Chrome</p>
+<hr />
+<h2 id="completed-2026-03-19-session-pgel-thesis">✅ COMPLETED (2026-03-19 session — PGEL thesis)</h2>
+<p><strong>PGEL.md — Full Investment Thesis Created:</strong>
+- Research gathered: Screener data (FY22-FY25 financials + 4 quarterly results), competitor financials (Dixon, Amber, Kaynes, Syrma), industry AC penetration data, capacity expansion plans
+- FY25: Revenue ₹4,870 Cr, PAT ₹288 Cr, OPM 10%, ROCE 19.4% — 64% 3Y revenue CAGR
+- Q2 FY26 shock documented (PAT –96%, OPM 4.6%) and Q3 FY26 recovery (Rev +46% YoY) analyzed
+- Full Section 4b (Bear/Base/Bull FY26-28 with capacity-anchored rationale) completed
+- DCF analysis: CMP ₹505 priced in bull case already (bear ₹151, base ₹260, bull ₹449) — stock expensive on DCF
+- Section 6 competitive landscape: depth analysis vs Amber, Dixon, Kaynes, Syrma + re-rating thesis
+- Status: WATCHLIST — buy below ₹460; strong buy below ₹380 if OPM recovery confirmed
+- Quality Score: 16/25 Grade B– (Growth 5/5, MOAT 2/5, Financials 3/5, Management 3/5, Valuation 3/5)
+- Rendered to PGEL.html and opened in Chrome</p>
+<hr />
+<h2 id="completed-2026-03-19-session-continued">✅ COMPLETED (2026-03-19 session — continued)</h2>
+<p><strong>DCF methodology rollout to 3 stocks:</strong>
+- KAYNES: Base ₹1,299→₹1,669 (+28%). Verdict unchanged: genuinely expensive at ₹3,726. OPM recovery (12%→15-16%) is the primary thesis driver. Buy zone updated ₹2,000-2,400. Promoter selling remains key risk.
+- EPACKPEB: Base ₹133→₹234 (+76%). Major verdict reversal: "slightly overvalued" → "46% upside at ₹160". India PEB penetration 15% vs 70%+ global + PLI + data centers. Buy below ₹200.
+- KERNEX: Base ₹852→₹1,689 (+98%). Largest reversal. 17x order book makes sub-30% growth arithmetically impossible — demand pre-sold 17 years. Bear DCF ₹950 = only -7% from CMP. Risk/reward highly asymmetric.</p>
+<p><strong>Valuation framework commit + push (prior session work):</strong>
+- VALUATION_FRAMEWORK.md + SHILCTECH.md committed to main repo</p>
+<hr />
+<h2 id="completed-2026-03-19-session">✅ COMPLETED (2026-03-19 session)</h2>
+<p><strong>index.html — major UI update:</strong>
+- Added Multibagger potential column (BullTarget/CMP): EPACKPEB 5x+, SWIGGY 4.5x, KERNEX 2.7x, GROWW 2.5x
+- Added Margin column (upside % to Fair Value)
+- Added valuation tags (Deep Value / Undervalued / Fair / Rich) next to company names
+- Renamed "3Y Target" → "Fair Value"
+- RAYMOND moved from Grade C → Grade B 16/25, company name fixed from "stub" to "Engineering"
+- PARADEEP action → "EXIT NOW — market price"</p>
+<p><strong>RAYMOND Section 4b — Order Book Deep Dive (new):</strong>
+- Order book Rs 6,500+ Cr (2.5-3x revenue coverage)
+- Customer breakdown: Safran 35-40%, P&amp;W new LTA, GE+RR existing; all 3 OEMs = 88% global market
+- 1,200 SKUs across 15 engine programs; qualification→serial transition is key margin lever
+- AP plant May 2027; per-unit cost -7-9% post-commissioning</p>
+<p><strong>CONCENTRATION_STRATEGY.md (new):</strong>
+- 41 → 10 positions: exit tracking (Move 1), exit Grade C (Move 2), build ICICIAMC 1%→15-20% (Move 3)
+- Timeline: PARADEEP this week, SWIGGY limit ₹300, STLNETWORK hard deadline June 30 2026</p>
+<p><strong>GitHub Pages fix:</strong>
+- Main repo remote renamed from <code>origin</code> → <code>main-backup</code> to prevent overwriting HTML repo
+- HTML repo force-pushed to restore ivnitish.github.io/stock-research</p>
 <p><strong>YouTube transcript pipeline idea</strong> added to TODO backlog.</p>
-
-<hr>
-
-<h2>✅ COMPLETED (2026-03-17 session)</h2>
-
-<p><strong>Research updates:</strong></p>
-<ul>
-<li>PARADEEP: EXIT IMMEDIATELY (no bounce-waiting). Competitors have better quarterly results + valuations.</li>
-<li>SHILCTECH: Full YouTube transcript data (ROE 53%, capacity doubling 7,500→14,000 MVA, strategy insights). Full competitive landscape vs Voltamp/EMCO/ABB/Hitachi Energy.</li>
-<li>NESCO: Full thesis created (19/25 Grade B+). Tower 2 catalyst, asset-value ₹17,000-24,000 Cr vs ₹7,200 Cr market cap.</li>
-<li>INTEGRATEDIND: Status corrected WATCHLIST → OWNED (165 shares, +52%).</li>
-</ul>
-
-<p><strong>Framework improvements:</strong></p>
-<ul>
-<li>Peer comparison section added to <code>_TEMPLATE.md</code> (5-layer competitive landscape)</li>
-<li>Autoresearch approach doc created (<code>docs/AUTORESEARCH_APPROACH.md</code>)</li>
-</ul>
-
-<p><strong>Housekeeping:</strong></p>
-<ul>
-<li>Grok API deprioritized to later</li>
-<li>YouTube transcripts added to <code>data/yt transcripts/</code></li>
-</ul>
-
-<hr>
-
-<h2>✅ COMPLETED (2026-03-14 session — continuing)</h2>
-
+<hr />
+<h2 id="completed-2026-03-17-session">✅ COMPLETED (2026-03-17 session)</h2>
+<p><strong>Research updates:</strong>
+- PARADEEP: EXIT IMMEDIATELY (no bounce-waiting). Competitors have better quarterly results + valuations.
+- SHILCTECH: Full YouTube transcript data (ROE 53%, capacity doubling 7,500→14,000 MVA, strategy insights). Full competitive landscape vs Voltamp/EMCO/ABB/Hitachi Energy.
+- NESCO: Full thesis created (19/25 Grade B+). Tower 2 catalyst, asset-value ₹17,000-24,000 Cr vs ₹7,200 Cr market cap.
+- INTEGRATEDIND: Status corrected WATCHLIST → OWNED (165 shares, +52%).</p>
+<p><strong>Framework improvements:</strong>
+- Peer comparison section added to <code>_TEMPLATE.md</code> (5-layer competitive landscape)
+- Autoresearch approach doc created (<code>docs/AUTORESEARCH_APPROACH.md</code>)</p>
+<p><strong>Housekeeping:</strong>
+- Grok API deprioritized to later
+- YouTube transcripts added to <code>data/transcripts/</code></p>
+<hr />
+<h2 id="completed-2026-03-21-session">✅ COMPLETED (2026-03-21 session)</h2>
+<p><strong>Market Notes:</strong>
+- <code>MARKET_NOTE_MAR2026.html</code> created — Nifty 25,500 support analysis + HDFC Bank 52-week low setup
+- Two Hindi YouTube transcripts (Vivek Singhal / Trading Vivek): Nifty support levels + HDFC Bank panic sell
+- HDFC Bank section: 30yr 52W-low pattern, P/B 2.2x vs 10yr median 3.6x, P/E 16.6x vs median 23.6x, RBI governance clearance, record earnings
+- index.html: MKT NOTE + HDFCBANK rows added to watchlist table; MKT NOTE card added to cards view
+- HDFCBANK added to watchlist as "Watch · Thesis needed"</p>
+<p><strong>Prior session (continuing):</strong>
+- SWANDEF.md — full thesis (D·9/25), Compounding Engine Q&amp;A, FV ₹95–665 vs CMP ₹2,057. Verdict: watch only, entry at ₹600–800
+- KERNEX.md — Compounding Engine Q&amp;A written (incremental ROIC ~50%, 12-15yr runway, kill condition)
+- Google Sheets backend (docs/SHEETS_SETUP.md) — Apps Script + notes widget for all thesis pages
+- notes.js + submit.html — created; full thesis submission + per-stock notes widget
+- Alpha Vantage MCP added (YUS2XHH8BEO3Y539), Indian stocks: price only (TICKER.BSE)
+- Quality Score → Valuation parameter mapping added to VALUATION_FRAMEWORK.md
+- _TEMPLATE.md Section 3: "Why Multi-Bagger" → "Compounding Engine Q&amp;A"
+- index.html: sticky header fix (overflow-x: clip), column rationalization (Target ₹ / Buy Zone / Upside / CMP/Ref), removed GROWW vs ICICIAMC card</p>
+<p><strong>Continued this session:</strong>
+- [x] BSE filing fetcher script (<code>scripts/fetch_bse_filings.py</code>) — built and tested end-to-end
+  - 20 stocks in PORTFOLIO dict with BSE codes
+  - Filters: Results, Annual Report, Investor Presentation, Analyst Meet, concall transcripts
+  - Downloads to <code>data/filings/{SYMBOL}/{YYYYMMDD}_{CATEGORY}_{HEADLINE}.pdf</code>
+  - Usage: <code>python3 scripts/fetch_bse_filings.py SYMBOL [--days 180] [--list]</code> or <code>ALL</code>
+  - KERNEX: 3 PDFs downloaded (Q3 results 4.3MB, JV, order win)
+  - RAYMOND: 10 PDFs downloaded (Q3 results 4.1MB, earnings call transcript 636KB, investor pres 3.2MB)
+  - 404s expected for older archived files (BSE CDN limitation, not a bug)
+- [x] render_plan.py table separator bug fixed — old pattern matched <code>| |</code> (empty cell), skipping header rows. All 36 research HTMLs re-rendered.
+- [x] _TEMPLATE.md — 4 years + TTM P&amp;L, 6 quarters, Summary Verdict moved to top, Compounding Engine Q&amp;A, correct valuation formula
+- [x] RAYMOND.md — full rewrite with Q3 FY26 call data, 17→16/25 corrected, management claims cross-referenced, full Compounding Engine Q&amp;A, Owner Earnings DCF</p>
+<p><strong>Pending:</strong>
+- [ ] PARADEEP competitive landscape (Section 6) — Chambal/Coromandel/RCF/Deepak data needed
+- [ ] HDFCBANK full thesis — post-merger ROIC, NIM trajectory, loan book quality
+- [ ] Google Sheets 5-min setup (user action required — see docs/SHEETS_SETUP.md)</p>
+<hr />
+<h2 id="completed-2026-03-14-session-continuing">✅ COMPLETED (2026-03-14 session — continuing)</h2>
 <p><strong>GROWW vs ICICIAMC:</strong> Extracted 900+ line comparison section from index.html → created <code>research/GROWW_vs_ICICIAMC.md</code> (allocation analysis, ROE sustainability, valuation, rebalancing rec). Rendered to HTML. Added cross-links in GROWW.md and ICICIAMC.md thesis files. Index now has simple link card instead of embedded content.</p>
-
 <p><strong>Previous (earlier today):</strong></p>
-
-<p><strong>Research:</strong> Valuation framework doc (<code>docs/VALUATION_FRAMEWORK.md</code> → <code>output/html/VALUATION_FRAMEWORK.html</code>) — DCF + P/B-ROE theory, India assumptions, worked examples (GROWW, JUSTDIAL), when models disagree · Linked in index.html as Reference row · JUSTDIAL deep thesis v2 (investments > market cap SOTP, Q3 FY26 OPM 31%)</p>
-
+<p><strong>Research:</strong> Valuation framework doc (<code>docs/VALUATION_FRAMEWORK.md</code> → <code>output/html/VALUATION_FRAMEWORK.html</code>) — DCF + P/B-ROE theory, India assumptions, worked examples (GROWW, JUSTDIAL), when models disagree · Linked in index.html as Reference row · JUSTDIAL deep thesis v2 (investments &gt; market cap SOTP, Q3 FY26 OPM 31%)</p>
 <p><strong>All research docs:</strong> Quick Summary + one-line thesis + Buy/Hold/Sell price table added to all ~20 research files</p>
-
-<hr>
-
-<h2>✅ COMPLETED (2026-03-13 session)</h2>
-
-<p><strong>Index.html:</strong> Mobile wrapping fix · Section totals (JS) · Expected CAGR section (~13.5% weighted) · ICICIAMC vs GROWW ROE deep dive · P/B formula corrected (g=6%) · STLNETWORK/STLTECH confusion fixed · Nifty 20K scenario page · Full column table (Qty/Avg/CMP/Invested/Current/P&L) · Auth localStorage fix · 23 tracking stocks · Averaging recommendations · Filter buttons</p>
-
+<hr />
+<h2 id="completed-2026-03-13-session">✅ COMPLETED (2026-03-13 session)</h2>
+<p><strong>Index.html:</strong> Mobile wrapping fix · Section totals (JS) · Expected CAGR section (~13.5% weighted) · ICICIAMC vs GROWW ROE deep dive · P/B formula corrected (g=6%) · STLNETWORK/STLTECH confusion fixed · Nifty 20K scenario page · Full column table (Qty/Avg/CMP/Invested/Current/P&amp;L) · Auth localStorage fix · 23 tracking stocks · Averaging recommendations · Filter buttons</p>
 <p><strong>Research files:</strong> STLNETWORK.md (C·10, owned) · STLTECH.md (C·11, watchlist) · NIFTY20K_WATCHLIST.md · PORTFOLIO_OVERVIEW.md · GROWW.md v2 · ICICIAMC.md · JUSTDIAL.md · SWIGGY.md · ETERNAL.md</p>
-
 <p><strong>Automation:</strong> Portfolio price update (daily 7pm) · Red flag monitor (weekly Mon 8am) · DCF model · P/B-ROE model · Decision log review (468 trades, -₹64.8K, 6 patterns) · Weekly journal W11</p>
-</body></html>
+</body>
+</html>

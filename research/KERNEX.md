@@ -2,7 +2,16 @@
 
 **Status:** OWNED (90 shares, ~₹1.01L invested, ~10% of portfolio)
 **Quality Score:** 17/25 (Grade B: Moderate Conviction)
+**Classification:** Multi-Bagger Candidate (Quality B + Base case 30% PAT CAGR, order book 12.6x revenue)
 **Last Updated:** 2026-03-22 | **CMP:** ₹962 | **Entry:** ₹1,125 avg | **P&L:** -14%
+**Data Source:** Screener.in (consolidated), March 2025 investor presentation
+
+> **Recommendation:** HOLD / ADD below ₹750. Kernex is one of only 3 RDSO-approved Kavach v4.0
+> OEMs with a ₹3,268 Cr order book (12.6x revenue) anchored by India's mandated train collision
+> avoidance rollout across 85,000 km. At ₹962 (normalised P/E ~54x), the market prices in ~28%
+> growth versus our 30% estimate — thin margin of safety, but order book arithmetic and ₹14,600 Cr
+> tender pipeline provide upside. Key condition: Q4 FY26 revenue must confirm ₹260+ Cr full-year
+> trajectory and normalised tax rate must validate sustainable PAT.
 
 ---
 
@@ -25,6 +34,39 @@
 | **Total** | **17/25** | **Grade B — Moderate Conviction** (downgraded from 18: Management 3→2 on low promoter + no scaling track record; Financials 4→3 on corrected OCF data) |
 
 **Overall Multi-Bagger Probability: Medium-High** — Extraordinary order book (12.6x revenue) with government-mandated demand. But company has never been profitable at scale; FY25 was the first real year. Execution risk is genuine, not theoretical.
+
+### Why this business?
+
+India's railway network is deadly — and Kavach (Train Collision Avoidance System) is the government's mandated fix. Of 85,000 km of track, only ~1,500 km (1.8%) has been equipped. Kernex invented the underlying ACD/TCAS technology over 30 years ago and is one of just three companies with RDSO-approved Kavach v4.0 production capability. The order book tells the story: ₹3,268 Cr of signed government contracts sitting on top of a company that did ₹190 Cr revenue in FY25 — a 12.6x book-to-bill ratio that makes sub-25% growth arithmetically impossible from executing contracts already in hand. The bet is on execution, not demand: Indian Railways has committed ₹1.3 lakh Cr to safety in FY27, upcoming tenders worth ₹14,600 Cr provide a decade of order book replenishment, and the total addressable deployment across the full network is ₹4.25-6.8 lakh Cr. What makes this risky is that Kernex has never operated at scale — FY25 was literally the first profitable year, the balance sheet is small (₹174 Cr equity), and working capital requirements at ₹500 Cr revenue will strain the company unless funded by debt or dilution. This is a bet on a company with the right IP, the right contracts, and the right market position — but no track record of delivering at the scale the order book demands.
+
+### Strengths
+
+- **Regulatory moat with decade-long runway.** One of 3 RDSO-approved Kavach v4.0 OEMs. Approval took years; Quadrant Future Tek has been in trials for 2+ years and still lacks final certification. Only 1.8% of the 85,000 km network deployed — runway is 15-20+ years at any reasonable execution pace.
+- **Order book provides arithmetic revenue certainty.** ₹3,268 Cr backlog at 12.6x FY25 revenue. At 30% revenue CAGR, cumulative 5-year revenue is ₹2,460 Cr — still only 75% of current backlog. Growth is pre-sold, not speculative.
+- **Kavach IP originator with deep domain expertise.** Kernex invented ACD/TCAS, the technology that became Kavach. 30+ years of Indian Railways integration. Hardware RDSO-approved, software 99% complete, ISA April 2025 — production-ready while competitors are still in trials.
+- **Asset-light model enables capital-efficient scaling.** Fixed assets only ₹34 Cr supporting ₹259 Cr TTM revenue (7.6x asset turnover). Production capacity of 450 Kavach units/month (5,400/year) means manufacturing is not the bottleneck — capital goes to working capital, not factories.
+- **Massive tender pipeline for order book replenishment.** Beyond current backlog: bids submitted ₹3,023 Cr + future bids ₹889 Cr + upgradation ₹121 Cr = ₹4,033 Cr pending. Near-term loco tenders worth ₹14,600 Cr provide visibility through FY30+.
+
+### Concerns
+
+- **First-ever profitable year — execution at scale is entirely unproven.** FY25 PAT of ₹50 Cr was the company's first profit after cumulative losses of ₹64 Cr (FY22-FY24), and even that was inflated by a deferred tax credit (effective tax rate -54%). Normalised PAT is closer to ₹24 Cr. The company has never managed a ₹500+ Cr revenue business.
+- **Working capital will strain the balance sheet as revenue scales.** At ₹500 Cr revenue with 150-day working capital cycle (government payment norms), ₹205 Cr gets locked in receivables and WIP — exceeding the entire equity base of ₹174 Cr. D/E already rose from 0.25 (FY25) to 0.51 (Sep 2025). Debt or dilution is likely.
+- **Near-monopoly customer dependency on Indian Railways.** ~90%+ of revenue from a single sovereign buyer. Any pause in Kavach deployment — budget reallocation, political shift, bureaucratic delays — directly kills the growth trajectory. Defence diversification exists on paper but has zero revenue contribution.
+- **Low promoter holding with declining trend.** 28.89% (Dec 2025), down from 29.08% (Mar 2025). No pledge, but low skin in the game relative to peers (HBL at 59%). Limits management accountability and governance quality.
+
+### The Compounding Equation
+
+Kernex's compounding engine is unusual — it runs on government-mandated demand rather than competitive market dynamics. The incremental ROIC from FY23 to FY25 was 40%, but that number is misleading because it measures the jump from loss-making to first-year profitability. The more honest question is whether ROIC sustains at 20%+ as the capital base scales from ₹198 Cr to ₹500+ Cr.
+
+The math works like this: Kernex reinvests 100% of earnings (zero dividends) into working capital needed to execute the order book. At a sustainable 25% ROIC on incremental capital, that implies 25% earnings growth — the conservative floor. The order book of ₹3,268 Cr physically guarantees this pace: at 30% revenue CAGR from ₹259 Cr TTM, cumulative 5-year revenue of ₹2,460 Cr consumes only 75% of the current backlog without a single new order win. The compounding fuel is contractual, not aspirational.
+
+The vulnerability is working capital. Government projects pay on 90-120 day cycles. At ₹500 Cr revenue, the working capital locked up (~₹205 Cr) exceeds current equity (₹174 Cr). If Kernex funds this gap with debt, interest costs eat into margins (TTM interest already ₹18 Cr, up from ₹7 Cr in FY25). If it dilutes equity, per-share compounding slows. The compounding thesis requires Kernex to solve the balance sheet scaling problem — either through improving cash conversion (FY25 working capital days dropped from 1,731 to 177, a genuine positive signal) or through managed leverage that stays below 1.0x D/E. This is the single most important variable to monitor.
+
+### What does the market think — and where do I disagree?
+
+At ₹962 (normalised P/E ~54x on ₹30 Cr TTM PAT), a reverse DCF at 13% required return over 6 years with 18x terminal multiple implies ~28% PAT growth. This is close to our 30% base estimate — the margin of safety is only 2 percentage points, which is thin.
+
+The market is pricing in roughly base-case execution of the order book. Where I see potential disagreement is in two areas: (1) the ₹14,600 Cr upcoming tender pipeline, which if Kernex wins even 20-25% of, would push the order book above ₹6,000 Cr and extend the growth runway beyond what current pricing reflects; and (2) the possibility that normalised margins settle at 18-20% rather than the 17% I model, as scale economies on the asset-light model improve operating leverage. The gap is narrow but the asymmetry favours patience — bear case DCF is ₹601 (-38%) while bull case is ₹1,595 (+66%).
 
 ---
 
@@ -50,17 +92,9 @@ Kernex was loss-making for FY22-FY24 (cumulative net loss of ₹64 Cr) — FY25 
 
 1. **Normalised tax rate:** FY25 tax rate was -54% (deferred tax asset recognition). Need FY26 actual tax rate to compute true sustainable PAT. Check Q4 FY26 results.
 2. **Working capital funding plan:** How will Kernex fund ₹200+ Cr of working capital at ₹500 Cr revenue? Debt, QIP, or internal accruals? Not disclosed.
-3. **Customer concentration by zonal railway:** Indian Railways is ~90% of revenue, but which zones? CLW and NCR are identified — need breakdown to assess execution concentration.
-4. **Defence order pipeline details:** Smart munitions and electronic fuzes mentioned but zero revenue/margin data disclosed. Actual pipeline value unknown.
-5. **Kavach v4.0 competitive position:** Medha Servo (₹4,380 Cr revenue, unlisted) and HBL Engineering (₹1,967 Cr revenue) are far larger. What is Kernex's share of upcoming ₹14,600 Cr tender pipeline?
-
----
-
-## Quick Summary
-
-**One-line thesis:** India's Kavach railway safety pioneer with ₹3,268 Cr order book (12.6x revenue) at ₹962 — order-book-anchored DCF base case ₹1,500 (+56% upside) with bear downside -44%; execution capacity is the sole constraint, demand is pre-sold for 12+ years.
-
-**Action:** HOLD — average down below ₹700 only if Q4 FY26 execution confirms
+3. **Customer concentration by zonal railway:** ~~PARTIALLY CLOSED~~ — CLW order spans 17 sheds in 7 zones: SER (8), SECR (3), CR (3), ECR (2), NCR (1), PLW (1), MELP (1). SER concentration (8/17 sheds) is notable. Still need revenue breakdown by zone.
+4. **Defence order pipeline details:** Smart munitions and electronic fuzes mentioned but zero revenue/margin data disclosed. Actual pipeline value unknown. New products (NMS, Pulse Generators, Radio Modems, Drones) are adjacent-market extensions, not pure defence.
+5. **Kavach v4.0 competitive position:** ~~PARTIALLY CLOSED~~ — Kernex TCAS 4.0 hardware RDSO-approved, software 99% complete, ISA April 2025. Quadrant Future Tek still in field trials. Kernex's production capacity (450 units/month) is quantified. Still need HBL/Medha capacity data for share comparison.
 
 | Level | Price | Trigger |
 |-------|-------|---------|
@@ -72,7 +106,7 @@ Kernex was loss-making for FY22-FY24 (cumulative net loss of ₹64 Cr) — FY25 
 
 ## 1. Business Summary
 
-Kernex Microsystems is India's pioneer in railway safety signalling systems — Anti-Collision Devices (ACD), Train Collision Avoidance System (TCAS/Kavach), automatic block signalling (ABS), and telecom solutions for Indian Railways. The company is one of only three RDSO-approved Kavach v4.0 OEMs (alongside HBL Engineering and Medha Servo Drives), with the technology originally invented by Kernex as ACD. Revenue is almost entirely from Indian Railways (~90%+), with nascent diversification into defence (smart munitions, electronic fuzes) and a new 51:49 JV with Bharat Heavy Engineering for Moving Block System development. The thesis is Kavach's mandated rollout across 44,000 km of Indian Railways creating a decade-long, contractually-committed revenue runway for a company that holds the foundational IP.
+Kernex Microsystems is India's pioneer in railway safety signalling systems — Anti-Collision Devices (ACD), Train Collision Avoidance System (TCAS/Kavach), automatic block signalling (ABS), and telecom solutions for Indian Railways. The company is one of only three RDSO-approved Kavach v4.0 OEMs (alongside HBL Engineering and Medha Servo Drives), with the technology originally invented by Kernex as ACD. Revenue is almost entirely from Indian Railways (~90%+), with nascent diversification into defence (smart munitions, electronic fuzes) and a new 51:49 JV with Bharat Heavy Engineering for Moving Block System development. Beyond Kavach, the company has an emerging product pipeline: Network Management System (NMS, prototype June 2025), Pulse Generators (production Dec 2025), Radio Modems (production Aug 2025), and Drone Automation for railway inspection (project start April 2025) — all adjacent to core railway safety domain but not yet revenue-contributing. Level Crossing Gate production runs at 10/month, scalable to 25. The thesis is Kavach's mandated rollout across 44,000 km of Indian Railways creating a decade-long, contractually-committed revenue runway for a company that holds the foundational IP.
 
 ---
 
@@ -141,13 +175,14 @@ Incremental ROIC = 42 / 105 = 40%
 - Working capital increase FY25: ₹35 Cr (Other Assets grew from ₹135 to ₹208 Cr)
 
 **Capital deployment opportunity:**
-- Kavach total addressable network: 44,000 km of Indian Railways. Only ~1,500 km deployed (3.4%).
-- At ₹5-8 Cr per route-km for TCAS deployment, total Kavach TAM = ₹2.2-3.5 lakh Cr over 10-15 years.
+- Kavach total addressable network: 85,000 km of Indian Railways (full network, per March 2025 investor presentation; earlier 44,000 km figure was initial HDN/HUN target). Only ~1,500 km deployed (1.8%).
+- At ₹5-8 Cr per route-km for TCAS deployment, total Kavach TAM = ₹4.25-6.8 lakh Cr over 15-20 years.
+- Near-term pipeline: HDN 11,000 km (7 routes) + HUN 24,230 km (11 routes) = 35,230 km addressable. Bids submitted ₹3,023 Cr + future ₹889 Cr = ₹3,912 Cr pending.
 - Upcoming tender pipeline: 11,429 loco units worth ~₹9,000 Cr + retendered 10,000 units worth ~₹5,600 Cr = ₹14,600 Cr of near-term pipeline.
 - Current order book ₹3,268 Cr at 12.6x FY25 revenue — massive visibility.
 - Defence (smart munitions, electronic fuzes) and Moving Block System JV add separate reinvestment avenues at potentially higher margins.
 
-**Runway estimate:** 12-15+ years — because: (a) Kavach deployment at current pace would take decades to cover the full 44,000 km network; even at 5x acceleration it's a 15+ year programme, (b) technology upgrades and maintenance create recurring revenue on already-deployed segments, (c) Indian Railways FY27 safety budget exceeding ₹1.3 lakh Cr signals accelerating government commitment. The constraint is not demand saturation — it is execution bandwidth.
+**Runway estimate:** 15-20+ years — because: (a) Kavach deployment at current pace would take decades to cover the full 85,000 km network (expanded from initial 44,000 km HDN/HUN target); even at 5x acceleration it's a 15+ year programme, (b) technology upgrades and maintenance create recurring revenue on already-deployed segments, (c) Indian Railways FY27 safety budget exceeding ₹1.3 lakh Cr signals accelerating government commitment. The constraint is not demand saturation — it is execution bandwidth.
 
 ---
 
@@ -284,7 +319,7 @@ Incremental ROIC = 42 / 105 = 40%
 
 **Primary driver:** ORDER BOOK
 
-The ₹3,268 Cr order book at 12.6x TTM revenue provides arithmetic certainty of revenue growth — the only variable is execution pace. At FY26 9M pace of ₹175.6 Cr, full FY26 will likely be ₹250-280 Cr (includes Q4 March spike). The CLW order alone (₹2,465 Cr for 3,024 Kavach loco sets, 12-month timeline) provides visibility through FY27-FY28.
+The ₹3,268 Cr order book at 12.6x TTM revenue provides arithmetic certainty of revenue growth — the only variable is execution pace. At FY26 9M pace of ₹175.6 Cr, full FY26 will likely be ₹250-280 Cr (includes Q4 March spike). The CLW order alone (₹2,465 Cr for 3,024 Kavach loco sets, 12-month timeline) provides visibility through FY27-FY28. Beyond current orders, the bid pipeline totals ₹4,033 Cr: bids submitted ₹3,023 Cr (9,505 km) + future bids ₹889 Cr (4,251 km) + upgradation ₹121 Cr (per March 2025 investor presentation). Near-term addressable network: HDN 11,000 km (7 routes) + HUN 24,230 km (11 routes) = 35,230 km — 23x what's been deployed (~1,500 km).
 
 | Input | Observable Data | FY28 Implied |
 |-------|----------------|-------------|
@@ -455,7 +490,7 @@ Per share = 2,679 / 1.68 = ₹1,595
 
 ### Market Position
 
-Kernex is one of three RDSO-approved Kavach v4.0 OEMs, alongside HBL Engineering (listed) and Medha Servo Drives (unlisted). A fourth entrant, Quadrant Future Tek, is in final passenger field trials for Kavach v4.0 and expected to receive RDSO approval soon. Kernex is the smallest of the three approved OEMs by revenue but was the original inventor of the ACD/TCAS technology that became Kavach. The addressable market is massive: 44,000 km of Indian Railways network at ₹5-8 Cr per route-km = ₹2.2-3.5 lakh Cr TAM, with only 3.4% deployed.
+Kernex is one of three RDSO-approved Kavach v4.0 OEMs, alongside HBL Engineering (listed) and Medha Servo Drives (unlisted). A fourth entrant, Quadrant Future Tek, is in final passenger field trials for Kavach v4.0 and expected to receive RDSO approval soon. Kernex is the smallest of the three approved OEMs by revenue but was the original inventor of the ACD/TCAS technology that became Kavach. Production capacity: 450 Kavach units/month + 10 Level Crossing Gates/month (scalable to 25). The addressable market is massive: 85,000 km of Indian Railways network (full network; initial HDN/HUN target was 44,000 km) at ₹5-8 Cr per route-km = ₹4.25-6.8 lakh Cr TAM, with only ~1.8% deployed. Near-term routes: HDN 11,000 km (7 routes) + HUN 24,230 km (11 routes) = 35,230 km.
 
 ### Structural Advantages vs Peers
 
@@ -463,7 +498,7 @@ Kernex is one of three RDSO-approved Kavach v4.0 OEMs, alongside HBL Engineering
 
 2. **RDSO v4.0 approval (early mover):** Only 3 companies have full Kavach v4.0 approval. Quadrant Future Tek has been in trials for 2+ years and still pending. Quantified: approval barrier = 2-3 years minimum, limiting new entrants.
 
-3. **Asset-light model:** Fixed assets only ₹34 Cr (Sep 2025) supporting ₹259 Cr TTM revenue = asset turnover 7.6x. This means capital primarily goes to working capital (receivables), not fixed investment — allowing faster scaling if working capital is funded.
+3. **Asset-light model:** Fixed assets only ₹34 Cr (Sep 2025) supporting ₹259 Cr TTM revenue = asset turnover 7.6x. Production capacity of 450 Kavach units/month (5,400/year) means manufacturing is NOT the bottleneck. Capital primarily goes to working capital (receivables), not fixed investment — allowing faster scaling if working capital is funded.
 
 ### Peer Comparison
 
@@ -506,7 +541,7 @@ Kernex is one of three RDSO-approved Kavach v4.0 OEMs, alongside HBL Engineering
 | Customer | Type | Est. Revenue % | Notes |
 |----------|------|---------------|-------|
 | Indian Railways (Ministry of Railways) | Govt — Railway safety | ~90%+ | Near-monopoly customer across zonal railways |
-| Chittaranjan Locomotive Works (CLW) | Railway PSU | Largest single order | ₹2,465 Cr Kavach loco equipment order |
+| Chittaranjan Locomotive Works (CLW) | Railway PSU | Largest single order | ₹2,465 Cr Kavach loco equipment order — 2,302 locos across 17 sheds in 7 zones; survey complete, materials supply from April 2025, delivery from May 2025, installation from June 2025 (per March 2025 investor presentation) |
 | North Central Railway (NCR) | Zonal railway | Significant | ABS sections — Chipyana Buzurg to Kanpur, Kanpur to DDU |
 | South Central Railway (SCR) | Zonal railway | Significant | Vemulapadu-Muddanuru ABS section |
 | DFCCIL | Dedicated Freight Corridor | ₹210 Cr order | Kavach for freight corridors |
@@ -572,6 +607,66 @@ Kernex is one of three RDSO-approved Kavach v4.0 OEMs, alongside HBL Engineering
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/KERNEX.md`*
+
+### 2026-03-28 — Investor Presentation Cross-Reference (March 2025 BSE Filing)
+
+**Source:** BSE filing `172387c2-fb40-477b-8a62-bc8fa65eeb07.pdf` — Kernex Investor Presentation, March 2025 (20 pages). Cross-referenced against existing thesis.
+
+**New Data Points (not previously in thesis):**
+
+1. **Production Capacity Quantified:** 450 Kavach units/month, 10 Level Crossing Gates/month (scalable to 25). This is the first concrete capacity ceiling we have. At 450 units/month × 12 = 5,400 units/year. CLW order alone is 3,024 loco sets — executable in ~7 months at full capacity. Capacity is NOT the bottleneck; execution coordination across 17 sheds in 7 railway zones is. *(Merged into: Competitive Landscape, Business Summary)*
+
+2. **TAM is 2x What We Modeled:** Presentation states "entire 85,000 km Indian Railways network by 2030-2032" — our thesis used 44,000 km. The 44,000 km was likely the initial high-density route target; 85,000 km is the full network. At ₹5-8 Cr/route-km, full TAM = **₹4.25-6.8 lakh Cr** (vs our ₹2.2-3.5 lakh Cr). Even if Kernex captures just 10% of the expanded TAM, that's ₹42,500-68,000 Cr of lifetime revenue opportunity. Growth Runway score of 5/5 further confirmed; runway is 15-20+ years, not 12-15. *(Merged into: Q2 Reinvestment Runway, Competitive Landscape)*
+
+3. **Bid Pipeline Visibility:** Bids submitted ₹3,023 Cr (9,505 km) + Future bids ₹889 Cr (4,251 km) + Upgradation ₹121 Cr = **₹4,033 Cr of pending/upcoming bids.** This is INCREMENTAL to the existing ₹3,268 Cr order book. If even 40% conversion, order book replenishment adds ₹1,600 Cr — removing our concern about order book depletion by Y4-5. *(Merged into: Outlook, Q2)*
+
+4. **HDN + HUN Route Specifics:**
+   - HDN (High Density Network): 11,000 km across 7 routes
+   - HUN (Highly Utilised Network): 24,230 km across 11 routes
+   - Total near-term addressable: 35,230 km — 23x what's been deployed (~1,500 km)
+   - This answers our "Data Gap #5" about upcoming tender pipeline distribution
+   *(Merged into: Outlook, Competitive Landscape)*
+
+5. **New Product Diversification (Revenue Optionality):**
+   - Network Management System (NMS): Prototype June 2025 — monitoring infrastructure
+   - Pulse Generators: Production December 2025 — component for signalling
+   - Radio Modems: Production August 2025 — communication equipment
+   - Drone Automation: Project start April 2025 — railway inspection drones
+   - These reduce single-product dependency. Each is adjacent to core railway safety domain. Not yet revenue-contributing but shows R&D pipeline beyond pure Kavach execution.
+   *(Merged into: Business Summary, Data Gaps #4)*
+
+6. **CLW Execution Granularity:**
+   - 17 locomotive sheds across 7 zones: SER (8), SECR (3), CR (3), ECR (2), NCR (1), PLW (1), MELP (1)
+   - 2,302 total locomotives to be equipped
+   - Status (as of March 2025): Survey completed, testbenches laid out, simulators ready for inspection
+   - Materials supply: Started April 2025 | Delivery: From May 2025 | Installation: From June 2025
+   - 7-zone spread de-risks geographic concentration but adds coordination complexity.
+   *(Merged into: Customer section)*
+
+7. **TCAS 4.0 Development Status:**
+   - Hardware: RDSO approved
+   - Software: 99% complete
+   - ISA (Independent Safety Assessment): April 2025
+   - Kernex's v4.0 is essentially production-ready, while Quadrant Future Tek is still in passenger field trials. Technology moat intact.
+   *(Merged into: Data Gaps #5)*
+
+**Thesis Confirmations:**
+- Order book trajectory: ₹2,124 Cr (Mar 2025) → ₹3,268 Cr (Dec 2025) = 54% growth in 9 months. Order book replenishment keeping pace — confirmed.
+- EBITDA margins: 22-23% in 9M FY25, consistent with our 20-25% base case range.
+- Asset-light model: No heavy capex disclosed. Production is integration + assembly, not manufacturing.
+- CFO turnaround: 9M FY25 CFO +₹5.31 Cr vs 9M FY24 -₹67 Cr. Supports OCF improvement narrative.
+
+**Thesis Challenge:**
+- 85,000 km by 2030-2032 is extremely ambitious — only ~1,500 km deployed in 30+ years. Government timeline slippage probability is HIGH. Don't model off this timeline; use 15-20 year deployment as realistic assumption.
+- March 2025 order book was ₹2,124 Cr (KMIL exclusive ₹1,735 Cr + consortium ₹389 Cr). The jump to ₹3,268 Cr by Dec 2025 means ₹1,144 Cr of new orders in 9 months — need to verify this pace sustains.
+
+**Valuation Impact:**
+- **No change to base DCF (₹874)** — the presentation is 12 months old, and our model already uses Dec 2025 data
+- **Bull case strengthened:** TAM 2x larger (85,000 km vs 44,000 km), bid pipeline ₹4,033 Cr provides order book replenishment runway, new products add optionality
+- **Execution capacity confirmed:** 450 units/month production capacity removes manufacturing bottleneck concern
+- If order book hits ₹6,000+ Cr with confirmed CLW execution, bull DCF could move from ₹1,595 to ₹1,800+ — but wait for Q4 FY26 actuals
+
+---
 
 ### 2026-03-25 — Order Book Update & Revised Valuation (Post Q3 FY26)
 

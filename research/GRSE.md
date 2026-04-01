@@ -1,16 +1,19 @@
 # Garden Reach Shipbuilders & Engineers Ltd (GRSE) — Investment Thesis
 
 **Status:** WATCHLIST
-**Quality Score:** 17/25 (Grade B)
+**Quality Score:** 17/25 (Grade B: Good Business)
+**Classification:** Fairly Valued (Quality B + base case ~1.1x at CMP; need correction or export catalyst for multi-bagger entry)
 **Last Updated:** 2026-03-22 | **CMP:** ₹2,296
+**Data Source:** Screener.in (consolidated), Q3 FY26 earnings call
+
+> **Recommendation:** WATCHLIST — wait for correction to ₹1,800-2,000 (30-32x TTM P/E) or export
+> catalyst. GRSE compounds at 25%+ PAT CAGR on sovereign-mandated naval orders (4.5-5x revenue
+> coverage) with 37% ROCE powered by negative working capital — the Navy funds GRSE's operations,
+> not the other way around. At ₹2,296 (38x PE), the market implies exactly 25% growth, leaving zero
+> margin of safety; base DCF fair value is ₹2,459. Key condition: NGC contract (₹33,000 Cr) must
+> be signed to extend order book visibility to 7-8x revenue.
 
 ---
-
-<!--
-═══════════════════════════════════════════════════════════════════════════
-  SUMMARY VERDICT — FILL THIS LAST, READ THIS FIRST
-═══════════════════════════════════════════════════════════════════════════
--->
 
 ## Summary Verdict
 
@@ -25,6 +28,39 @@
 | **Total** | **17/25** | **Grade B — Moderate Conviction** |
 
 **Overall Multi-Bagger Probability: Medium** — Exceptional order book visibility and structural demand (sovereign customer), but valuation already prices base-case execution. Need export catalyst or correction to ₹1,800-2,000 for attractive entry.
+
+### Why this business?
+
+The Indian Navy has a 30-year shipbuilding plan targeting 175+ vessels by 2035, backed by rising defence capital expenditure and the Atmanirbhar Bharat mandate for 75% domestic procurement. GRSE is one of only two Indian shipyards to have ever exported warships, and it holds government-mandated exclusivity on several classified naval vessel programmes that private yards are structurally barred from bidding on — security clearances, 80+ years of institutional knowledge, and classified system integration capability (sonar, weapons, communications) cannot be replicated in under a decade. What makes GRSE's economics unusual is the negative working capital model: the Indian Navy pays 15-20% advances on contract award, keeping ₹6,000+ Cr parked with GRSE at any given time, which generates ₹300-350 Cr in annual treasury income for free. This means the reported 8% OPM is misleading — the true economic margin is closer to 14%, and GRSE earns 37% ROCE on capital it never had to raise. The order book of ₹22,000-25,000 Cr (4.5-5x revenue) consists of signed sovereign contracts, not a sales pipeline — making this one of the most predictable revenue stories in Indian equities. The issue is not the business; it is the price. At 38x PE, the market already prices 25% PAT growth — exactly our base case estimate — leaving no margin of safety.
+
+### Strengths
+
+- **Sovereign-mandated demand with decades of runway.** Indian Navy's 30-year shipbuilding plan, ₹1.5-2 lakh Cr addressable. GRSE allocated ~15-20% by vessel count. Orders are policy-committed, not discretionary. Revenue has compounded at 42% CAGR over 3 years (FY22-FY25).
+- **Negative working capital model creates free capital.** Navy advances of ₹6,000+ Cr generate ₹300-350 Cr/year in treasury income — equivalent to ~6-7% incremental OPM on top of the reported 8%. Working capital days are -169, meaning the Navy funds GRSE's operations. This is a structural advantage private competitors cannot replicate.
+- **Exceptional return on capital for a PSU.** ROCE 37%, ROE 28%, virtually debt-free (D/E 0.005x). Incremental ROIC of 34% over FY22-FY25. These are not cyclical highs — they are driven by the structural advance-funded model.
+- **Order book provides multi-year visibility.** Current book ₹18,482 Cr (Dec 2025), expected to jump to ~₹50,000 Cr with NGC contract. NGC alone (5 corvettes, ₹33,000 Cr) extends visibility to 7-8x revenue.
+- **Export track record is a nascent moat.** Only GRSE and Mazagon Dock have delivered warships to foreign navies. German MPV contract expanded from 4 to 12 ships. Export rights secured for 30mm naval surface guns. First-mover advantage in a market India is actively building under "Make in India, Make for the World."
+
+### Concerns
+
+- **Zero margin of safety at current valuation.** At 38x PE, reverse DCF implies 25% PAT CAGR — exactly matching our base case. Any execution miss compresses the multiple sharply. Bear case (MoD deferral + de-rating to 18x) implies 43% drawdown to ₹1,320.
+- **Physical capacity ceiling constrains growth.** Current berth infrastructure supports ~₹8,000-9,000 Cr/year revenue. At 25% CAGR from FY25, that ceiling is hit by FY27-28. Expansion requires MoD approval, which involves multi-year bureaucratic cycles. If approval delays, growth stalls regardless of order book size.
+- **FY28 revenue gap risk.** P-17A deliveries peak in FY27; NGC revenue starts only in Q4 FY28. Management acknowledged a potential 2-3 quarter growth plateau. Spares revenue (10-15% of project cost) partially cushions but may not fully bridge the gap.
+- **PSU governance limits strategic autonomy.** CMD is MoD-appointed, not merit-selected. Bureaucratic cost structures inflate overheads. Cost-plus contracts cap margin upside. Management declined to provide specific EBITDA margin guidance.
+
+### The Compounding Equation
+
+GRSE earns 37% ROCE — extraordinary for a government-owned shipyard — but the mechanism is counterintuitive: it is not about fat margins. GRSE's reported operating margin is just 8%, which for most businesses would produce mediocre returns on capital. The trick is that GRSE barely needs its own capital to operate.
+
+Here is how it works. When the Indian Navy awards a shipbuilding contract, it pays 15-20% of the contract value upfront as an advance. At any given time, GRSE holds ₹6,000+ Cr of these Navy advances on its balance sheet — money that belongs to the customer but sits in GRSE's accounts generating ₹300-350 Cr per year in treasury income. This is the negative working capital model: working capital days are -169, meaning GRSE's liabilities to the Navy (advances received) far exceed its own capital tied up in receivables and inventory. The Navy is, in effect, funding GRSE's operations.
+
+The ROIC math works out to: incremental ROIC of 34% over FY22-FY25 (change in PAT of ₹335 Cr on change in capital employed of ₹1,000 Cr). With a reinvestment rate of ~80% (dividend payout ~30%, rest retained), the implied earnings CAGR is 80% x 34% = ~27%, which we cap at 25% due to the physical capacity constraint. At 25% PAT compounding for 5 years, intrinsic value grows 3.1x — but entering at 38x PE and exiting at 22x (PSU de-rating as growth normalises) yields only ~1.8x total return. This is precisely why entry price matters: the same business entered at 30x PE (₹1,800) with exit at 25x delivers ~2.6x. The compounding engine is strong; the question is entirely about what you pay to access it.
+
+### What does the market think — and where do I disagree?
+
+At ₹2,296 (38x PE), a reverse DCF using r=12%, n=5 years, and a 22x terminal multiple implies the market expects exactly 25% PAT CAGR over the next 5 years. This matches our base case estimate precisely — the gap between implied growth and estimated growth is zero percentage points. There is no margin of safety.
+
+The market is correctly pricing GRSE for base-case order book execution on domestic Navy contracts. Where the market may be wrong is in assigning no value to two potential catalysts: (1) the NGC contract (₹33,000 Cr, price negotiations completed), which would take order book visibility from 3x to 7-8x revenue, structurally de-risking the growth trajectory; and (2) export orders, where GRSE's German MPV contract expansion (4 to 12 ships) and active marketing to Southeast Asian and Gulf navies could shift the market's perception from "PSU utility" to "defence export platform," justifying 50x+ PE. The base case is priced in; the optionality is not. But optionality is not a reason to overpay — it is a reason to buy on a correction, where you get the base case at a discount and the catalysts for free.
 
 ---
 
@@ -43,6 +79,7 @@ The core risk isn't demand — the Indian Navy's 30-year shipbuilding plan makes
 3. **OPM trend:** Sustaining 8-10% OPM; drop below 7% = cost overruns not being recovered — Source: Screener.in quarterly
 4. **Export order announcements:** Any G-to-G warship deal >₹2,000 Cr = step-change catalyst — Source: BSE announcements
 5. **Navy advance balance:** ₹6,000+ Cr structural; decline below ₹4,000 Cr reduces treasury income floor — Source: Annual report balance sheet
+6. **FY28 revenue gap:** P-17A deliveries peak in FY27; NGC revenue starts Q4 FY28. Watch for 2-3 quarter growth plateau in FY28 — Source: Q3 FY26 earnings call, 12 Feb 2026
 
 ### Data Gaps
 
@@ -52,23 +89,9 @@ The core risk isn't demand — the Indian Navy's 30-year shipbuilding plan makes
 
 ---
 
-## Quick Summary
-
-**One-line thesis:** GRSE compounds at 25%+ PAT CAGR on sovereign-mandated naval order book (4.5-5x revenue) with 37% ROCE powered by negative working capital — but the stock is fairly priced at 38x; need a correction or export catalyst for attractive entry.
-
-**Action:** WATCHLIST — wait for correction to ₹1,800-2,000 (30-32x TTM P/E) or export catalyst
-
-| Level | Price | Trigger |
-|-------|-------|---------|
-| Buy / Add | ₹1,800-2,000 | Correction to 30-32x TTM P/E = 15-20% margin of safety on base DCF |
-| Hold | ₹2,000-₹3,000 | Let base case order book execution play out |
-| Exit | ₹3,500+ or thesis break | Re-rating to 50x+ = fully priced; or MoD programme deferral >12 months |
-
----
-
 ## 1. Business Summary
 
-Garden Reach Shipbuilders & Engineers Ltd (GRSE) is a Government of India–owned (74.5% GoI stake) defence shipyard under the Ministry of Defence, headquartered in Kolkata. The company designs and builds warships, patrol vessels, and survey ships for the Indian Navy and Indian Coast Guard (89% of revenue), making it the exclusive builder of several vessel classes that private shipyards are structurally excluded from. GRSE holds the distinction of being the first Indian shipyard to export warships, having delivered vessels to Mauritius and Sri Lanka. With India's defence capital expenditure budget rising steadily and the Indian Navy's 30-year shipbuilding plan targeting 175+ vessels by 2035, GRSE is positioned as a direct beneficiary of structural government spending compulsion rather than demand discretion.
+Garden Reach Shipbuilders & Engineers Ltd (GRSE) is a Government of India–owned (74.5% GoI stake) defence shipyard under the Ministry of Defence, headquartered in Kolkata. The company designs and builds warships, patrol vessels, and survey ships for the Indian Navy and Indian Coast Guard (89% of revenue), making it the exclusive builder of several vessel classes that private shipyards are structurally excluded from. GRSE holds the distinction of being the first Indian shipyard to export warships, having delivered vessels to Mauritius and Sri Lanka. Beyond shipbuilding, GRSE manufactures 30mm naval surface guns (17 ordered by Navy, 4 installed; Coast Guard discussing 49 more; export rights secured; no domestic competition — per Q3 FY26 earnings call) and has a growing ship repair division (crossed 1% of revenue, high-margin adjacency). With India's defence capital expenditure budget rising steadily and the Indian Navy's 30-year shipbuilding plan targeting 175+ vessels by 2035, GRSE is positioned as a direct beneficiary of structural government spending compulsion rather than demand discretion.
 
 ---
 
@@ -206,13 +229,22 @@ GRSE's ROIC is driven by two structural mechanisms: (1) cost-plus contracts prov
 
 | Metric | FY2022 | FY2023 | FY2024 | FY2025 | TTM |
 |--------|--------|--------|--------|--------|-----|
-| Order Book (Cr) — est. | ~15,000 | ~18,000 | ~20,000 | ~22,000-25,000 | N/A |
-| Order Book / Revenue (x) | ~9x | ~7x | ~5.6x | ~4.5-5x | ~3.5-4x |
+| Order Book (Cr) — est. | ~15,000 | ~18,000 | ~20,000 | ~22,000-25,000 | 18,482 (Dec 2025) |
+| Order Book / Revenue (x) | ~9x | ~7x | ~5.6x | ~4.5-5x | ~2.8x |
 | Debtor Days | ~10 | 7 | 20 | 19 | ~20 |
 | Working Capital Days | ~-500 | -546 | -276 | -169 | ~-150 |
 | Shipbuilding Revenue % | ~89% | ~89% | ~89% | ~89% | ~89% |
 
-*Order book estimates sourced from company press releases and analyst reports. Negative working capital = customer advances exceed receivables + inventory net of payables, a structural advantage.*
+**Order Book Breakdown (31 Dec 2025, ₹18,482 Cr — per Q3 FY26 earnings call, 12 Feb 2026):**
+
+| Segment | Value (Cr) | % |
+|---------|-----------|---|
+| Defence (P-17A, SVL, ASW SWC, OPV) | 14,276 | 77% |
+| Non-defence (research vessels, WB ferries) | 897 | 5% |
+| Export (Bangladesh dredger, German MPVs) | 1,481 | 8% |
+| Other (DEP, naval guns, ship repair, bridges) | ~1,828 | 10% |
+
+*Order book declined from ₹22,000-25,000 Cr due to strong execution drawdown, not demand weakness. NGC contract (~₹33,000 Cr) expected to lift FY26-end book to ~₹50,000 Cr. Negative working capital = customer advances exceed receivables + inventory net of payables, a structural advantage.*
 
 ### CAGRs
 
@@ -225,7 +257,7 @@ GRSE's ROIC is driven by two structural mechanisms: (1) cost-plus contracts prov
 
 | Quarter | Revenue (Cr) | OPM % | Net Profit (Cr) | Key comment |
 |---------|-------------|-------|----------------|-------------|
-| Q3 FY26 (Dec 2025) | 1,896 | 9% | 171 | Steady acceleration; 49% YoY revenue growth |
+| Q3 FY26 (Dec 2025) | 1,896 | 9% | 171 | +49% YoY; 9M FY26 ₹4,883 Cr nearly matching full FY25 ₹5,076 Cr (per Q3 earnings call) |
 | Q2 FY26 (Sep 2025) | 1,677 | 9% | 154 | 45% YoY growth; margin stable |
 | Q1 FY26 (Jun 2025) | 1,310 | 9% | 120 | 14% YoY; seasonal softness in Q1 typical |
 | Q4 FY25 (Mar 2025) | 1,642 | 13% | 244 | Strong Q4 delivery push; highest quarterly PAT |
@@ -261,6 +293,23 @@ GRSE's ROIC is driven by two structural mechanisms: (1) cost-plus contracts prov
 | Export order win | Not material to bear/base | Adds 20-30% revenue premium + re-rates from 38x to 50x P/E → FY30 FV **~₹4,200/share (+83%)** | BSE announcements on G-to-G deal signings; Southeast Asia / Gulf navy negotiations |
 
 **Risk/reward:** Downside 43% / Upside 83% → Asymmetric upside — but only if export catalyst materialises; base case is priced in at CMP
+
+**Upcoming Pipeline (AON accorded, RFPs expected 12-18 months — per Q3 FY26 earnings call):**
+
+| Project | Est. Value (Cr) | GRSE Probability |
+|---------|----------------|-----------------|
+| P-17 Bravo (7 frigates) | ~70,000 | High — CMD's #1 KRA; design + OEM knowledge from P-17A |
+| LPD (Landing Platform Dock) | ~35,000 | Medium — MOU with HSL, needs design partner |
+| Mine Counter Measure Vessels (12 ships) | ~32,000 | Medium — competitive bid |
+| Non-defence (PSVs, MR tankers, VLGCs) | ~1,00,000+ | Low (15% win rate) |
+
+**Capacity Expansion Roadmap (per Q3 FY26 earnings call):**
+- Platform capacity: 24 → 28 (current) → 32 (end CY2026) → 35-36 (brownfield max)
+- Gujarat greenfield (Kandla + Bhavnagar): DPR stage, consultant engaged. Target: 12 large vessels (300m class) in 3-5 years
+- PPP model: 5 of 7 platforms successfully outsourced to private yards; being scaled for further capacity augmentation
+- Hiring 150 executives from top institutions — execution scaling signal
+
+**FY28 revenue gap risk (per Q3 FY26 earnings call):** Management flagged FY27 as a "peak year" (P-17A final deliveries). NGC revenue starts Q4 FY28, creating a potential 2-3 quarter growth plateau in FY28. Spares revenue (10-15% of project cost post-delivery) and other deliveries expected to cushion but not fully fill the gap.
 
 **The one thing that makes the base case wrong:** Navy vessel programme delay of 12+ months (shifting delivery milestones past FY30) OR capacity ceiling hit without new berth approval — either caps FY30 revenue below ₹10,000 Cr and collapses the earnings math.
 
@@ -434,6 +483,9 @@ GRSE occupies the mid-tier of India's naval shipbuilding hierarchy: it builds fr
 - **Primary competitive threat:** Mazagon Dock could expand into GRSE's vessel segments if MoD consolidates shipbuilding. Probability: Low. Timeline: 10+ years given existing programme commitments.
 - **Key vulnerability:** Single customer (Indian Navy + Coast Guard = ~89%). Any MoD capital spending slowdown directly impacts revenue. 12-18 month execution cycles make revenue lumpy and Q4-heavy.
 - **Policy tailwind:** Atmanirbhar Bharat mandates 75% domestic defence procurement by FY27. New defence export target of $5B by FY29 includes naval vessels.
+- **Government shipbuilding incentives (per Q3 FY26 earnings call):** ₹69,725 Cr total government outlay across 3 schemes — Shipbuilding Financial Assistance (15-30% construction subsidy, ₹24,736 Cr), Maritime Development Fund (₹25,000 Cr), and Maritime cluster development (₹19,989 Cr, up to 50% greenfield subsidy). Directly benefits GRSE's Gujarat greenfield expansion.
+- **Margin mix shift:** Management stated the era of low-margin "sustenance" orders is over (per Q3 FY26 earnings call) — future orders expected to carry better margins. However, management declined to provide specific EBITDA margin guidance.
+- **Competitive field expanding:** CMD acknowledged "the field has expanded" beyond traditional PSU yards — MDL, GSL, Cochin, HSL, L&T, Swan Defence, Shoft, Chowgule, Titagarh now competing, particularly on non-defence orders (per Q3 FY26 earnings call).
 
 ---
 
@@ -448,6 +500,7 @@ GRSE occupies the mid-tier of India's naval shipbuilding hierarchy: it builds fr
 | Failure to win export orders | Medium | Low-Medium | Base case does not depend on exports; stock fairly valued on domestic execution |
 | Valuation de-rating if growth decelerates below 20% | High | High | At 38x P/E, any miss compresses multiple sharply; margin of safety is thin |
 | Capacity ceiling hit without berth expansion | Medium | High | Revenue stalls at ₹8,000-9,000 Cr/yr; growth thesis breaks |
+| FY28 revenue gap (P-17A ends, NGC starts late) | Medium | Medium | 2-3 quarter growth plateau; market may de-rate temporarily. Spares + other deliveries partially cushion (per Q3 FY26 earnings call) |
 
 ---
 
@@ -482,6 +535,78 @@ GRSE occupies the mid-tier of India's naval shipbuilding hierarchy: it builds fr
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/GRSE.md`*
+
+### 2026-03-28 — Q3 FY26 Earnings Call Deep Dive (12 Feb 2026)
+
+**Source:** BSE filing `20260217_Earnings_Call_Transcript...pdf`. Full transcript cross-referenced against 10-question standard framework.
+
+**Key Numbers:**
+- Q3 FY26 revenue: ₹1,896 Cr (+49% YoY vs ₹1,271 Cr Q3 FY25)
+- 9M FY26 revenue: ₹4,883 Cr (already approaching full FY25 of ₹5,076 Cr)
+- Q3 PAT: ₹171 Cr (+74% YoY)
+- Order book (31 Dec 2025): ₹18,482 Cr across 10 projects / 42 platforms — first time below ₹20,000 Cr
+- FY26-end target: ~₹50,000 Cr (including NGC ₹33,000 Cr expected by March 2026)
+- FY27-end target: ~₹70,000 Cr (if P-17 Bravo won, adding ~₹30,000 Cr)
+
+**Order Book Breakdown (31 Dec 2025, ₹18,482 Cr):**
+
+| Segment | Value (Cr) | % |
+|---------|-----------|---|
+| Defence (P-17A, SVL, ASW SWC, OPV) | 14,276 | 77% |
+| Non-defence (research vessels, WB ferries) | 897 | 5% |
+| Export (Bangladesh dredger, German MPVs) | 1,481 | 8% |
+| Other (DEP, naval guns, ship repair, bridges) | ~1,828 | 10% |
+
+*(Merged into: Key Operating Metrics)*
+
+**Upcoming Pipeline (AON accorded, RFPs expected 12-18 months):**
+
+| Project | Est. Value (Cr) | GRSE Probability |
+|---------|----------------|-----------------|
+| P-17 Bravo (7 frigates) | ~70,000 | High — CMD's #1 KRA; design + OEM knowledge from P-17A |
+| LPD (Landing Platform Dock) | ~35,000 | Medium — MOU with HSL, needs design partner |
+| Mine Counter Measure Vessels (12 ships) | ~32,000 | Medium — competitive bid |
+| Non-defence (PSVs, MR tankers, VLGCs) | ~1,00,000+ | Low (15% win rate) |
+
+*(Merged into: Outlook section)*
+
+**Capacity Expansion Roadmap:**
+- Concurrent construction: 24 platforms (2023) → 28 (current) → 32 (end CY2026) → 35-36 (brownfield Kolkata)
+- Gujarat greenfield (Kandla + Bhavnagar): DPR stage, consultant engaged. Target: 12 large-size vessels (300m class) in 3-5 years.
+- PPP outsourcing model proven: 5 of 7 platforms successfully outsourced to private yards. Being scaled.
+- Hiring 150 executives from top institutions — execution scaling signal.
+*(Merged into: Outlook section)*
+
+**Government Shipbuilding Incentives (NEW — not previously in thesis):**
+- ₹69,725 Cr total government outlay across 3 schemes:
+  - Shipbuilding Financial Assistance: 15-30% construction subsidy (₹24,736 Cr)
+  - Maritime Development Fund: ₹25,000 Cr
+  - Maritime cluster development: ₹19,989 Cr (up to 50% greenfield subsidy)
+- Directly benefits GRSE's Gujarat greenfield expansion.
+*(Merged into: Competitive Landscape)*
+
+**New Adjacencies:**
+- **30mm Naval Surface Guns:** 17 ordered by Navy, 4 installed. Coast Guard discussing 49 more. Export rights secured from foreign partner. No domestic competition. "Healthy margins." Completion mid-2027. High-margin niche. *(Merged into: Business Summary)*
+- **Ship repair:** Revenue crossed 1% of total — high-margin adjacency growing. *(Merged into: Business Summary)*
+- **207 commercial platforms aggregated by government (ONGC etc.):** Conservative value ₹1L Cr+. GRSE targeting 15% share. Two tenders and one EOI live.
+
+**Thesis Confirmations:**
+- Revenue trajectory validates 25%+ CAGR (Q3: 49% YoY, 9M nearly matching full FY25)
+- NGC win (₹33,000 Cr) takes FY26-end book to ~₹50,000 Cr = 7-8x revenue (far above our 4x minimum)
+- Capacity expansion actively underway (brownfield + greenfield + PPP outsourcing)
+- Negative working capital model confirmed (stage payments from Navy)
+- Margins: management says era of low-margin "sustenance" orders is over
+- Export traction: German MPV expanded from 4→8→12 ships; European customers approaching
+
+**Thesis Challenges:**
+1. **FY28 revenue gap risk:** Management called FY27 a "peak year" (P-17A final deliveries). NGC revenue starts Q4 FY28. Potential 2-3 quarter growth plateau in FY28. Spares revenue (10-15% of project cost post-delivery) expected to cushion but not fully fill the gap. *(Added to: Key Monitorables #6, Risks table)*
+2. **P-17 Bravo not yet secured:** RFP expected April 2026, contract Feb-Mar 2027. CMD called it "will keep the company moving for another 10 years." Losing it to MDL materially changes trajectory.
+3. **Competitive field expanding:** CMD acknowledged "the field has expanded" — MDL, GSL, Cochin, HSL, L&T, Swan Defence, Shoft, Chowgule, Titagarh. MOAT 4/5 may warrant slight downgrade for non-defence orders. *(Noted in: Competitive Landscape)*
+4. **No specific EBITDA margin guidance:** Management dodged margin questions ("I don't like to discuss margins"). Our 8-10% OPM assumption remains unconfirmed.
+
+**Valuation Impact:** Quality score 17/25 and WATCHLIST status unchanged. Growth Runway arguably 4.5/5 given NGC + pipeline clarity. Base case strengthened materially — NGC is a step-change event extending order book visibility to 7-8x revenue.
+
+---
 
 ### 2026-03-28 — DCIL fleet expansion (GRSE as shipyard partner)
 
@@ -553,45 +678,3 @@ GRSE occupies the mid-tier of India's naval shipbuilding hierarchy: it builds fr
 | v2 (current) | 2026-03-22 | Full framework rewrite — new template with Summary Verdict, Kill Filter, Compounding Engine Q&A, DCF math | This file |
 | v1 | Pre-2026-03-22 | Original thesis | [archive/GRSE_v1.md](archive/GRSE_v1.md) |
 
----
-
-## 🆕 NGC Catalyst & Revised Outlook (March 2026)
-
-### Order Book Update (Q3 FY26)
-- **Current order book:** ₹18,482 Cr as of Dec 31, 2025
-  - Declined from ₹22,000–25,000 Cr due to **strong execution, not demand weakness**
-- **Q2 FY26 revenue:** +45% YoY — execution accelerating
-- **FY26 revenue growth guidance:** 30%
-
-### NGC Contract — Binary Catalyst
-| Item | Detail |
-|---|---|
-| Contract | Next Generation Corvette (NGC) — 5 ships |
-| Value | ~₹33,000 Cr |
-| Status | Price negotiations COMPLETED (Q3 FY26) |
-| Expected signing | End of FY26 (March 31, 2026) |
-| If signed | Order book → ~₹51,000 Cr (largest in GRSE history) |
-| If delayed | Near-term pressure continues into FY27 |
-
-> **This is a binary event.** NGC signing = massive re-rating. Delay = continued weakness.
-
-### Export Progress
-- Dredger for Bangladesh: delivered ✓
-- German client: 12 multipurpose vessels (expanded from initial 4)
-- Export = ~5% of order book — first Indian shipyard with meaningful export track record
-
-### Analyst Targets (Jan 2026)
-| Broker | Rating | Target |
-|---|---|---|
-| Antique Stock Broking | BUY | ₹3,026 (42x FY28E) |
-| ICICI Direct | HOLD | ₹2,950 |
-| Implied upside from ₹2,136 | | **38–40%** |
-
-### Revised Valuation
-- Previous ₹1,800–2,000 buy zone was pre-NGC
-- With NGC negotiations complete, **₹2,136 is not obviously expensive**
-- Risk/reward: Downside ₹1,800 (–16%) vs Upside ₹3,000 (+40%)
-- Base DCF ₹2,459 unchanged; NGC adds optionality
-
-### Revised Action
-**₹2,136 justifiable as a starter/tracking position** given NGC catalyst pending. Full position on NGC confirmation or correction to ₹1,900–2,000.

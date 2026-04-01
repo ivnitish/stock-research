@@ -2,7 +2,17 @@
 
 **Status:** OWNED (150 shares, ₹55.3K invested, ~4% of portfolio)
 **Quality Score:** 17/25 (Grade B — Core Holding)
+**Classification:** Multi-Bagger Candidate (Quality B + Base case ₹530, +42% upside, ~24% CAGR over 5yr)
 **Last Updated:** 2026-03-22 | **CMP:** ₹373 | **Entry:** ₹368.75 | **P&L:** +1.2%
+**Data Source:** Screener.in (consolidated), Q3 FY26 concall
+
+> **Recommendation:** HOLD / ADD below ₹350. Raymond is a post-demerger pure-play precision
+> engineering company with aerospace revenue growing 34-49% YoY, locked into the LEAP/GTF
+> engine supercycle with 65% market share per part and a ₹6,500 Cr+ order book (2.5-3x revenue).
+> At ₹373 (~7.5x EV/EBITDA vs aerospace pure-play peers at 35-50x), the market implies only
+> 5-6% growth versus our 10-15% estimate; base case DCF yields ₹530 (+42%).
+> Key condition: AP plant must achieve commercial production by May 2027 to unlock the margin
+> expansion and capacity doubling that drives the re-rating thesis.
 
 ---
 
@@ -19,6 +29,41 @@
 | **Total** | **17/25** | **Grade B — Core Holding** |
 
 **Overall Multi-Bagger Probability: Medium-High** — Aerospace compounding engine is strong with 8-12 year runway, but auto segment dilutes the blended story. Re-rating depends on aerospace reaching 30%+ of revenue.
+
+### Why this business?
+
+Raymond is a hidden aerospace compounder buried inside an auto components wrapper. After two demergers stripped away textiles and real estate, what remains is a precision engineering company where the high-value segment — aero-engine components for GE, Pratt & Whitney, Safran, and Rolls-Royce — is growing at 34-49% YoY but still represents only 18% of revenue. The market values the entire entity at 7.5x EV/EBITDA, roughly what you would pay for a cyclical auto parts maker, because aerospace is not yet large enough to dominate the P&L. But the LEAP and GTF engine programs that Raymond supplies are in a 15-20 year production supercycle — Boeing and Airbus have public order backlogs stretching to the 2030s — and Raymond holds 65% market share on more than half the parts it supplies, protected by 3-5 year Tier-1 certification barriers that make mid-production switching practically impossible. The ₹930 Cr AP plant (May 2027) doubles aerospace capacity, and when aerospace scales from 18% to 30%+ of revenue, the blended multiple should re-rate toward the 15-20x range that pure-play aerospace peers command. The bet is that the market will eventually see what is obvious in the segment data: a 20%+ ROCE aerospace business growing at 30%+ is worth far more than auto-component multiples.
+
+### Strengths
+
+- **Aerospace locked into a structural supercycle.** LEAP/GTF engines power every new A320neo and 737 MAX. Boeing at 42/month vs pre-COVID 52 means 24% volume recovery hasn't even happened yet. Raymond's order book at ₹6,500 Cr+ (2.5-3x revenue) provides multi-year visibility, and "more than one new FAI every day" means the part count keeps growing.
+- **Certification moat creates sticky, expanding relationships.** Once qualified as Tier-1 supplier on a specific part, the switching cost is 12-24 months of re-certification — OEMs cannot practically switch mid-production. Market share moves from 35% (trial) to 65% (proven) and stays there for the engine's 20-30 year production life. Over 50% of LEAP parts are already at 65% share.
+- **Materials fully pass-through eliminates commodity risk.** Unlike most industrial companies, all Raymond aerospace contracts pass through raw material costs (specialty alloys like Inconel, titanium). Confirmed on Q3 FY26 concall. Margin risk comes from operational execution, not input prices.
+- **Net cash position funds growth without dilution.** ₹214 Cr net cash despite ₹200 Cr/year capex. The AP plant is partially funded by ₹380 Cr in AP government incentives. No equity raise needed.
+- **Auto segment provides stable cash flow while aerospace scales.** JKMPTL at 72% of revenue with expanding margins (10.4% to 13.7% in Q3 FY26, driven by operating leverage and SAP HANA rollout) funds the aerospace investment without straining the balance sheet.
+
+### Concerns
+
+- **Aerospace is still only 18% of revenue — the re-rating is a bet on mix shift.** Until aerospace reaches 30%+ of revenue, the blended financials will screen as a mediocre auto components company. This could take until FY28-29, requiring patience through quarters where the headline numbers don't excite.
+- **AP plant execution risk is real and concentrated.** ₹930 Cr committed to a single greenfield plant with May 2027 target. A 6-12 month delay doesn't kill the thesis but stalls the margin expansion (7-9% unit cost reduction) and capacity doubling that the base case depends on. Construction risk in India is non-trivial.
+- **Customer concentration in aerospace.** Safran at an estimated 35-40% of aerospace revenue creates single-customer dependency. While long-term contracts and switching costs protect the relationship, any Safran-specific production issue disproportionately impacts Raymond.
+- **Demerger noise makes the stock uninvestable for quant screens.** FY22-FY25 P&L includes ₹9,400+ Cr of demerger gains, making every standard metric (P/E, ROE, margin trends) meaningless. Clean data starts only from Q2 FY26. Institutional discovery requires 2-3 quarters of clean results.
+
+### The Compounding Equation
+
+Raymond's compounding math works differently from a typical high-margin business. Current consolidated ROIC sits at roughly 13% — unremarkable on paper — but this blended number hides two very different engines. The auto segment (JKMPTL) earns 10-14% ROIC and serves primarily as a cash flow generator. The aerospace segment (JKMGAL), still in its investment phase, is on a trajectory toward 20-25% ROIC once the AP plant delivers its 7-9% unit cost advantage and volumes double.
+
+The reinvestment rate is approximately 55% (₹200 Cr capex on ₹360 Cr annualized EBITDA), which at current blended ROIC of 13% produces only 7% organic growth — below the 10-15% we estimate. The gap is filled by operating leverage: as aerospace scales on fixed-cost infrastructure (existing plants + AP greenfield), each incremental rupee of revenue drops through at higher margins. This is why the compounding accelerates over time rather than running at a steady rate. The sustainable growth formula (g = reinvestment rate x ROIC) moves from 7% today to 11%+ as ROIC climbs to 20% at scale, with the physical capacity already funded and under construction.
+
+The fuel is tangible and visible: current aerospace capacity supports roughly ₹500 Cr revenue at full utilization; the AP plant doubles that ceiling to ₹1,000 Cr+, against current aerospace revenue of ₹364 Cr annualized. There is 3x physical headroom before the next capacity investment is needed. Meanwhile, the LEAP/GTF production ramp (15-20% annual growth in engine deliveries) and part count expansion (300-350 parts, growing daily) provide demand that is contractually committed, not speculative.
+
+### What does the market think — and where do I disagree?
+
+At ₹373 (implied P/E ~13x on clean engineering earnings of ₹190 Cr), a reverse DCF with r=13%, n=8 years, and terminal multiple 15x shows the market implies approximately 5-6% PAT growth. This is barely above inflation and well below the 13-18% consolidated revenue growth already visible in 9M FY26 data. The market is pricing Raymond as if aerospace growth will stall, the AP plant won't deliver, and auto margins will revert — essentially, nothing goes right from here.
+
+I estimate 10-15% PAT CAGR on a blended basis, anchored by 22%+ aerospace revenue growth (conservative versus the current 34-49% run rate) and 12% auto growth. The 4-9 percentage point gap between implied growth (5-6%) and estimated growth (10-15%), compounded over 8 years, is where the returns come from. In base case, this produces ₹530/share (+42%). The additional re-rating catalyst — as aerospace grows from 18% to 30%+ of revenue and the blended EV/EBITDA moves from 7.5x toward 15-18x — is not in the base case math but represents significant optionality.
+
+Why is the market wrong? Three factors suppress the multiple: (1) demerger noise makes FY22-FY25 financials unreadable on any screen — clean data only starts Q2 FY26; (2) aerospace at 18% of revenue doesn't yet dominate the P&L, so the stock screens as an auto components maker; (3) at ₹2,483 Cr market cap, Raymond falls below most institutional radar despite having larger revenue than "pure-play" peers trading at 35-50x EV/EBITDA.
 
 ---
 
@@ -37,6 +82,7 @@ A new aviation downturn (Boeing production halt, macro recession) cuts aerospace
 3. **Auto EBITDA margin (clean):** Sustain 11.5%+ in FY26; >13% validates synergy story. Strip one-time items (₹13 Cr land gain Q2) — Source: concall
 4. **AP plant construction:** Target May 2027 commercial production. Any delay >3 months = note; cancellation = exit trigger — Source: concall/BSE
 5. **Boeing 737 MAX production rate:** Currently ~42/month; pre-COVID ~52. Every +5/month = meaningful direct volume for LEAP-1B parts — Source: Boeing public data
+6. **Value unlock / listing timeline:** Management called it "premature" in Q3 FY26 concall. Two prerequisites: (a) AP plant cost advantages realized, (b) U.S. tariff uncertainty stabilizes. No near-term demerger/listing catalyst — patient capital required — Source: Q3 FY26 concall
 
 ### Data Gaps
 
@@ -48,23 +94,9 @@ A new aviation downturn (Boeing production halt, macro recession) cuts aerospace
 
 ---
 
-## Quick Summary
-
-**One-line thesis:** Raymond Engineering is a pure-play precision engineering company — aerospace (49% YoY growth, locked into LEAP/GTF programs with 65% market share per part) and auto components (margins expanding 10.4% → 13.7%) — trading at ~7.5x EV/EBITDA vs aerospace pure-play peers at 35-50x, with ₹930 Cr committed capacity expansion and a ₹6,500 Cr+ order book providing 2.5-3x revenue visibility.
-
-**Action:** HOLD — ADD below ₹350
-
-| Level | Price | Trigger |
-|-------|-------|---------|
-| Add | ₹330–₹360 | On dip; thesis intact; re-rating toward aerospace peers still ahead |
-| Hold | ₹360–₹450 | Let AP plant come online (May 2027); let Q4 FY26 confirm run rate |
-| Exit | >₹550 or thesis break | Re-rating complete, or aerospace growth <20% for 2 quarters |
-
----
-
 ## 1. Business Summary
 
-Raymond Ltd (post two demergers) is a pure-play precision engineering company operating through two subsidiaries: JK Maini Global Aerospace (JKMGAL, ~18% of Q3 FY26 revenue) manufacturing aero-engine components for GE, P&W, Safran, and Rolls-Royce; and JK Maini Precision Technology (JKMPTL, ~72% of revenue) in auto components, EV parts, and steel files. Two demergers completed — Raymond Lifestyle (FY24, textiles/apparel) and Raymond Realty (May 2025, Thane land bank) — leaving a clean engineering entity. The company has a ₹6,500 Cr+ order book (2.5-3x current revenue), is investing ₹930 Cr in an Andhra Pradesh plant to double aerospace capacity by May 2027, and sits inside the LEAP/GTF engine supercycle with 15-20% annual production growth.
+Raymond Ltd (post two demergers) is a pure-play precision engineering company operating through two subsidiaries: JK Maini Global Aerospace (JKMGAL, ~18% of Q3 FY26 revenue) manufacturing aero-engine components for GE, P&W, Safran, and Rolls-Royce; and JK Maini Precision Technology (JKMPTL, ~72% of revenue) in auto components, EV parts, and steel files. Two demergers completed — Raymond Lifestyle (FY24, textiles/apparel) and Raymond Realty (May 2025, Thane land bank) — leaving a clean engineering entity. The company has a ₹6,500 Cr+ order book (2.5-3x current revenue), is investing ~₹1,000 Cr (₹500 Cr aero + ₹430 Cr auto + shared infra) in an Andhra Pradesh plant to double aerospace capacity by May 2027, and sits inside the LEAP/GTF engine supercycle with 15-20% annual production growth. A new Sinnar plant was built in January 2026 and is now filling up, serving as a near-term capacity bridge before the AP plant comes online (per Q3 FY26 concall).
 
 **Structure — What RAYMOND.NS is today:**
 
@@ -129,7 +161,7 @@ improves → ROIC trajectory to 20-25%
 
 **Auto (JKMPTL) — improving but not structural:**
 
-ROIC likely 10-14%. The 330bps margin improvement in Q3 FY26 is real (operating leverage, SAP HANA, synergies) but auto components does not have the certification moat. Auto provides cash flow to fund aerospace — it is the financial engine, not the compounding engine.
+ROIC likely 10-14%. The 330bps margin improvement in Q3 FY26 is real (operating leverage + SAP HANA rollout now confirmed "coming into play" per Q3 FY26 concall, synergies) but auto components does not have the certification moat. Auto provides cash flow to fund aerospace — it is the financial engine, not the compounding engine.
 
 **Honest check:** If aerospace ROIC stays below 15% by FY28 (post-AP plant ramp), the compounding thesis breaks because it means either (a) margins didn't expand as guided, or (b) capital intensity is higher than estimated.
 
@@ -151,9 +183,9 @@ Reinvestment Rate ≈ 55%
 | LEAP-1A (A320neo) | 10-15% annual production growth |
 | LEAP-1B (737 MAX, 100% LEAP-1B) | 15-20% annual production growth |
 | Market share per part | >50% of parts at 65% share; remaining ~50% still at 35% → multi-year gain |
-| Part count expansion | 300-350 parts on LEAP; 0.1-0.3% of engine cost; 15 engine programs |
+| Part count expansion | 300-350 parts on LEAP; kit value ~$35K/aircraft = 0.2-0.3% of engine cost (per Q3 FY26 concall); 15+ engine programs across 25 OEM relationships |
 | China+1 sourcing | European/US OEMs actively diversifying from China; India positioned |
-| AP plant capacity | ₹930 Cr investment; doubles capacity; commercial production May 2027 |
+| AP plant capacity | ~₹1,000 Cr investment (₹500 Cr aero + ₹430 Cr auto + shared infra, per Q3 FY26 concall); doubles capacity; commercial production May 2027 |
 
 **Runway estimate: 8-12 years.** The constraining variable is qualification pipeline (being addressed daily) and AP plant capacity (funded, under construction). Demand is not the constraint.
 
@@ -336,8 +368,9 @@ Raymond has a ₹6,500 Cr+ order book representing 2.5-3x current annualized eng
 | Order book | ₹6,500 Cr+ (confirmed Q3 FY26 concall) | Revenue visibility 2.5-3x |
 | Aerospace run rate | ₹364 Cr annualized (9M FY26) at 30%+ CAGR | ₹650-800 Cr |
 | AP plant capacity | Doubles current aerospace capacity, May 2027 | Removes capacity bottleneck |
-| Aerospace OPM | 20.9% (9M FY26), guided 23-25% at scale | 20-23% EBITDA margin |
-| Auto run rate | ₹1,633 Cr annualized at 12%+ CAGR | ₹1,900-2,100 Cr |
+| Aerospace OPM | 20.9% (9M FY26), long-run guidance 23-25% at scale (per Q3 FY26 concall) | 20-23% EBITDA margin |
+| Auto run rate | ₹1,633 Cr annualized at 12%+ CAGR; management guides auto margin >15% (per Q3 FY26 concall) | ₹1,900-2,100 Cr |
+| LEAP-1C (COMAC C919) | New engine program being introduced (per Q3 FY26 concall) | Adds China market vector |
 
 **Base Fair Value (FY28):**
 - Aerospace EBITDA: ₹700 Cr × 22% = ₹154 Cr
@@ -479,7 +512,7 @@ Raymond Engineering operates in two distinct competitive arenas. In aerospace (J
 
 ### Structural Advantages vs Peers
 
-1. **Tier-1 OEM certification (Aerospace):** 3-5 year qualification cycle per part per engine → switching cost is 12-24 months re-certification. Once at 65% market share on a part, competitors are locked out for the engine's production life (20-30 years). Quantified: 20.9% EBITDA margin vs auto components at 12.7%.
+1. **Tier-1 OEM certification (Aerospace):** 3-5 year qualification cycle per part per engine → switching cost is 12-24 months re-certification. Once at 65% market share on a part, competitors are locked out for the engine's production life (20-30 years). Current kit value ~$35,000 per aircraft (0.2-0.3% of engine cost), growing quarterly as new parts are added (per Q3 FY26 concall) — massive expansion runway from a low base. Quantified: 20.9% EBITDA margin vs auto components at 12.7%.
 
 2. **Dual-vertical cost synergies:** JKMPTL (auto) and JKMGAL (aerospace) share manufacturing infrastructure, SAP HANA systems, and management bandwidth. Auto cash flow funds aerospace investment. No pure-play aerospace peer has this cost base.
 
@@ -524,7 +557,9 @@ Raymond Engineering operates in two distinct competitive arenas. In aerospace (J
 | Pratt & Whitney (RTX) | Aerospace OEM | Significant | Strategic long-term supply agreement |
 | Airbus (indirect via tier-1s) | Aerospace | Undisclosed | Component supply chain |
 | HAL | Defence/aerospace PSU | Undisclosed | India defence supply |
-| Automotive OEMs (via Ring Plus Aqua) | Automotive | Undisclosed | Ring gears, flex plates, bearings |
+| Automotive OEMs (via Ring Plus Aqua) | Automotive | Undisclosed | Ring gears, flex plates, bearings; 60% exports (Europe ~30%, U.S. ~10%) per Q3 FY26 concall |
+
+**OEM relationships:** 25 OEM relationships worldwide, 5-6 strategic engine-side partners across 15+ engine programs (per Q3 FY26 concall).
 
 **Concentration risk:** Safran = 35-40% of aerospace revenue — high single-customer concentration. Mitigated by long-term contractual structure and the impossibility of switching mid-production.
 
@@ -548,12 +583,12 @@ Raymond Engineering operates in two distinct competitive arenas. In aerospace (J
 | AP plant execution (delay + cost overrun) | Medium (20%) | Growth delayed, ₹930 Cr at risk | ₹380 Cr AP govt incentives offset; management operational track record |
 | Boeing/Airbus production volatility | Low-Medium | Revenue directly linked to production rates | Diversified across 15 engine programs; LEAP-1A + LEAP-1B + GTF |
 | Aerospace margin compression | Medium | Q3 FY26 at 18.6% vs 20.9% 9M | Management: development write-offs; serial production restores margins |
-| U.S. tariff / trade policy impact | Low-Medium | "Logistical complexities" per concall | Not a revenue loss yet; India positioned as tariff-beneficiary vs China |
+| U.S. tariff / trade policy impact | **Medium** | 21% of aerospace and 10% of auto revenue exposed to U.S.; causing "temporary scheduling delays" (per Q3 FY26 concall) | Not a revenue loss yet; India positioned as tariff-beneficiary vs China; but exposure is quantified and non-trivial |
 | Customer concentration (Safran ~35-40%) | Medium | Single-customer risk in aerospace | Long-term contracts + re-certification switching costs protect |
 | Auto segment cyclicality | Medium | 72% of revenue; auto cycle can turn | Q3 margin +330bps; GST 2.0 tailwind; but cyclical nature unchanged |
 | Inconel / raw material inflation | **Low** | Fully pass-through in all contracts | Confirmed on concall — industry standard practice |
 | Value unlocking / IPO timing | Low | Deferred until scale achieved | Patient capital required; management is disciplined |
-| Working capital for aerospace ramp | Low | Heavy raw material inventory (6-12 month lead times) | Financed via pre-shipment credit lines |
+| Working capital for aerospace ramp | Low | Heavy raw material inventory (6-12 month lead times); receivable days under 100 (per Q3 FY26 concall — first specific CFO disclosure) | Financed via pre-shipment credit lines; receivables under control |
 
 ---
 
@@ -577,6 +612,21 @@ Raymond Engineering operates in two distinct competitive arenas. In aerospace (J
   - Boeing 737 MAX monthly production data
   - FY27 guidance from management (May 2026 concall)
 
+### 9a. Concall Analysis Notes — Q3 FY26 (Jan 27, 2026)
+
+| Claim | Data Check | Assessment |
+|-------|-----------|------------|
+| "Growth absolutely sustainable" | ₹6,500 Cr order book = 2.5-3x revenue; 5-10 yr OEM contracts | ✓ Structurally credible |
+| "Aerospace margins going to 23-25%" | Currently 18-20%; AP plant gives 7-9% unit cost reduction; operating leverage ahead | ✓ Plausible, 3-5yr timeframe |
+| "Auto will break 15% barrier" | Currently 11.7% clean; +330bps in Q3 alone via operating leverage | ✓ Credible trajectory |
+| ">50% of parts at 65% market share" | Market share 35%→65% as quality proven; confirmed consistent with contract structure | ✓ Positive, unverifiable externally |
+| "Materials fully pass-through" | Aerospace industry standard; confirmed on call; eliminates Inconel/aluminum risk | ✓ Verified (industry practice) |
+| "Boeing at 42/month, room to pre-COVID ~52" | Boeing public production data; 737 MAX recovery ongoing | ✓ Factual — 24% upside from Boeing alone |
+| "LEAP-1B growing 15-20%" | Consistent with Boeing MAX ramp guidance; inline with CFM public statements | ✓ Credible |
+| "Order book 2.5-3x revenue" | Stated consistently across multiple quarters; ₹6,500 Cr vs ~₹2,200 Cr annualized | ✓ Consistent |
+
+**Yellow flag:** 9M EBITDA margins 110bps lower YoY. Management attributes to non-operating income reduction (one-time income present in FY25 not repeating). Operating EBITDA trajectory improving. If 14.5%+ consolidated margin not achieved in Q4 FY26, investigate further.
+
 ---
 
 ## 10. Decision History
@@ -591,6 +641,56 @@ Raymond Engineering operates in two distinct competitive arenas. In aerospace (J
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/RAYMOND.md`*
+
+### 2026-03-28 — Q3 FY26 Concall Deep Dive (standard 10-question framework)
+
+**Source:** BSE filings `20260127_CONCALL_Q3FY26_Transcript.pdf` and `20260202_Earnings_Call_Transcript...pdf` (identical content). Full transcript cross-referenced against 10-question standard framework.
+
+**Key Numbers (Q3 FY26):**
+
+| Metric | Q3 FY26 | YoY Change |
+|--------|---------|------------|
+| Consolidated Revenue | ₹580 Cr | +18% |
+| Consolidated EBITDA | ₹83 Cr (14.3% margin) | +100bps |
+| Aerospace Revenue | ₹105 Cr | **+49%** (first time >₹100 Cr/quarter) |
+| Aerospace EBITDA Margin | 18.6% | -120bps (dev costs expensed) |
+| Auto Revenue | ₹417 Cr | +15% |
+| Auto EBITDA Margin | 13.7% | **+330bps** |
+| Net Cash | ₹214 Cr | Maintained |
+| 9M Revenue | ₹1,699 Cr (+13% YoY) | |
+| 9M EBITDA Margin | 14.7% (-110bps YoY) | |
+
+**Thesis Confirmations:**
+1. **Aerospace crossed ₹100 Cr/quarter** — our monitorable #1 met. 49% YoY growth validates trajectory.
+2. **Auto margin expansion is structural** — 13.7% is clean (no land gain like Q2). Management: "will definitely break the 15% barrier." Driven by operating leverage + SAP HANA rollout (confirmed as real operational change per concall).
+3. **Net cash maintained** at ₹214 Cr despite ₹200 Cr/year capex. Self-funding thesis intact.
+4. **Order book at 2.5-3x aero revenue**, continuously growing. "More than one new FAI every day."
+5. **LEAP market share mechanics confirmed:** 35% → 65% progression, >50% of parts already at 65%. 300-350 part numbers for LEAP alone across 15+ engine programs, 25 OEM relationships.
+6. **Material costs fully pass-through** in all contracts. Not a margin risk.
+7. **Boeing at ~42/month** (vs pre-COVID ~52), LEAP-1B growing 15-20%.
+
+**Thesis Challenges:**
+1. **9M consolidated EBITDA margin declined 110bps YoY** (15.8% → 14.7%). Management attributed to "temporary reduction in non-operating income" — vague and unsatisfying. Monitor.
+2. **Aerospace Q3 margin dipped to 18.6%** from 9M 20.9%. Dev costs expensed. Long-run guidance 23-25% feels further away. AP plant cost advantages won't materialize until May 2027+.
+3. **Value unlocking timeline is "premature."** Jatin Khanna pushed back on listing either segment. Two prerequisites: (a) tariff uncertainty stabilizes, (b) AP plant cost advantages realized. No near-term demerger catalyst. *(Added to: Key Monitorables)*
+4. **U.S. tariff risk acknowledged:** 21% of aero and 10% of auto from U.S. Causing "temporary scheduling delays." *(Upgraded in: Risks table)*
+
+**New Data Points:**
+- **New Sinnar plant built in January 2026** — filling up now. Near-term capacity bridge before AP plant. *(Merged into: Business Summary)*
+- **Kit value per aircraft quantified:** ~0.2-0.3% of engine cost, ~$35,000 per aircraft. Growing quarterly as new parts added. Massive expansion potential. *(Merged into: Compounding Engine, Competitive Landscape)*
+- **LEAP-1C for COMAC C919** being introduced — new China market vector. *(Merged into: Outlook)*
+- **25 OEM relationships** worldwide, 5-6 strategic engine-side partners, 15+ engine programs. *(Merged into: Customer section)*
+- **Auto geo mix:** 60% exports. Europe 30%, U.S. 10%. *(Merged into: Customer section)*
+- **Receivable days under 100** — first specific disclosure by CFO. *(Merged into: Risks / working capital)*
+- **AP plant capex revised** to ~₹1,000 Cr (₹500 Cr aero + ₹430 Cr auto + shared infra). *(Updated across sections)*
+- **Long-run margin guidance:** Aero 23-25%, Auto >15% yearly. *(Merged into: Outlook)*
+- **INR 14 Cr exceptional item** = one-time labor code implementation cost, not recurring.
+
+**Sections updated:** Business Summary (Sinnar plant), Compounding Engine (SAP HANA, kit value), Outlook (LEAP-1C, margin guidance), Competitive Landscape (kit value context), Customer section (OEM count, auto geo mix), Key Monitorables (value unlock timeline), Risks (tariff upgraded, receivables).
+
+**Valuation Impact:** All key monitorables met. Score 17/25 unchanged. Value unlock timeline pushed out — patient capital required. Action: HOLD, BUY zone ₹300-360.
+
+---
 
 ### 2026-03-22 — Full framework rewrite (new template)
 - Restructured to match new `_TEMPLATE.md` format
@@ -616,23 +716,6 @@ Major revision. Raymond Realty demerged May 2025. RAYMOND.NS = pure engineering.
 
 ### 2026-03-12 — Initial Thesis
 150 shares at ₹368.75. Grade C, 11/25. Hold small. Missed demerger + aerospace angle.
-
----
-
-## Management Claims — Cross-Referenced (Q3 FY26 Concall, Jan 27, 2026)
-
-| Claim | Data Check | Assessment |
-|-------|-----------|------------|
-| "Growth absolutely sustainable" | ₹6,500 Cr order book = 2.5-3x revenue; 5-10 yr OEM contracts | ✓ Structurally credible |
-| "Aerospace margins going to 23-25%" | Currently 18-20%; AP plant gives 7-9% unit cost reduction; operating leverage ahead | ✓ Plausible, 3-5yr timeframe |
-| "Auto will break 15% barrier" | Currently 11.7% clean; +330bps in Q3 alone via operating leverage | ✓ Credible trajectory |
-| ">50% of parts at 65% market share" | Market share 35%→65% as quality proven; confirmed consistent with contract structure | ✓ Positive, unverifiable externally |
-| "Materials fully pass-through" | Aerospace industry standard; confirmed on call; eliminates Inconel/aluminum risk | ✓ Verified (industry practice) |
-| "Boeing at 42/month, room to pre-COVID ~52" | Boeing public production data; 737 MAX recovery ongoing | ✓ Factual — 24% upside from Boeing alone |
-| "LEAP-1B growing 15-20%" | Consistent with Boeing MAX ramp guidance; inline with CFM public statements | ✓ Credible |
-| "Order book 2.5-3x revenue" | Stated consistently across multiple quarters; ₹6,500 Cr vs ~₹2,200 Cr annualized | ✓ Consistent |
-
-**Yellow flag:** 9M EBITDA margins 110bps lower YoY. Management attributes to non-operating income reduction (one-time income present in FY25 not repeating). Operating EBITDA trajectory improving. If 14.5%+ consolidated margin not achieved in Q4 FY26, investigate further.
 
 ---
 
