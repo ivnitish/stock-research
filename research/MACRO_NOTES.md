@@ -135,6 +135,63 @@ The acute India-Pakistan crisis is **separate from the Iran war** but compounds 
 
 ---
 
+### 6. EPS, PE, and Fair Entry — All Portfolio Stocks
+
+*Estimates based on our research files, Screener data, and DCF models. "Fair PE" = what we'd pay for this quality/growth combination.*
+
+#### Indian Portfolio — EPS and PE Trajectory
+
+| Stock | CMP (₹) | TTM EPS (₹) | TTM PE | FY27E EPS (₹) | FY27 PE at CMP | FY28E EPS (₹) | FY28 PE at CMP | Fair PE Range | Fair Value (₹) | Upside |
+|-------|---------|-------------|--------|---------------|---------------|---------------|---------------|--------------|----------------|--------|
+| **EPACKPEB** | 139 | 8.20 | 16.9x | 10.50 | 13.2x | 13.50 | 10.3x | 18-22x | **234** (base DCF) | **+68%** |
+| **RAYMOND** | 351 | Distorted | ~13x clean | 28-32 | 11-12.5x | 35-40 | 8.8-10x | 15-20x | **530** (base DCF) | **+51%** |
+| **NESCO** | 1,049 | 58 | 18.1x | 68 | 15.4x | 80 | 13.1x | 18-22x | **1,430** (base DCF) | **+36%** |
+| **GRSE** | 2,338 | 60 | 38.9x | 75 | 31.2x | 90 | 26.0x | 22-30x | **2,459** (base DCF) | **+5%** |
+| **KERNEX** | 965 | 31.4 | 30.7x | 45 | 21.4x | 65 | 14.8x | 20-25x | **874** (base DCF) | **-9%** |
+| **NILE** | 1,405 | 170 | 8.2x | 180 | 7.8x | 190 | 7.4x | 8-10x | **TBD** | TBD |
+
+**How to read this:** FY27E/FY28E EPS are our estimates from each stock's research file DCF model. "PE at CMP" shows what you're paying for future earnings at today's price. If CMP PE < Fair PE, you're getting a discount.
+
+**Key takeaways:**
+- **EPACKPEB is the clearest buy** — 10.3x on FY28E earnings for a 22% ROCE business growing at 25%+. You're paying value stock multiples for a growth stock.
+- **RAYMOND is deeply undervalued** — once demerger noise clears (Q4 FY26), clean EPS of ₹28-32 at ₹351 = 11-12x. Aerospace alone justifies 20x.
+- **NESCO is fairly priced for now, cheap for Tower 2** — 15x on FY27E is reasonable, but Tower 2 (FY29-30) creates a step-function that isn't priced in.
+- **GRSE is expensive** — even on FY28E, you're paying 26x for a PSU with 8% OPM. The 37% ROCE is real but already priced.
+- **KERNEX is above fair value** — at ₹965, CMP exceeds our base DCF of ₹874. The order book is extraordinary but execution is unproven.
+
+#### EPS Growth Estimates (CAGR)
+
+| Stock | FY25 EPS (₹) | FY28E EPS (₹) | 3Y EPS CAGR | Confidence | Key Driver |
+|-------|-------------|---------------|-------------|------------|------------|
+| EPACKPEB | 5.90 | 13.50 | **31%** | Medium-High | Capacity 170K→220K MTPA, PEB penetration 15%→20% |
+| RAYMOND | ~19 (clean) | 35-40 | **25-28%** | Medium | Aerospace 34-49% growth, AP plant May 2027, mix shift |
+| NESCO | 50 | 80 | **17%** | High | Rent escalations + Foods growth; Tower 2 post-FY29 |
+| GRSE | 46 | 90 | **25%** | Medium-High | Order book execution, NGC contract, capacity expansion |
+| KERNEX | ~8 (normalised) | 65 | **100%+** | Low-Medium | First profitable year FY25; execution at scale unproven |
+
+*Confidence reflects our certainty in the EPS estimate, not the business quality.*
+
+#### US Portfolio — EPS and PE Trajectory
+
+| Stock | CMP ($) | TTM EPS ($) | TTM PE | FY28E EPS ($) | FY28 PE at CMP | Fair PE | Fair Value ($) | Upside |
+|-------|---------|------------|--------|--------------|---------------|---------|---------------|--------|
+| **MSFT** | 370 | 16.05 | 23.1x | 21.50 | 17.2x | 25-28x | **555** (3yr base) | **+50%** |
+
+#### Where to Deploy Capital Right Now (April 2026)
+
+Given the Iran war oil shock, Nifty oversold at RSI 30, and stock-specific valuations:
+
+| Priority | Stock | Action | Price Target | Why Now |
+|----------|-------|--------|-------------|---------|
+| **1** | EPACKPEB | **BUY** | ₹130-145 | Near bear DCF. FY28 PE of 10x for 31% EPS CAGR. Oil impact temporary. |
+| **2** | RAYMOND | **BUY** | ₹340-370 | At ADD trigger. Demerger noise creates window. Aerospace oil-immune. |
+| **3** | MSFT | **BUY** | $340-370 | Cheapest in decade. 17x on FY28. Iran war dragging all markets. |
+| **4** | NESCO | **ACCUMULATE** | ₹950-1,100 | In buy zone. Land value floor = 2-3x market cap. Patient capital. |
+| **5** | GRSE | **WAIT** | ₹1,800-2,000 | No margin of safety at 39x PE. If Iran war drags markets lower, could hit buy zone. |
+| **6** | KERNEX | **WAIT** | Below ₹750 | Above base DCF. Needs FY26 results (May) to validate execution. |
+
+---
+
 ### Sources
 
 - [2026 Iran War — Wikipedia](https://en.wikipedia.org/wiki/2026_Iran_war)

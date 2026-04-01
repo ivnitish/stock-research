@@ -6,12 +6,37 @@
 **Last Updated:** 2026-04-01 | **CMP:** $370 | **Market Cap:** $2.75T | **Shares:** 7.43B
 **Data Source:** Microsoft IR, SEC 10-K, Yahoo Finance, MacroTrends, Analyst Reports
 
-> **Recommendation:** WATCHLIST at $370. Microsoft is a Grade A business trading at its cheapest
-> valuation in a decade (~22x trailing earnings) due to investor anxiety over $146B in annual AI
-> capex and a muddled OpenAI relationship. The core bet: Azure's 38% constant-currency growth
-> and AI infrastructure buildout will generate returns well above cost of capital by FY2028,
-> and the current PE compression is a buying opportunity for patient capital. Watch Q3 FY2026
-> earnings (April 28) for Azure growth trajectory and capex ROI signals.
+> **Recommendation:** BUY at $340-370. Microsoft is a Grade A business trading at its cheapest
+> valuation in a decade (~23x trailing earnings) due to investor anxiety over $146B in annual AI
+> capex and a muddled OpenAI relationship. Base case fair value: **$555 (+50%)** in 3 years,
+> **$775 (2.1x)** in 5 years. At $370, the market implies only 9% growth vs our 14% estimate —
+> a 5pp margin of safety on a business with 22% ROIC and $72B FCF. This is a core position
+> candidate for patient capital.
+
+### How to Enter — Position Sizing and Price Levels
+
+| Level | Price Range | Action | Position Size (of US portfolio) |
+|-------|------------|--------|-------------------------------|
+| **Strong Buy** | Below $340 | Full position in 1-2 tranches | 8-10% |
+| **Buy** | $340-370 | Build 60-70% position, leave room for add | 5-7% |
+| **Accumulate** | $370-420 | Small starter, add on dips | 3-5% |
+| **Hold** | $420-550 | Don't add, let it compound | Hold existing |
+| **Trim** | $550+ | Take 20-30% off, redeploy | Reduce to 5% |
+
+**At current $370:** This is a **Buy** — build a meaningful position. The April 6 Iran deadline and April 28 Q3 earnings are both potential catalysts. If oil shock pushes markets lower and MSFT drops to $340, add aggressively.
+
+**EPS and PE trajectory:**
+
+| Year | Est. Revenue ($B) | Est. EPS ($) | PE at $370 | PE at Fair Value |
+|------|-------------------|-------------|-----------|-----------------|
+| FY25 (Jun 2025) | $264 | $13.40 | 27.6x | — |
+| FY26E (Jun 2026) | $310 | $16.05 | 23.1x | — |
+| FY27E (Jun 2027) | $355 | $18.50 | 20.0x | 25x = $463 |
+| FY28E (Jun 2028) | $400 | $21.50 | 17.2x | 25x = $538 |
+| FY29E (Jun 2029) | $450 | $24.80 | 14.9x | 25x = $620 |
+| FY31E (Jun 2031) | $560 | $31.00 | 11.9x | 25x = $775 |
+
+At $370 today, you're buying FY28 earnings at 17x and FY29 at 15x — that's value investor territory for a 20/25 quality business growing at 14-15%.
 
 ---
 
