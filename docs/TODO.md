@@ -1,5 +1,12 @@
 # Research System — TODO
-*Last updated: 2026-03-28*
+*Last updated: 2026-04-02*
+
+---
+
+## Completed — 2026-04-02
+
+- [x] **ITC Limited full investment thesis** — Complete analysis with SOTP valuation, post-hotel-demerger assessment, Budget 2026 excise hike impact analysis. Quality Score 19/25 (Grade B), Classification: Quality Compounder. SOTP fair value ₹280-329/share vs CMP ₹293. Recommendation: WATCHLIST, accumulate below ₹270. Key insight: 36.8% ROCE + 3% 10-year stock CAGR = classic value trap, but post-demerger structural improvement may narrow conglomerate discount.
+- [x] **NILE Limited full research upgrade** — Upgraded initial screening to complete investment thesis. Key findings: 80-90% customer concentration in Amara Raja (existential risk), Amara Raja backward-integrating with own 150,000 MTPA recycling plant, Grade C quality (10/25), probability-weighted fair value ₹977 vs CMP ₹1,525 — overvalued. Recommendation: AVOID new position, watchlist only.
 
 ---
 
@@ -53,7 +60,7 @@
 - [ ] **KCP Limited** — AGM transcript analysed (2026-03-25). Cement + heavy engg + Vietnam sugar. Rs 978 Cr cash, 75 acres Chennai land, subsidiary for monetization. Interesting value play — needs Screener data for full thesis.
 - [ ] **GRAB (US: GRAB)** — Southeast Asia super-app (ride-hailing, food delivery, fintech). Full thesis using new v3 template.
 - [ ] **aThos Life Sciences (US: LIFE)** — Full thesis using new v3 template.
-- [ ] **Microsoft (US: MSFT)** — Full thesis using new v3 template. AI/cloud compounder, valuation check at current levels.
+- [x] ~~**Microsoft (US: MSFT)**~~ — DONE (2026-04-01). Quality Compounder, 20/25 Grade A, $370 CMP at 23x PE (decade low). Base case 2.1x in 5 years. Watchlist — waiting for Q3 FY26 confirmation.
 - [ ] **DCIL (Dredging Corp of India)** — 50-year company, ₹1,146 Cr revenue (highest ever), ₹1,400 Cr order book, targeting ₹3,000 Cr. GRSE is shipyard partner. PSU dredging monopoly (80% of India's maintenance dredging).
 
 ## SECTOR THESIS — NUCLEAR POWER INDIA
