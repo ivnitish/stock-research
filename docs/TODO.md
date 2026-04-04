@@ -58,8 +58,8 @@
 - [ ] Real US positions thesis — RGTI, OKLO, ACHR etc. (all in loss, speculative)
 - [ ] STLTECH watch trigger — only revisit if DGTR anti-dumping duty granted
 - [ ] **KCP Limited** — AGM transcript analysed (2026-03-25). Cement + heavy engg + Vietnam sugar. Rs 978 Cr cash, 75 acres Chennai land, subsidiary for monetization. Interesting value play — needs Screener data for full thesis.
-- [ ] **GRAB (US: GRAB)** — Southeast Asia super-app (ride-hailing, food delivery, fintech). Full thesis using new v3 template.
-- [ ] **aThos Life Sciences (US: LIFE)** — Full thesis using new v3 template.
+- [x] ~~**GRAB (US: GRAB)**~~ — DONE (2026-04-04). v3 rewrite. 18/25 Grade B+, Multi-Bagger Candidate. Two-gear thesis: core platform leverage + GrabFin re-rating. Base $6.50-7.00 (+75%), buy below $4.50. GRAB vs LIFE comparison added.
+- [x] ~~**Ethos Technologies (US: LIFE)**~~ — DONE (2026-04-04). 17/25 Grade B, Multi-Bagger Candidate. InsurTech marketplace, 98% gross margins, only profitable insurtech at scale. IPO'd Jan 2026, down 37% to $11.87. Base $37 (3.1x). Wait for lock-up expiry July 2026 to enter at $8-10.
 - [x] ~~**Microsoft (US: MSFT)**~~ — DONE (2026-04-01). Quality Compounder, 20/25 Grade A, $370 CMP at 23x PE (decade low). Base case 2.1x in 5 years. Watchlist — waiting for Q3 FY26 confirmation.
 - [ ] **DCIL (Dredging Corp of India)** — 50-year company, ₹1,146 Cr revenue (highest ever), ₹1,400 Cr order book, targeting ₹3,000 Cr. GRSE is shipyard partner. PSU dredging monopoly (80% of India's maintenance dredging).
 
