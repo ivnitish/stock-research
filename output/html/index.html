@@ -208,6 +208,26 @@
   body.show-cards .cards-container { display: block; }
 
   footer { text-align: center; color: #aaa; font-size: 0.72rem; padding: 24px; }
+
+  /* ── Portfolio-hide mode ── */
+  /* Columns hidden: 3=Qty 4=Avg 6=Δ/share 7=Invested 8=Current 9=P&L₹ 10=P&L% */
+  body.pf-hidden .pf-strip { display: none; }
+  body.pf-hidden table th:nth-child(3),
+  body.pf-hidden table td:nth-child(3),
+  body.pf-hidden table th:nth-child(4),
+  body.pf-hidden table td:nth-child(4),
+  body.pf-hidden table th:nth-child(6),
+  body.pf-hidden table td:nth-child(6),
+  body.pf-hidden table th:nth-child(7),
+  body.pf-hidden table td:nth-child(7),
+  body.pf-hidden table th:nth-child(8),
+  body.pf-hidden table td:nth-child(8),
+  body.pf-hidden table th:nth-child(9),
+  body.pf-hidden table td:nth-child(9),
+  body.pf-hidden table th:nth-child(10),
+  body.pf-hidden table td:nth-child(10) { display: none; }
+  body.pf-hidden .card-nums { display: none; }
+  #btn-pf.pf-on { background: rgba(255,255,255,0.15); color: white; border-color: rgba(255,255,255,0.4); }
 </style>
 </head>
 <body>
@@ -221,6 +241,7 @@
     <div class="view-toggle">
       <button class="view-btn active" id="btn-table" onclick="setView('table')">≡ Table</button>
       <button class="view-btn" id="btn-cards" onclick="setView('cards')">⊞ Cards</button>
+      <button class="view-btn" id="btn-pf" onclick="togglePf()" style="margin-left:6px;border-color:rgba(255,255,255,0.15)">👁 Portfolio</button>
     </div>
   </div>
   <div class="pf-strip">
@@ -2243,6 +2264,18 @@
 
 <script>
   function go(url) { window.location.href = url; }
+
+  function togglePf() {
+    const on = document.body.classList.toggle('pf-hidden');
+    document.getElementById('btn-pf').classList.toggle('pf-on', on);
+    localStorage.setItem('pfHidden', on ? '1' : '');
+  }
+
+  // Restore preference on load
+  if (localStorage.getItem('pfHidden')) {
+    document.body.classList.add('pf-hidden');
+    document.getElementById('btn-pf').classList.add('pf-on');
+  }
 
   function setView(v) {
     document.getElementById('btn-table').classList.toggle('active', v === 'table');
