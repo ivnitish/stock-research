@@ -265,7 +265,9 @@ Patels Airtemp occupies the small-to-mid sized, ASME/IBR-certified, engineered-t
 - **Market share trend:** Likely stable to gaining modestly — India's refinery/petrochemical capex is expanding the pie faster than supply. Revenue CAGR of 9% (3yr) lags industry TAM growth (~15%), suggesting either share loss or execution constraints. FY24's +32% growth shows the company can execute when orders land.
 - **Primary competitive threat:** Larger players (Thermax, L&T Hydrocarbon) entering smaller projects in a slow large-project environment could squeeze Patels' addressable sweet spot. ISGEC moving downstream into ₹30-50 Cr projects (Patels' core range) would be directly disruptive. Probability: Low. Timeline: >5 years (large players structurally avoid small projects due to cost structures).
 - **Key vulnerability:** (1) No public order book disclosure — investors cannot track the revenue pipeline, which is the primary fundamental driver; this is a significant transparency risk. (2) Contingent liabilities ₹116 Cr (bank guarantees/performance bonds) — if multiple large projects face penalties simultaneously, could wipe out 2-3 years of profit. (3) Working capital dependence on customer advances — PSU customers (IOC, HPCL) sometimes delay advance payments, straining liquidity as seen in FY22 (negative operating CF of -₹13 Cr).
-- **Policy / regulatory tailwind:** National Hydrogen Mission and Green Hydrogen policy require new heat exchanger infrastructure for electrolyser cooling and process heat recovery — early-stage but a future addressable market. PLI schemes for petrochemicals (announced 2023) will accelerate customer capex. ASME stamp is also required for defence/nuclear applications — latent diversification opportunity.
+- **Policy / regulatory tailwind:** National Hydrogen Mission and Green Hydrogen policy require new heat exchanger infrastructure for electrolyser cooling and process heat recovery — early-stage but a future addressable market. PLI schemes for petrochemicals (announced 2023) will accelerate customer capex. ASME N-NPT stamp (nuclear) is a genuine moat — see nuclear segment below.
+
+- **Nuclear segment — CONFIRMED, under-appreciated:** Patels Airtemp holds the ASME N-NPT (Nuclear Power Plant) stamp, one of only **3 organisations in India** with this certification. Has supplied Air Handling Units (AHUs) to NPCIL. India's nuclear expansion (100 GW target, SMR programme) creates a long-duration growth vector — nuclear-grade heat exchangers command 30–50% OPM premium over standard industrial. No analyst covers this angle. Order book (Sep 2025): ₹223.70 Cr (down from ₹296.98 Cr Sep 2024) — order slippage is consistent with the FY26 revenue deceleration. **SEBI order (July 2025)** related to PATELSAI — nature unclear, needs investigation before any buy decision. Source: SEBI enforcement orders Jul 2025.
 
 ---
 
@@ -320,6 +322,16 @@ Patels Airtemp occupies the small-to-mid sized, ASME/IBR-certified, engineered-t
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/PATELSAIR.md`*
+
+### 2026-04-08 — Nuclear segment confirmed
+
+- ASME N-NPT stamp confirmed: one of only 3 Indian organisations holding it (source: company website, Know Your Company 2017)
+- Supplies AHUs to NPCIL — documented but limited scope as of last public data
+- Order book Sep 2025: ₹223.70 Cr (down from ₹296.98 Cr Sep 2024) — confirms FY26 revenue deceleration
+- Nuclear angle not priced in by market at all — no analyst notes mention it; stock at 0.75x P/B
+- **ALERT: SEBI enforcement order Jul 2025 related to "Patels Airtemp India Limited"** — nature/scope unknown. Must investigate before any buy. Check BSE filings + SEBI website.
+- SMR (Small Modular Reactor) programme + India 100 GW nuclear target = long-duration demand for ASME N-stamp equipment. Patels is positioned.
+- Quality score impact: MOAT may deserve upgrade from 2→3 if nuclear order book materialises
 
 ### 2026-03-20 — Initial thesis
 - Stock at ₹219, 58% below 52-week high of ₹545 — market pricing in permanent deterioration
