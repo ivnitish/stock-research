@@ -227,6 +227,16 @@ If a well-funded competitor (or MassMutual via Haven Life, or a big PE-backed ro
 
 ## Section 11 — Research Log
 
+### 2026-04-10 — Q4 2025 earnings beat confirmed
+
+**Q4 2025 results (announced Apr 2, 2026):** Revenue $110.1M (+65% YoY), beat consensus $108.3M. EPS $0.42. Direct channel revenue +93%. 500,000 activated policies milestone. Gross margin 98% maintained. This is the primary driver of the recovery from $10.13 lows to ~$13. Source: Form 8-K, StockTitan Apr 2026.
+
+**Not insider trading.** No unusual Form 4 filings. The recovery is gradual (weeks, not single-day spike), consistent with public earnings beat + analyst upgrades, not insider information.
+
+**FY2026 guidance flag:** Some sources show FY2026 guidance at $344M — but FY2025 actuals were already $387M. This is either stale data or unusually conservative guidance. Clarify on Q1 earnings call May 6. If guidance is genuinely below actuals, that would be a red flag.
+
+**Next earnings: June 3, 2026** (updated from earlier May 6 estimate).
+
 ### 2026-04-09 — Why LIFE is rising + post-IPO update
 
 **CMP recovered from $10.13 (Mar 2026 low) to $13.10 (Apr 8, 2026) — +29% in ~2 weeks.** IPO was $19, 52W low $9.45. Still 31% below IPO price. Source: StockAnalysis, Apr 2026.
