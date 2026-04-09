@@ -1,9 +1,120 @@
 # Research System — TODO
-*Last updated: 2026-04-02*
+*Last updated: 2026-04-10*
 
 ---
 
-## Completed — 2026-04-02
+## ✅ COMPLETED — 2026-04-09/10 session
+
+- [x] **Portfolio updated** — Apr 7 holdings file (Excel) used as source of truth. GROWW corrected to 500 shares avg ₹159.91, EPACKPEB to 751 shares avg ₹195.06, GRSE 26 shares, PARADEEP marked sold.
+- [x] **Decision Log created** — `docs/DECISION_LOG.md` + rendered HTML + nav tab in index. Entry for Apr 9: exit GRSE/RAYMOND/SWIGGY/STL/ARTEMIS/ETERNAL, concentration to 5-8 stocks.
+- [x] **Downside framework** — added to `_TEMPLATE.md` (4-method table: asset floor/balance sheet survival/normalized earnings/strategic value). Applied to RAYMOND thesis.
+- [x] **Print CSS** — `@media print` added to `render_plan.py`. Back button hidden on print. All 47 research HTMLs re-rendered.
+- [x] **Section anchors + floating TOC** — every research page now has anchor IDs on all headings + a floating "Jump to section" panel. All 47 pages re-rendered.
+- [x] **NIFTY valuation page** — `research/NIFTY_VALUATION.md` created: PE band framework (below 16x = buy, 20-22x = fair, above 25x = sell), current reading 21x = fair value. Added to index.
+- [x] **ANTELOPUS** — added to watchlist index (Grade C 14/25, Watch <₹450).
+- [x] **GRSE** updated — exit confirmed, FY26 TTM ₹6,400 Cr, 8 vessels delivered, NGC policy context, mgmt superannuation flag.
+- [x] **RAYMOND** updated — exit confirmed, Q3 FY26 PAT ₹7 Cr, net debt ₹740 Cr (was wrong as net cash — corrected), AP plant/LEAP context, re-entry trigger ₹340.
+- [x] **KERNEX** updated — CMP ₹1,109, ₹502 Cr new KAVACH orders (₹91 Cr + ₹411 Cr), BHE 51:49 JV for Moving Block System (major new development), Railway safety policy tailwind.
+- [x] **EPACKPEB** updated — CMP ₹177, TTM ₹1,385 Cr, PLI/data centre/China+1 tailwinds section added.
+- [x] **NESCO** updated — ₹1,000 Cr FY26 revenue milestone (announced Mar 19), Q2 FY26 PAT ₹119 Cr at 50% margin.
+- [x] **LIFE (Ethos)** updated — why rising: Banner Life JV (Mar 24), analyst upgrades (GS $33, Barclays $20), Q1 earnings May 6, lock-up July 2026.
+- [x] **India tab fix** — Indian watchlist stocks were invisible under India tab. Fixed by splitting `data-section="watch"` into `watch india` / `watch us`. PATELSAIR, NIFTY_VALUATION, NESCO etc. now visible under India.
+- [x] **render_plan.py** — accepts optional output dir arg: `python3 src/render_plan.py foo.md output/html/`
+
+---
+
+## 🔴 NEXT SESSION — TASK BRIEFS FOR NEW AGENT
+
+### Task 1: NEWGEN full research rewrite (HIGHEST PRIORITY)
+**Context:** NEWGEN is our core holding (200 shares, ~6% of portfolio). Current file (`research/NEWGEN.md`) is a Quick Summary only — no full template sections. Old version archived at `research/archive/NEWGEN_v1.md`.
+
+**Data already fetched (use this, do NOT re-fetch Screener):**
+- CMP ₹457, Market Cap ₹6,496 Cr, P/E 19.9x, P/B 4.1x, ROCE 28%, ROE 22.5%
+- 52W Range: ₹401–₹1,379 (-67% from peak, -48% 1Y return)
+- D/E ~0, Cash ₹1,000+ Cr, TTM Revenue ~₹1,396 Cr, TTM PAT ₹283 Cr, EPS ₹20
+- 5Y Revenue CAGR 19%, 5Y Profit CAGR 34%
+- 9M FY26: Revenue ₹1,122 Cr (+6% YoY), PAT adjusted ₹222 Cr (+7% YoY)
+- Q3 FY26: Revenue ₹400 Cr, PAT ₹63 Cr (one-time ₹35 Cr labor code hit → adjusted ₹90 Cr)
+- Q2 FY26: Revenue ₹401 Cr, PAT ₹82 Cr. Q1 FY26: ₹321 Cr / ₹50 Cr
+- Subscription revenue 9M: ₹134 Cr (+29% YoY). Annuity 9M: ₹250 Cr (+20% YoY)
+- Revenue split: BFSI 68-71%, Insurance 14%, Govt 7%, EMEA 32%, India 31%, US 21% (+21% YoY), APAC 16%
+- Promoter 53.52%, FII 17.34%, FII increasing stake
+- Recent wins: Kuwait bank $2.22M, UK pension GBP 3M, Ghana $5.6M, European retail EUR 4.2M
+- AI uncertainty causing deal elongation (key risk, management confirmed in Q3 concall Jan 2026)
+- Competitors: ServiceNow, Pegasystems, Appian, Oracle BPM
+- Q4 FY26 results: May 5, 2026 (critical catalyst — watch for guidance)
+
+**What to write:** Full template rewrite using `research/_TEMPLATE.md`. All 11 sections. Quality Score ~18-19/25. Multi-bagger math: bear 1.9x (15% CAGR/20x exit), base 3.2x (22% CAGR/25x exit), bull 5.2x (30% CAGR/30x exit). Key thesis: rare Indian software product at 20x PE on 34% profit CAGR — market pricing "AI destroys the business" when reality is "AI slows deal cycles temporarily." Subscription revenue 29% growth = SaaS transition underway.
+
+**After writing:** `python3 src/render_plan.py research/NEWGEN.md output/html/` then update `output/html/index.html` entry (currently in grade-b india section), then commit + push.
+
+---
+
+### Task 2: PRESSTONIC research
+**Context:** User asked about `https://www.screener.in/company/PRESSTONIC/`. No prior research exists.
+
+**What to do:** Fetch Screener page, run through Phase 0 kill filter checks, quick thesis assessment, write `research/PRESSTONIC.md`, render to HTML, add to index. If Grade C or below with no clear thesis, mark as watchlist/avoid with rationale.
+
+---
+
+### Task 3: Page reorganization
+**Context:** User said "I feel like we need to organize our pages — current structure is too confusing." Index has ~50+ entries across mixed sections. Need a proposal first, then implement.
+
+**What to propose:**
+- Current sections: Grade A India, Grade B India (3 sub-sections), Owned (tracking), Watchlist (mixed Indian + US), Reference docs
+- Problem: watchlist mixes Indian stocks, US stocks, macro docs, journals all in one blob
+- Proposed structure: Portfolio (owned) | India Research | US Research | Macro & Reference
+- Separate nav tabs for India / US / Macro instead of filter buttons
+- Cards view for watchlist (already exists but underused)
+
+**Read `output/html/index.html` current structure before proposing.** Show user the proposal before implementing.
+
+---
+
+### Task 4: Exits to execute
+**Context:** Decision Log (Apr 9) flagged these for exit. Need to track execution.
+
+| Stock | Decision | Trigger |
+|-------|----------|---------|
+| SWIGGY | Exit now | CMP ~₹278, -51% position |
+| STLNETWORK | Exit now | CMP ~₹19, -38% position |
+| ARTEMISMED | Exit | Grade C, single hospital |
+| ETERNAL | Exit on rally | Exit above ₹260 |
+| GRSE | Exit | Already above base case |
+| RAYMOND | Exit | R/R 1.3:1, too thin |
+
+**What to do:** Check current CMPs, update DECISION_LOG.md with execution status when user confirms exits, update portfolio index with reduced positions. No action needed from agent — this is a reminder for user.
+
+---
+
+### Task 5: BANCOINDIA deep research
+**Context:** Grade A 19/25 business (#1 Indian radiator, 32% ROCE, China+1 auto theme). CMP ₹566 is 36% off 52W high ₹880. Already in target portfolio (position 4 in concentration plan). Has research file but may need update. Check `research/BANCOINDIA.md` — if full template exists, just update; if shallow, do full rewrite.
+
+---
+
+### Task 6: RSYSTEMS research (shallow — needs upgrade)
+**Context:** `research/RSYSTEMS.md` is a Quick Summary only. Q2 FY26 profit spike was uninvestigated. R Systems is a mid-size IT services company. Check if worth doing full research or marking as exit/avoid.
+
+---
+
+## ACTIVE MONITORING TRIGGERS
+
+| Stock | Trigger | When | Action |
+|-------|---------|------|--------|
+| ICICIAMC | Price ≤ ₹2,400 | Watch daily | Build to 15-20% of portfolio |
+| EPACKPEB | Q4 FY26 revenue ≥ ₹400 Cr | May 2026 results | Add 100 shares |
+| EPACKPEB | Price ≤ ₹155 | Watch daily | Add regardless of Q4 |
+| NEWGEN | Price ≤ ₹430 | Watch daily | Add meaningfully |
+| GRSE | Price ≤ ₹2,000 | After exit | Re-enter |
+| RAYMOND | Price ≤ ₹340 | After exit | Re-enter if AP plant on track |
+| LIFE (US) | Lock-up expiry July 2026 | July 2026 | Buy dip to $8-10 |
+| LIFE (US) | Q1 2026 earnings | May 6, 2026 | Watch for guidance |
+| NEWGEN | Q4 FY26 results | May 5, 2026 | Critical catalyst |
+| PATELSAIR | Q4 FY26 revenue trend | May 2026 | Confirm timing vs structural |
+
+---
+
+## ⚠️ DECIDE THESE NOW (Top 5)
 
 - [x] **ITC Limited full investment thesis** — Complete analysis with SOTP valuation, post-hotel-demerger assessment, Budget 2026 excise hike impact analysis. Quality Score 19/25 (Grade B), Classification: Quality Compounder. SOTP fair value ₹280-329/share vs CMP ₹293. Recommendation: WATCHLIST, accumulate below ₹270. Key insight: 36.8% ROCE + 3% 10-year stock CAGR = classic value trap, but post-demerger structural improvement may narrow conglomerate discount.
 - [x] **NILE Limited full research upgrade** — Upgraded initial screening to complete investment thesis. Key findings: 80-90% customer concentration in Amara Raja (existential risk), Amara Raja backward-integrating with own 150,000 MTPA recycling plant, Grade C quality (10/25), probability-weighted fair value ₹977 vs CMP ₹1,525 — overvalued. Recommendation: AVOID new position, watchlist only.
@@ -16,15 +127,15 @@
 
 ---
 
-## DECIDE THESE NOW (Top 5)
+## ⚠️ DECIDE THESE NOW
 
-| # | What | Why it matters | Effort |
+| # | What | Why it matters | Status |
 |---|------|---------------|--------|
-| 1 | **Exit PARADEEP immediately** at market price | No recovery scope — competitors (Chambal, Coromandel, RCF) have better Q results + better valuations. Do not wait for bounce. | Low |
-| 2 | **Q4 FY26 results watch** — EPACKPEB, KERNEX, ETERNAL | These three are "hold pending result". Need a go/no-go decision in May 2026. | Low (set reminder) |
-| 3 | ~~**KAYNES promoter selling**~~ ✅ DONE (2026-03-25) | Two discrete block sales (Dec 2023 -5.74%, Jun 2025 -4.23%), stopped for 2 quarters. Promoter 53.46% — above 50% threshold. No pledge. Still needs concall explanation. | — |
-| 4 | **GROWW trim plan** — 26% of portfolio in a B·19 stock | Expected CAGR only 11%. Trimming above ₹190 and redeploying to ICICIAMC improves portfolio CAGR ~1.5%. | Low (set price alert) |
-| 5 | **Kite MCP → XIRR** — connect to get dated order history | Need actual transaction dates to compute real XIRR vs the thesis-estimated 13.5% CAGR. | Medium |
+| 1 | ~~**Exit PARADEEP**~~ | ✅ Already sold — not in Apr 7 holdings | DONE |
+| 2 | **Execute exits: SWIGGY, STL, ARTEMIS, ETERNAL** | All decided Apr 9. Capital needed for NEWGEN/ICICIAMC deployment. Don't wait. | ACTION NEEDED |
+| 3 | **Execute exits: GRSE, RAYMOND** | Base case already below CMP (GRSE). R/R 1.3:1 (RAYMOND). Both decided Apr 9. | ACTION NEEDED |
+| 4 | **Q4 FY26 results watch** — EPACKPEB, KERNEX, NEWGEN | Go/no-go decision in May 2026. Triggers in monitoring table above. | Set reminder |
+| 5 | **GROWW trim plan** — still 500 shares, ~7% of portfolio | If above ₹190, trim and redeploy to NEWGEN (add at ₹430) or hold cash for ICICIAMC ₹2,400. | Watch ₹190 |
 
 ---
 
