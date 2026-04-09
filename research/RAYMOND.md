@@ -20,7 +20,7 @@
 
 | Dimension | Score | Quick Note |
 |---|---|---|
-| Kill Filter | **PASS** | Net cash ₹214 Cr, materials pass-through, promoter 48.87% stable, no pledge |
+| Kill Filter | **PASS** | Net debt ₹740 Cr consolidated (Mar 2025, down from ₹4,181 Cr Mar 2024 — deleveraging fast), materials pass-through, promoter 48.87% stable, no pledge |
 | MOAT | 3/5 | Aerospace: 3-5yr Tier-1 certification barrier, 65% market share on >50% of LEAP parts. Auto: commoditized |
 | Management | 4/5 | Gautam Maini: 22yr aerospace; disciplined on IPO timing; SAP HANA rollout; honest about margin headwinds |
 | Financials | 3/5 | FY22-FY25 P&L distorted by 2 demergers; clean ops only from Q2 FY26; Q3 FY26 consol EBITDA 14.3% |
