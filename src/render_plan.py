@@ -41,12 +41,13 @@ def md_to_html(md):
     return '\n'.join(out)
 
 path = sys.argv[1]
+out_dir = sys.argv[2] if len(sys.argv) > 2 else None
 with open(path) as f:
     md = f.read()
 
 body = md_to_html(md)
 title = os.path.basename(path)
-back_btn = '<a href="index.html" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>'
+back_btn = '<a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>'
 page = f"""<!DOCTYPE html><html><head><meta charset="utf-8"><title>{title}</title>
 <style>
 body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:960px;margin:40px auto;padding:0 24px;color:#1f2937;line-height:1.7;}}
@@ -61,9 +62,24 @@ code{{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:
 hr{{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}}
 ul{{padding-left:20px;}} li{{margin:4px 0;}}
 strong{{color:#111827;}}
+@media print{{
+  .no-print{{display:none!important;}}
+  body{{max-width:100%;margin:0;padding:12px;color:#000;}}
+  h1{{color:#000;border-bottom:2px solid #000;font-size:1.6em;}}
+  h2{{color:#000;border-bottom:1px solid #666;font-size:1.2em;}}
+  h3{{color:#222;}}
+  th{{background:#333!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}}
+  td{{border-bottom:1px solid #ccc;}}
+  tr:nth-child(even){{background:#f5f5f5!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}}
+  code{{background:#eee;color:#333;}}
+  a{{color:#000;text-decoration:none;}}
+  table{{page-break-inside:avoid;font-size:11px;}}
+  h2,h3{{page-break-after:avoid;}}
+}}
 </style></head><body>{back_btn}{body}<script src="notes.js"></script></body></html>"""
 
-out = path.replace('.md', '.html')
+base = os.path.basename(path).replace('.md', '.html')
+out = os.path.join(out_dir, base) if out_dir else path.replace('.md', '.html')
 with open(out, 'w') as f:
     f.write(page)
 print(out)

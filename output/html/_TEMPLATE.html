@@ -74,6 +74,21 @@ strong{color:#111827;}
 
 <hr>
 
+<h2>Quick Summary</h2>
+
+<p><strong>One-line thesis:</strong> [What is the core bet in one sentence — the ROIC engine, the runway, and the mis-pricing]</p>
+
+<p><strong>Action:</strong> [HOLD / ADD / EXIT] — [1 sentence why now]</p>
+
+<table>
+<tr><th>Level</th><th>Price</th><th>Trigger</th></tr>
+<tr><td>Buy / Add</td><td>₹</td><td>[Condition — dip, catalyst, margin of safety]</td></tr>
+<tr><td>Hold</td><td>₹ – ₹</td><td>[Current range — let X play out]</td></tr>
+<tr><td>Exit</td><td>₹ or thesis break</td><td>[Re-rating complete / specific thesis break condition]</td></tr>
+</table>
+
+<hr>
+
 <h2>1. Business Summary</h2>
 <p><!-- 3-4 sentences: what does this company do, who are its customers, what's its competitive position, what changed recently --></p>
 
@@ -218,42 +233,44 @@ strong{color:#111827;}
 
 <h2>4. Key Metrics</h2>
 
-<h3>P&L (Last 3 Years + TTM)</h3>
+<p><!-- Source: Screener.in → company page → 5-year data tab. Or run: scripts/fetch_bse_filings.py {BSE_CODE} --></p>
+
+<h3>P&L (Last 4 Years + TTM)</h3>
 
 <table>
-<tr><th>Metric</th><th>FY[N-2]</th><th>FY[N-1]</th><th>FY[N]</th><th>TTM</th></tr>
-<tr><td>Revenue (Cr)</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Revenue Growth %</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>EBITDA (Cr)</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>EBITDA Margin %</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Net Profit (Cr)</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Net Margin %</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>EPS (₹)</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>EPS Growth %</td><td></td><td></td><td></td><td></td></tr>
+<tr><th>Metric</th><th>FY[N-3]</th><th>FY[N-2]</th><th>FY[N-1]</th><th>FY[N]</th><th>TTM</th></tr>
+<tr><td>Revenue (Cr)</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Revenue Growth %</td><td>—</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>EBITDA (Cr)</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>EBITDA Margin %</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Net Profit (Cr)</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Net Margin %</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>EPS (₹)</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>EPS Growth %</td><td>—</td><td></td><td></td><td></td><td></td></tr>
 </table>
 
-<h3>Balance Sheet + Returns</h3>
+<h3>Balance Sheet + Returns (Last 4 Years)</h3>
 
 <table>
-<tr><th>Metric</th><th>FY[N-2]</th><th>FY[N-1]</th><th>FY[N]</th><th>TTM</th></tr>
-<tr><td>Total Debt (Cr)</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Debt / Equity</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Cash + Investments (Cr)</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>ROCE %</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>ROE %</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Capex (Cr)</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>FCF (Cr)</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Promoter Holding %</td><td></td><td></td><td></td><td></td></tr>
+<tr><th>Metric</th><th>FY[N-3]</th><th>FY[N-2]</th><th>FY[N-1]</th><th>FY[N]</th><th>TTM</th></tr>
+<tr><td>Total Debt (Cr)</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Debt / Equity</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Cash + Investments (Cr)</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>ROCE %</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>ROE %</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Capex (Cr)</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>FCF (Cr)</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Promoter Holding %</td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 
 <h3>Key Operating Metrics (sector-specific)</h3>
 
 <table>
-<tr><th>Metric</th><th>FY[N-2]</th><th>FY[N-1]</th><th>FY[N]</th><th>TTM</th></tr>
-<tr><td>[e.g. Order Book (Cr)]</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>[e.g. Capacity / Utilisation %]</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>[e.g. Working Capital Days]</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>[e.g. Exports % / Domestic %]</td><td></td><td></td><td></td><td></td></tr>
+<tr><th>Metric</th><th>FY[N-3]</th><th>FY[N-2]</th><th>FY[N-1]</th><th>FY[N]</th><th>TTM</th></tr>
+<tr><td>[e.g. Order Book (Cr)]</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>[e.g. Capacity / Utilisation %]</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>[e.g. Working Capital Days]</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>[e.g. Exports % / Domestic %]</td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 
 <h3>CAGRs</h3>
@@ -264,7 +281,8 @@ strong{color:#111827;}
 <tr><td>5-Year</td><td></td><td></td><td></td></tr>
 </table>
 
-<h3>Quarterly Trend (last 4 quarters)</h3>
+<h3>Quarterly Trend (last 6 quarters)</h3>
+<p><!-- 6 quarters = 1.5 years of trend — enough to spot margin direction and seasonality --></p>
 
 <table>
 <tr><th>Quarter</th><th>Revenue (Cr)</th><th>EBITDA Margin %</th><th>Net Profit (Cr)</th><th>Key comment</th></tr>
@@ -272,6 +290,8 @@ strong{color:#111827;}
 <tr><td>Q[N-1]</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>Q[N-2]</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>Q[N-3]</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Q[N-4]</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Q[N-5]</td><td></td><td></td><td></td><td></td></tr>
 </table>
 
 <hr>
@@ -356,12 +376,29 @@ strong{color:#111827;}
 <tr><td><strong>FCF/PAT conversion</strong></td><td>[X]%</td><td>Management score [X/5]</td></tr>
 </table>
 
-<p><strong>Formula (for growth phase):</strong></p>
+<p><strong>Formula (PE Terminal Multiple approach):</strong></p>
 <p><code>`</code></p>
-<p>Intrinsic Value = Owner Earnings × [ (1 - (1+g)^n / (1+r)^n) / (r-g) ]</p>
-<p>               + Terminal Value × 1/(1+r)^n</p>
+<p>Year-n Earnings  = Current Earnings × (1+g)^n</p>
+<p>Terminal Value   = Year-n Earnings × Terminal Multiple (PE)</p>
+<p>PV of Terminal   = Terminal Value / (1+r)^n</p>
+<p>PV of interim CF = Σ [Earnings × (1+g)^t / (1+r)^t]  for t = 1 to n</p>
+<p>Intrinsic Value  = PV of interim CF + PV of Terminal</p>
 
-<p>where Terminal Value = Year-n Earnings × Terminal Multiple</p>
+<p>Simplified for quick check:</p>
+<p>  If g < r: PV of interim ≈ Earnings × (1+g)/r × [1 - ((1+g)/(1+r))^n]</p>
+<p>  PV of Terminal ≈ Earnings × (1+g)^n × Multiple / (1+r)^n</p>
+
+<p>Note: Do NOT use a perpetuity (Gordon Growth) formula when using a terminal PE multiple</p>
+<p>— that double-counts. Use terminal PE OR terminal growth rate, not both.</p>
+<p><code>`</code></p>
+
+<p><strong>Quick reverse DCF (implied growth at current price):</strong></p>
+<p><code>`</code></p>
+<p>At current P/E = X, r = 13%, n = 5 years, Terminal Multiple = 15x:</p>
+<p>  Implied g ≈ solve: Current Market Cap = PV formula above</p>
+<p>  Shortcut: if P/E < Terminal Multiple → market implies g < r (low growth priced in)</p>
+<p>            if P/E ≈ Terminal Multiple → market implies g ≈ 0 (flat earnings priced in)</p>
+<p>            if P/E > Terminal Multiple → market prices in re-rating, not just growth</p>
 <p><code>`</code></p>
 
 <hr>
@@ -399,14 +436,27 @@ strong{color:#111827;}
 <h3>5.3 — Position Sizing</h3>
 
 <p><!--</p>
-<p>Based on conviction from Sections 2-4:</p>
-<p>  High conviction (Kill Filter PASS, all 4 Compounding Engine phases strong): 5-10% position</p>
-<p>  Moderate conviction (1 phase weak or 1 data gap): 2-5% position</p>
-<p>  Speculative (2+ phases weak but potential): 1-2% position or watchlist only</p>
+<p>Score each of the four phases below to arrive at overall conviction.</p>
+<p>Phase 1 = Kill Filter (Section 2)</p>
+<p>Phase 2 = Compounding Engine — ROIC + Runway (Section 3, Q1-Q3)</p>
+<p>Phase 3 = Management + Financials (Section 3 Q4-Q5 + Section 4)</p>
+<p>Phase 4 = Competitive Landscape (Section 6)</p>
+
+<p>  All 4 phases strong → High conviction → 5-10% position</p>
+<p>  1 phase weak        → Moderate conviction → 2-5% position</p>
+<p>  2+ phases weak      → Speculative → 1-2% position or watchlist only</p>
 <p>--></p>
 
+<table>
+<tr><th>Phase</th><th>Assessment</th><th>Strong / Weak</th></tr>
+<tr><td>Phase 1 — Kill Filter</td><td>[PASS/FAIL + note]</td><td></td></tr>
+<tr><td>Phase 2 — Compounding Engine (ROIC + Runway)</td><td>[Strong ROIC / Weak runway / etc.]</td><td></td></tr>
+<tr><td>Phase 3 — Management + Financials</td><td>[Cash flow quality / Promoter / Earnings clarity]</td><td></td></tr>
+<tr><td>Phase 4 — Competitive Landscape</td><td>[Widening moat / Stable / Narrowing]</td><td></td></tr>
+</table>
+
 <ul>
-<li><strong>Conviction level:</strong> High / Moderate / Speculative — based on: [which phases are strong/weak]</li>
+<li><strong>Conviction level:</strong> High / Moderate / Speculative</li>
 <li><strong>Recommended position size:</strong> [X-Y]%</li>
 <li><strong>Current position:</strong> [X]%</li>
 <li><strong>Action:</strong> [At sizing; Add on dips below ₹X; Trim above ₹Y; Exit if Z]</li>
@@ -439,7 +489,8 @@ strong{color:#111827;}
 <p>#### Synthesis</p>
 
 <table>
-<tr><th>Bear</th><th>₹</th><th>₹</th><th></th><th></th></tr>
+<tr><th></th><th>DCF / OE</th><th>P/B-ROE</th><th>Weight</th><th>Rationale</th></tr>
+<tr><td>Bear</td><td>₹</td><td>₹</td><td></td><td></td></tr>
 <tr><td>Base</td><td>₹</td><td>₹</td><td></td><td></td></tr>
 <tr><td>Bull</td><td>₹</td><td>₹</td><td></td><td></td></tr>
 </table>
@@ -511,6 +562,8 @@ strong{color:#111827;}
 
 <table>
 <tr><th>Risk</th><th>Probability</th><th>Impact</th><th>Mitigation</th></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
 </table>
 
 <hr>
@@ -535,6 +588,7 @@ strong{color:#111827;}
 
 <table>
 <tr><th>Date</th><th>Action</th><th>Price</th><th>Quantity</th><th>Reasoning</th></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 
 <hr>
