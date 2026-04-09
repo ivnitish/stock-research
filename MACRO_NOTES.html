@@ -12,6 +12,11 @@ code{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:#
 hr{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}
 ul{padding-left:20px;} li{margin:4px 0;}
 strong{color:#111827;}
+#toc{position:fixed;top:80px;right:16px;width:200px;background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;font-size:12px;max-height:70vh;overflow-y:auto;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:100;}
+#toc summary{font-weight:600;cursor:pointer;color:#1d4ed8;margin-bottom:6px;}
+#toc a{display:block;color:#374151;text-decoration:none;padding:2px 0;line-height:1.4;}
+#toc a:hover{color:#1d4ed8;}
+@media(max-width:1200px){#toc{display:none;}}
 @media print{
   .no-print{display:none!important;}
   body{max-width:100%;margin:0;padding:12px;color:#000;}
@@ -26,7 +31,9 @@ strong{color:#111827;}
   table{page-break-inside:avoid;font-size:11px;}
   h2,h3{page-break-after:avoid;}
 }
-</style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a><h1>Macro Notes — Ongoing Tracker</h1>
+</style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
+<details id="toc" class="no-print"><summary>Jump to section</summary></details>
+<h1 id="macro-notes-ongoing-tracker">Macro Notes — Ongoing Tracker</h1>
 
 <p><strong>Purpose:</strong> Rolling log of macro events affecting our portfolio. Most recent first. Updated each session.</p>
 
@@ -34,15 +41,15 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>2026-04-01 — The Iran War, Oil Shock, and What It Means for Us</h2>
+<h2 id="2026-04-01-the-iran-war-oil-shock-and-what-it-means-for-us">2026-04-01 — The Iran War, Oil Shock, and What It Means for Us</h2>
 
-<h3>The Big Picture</h3>
+<h3 id="the-big-picture">The Big Picture</h3>
 
 <p>We are living through the <strong>largest oil supply disruption since the 1973 Arab oil embargo.</strong> The US and Israel launched a surprise attack on Iran on February 28, 2026. Iran retaliated by closing the Strait of Hormuz — through which 20% of the world's oil flows. Brent crude went from $71 to $116 in one month. India imports 88% of its crude. This is the single most important macro variable for Indian equities right now.</p>
 
 <hr>
 
-<h3>1. The Iran War — Full Timeline</h3>
+<h3 id="1-the-iran-war-full-timeline">1. The Iran War — Full Timeline</h3>
 
 <p>The conflict is now in its <strong>5th week</strong> with no clear end in sight.</p>
 
@@ -89,7 +96,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h3>2. Oil Price Impact on India</h3>
+<h3 id="2-oil-price-impact-on-india">2. Oil Price Impact on India</h3>
 
 <p><strong>Current:</strong> Brent ~$112-116/bbl (up from $71 pre-war, +60%)</p>
 
@@ -124,7 +131,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h3>3. Portfolio Impact — Stock by Stock</h3>
+<h3 id="3-portfolio-impact-stock-by-stock">3. Portfolio Impact — Stock by Stock</h3>
 
 <table>
 <tr><th>Stock</th><th>CMP</th><th>Oil Exposure</th><th>Direct Impact</th><th>Action</th></tr>
@@ -139,7 +146,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h3>4. India-Pakistan: Fragile De-escalation (Background Risk)</h3>
+<h3 id="4-india-pakistan-fragile-de-escalation-background-risk">4. India-Pakistan: Fragile De-escalation (Background Risk)</h3>
 
 <p>The acute India-Pakistan crisis is <strong>separate from the Iran war</strong> but compounds geopolitical uncertainty.</p>
 
@@ -155,7 +162,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h3>5. Nifty 50: ~22,500-23,000 (RSI near 30, Oversold)</h3>
+<h3 id="5-nifty-50-22-500-23-000-rsi-near-30-oversold">5. Nifty 50: ~22,500-23,000 (RSI near 30, Oversold)</h3>
 
 <table>
 <tr><th>Level</th><th>Price</th><th>Significance</th></tr>
@@ -179,7 +186,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h3>6. EPS, PE, and Fair Entry — All Portfolio Stocks</h3>
+<h3 id="6-eps-pe-and-fair-entry-all-portfolio-stocks">6. EPS, PE, and Fair Entry — All Portfolio Stocks</h3>
 
 <p><em>Estimates based on our research files, Screener data, and DCF models. "Fair PE" = what we'd pay for this quality/growth combination.</em></p>
 
@@ -242,7 +249,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h3>Sources</h3>
+<h3 id="sources">Sources</h3>
 
 <ul>
 <li>[2026 Iran War — Wikipedia](https://en.wikipedia.org/wiki/2026_Iran_war)</li>
@@ -261,4 +268,16 @@ strong{color:#111827;}
 <hr>
 
 <p><em>Next update: Post April 6 deadline — Hormuz outcome, oil price reaction, RBI emergency response, FII flow data, US tariff impact on India.</em></p>
-<script src="notes.js"></script></body></html>
+
+<script src="notes.js"></script>
+<script>
+// Build TOC from h2 headings
+var toc=document.getElementById('toc');
+document.querySelectorAll('h2').forEach(function(h){
+  var a=document.createElement('a');
+  a.href='#'+h.id; a.textContent=h.textContent;
+  toc.appendChild(a);
+});
+if(toc.querySelectorAll('a').length===0)toc.style.display='none';
+</script>
+</body></html>

@@ -12,6 +12,11 @@ code{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:#
 hr{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}
 ul{padding-left:20px;} li{margin:4px 0;}
 strong{color:#111827;}
+#toc{position:fixed;top:80px;right:16px;width:200px;background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;font-size:12px;max-height:70vh;overflow-y:auto;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:100;}
+#toc summary{font-weight:600;cursor:pointer;color:#1d4ed8;margin-bottom:6px;}
+#toc a{display:block;color:#374151;text-decoration:none;padding:2px 0;line-height:1.4;}
+#toc a:hover{color:#1d4ed8;}
+@media(max-width:1200px){#toc{display:none;}}
 @media print{
   .no-print{display:none!important;}
   body{max-width:100%;margin:0;padding:12px;color:#000;}
@@ -26,14 +31,16 @@ strong{color:#111827;}
   table{page-break-inside:avoid;font-size:11px;}
   h2,h3{page-break-after:avoid;}
 }
-</style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a><h1>Nifty 50 — Valuation Dashboard</h1>
+</style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
+<details id="toc" class="no-print"><summary>Jump to section</summary></details>
+<h1 id="nifty-50-valuation-dashboard">Nifty 50 — Valuation Dashboard</h1>
 
 <p><strong>Type:</strong> Macro Reference | <strong>Updated:</strong> 09-Apr-2026</p>
 <p><strong>Purpose:</strong> Framework for reading whether Nifty is cheap, fair, or expensive — and what it means for stock-picking.</p>
 
 <hr>
 
-<h2>Current Reading (09-Apr-2026)</h2>
+<h2 id="current-reading-09-apr-2026">Current Reading (09-Apr-2026)</h2>
 
 <table>
 <tr><th>Metric</th><th>Value</th><th>Signal</th></tr>
@@ -49,7 +56,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>The PE Band Framework</h2>
+<h2 id="the-pe-band-framework">The PE Band Framework</h2>
 
 <p>The most reliable single metric for Nifty valuation. Historical average PE is <strong>20–22x</strong>.</p>
 
@@ -66,9 +73,9 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>The Three Metrics to Monitor</h2>
+<h2 id="the-three-metrics-to-monitor">The Three Metrics to Monitor</h2>
 
-<h3>1. Nifty PE vs Historical Average</h3>
+<h3 id="1-nifty-pe-vs-historical-average">1. Nifty PE vs Historical Average</h3>
 
 <ul>
 <li><strong>Below 18x</strong> → Strong buy signal, deploy aggressively</li>
@@ -77,13 +84,13 @@ strong{color:#111827;}
 <li><strong>Above 24x</strong> → Caution, demand higher margin of safety</li>
 </ul>
 
-<h3>2. Nifty from 52-Week High</h3>
+<h3 id="2-nifty-from-52-week-high">2. Nifty from 52-Week High</h3>
 
 <p>The index level masks individual stock pain. Nifty at -9% from peak hides the fact that many quality mid/smallcaps are -30% to -67% from their highs.</p>
 
 <p><strong>How to use:</strong> If Nifty is -15%+ from peak AND PE is below 18x, that's a generational buying zone. At -9% from peak and 21x PE, the index itself is fine — individual stock selection matters more.</p>
 
-<h3>3. P/B Ratio</h3>
+<h3 id="3-p-b-ratio">3. P/B Ratio</h3>
 
 <table>
 <tr><th>P/B</th><th>Zone</th></tr>
@@ -97,7 +104,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>What the Index Hides</h2>
+<h2 id="what-the-index-hides">What the Index Hides</h2>
 
 <p>Nifty 50 is distorted by its heavyweights (HDFC Bank, RIL, TCS, Infosys). These large-caps drive the index PE while individual quality mid/smallcaps have corrected much more severely:</p>
 
@@ -114,7 +121,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>Verdict: Buy Nifty or Individual Stocks?</h2>
+<h2 id="verdict-buy-nifty-or-individual-stocks">Verdict: Buy Nifty or Individual Stocks?</h2>
 
 <p><strong>Index ETF (Nifty BeES, UTI Nifty):</strong></p>
 <ul>
@@ -134,7 +141,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>When Is Nifty a Screaming Buy?</h2>
+<h2 id="when-is-nifty-a-screaming-buy">When Is Nifty a Screaming Buy?</h2>
 
 <p>All three conditions together:</p>
 <p>1. PE below 17x AND</p>
@@ -145,7 +152,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>Monitoring Schedule</h2>
+<h2 id="monitoring-schedule">Monitoring Schedule</h2>
 
 <p>Update this page quarterly or during significant market moves (±10% Nifty).</p>
 
@@ -154,4 +161,16 @@ strong{color:#111827;}
 <hr>
 
 <p><em>Reference document. Not a stock thesis. Updated 09-Apr-2026.</em></p>
-<script src="notes.js"></script></body></html>
+
+<script src="notes.js"></script>
+<script>
+// Build TOC from h2 headings
+var toc=document.getElementById('toc');
+document.querySelectorAll('h2').forEach(function(h){
+  var a=document.createElement('a');
+  a.href='#'+h.id; a.textContent=h.textContent;
+  toc.appendChild(a);
+});
+if(toc.querySelectorAll('a').length===0)toc.style.display='none';
+</script>
+</body></html>

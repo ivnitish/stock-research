@@ -12,6 +12,11 @@ code{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:#
 hr{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}
 ul{padding-left:20px;} li{margin:4px 0;}
 strong{color:#111827;}
+#toc{position:fixed;top:80px;right:16px;width:200px;background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;font-size:12px;max-height:70vh;overflow-y:auto;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:100;}
+#toc summary{font-weight:600;cursor:pointer;color:#1d4ed8;margin-bottom:6px;}
+#toc a{display:block;color:#374151;text-decoration:none;padding:2px 0;line-height:1.4;}
+#toc a:hover{color:#1d4ed8;}
+@media(max-width:1200px){#toc{display:none;}}
 @media print{
   .no-print{display:none!important;}
   body{max-width:100%;margin:0;padding:12px;color:#000;}
@@ -26,7 +31,9 @@ strong{color:#111827;}
   table{page-break-inside:avoid;font-size:11px;}
   h2,h3{page-break-after:avoid;}
 }
-</style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a><h1>Sterlite Technologies Ltd (STLTECH) — Watchlist Note</h1>
+</style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
+<details id="toc" class="no-print"><summary>Jump to section</summary></details>
+<h1 id="sterlite-technologies-ltd-stltech-watchlist-note">Sterlite Technologies Ltd (STLTECH) — Watchlist Note</h1>
 
 <p><strong>Status:</strong> NOT OWNED — Watchlist</p>
 <p><strong>Quality Score:</strong> 11/25 (Grade C — Watch, not buy)</p>
@@ -34,7 +41,7 @@ strong{color:#111827;}
 <p><strong>CMP:</strong> ₹187 | <strong>Market Cap:</strong> ₹9,115 Cr</p>
 
 <hr>
-<h2>Quick Summary</h2>
+<h2 id="quick-summary">Quick Summary</h2>
 
 <p><strong>One-line thesis:</strong> STLTECH is NOT OWNED — watchlist only. Loss-making optical fiber manufacturer crushed by Chinese OFC dumping, trading at P/B 4.44x which is expensive for a business with declining revenue (-10% CAGR) and negative ROE.</p>
 
@@ -44,7 +51,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>1. What STLTECH Does (post-demerger)</h2>
+<h2 id="1-what-stltech-does-post-demerger">1. What STLTECH Does (post-demerger)</h2>
 
 <p>After the 2025 demerger of its services arm (now STLNETWORK), Sterlite Technologies is a pure <strong>optical fiber and cables manufacturer</strong>:</p>
 
@@ -58,7 +65,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>2. The Core Problem — China</h2>
+<h2 id="2-the-core-problem-china">2. The Core Problem — China</h2>
 
 <p>This is the main thesis breaker. China subsidises OFC manufacturing and has been dumping at prices Indian manufacturers cannot match. Global OFC prices fell ~50%+ from peak.</p>
 
@@ -74,7 +81,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>3. Quality Score</h2>
+<h2 id="3-quality-score">3. Quality Score</h2>
 
 <table>
 <tr><th>Dimension</th><th>Score</th><th>Notes</th></tr>
@@ -88,7 +95,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>4. When Would STLTECH Become Interesting?</h2>
+<h2 id="4-when-would-stltech-become-interesting">4. When Would STLTECH Become Interesting?</h2>
 
 <p>All three conditions must be met before considering a buy:</p>
 
@@ -103,7 +110,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>5. Scenarios</h2>
+<h2 id="5-scenarios">5. Scenarios</h2>
 
 <table>
 <tr><th>Scenario</th><th>Condition</th><th>Outcome</th></tr>
@@ -116,7 +123,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>6. Relationship with STLNETWORK</h2>
+<h2 id="6-relationship-with-stlnetwork">6. Relationship with STLNETWORK</h2>
 
 <p>Both entities came from the same parent (Sterlite Technologies pre-2025 demerger).</p>
 <ul>
@@ -129,9 +136,9 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>7. Research Log</h2>
+<h2 id="7-research-log">7. Research Log</h2>
 
-<h3>2026-03-13 — Reclassified from portfolio to watchlist</h3>
+<h3 id="2026-03-13-reclassified-from-portfolio-to-watchlist">2026-03-13 — Reclassified from portfolio to watchlist</h3>
 <ul>
 <li>Previously misidentified as user's portfolio holding (that was STLNETWORK)</li>
 <li>STLTECH is a separate company (products/manufacturing post-demerger)</li>
@@ -139,4 +146,16 @@ strong{color:#111827;}
 <li>Grade revised to C·11. Moving to watchlist only.</li>
 <li>Key watch: DGTR anti-dumping duty outcome + 2 quarters of revenue growth before reconsidering</li>
 </ul>
-<script src="notes.js"></script></body></html>
+
+<script src="notes.js"></script>
+<script>
+// Build TOC from h2 headings
+var toc=document.getElementById('toc');
+document.querySelectorAll('h2').forEach(function(h){
+  var a=document.createElement('a');
+  a.href='#'+h.id; a.textContent=h.textContent;
+  toc.appendChild(a);
+});
+if(toc.querySelectorAll('a').length===0)toc.style.display='none';
+</script>
+</body></html>

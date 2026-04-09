@@ -12,6 +12,11 @@ code{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:#
 hr{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}
 ul{padding-left:20px;} li{margin:4px 0;}
 strong{color:#111827;}
+#toc{position:fixed;top:80px;right:16px;width:200px;background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;font-size:12px;max-height:70vh;overflow-y:auto;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:100;}
+#toc summary{font-weight:600;cursor:pointer;color:#1d4ed8;margin-bottom:6px;}
+#toc a{display:block;color:#374151;text-decoration:none;padding:2px 0;line-height:1.4;}
+#toc a:hover{color:#1d4ed8;}
+@media(max-width:1200px){#toc{display:none;}}
 @media print{
   .no-print{display:none!important;}
   body{max-width:100%;margin:0;padding:12px;color:#000;}
@@ -26,7 +31,9 @@ strong{color:#111827;}
   table{page-break-inside:avoid;font-size:11px;}
   h2,h3{page-break-after:avoid;}
 }
-</style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a><h1>Portfolio Concentration Strategy</h1>
+</style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
+<details id="toc" class="no-print"><summary>Jump to section</summary></details>
+<h1 id="portfolio-concentration-strategy">Portfolio Concentration Strategy</h1>
 
 <p><strong>Date:</strong> March 19, 2026</p>
 <p><strong>Current Portfolio:</strong> ~41 positions | Rs.15.21L invested | India + US</p>
@@ -34,7 +41,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>1. Philosophy: Why Concentrate</h2>
+<h2 id="1-philosophy-why-concentrate">1. Philosophy: Why Concentrate</h2>
 
 <p>> "The idea of excessive diversification is madness. Wide diversification, which necessarily includes investment in mediocre businesses, only guarantees ordinary results." — Charlie Munger</p>
 
@@ -50,9 +57,9 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>2. Current Portfolio Assessment</h2>
+<h2 id="2-current-portfolio-assessment">2. Current Portfolio Assessment</h2>
 
-<h3>Grade Distribution</h3>
+<h3 id="grade-distribution">Grade Distribution</h3>
 
 <table>
 <tr><th>Grade</th><th>Criteria</th><th>Count</th><th>Capital</th><th>Notes</th></tr>
@@ -62,15 +69,15 @@ strong{color:#111827;}
 <tr><td>Tracking (1-share)</td><td>No real position</td><td>~24</td><td>Rs.24K</td><td>Pure noise</td></tr>
 </table>
 
-<h3>The Problem in One Line</h3>
+<h3 id="the-problem-in-one-line">The Problem in One Line</h3>
 
 <p>The single Grade A stock holds 1% of the portfolio. Twenty-four tracking positions with no thesis hold more capital combined. This is the opposite of rational capital allocation.</p>
 
 <hr>
 
-<h2>3. Three Moves</h2>
+<h2 id="3-three-moves">3. Three Moves</h2>
 
-<h3>Move 1: Exit 24 Tracking Positions (Rs.24K noise)</h3>
+<h3 id="move-1-exit-24-tracking-positions-rs-24k-noise">Move 1: Exit 24 Tracking Positions (Rs.24K noise)</h3>
 
 <p><strong>Rationale:</strong> These 1-share positions were originally placed to "track price" inside the brokerage app. This is unnecessary — Groww MCP and Kite provide real-time quotes without holding shares. Each position adds a line to the holdings screen, a taxable event when sold, and cognitive overhead when reviewing the portfolio.</p>
 
@@ -88,7 +95,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h3>Move 2: Exit Grade C Stocks (frees ~Rs.113K)</h3>
+<h3 id="move-2-exit-grade-c-stocks-frees-rs-113k">Move 2: Exit Grade C Stocks (frees ~Rs.113K)</h3>
 
 <table>
 <tr><th>Stock</th><th>Action</th><th>Recovered</th><th>Reasoning</th></tr>
@@ -110,7 +117,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h3>Move 3: Rebalance Into High-Conviction Positions</h3>
+<h3 id="move-3-rebalance-into-high-conviction-positions">Move 3: Rebalance Into High-Conviction Positions</h3>
 
 <p>This is where the capital from Moves 1 and 2 gets deployed, along with any fresh capital added.</p>
 
@@ -145,7 +152,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>4. Target Portfolio (Post-Rebalance)</h2>
+<h2 id="4-target-portfolio-post-rebalance">4. Target Portfolio (Post-Rebalance)</h2>
 
 <p>Assuming portfolio value of ~Rs.15L after exits and redeployment:</p>
 
@@ -171,7 +178,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>5. Expected Impact</h2>
+<h2 id="5-expected-impact">5. Expected Impact</h2>
 
 <table>
 <tr><th>Metric</th><th>Before</th><th>After</th></tr>
@@ -187,16 +194,16 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>6. Risks of Concentration (Honest Assessment)</h2>
+<h2 id="6-risks-of-concentration-honest-assessment">6. Risks of Concentration (Honest Assessment)</h2>
 
 <p>Concentration amplifies both returns and mistakes. This section exists to ensure the risks are faced clearly, not hand-waved away.</p>
 
-<h3>Single-Stock Risk</h3>
+<h3 id="single-stock-risk">Single-Stock Risk</h3>
 <p>With ICICIAMC at 15-20% and GROWW at 15-20%, the top two positions will represent 30-40% of the portfolio. A regulatory shock to the AMC/fintech sector (new TER caps, licensing changes, UPI monetization rules) could hit both simultaneously.</p>
 
 <p><strong>Mitigation:</strong> These are different business models (asset management vs. brokerage platform). Correlation is moderate, not perfect. Monitor regulatory developments weekly.</p>
 
-<h3>Sector Concentration</h3>
+<h3 id="sector-concentration">Sector Concentration</h3>
 <p>The portfolio leans heavily into:</p>
 <ul>
 <li>Financial services (ICICIAMC, GROWW) — 30-40%</li>
@@ -207,24 +214,24 @@ strong{color:#111827;}
 
 <p><strong>Mitigation:</strong> NEWGEN (software), ANANTRAJ (real estate), and RSYSTEMS (IT services) provide some diversification. Accept the concentration as the price of conviction.</p>
 
-<h3>Liquidity Risk</h3>
+<h3 id="liquidity-risk">Liquidity Risk</h3>
 <p>Several positions (KERNEX, BANCOINDIA, SAKSOFT) are small-caps with thin trading volumes. Exiting a 7-8% position quickly could move the price.</p>
 
 <p><strong>Mitigation:</strong> At Rs.15L total portfolio, even the largest position is under Rs.3L. This is small enough that liquidity is not a practical constraint for entry or exit.</p>
 
-<h3>Conviction Error</h3>
+<h3 id="conviction-error">Conviction Error</h3>
 <p>The entire strategy assumes the grading system (out of 25) is accurate. If ICICIAMC deserves a 14/25 instead of 20/25, concentrating into it destroys value.</p>
 
 <p><strong>Mitigation:</strong> Re-score ICICIAMC every quarter against the standardized scorecard. If the grade drops below 18/25, begin trimming. Never fall in love with a position — update the score based on new data, not on the desire to be right.</p>
 
-<h3>Opportunity Cost</h3>
+<h3 id="opportunity-cost">Opportunity Cost</h3>
 <p>Holding 10 stocks means missing the next multibagger that was never in the portfolio.</p>
 
 <p><strong>Mitigation:</strong> Maintain a watchlist of 15-20 stocks scored but not held. Review monthly. If a watchlist stock scores above 18/25 and a held stock drops below 15/25, swap. The framework allows rotation without returning to 41-position chaos.</p>
 
 <hr>
 
-<h2>7. Implementation Timeline</h2>
+<h2 id="7-implementation-timeline">7. Implementation Timeline</h2>
 
 <table>
 <tr><th>Week</th><th>Action</th><th>Capital Impact</th></tr>
@@ -240,7 +247,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>8. Rules Going Forward</h2>
+<h2 id="8-rules-going-forward">8. Rules Going Forward</h2>
 
 <p>1. <strong>No new tracking positions.</strong> Use watchlists, not 1-share holdings.</p>
 <p>2. <strong>Minimum position size: Rs.50K.</strong> If the conviction is not worth Rs.50K, it is not worth holding.</p>
@@ -251,4 +258,16 @@ strong{color:#111827;}
 <hr>
 
 <p><em>"The goal of investing is not to own a lot of companies. It is to own the right companies in meaningful size."</em></p>
-<script src="notes.js"></script></body></html>
+
+<script src="notes.js"></script>
+<script>
+// Build TOC from h2 headings
+var toc=document.getElementById('toc');
+document.querySelectorAll('h2').forEach(function(h){
+  var a=document.createElement('a');
+  a.href='#'+h.id; a.textContent=h.textContent;
+  toc.appendChild(a);
+});
+if(toc.querySelectorAll('a').length===0)toc.style.display='none';
+</script>
+</body></html>
