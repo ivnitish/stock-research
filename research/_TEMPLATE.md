@@ -180,6 +180,35 @@ Total return = EPS growth × PE change = price target
 Is the risk/reward skewed in your favour? How much do you lose in the bear
 case vs how much you gain in the bull?]
 
+### Downside Framework — What Protects Capital?
+
+<!--
+Value investors measure downside through multiple independent lenses.
+Where they converge is the real floor — not the DCF bear case alone.
+
+Four methods:
+1. Asset-based floor (Graham): P/B < 1x = buying below book. Floor = 0.5x book in extreme distress.
+2. Balance sheet survival: Net cash / (annual cash burn) = years of survival. Zero-debt companies
+   have no bankruptcy risk — time is on your side.
+3. Normalized earnings floor: Bad year EBITDA × distress sector multiple. What does the market
+   pay for a similar business in genuine distress?
+4. Strategic/replacement value: What would a rational acquirer pay? Certifications, IP, customer
+   relationships have floors that pure DCF misses.
+
+Risk/Reward summary: state downside %, upside %, and the scenario required for each.
+The bear case should require multiple things to go wrong simultaneously — if it only requires
+one thing, re-examine whether the position is sized correctly.
+-->
+
+| Downside method | Calculation | Floor |
+|----------------|-------------|-------|
+| Asset-based (P/B) | Book value per share × 0.5x (extreme distress) | ₹ |
+| Balance sheet survival | Net cash ₹X Cr · [zero/net] debt · X years runway | [No existential risk / X years] |
+| Normalized earnings | Bad year EBITDA ₹X Cr × Xx EV/EBITDA | ₹ |
+| Strategic value | IP / certifications / customer relationships floor | ₹ |
+
+**Three methods converge at ₹[X–Y].** Bear case requires [describe multi-factor scenario]. Risk/Reward at ₹[CMP]: downside **-X%** (₹[floor]), upside **+Y%** (₹[base]).
+
 ### When do I sell?
 
 <!--

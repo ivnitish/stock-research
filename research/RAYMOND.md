@@ -71,6 +71,36 @@ Why is the market wrong? Three factors suppress the multiple: (1) demerger noise
 
 Raymond Engineering is locked into the LEAP/GTF engine supercycle at 0.1-0.3% of engine cost with a clear expansion path to 1%+ as part count grows from 300-350 parts across 15 engine programs, with "one new part per day" being qualified. The AP plant (May 2027, ₹930 Cr) delivers 7-9% unit cost reduction while doubling aerospace capacity, pushing margins from 20.9% toward the guided 23-25% and creating a step-change in ROIC from ~13% today to 20-25%. Base case DCF yields ₹530-560/share (2.9x in 5 years, ~24% CAGR) as aerospace scales to 30%+ of revenue and the market re-rates from 7.5x blended EV/EBITDA toward 15-20x.
 
+### Downside Framework — What Protects Capital?
+
+Value investors measure downside through multiple independent lenses. Where they converge is the real floor.
+
+**1. Asset-based floor (Graham)**
+Book value per share ~₹484 (P/B 0.76x at ₹369 CMP — stock trades *below* book). Buying below book means assets on the balance sheet cover the price paid. In liquidation, holders recover more than CMP. Historical precedent: profitable, cash-positive industrial companies rarely sustain below 0.5x book for more than 12-18 months.
+- **Floor: ₹240** (0.5x book = extreme distress scenario, not base)
+
+**2. Balance sheet survival test**
+Net cash ₹214 Cr, zero debt. In a zero-profit scenario, Raymond can fund operations for 3+ years without dilution or bankruptcy. There is no leverage amplifying the downside — no covenant breach risk, no forced asset sales. This is the single biggest protection.
+- **Protection: No existential risk. Time is on your side.**
+
+**3. Normalized earnings floor**
+Bear year EBITDA: ₹200 Cr (aviation -30%, auto margins revert). Distress sector multiple: 8x EV/EBITDA for a net-cash profitable business.
+- EV = ₹1,600 Cr → Equity = ₹1,600 Cr + ₹214 Cr cash = ₹1,814 Cr → ~₹265/share
+- **Floor: ₹240–280**
+
+**4. Replacement/strategic value**
+A strategic buyer (OEM, PE, competitor) acquires this for the Tier-1 certifications and 65% market share on LEAP/GTF parts — not for trailing earnings. Certification moat + customer relationships have a floor below which no rational acquirer would let it trade.
+- **Informal floor: ₹300+** (strategic premium to distress DCF)
+
+**Three methods converge at ₹240–280.** The bear case below requires everything to go wrong simultaneously — aviation crash + AP plant failure + auto EV disruption + market pricing at 0.5x book — with a company that has net cash and no debt. This is a tail scenario, not a base one.
+
+**Risk/Reward summary at ₹369:**
+- Downside to floor: **-35%** (₹240), requires multi-factor distress
+- Upside to base: **+44%** (₹530), requires AP plant delivery + aerospace mix shift
+- Upside to bull: **+52%** (₹560), requires re-rating to aerospace multiples
+
+---
+
 ### Bear Case
 
 A new aviation downturn (Boeing production halt, macro recession) cuts aerospace volume 30%, converting the ₹930 Cr AP plant into a cash drain without the volume to absorb fixed costs, while simultaneously exposing the auto segment (72% of revenue) to EV disruption faster than expected. In this scenario, consolidated EBITDA compresses to ₹200 Cr, AP plant capex turns from growth investment to sunk cost, and the auto segment margin reverts from 13.7% back to 10% as operating leverage works in reverse. Bear case value: ₹200 Cr EBITDA at 8x EV/EBITDA = ₹1,600 Cr EV → ₹240-280/share = 25-35% drawdown from CMP.
