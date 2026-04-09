@@ -3,7 +3,7 @@
 **Status:** WATCHLIST
 **Quality Score:** 17/25 (Grade B)
 **Classification:** Multi-Bagger Candidate
-**Last Updated:** 2026-04-04 | **CMP:** $11.87 | **Market Cap:** $746M | **Shares:** ~62.87M diluted
+**Last Updated:** 2026-04-09 | **CMP:** $13.10 | **Market Cap:** ~$825M | **Shares:** ~62.87M diluted
 **Data Source:** StockAnalysis.com, Yahoo Finance, TechCrunch IPO coverage, CBInsights, Contrary Research
 
 > **Recommendation:** BUY at $10–13. Ethos is a freshly-IPO'd InsurTech platform that has done what
@@ -226,6 +226,24 @@ If a well-funded competitor (or MassMutual via Haven Life, or a big PE-backed ro
 ---
 
 ## Section 11 — Research Log
+
+### 2026-04-09 — Why LIFE is rising + post-IPO update
+
+**CMP recovered from $10.13 (Mar 2026 low) to $13.10 (Apr 8, 2026) — +29% in ~2 weeks.** IPO was $19, 52W low $9.45. Still 31% below IPO price. Source: StockAnalysis, Apr 2026.
+
+**Why the stock is rising — 4 specific catalysts:**
+
+1. **Banner Life partnership expansion (March 24, 2026):** Ethos added two new whole life products with Banner Life, bringing total product count to 12. North American (insurance carrier) added Indexed Universal Life product with up to $2M coverage. This matters because each new carrier/product expands the addressable customer set without adding underwriting risk — the platform's unit economics improve with every product added. Carrier partnerships are hard to replicate (18-24 months of regulatory and API work), so each new one is a moat extension.
+
+2. **FY2025 full-year earnings confirmation:** Revenue $387.6M (+52% YoY, 3rd consecutive year of 50%+ growth). Net income positive. The market feared the post-IPO SBC charge would reveal a weaker underlying business — the confirmation that $388M in revenue with positive net income is real cash compounding, not accounting, brought buyers back.
+
+3. **Analyst upgrades and price target raises:** 9 analysts covering with avg target $19.88. Goldman Sachs: Buy, $33 target. Citizens: Market Outperform, $21 target. Barclays: Overweight, $20 target. Citigroup raised target $15→$16. JPMorgan: Overweight, $13 target (already at price). The mass of "outperform" ratings from major banks created institutional demand momentum.
+
+4. **Sector rotation into InsurTech:** Broader insurtech market growing at 24% CAGR ($23.5B→$132.7B by 2034). After Ethos's competitors failed (Policygenius, Health IQ, Haven Life), LIFE is the last pure-play public insurtech on US markets. Investors looking for InsurTech exposure have no alternative — LIFE is the only game in town.
+
+**Q1 2026 earnings: May 6, 2026 at 4:30 PM ET** — key upcoming catalyst. This will show the first full quarter as a public company. Watch for: agent count growth, carrier additions, whether FCF aligns with net income (the gap was 49% in FY2025), and management guidance on SBC trajectory (this drives whether GAAP EPS recovers in FY2027).
+
+**What has NOT changed:** The lock-up expiry risk (July 2026) remains. Sequoia, GV, Accel free to sell after lock-up = potential supply overhang. This may create a better entry than current $13. Hold for now; target add below $10 on lock-up selling.
 
 ### 2026-04-04 — Initial Thesis
 
