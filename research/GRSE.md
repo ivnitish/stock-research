@@ -3,7 +3,7 @@
 **Status:** WATCHLIST
 **Quality Score:** 17/25 (Grade B: Good Business)
 **Classification:** Fairly Valued (Quality B + base case ~1.1x at CMP; need correction or export catalyst for multi-bagger entry)
-**Last Updated:** 2026-03-22 | **CMP:** ₹2,296
+**Last Updated:** 2026-04-09 | **CMP:** ₹2,525 | **Decision: EXIT** (base case ₹2,459 < CMP)
 **Data Source:** Screener.in (consolidated), Q3 FY26 earnings call
 
 > **Recommendation:** WATCHLIST — wait for correction to ₹1,800-2,000 (30-32x TTM P/E) or export
@@ -668,6 +668,19 @@ GRSE occupies the mid-tier of India's naval shipbuilding hierarchy: it builds fr
 - Key risk: valuation leaves no margin of safety. At 38x P/E, any earnings miss compresses multiple sharply. Target entry: ₹1,800-2,000 range.
 - Export catalyst is the key re-rating trigger: actively marketing to Southeast Asian navies.
 - March 2026 MoU with Kalyani Strategic Systems for unmanned naval platforms is optionality — not in base case.
+
+### 2026-04-09 — Exit decision + FY26 execution update
+
+**Exit triggered.** CMP ₹2,525 now exceeds base case DCF ₹2,459 — no margin of safety. Decision: exit at current levels. Re-enter at ₹1,800–2,000 (30-32x TTM PE).
+
+**FY26 revenue tracking ₹6,400 Cr TTM** — confirms ~26% growth from FY25's ₹5,076 Cr, in line with base case. 8 vessels delivered during FY26 = execution is real, not just order book promises. This is meaningful: defence shipbuilding has historically been plagued by delivery delays; 8 deliveries in FY26 signals Kernex is now a delivery-stage business, not just a booking-stage one. Source: Screener.in Apr 2026.
+
+**Order book logic and govt policy tailwind:**
+India's Defence Capital Budget has grown consistently — FY26 capex allocation for defence was ₹1.72 lakh Cr, with naval capital expenditure rising sharply as India pursues a 175-vessel Navy by 2035. The Atmanirbhar Bharat mandate requiring 75%+ indigenous procurement gives GRSE structural protection: even if global defence budgets fluctuate, India's MoD must spend domestically. GRSE's order book of ~₹18,000+ Cr (signed contracts, not bids) represents 3x FY26 revenue — the lowest-risk revenue visibility in Indian equities. NGC contract (₹33,000 Cr, 5 corvettes) was in price negotiation as of Mar 2026; when signed, order book jumps to ~₹50,000 Cr (7-8x revenue), fundamentally extending the visibility runway.
+
+**Management superannuation (April 1, 2026):** Senior leadership transition flagged. PSU leadership changes carry governance uncertainty — new CMD may have different priorities. Not a thesis-breaker but worth monitoring first 2 quarters under new leadership.
+
+**Why exit now, not hold for NGC?** NGC signing is a catalyst but not a margin-of-safety creator. If NGC signs at CMP ₹2,525 and the multiple holds at 38x, any re-rating is already priced in. The correct sequence is: exit at fair value → wait for correction → re-enter with margin of safety → hold through NGC catalyst. Buying at fair value and waiting for a catalyst is not investing — it's speculation on timing.
 
 ---
 

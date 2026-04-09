@@ -3,7 +3,7 @@
 **Status:** OWNED (451 shares, ₹1.03L invested, 10% of portfolio)
 **Quality Score:** 17/25 (Grade B: Good Business)
 **Classification:** Multi-Bagger Candidate (Quality B + Base case 2.3x/3yrs, 31% CAGR)
-**Last Updated:** 2026-03-26 | **CMP:** ₹149 | **Entry:** ₹228 | **P&L:** -35%
+**Last Updated:** 2026-04-09 | **CMP:** ₹177 | **Entry:** ₹195.06 (751 shares) | **P&L:** -9.2%
 **Data Source:** Screener.in (consolidated), Q3 FY26 concall
 
 > **Recommendation:** HOLD / ADD below ₹155. India's PEB penetration is 15% vs 70%+
@@ -99,6 +99,19 @@ If deploying the next ₹1L, the top two choices are EPACK (multi-bagger upside,
 
 - **2026-03-22:** Full framework rewrite to v2 template. Incremental ROIC measured at 10% (diluted by undeployed IPO capital) — trailing ROCE 23.7% on existing operations is the more relevant metric. ICRA upgraded credit rating to A+.
 - **2026-03-19:** DCF revised from conservative base ₹133 to capacity-anchored base ₹234. PEB penetration thesis (15% vs 70%+ global) added as structural anchor.
+- **2026-04-09:** CMP ₹177 (was ₹149 at last research). TTM Revenue now ₹1,385 Cr — strongly tracking toward FY26 guidance of ₹1,500 Cr. P/E 21.6x at current price. 52W High ₹344 / 52W Low ₹132. Portfolio: 751 shares at avg ₹195.06 (added 300 at dip). Hold — add zone ₹130-155 if Q4 disappoints, or if price returns there. Q4 FY26 (May 2026) is the key event: need revenue ≥ ₹400 Cr and full-year ≥ ₹1,500 Cr to confirm thesis. Source: Screener.in Apr 2026.
+
+**Government policy tailwinds — why EPACK's order book is structurally growing:**
+Three converging govt-driven waves are creating PEB demand:
+
+1. **PLI factories:** 14 PLI sectors (electronics, defence, food processing, textiles, pharma) mandate new manufacturing capacity. Consumer durables PLI (₹6,238 Cr) is bringing Daikin, Samsung, LG, Haier factory expansions — EPACK's core customer base. Each PLI-mandated factory is a PEB project. India has committed ₹1.97 lakh Cr to PLI across sectors through 2026-27.
+
+2. **Data centre boom:** India's digital economy expansion has triggered hyperscaler capex — Amazon, Microsoft, Google all building large data centre campuses in India. Data centres require precise climate-controlled structures with high structural loads — PEB with EPS insulated panels is the preferred build method. This is a new customer segment for EPACK beyond traditional OEM clients.
+
+3. **China+1 manufacturing diversification:** Global OEMs de-risking from China are setting up India facilities. Daikin alone committed to manufacturing 100% of its India sales locally by 2027. Each new plant is a 3-6 month PEB build — EPACK captures this wave through its existing OEM relationships, reducing acquisition cost.
+
+The structural gap between India (15% PEB penetration) and global norms (70%+) doesn't close in 3 years — it closes over 10-15 years as India's industrial base modernises. EPACK rides this gap as market leader with OEM relationships that competitors cannot replicate quickly.
+
 - **2026-01 (Q3 FY26 results):** Revenue ₹325 Cr (-25% QoQ, +22% YoY). Management attributed dip to monsoon delays in South India — deferred to Q4, not lost. FY26 guidance reaffirmed at ₹1,500-1,550 Cr.
 - **2025-09 (Q2 FY26):** Best quarter ever — Revenue ₹434 Cr, OPM 12%, PAT ₹29 Cr. Confirmed capacity ramp and OEM order strength.
 

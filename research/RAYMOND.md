@@ -3,7 +3,7 @@
 **Status:** OWNED (150 shares, ₹55.3K invested, ~4% of portfolio)
 **Quality Score:** 17/25 (Grade B — Core Holding)
 **Classification:** Multi-Bagger Candidate (Quality B + Base case ₹530, +42% upside, ~24% CAGR over 5yr)
-**Last Updated:** 2026-03-22 | **CMP:** ₹373 | **Entry:** ₹368.75 | **P&L:** +1.2%
+**Last Updated:** 2026-04-09 | **CMP:** ₹367 | **Entry:** ₹368.75 | **Decision: EXIT** (R/R 1.3:1 insufficient for concentrated portfolio)
 **Data Source:** Screener.in (consolidated), Q3 FY26 concall
 
 > **Recommendation:** HOLD / ADD below ₹350. Raymond is a post-demerger pure-play precision
@@ -771,6 +771,18 @@ The Q3 FY26 concall showed **₹557 Cr revenue at 10.7% OPM = ~₹60 Cr operatin
 - Management quality upgraded 3→4
 - Quality Score: 16/25 → 17/25
 - Risk-reward: ~4.4:1 (2.9x base / 0.75x bear)
+
+### 2026-04-09 — Exit decision + Q3 FY26 data
+
+**Exit triggered.** R/R 1.3:1 (upside ₹530 = +44% / downside ₹240 = -35%) is insufficient for a 5-8 stock concentrated portfolio. Capital better deployed in NEWGEN (18/25 quality, 21x PE on 33% CAGR) than Raymond (17/25, aerospace mix still only 18% of revenue). Source: portfolio restructuring session Apr 9, 2026.
+
+**Q3 FY26 actuals:** Revenue ₹557 Cr (+6% YoY), PAT ₹7.10 Cr (very thin). The low PAT is not alarming — it reflects operating leverage in early stages of aerospace ramp — but it confirms the thesis requires patience through thin headline numbers. Market cap ₹2,445 Cr, P/E 12.9x on actual engineering earnings (not demerger-inflated TTM). P/B 0.75x — still trading below book. Source: Screener.in Apr 2026.
+
+**Why the headline P/E of 88.5x was misleading:** TTM PAT of ₹5,487 Cr includes ₹5,328 Cr of demerger-related other income in Q1 FY26 (June 2025). The actual engineering PAT run-rate is ~₹7-14 Cr/quarter → ~₹40-55 Cr annualised, giving a real P/E of ~45-60x on current earnings. This confirms the thesis needs the AP plant (May 2027) to unlock margin expansion before earnings catch up to the market's patience.
+
+**Order book and tailwinds:** Raymond's ₹6,500 Cr+ aerospace order book is underpinned by a structural tailwind that is now strengthening: Boeing production ramp (from 38/month toward 52/month pre-COVID capacity) and Airbus A320neo backlog stretching to 2034 both increase demand for LEAP/GTF engine parts. India's PLI scheme for advanced chemistry cells and defence components indirectly benefits Raymond's AP plant economics (state incentives reduce capex burden). The LEAP supercycle is not a speculative bet — it is contractually committed production schedules from GE Aerospace and Safran.
+
+**Re-entry trigger:** If exited, watch for AP plant commercial production confirmation (May 2027) or price below ₹340 (0.7x book, near asset floor). At that point R/R improves to >2:1.
 
 ### 2026-03-14 — Demerger & Aerospace Thesis
 Major revision. Raymond Realty demerged May 2025. RAYMOND.NS = pure engineering. Aerospace 37-49% YoY. Quality Score: 11/25 → 16/25.

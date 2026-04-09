@@ -3,7 +3,7 @@
 **Status:** OWNED (1 share, ₹1,376 invested, tracking position)
 **Quality Score:** 19/25 (Grade B+: High Conviction)
 **Classification:** Quality Compounder (Quality B+ + Base case 1.9x/5yrs, 14% CAGR; bull case 2.7-3.0x)
-**Last Updated:** 2026-03-22 | **CMP:** ₹1,055 | **Entry:** ₹1,376 | **P&L:** -23%
+**Last Updated:** 2026-04-09 | **CMP:** ₹1,124 | **Entry:** ₹1,376 (1 share, tracking) | **P&L:** -18.3%
 **Data Source:** Screener.in (consolidated), Q3 FY26 BSE filing
 
 > **Recommendation:** BUY / accumulate aggressively below ₹1,100. Nesco owns 70 irreplaceable
@@ -749,6 +749,19 @@ BEC and Foods have extraordinary ROCE (68% and 75%) on small capital bases. Real
 - OPM compressing in recent quarters (67% FY23 → 51% Q1 FY26) due to Foods segment mix shift
 - Current price ₹1,050 looks attractive for accumulation. Entry at ₹1,376 was premature but thesis intact.
 - Strategy: Add below ₹1,000 aggressively. Hold for Tower 2 delivery FY29-30.
+
+### 2026-04-09 — ₹1,000 Cr revenue milestone + FY26 execution update
+
+**Key milestone: NESCO achieved ₹1,000 Cr revenue in FY26** (announced March 19, 2026). This shatters the market's implicit assumption of "8% slow compounder" — FY25 revenue was ₹732 Cr, meaning NESCO grew ~37% in FY26. This is the inflection point the thesis predicted, driven by IT park rent escalations + Foods segment doubling + BEC recovery. Source: BSE filing March 2026.
+
+**Q2 FY26 actuals:** Revenue ₹239 Cr, PAT ₹119 Cr (50% net margin). Q1 FY26: Revenue ₹192 Cr, PAT ₹89 Cr. TTM Revenue ₹872 Cr, TTM PAT ₹408 Cr. The 47% net margin is extraordinary — few businesses outside pure IP/software achieve this. It reflects the zero-land-cost model: once the IT park infrastructure was built, incremental revenue drops through at near-100% margin for the lease portion. Source: Screener.in Apr 2026.
+
+**Valuation update:** CMP ₹1,124, P/E 19.4x, P/B 2.8x. 52W High ₹1,639 / 52W Low ₹902. Market cap ₹7,926 Cr vs land value ₹14,000-21,000 Cr (1.8-2.7x market cap in land alone). At 19.4x PE, the market is still pricing "slow compounder" despite the 37% revenue growth in FY26. The thesis disagreement — market implies 8%, reality delivered 37% — is intact. Entry zone remains below ₹1,100. Current CMP ₹1,124 is above entry zone; hold and add on dips.
+
+**Tower 2 status (key monitorable):** CWIP was ₹761 Cr at last research date. No new filing data available — check Q4 FY26 BSE filing (May 2026) for updated CWIP and Tower 2 completion timeline. Any delay from FY29-30 target would stretch the payback period but doesn't change the fundamental value of the land.
+
+**Why NESCO is not a government-policy play but a physical scarcity play:**
+Unlike GRSE (defence policy), Kernex (railway safety mandate), or EPACK (PLI factories), NESCO's moat is geographical and physical — 70 freehold acres in Goregaon cannot be created by any policy. The tailwind is Mumbai's IT corridor growth (BKC overflow, Navi Mumbai limited supply) and India's commercial real estate premium compression. NESCO doesn't need a policy catalyst; it needs time and Tower 2 to deliver. This makes it lower volatility than the others — less upside in bull rallies, less downside in policy reversals.
 
 ---
 
