@@ -357,4 +357,175 @@ For the vast majority of high-quality Indian businesses, the answer is: **tempor
 
 ---
 
+---
+
+## Part 11: April 9, 2026 — The Ceasefire: Forensics, Durability, and What Comes Next
+
+*Follow-up analysis added April 9, 2026. Day 41 of the war. The April 4 update (Parts 1-10) was written 5 days before the ceasefire.*
+
+---
+
+### What Happened: The April 8 Ceasefire
+
+On Day 40 (April 8, 2026), the US and Iran agreed to a **2-week ceasefire**, brokered by Pakistan — one hour before Trump's self-imposed escalation deadline expired.
+
+**Terms as publicly stated:**
+- Iran opens the Strait of Hormuz completely and immediately
+- US suspends bombing and strikes on Iran for 2 weeks
+- Formal negotiations begin in Islamabad on April 10 (US delegation: JD Vance, Steve Witkoff, Jared Kushner)
+- Lebanon explicitly **excluded** — Netanyahu insisted; active Israeli strikes on Hezbollah resumed immediately
+- Iran claims the deal is based on its 10-point plan (lift all sanctions, withdraw all US forces from the region, Iranian control over Hormuz)
+- Trump calls Iran's 10-point plan a "workable basis on which to negotiate" — deliberately non-committal
+
+Both sides declared victory. Iran says it forced the US to accept its terms. Trump says Iran agreed to open Hormuz under US pressure.
+
+---
+
+### Forecasting Forensics: What We Got Right and Wrong
+
+**What our framework got right:**
+- v1 Scenario A language: *"both sides claim victory"* — exactly what happened
+- *"Trump needs gas prices down for midterms"* — this was the actual forcing function; he accepted the deal with one hour left on his own deadline
+- Hormuz reopening as the core deal condition — correct
+- *"Iran's military capacity depleting"* + *"IRGC hardliners can't sustain full-intensity either"* — this is what made them accept
+
+**What we got wrong:**
+
+| Our call | Reality | Error |
+|---|---|---|
+| Mediator: Turkey (July NATO summit) | Mediator: Pakistan | Wrong country; right structural logic (third-party neutral with back-channel) |
+| Timing: Q3 2026 | Day 40, April 8 | 3 months too late |
+| v2 downgraded ceasefire to 15-20% | Ceasefire happened | That downgrade was the single biggest error |
+| "Pakistan mediation channel is dead" | Pakistan brokered the deal | One failure ≠ channel closed |
+
+**Root cause of the v2 downgrade error:** We anchored too hard on one failed data point (Pakistan's first mediation attempt collapsed) and generalised it to "all channels dead." The correct Bayesian update was: *one channel failed → watch for new channels from parties with strong incentives.* We let tactical noise (failed talks) override structural signal (all incentive arrows point to ceasefire eventually). This is a textbook anchoring failure.
+
+**Key learning for future geopolitical analysis:** Never write off a mediation channel based on a single failure. Track the *incentive* of the potential mediator. Pakistan had overlapping reasons to succeed: regional stability, the Iran-Pakistan gas pipeline, trade corridor access, and wanting to demonstrate diplomatic relevance as a nuclear power. That incentive profile was always there — we didn't weight it.
+
+---
+
+### Will the Ceasefire Hold? A Deep Framework
+
+The 2-week structure is structurally fragile. Here is the analysis across three lenses.
+
+---
+
+#### Game Theory
+
+**The negotiating gap is enormous — and both sides have publicly "won."**
+
+Iran's 10-point plan demands: lift all US sanctions, withdraw all US military from the region, and recognise Iranian control over Hormuz. The US position is "workable basis" — which in diplomatic language means "we're not committing to anything specific." These are not compatible positions for a 2-week negotiation.
+
+The "both sides claim victory" framing creates a LOSS AVERSION trap in Islamabad: any concession now feels like losing what was publicly declared won. IRGC hardliners cannot drop their 10-point plan without admitting they lied about forcing it on Trump. Trump cannot agree to lift all sanctions and withdraw all US forces — Congress would block it, and it would mean admitting Iran won the war. **Neither side can back down without it looking like they lied to their own people.** This is the structural reason ceasefire negotiations typically fail in their first iteration.
+
+**The Lebanon separability problem is a structural flaw in the deal.** Netanyahu explicitly excluded Lebanon, and Israeli strikes resumed the hour the ceasefire was announced. Iran cannot stand by while Hezbollah — its primary proxy and deterrence network — is being destroyed without responding. Any Iranian military response (even through proxy channels) = ceasefire violation. This is not a design flaw; it's a design trap.
+
+**Russia's incentives are unchanged.** Russia continues to feed satellite intelligence to Iran, supply arms, and profit from high oil prices. They gain nothing from Iranian-American peace. They were not at the Islamabad table and will not be.
+
+**The Hormuz closure is reversible in hours.** Iran can re-close the strait on any pretext — a Lebanese attack, a stalled negotiating point, a domestic political need. The 2-week loan of Hormuz passage is not a permanent concession. Markets will over-price it as if it were.
+
+---
+
+#### Behavioral Economics
+
+**Optimism bias:** Markets will reduce the geopolitical risk premium in oil too fast. The 2-week ceasefire is visible and salient. The structural reasons it might fail (Lebanon, Russia, negotiating gap, endowment effect) are invisible and distributed. Classic example of availability bias — we weight vivid recent events (ceasefire announced) over base rates (2-week ceasefires in analogous conflicts almost always break or get extended without resolution).
+
+**The endowment effect on Hormuz:** Iran has "owned" the Hormuz blockade for 40 days. It has become part of their strategic identity and a core bargaining chip. Opening it for 2 weeks is psychologically a *loan*, not a concession. Re-closing it requires no public admission of failure — they just say negotiations broke down.
+
+**Reactive devaluation:** In adversarial negotiations, each side systematically undervalues proposals from the other side simply because of who proposed them. Whatever the US offers in Islamabad will be seen by IRGC hardliners as insufficient; whatever Iran proposes will be seen by Trump's team as maximalist posturing. This is a well-documented phenomenon in Camp David, Oslo, and every major Middle East negotiation since 1973. It's structural, not surmountable by goodwill.
+
+**Sunk cost on war footing:** After 40 days, both militaries have adapted. The IRGC has operationalised the selective blockade. The US has its air campaign infrastructure in place. Demobilising is not just a political decision — it's a logistical one. Both sides will maintain war-readiness "just in case," which itself signals distrust.
+
+---
+
+#### Historical Base Rates
+
+| Conflict | First ceasefire durability | Eventual resolution | Cycles before final deal |
+|---|---|---|---|
+| Iran-Iraq War (1980-88) | Failed; Iran rejected 9 ceasefire proposals | UN Res 598, 8 years later | 9+ |
+| 1973 Yom Kippur | First ceasefire (Oct 22) broke within hours | Second ceasefire (Oct 24) held | 2 |
+| 2006 Israel-Lebanon | UN 1701 held with violations | De facto ceasefire (no formal end) | 1 (fragile) |
+| 2014 Gaza | 9 ceasefires attempted before one held | 51-day war ended | 9 |
+| June 2025 12-Day War | Held ~7 months then broke (became this war) | — | 1 then collapsed |
+
+**Base rate reading:** First ceasefires in comparable conflicts with: (a) ongoing subsidiary wars (Lebanon here), (b) irreconcilable public positions, and (c) a third-party sponsor without enforcement power — break or become frozen without resolution in ~60-65% of cases within the first ceasefire window.
+
+**The June 2025 precedent is the most important.** That ceasefire was negotiated by US+Qatar, held 7 months, then broke. This 2026 ceasefire is being negotiated by Pakistan, with Lebanon explicitly excluded, with Iran under IRGC hardliner control (not the Pezeshkian moderates who dealt in 2025), and with much deeper mutual mistrust on both sides. It is structurally weaker than the June 2025 deal.
+
+**Iran's historical DNA:** Iran has never accepted a quick ceasefire under existential pressure that required permanent strategic concessions. They accepted ceasefires that preserved their leverage (Hormuz re-closed if needed, nuclear program intact, proxies operational). The 10-point plan is consistent with this — they want to negotiate while retaining all their leverage. This is the *Khomeini doctrine*: accept a pause, rebuild, negotiate from strength.
+
+---
+
+### Could Crude Rise and Markets Fall Again?
+
+**Yes — and the mechanism is specific.**
+
+**Crude trajectory post-ceasefire:**
+
+The war risk premium in oil on April 4 was estimated at $25-35/bbl above fundamental value. A sustained ceasefire unwinds most of this:
+
+| Scenario | Brent range | Timeline |
+|---|---|---|
+| Ceasefire holds, talks progress | $82-92 | 2-4 weeks |
+| Talks stall, ceasefire extended in limbo | $90-100 | 2-8 weeks |
+| Talks collapse, ceasefire breaks | Re-spike to $105-115 | Days after breakdown |
+| Lebanon escalates, triggers ceasefire violation | Re-spike to $110-120 | Immediate |
+| Full Scenario C trigger (Kharg, nuclear) | $150-200+ | N/A |
+
+**The re-spike risk is more dangerous than the original spike.** Here's why:
+
+1. **SPR is depleted.** The 400M barrel release happened. There is no second shot. If oil re-spikes, the buffer is gone.
+2. **Market will over-correct on ceasefire.** When crude drops to $85-90, the natural reaction is to reduce hedges and lock in lower supply contracts. If oil re-spikes, those decisions are painful.
+3. **RBI and government will relax subsidies.** A drop to $85-90 crude will prompt the government to reduce fuel subsidies (fiscal relief). If oil re-spikes to $110+, subsidies need to go back up, but the fiscal space was already used.
+4. **FII flows will partially reverse on relief.** Some of the Rs 1.23 trillion outflows in March will return. A re-spike re-accelerates outflows from a higher base.
+
+**Indian equity market:** The ceasefire creates a relief rally — possibly 8-12% from current Nifty levels. But the July-August Q1 FY27 earnings season will reveal actual damage from the March-April war period regardless of what happens to oil from here. Even if Brent drops to $88 today, the Q1 FY27 P&L for airlines, OMCs, paints, and chemicals will show the $110-119 environment they operated in during Q1. That damage is already baked into future reported earnings. **The trough prediction from Part 7 (July-October 2026) remains valid even with the ceasefire.**
+
+The critical distinction: **fear is priced out by the ceasefire; damage is not.**
+
+---
+
+### Updated Scenario Probabilities (April 9, 2026)
+
+| Scenario | April 4 probability | April 9 probability | Change | Rationale |
+|---|---|---|---|---|
+| A: Full diplomatic resolution | 15-20% | 30-35% | ↑ significantly | Ceasefire is real; Islamabad talks active; Trump deadline pressure worked |
+| B: Grinding stalemate / talks collapse | 40-45% | 40-45% | Unchanged | Most likely single outcome — ceasefire extends limbo, no full resolution |
+| C: Severe escalation | 25-30% | 15-20% | ↓ | Kharg + nuclear scenarios less likely during talks; Lebanon risk remains |
+| D: Regime fracture | 10% | 10% | Unchanged | No new structural signals |
+
+**Why B remains the base case even with the ceasefire:**
+The Islamabad talks face irreconcilable starting positions, Lebanon is an active conflict that can trigger ceasefire collapse, and Russia continues to supply Iran. The most probable path: talks extend the ceasefire in 2-week increments, becoming a de facto frozen conflict, with Hormuz partially open but no formal resolution. Oil stays elevated ($90-105) but below war-peak levels. India's damage horizon extends but the worst-case is off the table.
+
+**New probability-weighted Nifty outcome from current levels:**
+
+```
+(0.325 × +12%) + (0.425 × -6%) + (0.175 × -22%) + (0.10 × +25%)
+= +3.9% - 2.6% - 3.9% + 2.5%
+= -0.1%
+```
+
+Expected value near zero — but with fat tails in both directions. The distribution is no longer as left-skewed as April 4. But neither is it clearly positive: Scenario B still produces more downside from here as Q1 FY27 earnings damage materialises.
+
+---
+
+### Signals Dashboard (Updated April 9)
+
+| Signal | What It Means | Watch For | Status |
+|---|---|---|---|
+| Islamabad talks produce a joint communiqué | Full resolution path open | April 10-12 | Pending |
+| Iran demands full sanctions removal in Islamabad | Talks will collapse — opener too maximalist | Day 1 statements | High risk |
+| Lebanon ceasefire included in Islamabad framework | War's multi-theater problem solved | Netanyahu's response | Not there yet |
+| Iran re-closes Hormuz (any tanker incident) | Ceasefire over | Within 2-week window | Critical watch |
+| Q1 FY27 results: airline/OMC margins | Actual damage confirmed | July 2026 | Still pending |
+| FII weekly inflows for 2+ consecutive weeks | Risk-on returning | Weekly SEBI data | Monitor |
+| Russia signals willingness to support Islamabad process | Prolongation incentive changing | Kremlin statements | No signal yet |
+| Brent sustained below $90 for 2+ weeks | Market pricing full resolution | Daily | Watch ceasefire hold |
+
+---
+
+*Analysis: April 9, 2026. Sources: Al Jazeera, NBC News, Axios, PBS NewsHour, Jerusalem Post, Wikipedia — 2026 Iran war ceasefire.*
+
+---
+
 *Analysis updated April 4, 2026. Sources: CNBC, Bloomberg, Al Jazeera, NPR, Foreign Policy, IEA, Polymarket, Arms Control Association, IranWire, BusinessToday, Business Standard.*
