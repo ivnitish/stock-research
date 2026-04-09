@@ -3,10 +3,11 @@ import sys, re, os
 
 def md_to_html(md):
     html = md
-    # Headers
-    html = re.sub(r'^### (.+)$', r'<h3>\1</h3>', html, flags=re.MULTILINE)
-    html = re.sub(r'^## (.+)$', r'<h2>\1</h2>', html, flags=re.MULTILINE)
-    html = re.sub(r'^# (.+)$', r'<h1>\1</h1>', html, flags=re.MULTILINE)
+    # Headers with anchor IDs for in-page navigation
+    def make_id(text): return re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-')
+    html = re.sub(r'^### (.+)$', lambda m: f'<h3 id="{make_id(m.group(1))}">{m.group(1)}</h3>', html, flags=re.MULTILINE)
+    html = re.sub(r'^## (.+)$', lambda m: f'<h2 id="{make_id(m.group(1))}">{m.group(1)}</h2>', html, flags=re.MULTILINE)
+    html = re.sub(r'^# (.+)$', lambda m: f'<h1 id="{make_id(m.group(1))}">{m.group(1)}</h1>', html, flags=re.MULTILINE)
     # Bold
     html = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', html)
     # Italic
@@ -62,6 +63,11 @@ code{{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:
 hr{{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}}
 ul{{padding-left:20px;}} li{{margin:4px 0;}}
 strong{{color:#111827;}}
+#toc{{position:fixed;top:80px;right:16px;width:200px;background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;font-size:12px;max-height:70vh;overflow-y:auto;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:100;}}
+#toc summary{{font-weight:600;cursor:pointer;color:#1d4ed8;margin-bottom:6px;}}
+#toc a{{display:block;color:#374151;text-decoration:none;padding:2px 0;line-height:1.4;}}
+#toc a:hover{{color:#1d4ed8;}}
+@media(max-width:1200px){{#toc{{display:none;}}}}
 @media print{{
   .no-print{{display:none!important;}}
   body{{max-width:100%;margin:0;padding:12px;color:#000;}}
@@ -76,7 +82,21 @@ strong{{color:#111827;}}
   table{{page-break-inside:avoid;font-size:11px;}}
   h2,h3{{page-break-after:avoid;}}
 }}
-</style></head><body>{back_btn}{body}<script src="notes.js"></script></body></html>"""
+</style></head><body>{back_btn}
+<details id="toc" class="no-print"><summary>Jump to section</summary></details>
+{body}
+<script src="notes.js"></script>
+<script>
+// Build TOC from h2 headings
+var toc=document.getElementById('toc');
+document.querySelectorAll('h2').forEach(function(h){{
+  var a=document.createElement('a');
+  a.href='#'+h.id; a.textContent=h.textContent;
+  toc.appendChild(a);
+}});
+if(toc.querySelectorAll('a').length===0)toc.style.display='none';
+</script>
+</body></html>"""
 
 base = os.path.basename(path).replace('.md', '.html')
 out = os.path.join(out_dir, base) if out_dir else path.replace('.md', '.html')

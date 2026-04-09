@@ -12,6 +12,11 @@ code{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:#
 hr{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}
 ul{padding-left:20px;} li{margin:4px 0;}
 strong{color:#111827;}
+#toc{position:fixed;top:80px;right:16px;width:200px;background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;font-size:12px;max-height:70vh;overflow-y:auto;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:100;}
+#toc summary{font-weight:600;cursor:pointer;color:#1d4ed8;margin-bottom:6px;}
+#toc a{display:block;color:#374151;text-decoration:none;padding:2px 0;line-height:1.4;}
+#toc a:hover{color:#1d4ed8;}
+@media(max-width:1200px){#toc{display:none;}}
 @media print{
   .no-print{display:none!important;}
   body{max-width:100%;margin:0;padding:12px;color:#000;}
@@ -26,21 +31,23 @@ strong{color:#111827;}
   table{page-break-inside:avoid;font-size:11px;}
   h2,h3{page-break-after:avoid;}
 }
-</style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a><h1>Portfolio Decision Log</h1>
+</style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
+<details id="toc" class="no-print"><summary>Jump to section</summary></details>
+<h1 id="portfolio-decision-log">Portfolio Decision Log</h1>
 
 <p>Running log of portfolio decisions, thesis updates, and key takeaways — newest first.</p>
 
 <hr>
 
-<h2>2026-04-09</h2>
+<h2 id="2026-04-09">2026-04-09</h2>
 
-<h3>Market context</h3>
+<h3 id="market-context">Market context</h3>
 <ul>
 <li>Markets bounced hard from tariff-driven dip. Portfolio recovered from -₹94.9K (Apr 7) to -₹22K (Apr 8).</li>
 <li>US tariff uncertainty ongoing. Relief rally, not confirmed reversal.</li>
 </ul>
 
-<h3>Decisions made</h3>
+<h3 id="decisions-made">Decisions made</h3>
 
 <table>
 <tr><th>Stock</th><th>Decision</th><th>Price</th><th>Rationale</th></tr>
@@ -56,7 +63,7 @@ strong{color:#111827;}
 <tr><td>NEWGEN</td><td>Core hold</td><td>₹463</td><td>Grade B+ 18/25 + undervalued (21x P/E on 33% CAGR). Best quality+value combo available.</td></tr>
 </table>
 
-<h3>Portfolio restructuring plan (5-8 concentrated positions)</h3>
+<h3 id="portfolio-restructuring-plan-5-8-concentrated-positions">Portfolio restructuring plan (5-8 concentrated positions)</h3>
 <p>Target portfolio — in priority order:</p>
 <p>1. <strong>NEWGEN</strong> — 18/25, 21x P/E, rare Indian software product. Target 15-20% weight.</p>
 <p>2. <strong>EPACKPEB</strong> — 17/25, structural PEB thesis. Already 11%. Hold, add at ₹155.</p>
@@ -69,7 +76,7 @@ strong{color:#111827;}
 <p>Capital freed from exits (GRSE + RAYMOND + SWIGGY + STL + ARTEMIS + ETERNAL): ~₹2.0–2.5L</p>
 <p>Redeploy into: NEWGEN (when below ₹430) + wait for ICICIAMC ₹2,400.</p>
 
-<h3>Key takeaways</h3>
+<h3 id="key-takeaways">Key takeaways</h3>
 <ul>
 <li><strong>Quality first, then undervalued within quality.</strong> Not undervalued > quality — value traps look cheap and stay cheap (STL, SWIGGY).</li>
 <li><strong>Base case must be above current price.</strong> GRSE base case ₹2,459 < CMP ₹2,479 = no margin of safety = exit.</li>
@@ -79,7 +86,7 @@ strong{color:#111827;}
 <li><strong>Downside first.</strong> KERNEX -53% bear case makes it unsuitable for concentration despite 64% upside.</li>
 </ul>
 
-<h3>Watchlist triggers to act on</h3>
+<h3 id="watchlist-triggers-to-act-on">Watchlist triggers to act on</h3>
 <table>
 <tr><th>Stock</th><th>Trigger</th><th>Action</th></tr>
 <tr><td>ICICIAMC</td><td>Price ≤ ₹2,400</td><td>Build to 15-20% of portfolio</td></tr>
@@ -92,23 +99,23 @@ strong{color:#111827;}
 
 <hr>
 
-<h2>Template for future entries</h2>
+<h2 id="template-for-future-entries">Template for future entries</h2>
 
 <p><code>`</code></p>
-<h2>YYYY-MM-DD</h2>
+<h2 id="yyyy-mm-dd">YYYY-MM-DD</h2>
 
-<h3>Market context</h3>
+<h3 id="market-context">Market context</h3>
 <p>[1-2 lines on market conditions]</p>
 
-<h3>Decisions made</h3>
+<h3 id="decisions-made">Decisions made</h3>
 <table>
 <tr><th>Stock</th><th>Decision</th><th>Price</th><th>Rationale</th></tr>
 </table>
 
-<h3>Key takeaways</h3>
+<h3 id="key-takeaways">Key takeaways</h3>
 <p>-</p>
 
-<h3>Watchlist triggers updated</h3>
+<h3 id="watchlist-triggers-updated">Watchlist triggers updated</h3>
 <table>
 <tr><th>Stock</th><th>Trigger</th><th>Action</th></tr>
 </table>
@@ -116,4 +123,16 @@ strong{color:#111827;}
 
 <hr>
 <p><em>Updated each research session. Prices at time of decision.</em></p>
-<script src="notes.js"></script></body></html>
+
+<script src="notes.js"></script>
+<script>
+// Build TOC from h2 headings
+var toc=document.getElementById('toc');
+document.querySelectorAll('h2').forEach(function(h){
+  var a=document.createElement('a');
+  a.href='#'+h.id; a.textContent=h.textContent;
+  toc.appendChild(a);
+});
+if(toc.querySelectorAll('a').length===0)toc.style.display='none';
+</script>
+</body></html>
