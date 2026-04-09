@@ -156,6 +156,31 @@ Near-zero expected value with fat tails in both directions. Fear is priced out. 
 
 ---
 
+### Could Trump's Posts Have Predicted the Ceasefire?
+
+Yes — and it's a replicable signal for future conflicts.
+
+**The tell was the deadline itself.** Trump's April 1 speech threatened "extremely hard" strikes in 2-3 weeks. That is not how military commanders announce unstoppable action — that is how dealmakers create negotiating pressure. Generals don't telegraph strike windows. Trump does, because the window is the lever, not the strike.
+
+**Specific signals that pointed to ceasefire in hindsight:**
+
+| Trump statement | Date | What it actually signalled |
+|---|---|---|
+| "Discussions are ongoing" | April 1 | Back-channels existed — Iran denied it but Trump wouldn't say it otherwise |
+| "Nearing completion" (repeated 3x over 2 weeks) | Late March–April | Managing domestic expectations toward an exit narrative |
+| "Probably simultaneously" re: electric grid threat | April 1 | The word "probably" in a military threat = bluff. Operational strikes aren't "probably" |
+| No new strike packages announced after F-15 shootdown | April 3 | Silence after provocation = de-escalation preference |
+| Self-imposed deadline: "2-3 weeks" then named a specific date | April 1-7 | Deadline IS the signal — ceasefire typically follows within 48-72 hrs |
+
+**Trump's documented pattern in this conflict:**
+Escalate rhetoric → set hard deadline → accept face-saving deal just before deadline expires. It happened with the initial Iran strikes, the tariff negotiations, and now this ceasefire (accepted one hour before his own deadline). **The deadline is the buy signal for resolution, not the sell signal for escalation.**
+
+**For future geopolitical analysis:** When Trump sets a specific, named deadline with maximalist language, start pricing a face-saving deal — not the threatened action. Assign 60-70% probability to a deal emerging within the deadline window. The electric grid threat, the Kharg Island warning — these were negotiating tools, not operational orders.
+
+This is now a standing rule in the `/geopolitical-macro` skill.
+
+---
+
 ## April 4, 2026 Analysis — Parts 1-10
 
 ---
