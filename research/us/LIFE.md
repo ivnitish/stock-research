@@ -61,6 +61,104 @@ The key disagreement: the market sees an earnings collapse in FY2026. I see a SB
 
 **Probability-weighted fair value: ~$37** → 3.1x from CMP $11.87 in ~3 years
 
+### Growth Scenario Valuation (Management Guidance: 30-40% CAGR)
+
+FY2026 guidance ($510-514M, +32% YoY) establishes the base. Assuming 18.3% net margin held constant (same as FY2025) and ~63M diluted shares:
+
+**EPS Projections**
+
+| Year | 30% Growth Revenue | EPS @30% | 40% Growth Revenue | EPS @40% |
+|------|-------------------|----------|-------------------|----------|
+| FY2026E | $510M (guided) | $1.49 | $510M (guided) | $1.49 |
+| FY2027E | $663M | $1.93 | $714M | $2.08 |
+| FY2028E | $862M | $2.51 | $1,000M | $2.91 |
+| FY2029E | $1,121M | $3.26 | $1,400M | $4.07 |
+
+**Fair Value at Exit (P/E range: 20-30x — appropriate for a high-growth SaaS-margin business)**
+
+At 3 years (FY2028):
+
+| Scenario | 20x P/E | 25x P/E | 30x P/E |
+|----------|---------|---------|---------|
+| 30% growth | $50 | $63 | $75 |
+| 40% growth | $58 | $73 | $87 |
+
+At 4 years (FY2029):
+
+| Scenario | 20x P/E | 25x P/E | 30x P/E |
+|----------|---------|---------|---------|
+| 30% growth | $65 | $81 | $98 |
+| 40% growth | $81 | $102 | $122 |
+
+**Why 20-25x is conservative:** Peers (Guidewire, Duck Creek) trade at 40-80x. LIFE at 20x implies PEG of 0.67 on 30% growth — pricing it like a stagnant business. Even at 15x (deep discount), FY2028 fair value is $37-43, still 3x from $13. The downside math works in your favour.
+
+**Key assumption risk:** These projections assume net margin holds at ~18%. If Ethos accelerates investment into sales/R&D (likely as a new public company), margins could compress to 12-14%. At 14% margin + 30% growth + 20x P/E → FY2028 fair value ~$38. Still 3x upside.
+
+### Stress-Testing the Assumptions
+
+**Is the TAM really that large?**
+
+The $900B premium market is often cited but is misleading. The actual addressable market for Ethos is narrower:
+- Group life (employer-sponsored) is excluded — Ethos operates in individual direct-to-consumer and agent-assisted
+- Complex products (whole life, annuities, UL) don't convert well in a sub-10-minute no-exam flow
+- Real TAM: individual term life online, likely $50-80B in annual premiums
+- At $387M revenue (~15% take rate), Ethos is facilitating ~$2.5B in premiums — already 3-5% of its realistic TAM, not 0.3%
+
+This compresses the runway. 5-7 years to ceiling is more realistic than 10-15. The remaining offline market exists partly because those customers want an advisor — older demographics, complex needs, high face amounts. Ethos's algorithm works best for the 30-45 age bracket buying simple term. That's a finite pool.
+
+**Verdict on growth:** 30% for 2-3 years is plausible — Banner Life JV and agent expansion support it. 30-40% sustained for 4 years is optimistic. Deceleration to 20-25% by year 3-4 is the more probable path. FY2026 guidance is already a step-down from 52% (FY2025) to 32%.
+
+**Is the moat real?**
+
+What holds up under scrutiny:
+- Carrier integrations (Legal & General, John Hancock) — 18-24 months to replicate, genuine switching cost
+- Agent workflow data — policy history and client records sit on their platform; migration is painful
+- Processing speed — sub-10-minute no-exam bind is genuinely ahead of legacy systems
+
+What is overstated:
+- "10,000 agents = moat" — agents use multiple platforms simultaneously. Ethos is not exclusive. If a better product appears, switching cost is low
+- "Network effects" — adding more agents does not improve the product for existing agents (unlike Uber or Airbnb). It is distribution growth, not a compounding network effect
+- "Algorithmic underwriting advantage" — Ethos takes zero underwriting risk. Carriers own the risk models. Ethos's edge is approval speed, not proprietary actuarial data. The data advantage flows to Legal & General, not Ethos
+
+**Honest moat score: 2.5-3/5.** Real but not wide. It is a distribution business with stickiness, not a platform with self-reinforcing network effects. The moat needs 2-3 more quarters to prove it is widening rather than just holding.
+
+**Revised fair value under realistic assumptions (25% growth, 20-22x exit):**
+
+| Scenario | Growth | EPS FY2028 | 20x P/E | 22x P/E |
+|---|---|---|---|---|
+| Realistic base | 25% | $2.15 | $43 | $47 |
+| Optimistic | 35% | $2.70 | $54 | $59 |
+
+Still 3-4x from $13, but the $80-100 bull case requires assumptions that are difficult to justify given the narrower moat and decelerating growth curve. **Position sizing should reflect the uncertainty: 1-2% speculative, not a high-conviction core holding.**
+
+**Q1 2026 assumptions (results expected May 2026):** If Ethos tracks the guided $510-514M for FY2026, Q1 should deliver ~$127M+ (25% of annual run-rate). A result above $130M would signal the company is tracking ahead of its own guidance — historically this causes analysts to raise estimates, which can re-rate the stock sharply (15-30% move on results day). A result below $120M would raise execution concerns and likely create a buying opportunity.
+
+### Decision Commitment
+
+> **Buy zone:** $9–13
+> **Starter size:** 0.5–1% of portfolio
+> **Limit order placed:** \_\_\_
+
+*Rule: Before closing this file after any research session, fill in the third line. If it says NO, the session is not complete.*
+
+### Position Strategy
+
+**Averaging framework:** At $13, the stock prices in near-zero growth. The thesis supports building in tranches:
+
+| Level | Rationale | Action |
+|-------|-----------|--------|
+| $13 (current) | Guided 32% growth, 11.5x trailing PE — undeniable mispricing | Starter position |
+| $10-11 | Lock-up fear (June-July 2026) or macro selloff — sentiment, not fundamentals | Add significantly |
+| Below $9 | Either market panic or business has broken — verify thesis before adding | Check first, then decide |
+
+**What would break the thesis (do NOT average into these):**
+- Revenue growth drops below 20% for two consecutive quarters
+- Gross margin compresses below 95% (means underwriting risk taken on)
+- Banner Life JV stalls or partnership dissolves
+- Sequoia/Accel sell aggressively post lock-up (signals insiders have lost conviction)
+
+Everything else — macro selloff, one soft quarter, lock-up overhang — is noise and an averaging opportunity.
+
 ### When do I sell?
 
 1. Revenue growth drops below 20% for two consecutive quarters — signals platform saturation or competitive displacement
