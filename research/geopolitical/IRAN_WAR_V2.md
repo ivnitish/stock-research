@@ -1,6 +1,53 @@
 # The 2026 Iran War: Updated Analysis (v2)
-**Original analysis: March 21, 2026 | Updated: April 4, 2026 | Latest follow-up: April 9, 2026**
+**Original analysis: March 21, 2026 | Updated: April 4, 2026 | Latest: April 12, 2026**
 **Previous version: [v1 — March 21, 2026](IRAN_WAR_V1.html)**
+
+---
+
+## April 12, 2026 — Islamabad Talks Collapse: What Now
+
+*Day 44. Added April 12, 2026.*
+
+Talks failed. JD Vance left Islamabad after 21 hours without a deal. Three irreconcilable gaps:
+
+| Sticking Point | US Position | Iran Position |
+|---|---|---|
+| Nuclear | Zero enrichment — including medical | Enrichment is a sovereign right, non-negotiable |
+| Lebanon | Not Iran's problem to resolve | End Israeli strikes on Hezbollah as precondition |
+| Hormuz | Permanent open access | Iran retains "control" over the strait |
+
+These are not negotiating positions — they are structural incompatibilities. No 2-week extension fixes them.
+
+**The ceasefire clock:** The 2-week window expires ~April 22. Pakistan says it will keep mediating, but has no leverage over the nuclear or Lebanon issues. Iran has every incentive to let the ceasefire lapse — their 10-point plan is their leverage, and delivering nothing from Islamabad strengthens hardliners domestically.
+
+**The physical market already knew.** Dated Brent (physical spot) was at $131.97 on April 10 vs futures at ~$96. That $35 gap told you Hormuz hadn't actually reopened. Futures priced the ceasefire as resolution. Spot priced it as a pause. Spot was right.
+
+**Updated scenario probabilities:**
+
+| Scenario | April 9 | April 12 | Change |
+|---|---|---|---|
+| A: Full resolution | 30-35% | 15-20% | ↓ sharply — talks collapsed |
+| B: Rolling ceasefire / frozen conflict | 40-45% | 45-50% | ↑ slightly — Pakistan still mediating |
+| C: Severe escalation (Hormuz re-closes) | 15-20% | 25-30% | ↑ — ceasefire expiry risk |
+| D: Regime fracture | 10% | 10% | Unchanged |
+
+**What to watch this week:**
+- Does Iran signal ceasefire expiry or extension by April 15? That's the binary.
+- Trump Truth Social posts — a new deadline = new deal attempt in 48-72 hrs (established pattern)
+- Lebanon ceasefire: if Israel pauses Lebanon strikes even temporarily, Iran has a face-saving reason to extend
+- Brent futures Monday open — if they spike toward $105+, markets price escalation re-entry
+
+**India market implications:**
+The Nifty's 3.8% ceasefire rally (April 8-9) is now fully at risk. If Hormuz re-closes after April 22, oil re-spikes faster than the original move — SPR is depleted, no buffer. The July-August Q1 FY27 earnings trough thesis is intact regardless. Fear was priced out on the ceasefire. Damage was never priced out. It arrives in July earnings.
+
+**Probability-weighted Nifty from current levels (updated):**
+```
+(0.175 × +10%) + (0.475 × -7%) + (0.275 × -22%) + (0.10 × +25%)
+= +1.75% - 3.3% - 6.1% + 2.5% = -5.2%
+```
+Back to ~5% expected downside. Distribution heavily left-skewed again.
+
+*Sources: Al Jazeera, NBC News, NPR, Euronews, CNN — April 11-12, 2026.*
 
 ---
 
