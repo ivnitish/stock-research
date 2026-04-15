@@ -30,3 +30,11 @@ knowledge/
 # Large binary downloads
 data/filings/
 data/pdf downloads/
+
+# Raw transcripts (large, re-fetchable) — keep summaries and SYNTHESIS.md
+data/transcripts/**/*.md
+!data/transcripts/SYNTHESIS.md
+!data/transcripts/**/*_summary.md
+
+# Transcript HTML previews (local only)
+data/transcripts/**/*.html

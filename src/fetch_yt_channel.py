@@ -59,6 +59,38 @@ def get_channel_videos(channel_url, n=20):
     return videos
 
 
+def _fetch_via_ytdlp(video_id):
+    """Use yt-dlp to download English VTT subtitle and return list of text strings."""
+    import tempfile, glob
+    with tempfile.TemporaryDirectory() as tmpdir:
+        cmd = [
+            "yt-dlp", "--write-auto-subs", "--skip-download",
+            "--sub-lang", "en", "--sub-format", "vtt",
+            "-o", f"{tmpdir}/sub",
+            f"https://www.youtube.com/watch?v={video_id}",
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        vtt_files = glob.glob(f"{tmpdir}/*.vtt")
+        if not vtt_files:
+            return None
+        raw = Path(vtt_files[0]).read_text(encoding="utf-8")
+
+    # Parse VTT: strip timestamps, tags, deduplicate adjacent lines
+    lines, seen = [], set()
+    for line in raw.splitlines():
+        line = line.strip()
+        if not line or "-->" in line or line.startswith("WEBVTT") or line.startswith("Kind:") or line.startswith("Language:"):
+            continue
+        line = re.sub(r'<[^>]+>', '', line)   # strip HTML tags
+        line = re.sub(r'&amp;', '&', line)
+        if line and line not in seen:
+            seen.add(line)
+            lines.append(line)
+
+    # Return as simple string list (same shape as FetchedTranscriptSnippet.text)
+    return [type('S', (), {'text': l})() for l in lines] if lines else None
+
+
 def fetch_transcript(video_id, title="", date="NA", channel_slug="channel"):
     """Fetch transcript for a video and save as markdown."""
     print(f"\n  Fetching: {title or video_id}")
@@ -68,16 +100,23 @@ def fetch_transcript(video_id, title="", date="NA", channel_slug="channel"):
         transcript_list = api.list(video_id)
         transcripts = list(transcript_list)
 
-        # Prefer English (manual or auto); skip if English not available
+        # Prefer English (manual or auto)
         en_transcripts = [t for t in transcripts if t.language_code.startswith('en')]
-        if not en_transcripts:
-            langs = [t.language_code for t in transcripts]
-            print(f"  ⚠ No English transcript — available: {langs}. Skipping.")
-            return None
 
-        chosen = en_transcripts[0]
-        source = f"{'manual' if not chosen.is_generated else 'auto-generated'} ({chosen.language_code})"
-        entries = chosen.fetch()
+        if en_transcripts:
+            chosen = en_transcripts[0]
+            source = f"{'manual' if not chosen.is_generated else 'auto-generated'} ({chosen.language_code})"
+            entries = chosen.fetch()
+        else:
+            # youtube-transcript-api may miss English auto-captions that yt-dlp can find
+            # Fall back to yt-dlp to download English VTT
+            print(f"  ℹ youtube-transcript-api found no English — trying yt-dlp fallback...")
+            entries = _fetch_via_ytdlp(video_id)
+            if entries is None:
+                langs = [t.language_code for t in transcripts]
+                print(f"  ⚠ No English transcript — available: {langs}. Skipping.")
+                return None
+            source = "auto-generated (en, via yt-dlp)"
 
     except TranscriptsDisabled:
         print(f"  ✗ Transcripts disabled for {video_id}")
