@@ -1,9 +1,9 @@
 # Patels Airtemp (India) Ltd (NSE/BSE: 517417) — Investment Thesis
 
-**Status:** WATCHLIST — DO NOT ENTER at current price
+**Status:** SMALL STARTER — Defensible at ₹315 (AGM-confirmed data)
 **Quality Score:** 13/25 (Grade C+)
 **Last Updated:** 2026-04-15
-**CMP:** ₹315 | **MCap:** ₹173 Cr | **P/B:** 1.09x | **P/E:** 16.3x | **52W:** ₹180–₹539
+**CMP:** ₹315 | **MCap:** ₹172 Cr | **P/B:** 1.07x | **P/E (FY25 audited):** 10.5x | **P/E (TTM FY26):** ~16x | **52W:** ₹180–₹539
 
 ---
 
@@ -323,6 +323,42 @@ Patels Airtemp occupies the small-to-mid sized, ASME/IBR-certified, engineered-t
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/PATELSAIR.md`*
+
+### 2026-04-15 — 33rd AGM Analysis (Sep 2025): NPCIL confirmed + data correction
+
+**Source:** PATELSAIR 33rd AGM transcript (video EPMtzXum5o0, Sep 27, 2025) | [Summary](../data/transcripts/channel/NA_EPMtzXum5o0_summary.md)
+
+**Critical data correction: FY25 revenue was ₹287.82 Cr, NOT ₹388 Cr.**
+CMD stated in AGM: "total revenue from operations of ₹287.82 Cr for year ended March 31, 2025 compared to ₹370.76 Cr for FY24." FY24 figure matches (₹371 Cr in our table = correct). The ₹388 Cr previously in our FY25 row was likely a TTM figure from Screener fetched at a mid-year date — not audited annual. The P&L table should show FY25 = ₹288 Cr (22% decline). FY25 EPS: ₹30.18 (₹16.51 Cr PAT / 54.7L shares). This also corrects the P/E at ₹315 CMP: on FY25 audited earnings, P/E = ₹172 Cr / ₹16.51 Cr = **10.5x, not 16.3x** (16.3x was on TTM FY26 earnings which are cyclically depressed).
+
+**Nuclear — current revenue confirmed:**
+CMD: *"We have a good about 23 or 24 Cr from NPCIL currently... we are positioned very well to take advantage of that situation."* NPCIL = ~8% of FY25 revenue already. Not future potential — live revenue today. India's nuclear expansion creates uplift from this base.
+
+**Order pipeline:**
+- Sep 1, 2025 confirmed order book: ₹223.70 Cr (management stated this directly)
+- Bids submitted, awaiting awards: ₹200-250 Cr
+- Management confident next two quarters for order booking "very promising"
+
+**Cyclical explanation — credible:**
+- Slowdown since Jan 2025 in petrochemicals/refinery projects
+- Causes: tariff uncertainty (US), global near-recession, India election year
+- "We have survived since 1973. We are not worried. We have seen worse years."
+- Consistent with what ISGEC/Thermax said — industry-wide, not Patels-specific
+
+**Expansion initiatives:**
+- Gauy plant: 4 sheds built (11,006 sq mt, ₹24 Cr total capex) — now planning further expansion; running numbers internally, no equity dilution signalled
+- Exotic materials bay (Rakenpur): dedicated bay for inalloy, super duplex — lower competition, higher value addition per tonne
+- Borrowing limit raised to ₹500 Cr via special resolution (current debt ~₹90 Cr)
+
+**Governance signals:**
+- Dividend maintained at 30% (₹3/share) — 19 consecutive years
+- No auditor qualifications — clean audit
+- Investor calls: planned "when we grow out of micro-cap"; no quarterly calls yet but intent stated
+
+**Revised recommendation at ₹315:**
+At 10.5x P/E on FY25 audited earnings (not the misleading 16.3x TTM figure), with NPCIL already contributing ₹23-24 Cr, cyclical slowdown credibly explained, and a ₹200-250 Cr bid pipeline — ₹315 is defensible for a small starter position. Prior call of "DO NOT ENTER" was based on the incorrect 16.3x P/E. On normalized FY25 earnings, the stock is the cheapest in its peer group.
+
+---
 
 ### 2026-04-15 — Price update: opportunity passed at current levels
 
