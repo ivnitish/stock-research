@@ -41,6 +41,8 @@ PORTFOLIO = {
     "GRSE":       542011,
     "NESCO":      505355,
     "DREDGECORP": 523618,
+    "NILE":       530129,
+    "DCMSIL":     544702,
     # US stocks don't have BSE codes — skip them
 }
 

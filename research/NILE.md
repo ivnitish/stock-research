@@ -3,10 +3,23 @@
 **Status:** WATCHLIST
 **Quality Score:** 10/25 (Grade C)
 **Classification:** Fairly Valued — Grade C quality with base case ~1.5x in 5 years
-**Last Updated:** 2026-04-02 | **CMP:** ₹1,525 | **Market Cap:** ₹458 Cr
+**Last Updated:** 2026-04-15 | **CMP:** ₹1,649 | **Market Cap:** ₹495 Cr
 **Data Source:** Screener.in (consolidated), BSE code 530129
 
-> **Recommendation:** HOLD (if owned) / AVOID (new position) at ₹1,525.
+---
+
+## Recent Developments (2026-04-15)
+
+- **Q3 FY26 (Dec 2025):** Revenue ₹289 Cr, PAT ₹16 Cr — significantly above FY25 run-rate. TTM revenue ₹994 Cr, TTM PAT tracking higher than FY25's ₹41 Cr.
+- **Debt nearly eliminated:** Borrowings now ₹10 Cr (vs ₹90 Cr FY25) — balance sheet materially strengthened. ROCE improved to 21.8%, ROE 16.3%.
+- **Wind operations suspended (Feb 10, 2026):** PPA expired, windmill operations halted. Removes captive power advantage, increases grid power cost — margin headwind.
+- **Li-Cycle (Nile Li-Cycle):** No revenue contribution yet. Still pre-revenue Phase 1.
+- **Amara Raja backward integration:** Operational at Cheyyar plant — structural risk unchanged.
+- **CMP moved to ₹1,649** from ₹1,525 at last research (+8%). Thesis unchanged — avoid new position.
+
+---
+
+> **Recommendation:** HOLD (if owned) / AVOID (new position) at ₹1,649.
 > This is a commodity lead recycling spread business with extreme customer concentration
 > (80-90% revenue from Amara Raja), thin 6-8% OPM (Operating Profit Margin), and a
 > ticking existential threat: Amara Raja has commissioned its own 150,000 MTPA recycling

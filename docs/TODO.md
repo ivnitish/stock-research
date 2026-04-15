@@ -1,5 +1,5 @@
 # Research System — TODO
-*Last updated: 2026-04-10*
+*Last updated: 2026-04-12*
 
 ---
 
@@ -89,6 +89,46 @@
 
 ### Task 5: BANCOINDIA deep research
 **Context:** Grade A 19/25 business (#1 Indian radiator, 32% ROCE, China+1 auto theme). CMP ₹566 is 36% off 52W high ₹880. Already in target portfolio (position 4 in concentration plan). Has research file but may need update. Check `research/BANCOINDIA.md` — if full template exists, just update; if shallow, do full rewrite.
+
+---
+
+### Task 7: MF Sector Allocation Tracker
+**Context:** Mutual fund monthly portfolio disclosures (AMFI) reveal which sectors smart money is increasing/decreasing. Cross-referencing this with our watchlist tells us if institutional thesis aligns with ours — and if a re-rating catalyst is building.
+
+**What to build:**
+- Fetch AMFI monthly disclosures or use Trendlyne/Tijori data
+- Track sector allocation % changes over 3-6 quarters for top 10-15 AMFs (HDFC, Nippon, Kotak, SBI, Mirae, Axis, DSP)
+- Flag sectors with >2% aggregate increase as "MF accumulation" — cross-reference with our watchlist
+- Ideally a monthly cron job that runs and appends to a `data/mf_sector_flows.csv`
+
+**Data sources:** AMFI website (amfiindia.com), Trendlyne MF flow data, Tijori sector analysis
+**Output:** `research/MF_SECTOR_FLOWS.md` — updated monthly
+
+---
+
+### Task 8: Historical Multibagger Analysis
+**Context:** `docs/MULTIBAGGER_ANALYSIS_APPROACH.md` defines the methodology but analysis was never executed. Understanding what drove historical 5-10x stocks (Kaynes, MTAR, APL Apollo, Trent, Polycab, Astral) tells us which factors to weight more in our quality scoring.
+
+**Key question:** What % of the return came from earnings growth vs P/E re-rating? Was there a single inflection point (policy change, order win, capacity unlock) or slow compounding?
+
+**Stock list to analyse (from approach doc):**
+- 3yr: Kaynes, KERNEX, Cochin Shipyard, Mazagon Dock
+- 5yr: Dixon, CAMS, APL Apollo, Polycab, MTAR
+- 10yr: DMart, PI Industries, Astral, Bajaj Finance, Titan
+
+**What to write:** `research/MULTIBAGGER_PATTERNS.md` — common factors, scoring implications
+**Background agent task** — run as subagent, will take significant time
+
+---
+
+### Task 9: Weekend Investing / Market Pulse Setup
+**Context:** Alok Jain's Weekend Investing publishes a free daily newsletter (Beehiiv) covering market structure, macro, geopolitical impacts. Momentum-based philosophy ("Bhav Bhagwan Che"). Useful as a daily macro pulse — not for stock picks.
+
+**What to do:**
+- Subscribe to https://weekendinvesting.beehiiv.com/ (free)
+- Add to reference sources list
+- Do NOT use for stock picks — use only for macro/market structure context
+- Note: philosophy conflicts with our fundamental approach — read as a contrarian data point
 
 ---
 

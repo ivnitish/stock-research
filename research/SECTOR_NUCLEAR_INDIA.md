@@ -1,7 +1,41 @@
 # India Nuclear Power — Sector Thesis (Madhu Kela Style)
 
-**Created:** 2026-03-28
+**Created:** 2026-03-28 | **Updated:** 2026-04-11
 **Approach:** Government capex theme → Value chain mapping → Sectors that benefit → Listed companies with highest leverage → Investable ideas
+
+---
+
+## 0. First Principles Investment Logic (Added 2026-04-11)
+
+Most investors list nuclear companies. The first principles approach asks: **what does it physically take to build one 700 MW PHWR, and who can supply it in India?**
+
+### The Qualification Moat — The Real Edge
+
+Nuclear component suppliers require NPCIL/AERB qualification that takes **3-5 years** to obtain. This is not a brand moat or scale moat — it is a **regulatory monopoly**. Once qualified, you are on a short list of approved suppliers for a ₹14-23 lakh Cr programme spanning 21 years.
+
+The localisation mandate makes this more powerful. India currently imports 60-70% of reactor components. The SHANTI Bill + fleet mode execution (10 identical PHWRs built simultaneously) creates the same dynamic as defence indigenisation post-2016: the government will mandate 60-70% domestic content to reduce import dependence and build a domestic supply chain. Companies that are **already qualified** when this mandate arrives cannot be displaced by new entrants for 3-5 years minimum.
+
+**The sequence the market hasn't fully priced:**
+```
+India needs 91 GW new nuclear (8.8 → 100 GW by 2047)
+→ ₹14-23 lakh Cr capex over 21 years
+→ Fleet mode = standardised components = predictable, recurring orders
+→ Localisation mandate coming (precedent: defence indigenisation)
+→ AERB/NPCIL qualification = 3-5 year barrier = de facto monopoly
+→ MTAR, Walchandnagar, KSB, Patels Airtemp already qualified
+→ Market hasn't priced the localisation mandate yet
+→ Buy the qualified suppliers before tenders hit
+```
+
+### What to Monitor (Leading Indicators)
+
+| Signal | What it means | Lead time before revenue |
+|--------|--------------|-------------------------|
+| DAE tender database — new qualification notices | Government opening a new component category to private suppliers | 12-18 months |
+| NPCIL annual report — domestic content % | Localisation mandate tightening | 6-12 months |
+| SHANTI Bill implementation rules | Private sector entry rules finalised | Opens new demand |
+| Westinghouse/EDF JV announcements | Foreign vendors need Indian partners for AP1000/EPR localisation | 12-24 months |
+| Fleet mode procurement notices | Batch orders for 10 PHWRs simultaneously — 10x order size vs single plant | Immediate |
 
 ---
 
