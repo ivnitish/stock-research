@@ -1,8 +1,9 @@
 # Patels Airtemp (India) Ltd (NSE/BSE: 517417) — Investment Thesis
 
-**Status:** WATCHLIST
+**Status:** WATCHLIST — DO NOT ENTER at current price
 **Quality Score:** 13/25 (Grade C+)
-**Last Updated:** 2026-03-20
+**Last Updated:** 2026-04-15
+**CMP:** ₹315 | **MCap:** ₹173 Cr | **P/B:** 1.09x | **P/E:** 16.3x | **52W:** ₹180–₹539
 
 ---
 
@@ -322,6 +323,37 @@ Patels Airtemp occupies the small-to-mid sized, ASME/IBR-certified, engineered-t
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/PATELSAIR.md`*
+
+### 2026-04-15 — Price update: opportunity passed at current levels
+
+**What changed since March:**
+- Stock ran from ₹219 → ₹539 (52W high, +146%) on nuclear speculation, then pulled back to ₹315
+- BSE sought clarification on the April price movement — company replied "market forces" (same pattern as DCMSIL defence rally)
+- P/B re-rated from 0.75x → 1.09x — the core "below book" thesis is now gone
+- P/E expanded from 11x → 16.3x on declining earnings — you are paying more for less
+
+**Current financials (from Screener, Apr 2026):**
+- Q3 FY26: Revenue ₹58.81 Cr, PAT ₹2.66 Cr, OPM 10.95% — still weak
+- TTM sales growth: -33% — revenues still falling, not recovering
+- Book value: ₹294/share | ROCE: 13.8% | ROE: 11%
+- Order book Sep 2025: ₹223.70 Cr (down from ₹296.98 Cr Sep 2024) — continued shrinkage
+
+**Recommendation: DO NOT ENTER at ₹315**
+
+At ₹315 you are paying P/E 16.3x on declining earnings + P/B 1.09x on a business with 11% ROE — there is no margin of safety. The nuclear qualification moat (N-NPT stamp) is real, but actual nuclear orders have not materialised yet. The stock ran on the same pattern as DCMSIL defence: speculation preceded revenue. Unlike DCMSIL which at least disclosed its defence plans, Patels has not announced a single nuclear order yet.
+
+The original thesis was: pay below book, get nuclear free. That entry is gone.
+
+**Re-entry zone: ₹220–250** — where P/B returns to 0.75-0.85x and the original margin of safety is restored. Q4 FY26 results (May 2026) remain the binary test: revenue ≥₹140 Cr = timing blip, thesis intact; <₹100 Cr = structural, revise to AVOID.
+
+**Decision History update:**
+
+| Date | Action | Price | Reasoning |
+|------|--------|-------|-----------|
+| 2026-03-20 | Added to WATCHLIST | ₹219 | Below book (0.75x P/B), DCF base ₹444, wait for Q4 FY26 data |
+| 2026-04-15 | No action — opportunity passed | ₹315 | P/B 1.09x, P/E 16.3x on declining earnings, speculative run confirmed by BSE query. Re-entry zone ₹220–250. |
+
+---
 
 ### 2026-04-08 — Nuclear segment confirmed
 
