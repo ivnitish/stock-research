@@ -1,5 +1,5 @@
 # Research System — TODO
-*Last updated: 2026-04-12*
+*Last updated: 2026-04-15*
 
 ---
 
@@ -89,6 +89,31 @@
 
 ### Task 5: BANCOINDIA deep research
 **Context:** Grade A 19/25 business (#1 Indian radiator, 32% ROCE, China+1 auto theme). CMP ₹566 is 36% off 52W high ₹880. Already in target portfolio (position 4 in concentration plan). Has research file but may need update. Check `research/BANCOINDIA.md` — if full template exists, just update; if shallow, do full rewrite.
+
+---
+
+### Task 6: GitHub Pages — Shareable Research (viewer mode)
+**Context:** User wants to share stock research pages with friends without exposing portfolio data. Full problem not yet fully articulated — wait for user to explain before implementing.
+
+**What we know so far:**
+- Current site: all pages gated behind auth (nitish/stocks2026)
+- Problem: sharing password gives friends access to everything including portfolio positions, buy prices, private notes
+- User wants: share index (stock list) + individual research pages, but hide portfolio-specific data
+- Back button should still work (friends navigate index → research → back to index)
+
+**Constraints:**
+- Must be built and tested on a **git branch** before merging to main
+- Do NOT deploy to GitHub Pages until tested and user approves
+- Branch name: `feature/viewer-mode`
+
+**Likely implementation:**
+- Two-role auth in `auth.js`: owner (full access) + viewer (research only)
+- `<!-- PRIVATE -->` convention in markdown → rendered as hidden blocks for viewers
+- Index: hide portfolio columns (position size, cost basis, P&L) for viewers; show stock list + grades + links
+- Research pages: hide status/position/buy price blocks for viewers; back button works for all
+- render_plan.py: wrap PRIVATE blocks in `<div class="sr-private">` tags
+
+**Do NOT start until user finishes explaining the full requirement.**
 
 ---
 
