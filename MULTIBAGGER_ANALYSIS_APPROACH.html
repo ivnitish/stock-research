@@ -1,0 +1,200 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>MULTIBAGGER_ANALYSIS_APPROACH.md</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:960px;margin:40px auto;padding:0 24px;color:#1f2937;line-height:1.7;}
+h1{font-size:2em;border-bottom:3px solid #1d4ed8;padding-bottom:8px;color:#1e3a5f;}
+h2{font-size:1.4em;border-bottom:1px solid #e5e7eb;padding-bottom:6px;color:#1d4ed8;margin-top:32px;}
+h3{font-size:1.1em;color:#374151;margin-top:24px;}
+table{border-collapse:collapse;width:100%;margin:16px 0;font-size:13.5px;}
+th{background:#1e3a5f;color:#fff;padding:8px 12px;text-align:left;}
+td{padding:7px 12px;border-bottom:1px solid #f3f4f6;}
+tr:nth-child(even){background:#f9fafb;}
+code{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:#7c3aed;}
+hr{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}
+ul{padding-left:20px;} li{margin:4px 0;}
+strong{color:#111827;}
+/* Private blocks: visible in browser, hidden in print/PDF */
+.sr-private{border-left:3px solid #fbbf24;padding-left:8px;background:#fffbeb;}
+#toc{position:fixed;top:80px;right:16px;width:200px;background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;font-size:12px;max-height:70vh;overflow-y:auto;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:100;}
+#toc summary{font-weight:600;cursor:pointer;color:#1d4ed8;margin-bottom:6px;}
+#toc a{display:block;color:#374151;text-decoration:none;padding:2px 0;line-height:1.4;}
+#toc a:hover{color:#1d4ed8;}
+@media(max-width:1200px){#toc{display:none;}}
+@media print{
+  .no-print{display:none!important;}
+  .sr-private{display:none!important;}
+  body{max-width:100%;margin:0;padding:12px;color:#000;}
+  h1{color:#000;border-bottom:2px solid #000;font-size:1.6em;}
+  h2{color:#000;border-bottom:1px solid #666;font-size:1.2em;}
+  h3{color:#222;}
+  th{background:#333!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  td{border-bottom:1px solid #ccc;}
+  tr:nth-child(even){background:#f5f5f5!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  code{background:#eee;color:#333;}
+  a{color:#000;text-decoration:none;}
+  table{page-break-inside:avoid;font-size:11px;}
+  h2,h3{page-break-after:avoid;}
+}
+</style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
+<details id="toc" class="no-print"><summary>Jump to section</summary></details>
+<h1 id="multi-bagger-factor-analysis-approach-document">Multi-Bagger Factor Analysis — Approach Document</h1>
+
+<p><strong>Status:</strong> APPROACH ONLY — do not execute yet. This document defines the methodology.</p>
+<p><strong>Created:</strong> 2026-03-19</p>
+<p><strong>Purpose:</strong> Understand what actually drove historical multi-baggers so we can identify similar patterns in current holdings and watchlist.</p>
+
+<hr>
+
+<h2 id="the-question">The Question</h2>
+
+<p>What were the 5x, 10x, 20x stocks in India over 3, 5, and 10-year lookback periods, and which specific factors drove those returns? Is it primarily:</p>
+<ul>
+<li>Earnings growth (revenue CAGR, margin expansion)?</li>
+<li>Multiple re-rating (P/E expansion from 10x → 40x)?</li>
+<li>A combination — and in what proportion?</li>
+<li>Was there a single inflection point (order win, policy change, capacity unlock) or slow compounding?</li>
+</ul>
+
+<p>Answering this shapes how we score new ideas. If 70% of multi-bagger return comes from P/E re-rating rather than earnings growth, then the quality score's Valuation dimension (currently 1 of 5) deserves much more weight.</p>
+
+<hr>
+
+<h2 id="proposed-sample">Proposed Sample</h2>
+
+<h3 id="3-year-lookback-mar-2023-mar-2026-3x-returns">3-Year Lookback (Mar 2023 → Mar 2026, 3x+ returns)</h3>
+<p>India candidates: Kaynes Technology, KERNEX, Lloyds Metals, Waaree Energies, Authum Invest, KPITTECH, Cochin Shipyard, Mazagon Dock, Waaree Solar, PGEL, Trent, Zomato (Eternal)</p>
+
+<h3 id="5-year-lookback-mar-2021-mar-2026-5x-returns">5-Year Lookback (Mar 2021 → Mar 2026, 5x+ returns)</h3>
+<p>India candidates: Tata Power, Suzlon, Adani Green, ABB India, Dixon Technologies, CAMS, Deepak Nitrite, Polycab, APL Apollo, Data Patterns, Paras Defence, MTAR Tech</p>
+
+<h3 id="10-year-lookback-mar-2016-mar-2026-10x-returns">10-Year Lookback (Mar 2016 → Mar 2026, 10x+ returns)</h3>
+<p>India candidates: Avenue Supermarts (DMart), PI Industries, Astral, Laurus Labs, Navin Fluorine, Alkyl Amines, Vaibhav Global, Page Industries, Bajaj Finance, Titan, Divis Labs</p>
+
+<h3 id="us-comparison-for-international-lens">US Comparison (for international lens)</h3>
+<p>Nvidia (2019→2026), ServiceNow, Celsius Holdings, Axon Enterprise, NuScale (SMTD)</p>
+
+<hr>
+
+<h2 id="data-points-to-collect-per-stock">Data Points to Collect Per Stock</h2>
+
+<p>For each multi-bagger, capture at the start-date snapshot (not today's view):</p>
+
+<h3 id="price-return-data">Price / Return Data</h3>
+<ul>
+<li>CMP at start date</li>
+<li>CMP at end date</li>
+<li>Total return multiple (Nx)</li>
+<li>CAGR</li>
+</ul>
+
+<h3 id="earnings-decomposition-separate-the-two-return-drivers">Earnings Decomposition (separate the two return drivers)</h3>
+<ul>
+<li>P/E at start date</li>
+<li>P/E at end date</li>
+<li>P/E expansion multiple = End P/E / Start P/E → this is the "sentiment" return</li>
+<li>EPS at start date</li>
+<li>EPS at end date</li>
+<li>EPS growth multiple = End EPS / Start EPS → this is the "fundamental" return</li>
+<li><strong>Check:</strong> P/E expansion × EPS growth = Total return multiple (should reconcile)</li>
+</ul>
+
+<h3 id="quality-at-purchase-point-what-did-the-stock-look-like-then-not-now">Quality at Purchase Point (what did the stock look like THEN, not now)</h3>
+<ul>
+<li>Revenue CAGR last 3 years (at start date)</li>
+<li>OPM at start date</li>
+<li>ROCE at start date</li>
+<li>D/E at start date</li>
+<li>Promoter holding at start date</li>
+<li>Market cap at start date (size filter: was it a micro/small/mid/large cap?)</li>
+<li>P/E at start date (were they cheap, fair, or expensive?)</li>
+</ul>
+
+<h3 id="catalyst-identification">Catalyst Identification</h3>
+<ul>
+<li>What was the specific inflection point? (policy, order, capacity, management change, new product)</li>
+<li>Was it visible at the start date or became visible later?</li>
+<li>How many quarters before/after the catalyst did the major re-rating happen?</li>
+</ul>
+
+<h3 id="red-flags-present-at-start-false-negatives-we-would-have-screened-out">Red Flags Present at Start (false negatives we would have screened out)</h3>
+<ul>
+<li>Would we have bought at the start date given our current framework?</li>
+<li>What would our quality score have been at start date?</li>
+<li>What were the thesis risks that DIDN'T play out?</li>
+</ul>
+
+<hr>
+
+<h2 id="analysis-framework">Analysis Framework</h2>
+
+<h3 id="decomposition-table-per-stock">Decomposition Table (per stock)</h3>
+
+<table>
+<tr><th>Stock</th><th>Lookback</th><th>Start Price</th><th>End Price</th><th>Return</th><th>EPS Start</th><th>EPS End</th><th>EPS Multiple</th><th>P/E Start</th><th>P/E End</th><th>P/E Multiple</th><th>Key Catalyst</th><th>Visible at start?</th></tr>
+</table>
+
+<h3 id="factor-attribution">Factor Attribution</h3>
+
+<p>After collecting data for 15-20 multi-baggers, run attribution:</p>
+
+<p>1. <strong>Earnings-led multi-baggers</strong> (EPS grew 8x, P/E flat or slight expansion) — these are the Bajaj Finance / Titan type. Thesis: buy quality at any reasonable price and wait.</p>
+
+<p>2. <strong>Re-rating-led multi-baggers</strong> (EPS grew 2x, P/E expanded 5x) — these are the Adani Green / Mazagon Dock type. Thesis: find ignored sectors before the narrative shifts. Risk: re-rating reverses fast.</p>
+
+<p>3. <strong>Combined</strong> (EPS 3x, P/E 3x = 9x total) — the sweet spot. Thesis: earnings growth + narrative/sector re-rating.</p>
+
+<h3 id="pattern-questions-to-answer">Pattern Questions to Answer</h3>
+
+<p>1. What was the average P/E at the start date for India 5x+ stocks? (Were multi-baggers cheap or fairly priced at purchase?)</p>
+<p>2. What ROCE threshold separated winners from losers? (Hypothesis: ROCE > 15% at start date is a necessary condition)</p>
+<p>3. Were multi-baggers already showing revenue acceleration at start date, or did the acceleration come after?</p>
+<p>4. What sectors produced the most multi-baggers in each period? (3yr: defence/EMS/renewables; 5yr: chemicals/capital goods?)</p>
+<p>5. What was the size at start date? (Hypothesis: most 10x stocks were <₹2,000 Cr market cap at entry)</p>
+
+<hr>
+
+<h2 id="output-deliverables-when-executed">Output Deliverables (when executed)</h2>
+
+<p>1. <code>data/multibagger_dataset.csv</code> — raw data for all stocks, all time periods</p>
+<p>2. <code>docs/MULTIBAGGER_FINDINGS.md</code> — key patterns and conclusions</p>
+<p>3. Updated scoring framework — if P/E re-rating is responsible for >50% of returns, the Valuation score needs higher weight or a separate "narrative timing" score</p>
+
+<hr>
+
+<h2 id="how-this-connects-to-current-portfolio">How This Connects to Current Portfolio</h2>
+
+<p>After the analysis, map current holdings against the identified patterns:</p>
+
+<table>
+<tr><th>Pattern</th><th>Historical examples</th><th>Current portfolio match</th></tr>
+<tr><td>ROCE >20% + <15x P/E + sector tailwind</td><td>DIxon early days, CAMS</td><td>ICICIAMC, KERNEX</td></tr>
+<tr><td>Capacity doubling + order book 10x+ revenue</td><td>Mazagon Dock</td><td>KERNEX</td></tr>
+<tr><td>Ignored monopoly/near-monopoly</td><td>CAMS, KFin early</td><td>ICICIAMC, KERNEX</td></tr>
+<tr><td>Govt policy beneficiary (defence PLI, railways)</td><td>Cochin Shipyard, MTAR</td><td>KERNEX, KAYNES</td></tr>
+</table>
+
+<hr>
+
+<h2 id="pre-requisites-before-executing">Pre-requisites Before Executing</h2>
+
+<ul>
+<li>[ ] Decide on data source: Yahoo Finance API (yfinance) for historical prices + Screener for historical fundamentals, OR manual collection</li>
+<li>[ ] Decide on 7 decision points from <code>docs/AUTORESEARCH_APPROACH.md</code> (PGEL-style backtesting context)</li>
+<li>[ ] Confirm stock list (do we include PSU defence stocks? Do we include pure commodity cycles like Adani Green?)</li>
+<li>[ ] Build Python script to automate price + earnings collection via yfinance for the snapshot dates</li>
+</ul>
+
+<hr>
+
+<p><em>"The purpose is not to find the pattern that explains the past. It is to find the pattern that is present NOW in a current holding or watchlist stock."</em></p>
+
+<script src="notes.js"></script>
+<script>
+var toc=document.getElementById('toc');
+document.querySelectorAll('h2').forEach(function(h){
+  var a=document.createElement('a');
+  a.href='#'+h.id; a.textContent=h.textContent;
+  toc.appendChild(a);
+});
+if(toc.querySelectorAll('a').length===0)toc.style.display='none';
+</script>
+</body></html>
