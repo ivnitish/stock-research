@@ -12,6 +12,8 @@ code{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:#
 hr{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}
 ul{padding-left:20px;} li{margin:4px 0;}
 strong{color:#111827;}
+/* Private blocks: visible in browser, hidden in print/PDF */
+.sr-private{border-left:3px solid #fbbf24;padding-left:8px;background:#fffbeb;}
 #toc{position:fixed;top:80px;right:16px;width:200px;background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;font-size:12px;max-height:70vh;overflow-y:auto;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:100;}
 #toc summary{font-weight:600;cursor:pointer;color:#1d4ed8;margin-bottom:6px;}
 #toc a{display:block;color:#374151;text-decoration:none;padding:2px 0;line-height:1.4;}
@@ -19,6 +21,7 @@ strong{color:#111827;}
 @media(max-width:1200px){#toc{display:none;}}
 @media print{
   .no-print{display:none!important;}
+  .sr-private{display:none!important;}
   body{max-width:100%;margin:0;padding:12px;color:#000;}
   h1{color:#000;border-bottom:2px solid #000;font-size:1.6em;}
   h2{color:#000;border-bottom:1px solid #666;font-size:1.2em;}
@@ -244,7 +247,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2 id="9-decision-history">9. Decision History</h2>
+<div class="sr-private"><h2 id="9-decision-history">9. Decision History</h2>
 
 <table>
 <tr><th>Date</th><th>Action</th><th>Price</th><th>Reasoning</th></tr>
@@ -254,7 +257,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2 id="10-research-log">10. Research Log</h2>
+</div><h2 id="10-research-log">10. Research Log</h2>
 
 <h3 id="2026-03-12-initial-thesis">2026-03-12 — Initial thesis</h3>
 <ul>
@@ -270,7 +273,6 @@ strong{color:#111827;}
 
 <script src="notes.js"></script>
 <script>
-// Build TOC from h2 headings
 var toc=document.getElementById('toc');
 document.querySelectorAll('h2').forEach(function(h){
   var a=document.createElement('a');

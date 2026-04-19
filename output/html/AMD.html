@@ -1,0 +1,311 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>AMD.md</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:960px;margin:40px auto;padding:0 24px;color:#1f2937;line-height:1.7;}
+h1{font-size:2em;border-bottom:3px solid #1d4ed8;padding-bottom:8px;color:#1e3a5f;}
+h2{font-size:1.4em;border-bottom:1px solid #e5e7eb;padding-bottom:6px;color:#1d4ed8;margin-top:32px;}
+h3{font-size:1.1em;color:#374151;margin-top:24px;}
+table{border-collapse:collapse;width:100%;margin:16px 0;font-size:13.5px;}
+th{background:#1e3a5f;color:#fff;padding:8px 12px;text-align:left;}
+td{padding:7px 12px;border-bottom:1px solid #f3f4f6;}
+tr:nth-child(even){background:#f9fafb;}
+code{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:#7c3aed;}
+hr{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}
+ul{padding-left:20px;} li{margin:4px 0;}
+strong{color:#111827;}
+/* Private blocks: visible in browser, hidden in print/PDF */
+.sr-private{border-left:3px solid #fbbf24;padding-left:8px;background:#fffbeb;}
+#toc{position:fixed;top:80px;right:16px;width:200px;background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;font-size:12px;max-height:70vh;overflow-y:auto;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:100;}
+#toc summary{font-weight:600;cursor:pointer;color:#1d4ed8;margin-bottom:6px;}
+#toc a{display:block;color:#374151;text-decoration:none;padding:2px 0;line-height:1.4;}
+#toc a:hover{color:#1d4ed8;}
+@media(max-width:1200px){#toc{display:none;}}
+@media print{
+  .no-print{display:none!important;}
+  .sr-private{display:none!important;}
+  body{max-width:100%;margin:0;padding:12px;color:#000;}
+  h1{color:#000;border-bottom:2px solid #000;font-size:1.6em;}
+  h2{color:#000;border-bottom:1px solid #666;font-size:1.2em;}
+  h3{color:#222;}
+  th{background:#333!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  td{border-bottom:1px solid #ccc;}
+  tr:nth-child(even){background:#f5f5f5!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  code{background:#eee;color:#333;}
+  a{color:#000;text-decoration:none;}
+  table{page-break-inside:avoid;font-size:11px;}
+  h2,h3{page-break-after:avoid;}
+}
+</style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
+<details id="toc" class="no-print"><summary>Jump to section</summary></details>
+<h1 id="advanced-micro-devices-amd-investment-thesis">Advanced Micro Devices (AMD) — Investment Thesis</h1>
+
+<p><strong>Status:</strong> OWNED</p>
+<p><strong>Quality Score:</strong> 16/25 (Grade B-)</p>
+<p><strong>Classification:</strong> Quality Compounder</p>
+<p class="sr-private"><strong>Last Updated:</strong> 2026-04-04 | <strong>CMP:</strong> $197.75 | <strong>Avg Cost:</strong> $232.89 | <strong>P&L:</strong> -15% (-$35)</p>
+<p><strong>Market Cap:</strong> ~$320B | <strong>Shares:</strong> ~1.62B diluted</p>
+<p><strong>Data Source:</strong> StockAnalysis.com, MEXC/SiliconAnalysts AI market share data, Statista</p>
+
+<p>> <strong>Recommendation:</strong> HOLD. Don't add at $197 — the FY2027 earnings recovery story is real</p>
+<p>> (18x FY2027E EPS of $10.97) but requires aggressive operating margin expansion that is not yet</p>
+<p>> proven. AMD is a legitimate #2 in the most important semiconductor cycle of the decade.</p>
+<p>> The EPYC server CPU story is stronger and more defensible than the GPU story. Add below $160</p>
+<p>> (15x FY2027E). Exit if FY2026 EPS misses by >15% — would signal AMD cannot close the</p>
+<p>> CUDA moat gap.</p>
+
+<hr>
+
+<h2 id="summary-verdict">Summary Verdict</h2>
+
+<h3 id="why-this-business">Why this business?</h3>
+
+<p>AMD is not just a GPU challenger to NVIDIA — that framing misses the more important story. AMD's EPYC server CPUs have quietly taken 30%+ of the server CPU market from Intel, a business with high switching costs, multi-year procurement cycles, and margins that NVDA doesn't compete in at all. On top of that, AMD's MI300X and MI350 GPU accelerators have won real inference workloads at Microsoft Azure and Meta — not training, where NVIDIA's CUDA moat is near-impenetrable, but inference, where memory bandwidth matters more than ecosystem lock-in. The result is a company with $34.6B in revenue (+34% YoY), $6.7B net cash, and a data center business growing 32% annually — trading at 18x FY2027 earnings after a 15% correction from the user's average cost. This is not a screaming buy, but it is not a sell either. AMD is a high-quality #2 in a duopoly, and being #2 in semiconductors is a very good place to be.</p>
+
+<h3 id="strengths">Strengths</h3>
+
+<p>1. <strong>EPYC CPU is winning on fundamentals, not just price.</strong> AMD EPYC has taken 30%+ server CPU market share from Intel. The performance-per-watt advantage is real and cloud providers (AWS Graviton notwithstanding) are actively deploying EPYC across data centers. Intel is in structural decline. This CPU moat is more durable than the GPU story.</p>
+<p>2. <strong>MI300X is competitive in inference.</strong> For Large Language Model (LLM) inference (running models, not training them), the MI300X outperforms NVIDIA H100 on memory bandwidth — the key constraint for LLM inference. Microsoft, Meta, and Oracle have deployed MI300X at scale. This is not speculation; it is in production.</p>
+<p>3. <strong>Lisa Su is one of the best CEOs in tech.</strong> She took AMD from near-bankruptcy in 2014 to a $320B company. Capital allocation decisions (Xilinx acquisition, EPYC roadmap) have been consistently correct. Management execution risk is low.</p>
+<p>4. <strong>Revenue CAGR is exceptional.</strong> $16.4B (FY2021) → $34.6B (FY2025) — 2.1x in 4 years. Data center revenue alone hit $16.6B in FY2025 (+32% YoY). FY2026 analyst consensus: $47B (+36%).</p>
+<p>5. <strong>$6.7B net cash, low debt.</strong> Balance sheet is clean. No financial distress risk even in a semiconductor downturn.</p>
+
+<h3 id="concerns">Concerns</h3>
+
+<p>1. <strong>CUDA ecosystem is NVIDIA's real moat — and AMD cannot replicate it easily.</strong> NVIDIA's dominance in AI training is not about hardware specs — it's about CUDA, the software layer that every AI researcher and model developer has used for 15 years. Switching to ROCm (AMD's equivalent) requires rewriting code, retraining teams, and re-optimising models. Hyperscalers will use AMD where it wins on specs (inference, memory bandwidth) but will default to NVIDIA for training indefinitely.</p>
+<p>2. <strong>Operating margin is too low for a semiconductor company.</strong> At 10.7% operating margin on $34.6B revenue, AMD leaves enormous value on the table vs NVIDIA's 60%+ operating margins. Xilinx integration costs and R&D investment depress margins now, but the FY2026 EPS jump from $2.65 to $6.72 (+153%) implies massive margin expansion that has not yet been demonstrated.</p>
+<p>3. <strong>Custom silicon from hyperscalers is the real long-term threat.</strong> Google (TPU), Amazon (Trainium/Inferentia), Microsoft (Maia), Meta (MTIA) are all building custom AI chips. As these mature, they reduce dependence on both NVIDIA and AMD. AMD's GPU upside is constrained not just by NVDA but by the hyperscalers themselves.</p>
+<p>4. <strong>Valuation requires execution.</strong> At $197, you're paying 74x trailing FY2025 EPS ($2.65). The bull case is entirely contingent on FY2026-27 EPS delivery. If margins disappoint, the stock re-rates sharply.</p>
+<p>5. <strong>PC/gaming segment is a drag.</strong> AMD's consumer GPU (Radeon) and PC CPU (Ryzen) businesses face intense competition from Intel on CPU and NVIDIA on GPU. Margins are lower, growth is slower. This half of AMD dilutes the data centre story.</p>
+
+<h3 id="the-compounding-equation">The Compounding Equation</h3>
+
+<p>AMD has two compounding engines with different quality levels:</p>
+
+<p><strong>Engine 1 — EPYC (high quality):</strong> Intel server CPU market share was ~90% in 2018. It is ~65% today. AMD EPYC has taken ~30% share in 7 years and the trajectory continues. Cloud providers switching to EPYC save 20-30% on compute costs at equivalent performance. Each generation (Genoa, Bergamo, Turin) widens the performance gap. Once a data centre is deployed with EPYC, the switching cost back to Intel is enormous (re-certification, re-procurement, re-testing). This is a 5-7 year runway of continued share gains at improving margins.</p>
+
+<p><strong>Engine 2 — AI GPU (lower quality, high optionality):</strong> AMD's share of the AI accelerator market is 5-8% vs NVIDIA's 80-90%. The upside is significant — every 5pp of share gain at this market scale is billions in revenue. But CUDA lock means AMD must win on specific workload advantages (inference, memory bandwidth), not general AI training. The trajectory is positive but the ceiling is lower than the GPU revenue growth rate suggests.</p>
+
+<p>Incremental ROIC: AMD deployed ~$7B in annual R&D over FY2023-25. Revenue grew $11.9B from FY2023→FY2025. Incremental R&D ROIC ≈ 170% — extreme, but semiconductor R&D is lumpy. More useful: FCF went from $1.1B (FY2023) to $6.7B (FY2025) — 6x in 2 years. The operating leverage is beginning to show.</p>
+
+<h3 id="what-does-the-market-think-and-where-do-i-disagree">What does the market think — and where do I disagree?</h3>
+
+<p>At $197 and 74x trailing PE, the market is pricing in significant earnings growth but has moderated expectations after the post-2023 AI boom re-rated the stock from $60 to $230 then back to $197. Consensus: AMD is a buy at 32x FY2026E ($6.72) with a $261 price target.</p>
+
+<p>My disagreement: I'm less certain on the EPS growth trajectory. Going from $2.65 (FY2025) to $6.72 (FY2026) requires operating margin to nearly double. AMD has not demonstrated this before. The EPYC story is solid; the GPU/EPS acceleration story requires a "show me" quarter. At $197, the risk/reward is roughly balanced — not a compelling add.</p>
+
+<p>Reverse DCF: at $197, the market implies ~25% revenue CAGR and ~15% long-term operating margins. The revenue CAGR is plausible; the margin is the question.</p>
+
+<h3 id="multi-bagger-math">Multi-Bagger Math</h3>
+
+<table>
+<tr><th>Scenario</th><th>FY2027 EPS</th><th>PE</th><th>Per Share</th><th>Multiple from $197</th><th>Probability</th></tr>
+<tr><td>Bear</td><td>$6.50 (margins disappoint)</td><td>15x</td><td>$97</td><td>0.5x</td><td>20%</td></tr>
+<tr><td>Base</td><td>$10.97</td><td>18x</td><td>$197</td><td>1.0x (flat)</td><td>50%</td></tr>
+<tr><td>Bull</td><td>$12.00 (upside on MI350)</td><td>22x</td><td>$264</td><td>1.3x</td><td>30%</td></tr>
+</table>
+
+<p><strong>Probability-weighted: ~$175</strong> — slightly below CMP. Not a multi-bagger from here. A Quality Compounder hold.</p>
+
+<p>The math is clear: at $197, AMD needs to deliver on very aggressive EPS estimates just to stay flat. The upside is limited relative to the risk. This is a HOLD, not an ADD.</p>
+
+<h3 id="when-do-i-sell">When do I sell?</h3>
+
+<p>1. FY2026 EPS misses analyst consensus ($6.72) by more than 15% — signals margin expansion thesis is broken</p>
+<p>2. EPYC server CPU market share stops growing for 2 consecutive quarters — the more defensible moat failing</p>
+<p>3. A major hyperscaler (Microsoft, AWS, Google) publicly announces it is reducing AMD GPU deployments in favour of custom silicon</p>
+<p>4. Lisa Su departure — single most important management risk</p>
+
+<h3 id="where-does-this-rank">Where does this rank?</h3>
+
+<p>Vs NVDA ($183, A · 22/25): NVDA is the superior business — CUDA moat is unbreachable, margins are 3-4x higher, revenue growth is faster. If forced to choose one AI chip stock, NVDA wins. AMD is the cheaper, higher-risk alternative for those who believe the CUDA monopoly will erode.</p>
+
+<p>Vs MSFT ($370, A · 20/25): MSFT is a safer, more diversified compounder. AMD is a purer AI semiconductor bet with more volatility and more upside in a bull case.</p>
+
+<h3 id="action-table">Action Table</h3>
+
+<table>
+<tr><th>Level</th><th>Price</th><th>Action</th></tr>
+<tr><td>Exit</td><td>Above $250</td><td>Near analyst target — take profits on this small position</td></tr>
+<tr><td>Hold</td><td>$160–250</td><td>Current range. Don't add, don't exit.</td></tr>
+<tr><td>Add small</td><td>$130–160</td><td>15x FY2027E — better risk/reward</td></tr>
+<tr><td>Strong buy</td><td>Below $130</td><td>12x FY2027E — bear case priced in, asymmetric upside</td></tr>
+</table>
+
+<hr>
+
+<h2 id="section-1-business-summary">Section 1 — Business Summary</h2>
+
+<p><strong>Four segments:</strong></p>
+<ul>
+<li><strong>Data Center:</strong> $16.6B revenue FY2025 (+32% YoY). EPYC server CPUs + Instinct MI300/350 GPU accelerators. Fastest growing, highest margin segment.</li>
+<li><strong>Client (PC CPUs):</strong> ~$7B. Ryzen processors for laptops/desktops. Competitive with Intel.</li>
+<li><strong>Gaming (GPUs):</strong> ~$5B and declining. Radeon GPUs face NVIDIA dominance in consumer market.</li>
+<li><strong>Embedded (Xilinx FPGAs):</strong> ~$6B. Acquired Xilinx 2022 for $49B. Industrial, automotive, telecom. High margin but cyclical.</li>
+</ul>
+
+<p><strong>Key products:</strong> EPYC Turin (server CPU, 4th gen), MI300X/MI350 (AI GPU accelerator), Ryzen AI (laptop CPU with NPU).</p>
+
+<hr>
+
+<h2 id="section-2-quality-scorecard">Section 2 — Quality Scorecard</h2>
+
+<table>
+<tr><th>Dimension</th><th>Score</th><th>Evidence</th></tr>
+<tr><td>MOAT</td><td>3/5</td><td>EPYC CPU moat is real (30% server share, switching costs). GPU moat is weak — CUDA prevents AMD from winning training workloads. Xilinx FPGA adds a third moat in embedded/industrial.</td></tr>
+<tr><td>Management</td><td>4/5</td><td>Lisa Su — arguably best semiconductor CEO outside of Jensen Huang. Turned AMD around from near-zero. Xilinx acquisition was well-executed.</td></tr>
+<tr><td>Financials</td><td>3/5</td><td>Revenue growing fast, FCF $6.7B, net cash $6.7B. But operating margin 10.7% is far below NVDA/QCOM peers. EPS acceleration requires unproven margin expansion.</td></tr>
+<tr><td>Growth Runway</td><td>3/5</td><td>Data center CPU/GPU is a real multi-year tailwind. But CUDA lock caps GPU upside; custom ASIC competition is long-term headwind. EPYC runway is 5+ years.</td></tr>
+<tr><td>Valuation</td><td>3/5</td><td>74x trailing PE (expensive), but 18x FY2027E (reasonable if EPS delivers). $261 analyst target = 32% upside. Not cheap, not expensive at current levels.</td></tr>
+<tr><td><strong>Total</strong></td><td><strong>16/25</strong></td><td><strong>Grade B- — Quality Compounder, not a multi-bagger from current price</strong></td></tr>
+</table>
+
+<hr>
+
+<h2 id="section-3-compounding-engine-q-a">Section 3 — Compounding Engine Q&A</h2>
+
+<p><strong>Q: Can AMD actually take NVIDIA's GPU market share?</strong></p>
+<p>In training workloads — unlikely in the 5-year horizon. CUDA has 15 years of momentum. Switching from NVIDIA to AMD for training means rewriting model code, retraining engineers, and re-optimising every workflow. The productivity cost is enormous. For inference (running models at scale), AMD has a real shot because inference is more commodity-like — the primary constraint is memory bandwidth, where MI300X leads H100.</p>
+
+<p><strong>Q: Is the EPYC story more durable than the GPU story?</strong></p>
+<p>Yes, significantly. Server CPU procurement is a 3-5 year cycle. Once a hyperscaler certifies EPYC for its fleet, it stays for years. Intel's Xeon roadmap has consistently disappointed while EPYC Turin leads on performance-per-watt. Every 5pp of server CPU share gain from Intel adds ~$1.5-2B in high-margin annual revenue. This is the underappreciated engine.</p>
+
+<p><strong>Q: Why is operating margin only 10.7% if AMD is winning?</strong></p>
+<p>Two reasons: (1) Xilinx acquisition ($49B) generates ~$5-6B annual goodwill/intangibles amortisation that hits operating income. (2) AMD is investing heavily in R&D ($6B+/year) to compete with both NVIDIA on AI and Intel on CPUs simultaneously. As Xilinx amortisation rolls off and R&D scales, operating margins should expand toward 20-25% by FY2028.</p>
+
+<hr>
+
+<h2 id="section-4-key-financial-metrics">Section 4 — Key Financial Metrics</h2>
+
+<h3 id="income-statement">Income Statement</h3>
+
+<table>
+<tr><th>Metric</th><th>FY2021</th><th>FY2022</th><th>FY2023</th><th>FY2024</th><th>FY2025</th><th>FY2026E</th><th>FY2027E</th></tr>
+<tr><td>Revenue ($B)</td><td>$16.4</td><td>$23.6</td><td>$22.7</td><td>$25.8</td><td>$34.6</td><td>$47.0</td><td>$67.2</td></tr>
+<tr><td>Revenue growth</td><td>—</td><td>+44%</td><td>-4%</td><td>+14%</td><td>+34%</td><td>+36%</td><td>+43%</td></tr>
+<tr><td>Gross Margin</td><td>48.3%</td><td>44.9%</td><td>46.1%</td><td>49.4%</td><td>49.5%</td><td>—</td><td>—</td></tr>
+<tr><td>Operating Margin</td><td>22.2%</td><td>5.4%</td><td>1.8%</td><td>7.4%</td><td>10.7%</td><td>~14%</td><td>~16%</td></tr>
+<tr><td>Net Income ($B)</td><td>$3.2</td><td>$1.3</td><td>$0.8</td><td>$1.6</td><td>$4.3</td><td>—</td><td>—</td></tr>
+<tr><td>EPS (diluted)</td><td>$2.57</td><td>$0.84</td><td>$0.53</td><td>$1.00</td><td>$2.65</td><td>$6.72E</td><td>$10.97E</td></tr>
+<tr><td>FCF ($B)</td><td>$3.2</td><td>$3.1</td><td>$1.1</td><td>$2.4</td><td>$6.7</td><td>—</td><td>—</td></tr>
+</table>
+
+<h3 id="balance-sheet-fy2025">Balance Sheet (FY2025)</h3>
+
+<table>
+<tr><th>Item</th><th>Value</th></tr>
+<tr><td>Cash + Investments</td><td>$10.6B</td></tr>
+<tr><td>Total Debt</td><td>$3.8B</td></tr>
+<tr><td>Net Cash</td><td>$6.7B</td></tr>
+<tr><td>Shareholders' Equity</td><td>$63.0B</td></tr>
+<tr><td>Net Cash per Share</td><td>~$4.10</td></tr>
+</table>
+
+<h3 id="valuation-cmp-197-75">Valuation (CMP $197.75)</h3>
+
+<table>
+<tr><th>Multiple</th><th>Value</th><th>Context</th></tr>
+<tr><td>Trailing PE</td><td>74x</td><td>Distorted by low FY2025 EPS</td></tr>
+<tr><td>Forward PE (FY2026E)</td><td>29x</td><td>Requires margin expansion delivery</td></tr>
+<tr><td>Forward PE (FY2027E)</td><td>18x</td><td>Reasonable if EPS $10.97 materialises</td></tr>
+<tr><td>EV/Revenue (FY2025)</td><td>~9x</td><td>Premium to market, fair for growth rate</td></tr>
+<tr><td>Analyst avg target</td><td>$261</td><td>+32% upside; 33 analysts, "Buy" consensus</td></tr>
+</table>
+
+<hr>
+
+<h2 id="section-5-outlook">Section 5 — Outlook</h2>
+
+<p><strong>FY2026:</strong> Revenue $47B (+36%). EPS $6.72 (+153%). The EPS jump requires operating margin to expand from 10.7% to ~14%. Key drivers: Xilinx amortisation declining, Data Center mix improving (higher margin), MI350 ramp. This is the "show me" year.</p>
+
+<p><strong>FY2027:</strong> Revenue $67B (+43%). EPS $10.97 (18x PE at current price = $197). If AMD hits this, the stock is effectively flat from today — all the upside is priced in. This is why it's a HOLD, not an ADD.</p>
+
+<p><strong>Long-term:</strong> AMD's ceiling depends on whether ROCm can close the gap with CUDA. If it does (5-10 year timeframe), GPU margins expand significantly and AMD's data center segment could approach $30-40B. If it doesn't, AMD wins on inference/EPYC but stays structurally capped at 8-12% AI accelerator share.</p>
+
+<hr>
+
+<h2 id="section-6-competitive-landscape">Section 6 — Competitive Landscape</h2>
+
+<table>
+<tr><th>Competitor</th><th>Segment</th><th>Position vs AMD</th></tr>
+<tr><td><strong>NVIDIA</strong></td><td>AI GPU (training)</td><td>Dominant — CUDA moat is near-impenetrable for training. AMD is competitive on inference.</td></tr>
+<tr><td><strong>Intel</strong></td><td>Server CPU</td><td>Losing share consistently. AMD EPYC Turin leads on performance-per-watt. Intel is structural headwind for AMD.</td></tr>
+<tr><td><strong>Google TPU / AWS Trainium / MSFT Maia</strong></td><td>Custom AI ASIC</td><td>Long-term threat — hyperscalers reducing merchant GPU dependence. 5+ year risk, not immediate.</td></tr>
+<tr><td><strong>Qualcomm / ARM</strong></td><td>Client CPU</td><td>Competing in laptop CPUs. Not a data centre threat.</td></tr>
+</table>
+
+<hr>
+
+<h2 id="section-7-risks">Section 7 — Risks</h2>
+
+<p>1. <strong>EPS misses FY2026 — most likely near-term risk.</strong> Going from $2.65 to $6.72 EPS requires operating margin to jump from 10.7% to ~14%. If margin expansion is slower, EPS could print $4-5 → stock re-rates to $80-100 on trailing basis. This is the key number to watch in Q2/Q3 2026 earnings.</p>
+<p>2. <strong>Custom ASIC displacement.</strong> Google, Amazon, Microsoft are all building proprietary AI chips. Long-term (5-7 years), this reduces the total available market for AMD GPUs in training and inference.</p>
+<p>3. <strong>CUDA moat never erodes.</strong> If hyperscalers never switch from NVIDIA to AMD for training at scale, AMD's GPU upside is permanently capped at inference workloads (~20-25% of total AI chip demand).</p>
+<p>4. <strong>Gaming GPU decline.</strong> Radeon continues losing share to NVIDIA in consumer GPUs. If this segment continues shrinking, it drags blended margins and creates earnings noise.</p>
+
+<hr>
+
+<h2 id="section-8-exit-triggers">Section 8 — Exit Triggers</h2>
+
+<p>1. FY2026 EPS misses $6.72 by >15% (prints below ~$5.70)</p>
+<p>2. EPYC market share stalls — Intel/ARM regains server CPU ground</p>
+<p>3. Major hyperscaler publicly reduces AMD GPU commitment</p>
+<p>4. Lisa Su departure</p>
+
+<hr>
+
+<h2 id="section-9-review-schedule">Section 9 — Review Schedule</h2>
+
+<ul>
+<li><strong>Q2 FY2026 earnings (Jul 2026):</strong> First real test of operating margin expansion toward 14%. Key number.</li>
+<li><strong>FY2026 full year (Jan 2027):</strong> Does EPS hit $6.72? Does data center grow 35%+? Go/no-go decision.</li>
+</ul>
+
+<hr>
+
+<div class="sr-private"><h2 id="section-10-decision-history">Section 10 — Decision History</h2>
+
+<table>
+<tr><th>Date</th><th>Action</th><th>Price</th><th>Reasoning</th></tr>
+<tr><td>(prior)</td><td>BUY</td><td>$232.89</td><td>1 share — tracking position</td></tr>
+<tr><td>2026-04-04</td><td>HOLD</td><td>$197.75</td><td>Thesis initiated. Not an add at current price. Wait for $160 or FY2026 earnings confirmation.</td></tr>
+</table>
+
+<hr>
+
+</div><h2 id="section-11-research-log">Section 11 — Research Log</h2>
+
+<h3 id="2026-04-04-initial-thesis">2026-04-04 — Initial Thesis</h3>
+
+<p><strong>Source:</strong> StockAnalysis.com (financials), SiliconAnalysts (AI market share), Statista (data center revenue)</p>
+
+<p>Key findings:</p>
+<ul>
+<li>FY2025: Revenue $34.6B (+34%), Net Income $4.3B, EPS $2.65, FCF $6.7B, Net Cash $6.7B</li>
+<li>Data Center $16.6B (+32%) — EPYC + MI300X both growing</li>
+<li>Market share: NVDA 80-90% AI GPU, AMD 5-8%. AMD has 30%+ server CPU share vs Intel.</li>
+<li>FY2026E: Revenue $47B, EPS $6.72 (+153%) — requires operating margin jump to ~14%</li>
+<li>FY2027E: Revenue $67B, EPS $10.97 — at 18x = $197. Stock at breakeven on FY2027 basis from today.</li>
+<li>Quality Score: 16/25 Grade B-. Classification: Quality Compounder.</li>
+<li>Verdict: HOLD. Add below $160 (15x FY2027E). Exit above $250 (near analyst target).</li>
+<li>Key insight: EPYC CPU story > GPU story in durability. Market focuses on NVDA/GPU narrative but EPYC is the more defensible compounding engine.</li>
+</ul>
+
+<hr>
+
+<h2 id="version-history">Version History</h2>
+
+<table>
+<tr><th>Version</th><th>Date</th><th>Summary</th></tr>
+<tr><td>v1</td><td>2026-04-04</td><td>Initial thesis — OWNED, HOLD. 16/25 Grade B-, Quality Compounder.</td></tr>
+</table>
+
+<script src="notes.js"></script>
+<script>
+var toc=document.getElementById('toc');
+document.querySelectorAll('h2').forEach(function(h){
+  var a=document.createElement('a');
+  a.href='#'+h.id; a.textContent=h.textContent;
+  toc.appendChild(a);
+});
+if(toc.querySelectorAll('a').length===0)toc.style.display='none';
+</script>
+</body></html>

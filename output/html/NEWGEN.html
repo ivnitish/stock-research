@@ -12,6 +12,8 @@ code{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:#
 hr{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}
 ul{padding-left:20px;} li{margin:4px 0;}
 strong{color:#111827;}
+/* Private blocks: visible in browser, hidden in print/PDF */
+.sr-private{border-left:3px solid #fbbf24;padding-left:8px;background:#fffbeb;}
 #toc{position:fixed;top:80px;right:16px;width:200px;background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;font-size:12px;max-height:70vh;overflow-y:auto;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:100;}
 #toc summary{font-weight:600;cursor:pointer;color:#1d4ed8;margin-bottom:6px;}
 #toc a{display:block;color:#374151;text-decoration:none;padding:2px 0;line-height:1.4;}
@@ -19,6 +21,7 @@ strong{color:#111827;}
 @media(max-width:1200px){#toc{display:none;}}
 @media print{
   .no-print{display:none!important;}
+  .sr-private{display:none!important;}
   body{max-width:100%;margin:0;padding:12px;color:#000;}
   h1{color:#000;border-bottom:2px solid #000;font-size:1.6em;}
   h2{color:#000;border-bottom:1px solid #666;font-size:1.2em;}
@@ -38,7 +41,7 @@ strong{color:#111827;}
 <p><strong>Status:</strong> OWNED (200 shares, avg ₹447.8, ~6% of portfolio)</p>
 <p><strong>Quality Score:</strong> 18/25 (Grade B+)</p>
 <p><strong>Classification:</strong> Multi-Bagger Candidate</p>
-<p><strong>Last Updated:</strong> 2026-04-19 | <strong>CMP:</strong> ₹484 | <strong>Entry:</strong> ₹447.8 | <strong>P&L:</strong> +8.1%</p>
+<p class="sr-private"><strong>Last Updated:</strong> 2026-04-19 | <strong>CMP:</strong> ₹484 | <strong>Entry:</strong> ₹447.8 | <strong>P&L:</strong> +8.1%</p>
 
 <p>> <strong>Recommendation:</strong> HOLD. Add aggressively below ₹430.</p>
 <p>> Newgen is the only listed Indian software product company competing globally in enterprise workflow automation — a market where switching costs are measured in years of embedded processes, not months of migration effort. At 21x earnings on a 33% profit CAGR (5-year), the market is pricing in AI-driven demand destruction that hasn't materialised. The underlying platform keeps winning global bank and insurer deals. Base case: ₹900–1,000 over 3 years (2x from CMP). Critical catalyst: Q4 FY26 results May 5, 2026 — if revenue ≥₹430 Cr and OPM ≥28%, growth re-acceleration is confirmed and the stock re-rates.</p>
@@ -343,7 +346,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2 id="10-decision-history">10. Decision History</h2>
+<div class="sr-private"><h2 id="10-decision-history">10. Decision History</h2>
 
 <table>
 <tr><th>Date</th><th>Action</th><th>Price</th><th>Reasoning</th></tr>
@@ -353,7 +356,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2 id="11-research-log">11. Research Log</h2>
+</div><h2 id="11-research-log">11. Research Log</h2>
 
 <p><em>Most recent first.</em></p>
 
@@ -383,7 +386,6 @@ strong{color:#111827;}
 
 <script src="notes.js"></script>
 <script>
-// Build TOC from h2 headings
 var toc=document.getElementById('toc');
 document.querySelectorAll('h2').forEach(function(h){
   var a=document.createElement('a');

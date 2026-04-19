@@ -12,6 +12,8 @@ code{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:#
 hr{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}
 ul{padding-left:20px;} li{margin:4px 0;}
 strong{color:#111827;}
+/* Private blocks: visible in browser, hidden in print/PDF */
+.sr-private{border-left:3px solid #fbbf24;padding-left:8px;background:#fffbeb;}
 #toc{position:fixed;top:80px;right:16px;width:200px;background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;font-size:12px;max-height:70vh;overflow-y:auto;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:100;}
 #toc summary{font-weight:600;cursor:pointer;color:#1d4ed8;margin-bottom:6px;}
 #toc a{display:block;color:#374151;text-decoration:none;padding:2px 0;line-height:1.4;}
@@ -19,6 +21,7 @@ strong{color:#111827;}
 @media(max-width:1200px){#toc{display:none;}}
 @media print{
   .no-print{display:none!important;}
+  .sr-private{display:none!important;}
   body{max-width:100%;margin:0;padding:12px;color:#000;}
   h1{color:#000;border-bottom:2px solid #000;font-size:1.6em;}
   h2{color:#000;border-bottom:1px solid #666;font-size:1.2em;}
@@ -35,10 +38,10 @@ strong{color:#111827;}
 <details id="toc" class="no-print"><summary>Jump to section</summary></details>
 <h1 id="patels-airtemp-india-ltd-nse-bse-517417-investment-thesis">Patels Airtemp (India) Ltd (NSE/BSE: 517417) — Investment Thesis</h1>
 
-<p><strong>Status:</strong> WATCHLIST — DO NOT ENTER at current price</p>
+<p><strong>Status:</strong> SMALL STARTER — Defensible at ₹315 (AGM-confirmed data)</p>
 <p><strong>Quality Score:</strong> 13/25 (Grade C+)</p>
 <p><strong>Last Updated:</strong> 2026-04-15</p>
-<p><strong>CMP:</strong> ₹315 | <strong>MCap:</strong> ₹173 Cr | <strong>P/B:</strong> 1.09x | <strong>P/E:</strong> 16.3x | <strong>52W:</strong> ₹180–₹539</p>
+<p><strong>CMP:</strong> ₹315 | <strong>MCap:</strong> ₹172 Cr | <strong>P/B:</strong> 1.07x | <strong>P/E (FY25 audited):</strong> 10.5x | <strong>P/E (TTM FY26):</strong> ~16x | <strong>52W:</strong> ₹180–₹539</p>
 
 <hr>
 
@@ -384,7 +387,7 @@ strong{color:#111827;}
 
 <hr>
 
-<h2 id="10-decision-history">10. Decision History</h2>
+<div class="sr-private"><h2 id="10-decision-history">10. Decision History</h2>
 
 <table>
 <tr><th>Date</th><th>Action</th><th>Price</th><th>Quantity</th><th>Reasoning</th></tr>
@@ -393,10 +396,54 @@ strong{color:#111827;}
 
 <hr>
 
-<h2 id="11-research-log">11. Research Log</h2>
+</div><h2 id="11-research-log">11. Research Log</h2>
 
 <p><em>New learnings, commentary, and thesis updates — most recent first.</em></p>
 <p><em>Full edit history: <code>git log research/PATELSAIR.md</code></em></p>
+
+<h3 id="2026-04-15-33rd-agm-analysis-sep-2025-npcil-confirmed-data-correction">2026-04-15 — 33rd AGM Analysis (Sep 2025): NPCIL confirmed + data correction</h3>
+
+<p><strong>Source:</strong> PATELSAIR 33rd AGM transcript (video EPMtzXum5o0, Sep 27, 2025) | [Summary](../data/transcripts/channel/NA_EPMtzXum5o0_summary.md)</p>
+
+<p><strong>Critical data correction: FY25 revenue was ₹287.82 Cr, NOT ₹388 Cr.</strong></p>
+<p>CMD stated in AGM: "total revenue from operations of ₹287.82 Cr for year ended March 31, 2025 compared to ₹370.76 Cr for FY24." FY24 figure matches (₹371 Cr in our table = correct). The ₹388 Cr previously in our FY25 row was likely a TTM figure from Screener fetched at a mid-year date — not audited annual. The P&L table should show FY25 = ₹288 Cr (22% decline). FY25 EPS: ₹30.18 (₹16.51 Cr PAT / 54.7L shares). This also corrects the P/E at ₹315 CMP: on FY25 audited earnings, P/E = ₹172 Cr / ₹16.51 Cr = <strong>10.5x, not 16.3x</strong> (16.3x was on TTM FY26 earnings which are cyclically depressed).</p>
+
+<p><strong>Nuclear — current revenue confirmed:</strong></p>
+<p>CMD: <em>"We have a good about 23 or 24 Cr from NPCIL currently... we are positioned very well to take advantage of that situation."</em> NPCIL = ~8% of FY25 revenue already. Not future potential — live revenue today. India's nuclear expansion creates uplift from this base.</p>
+
+<p><strong>Order pipeline:</strong></p>
+<ul>
+<li>Sep 1, 2025 confirmed order book: ₹223.70 Cr (management stated this directly)</li>
+<li>Bids submitted, awaiting awards: ₹200-250 Cr</li>
+<li>Management confident next two quarters for order booking "very promising"</li>
+</ul>
+
+<p><strong>Cyclical explanation — credible:</strong></p>
+<ul>
+<li>Slowdown since Jan 2025 in petrochemicals/refinery projects</li>
+<li>Causes: tariff uncertainty (US), global near-recession, India election year</li>
+<li>"We have survived since 1973. We are not worried. We have seen worse years."</li>
+<li>Consistent with what ISGEC/Thermax said — industry-wide, not Patels-specific</li>
+</ul>
+
+<p><strong>Expansion initiatives:</strong></p>
+<ul>
+<li>Gauy plant: 4 sheds built (11,006 sq mt, ₹24 Cr total capex) — now planning further expansion; running numbers internally, no equity dilution signalled</li>
+<li>Exotic materials bay (Rakenpur): dedicated bay for inalloy, super duplex — lower competition, higher value addition per tonne</li>
+<li>Borrowing limit raised to ₹500 Cr via special resolution (current debt ~₹90 Cr)</li>
+</ul>
+
+<p><strong>Governance signals:</strong></p>
+<ul>
+<li>Dividend maintained at 30% (₹3/share) — 19 consecutive years</li>
+<li>No auditor qualifications — clean audit</li>
+<li>Investor calls: planned "when we grow out of micro-cap"; no quarterly calls yet but intent stated</li>
+</ul>
+
+<p><strong>Revised recommendation at ₹315:</strong></p>
+<p>At 10.5x P/E on FY25 audited earnings (not the misleading 16.3x TTM figure), with NPCIL already contributing ₹23-24 Cr, cyclical slowdown credibly explained, and a ₹200-250 Cr bid pipeline — ₹315 is defensible for a small starter position. Prior call of "DO NOT ENTER" was based on the incorrect 16.3x P/E. On normalized FY25 earnings, the stock is the cheapest in its peer group.</p>
+
+<hr>
 
 <h3 id="2026-04-15-price-update-opportunity-passed-at-current-levels">2026-04-15 — Price update: opportunity passed at current levels</h3>
 
@@ -462,7 +509,6 @@ strong{color:#111827;}
 
 <script src="notes.js"></script>
 <script>
-// Build TOC from h2 headings
 var toc=document.getElementById('toc');
 document.querySelectorAll('h2').forEach(function(h){
   var a=document.createElement('a');

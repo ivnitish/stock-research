@@ -38,3 +38,4 @@ data/transcripts/**/*.md
 
 # Transcript HTML previews (local only)
 data/transcripts/**/*.html
+output/pdf/
