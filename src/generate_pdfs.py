@@ -28,7 +28,7 @@ PDF_DIR  = Path(__file__).parent.parent / "output" / "pdf"
 
 # Files to skip (not individual research reports)
 SKIP = {
-    "index.html", "auth.html", "_TEMPLATE.html",
+    "index.html", "auth.html", "submit.html", "_TEMPLATE.html",
     "CONCENTRATION_STRATEGY.html", "GROWW_vs_ICICIAMC.html",
     "KCP_raw_data.html", "LOSERS_ANALYSIS.html",
     "MACRO_NOTES.html", "MARKET_NOTE_MAR2026.html",
