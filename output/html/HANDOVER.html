@@ -1,0 +1,187 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>HANDOVER.md</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:960px;margin:40px auto;padding:0 24px;color:#1f2937;line-height:1.7;}
+h1{font-size:2em;border-bottom:3px solid #1d4ed8;padding-bottom:8px;color:#1e3a5f;}
+h2{font-size:1.4em;border-bottom:1px solid #e5e7eb;padding-bottom:6px;color:#1d4ed8;margin-top:32px;}
+h3{font-size:1.1em;color:#374151;margin-top:24px;}
+table{border-collapse:collapse;width:100%;margin:16px 0;font-size:13.5px;}
+th{background:#1e3a5f;color:#fff;padding:8px 12px;text-align:left;}
+td{padding:7px 12px;border-bottom:1px solid #f3f4f6;}
+tr:nth-child(even){background:#f9fafb;}
+code{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:#7c3aed;}
+hr{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}
+ul{padding-left:20px;} li{margin:4px 0;}
+strong{color:#111827;}
+/* Private blocks: visible in browser, hidden in print/PDF */
+.sr-private{border-left:3px solid #fbbf24;padding-left:8px;background:#fffbeb;}
+#toc{position:fixed;top:80px;right:16px;width:200px;background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;font-size:12px;max-height:70vh;overflow-y:auto;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:100;}
+#toc summary{font-weight:600;cursor:pointer;color:#1d4ed8;margin-bottom:6px;}
+#toc a{display:block;color:#374151;text-decoration:none;padding:2px 0;line-height:1.4;}
+#toc a:hover{color:#1d4ed8;}
+@media(max-width:1200px){#toc{display:none;}}
+@media print{
+  .no-print{display:none!important;}
+  .sr-private{display:none!important;}
+  body{max-width:100%;margin:0;padding:12px;color:#000;}
+  h1{color:#000;border-bottom:2px solid #000;font-size:1.6em;}
+  h2{color:#000;border-bottom:1px solid #666;font-size:1.2em;}
+  h3{color:#222;}
+  th{background:#333!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  td{border-bottom:1px solid #ccc;}
+  tr:nth-child(even){background:#f5f5f5!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  code{background:#eee;color:#333;}
+  a{color:#000;text-decoration:none;}
+  table{page-break-inside:avoid;font-size:11px;}
+  h2,h3{page-break-after:avoid;}
+}
+</style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
+<details id="toc" class="no-print"><summary>Jump to section</summary></details>
+<h1 id="stock-research-system-new-chat-handover">Stock Research System — New Chat Handover</h1>
+
+<p><em>Read this at the start of every new Claude Code session in <code>/Users/nitish/stocks automation/</code>.</em></p>
+
+<hr>
+
+<h2 id="what-this-system-is">What this system is</h2>
+
+<p>A personal equity research pipeline. You write research notes in Markdown, they render to HTML (GitHub Pages), and can be exported as private-data-free PDFs. The framework is Munger-style fundamental analysis focused on identifying multi-baggers (20%+ CAGR compounders).</p>
+
+<p><strong>GitHub Pages (live site):</strong> ivnitish.github.io/stocks  </p>
+<p><strong>Working directory:</strong> <code>/Users/nitish/stocks automation/</code>  </p>
+<p><strong>Model preference:</strong> Claude Opus (claude-opus-4-6)</p>
+
+<hr>
+
+<h2 id="when-user-says-stock-research-on-a-new-company">When user says "stock research" on a new company</h2>
+
+<p>1. <strong>Fetch financials:</strong> <code>python3 src/fetch_bse_filings.py SYMBOL</code> for filings; WebFetch <code>screener.in/company/SYMBOL/consolidated</code> for ratios</p>
+<p>2. <strong>Use the template:</strong> <code>research/_TEMPLATE.md</code> — follow the 11-section structure</p>
+<p>3. <strong>Output file:</strong> <code>research/SYMBOL.md</code></p>
+<p>4. <strong>Render to HTML:</strong> <code>python3 src/render_all.py SYMBOL</code> — renders HTML + generates PDF automatically</p>
+<p>5. <strong>Update index:</strong> Add row to <code>output/html/index.html</code> (see rules in <code>.claude/rules/index-always.md</code>)</p>
+<p>6. <strong>Open in Chrome to review:</strong> <code>open output/html/SYMBOL.html</code></p>
+<p>7. <strong>Push:</strong> <code>git push origin main</code></p>
+
+<p><strong>Quality scoring:</strong> 5 dimensions × 5 points = 25 max. A=20-25, B=15-19, C<15, D=structural problem.</p>
+
+<p><strong>Never fabricate data.</strong> If Screener.in doesn't have it, say so.</p>
+
+<hr>
+
+<h2 id="key-commands">Key commands</h2>
+
+<table>
+<tr><th>Task</th><th>Command</th></tr>
+<tr><td>Research a stock (render + PDF)</td><td><code>python3 src/render_all.py SYMBOL</code></td></tr>
+<tr><td>Rebuild all HTML + all PDFs</td><td><code>python3 src/render_all.py</code></td></tr>
+<tr><td>Rebuild all HTML only (fast)</td><td><code>python3 src/render_all.py --no-pdf</code></td></tr>
+<tr><td>Generate PDFs only</td><td><code>python3 src/generate_pdfs.py</code> or <code>python3 src/generate_pdfs.py SYMBOL</code></td></tr>
+<tr><td>Fetch BSE filings</td><td><code>python3 src/fetch_bse_filings.py SYMBOL</code></td></tr>
+<tr><td>Push to GitHub</td><td><code>git push origin main</code></td></tr>
+<tr><td>Open index in browser</td><td><code>open output/html/index.html</code></td></tr>
+<tr><td>Open PDF folder</td><td><code>open output/pdf/</code></td></tr>
+</table>
+
+<hr>
+
+<h2 id="key-files">Key files</h2>
+
+<table>
+<tr><th>File</th><th>Purpose</th></tr>
+<tr><td><code>research/_TEMPLATE.md</code></td><td>Master template for every research note</td></tr>
+<tr><td><code>research/SYMBOL.md</code></td><td>Individual stock research (source of truth)</td></tr>
+<tr><td><code>output/html/SYMBOL.html</code></td><td>Rendered HTML (auto-generated, don't edit)</td></tr>
+<tr><td><code>output/pdf/SYMBOL_DATE.pdf</code></td><td>PDF exports (portfolio data hidden via print CSS)</td></tr>
+<tr><td><code>output/html/index.html</code></td><td>Homepage / stock list — update manually after each new stock</td></tr>
+<tr><td><code>docs/TODO.md</code></td><td>Active tasks and backlog</td></tr>
+<tr><td><code>docs/DECISION_LOG.md</code></td><td>Buy/sell decision history</td></tr>
+<tr><td><code>portfolio.csv</code></td><td>Current holdings with entry price, qty, avg cost</td></tr>
+<tr><td><code>data/filings/SYMBOL/</code></td><td>Downloaded BSE PDFs</td></tr>
+<tr><td><code>data/transcripts/</code></td><td>Concall summaries and channel notes</td></tr>
+<tr><td><code>src/render_plan.py</code></td><td>Markdown→HTML renderer (with PRIVATE block support)</td></tr>
+<tr><td><code>src/render_all.py</code></td><td>Batch render all files + generate PDFs</td></tr>
+<tr><td><code>src/generate_pdfs.py</code></td><td>Chrome headless PDF generator</td></tr>
+</table>
+
+<hr>
+
+<h2 id="private-data-in-pdfs">Private data in PDFs</h2>
+
+<p>Portfolio data (entry price, P&L, decision history) is <strong>visible in the browser but hidden in PDFs</strong>.</p>
+
+<p>How it works:</p>
+<ul>
+<li>In markdown, wrap private content with `</li>
+</ul>
+<div class="sr-private">...</div>
+<p>`</p>
+<p class="sr-private">- Lines with <code><strong>Entry:</strong></code> or <code><strong>P&L:</strong></code> are auto-wrapped as private</p>
+<ul>
+<li>The "Decision History" section is auto-wrapped as private</li>
+<li>In HTML, these render with a yellow tint (visible to you)</li>
+<li>In PDFs (via print CSS), they disappear completely — safe to share</li>
+</ul>
+
+<hr>
+
+<h2 id="active-portfolio-as-of-apr-2026">Active portfolio (as of Apr 2026)</h2>
+
+<table>
+<tr><th>Symbol</th><th>Status</th><th>Key trigger</th></tr>
+<tr><td>NEWGEN</td><td>HOLD, 200 shares</td><td>Q4 FY26 results May 5, 2026</td></tr>
+<tr><td>PATELSAIR</td><td>SMALL STARTER</td><td>Nuclear order flow watch</td></tr>
+<tr><td>EPACKPEB</td><td>HOLD</td><td>Capacity ramp FY27</td></tr>
+<tr><td>Others</td><td>See <code>portfolio.csv</code></td><td>—</td></tr>
+</table>
+
+<p><strong>Pending exits to review:</strong> SWIGGY, STL, ARTEMIS, ETERNAL, GRSE, RAYMOND (see TODO.md)</p>
+
+<hr>
+
+<h2 id="data-sources">Data sources</h2>
+
+<table>
+<tr><th>Source</th><th>What it provides</th><th>How</th></tr>
+<tr><td>Screener.in</td><td>Indian fundamentals (P&L, BS, ratios, 10yr)</td><td>WebFetch <code>screener.in/company/SYMBOL</code></td></tr>
+<tr><td>BSE filings</td><td>Quarterly results, concall PDFs, annual reports</td><td><code>src/fetch_bse_filings.py</code></td></tr>
+<tr><td>Groww MCP</td><td>Live prices, market data</td><td><code>mcp__growwmcp__get_ltp</code></td></tr>
+<tr><td>Kite MCP</td><td>Live portfolio, orders</td><td><code>mcp__kite__get_holdings</code></td></tr>
+<tr><td>Alpha Vantage MCP</td><td>Price data only for Indian stocks (BSE format: <code>RELIANCE.BSE</code>); full data for US stocks</td><td>Via MCP</td></tr>
+</table>
+
+<hr>
+
+<h2 id="session-end-checklist">Session-end checklist</h2>
+
+<p>Before closing every session:</p>
+<p>1. Update <code>docs/TODO.md</code> (completed items + new backlog)</p>
+<p>2. <code>git push origin main</code></p>
+<p>3. GitHub Actions auto-deploys HTML to GitHub Pages</p>
+
+<hr>
+
+<h2 id="research-files-reference">Research files reference</h2>
+
+<p>All research files are in <code>research/</code>. Key ones:</p>
+<ul>
+<li><code>research/NEWGEN.md</code> — Newgen Software (OWNED, Grade B+)</li>
+<li><code>research/PATELSAIR.md</code> — Patels Airtemp (SMALL STARTER, nuclear/HVAC)</li>
+<li><code>research/EPACKPEB.md</code> — EPACK Prefab (OWNED)</li>
+<li><code>research/TRANSWORLD.md</code> — Transworld Shipping (AVOID, Grade D)</li>
+<li><code>research/KALYANICASTTECH.md</code> — Kalyani Cast-Tech (WATCHLIST, Grade C+)</li>
+<li><code>research/us/</code> — US stock research (LIFE/Ethos, etc.)</li>
+</ul>
+
+<p>For the full framework and scoring methodology, read <code>CLAUDE.md</code> in the repo root.</p>
+
+<script src="notes.js"></script>
+<script>
+var toc=document.getElementById('toc');
+document.querySelectorAll('h2').forEach(function(h){
+  var a=document.createElement('a');
+  a.href='#'+h.id; a.textContent=h.textContent;
+  toc.appendChild(a);
+});
+if(toc.querySelectorAll('a').length===0)toc.style.display='none';
+</script>
+</body></html>
