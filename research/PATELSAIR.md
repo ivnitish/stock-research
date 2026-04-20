@@ -270,6 +270,44 @@ Patels Airtemp occupies the small-to-mid sized, ASME/IBR-certified, engineered-t
 
 - **Nuclear segment — CONFIRMED, under-appreciated:** Patels Airtemp holds the ASME N-NPT (Nuclear Power Plant) stamp, one of only **3 organisations in India** with this certification. Has supplied Air Handling Units (AHUs) to NPCIL. India's nuclear expansion (100 GW target, SMR programme) creates a long-duration growth vector — nuclear-grade heat exchangers command 30–50% OPM premium over standard industrial. No analyst covers this angle. Order book (Sep 2025): ₹223.70 Cr (down from ₹296.98 Cr Sep 2024) — order slippage is consistent with the FY26 revenue deceleration. **SEBI order (July 2025)** related to PATELSAI — nature unclear, needs investigation before any buy decision. Source: SEBI enforcement orders Jul 2025.
 
+### Nuclear Certifications & Product Portfolio (Source: Company technical video + Yash analysis, Apr 2026)
+
+**Full ASME stamp portfolio confirmed:**
+- **U & U2 Stamps** — pressure vessels (U2 for complex high-pressure designs)
+- **S Stamp** — power boilers manufacture and assembly
+- **NB & R Stamps** (National Board) — repair and alteration of pressure-retaining items; critical for nuclear plant maintenance and life extension contracts
+- **N-NPT Stamp** — nuclear power plant components (1 of 3 in India)
+
+The R-Stamp is particularly underappreciated: it allows Patels to bid for **maintenance, retubing, and life extension** work on India's existing fleet (Tarapur, Rajasthan, etc.) — a recurring Opex-based revenue stream vs the lumpy Capex-driven new-build orders.
+
+**Product portfolio mapped to nuclear opportunity:**
+- Air Cooled Heat Exchangers (ACHE) → secondary cooling circuits in nuclear plants
+- Shell & Tube Heat Exchangers → reactor coolant to steam turbine thermal transfer
+- Pressure Vessels & Columns → containment internals, deaerators (feedwater purification)
+- Clad construction (Inconel/exotic material bonding) → specialist nuclear-grade vessels
+- Ambient Air Heaters for LNG regasification → adaptable to gas-cooled reactor designs
+- Green Hydrogen equipment → natural fit for SMR auxiliary systems
+
+**Over 1,000 qualified welding procedures** for carbon steel, stainless steel, and exotic materials (inalloy, super duplex, Inconel) — this manufacturing depth is what takes years to replicate and is the real barrier to entry.
+
+**SHANTI Act 2025 — the moat becomes commercial:**
+The SHANTI Act opens nuclear plant ownership to private industrial conglomerates (captive nuclear plants). This transforms Patels' addressable market from one customer (NPCIL) to potentially dozens of private industrial clients. Key insight from Yash's analysis: *"While many companies can make heat exchangers, very few in the mid-cap space can make them for a nuclear island. The SHANTI Act turns this technical certification into a direct commercial advantage."*
+
+**Projected nuclear order book potential (5-year, FY26-31, analyst estimate):**
+
+| Segment | Products | Est. 5-Year Order Book |
+|---------|---------|----------------------|
+| Heat exchangers & cooling | ACHE, shell & tube for nuclear circuits | ₹450–600 Cr |
+| Pressure vessels & containment | Deaerators, columns, clad vessels | ₹200–350 Cr |
+| SMR auxiliary systems | Modular cooling skids, gas-cooled reactor equipment | ₹150–250 Cr |
+| Maintenance & life extension (R-Stamp) | Retubing, refurbishment of existing plants | ₹100–150 Cr |
+| **Total** | | **₹900–1,350 Cr** |
+
+*Note: These are analyst projections contingent on SHANTI Act implementation timelines and private nuclear investment materialising. Currently NPCIL contributes ₹23-24 Cr annually. The 5-year projections assume India's nuclear programme proceeds at plan pace. Treat as upside scenario, not base case.*
+
+**Client approvals already in place:**
+EIL (Engineers India Limited — primary technical consultant for strategic Indian projects), PDIL, Reliance, Toyo, Samsung — these are the gatekeepers for large project vendor lists. Being on EIL's approved vendor list is effectively pre-qualification for every EIL-supervised nuclear or petrochemical project.
+
 ---
 
 ## 7. Risks
@@ -323,6 +361,18 @@ Patels Airtemp occupies the small-to-mid sized, ASME/IBR-certified, engineered-t
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/PATELSAIR.md`*
+
+### 2026-04-20 — Nuclear product portfolio & SHANTI Act analysis added
+
+**Source:** Company technical video analysis by Yash (WhatsApp, Apr 17, 2026)
+
+Key additions to competitive landscape section:
+- Full ASME stamp portfolio confirmed: U, U2, S, NB, R, N-NPT
+- **R-Stamp** (National Board repair/alteration) is underappreciated — enables maintenance contracts on existing nuclear plants (Tarapur, Rajasthan) = recurring Opex revenue, not lumpy Capex
+- 1,000+ qualified welding procedures across exotic materials = manufacturing depth that takes years to replicate
+- SHANTI Act 2025: opens private captive nuclear plants → Patels' customer base expands from NPCIL (1 customer) to dozens of private conglomerates
+- 5-year nuclear order book projection: ₹900-1,350 Cr (analyst estimate, upside scenario)
+- EIL approved vendor = pre-qualified for every EIL-supervised project in India
 
 ### 2026-04-15 — 33rd AGM Analysis (Sep 2025): NPCIL confirmed + data correction
 
