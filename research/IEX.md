@@ -87,7 +87,73 @@ The competitive threat is not PXIL or HPX organically — they've existed for ye
 
 ---
 
-## 1. Business Summary
+## 1. Market Coupling — The Bear Case Explained
+
+This is the single most important concept for understanding why IEX's stock has fallen 34% despite the business being healthy. Everything else is secondary.
+
+### How IEX makes money today (current structure)
+
+Think of IEX exactly like NSE. A power plant in Rajasthan wants to sell 100 MW for tomorrow 2-4 PM. A factory in Gujarat wants to buy 100 MW for that same slot. They both log onto IEX, submit their buy/sell bids, and IEX's algorithm matches them at a clearing price. IEX earns a transaction fee — roughly ₹0.02-0.04 per unit (kWh) traded — on every match.
+
+The key feature: all trading happens on one platform. India has three power exchanges — IEX (85% share), PXIL (12%), and HPX (3%) — but they are completely separate. A buyer on IEX can only match with a seller on IEX. A buyer on PXIL can only match with a seller on PXIL.
+
+### Why does this make IEX dominant?
+
+Because electricity buyers and sellers care about one thing above everything else: **getting the best price**. And the best price comes from the deepest order book — the platform with the most buyers and sellers simultaneously.
+
+Imagine you are a factory wanting to buy power at ₹4/unit. On IEX (85% of all participants), there are 1,000 sellers competing to sell to you — you'll almost certainly find someone willing to sell at ₹4 or even ₹3.90. On PXIL (12% of participants), there are maybe 150 sellers — there may not even be a match, or the price will be ₹4.20 because the pool is thin. So every rational participant goes to IEX because IEX has the best prices. And because everyone goes to IEX, IEX has the best prices. This is the exchange network effect — it is self-reinforcing and nearly impossible to break through competition alone.
+
+PXIL has existed since 2010 (3 years after IEX) and HPX since 2022. In 15 years, no competitor has meaningfully dented IEX's market share. That's how strong this flywheel is.
+
+### What is Market Coupling?
+
+CERC (Central Electricity Regulatory Commission — the power sector regulator, equivalent of SEBI for electricity) has proposed a mechanism called **market coupling**.
+
+Under market coupling, here is what changes:
+
+**Today:** Each exchange runs its own auction separately. IEX discovers its clearing price independently. PXIL discovers its clearing price independently. They are different numbers.
+
+**Under market coupling:** ALL bids and asks from IEX, PXIL, and HPX are pooled into a single algorithm run by a neutral third party (likely a government entity). Every buyer and seller across all three exchanges participates in one combined auction. One clearing price is discovered for the entire market. Orders are then allocated back to the respective exchanges for settlement.
+
+### Why does this destroy IEX's moat?
+
+Under market coupling, **it doesn't matter which exchange you trade on**. Whether you submit your bid on IEX, PXIL, or HPX — you participate in the same combined order book and get the same clearing price. The liquidity advantage of IEX disappears because liquidity is now shared across all three.
+
+A buyer who previously had to be on IEX to get the best price can now go to PXIL and get the exact same price. The network effect — the core reason for IEX's dominance — is broken by regulatory design.
+
+### Who wins and who loses?
+
+- **IEX loses:** Its competitive moat erodes. Participants may shift to PXIL or HPX (potentially for lower fees, better interface, etc.) since price discovery is now equal. IEX market share could fall from 85% toward 50-60% over time.
+- **PXIL and HPX win:** They instantly become as liquid as IEX because they tap into the same combined pool. This is why CERC's proposal has been pushed hard — PXIL (backed by NSE and NCDEX) and HPX (backed by BSE, PFC, REC) have regulatory/political backing.
+- **Electricity buyers and sellers:** Mixed. Better price discovery nationally, but the transition period could be messy.
+
+### IEX's counter-argument
+
+IEX management argues:
+1. **Volume grows for everyone** — market coupling expands the overall electricity trading market (currently ~5% of India's power), which grows the fee pool even if IEX's share falls
+2. **IEX wins on service** — better platform, better analytics, stronger customer relationships; participants may still prefer IEX even if price is equal
+3. **Implementation is complex** — running a real-time combined auction across three IT systems with different latencies is non-trivial; has been delayed repeatedly since first proposed (~2019)
+4. **CERC April 2026 clarification** — called the draft regulations "consultative" — no implementation timeline set
+
+### The honest assessment
+
+Market coupling is a genuine risk, not a fake one. If implemented:
+- IEX market share likely falls toward 55-65% (from 85%)
+- Transaction fee per unit may compress as IEX competes more on price
+- P/E could de-rate from 24x → 15x (exchange without a moat is just a software company)
+- Bear case stock price: ₹50-60
+
+If not implemented (or delayed 3+ years):
+- IEX business continues compounding at 15-18% CAGR
+- P/E re-rates back toward 30x as the overhang lifts
+- Bull case: ₹190-200
+
+The -34% stock fall is the market pricing in ~40-50% probability of implementation. Whether that probability is correct is the investment judgement call. CERC has been discussing this since 2019 — seven years of discussion with zero implementation — which is the bear-on-the-bear-case.
+
+---
+
+## 2. Business Summary
+
 
 Indian Energy Exchange Ltd (NSE: IEX) was incorporated in 2007 and operates India's largest electricity exchange. The company earns a transaction fee on every unit of electricity traded on its platform. Products traded include:
 
@@ -104,7 +170,7 @@ Indian Energy Exchange Ltd (NSE: IEX) was incorporated in 2007 and operates Indi
 
 ---
 
-## 2. Quality Score
+## 3. Quality Score
 
 | Dimension | Score (1-5) | Notes |
 |-----------|------------|-------|
@@ -117,7 +183,7 @@ Indian Energy Exchange Ltd (NSE: IEX) was incorporated in 2007 and operates Indi
 
 ---
 
-## 3. Key Metrics
+## 4. Key Metrics
 
 ### Annual P&L
 
@@ -175,7 +241,7 @@ Indian Energy Exchange Ltd (NSE: IEX) was incorporated in 2007 and operates Indi
 
 ---
 
-## 4. Outlook
+## 5. Outlook
 
 **Key event: Q4 FY26 results + concall, April 23-24, 2026**
 
@@ -192,7 +258,7 @@ Critical items to listen for:
 
 ---
 
-## 5. Valuation
+## 6. Valuation
 
 **At ₹126 CMP:**
 - TTM P/E: 24.4x
@@ -210,7 +276,7 @@ IEX at 24x P/E is cheap vs Indian exchange peers — even with market coupling d
 
 ---
 
-## 6. Risks
+## 7. Risks
 
 | Risk | Probability | Impact |
 |------|-------------|--------|
@@ -222,7 +288,7 @@ IEX at 24x P/E is cheap vs Indian exchange peers — even with market coupling d
 
 ---
 
-## 7. Exit / Entry Conditions
+## 8. Exit / Entry Conditions
 
 **Entry (new position):**
 - [ ] Apr 24 concall confirms market coupling delay/consultation phase ongoing (not implementation)
@@ -236,7 +302,7 @@ IEX at 24x P/E is cheap vs Indian exchange peers — even with market coupling d
 
 ---
 
-## 8. Research Log
+## 9. Research Log
 
 ### 2026-04-21 — Initial Research
 
