@@ -44,27 +44,88 @@ strong{color:#111827;}
 
 <h2 id="what-this-system-is">What this system is</h2>
 
-<p>A personal equity research pipeline. You write research notes in Markdown, they render to HTML (GitHub Pages), and can be exported as private-data-free PDFs. The framework is Munger-style fundamental analysis focused on identifying multi-baggers (20%+ CAGR compounders).</p>
+<p>A personal equity research pipeline built for Munger-style fundamental analysis. Research notes are written in Markdown, rendered to HTML (live on GitHub Pages), and exported as PDFs with portfolio data hidden (safe to share). The goal is finding multi-baggers — businesses that can compound intrinsic value at 20%+ CAGR for 7-15 years.</p>
 
 <p><strong>GitHub Pages (live site):</strong> ivnitish.github.io/stocks  </p>
 <p><strong>Working directory:</strong> <code>/Users/nitish/stocks automation/</code>  </p>
-<p><strong>Model preference:</strong> Claude Opus (claude-opus-4-6)</p>
+<p><strong>Model preference:</strong> Claude Opus (claude-opus-4-6) — always use this for deep analysis  </p>
+<p><strong>User background:</strong> Munger/Buffett philosophy, CFA Level 1. Explain unfamiliar concepts with examples. Never dumb down but always clarify jargon.</p>
 
 <hr>
 
-<h2 id="when-user-says-stock-research-on-a-new-company">When user says "stock research" on a new company</h2>
+<h2 id="the-investment-framework">The Investment Framework</h2>
 
-<p>1. <strong>Fetch financials:</strong> <code>python3 src/fetch_bse_filings.py SYMBOL</code> for filings; WebFetch <code>screener.in/company/SYMBOL/consolidated</code> for ratios</p>
-<p>2. <strong>Use the template:</strong> <code>research/_TEMPLATE.md</code> — follow the 11-section structure</p>
-<p>3. <strong>Output file:</strong> <code>research/SYMBOL.md</code></p>
-<p>4. <strong>Render to HTML:</strong> <code>python3 src/render_all.py SYMBOL</code> — renders HTML + generates PDF automatically</p>
-<p>5. <strong>Update index:</strong> Add row to <code>output/html/index.html</code> (see rules in <code>.claude/rules/index-always.md</code>)</p>
-<p>6. <strong>Open in Chrome to review:</strong> <code>open output/html/SYMBOL.html</code></p>
-<p>7. <strong>Push:</strong> <code>git push origin main</code></p>
+<p>Every research note evaluates 5 dimensions (5 points each, 25 max):</p>
+<p>1. <strong>MOAT</strong> — switching costs, network effects, pricing power, scale advantages</p>
+<p>2. <strong>MANAGEMENT</strong> — promoter skin in game, capital allocation, communication quality</p>
+<p>3. <strong>FINANCIALS</strong> — ROCE, ROE, OCF vs PAT, D/E, FCF, working capital trends</p>
+<p>4. <strong>GROWTH RUNWAY</strong> — TAM headroom, reinvestment rate, runway duration</p>
+<p>5. <strong>VALUATION</strong> — fair P/E vs current P/E, margin of safety, multi-bagger math</p>
 
-<p><strong>Quality scoring:</strong> 5 dimensions × 5 points = 25 max. A=20-25, B=15-19, C<15, D=structural problem.</p>
+<p><strong>Grade:</strong> A=20-25 (multi-bagger candidate), B=15-19 (quality compounder), C=10-14 (watchlist/speculative), D=<10 (avoid/exit)</p>
 
-<p><strong>Never fabricate data.</strong> If Screener.in doesn't have it, say so.</p>
+<p><strong>Core insight:</strong> A stock's return = EPS growth + P/E re-rating. EPS growth = ROIC × reinvestment rate, sustained over a long runway. Everything in the analysis connects back to this.</p>
+
+<hr>
+
+<h2 id="workflow-when-user-says-do-research-on-stock">Workflow: When user says "do research on [STOCK]"</h2>
+
+<h3 id="step-1-fetch-data-do-both">Step 1 — Fetch data (do both)</h3>
+<p><code>`</code>bash</p>
+<p>python3 src/fetch_bse_filings.py SYMBOL        # downloads BSE filings to data/filings/SYMBOL/</p>
+<p><code>`</code></p>
+<p>WebFetch: <code>https://www.screener.in/company/SYMBOL/consolidated/</code></p>
+
+<p>For BSE SME stocks: use BSE code directly — <code>screener.in/company/544023/</code></p>
+
+<h3 id="step-2-deep-research-before-writing">Step 2 — Deep research before writing</h3>
+<p>Before writing a single line of the thesis, extract:</p>
+<ul>
+<li>10-year P&L trend (revenue CAGR, OPM trajectory, PAT CAGR)</li>
+<li>ROCE, ROE (3yr and 5yr averages)</li>
+<li>Cash flow quality: OCF vs PAT ratio (should be >0.8x consistently)</li>
+<li>Balance sheet: D/E trend, fixed assets, working capital days</li>
+<li>Shareholding: promoter % and direction, FII/DII trend</li>
+<li>Segment/geography revenue breakdown (what drives the business?)</li>
+<li>Management: concall commentary, guidance accuracy, capex plans</li>
+<li>Competitors: market share trend, who is gaining/losing</li>
+<li>Key risks: regulatory, cyclical, competitive, governance</li>
+<li><strong>Capex and diversification plans</strong> — critical for SMEs; new business lines change the thesis entirely</li>
+</ul>
+
+<h3 id="step-3-go-deeper-before-concluding">Step 3 — Go deeper before concluding</h3>
+<p>For any non-obvious finding, dig further:</p>
+<ul>
+<li>If OCF is volatile → why? Working capital build or revenue lumpiness?</li>
+<li>If promoter declining → check if secondary sale, ESOP, or restructuring</li>
+<li>If margins compressing → product mix, input costs, or pricing pressure?</li>
+<li>If revenue tripled in 3 years → organic? Acquisitions? New segment?</li>
+<li><strong>If company mentions new capex</strong> → what's the segment, capacity target, timeline, revenue potential?</li>
+<li>Fetch concall transcripts: <code>python3 src/fetch_bse_filings.py SYMBOL</code> then read PDFs in <code>data/filings/SYMBOL/</code></li>
+<li>Check BSE announcements for any recent material disclosures</li>
+</ul>
+
+<h3 id="step-4-write-the-research-file">Step 4 — Write the research file</h3>
+<p>Use <code>research/_TEMPLATE.md</code> as structure. Key rules:</p>
+<ul>
+<li>Write narratively — not template slot-filling. Bull/bear should read like analyst notes</li>
+<li>Show math: ROIC = numerator/denominator spelled out</li>
+<li>Label opinions vs facts explicitly</li>
+<li>Be skeptical by default — the base rate for multi-baggers is low</li>
+<li><strong>Never ignore announced capex or diversification plans</strong> — these often change the entire thesis</li>
+</ul>
+
+<p>Output to: <code>research/SYMBOL.md</code></p>
+
+<h3 id="step-5-render-pdf-index-push">Step 5 — Render, PDF, index, push</h3>
+<p><code>`</code>bash</p>
+<p>python3 src/render_all.py SYMBOL   # renders HTML + generates PDF</p>
+<p>open output/html/SYMBOL.html       # review in Chrome</p>
+<p><code>`</code></p>
+<p>Then update <code>output/html/index.html</code> (add row — see rules in <code>.claude/rules/index-always.md</code>)</p>
+<p><code>`</code>bash</p>
+<p>git push origin main</p>
+<p><code>`</code></p>
 
 <hr>
 
@@ -74,8 +135,8 @@ strong{color:#111827;}
 <tr><th>Task</th><th>Command</th></tr>
 <tr><td>Research a stock (render + PDF)</td><td><code>python3 src/render_all.py SYMBOL</code></td></tr>
 <tr><td>Rebuild all HTML + all PDFs</td><td><code>python3 src/render_all.py</code></td></tr>
-<tr><td>Rebuild all HTML only (fast)</td><td><code>python3 src/render_all.py --no-pdf</code></td></tr>
-<tr><td>Generate PDFs only</td><td><code>python3 src/generate_pdfs.py</code> or <code>python3 src/generate_pdfs.py SYMBOL</code></td></tr>
+<tr><td>Rebuild HTML only (no PDF, faster)</td><td><code>python3 src/render_all.py --no-pdf</code></td></tr>
+<tr><td>Generate PDFs only</td><td><code>python3 src/generate_pdfs.py</code> or <code>...SYMBOL</code></td></tr>
 <tr><td>Fetch BSE filings</td><td><code>python3 src/fetch_bse_filings.py SYMBOL</code></td></tr>
 <tr><td>Push to GitHub</td><td><code>git push origin main</code></td></tr>
 <tr><td>Open index in browser</td><td><code>open output/html/index.html</code></td></tr>
@@ -88,18 +149,23 @@ strong{color:#111827;}
 
 <table>
 <tr><th>File</th><th>Purpose</th></tr>
-<tr><td><code>research/_TEMPLATE.md</code></td><td>Master template for every research note</td></tr>
+<tr><td><code>research/_TEMPLATE.md</code></td><td>Master research template — always use this</td></tr>
 <tr><td><code>research/SYMBOL.md</code></td><td>Individual stock research (source of truth)</td></tr>
-<tr><td><code>output/html/SYMBOL.html</code></td><td>Rendered HTML (auto-generated, don't edit)</td></tr>
-<tr><td><code>output/pdf/SYMBOL_DATE.pdf</code></td><td>PDF exports (portfolio data hidden via print CSS)</td></tr>
-<tr><td><code>output/html/index.html</code></td><td>Homepage / stock list — update manually after each new stock</td></tr>
+<tr><td><code>research/archive/SYMBOL_v1.md</code></td><td>Old versions before rewrites</td></tr>
+<tr><td><code>research/us/SYMBOL.md</code></td><td>US stock research</td></tr>
+<tr><td><code>output/html/SYMBOL.html</code></td><td>Rendered HTML (auto-generated, never edit)</td></tr>
+<tr><td><code>output/pdf/SYMBOL_DATE.pdf</code></td><td>Shareable PDFs (portfolio data hidden)</td></tr>
+<tr><td><code>output/html/index.html</code></td><td>Live homepage — update after every new stock</td></tr>
 <tr><td><code>docs/TODO.md</code></td><td>Active tasks and backlog</td></tr>
-<tr><td><code>docs/DECISION_LOG.md</code></td><td>Buy/sell decision history</td></tr>
-<tr><td><code>portfolio.csv</code></td><td>Current holdings with entry price, qty, avg cost</td></tr>
-<tr><td><code>data/filings/SYMBOL/</code></td><td>Downloaded BSE PDFs</td></tr>
-<tr><td><code>data/transcripts/</code></td><td>Concall summaries and channel notes</td></tr>
-<tr><td><code>src/render_plan.py</code></td><td>Markdown→HTML renderer (with PRIVATE block support)</td></tr>
-<tr><td><code>src/render_all.py</code></td><td>Batch render all files + generate PDFs</td></tr>
+<tr><td><code>docs/DECISION_LOG.md</code></td><td>All buy/sell decisions with reasoning</td></tr>
+<tr><td><code>docs/HANDOVER.md</code></td><td>This file</td></tr>
+<tr><td><code>portfolio.csv</code></td><td>Holdings: symbol, qty, avg_buy_price</td></tr>
+<tr><td><code>data/filings/SYMBOL/</code></td><td>Downloaded BSE PDFs (concalls, results, AR)</td></tr>
+<tr><td><code>data/transcripts/</code></td><td>Concall summaries and channel video notes</td></tr>
+<tr><td><code>data/transcripts/SYNTHESIS.md</code></td><td>Cross-stock synthesis from all concall research</td></tr>
+<tr><td><code>CLAUDE.md</code></td><td>Full research framework — the multi-bagger methodology</td></tr>
+<tr><td><code>src/render_plan.py</code></td><td>Markdown → HTML renderer (handles PRIVATE blocks)</td></tr>
+<tr><td><code>src/render_all.py</code></td><td>Batch render all + generate PDFs</td></tr>
 <tr><td><code>src/generate_pdfs.py</code></td><td>Chrome headless PDF generator</td></tr>
 </table>
 
@@ -107,19 +173,19 @@ strong{color:#111827;}
 
 <h2 id="private-data-in-pdfs">Private data in PDFs</h2>
 
-<p>Portfolio data (entry price, P&L, decision history) is <strong>visible in the browser but hidden in PDFs</strong>.</p>
+<p>Portfolio data is visible in browser, hidden in PDFs — safe to share with anyone.</p>
 
-<p>How it works:</p>
+<p><strong>How it works:</strong></p>
 <ul>
-<li>In markdown, wrap private content with `</li>
+<li>Wrap private content in `</li>
 </ul>
 <div class="sr-private">...</div>
-<p>`</p>
+<p>` in markdown</p>
 <p class="sr-private">- Lines with <code><strong>Entry:</strong></code> or <code><strong>P&L:</strong></code> are auto-wrapped as private</p>
 <ul>
-<li>The "Decision History" section is auto-wrapped as private</li>
-<li>In HTML, these render with a yellow tint (visible to you)</li>
-<li>In PDFs (via print CSS), they disappear completely — safe to share</li>
+<li>"Decision History" section is auto-wrapped as private</li>
+<li>HTML renders these with yellow tint (visible to you in browser)</li>
+<li>PDFs hide them completely via <code>@media print { display: none }</code></li>
 </ul>
 
 <hr>
@@ -127,52 +193,96 @@ strong{color:#111827;}
 <h2 id="active-portfolio-as-of-apr-2026">Active portfolio (as of Apr 2026)</h2>
 
 <table>
-<tr><th>Symbol</th><th>Status</th><th>Key trigger</th></tr>
-<tr><td>NEWGEN</td><td>HOLD, 200 shares</td><td>Q4 FY26 results May 5, 2026</td></tr>
-<tr><td>PATELSAIR</td><td>SMALL STARTER</td><td>Nuclear order flow watch</td></tr>
-<tr><td>EPACKPEB</td><td>HOLD</td><td>Capacity ramp FY27</td></tr>
-<tr><td>Others</td><td>See <code>portfolio.csv</code></td><td>—</td></tr>
+<tr><th>Symbol</th><th>Status</th><th>Qty</th><th>Avg</th><th>Key trigger</th></tr>
+<tr><td>NEWGEN</td><td>HOLD</td><td>200</td><td>₹447.8</td><td>Q4 FY26 results May 5, 2026</td></tr>
+<tr><td>PATELSAIR</td><td>SMALL STARTER</td><td>1</td><td>₹265</td><td>Nuclear order flow watch</td></tr>
+<tr><td>EPACKPEB</td><td>HOLD</td><td>451</td><td>₹227.9</td><td>Capacity ramp FY27</td></tr>
+<tr><td>KAYNES</td><td>HOLD</td><td>31</td><td>₹3,923</td><td>—</td></tr>
+<tr><td>KERNEX</td><td>HOLD</td><td>90</td><td>₹1,125</td><td>—</td></tr>
+<tr><td>STLNETWORK</td><td>HOLD</td><td>1,500</td><td>₹31.2</td><td>—</td></tr>
+<tr><td>BANCOINDIA</td><td>HOLD</td><td>100</td><td>₹589.5</td><td>Deep research pending</td></tr>
+<tr><td>Others</td><td>See <code>portfolio.csv</code></td><td>—</td><td>—</td><td>—</td></tr>
 </table>
 
-<p><strong>Pending exits to review:</strong> SWIGGY, STL, ARTEMIS, ETERNAL, GRSE, RAYMOND (see TODO.md)</p>
+<p><strong>Pending exits to decide:</strong> SWIGGY, STL, ARTEMIS, ETERNAL, GRSE, RAYMOND (see TODO.md)</p>
+
+<p><strong>Watchlist (do not enter yet):</strong></p>
+<ul>
+<li>IEX: Grade B, below ₹120, watch Apr 24 concall (market coupling risk)</li>
+<li>KALYANICASTTECH: Grade C+, below ₹400, wagon manufacturing capex changes thesis</li>
+<li>REDINGTON: Grade C, below ₹180 (yield play only)</li>
+</ul>
 
 <hr>
 
 <h2 id="data-sources">Data sources</h2>
 
 <table>
-<tr><th>Source</th><th>What it provides</th><th>How</th></tr>
-<tr><td>Screener.in</td><td>Indian fundamentals (P&L, BS, ratios, 10yr)</td><td>WebFetch <code>screener.in/company/SYMBOL</code></td></tr>
-<tr><td>BSE filings</td><td>Quarterly results, concall PDFs, annual reports</td><td><code>src/fetch_bse_filings.py</code></td></tr>
-<tr><td>Groww MCP</td><td>Live prices, market data</td><td><code>mcp__growwmcp__get_ltp</code></td></tr>
-<tr><td>Kite MCP</td><td>Live portfolio, orders</td><td><code>mcp__kite__get_holdings</code></td></tr>
-<tr><td>Alpha Vantage MCP</td><td>Price data only for Indian stocks (BSE format: <code>RELIANCE.BSE</code>); full data for US stocks</td><td>Via MCP</td></tr>
+<tr><th>Source</th><th>What it provides</th><th>How to use</th></tr>
+<tr><td>Screener.in</td><td>10yr P&L, balance sheet, ratios, cash flows</td><td>WebFetch <code>screener.in/company/SYMBOL/consolidated</code></td></tr>
+<tr><td>BSE filings</td><td>Concall PDFs, quarterly results, annual reports</td><td><code>python3 src/fetch_bse_filings.py SYMBOL</code></td></tr>
+<tr><td>Groww MCP</td><td>Live prices, market movers</td><td><code>mcp__growwmcp__get_ltp</code></td></tr>
+<tr><td>Kite MCP</td><td>Live portfolio holdings, P&L</td><td><code>mcp__kite__get_holdings</code></td></tr>
+<tr><td>Alpha Vantage MCP</td><td>Indian: price only (BSE format <code>RELIANCE.BSE</code>); US: full data</td><td>Via MCP tool</td></tr>
 </table>
 
-<hr>
-
-<h2 id="session-end-checklist">Session-end checklist</h2>
-
-<p>Before closing every session:</p>
-<p>1. Update <code>docs/TODO.md</code> (completed items + new backlog)</p>
-<p>2. <code>git push origin main</code></p>
-<p>3. GitHub Actions auto-deploys HTML to GitHub Pages</p>
+<p><strong>Fallback rule:</strong> If Kite MCP fails/is rejected, fetch from Screener.in instead. Never fabricate data.</p>
 
 <hr>
 
-<h2 id="research-files-reference">Research files reference</h2>
+<h2 id="research-quality-standards">Research quality standards</h2>
 
-<p>All research files are in <code>research/</code>. Key ones:</p>
 <ul>
-<li><code>research/NEWGEN.md</code> — Newgen Software (OWNED, Grade B+)</li>
-<li><code>research/PATELSAIR.md</code> — Patels Airtemp (SMALL STARTER, nuclear/HVAC)</li>
-<li><code>research/EPACKPEB.md</code> — EPACK Prefab (OWNED)</li>
-<li><code>research/TRANSWORLD.md</code> — Transworld Shipping (AVOID, Grade D)</li>
-<li><code>research/KALYANICASTTECH.md</code> — Kalyani Cast-Tech (WATCHLIST, Grade C+)</li>
-<li><code>research/us/</code> — US stock research (LIFE/Ethos, etc.)</li>
+<li><strong>Narratives over templates:</strong> Bull/bear/compounding sections must read like analyst notes, not slot-filled templates</li>
+<li><strong>Never ignore capex or diversification:</strong> A company entering a new segment (e.g., castings → wagon manufacturing) can completely change the thesis — always research and include it</li>
+<li><strong>Skeptical by default:</strong> Your job is to find reasons to REJECT a thesis; if it survives skepticism, that's a meaningful signal</li>
+<li><strong>No fabrication:</strong> Never invent stock prices, financial metrics, or portfolio data — even in examples. If data is unavailable, say so</li>
+<li><strong>Research log format:</strong> 15-20 lines max per entry. Merge key findings into main sections with source references</li>
+<li><strong>New content at top:</strong> When updating existing research files, add new sections/data ABOVE existing content (newest first)</li>
+<li><strong>Archive before rewriting:</strong> Save old version to <code>research/archive/SYMBOL_v1.md</code> before major rewrites</li>
 </ul>
 
-<p>For the full framework and scoring methodology, read <code>CLAUDE.md</code> in the repo root.</p>
+<hr>
+
+<h2 id="common-research-pitfalls-to-avoid">Common research pitfalls to avoid</h2>
+
+<p>1. <strong>Using TTM revenue as "FY25 revenue"</strong> — always check if audited annual or trailing 12-month</p>
+<p>2. <strong>Ignoring OPM compression</strong> — if margins are falling as revenue grows, operating leverage is not working</p>
+<p>3. <strong>Taking stated PAT at face value</strong> — check for other income, one-time items, deferred tax</p>
+<p>4. <strong>Missing concall capex announcements</strong> — BSE SMEs often announce major expansions only in concalls/AGMs</p>
+<p>5. <strong>Over-relying on P/E</strong> — for capital-light businesses (exchanges, software), P/E understates quality; check ROCE and FCF yield</p>
+<p>6. <strong>Ignoring working capital deterioration</strong> — expanding debtor days on a growing business can signal collection problems or channel stuffing</p>
+<p>7. <strong>Promoter stake decline</strong> — always check if secondary sale (bad), ESOP (neutral), or family restructuring (clarify)</p>
+
+<hr>
+
+<h2 id="session-end-checklist-mandatory">Session-end checklist (mandatory)</h2>
+
+<p>Before closing every session:</p>
+<p>1. Update <code>docs/TODO.md</code> — mark completed, add new discoveries</p>
+<p>2. <code>git push origin main</code></p>
+<p>3. GitHub Actions auto-deploys HTML to GitHub Pages (~2-3 min)</p>
+
+<hr>
+
+<h2 id="research-files-quick-reference">Research files quick reference</h2>
+
+<table>
+<tr><th>Symbol</th><th>Grade</th><th>Status</th><th>Key thesis</th></tr>
+<tr><td>NEWGEN</td><td>B+</td><td>OWNED</td><td>SaaS ERP compounder, subscription revenue growing 29% YoY</td></tr>
+<tr><td>EPACKPEB</td><td>B</td><td>OWNED</td><td>PEB sector leader, capacity doubling, infrastructure tailwind</td></tr>
+<tr><td>PATELSAIR</td><td>B-</td><td>SMALL STARTER</td><td>Nuclear HVAC with ASME stamps, SHANTI Act optionality</td></tr>
+<tr><td>KAYNES</td><td>B</td><td>OWNED</td><td>Electronics manufacturing, IoT/ESDM play</td></tr>
+<tr><td>KERNEX</td><td>C+</td><td>OWNED</td><td>Railway signalling, order book dependent</td></tr>
+<tr><td>BANCOINDIA</td><td>—</td><td>OWNED</td><td>Deep research pending</td></tr>
+<tr><td>IEX</td><td>B</td><td>WATCHLIST</td><td>Power exchange, 85% OPM, market coupling risk</td></tr>
+<tr><td>KALYANICASTTECH</td><td>C+</td><td>WATCHLIST</td><td>Castings + containers + wagon mfg capex (BSE SME)</td></tr>
+<tr><td>TRANSWORLD</td><td>D</td><td>AVOID</td><td>Shipping restructuring, losses deepening</td></tr>
+<tr><td>REDINGTON</td><td>C</td><td>AVOID</td><td>IT distribution, 2% OPM, no moat</td></tr>
+<tr><td>PATELSAIR</td><td>B</td><td>WATCHLIST</td><td>Nuclear HVAC certifications, SHANTI Act</td></tr>
+</table>
+
+<p>For full framework and scoring methodology: read <code>CLAUDE.md</code> in the repo root.</p>
 
 <script src="notes.js"></script>
 <script>
