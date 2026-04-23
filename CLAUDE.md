@@ -273,6 +273,29 @@ Decision History, Research Log, Version History.
 
 8. **Do not default to positive conclusions.** Base rate for any stock becoming a multi-bagger is low. Your job is to find reasons to REJECT, not believe. If a company survives skepticism, that is a meaningful signal.
 
+9. **Ground every thesis in a physical earnings mechanism — first principles complement.**
+Management commentary, analyst reports, and sector tailwinds are inputs, not conclusions. They tell you what *might* happen. First principles tells you *why* it will happen physically. Both matter — use management commentary as hypothesis, then verify it against the physical mechanism.
+
+   Before concluding BUY, complete this sentence using only observable, physical facts:
+   > *"This company will earn more money in FY[X] than today because [specific factory / product / contract / cost reduction] will cause [revenue / margin / both] to grow — and here is the evidence this is already in motion: [CWIP, order book, utilization %, margin trend]."*
+
+   Apply this equally to the bear case:
+   > *"The bear case requires [specific physical event] to happen — not just sentiment or multiple compression."*
+
+   Management said it → find the financial fingerprint that confirms it is actually happening.
+   Sector is growing → show this company's capacity to capture that growth specifically.
+   Moat exists → name the exact mechanism and the rate at which it is eroding.
+
+10. **Write explanations so a smart non-specialist can follow — without dumbing down the analysis.**
+The test: if you cannot explain *why* a business will earn more money without using words like EBITDA, ROIC, or operating leverage as if they are self-evident — you have not yet understood it yourself.
+
+   Every time you introduce a concept or mechanism, immediately follow it with the plain-English version of what it means in this specific company's context. Not a textbook definition — the actual real-world meaning for this business.
+
+   **Bad:** *"EPACK benefits from operating leverage as fixed costs are absorbed over higher revenue."*
+   **Good:** *"EPACK has a factory with fixed costs of roughly ₹80 Cr/year — salaries, rent, equipment. Whether they sell ₹300 Cr or ₹500 Cr of buildings, those costs don't change much. So every extra rupee of revenue above ₹300 Cr flows almost entirely to profit. That's why margins jump from 8% to 14% as revenue grows — the factory overhead is already paid for."*
+
+   Same analysis. The second version proves understanding. The first version can be copy-pasted without understanding anything.
+
 ---
 
 ## DATA SOURCES (how Claude fetches data)
