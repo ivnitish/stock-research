@@ -1,0 +1,471 @@
+# Value Investing Webinar — Kamayaka Research
+
+**Video ID:** ylDXRnf_CKQ
+**URL:** https://www.youtube.com/watch?v=ylDXRnf_CKQ
+**Presenter:** Nita (Kamayaka Research)
+**Fetched:** 2026-04-21
+
+---
+
+**Note:** Cleaned transcript — filler words removed, paragraph breaks and section headers added for readability. Original raw transcript preserved at `Kamayaka_Research_Value_Investing_raw.md`
+
+---
+
+## Disclosures
+
+Registrations granted by SEBI, membership of BSE, and certification from NISM in no way guarantee the performance of the intermediary or provide any assurance of returns to investors. The securities quoted in the presentation are for illustration only and are not recommendations. Investment in the securities market is subject to market risk. Read all related documents carefully before investing. Past performance is not indicative of future returns. Always conduct your own due diligence or seek advice from a financial expert before making any investment decisions.
+
+---
+
+## Introduction
+
+Hello everyone, and thank you for taking time on a Sunday afternoon. Welcome to this webinar. The point of this webinar is to show you all that stock markets are more about studying businesses and investing into stocks. I'll mostly be taking this webinar in English, as that is what most people are comfortable with.
+
+The point is to start studying businesses — to show you what makes a good business and what is the difference between a good business and a good stock. There are lots of nuances. The stock market is a very vast subject, and even the slides cannot cover so much in one and a half hours. What I'll do is explain various parts of the slides, and along the way I'll also explain a lot of nuances that come to mind in the flow.
+
+Our company does equity research, and we have model portfolios on Smallcase where we manage money for people through the Smallcase platform.
+
+---
+
+## What Is Value Investing?
+
+We won't be talking about trading or technical analysis. We stick to long-term investing. Our usual horizon is at least two to three years. We keep tracking companies on a quarter-to-quarter basis — if the facts change, we also have to change. The world is very volatile. So we keep sticking to our philosophy, and whatever triggers we see in a business, we have to make sure they happen as and when management guided.
+
+There will be no short-term recommendations. We only focus on long-term value investing.
+
+The point of what we try to do in the stock market is to buy a good business at a reasonable price. Usually, how the stock market works is that all stocks end up discounting all of the news available today. Sometimes there can be mispricing, or sometimes the potential of certain things is not fully captured in the stock price. There are certain benchmarks that give you a slight idea of whether valuations have already priced in the earnings growth.
+
+The first part is to understand what is a good business. Any good business is one which has strong, sustained profitability and growth. If your profits are flat for years, there is a chance the stock price may never move — I'll give you a few examples of this. Good companies and good stocks are also very different. You must have noticed there are various large caps, household names, where for years together the stock prices don't move. They may be great businesses — nothing wrong with the business — but they might not be great stocks because the valuations have already become a part of it.
+
+We always try to buy at a fair, equitable price that allows you to capture future returns, because if you buy expensive, the chances of your future returns really fall. Long-term investing helps capture a lot of optionality because the markets are completely forward-looking. The past has already been absorbed into the stock price. It is all based on future returns. We try to find managements that are future-looking, always trying to innovate, with some kind of sustainability in the growth — and we have to buy them at the right price. That is pretty much how value investing works.
+
+---
+
+## The Master Principle: Earnings Growth Drives Stock Prices
+
+The first main principle of the stock market is earnings growth. If the net profit of a company grows over a long period of time, there is a 100% probability that the stock price has to increase at some point in time. Earnings growth is basically the master of all stock prices — stock prices will always follow profit growth.
+
+**CCL Products (coffee company):** We've been tracking this for the last five years. Over a ten-year period, their stock price has grown 18% CAGR and profits have grown at 13% CAGR. The stock price has actually gone up even more than the profit growth. Markets are strange animals — they end up re-rating you whenever they see a large amount of profit growth happen. The 10-year CAGR of profits is 13%, the 3-year CAGR is 15%, and in the last one year (TTM — trailing twelve months) it is 37% growth. Nearly three times the ten-year average. The stock price has gone from around ₹300 to around ₹1,100 in the last five years.
+
+**Force Motors:** For years the stock price did nothing. After CV emission norms changed, they grew their earnings enormously. The three-year CAGR of profit growth is 100%, and in the last one year also 89% growth in profits. The stock price has given a 155% CAGR. Markets always end up following earnings.
+
+**Deepak Nitrite (the flip side):** When you don't grow profits, the stock market accordingly rewards you. The 10-year profit growth is 29%, and from around 2020 it went up a fair bit till about mid-2021. After that, the three-year profits completely flatlined. The stock price has given negative returns over a three-year period. If you invested in, say, August 2022, you would have lost 8% in each year. Along with inflation, you're also losing money each year. Even assuming inflation at another 8%, you've actually lost 16% per year in real terms. That's an important point: if you enter at the wrong period of a cycle — say in chemicals — you will get absolutely butchered in terms of three-to-five-year returns.
+
+I'll be discussing more about structural stories today. Structural means where profits grow over extended periods of time — companies like FMCG or pharmaceutical companies, which do well no matter what is happening in the market, whether there is a war or anything. Chemicals, by contrast, have cycles. They go through periods of over-capacity and very weak margins. Cyclicality is a completely different ballgame, and cyclical investing is a different approach. This example is just to show how down cycles work.
+
+---
+
+## Six Growth Triggers to Look For
+
+Now let's figure out what factors actually help you grow profits.
+
+### 1. Capacity Expansion
+
+Say you have a factory today that produces 100 chairs, and you set up more machines to increase production capacity to 150 chairs. You have to make sure demand exists for those chairs — it is illogical to expand capacity if there is no demand. What we look at is how much capacity is increasing and what that growth is catering to. If the end-user industry is doing well, a capex at the right time can be very, very profitable. Don't take this as a blind trigger — just because a company has expanded their capacity doesn't mean you should immediately buy the stock.
+
+**Example — RACL Geartech:** A micro-cap auto ancillary that makes gears for BMW bikes. They did a capex in the early 2020s and the entire growth of that was captured in the next two to three years. You have to keep trying to see companies where growth is visible in the next two to three years, because markets also cannot discount beyond a certain period of time. There was no way anyone could have predicted COVID or the Iran war five years back.
+
+So keep your forecast to one to two years. The world is constantly changing. You try to look at fixed assets in a balance sheet — if fixed assets and capital work in progress (CWIP) are increasing, there is a chance the company has invested a large amount into increasing their production capacity. What to look for: **Fixed Assets + CWIP growth on the balance sheet, quarter by quarter.**
+
+More scale also leads to operating leverage. Say your fixed cost is ₹100 to produce at 100 units. Now you are producing 150 units. You don't need additional fixed cost for those extra 50 units. Whatever extra sales you do flows directly to the profit and loss statement. That is operating leverage — margins increase faster than sales growth.
+
+That happens when you introduce higher-margin products or when you achieve scale where a new player struggles to enter because you have already built that kind of scale and credibility.
+
+### 2. Promoter Activity
+
+The promoter runs the business and usually holds the largest stake in the company. A promoter sells a stock for hundreds of reasons — a wedding in the house, or they think the stock is overvalued. But they will buy the stock only when they think it is cheap. If they think their work has built real value, they understand the value of their business the best.
+
+You have to look at the quantum of promoter buying. If it is a ₹1,000 crore market cap company and the promoter is buying just ₹5 or ₹10 lakhs worth, don't take it too seriously. But if the promoter is repeatedly buying over days and it accumulates to ₹1–2 crores of his own stake going up, that becomes a good sign that things are tangibly changing. Compare the commentary he is giving, compare the guidances he is giving over time, keep reading the concalls, see the presentations, read what is happening in the industry — and that promoter buying becomes a sign to look at this business more carefully.
+
+**Example — Polycab:** The cables and wires company really increased their promoter holding before their capacity expansion went live, or when they saw that electrification would be a big thing and manufacturing was seeing major tailwinds. That becomes a good way to look at these businesses.
+
+You have to keep reading newspapers and follow these companies on Screener.in to track the activity of promoters. Screener.in is a great way to track promoter activity. Track: **Promoter buying, especially repeated accumulation over weeks amounting to ₹1–2 crore or more.**
+
+### 3. Margin Expansion
+
+As I mentioned, operating leverage is one part. When scale increases, fixed costs stay where they are, so profits flow into the bottom line for every incremental unit sold.
+
+The other driver is product mix shift. Say you were making a commoditized pharmaceutical ingredient like paracetamol — there are tons of players globally — and then you move toward a CDMO kind of business, where you go from drug discovery to the final manufacturing of the molecule. Paracetamol gives you a 12% EBITDA margin. CDMO gives you 25% EBITDA margin. To build these capabilities, it takes a lot of time — maybe a decade of R&D and product development.
+
+**Example — SRF:** They moved toward specialty chemicals, and their margins moved to a completely new trajectory. It takes time to build these capabilities, so you should not buy five years before the new capabilities go live. Buy one or two quarters prior to that happening. Otherwise you will sit for five years doing nothing, and opportunity cost is very important. If you are sitting on five years of consolidation with money idle, and in the sixth year you make money, you have put your capital at a lot of risk. Keep track of when the new products are going live. That is a very important part.
+
+Key metric to track: **R&D expenditure as a percentage of sales (5%+ = serious capability building). Read concalls and presentations for "value-added products" commentary.**
+
+### 4. Regulatory and Government Tailwinds
+
+You have to always look at the theme of the economy — where the government is focusing. Wherever the government is focusing, there is a high chance that policy moves toward their side and approvals also happen faster. If you are in a sector where the government is paying no attention, you will not be able to scale up your business very fast.
+
+When you have regulatory tailwinds, you see multifold growth. The government can also ban cheap imports. China has a lion's share of manufacturing in multiple sectors. The moment the government puts in anti-dumping duties, your entire business has changed for good. Say you sold at ₹100 and China was selling at ₹90 at better quality. Why would another producer buy from you? But if the government makes the Chinese price ₹150, there is a high chance you can grow your business.
+
+**Examples:** Dixon Technologies and Amber Enterprises both really benefited from the PLI incentive for electronics manufacturing.
+
+You have to pay very close attention to where the government is heading. Keep reading the newspaper every day. We read at least four to five newspapers every day — three domestically and two internationally. That keeps you completely aware of what is happening in the world.
+
+### 5. Turnaround Triggers
+
+There are catalysts in business. Say you had a lot of debt in the company and you have managed to restructure the debt, cut it down significantly — your interest cost really comes down, so profitability goes up. Or a loss-making division is shut down. Conglomerates that have multiple industries can either spin off divisions or completely sell off a particular business that is impacting profitability.
+
+If management brings in a new CEO with a great track record, that can be a big catalyst. Management is everything. You are just an investor — you have no real say in what the business is doing.
+
+**Example — CG Power:** When Vellayan Subbiah took over as CEO, he took the company from bankruptcy and look at where they are today — in the entire power and semiconductor theme.
+
+When a business has been in a complete mess, that is the time you get stocks at extremely depressed valuations, with too much negativity. In turnarounds, you end up getting entry points that are very, very crucial to capturing alpha. How do you beat the market? When no one wants to buy it, you start buying it.
+
+### 6. Strategic Realignments
+
+This includes changes in the cost process, JVs with global leaders bringing new technology, or working capital efficiencies.
+
+**Example — Astral Pipes:** Their working capital efficiencies completely changed their perception in the market. They were able to get better margins and faster working capital churning. The more times you are able to churn your working capital, the faster you can increase cash generation.
+
+---
+
+## Valuation: The Price You Pay Matters
+
+Valuations are the most tricky and difficult part of the stock-picking process. Sometimes 50 P/E can be cheap, and sometimes 50 P/E can be very expensive. It all depends on the future trajectory of earnings. There are various ways of figuring out how this works.
+
+**Example — Kotak Mahindra Bank:** For five years, the stock price has done nothing, even though profits have grown 21% on average. Take the valuation metric: all banks are usually measured on a price-to-book basis. Prior to COVID, Kotak used to trade at 5x book value. It derated all the way to 2x. So you made no money over a five-year basis even though the profits grew. There are reasons why valuations derate — disruption, too much competition, margins falling, NPA cycles.
+
+---
+
+## Valuation Metrics and How to Use Them
+
+### Price-to-Sales (P/S)
+
+For loss-making or high-growth companies, use P/S. Say Zomato — it is very hard to replicate. For someone to create a new Zomato today, it would take a lot of investment and it would be very, very difficult to create that entire rider fleet. This creates an entry barrier. That is why you end up giving a higher multiple in terms of valuation.
+
+**Benchmarks for P/S multiples based on EBITDA margin:**
+
+| EBITDA Margin | Fair P/S Multiple |
+|---|---|
+| 1% – 10% | 0.5x – 1.0x |
+| 10% – 15% | 1.0x – 2.0x |
+| 15% – 20% | 2.0x – 4.0x |
+| 25% – 30%+ | 8.0x – 10.0x+ |
+
+Don't take this too literally — it is just to give you a benchmark of how valuations work. The moment you are at 30% EBITDA margins along with sales and profit growth, you start demanding 10x sales and above valuations. You are doing something that clearly has a lot of value, and the market is seeing that you have a lot of capability to generate 30%+ return on capital. That is not easy.
+
+### EV/EBITDA
+
+For capital-intensive businesses. Software companies are not the right metric for this. For manufacturing businesses or pharma businesses, EV/EBITDA is a good metric because it takes into account EBITDA — before depreciation and interest. When you have large fixed assets, depreciation is large, which can give you a very low profit after tax even though operating growth is strong.
+
+Enterprise Value = Market Capitalization + Total Debt (long-term + short-term) − Cash held in the business. This captures the debt aspect, making it a more apples-to-apples comparison.
+
+### P/E Ratio
+
+For every ₹1 of net profit the company generates, what are you paying? If the P/E is 20, you are paying ₹20 for every ₹1 of profit. Always normalize the earnings — there can be one-offs such as deferred tax assets, impairment write-offs, or changes in depreciation. You have to add back one-time impacts to reach a normalized level of earnings. If you look at earnings on an apples-to-apples basis only then it makes sense.
+
+### PEG Ratio (Price-to-Earnings Growth)
+
+PEG = P/E ÷ expected earnings growth rate. Say in FY26 today, you are expecting 20% growth in FY27 and your P/E is 20x. You are at a forward PEG of 1.0x. Companies that are undervalued are below 1.0x PEG; companies at 2x–3x PEG have captured the earnings growth already.
+
+### Price-to-Book (P/B)
+
+More for asset-heavy businesses, banks, and NBFCs. A low P/B is not always good. If you are getting a bank at 1x book, it can mean the market is doubting the quality of the book — perhaps there is a DHFL or a Yes Bank situation inside that could cause a large write-down. So one-times book in a bank is not necessarily a good thing.
+
+### Reverse DCF
+
+This is a more nuanced tool that tells you what growth rate is implied in today's stock price. You put in all the assumptions and it shows you the implied earnings growth rate over the next five years. If the market has priced in 20% growth but your forecast is only 15%, the thesis is already priced in. Your discount rate is usually the opportunity cost of capital — for small caps, you take a higher discount rate. This is quite complicated for retail investors but is something we use regularly.
+
+---
+
+## What Is a Moat?
+
+A moat is a competitive advantage — a barrier to entry so strong that another player will struggle to put up the same kind of business. This helps you defend your margins and create pricing power.
+
+**Key signals in numbers:**
+
+- **ROCE > 18–20%:** These are structurally sound businesses. Nominal GDP growth is 11–12%. You want 50% premium above that = 18% ROCE threshold. High ROCE also attracts competition, so you have to keep looking at what prevents competition from coming.
+- **Gross margins and EBITDA margins much higher than peers:** When you are able to maintain higher margins over multiple quarters, you have some sustained pricing power. Not just one quarter — multiple quarters.
+- **Oligopolistic or monopolistic market:** When the number of players is few, that creates a big moat. When one competitor shuts down, your margins get a real boost.
+- **Negative working capital cycle:** You collect money up front from buyers and pay suppliers later. This really helps with cash generation and margins.
+
+---
+
+## Six Types of Moats
+
+### 1. Brand / Pricing Power
+
+Good way to look at brand as a moat: look at market share in that industry.
+
+**Example — Royal Enfield (Eicher Motors):** From FY15 to 9 months of FY26, their market share went from 15% to 32%. They doubled their market share. Look at the stock price — it has been a multibagger over the last five years. Sidharth Lal did a great job of giving the premiumized feel of Royal Enfield. It has created a cult — a Royal Enfield buyer will not buy a Hero Honda or a KTM. They will buy a Royal Enfield only. That brand creates a moat and pricing power, which is visible in the ROCE and ROE of 30%. That has created amazing value for shareholders.
+
+Anything that has brand value will of course have high valuations, but it creates a defensible moat. Royal Enfield at today's price will never have to give you a discount to buy a motorcycle. It has that pricing power — there is a certain level of status and brand associated with it in the market.
+
+### 2. Network Effects
+
+This works very well for platforms. Platforms have fixed costs — they are basically tech platforms, very asset-light. Asset-light businesses grow their margins very fast. For one more user, there is only a very slight marginal increase in fixed cost.
+
+**Example — BSE:** As the average daily turnover of BSE has gone up over the years, the operating margins of the business have also gone up — from the mid-40s to 60%+ EBITDA margins as turnover went up. There is no additional fixed cost for them at scale. The more people trade on the platform, the higher the margins.
+
+The user growth has to be mapped very well. After COVID, you saw 5 crore more demat accounts opened. That automatically meant the amount of turnover went up, and accordingly margins went up. You have to connect the dots.
+
+You have to look at things holistically — understand the cost structure of a company: how much is fixed cost and how much is variable cost. The higher your fixed cost percentage, the higher the chances that your operating leverage or margin expansion goes up, because variable cost (the additional cost to make one more unit) automatically reduces when fixed cost is at a high level.
+
+### 3. Process / Execution Moat
+
+Look at how many steps are involved in the entire value chain. You can use NotebookLM or ChatGPT and ask them to explain the value chain of an entire company — what steps they take to go from start to finished product. The more steps that exist in the process, the tougher the moat. If there are 10–12–14 steps in the process, it is quite difficult to replicate and takes a lot of effort for a new player to do the same thing.
+
+**Example — Navin Fluorine:** They have done amazing R&D over the years in fluorination. Value chains create optionalities — today it is a chemical company, someday it also starts catering toward pharmaceuticals because the technology transfer is easy. Navin Fluorine was doing fluorinated gases for refrigeration and such applications. Then there was a drug called darolutamide — a prostate cancer drug, very complex to make, taking 10–12 years of R&D, requiring FDA approval. Making darolutamide requires fluorination of parts of that drug. Navin Fluorine was the only company able to do that fluorination for the pharmaceutical intermediate. So say, earlier they were making fluorinated gases for refrigeration, and now they are making fluorination processes for cancer-related drugs.
+
+Look at how a process, or just creating this kind of moat, can lead to completely new discoveries. This completely changed their operating margins — from early 20s to crossing 30%+ kind of margins last quarter, due to new products coming in because of the processes they had built. The devil is always in the details. You look at the processes they have and where all they can be implemented.
+
+### 4. Intellectual Property (IP / Patents)
+
+The more patents a company holds, the more of a moat. For pharma or tech, IP is a key moat generator. When you have patents or a right-of-use, a new player coming in is very, very difficult, as they hold rights to make that product and it takes a lot of time for the patents office to grant these rights.
+
+Key metric: R&D spend as a percentage of sales. If sales are ₹100 crores and they are spending ₹5 crores on R&D, that is 5% — quite a significant number. That tells you capabilities are being created for the future. Read the annual reports and see what kind of R&D they are doing. Where will this product be used? What is the TAM? How big can this industry be?
+
+**Example — Laurus Labs:** It took them years to develop capabilities, but look at the stock price growth especially when CDMO as a theme in pharma took up very well. People who had capabilities in place, when the tailwind arrived, turned five years of capability building into one year of disproportionate profit growth. That is how intellectual property ended up giving them a huge disproportionate growth in profits and revenue.
+
+### 5. Cost Advantage
+
+When you have the capability of making the cost lower than anyone else can make, you have created a barrier for a new player. **Reliance** is a great example — for any person trying to get into the same business as Reliance, it is next to impossible to ever create that kind of scale again. Reliance also uses predatory pricing. Lowest-cost producers also did that in Jio. So the chance of a new entrant becomes very, very difficult.
+
+**Example — Aarti Industries / Specialty Chemicals — backward integration:** Backward integration means you also control a part of the value chain that helps improve your margins. Say you are a table maker and you also control the wood manufacturing. By making your own wood, you get a cost advantage over someone importing wood from elsewhere.
+
+**Example — Privi Specialty Chemicals:** They used turpentine oil via the crude sulfate turpentine (CST) method — barely four or five players in the world have this capability. That created a moat. It took them a lot of time to build this, and that is when they also started moving toward a higher margin structure. That cost advantage of 15–20% is what helps you get big alpha.
+
+### 6. Working Capital Advantage
+
+The more times you are able to churn your working capital, the faster you can increase cash generation. FMCG companies historically benefited from negative working capital — they collected money up front from buyers and paid suppliers later. That really helps with cash generation and margins.
+
+---
+
+## Threats to the Moat: What Can Kill It
+
+You always have to keep updating yourself each quarter. You cannot just make an investment and forget about it. Let me show how moats can be destroyed.
+
+**3B Black Bio (RTPCR kits during COVID):** For one to two years, they did exceedingly well. But where will growth come from after COVID? They created a very high base — topline growth of 100% year-on-year for two years. There is no chance of doing that in the coming years, and stock markets are forward-looking. If they do not see growth in the future, the stock will not move.
+
+**Serum Institute of India:** Did ₹20,000 crores of revenue in FY21 (COVID year) and then ₹10,000 crores of revenue the next year. How will you create that kind of growth again? It was not a sustainable growth rate. You have to look at how sustainable growth is over five to ten years — will these events repeat themselves?
+
+**Disruption:** Back in the day, people used to go to movies often. After Netflix and OTT came in, people went maybe once a month instead of thrice. That created a big problem for companies like PVR. The threat of disruption is real.
+
+**CMS Infosystems:** The more digitization went up in payments, the less cash was used in daily life. CMS was mainly into cash management services and ATM services. The moment cash consumption reduces, there is a chance their business comes down.
+
+**Asian Paints:** Their margins got affected when Birla Opus came in and JSW came in. They obviously cut prices and tried to capture as much market share as they could. That impacts profitability.
+
+Moats are not sustainable forever. You have to keep seeing on a quarter-to-quarter basis what is happening.
+
+---
+
+## Sector-Specific KPIs
+
+There is a website called Tijori.in which helps you get these metrics in a nice graphical format. The BSE average daily turnover chart I showed you was taken from Tijori. It gives you a nice metric over each quarter over five years.
+
+**Examples by sector:**
+
+- **Hospitals:** Average revenue per operating bed; average length of stay — the faster the patient exits, the more patients you can cater to.
+- **NBFCs / Banking:** Net interest margin, cost of funds, AUM / loan book growth.
+- **IT:** Headcount growth was a trigger before AI. Now, headcount decline may actually mean profits are growing due to AI-based efficiency. Update your metrics with time.
+
+Each industry has its own metrics. You look at the sector-specific KPIs to understand the business better.
+
+---
+
+## When to Exit
+
+Exit always becomes a question — when will you figure out that now is the time to exit? Or there is FOMO about why you sold earlier. Equity returns are always lumpy. Markets move in pendulums — either extremely bullish or extremely pessimistic. In a bull market you can wash off a lot of bad stock picks, and in a bear market you get a chance to buy businesses at absolutely distressed valuations.
+
+**How we think about exit at Kamayaka:**
+
+**1. Promoter selling:** As I mentioned, promoters usually sell when their stock is overvalued. Do as the promoter does — buy when the promoter buys, sell when the promoter sells.
+
+**2. Opportunity cost:** Say I found a company where ten years of R&D is coming live today, and I've got a business which has already done well for me and captured quite a lot of growth. I look at opportunity cost. If I am going to make 15% compounded in my current holding over two to three years, and I can make 25% compounded in a new business, it makes sense to switch. Capital is limited. Whenever you find a better business with a higher chance of growth, that is a reason to exit a current one.
+
+**3. Obsolescence risk:** Netflix came in — I would probably want to get out of PVR. What are the chances that my revenue falls or something material has changed in the business? Terminal value is a very important thing to note here. The moment you as a layman investor are also able to figure out the disruption threat, there is a high chance the market will derate valuations quickly. You have to get out fast when obsolescence is real and visible.
+
+**4. Valuation discipline:** The moment it has run up way ahead of its fundamentals — if it is capturing five to seven years of growth in today's price — that gives you an example of at least partially booking some profits. Markets move in extremes.
+
+**5. Fundamentals not walking the talk:** Say management said we will grow at 15% and now they are degrowering at 15%. You start figuring out: is the management misleading you, or has something gone materially wrong in the industry? AI tools help you here — you can compare what the management guided in past quarters with what they actually achieved.
+
+**6. Thesis invalidation:** You should get out — ruthlessly. Certain triggers which you had expected are not going to happen. Exit. Do not wait and hope. These are certain ways of exiting, and sometimes we go wrong on exits too. But you have to be disciplined.
+
+---
+
+## Real-Life Case Studies: Entries and Exits
+
+### Vimta Labs — Capex Timing = Alpha
+
+Vimta Labs is a Hyderabad-based company doing contract research and testing for pharmaceuticals. They had reached 90%+ capacity utilization — they had run out of capacity to cater to new clients. Capacity utilization is a very important metric to track in manufacturing. When you are at low capacity utilization, say 50 units out of 100 possible, you have a chance to reach 80–90 units — that is when your capacities are fully utilized, and margins go up with scale.
+
+I paid close attention to when their new capacities were going live and entered one quarter prior. They set up a new factory in Hyderabad's Genome Valley, which I personally visited. I saw that their capacity utilization would again come down and there was a high chance of growing sales at 25–30%. We made around 102% in a one-year time period — all due to figuring out when the capex was going live and when the growth would start coming in.
+
+If I had entered two years prior, I would have been sitting with two years of no return because they were at 100% capacity with no avenues to grow sales and profits further.
+
+We exited when I felt the stock price had doubled in a year and the growth had been factored in — at around ₹150 per share (there has been a stock split since; now at around ₹445, and even two years later the price is there only, so technically my exit worked out in my favor). The valuation was at 7x sales, which was much higher than its long-term average. That gave the exit signal.
+
+### Religare Enterprises — Thesis Invalidation
+
+The Ranbaxy brothers had done a big fraud, and later the Burman family of Dabur had taken over. There were a lot of triggers — they were going to revive a lot of their businesses, remove the fraud tag from their banking operations, and completely turn around the business. We emphasized that this would happen in maybe 6–8 months.
+
+But it became quite a murky fight when Rashmi Saluja, the earlier management, started creating a big hurdle in the takeover. When you cross 26%, that is when you have the chance of making an open offer, and this entire legal battle became quite long-drawn. We luckily entered at ₹223 and were getting a price of ₹335. As I mentioned, a bull market helps you eliminate a lot of your mistakes — we were still generating over a 30–35% return.
+
+But my thesis was getting invalidated or very delayed. I chose to get out. The stock price is still around ₹215 even after our exit in December 2024. One and a half years again of no return if we had stayed. Your exits can save you a lot.
+
+This was a special situation — a case study in thesis invalidation. Special situations include demergers, spin-offs, M&A, NCLTs, bankruptcy restructuring, takeovers. These are very in-depth situations and extremely difficult to analyze — every special situation is not necessarily special.
+
+**Example of a special situation played well — IIFL Finance / DVR concept:** A conglomerate doing multiple businesses that does a demerger gives you exposure just to one business instead of all of them, and the holding company discount also goes away.
+
+### Tata Motors DVR — Special Situation
+
+We are launching a long-form video explaining this thesis. There are two kinds of shares: ordinary shares and Differentiated Voting Right (DVR) shares. DVR shareholders sacrifice voting rights to get a higher dividend. Companies usually have some kind of discount on DVR shares, and on average the discount we had seen in other DVRs was around 30%. Here we were seeing a 50% DVR discount. Why? Because for six years Tata Motors had not paid any dividend. Our job was to figure out whether Jaguar Land Rover could turn around. That process happened, and after the business turned around, the DVR discount went from 50% to 30%. As DVR shareholders, we made over 30% returns compared to a Tata Motors ordinary share play.
+
+---
+
+## Corporate Governance: Non-Negotiables
+
+If you are going to deal with crooks, you are going to fall into a big mess. You have to always be very watchful of any fraudulent activities or shady corporate governance.
+
+**1. Related-Party Transactions:** When a promoter is dealing a lot with his own related parties — say buying goods from his brother's manufacturing plant — look at the transfer pricing. Is he doing it at market rate or at a big discount? That can over-inflate reported profits.
+
+**2. Operating Cash Flow vs. Net Income Conversion:** Profits can be manipulated to quite an extent, but your cash flows are much harder to manipulate — cash that actually exists cannot be faked. Operating cash flow = operating profits minus changes in working capital. Most of the fraud happens in working capital. When your sales are ₹100 and ₹50 is receivable, there is a high chance that sales are fake or you are doing bloated billing. When your inventory is quite overvalued, that also shows.
+
+As a standard, we look at a three-year average operating profit versus cash flow conversion of 70–80%. If the conversion ratio is below that, the books can be manipulated. **If EBITDA is ₹100 and cash flow is only ₹40–50, there is a very big divergence.** Flag it.
+
+**3. Promoter Pledging:** When the promoter pledges his entire equity holding and takes a lot of debt, in case anything goes wrong and they cannot service that debt, the bank will have to sell all those shares. That creates force selling that can completely crash the stock price.
+
+**4. Auditor Qualifications:** Has the auditor given any red flags in his report? Is he qualifying anything? These are certain kinds of indicators that really help.
+
+**5. Contingent Liabilities:** Are there large off-balance-sheet items? Big tax liabilities not visible on the balance sheet?
+
+**6. Promoter Benefiting Personally:** Balaji Amines had a business which they did in the promoter's personal name instead of the company's name, and they ended up doing an IPO of that where the promoter benefited personally, not the company. You have to always look at the mentality of the promoter — is he trying to make money for the shareholders, or is he going to skim you and take the money home?
+
+**Key point:** A crook will never let you make money. Be most particular about corporate governance. Be ruthless. Satyam can happen, Yes Bank can happen, DHFL can happen. You have to be very, very watchful.
+
+ChatGPT is a good way of finding red flags — any litigations on the promoter, court cases, big contingent liabilities, or large off-balance-sheet items.
+
+---
+
+## Our Research Process
+
+We have a research team of three to four analysts. It is a very big process.
+
+**Daily reading:** Industry reports, articles, newspapers, business journals.
+
+**Data sources:** Screener.in, Ace Equity, various outside subscriptions for on-ground data.
+
+**Research activities:** Read a lot of concalls, attend concalls, meet managements, visit plants to get on-ground reality. What you see on the ground is actually what sells and helps you increase conviction in a large way.
+
+**Stock screening:** Screener.in for stock screening. Stock screening is never an end product — it is always a starting point that gives you a workable list of ideas. From there you dig into the details. For cyclical companies, you can do reverse screeners — find companies at distress levels where sales have degrown, profits have degrown, or valuations have fallen. You then figure out the reason for the discount.
+
+---
+
+## AI Tools for Research
+
+This part is covered by Raghav.
+
+[Raghav speaking:]
+
+**Walk the Talk check:** This is basically checking what management indicated in earlier quarters and whether that has turned into reality. One way is to do it manually — check the Q4 call, make a list manually, a lot of manual effort. Instead, you can use tools and a prompt to get this kind of result automatically.
+
+**Example — Transrail Lighting Limited:** Using a prompt on Claude AI, you get a dashboard that covers pre-IPO financial track record, post-IPO guidance, specific metrics on which guidance was given, what the actual result was, and the status — met, exceeded, or partially met. There is also an order book and inflow guidance tracker. Then you get qualitative analysis — for example, this management has always underpromised and overdelivered.
+
+**Tools we use:**
+
+| Tool | Best Use |
+|---|---|
+| **Claude AI** | Deep financial analysis, complex stock research, building financial models |
+| **ChatGPT** | Daily research, administrative tasks, competitive landscape |
+| **Perplexity AI** | Finance-specific deep research; Max subscription works phenomenally |
+| **Google Gemini** | Google ecosystem apps — Gmail, Drive integration |
+| **Calc** | Monitors all concalls; keeps track of what management has said and whether they have diverted from past guidance — gives live analysis |
+| **NotebookLM** | Upload 4–5 annual reports (~2,000 pages); ask any question across all of them — e.g., how much has the MD's salary grown relative to sales; great for creating PPTs and analyzing large data |
+
+[Back to Nita:]
+
+---
+
+## Scuttlebutt: On-Ground Research
+
+This is something which is very core to our entire research process. We have visited at least 50–60 plants over the last three years and interacted with at least 300–400 managements. That gives you a lot of in-depth views. We are semi-registered as a research entity, so a lot of managements give us access to meet them. We attend a lot of conferences and visit a lot of plants.
+
+This is very important when you want to put in large sums of money. Small caps are relatively under-researched. Large caps are well captured, but small caps have a lot of informational asymmetry. Scuttlebutt is a game-changer for small companies. I have found amazing companies which have been fantastic investments just because nobody in the market knew them. When you go there and see that this is not a ₹500 crore company — it should be valued at ₹2,000 crores — and their land, buildings, and property, plant and equipment are equal to their market cap, you are basically getting it at book value. There are many companies like that which are hidden gems.
+
+---
+
+## Other Tools and Data Subscriptions
+
+| Tool | Best Use |
+|---|---|
+| **Volza** | Import/export data on a month-on-month basis — track whether companies are growing exports |
+| **Kavi** | Business intelligence platform; connects you to experts (CEOs, executives) for a fee |
+| **The Ken / Morning Context** | Curated business articles |
+| **Ace Equity** | Bloomberg-equivalent service for Indian markets |
+| **Magzter** | Magazine subscriptions |
+| **ValuePickr** | Forum/thread for each company — like a Reddit or Instagram for stocks; connect with in-depth investors |
+| **Tijori.in** | Sector-specific operational KPIs in graphical format |
+| **Screener.in** | Free stock screening, promoter activity, financial data |
+
+---
+
+## Kamayaka Research — Smallcase Offerings
+
+To celebrate our three-year anniversary of the Value Buy Opportunities smallcase, we did a 31% CAGR over three years — more than doubled money over a three-year time period.
+
+**Our five smallcase offerings:**
+
+1. **India Growth Story Mutual Fund Basket** — Recently launched. A curated basket of mutual funds we like for investors who want exposure to mutual funds without stock-picking. No demat account required.
+
+2. **Value Buy Opportunities** — Our oldest basket. Focused on relatively under-researched, hidden gems, primarily small and midcaps. 15–20 stock holdings. Minimum recommended investment: ₹2.5–3 lakhs. Currently exploring a pricing increase in the coming months.
+
+3. **Concentration & Conviction HNI Basket** — Maximum 10 stocks, minimum 10% weightage per stock. Minimum investment: ₹10 lakhs (higher risk profile). Our highest-conviction bets. Launched 6 months ago; returned ~5% in a weak market.
+
+4. **Cyclical Opportunities** — Companies in upcycles and down cycles (e.g., chemicals). More nuanced. Recommended for investors who understand cyclical dynamics.
+
+5. **Dividend Yield and Growth** — Companies with high dividend yields (3%+) combined with some growth. For those looking for fixed income-like exposure.
+
+**For beginner investors:** Value Buy Opportunities and the Mutual Fund Basket.
+**For higher risk / nuanced investors:** HNI Basket or Cyclical Opportunities.
+
+**Pricing:** Value Buy Opportunities costs approximately ₹7,000 per year after GST — fixed annual fee, no variable charge based on investment amount. The smallcase platform connects your existing broker account (they support 20–25 top Indian brokers). You subscribe, connect your broker, invest the amount, and approve transactions via the Smallcase app.
+
+**Important:** Smallcase is not a PMS. You control everything. All stocks are in your own demat account. Kamayaka only provides advice and model portfolio changes — you execute the transactions.
+
+---
+
+## Q&A Session
+
+**Q: What has structurally changed in private banking?**
+
+A lot of equity investing has increased in the country. All private banks are really struggling to generate CASA — a lot of money is moving toward SIPs. The moment CASAs are not growing, net interest margins are coming down because the cost of funds has gone up. PSU banks, which used to be very inefficient five to six years ago (early 2018–2019), have cleaned up significantly — the government has done a great job. So competition in the banking space has really increased. Net interest margins in banking have faced problems. I would personally be careful of private banks. Look more at NBFCs. NBFCs are better placed than private banks in this space — better to avoid Kotak Bank in this space is my view.
+
+**Q: Is Ramco Systems threatened by AI?**
+
+Enterprise businesses are a different story. Any company that is using Tally — even with all the AI tools — is not going to get out of an enterprise business overnight. Ramco Systems mainly makes ERP and tools for the aerospace and defense space where AI cannot completely take over. I feel they are quite well insulated, and they have already integrated AI into a lot of their workflows. We'll look at each quarter to see how they are able to win new business. So far I feel they have done quite well to defend themselves from the AI threat. And even looking at the last three quarters, the turnaround is clearly visible — from loss to profit.
+
+**Q: India as the next pharma hub?**
+
+On our YouTube channel we have a video on Indegene, which is a pharma proxy. We will also be launching a CDMO play in our smallcase baskets very soon. We are tracking certain chemical companies which are inclined toward supporting pharma — a little valuation safety is not there in a few of them yet, so we are hesitant to start coverage. But there will be a CDMO play being put into our baskets, and there is quite a lot of overlap across our smallcases but with different weightages.
+
+**Q: Is there any direct AI play in India?**
+
+There are no direct AI IP plays in India as such. Most of the IP lands with US companies such as Claude and Anthropic. India will be more of a service provider than an AI IP generator. The IP is with the US and they have the lion's share. So we are focusing more on hard businesses — manufacturing, real assets — which are not affected by AI, because the AI-heavy businesses could face a terminal value issue.
+
+**Q: What is your perspective on small-cap valuation after the recent correction?**
+
+It is very difficult to time the exact bottom. The key trackable here is the crude oil price. The moment Brent crude falls below 95 and moves sustainably toward an 85 kind of level, I think the Indian market should do very well. If you are investing today, small caps should do quite well over a two-to-three-year perspective from today. Start on a staggered basis — do not go all-in today, because anything can happen geopolitically. These factors can repeatedly come up. But with a two-to-three-year perspective in a smallcase, it should do well at today's prices.
+
+**Q: Vodafone Idea — views?**
+
+I would stay away. Jio has the lion's share and Vodafone is probably going to get butchered even further. There is too much debt on the books, the AGR overhang is still there, and a lot of equity dilution even though the Birla Group has put in some money recently — it is still not attractive enough for me to buy. I would much rather go for an Airtel than a Vodafone Idea. The structural changes in the telecom sector are very heavy.
+
+**Q: Internal return targets for the smallcases?**
+
+Our internal target — and I reiterate, these are not guarantees — is between 20–25% compounded returns over a three-to-five-year period. In the last three years, our Value Buy Opportunities CAGR has been 31%.
+
+---
+
+## Closing Remarks
+
+So that is pretty much the entire session. To summarize what we covered today: earnings growth is the master of all stock prices, the six growth triggers to look for, six types of moats and how to identify them, valuation benchmarks across P/S, EV/EBITDA, P/E, PEG, P/B, and reverse DCF, how to think about exits, corporate governance non-negotiables, and how AI tools are changing equity research.
+
+We hope all of you had a great time and learned something new. To celebrate our three-year anniversary, we are also giving a 30% discount to all webinar attendees — use code **WEB30**, valid for one week.
+
+We do a quarterly webinar call to discuss all developments in our holdings. Through our WhatsApp communities, we take up daily queries and share company updates. Look forward to interacting with all of you on our smallcase calls.
+
+Thank you so much. Have a great Sunday.
+
+---
+
+*End of transcript.*
