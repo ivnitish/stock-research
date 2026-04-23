@@ -51,17 +51,19 @@ At ₹642 and 29x P/E on near-term earnings, the market is pricing in substantia
 
 ### Multi-Bagger Math
 
-**Revised with wagon business:**
+**Revised Apr 23 — container capacity expansion to 16,000 units changes the floor:**
 
-| Scenario | FY29E Revenue | OPM | PAT | Exit P/E | Per Share* | vs CMP ₹642 |
-|----------|-------------|-----|-----|---------|-----------|------------|
-| Bear (wagon delays 2yr) | ₹220 Cr | 11% | ₹17 Cr | 15x | ₹355 | -45% |
-| Base (wagons H2 FY27, 500/yr by FY29) | ₹400 Cr | 12% | ₹33 Cr | 22x | ₹1,007 | +57% |
-| Bull (wagons scale, ₹4,000 Cr vision on track) | ₹700 Cr | 12% | ₹58 Cr | 28x | ₹2,257 | +2.5x |
+| Scenario | FY29E Revenue | Driver | OPM | PAT | Exit P/E | Per Share* | vs CMP ₹642 |
+|----------|-------------|--------|-----|-----|---------|-----------|------------|
+| Bear (wagon delayed to FY28+, containers 75% utilization) | ₹330 Cr | 12,000 containers × ₹2.5L + castings | 10% | ₹23 Cr | 15x | ₹480 | **-25%** |
+| Base (containers full ramp + wagons 500/yr by FY29) | ₹464 Cr | 13,600 containers × ₹2.61L + 500 wagons + castings | 11% | ₹36 Cr | 22x | ₹1,100 | **+71%** |
+| Bull (wagons scale 1,500+/yr, ₹4,000 Cr vision on track) | ₹750 Cr | Full container + wagon + terminal | 12% | ₹63 Cr | 28x | ₹2,450 | **+2.8x** |
 
-*71.87 lakh shares. Base case gives ~57% upside by FY29 (15% CAGR) — acceptable but not exciting at CMP. Bull case is genuinely multi-bagger. Bear case is material downside.*
+*71.87 lakh shares. Bear case revised from -45% to -25% because container expansion alone generates ₹300-330 Cr revenue without a single wagon. The downside is now more contained.*
 
-**The binary nature:** This is a much wider distribution than normal. Wagon success = 2-3x. Wagon delay + capex burden = -45%. The risk/reward is NOT compelling at ₹642. It becomes compelling below ₹450 where the base case gives 2x+ and the bear case limits downside to -20%.
+**Why the floor improved:** Original bear case assumed ₹220 Cr revenue (wagon delay = flat containers). That was wrong — it didn't account for the 16,000-unit container capacity coming online by FY26 end. Even at 75% utilization on 16,000 units = 12,000 containers × ₹2.5L = ₹300 Cr in containers alone. The wagon plant capex stress is real, but the container business absorbs a large part of it.
+
+**The asymmetry is improving:** Bear case is -25% (₹480). Base case is +71% (₹1,100). Bull case is +2.8x (₹2,450). This is a 3:1 upside/downside ratio at CMP — acceptable but still not compelling enough to enter at ₹642. At ₹450, base case gives 2.4x and bear case is -7% — that is genuinely asymmetric.
 
 ### When to enter?
 
@@ -187,9 +189,9 @@ Kalyani Cast-Tech Ltd (BSE SME: 544023), Rewari, Haryana. Incorporated 2012, lis
 
 ## 4. Outlook
 
-**FY26:** Revenue ₹185-200 Cr. Order book ₹140 Cr confirmed + additional orders being negotiated. Container capacity expansion ready by March 2026. Gati Shakti Rail Terminal target March 31, 2026. PAT ₹20-24 Cr at 11-12% margins.
+**FY26:** Revenue ₹185-200 Cr. Containers running at 85% utilization on 6,000 capacity = physically near ceiling. Gujarat plant adds 10,000 units (total 16,000) — coming online March 2026. Once live, container revenue ceiling jumps from ~₹155 Cr to ~₹354 Cr. Gati Shakti Rail Terminal target March 31, 2026. PAT ₹20-24 Cr at 11-12% margins.
 
-**FY27:** Wagon plant 80% ready by FY26 end. Commercial operations H2 FY27 (best case). Revenue contribution from wagons still uncertain (prototype + G-105 certification path ongoing). Wagon factory primarily contributes Phase 1 revenue in H2 FY27. Container + castings business likely ₹200-220 Cr. Total FY27E: ₹220-280 Cr depending on wagon ramp.
+**FY27:** Container capacity ramp on 16,000 units is the primary driver — not wagons. At 80% utilization = 12,800 units × ₹2.61L = ₹334 Cr container revenue + ₹30 Cr castings = ₹364 Cr before any wagon contribution. Wagons H2 FY27 (best case — first 200-300 units). Total FY27E: ₹380-420 Cr. This is a significant upgrade from earlier ₹220-280 Cr estimate.
 
 **FY28-29:** If wagon manufacturing at 500-1,000 units/year, revenue impact is significant. Wagon pricing unclear from concall. Steel foundry (Phase 3) would complete backward integration. ₹400+ Cr revenue achievable if execution is on track.
 
@@ -222,7 +224,42 @@ For base business only (no wagons), fair P/E is 15-18x given BSE SME illiquidity
 
 ---
 
-## 6. Risks
+## 6. Competitive Landscape
+
+### Container Manufacturing Peers — FY24-25 Data
+
+| Company | Capacity | Units Sold | Utilization | Revenue (₹ Cr) | Revenue/Container (₹L) | Model | Notes |
+|---------|----------|-----------|-------------|---------------|----------------------|-------|-------|
+| **Kalyani Cast Tech** | **6,000** | **5,100** | **85%** | **₹133 Cr** | **₹2.61L** | Full product | Customized for domestic; expanding to 16,000 |
+| APPL | 15,000 | 7,343 | 49% | ₹69 Cr* | ₹0.94L* | Job-work | *86% revenue excludes material — service only |
+| Jupiter Wagons | 4,500 | 1,012 | 22% | ₹70 Cr | ₹6.92L | Specialty | BESS + data centers; containers = 2% of revenue |
+| Braithwaite & Co. | NA | 141 | NA | ₹10 Cr | ₹6.76L | PSU | ISO + specialized; Government entity; containers = 1% of revenue |
+
+*Source: Container Manufacturing Companies in India data sheet, FY24-25*
+
+### What this table reveals — first principles read:
+
+**Kalyani is the dominant pure-play domestic container manufacturer.** APPL has 2.5x the capacity but earns ₹69 Cr vs Kalyani's ₹133 Cr — because APPL is a job-worker (service model), not a product company. Kalyani IS the product. Jupiter and Braithwaite are in containers only peripherally — wagons and PSU procurement are their real businesses.
+
+Think of it this way: if you need a customized container built for the Indian railway network, there is essentially one serious private-sector option — Kalyani Cast Tech. APPL can't win the contract directly. Braithwaite moves too slowly. Jupiter is focused elsewhere. This is not a fragmented commodity market — it is a concentrated specialty market where Kalyani has the deepest product capability and the strongest utilization rate.
+
+**Utilization at 85% is the physical proof of demand.** Factories don't run at 85% unless orders are coming in faster than capacity can absorb. APPL at 49% shows that raw container manufacturing capacity is not scarce — Kalyani's customization capability is scarce. The 10,000-unit Gujarat expansion is not speculative — the demand exists today and is being left unfilled.
+
+**Pricing trajectory:** Kalyani earns ₹2.61L/container (normalized) with a range of ₹2.6L–₹19L. Jupiter earns ₹6.92L/container for BESS/data center applications. The gap between ₹2.61L and ₹6.92L is the product specialization gap. As Kalyani moves up the product stack toward BESS containers, foldable stainless-steel, specialized railway applications — average realization could expand 2-3x without a single new customer needed.
+
+### Competitive Moat Assessment
+
+| Moat Type | Kalyani's Position | Durability |
+|-----------|-------------------|-----------|
+| RDSO approval (specialized wagon) | Exclusive MOU for joint wagon design | High — competitors need RDSO's own involvement to replicate |
+| Customization capability | Only domestic player building specialized containers at scale | Medium — others can build capability with time |
+| Promoter domain expertise | Ex-Railways officer who designed the systems this company makes products for | High — 17 years inside Railways is not replicable |
+| Integrated site (144 acres, Gujarat) | Container + wagon + terminal + foundry at one location | High — land and approvals cannot be fast-followed |
+| PSU competition | Braithwaite sold 141 containers vs Kalyani's 5,100 — PSU inefficiency is the moat | Medium — PSUs always have policy risk |
+
+---
+
+## 7. Risks
 
 | Risk | Probability | Impact |
 |------|-------------|--------|
@@ -254,6 +291,34 @@ For base business only (no wagons), fair P/E is 15-18x given BSE SME illiquidity
 ---
 
 ## 8. Research Log
+
+### 2026-04-23 — Container Industry Competitive Data Sheet (Thesis Strengthened)
+
+**Source:** Industry data sheet — Container Manufacturing Companies in India (FY 24-25), shared by user
+
+**What this data says that the concall didn't:**
+
+**Utilization is 85% — the Kamayaka growth trigger is confirmed.** Kalyani sold 5,100 containers out of 6,000 capacity in FY25. That's the highest utilization in the sector — APPL at 49%, Jupiter at 22%, Braithwaite minimal. A business running at 85% utilization on containers is capacity-constrained. It physically cannot grow revenue much further without the Gujarat expansion. This is exactly the Kamayaka trigger: constrained capacity → new plant → revenue step-change when it goes live.
+
+**The Gujarat expansion is 10,000 units, taking total capacity to 16,000.** This was not clearly quantified in the Q2 FY26 concall. The Gujarat factory (80% done as of Nov 2025, target March 2026) adds 10,000 units of container capacity. Combined with Rewari's 6,000, total container capacity becomes 16,000 units — a **2.67x jump** from today. Revenue math:
+
+- 16,000 capacity × 85% utilization = 13,600 units
+- 13,600 × ₹2.61 lakh/container = **₹354 Cr container revenue alone**
+- vs ₹133 Cr today — before a single wagon has been made
+
+This changes the bear case. Even if wagons are delayed 2-3 years, container revenue alone can reach ₹300-350 Cr — not the ₹220 Cr assumed in the original bear case.
+
+**APPL's ₹69 Cr revenue is not what it appears.** APPL has 15,000 capacity (2.5x Kalyani) but sold only 7,343 containers (49% utilization) for ₹69 Cr. Why so low? Footnote: "APPL couldn't directly win contracts, so it applied for bids via a group company and provided job-work service." 86% of APPL's revenue excludes material cost — only the service/labour component is counted. APPL is essentially a subcontractor. Kalyani's ₹133 Cr is full product revenue including material. So Kalyani's revenue is not comparable to APPL — it's structurally larger per unit and growing faster.
+
+**Kalyani's ₹2.61L/container is a normalized floor, not the ceiling.** Footnote: "Actual container prices range from 2.6L to 19L depending on size and customisation." The ₹2.61L is a base unit normalization. As product mix shifts toward more specialized containers (stainless steel, foldable, BESS), average realization can expand significantly. Jupiter Wagons earns ₹6.92L/container for BESS/data center applications — Kalyani is not yet in that segment but the capability path exists.
+
+**Braithwaite validation:** The PSU competitor mentioned in the concall (management's comment: "I am private; government is not efficient in business") sold only 141 containers for ₹10 Cr — at ₹6.76L/container. Braithwaite is virtually absent from the market despite being a government entity with Railway relationships. Management's confidence about private vs PSU efficiency is validated by the data.
+
+**Revised bear case:** Even if wagon plant is delayed to H1 FY28, container revenue alone at 75% utilization on 16,000 units = 12,000 × ₹2.5L = ₹300 Cr + ₹30 Cr castings = ₹330 Cr by FY27-28. At 10% OPM → ₹23 Cr PAT. At 15x → ₹480/share. Bear case floor is now ₹400-480, not ₹355 as originally estimated. **Downside is better than first modelled.**
+
+**Multi-bagger math revision triggered.** See updated tables in Sections 5 and Summary Verdict.
+
+---
 
 ### 2026-04-21 — Q2 FY26 Concall Analysis (Major Thesis Revision)
 
