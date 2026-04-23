@@ -5,7 +5,7 @@
 **Classification:** Potential Multi-Bagger — Execution Risk High, Entry Price Matters
 **Last Updated:** 2026-04-21 | **CMP:** ₹642 | **MCap:** ₹461 Cr | **P/E:** 29.2x | **P/B:** 6.2x | **52W:** ₹361–₹700
 
-> **Recommendation:** WATCHLIST — do not enter at ₹642. The original thesis (castings + commodity containers) was incomplete. The Q2 FY26 concall reveals a transformative 3-business pivot: specialized containers → wagon manufacturing → Gati Shakti Rail Terminal (logistics hub). The promoter is an IIT Madras engineer and 17-year Indian Railways Class A officer who literally invented double-stack container trains. RDSO has signed an MOU for joint development of a specialized container wagon design — giving Kalyani exclusive manufacturing/marketing rights for that design. Revenue from wagons expected H2 FY27. ₹170-200 Cr capex underway for wagon plant at 144 acres in Bhachau, Gujarat. Management has guided ₹4,000 Cr revenue in 7-8 years (vs ₹161 Cr today). This is either a 10x story or an execution failure — and at 29x P/E it is priced for partial success. **Entry below ₹450: where the wagon optionality is free.** Do not chase at current price.
+> **Recommendation:** WATCHLIST — do not enter at ₹642. Kalyani Cast-Tech is building three connected businesses: specialized containers (running at 85% capacity, expanding 2.67x to 16,000 units by FY26 end) → railway wagons (specialized design co-developed with RDSO, exclusive manufacturing rights, revenue from H2 FY27) → Gati Shakti Rail Terminal (inland logistics hub at the same 144-acre Gujarat site). The promoter spent 17 years as a Class A Indian Railways officer and personally designed India's double-stack container train system — the products this company makes are things he built inside Railways. ₹170-200 Cr capex underway. Management has guided ₹4,000 Cr revenue in 7-8 years (vs ₹161 Cr today). This is either a 10x story or an execution failure — at 29x P/E it is priced for partial success. **Entry below ₹450: where the wagon optionality is free.** Do not chase at current price.
 
 ---
 
@@ -13,7 +13,7 @@
 
 ### Why this business?
 
-The story written in the initial research was wrong — not because the facts were wrong but because the most important facts were missing. Kalyani Cast-Tech is not a castings-plus-commodity-containers manufacturer. It is an integrated logistics solutions company being built from first principles by Naresh Kumar, an IIT Madras alumnus who spent 17 years in Indian Railways as a Class A officer, personally architected India's double-stack container train system, and then left to build the products that Railways needs but won't build efficiently itself.
+Kalyani Cast-Tech is an integrated logistics solutions company being built from first principles by Naresh Kumar — an IIT Madras alumnus who spent 17 years in Indian Railways as a Class A officer, personally architected India's double-stack container train system, and then left to build the products that Railways needs but won't build efficiently itself.
 
 The company started in 2014 making steel castings for Railways (its original moat — being an approved vendor to Railways). In 2021, it pivoted to containers — not generic ISO boxes but specialized containers for specific use cases: double-stack containers, dwarf containers, stainless-steel foldable containers for steel product transportation. The company has manufactured ~15,000 containers and saved ₹420 Cr of foreign exchange (import substitution). It is now entering wagon manufacturing, specifically a specialized wagon for transporting containers — a design that RDSO has signed an MOU with Kalyani to jointly develop, clearing Stage 1, and giving Kalyani exclusive manufacturing and marketing rights for that design.
 
@@ -25,7 +25,11 @@ At ₹642 and 29x P/E on near-term earnings, the market is pricing in substantia
 
 1. **Promoter is the product.** Naresh Kumar (IIT Madras, M.Tech Mechanical Engineering) spent 17 years as a Class A officer in Indian Railways. He personally designed double-stack container trains and double-stack dwarf trains for electrified routes. He is not an entrepreneur who discovered logistics — he invented the technology the company now commercializes. This domain depth is rare in Indian SMEs and is the primary reason the RDSO MOU happened.
 
-2. **RDSO MOU — genuine first-mover moat in specialized wagons.** RDSO (Research Designs and Standards Organisation, the technical arm of Indian Railways) has signed an MOU with Kalyani Cast-Tech for joint development of a specialized wagon for container transportation. Stage 1 design cleared. Kalyani gets exclusive right to manufacture and market that design. This is not a vendor registration — it is a co-development partnership with the standard-setting body. Once G-105 certified, competitors cannot replicate this design without RDSO's involvement.
+2. **RDSO partnership — Kalyani co-designed the wagon, not just got approved to make it.** Every product on Indian Railways — every wheel, wagon, container fitting — must be approved by RDSO before Railways will buy it. RDSO sets the specifications and certifies manufacturers. The normal path for any company: design your product, submit it to RDSO, wait for approval, then compete with every other approved vendor selling the same thing.
+
+   Kalyani took a different path: they partnered with RDSO during the design process itself. Their engineers and RDSO's engineers designed this specialized wagon together. The design that comes out is jointly developed — and Kalyani holds exclusive manufacturing and marketing rights for it. A competitor wanting to make the same wagon can't just copy the design — they'd need RDSO to start the entire process again from scratch with them, which RDSO has no reason to do after already partnering with Kalyani.
+
+   This is the difference between "approved to make a product" (easy to replicate) and "co-invented the product with the body that sets the rules" (very hard to replicate). Stage 1 design is cleared. G-105 manufacturing certification (the licence to actually produce wagons at scale) is the next milestone.
 
 3. **"Not in the rat race" strategy is genuinely differentiated.** Management explicitly refuses to compete on standard containers or standard wagons. Every product is specialized: world-first stainless steel dwarf containers (reduces tare weight, increases payload), foldable stainless steel containers (multi-stackable when empty, reduces empty-run cost), specialized wagon for container transport. These are not me-too products.
 
@@ -372,7 +376,7 @@ This changes the bear case. Even if wagons are delayed 2-3 years, container reve
 
 ---
 
-### 2026-04-20 — Initial Research
+### 2026-04-20 — First pass from Screener.in data
 
 **Source:** Screener.in (BSE: 544023, Apr 2026)
 
@@ -382,5 +386,43 @@ This changes the bear case. Even if wagons are delayed 2-3 years, container reve
 - OPM compressing 17% → 12% — concerning; product mix unknown at time
 - Promoter declining 69.84% → 59.47% in 2 years — still a yellow flag
 - At 30.6x P/E: no margin of safety, base case essentially flat from CMP
-- Grade C+ (12/25) — interesting business, wrong price
-- **NOTE: This analysis was incomplete — missed wagon manufacturing and full capex plan. See Apr 21 entry above.**
+- Grade C+ (12/25) — Screener.in alone does not capture the wagon manufacturing story; Q2 concall (Apr 21 entry) is required reading for the full thesis
+
+---
+
+## Glossary — Key Industry Terms
+
+*What these words actually mean in the context of this business.*
+
+**Steel Castings**
+A casting is a metal part made by pouring molten steel into a mould and letting it cool into a specific shape. Think of it like making a chocolate bar in a mould — except it's steel, and the shapes are things like brackets, housings, and structural components used in railway bogies and industrial machinery. Casting is how you make complex metal shapes that are too difficult or expensive to machine from a solid block. Kalyani's original business (2014–2021) was making these parts for Indian Railways.
+
+**ISO Container (Standard Container)**
+The standard metal box you see on ships and trucks worldwide — 20ft or 40ft long, fixed dimensions, same everywhere on earth. Any crane, truck, or ship is built to handle this exact size. The "ISO" refers to the international standard (ISO 668) that defines its dimensions. These are commodity products — anyone with basic metal fabrication capability can make them. Margins are thin because the design is fixed and there is no differentiation.
+
+**Double-Stack Container**
+Indian Railways runs trains where containers are stacked two high on a flatbed wagon. A regular container is too tall to stack two-high on electrified routes (the top container would hit the overhead wires). A double-stack container is a shorter, specially designed container that fits within the height limit even when stacked two-high. Kalyani makes these — they require a modified design and cannot simply be substituted with a standard ISO container. This is what "specialized" means in the container context.
+
+**Dwarf Container**
+An even shorter version of the double-stack container, specifically designed for electrified routes where the height clearance is tightest. Kalyani manufactures what is reportedly the world's first stainless-steel dwarf container — stainless steel reduces the tare weight (the weight of the container itself), which means more cargo can be loaded within the same total weight limit the wagon can carry.
+
+**Foldable Container**
+When a container is empty, it still occupies the same space on the wagon going back. A foldable container collapses flat when empty — reducing the stack height and allowing more empty containers to be transported in one trip. This cuts the cost of repositioning empty containers, which is a major logistics expense. Kalyani makes foldable stainless-steel versions.
+
+**Railway Wagon**
+A wagon (or freight car) is a non-motorized rail vehicle that carries goods. It is pulled by a locomotive. Indian Railways operates hundreds of thousands of wagons carrying coal, grain, containers, cement, steel, and more. The wagons Kalyani is building are specifically designed to carry the kinds of specialized containers they manufacture — a purpose-built wagon for purpose-built containers. Standard wagons can cost ₹30-60 lakh; specialized wagons command higher prices.
+
+**RDSO (Research Designs and Standards Organisation)**
+The technical authority of Indian Railways. Nothing goes onto Indian Railways — no wagon, no container fitting, no piece of track equipment — without RDSO's approval. RDSO writes the specifications, tests products, and certifies manufacturers. For a company, getting RDSO approval to make a product is step one. Kalyani went further — they co-developed their wagon design *with* RDSO, which gives them exclusive manufacturing and marketing rights for that design. (See Strength 2 for the full explanation.)
+
+**G-105 Certification**
+G-105 is the specific RDSO certification required to manufacture railway wagons commercially. It is not just a design approval — it certifies that a factory has the right machines, processes, and quality systems to consistently produce wagons to Railways' standards. Kalyani needs this certification before it can start selling wagons to Railways. It requires 70-80 specific machines installed and a dedicated railway siding at the factory.
+
+**Gati Shakti Rail Terminal**
+A government initiative (PM Gati Shakti) to build multimodal logistics hubs connecting rail, road, and ports. A Gati Shakti Rail Terminal is essentially a privately-owned inland container depot with a railway siding — goods arrive by train, are stored, processed, and dispatched by road or back by rail. Kalyani has in-principle approval to build one at its 144-acre Gujarat site. Once operational, it creates a third revenue stream: logistics handling fees — a business that keeps earning money every time a container passes through, regardless of whether Kalyani made the container or the wagon.
+
+**EXIM**
+Export-Import — the movement of goods entering or leaving India through ports. The Bhachau (Gujarat) location is near the Kandla and Mundra ports. A Gati Shakti terminal at this location can serve as an inland staging point for container shipping, which adds logistics revenue beyond just manufacturing.
+
+**Bogie**
+The wheeled frame underneath a railway wagon that the wagon body sits on. It contains the wheels, axles, springs, and braking mechanisms. Kalyani's Phase 3 plan includes a steel foundry to manufacture bogies and other wagon components in-house — eliminating the need to buy them from outside suppliers, which lowers cost and increases control over the production process.

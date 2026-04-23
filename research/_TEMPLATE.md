@@ -837,3 +837,28 @@ evidenced by OPM 30% vs industry 15%" is. -->
 | v3 (current) | YYYY-MM-DD | Template v3 — classification system, expanded verdict | This file |
 | v2 | YYYY-MM-DD | Template v2 — compounding Q&A, narrative bull/bear | [archive/{SYMBOL}_v2.md](archive/{SYMBOL}_v2.md) |
 | v1 | YYYY-MM-DD | Original thesis | [archive/{SYMBOL}_v1.md](archive/{SYMBOL}_v1.md) |
+
+---
+
+## Glossary — Key Industry Terms
+
+<!--
+Add plain-English explanations for every industry-specific term used in this research.
+No assumed knowledge. Write as if the reader has never encountered this industry before.
+Rule: if a term appears in the thesis, it must be explained here.
+
+Examples of what belongs here:
+- Industry-specific products (what is a "casting", a "wagon", a "CDMO", a "PEB")
+- Certifications and regulatory bodies (what is RDSO, G-105, CDSCO, BIS)
+- Business model terms specific to this sector (what is "job-work", "EXIM", "working capital days")
+- Technical processes the moat depends on (what is "fluorination", "backward integration")
+
+Do NOT define generic finance terms here (P/E, ROIC, EBITDA) — those belong in the analysis
+itself, explained in context, per Instruction 10.
+-->
+
+**[Term 1]**
+[Plain-English explanation — what it is physically, why it matters for this company, in 2-4 sentences]
+
+**[Term 2]**
+[Plain-English explanation]
