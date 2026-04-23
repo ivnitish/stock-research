@@ -52,6 +52,20 @@ When the user gives you a company name, ticker, earnings call transcript, annual
 
 **Where to find:** Annual report → Segment/Revenue breakup notes | Earnings call transcripts → Client diversification | Industry reports
 
+### 0.4 — Growth Trigger Scan (Kamayaka Framework)
+Before entering any position, identify which of the 6 triggers is present. Entry without a visible trigger = speculation.
+
+- [ ] **Capacity Expansion:** Fixed Assets + CWIP growing QoQ? New plant going live in 1-2 quarters? Enter BEFORE capex goes live — that's when market hasn't priced it yet.
+- [ ] **Operating Leverage:** Are margins growing FASTER than sales? If not, growth is not creating leverage — weaker business signal. High utilization (90%+) = constrained → new capex imminent.
+- [ ] **Margin Expansion:** Sustained margin improvement over 3+ quarters = pricing power emerging. R&D spend >5% of sales = capability building. Enter 1-2Q before new products go live, not years before.
+- [ ] **Promoter Buying:** Repeated open-market purchases accumulating to ₹1-2 Cr over weeks = meaningful signal (promoters sell for many reasons; they buy only when stock is cheap). Check screener.in → promoter activity.
+- [ ] **Regulatory/Government Tailwind:** PLI, anti-dumping duty, import ban, or policy mandate in this sector? Import bans can transform economics overnight. Read announcements before market prices them.
+- [ ] **Turnaround:** Debt restructuring reducing interest burden? New management with proven track record? Shedding loss-making division? Entry at extreme pessimism = best alpha. Verify: is the pain temporary or structural?
+
+**Rule:** A stock with 2+ triggers firing simultaneously has much higher probability of near-term re-rating.
+
+**Where to find:** BSE announcements + concall transcripts → capacity plans | Screener.in → quarterly margin trend | BSE → insider trading → promoter transactions | PIB + Ministry announcements for policy
+
 ---
 
 ## PHASE 1: THE COMPOUNDING ENGINE (ROIC Analysis)
@@ -69,6 +83,7 @@ Also compute: ROE and ROCE (trailing 3-year average).
 - Gross margin: stable or expanding?
 - Scale economies: does margin improve as volume grows?
 - For SaaS/tech: ARPU, churn, CAC, LTV
+- **Operating Leverage Test (Kamayaka):** Are EBITDA margins growing FASTER than revenue? If revenue +20% but margins flat → no leverage, volume-driven growth only. If revenue +20% and margins +300bps → operating leverage present = strong signal. Formula: OPM change (bps) / Revenue growth % — should be positive and accelerating.
 
 **Where to find:** Annual report → Revenue and COGS breakup | Earnings calls → realization per unit, EBITDA per ton | Investor presentations on BSE/company IR page
 
@@ -94,7 +109,13 @@ Reinvestment Rate = (Capex - Depreciation + Change in Working Capital) / NOPAT
 ```
 Company reinvesting 60-80% at 25%+ ROIC grows intrinsic value at 15-20%.
 
-**Where to find:** Screener.in → Cash Flow → Capex line | Annual report → Cash Flow → Purchase of PPE/Intangibles | Dividend history in financial highlights
+**Capacity Utilization Check (Kamayaka — single most important metric in manufacturing):**
+- Current utilization %? Source: concall or investor presentation
+- 90%+ utilization → constrained, new capex needed → growth trigger imminent
+- 50-60% utilization → margin expansion possible without capex (operating leverage play)
+- Track CWIP (Capital Work in Progress) on balance sheet QoQ — rising CWIP = capacity addition in progress → entry signal 1-2Q before commissioning
+
+**Where to find:** Screener.in → Cash Flow → Capex line | Annual report → Cash Flow → Purchase of PPE/Intangibles | Dividend history in financial highlights | Concall transcripts → "utilization", "capacity", "CWIP"
 
 ### 2.3 — Capital Allocation Track Record
 - Organic capex ROIC: compare capital deployed 3 years ago with current incremental EBITDA
@@ -132,8 +153,9 @@ Signs of narrowing: commoditization, new tech enabling smaller competitors, regu
 ### 4.1 — Skin in the Game
 - Promoter holding > 50% ideal, < 30% concern. Insiders buying or selling?
 - Compensation: ROIC-linked bonuses, stock with 3+ year vesting?
+- **Promoter Buying Signal (Kamayaka):** Promoters sell for many reasons (diversification, estate, liquidity) — do not read selling as bearish automatically. Promoters BUY only when they believe stock is cheap. Signal: repeated open-market purchases accumulating ₹1-2 Cr+ over days/weeks = high-conviction insider signal. One-off small buy = noise; pattern of accumulation = signal.
 
-**Where to find:** BSE → Shareholding Pattern (quarterly) | BSE → Insider Trading disclosures | Annual report → Corporate Governance → Remuneration policy
+**Where to find:** BSE → Shareholding Pattern (quarterly) | BSE → Insider Trading disclosures | Screener.in → company page → "Promoter" tab → recent transactions | Annual report → Corporate Governance → Remuneration policy
 
 ### 4.2 — Communication Quality
 - Does management discuss failures openly or only highlight positives?
@@ -176,6 +198,33 @@ PV              = PV of interim CFs + Terminal Value / (1+r)^n
 - High conviction (all phases strong): 5-10% position
 - Moderate conviction (1 phase weak): 2-5%
 - Speculative (2+ phases weak but potential): 1-2% or watchlist
+
+### 5.4 — Additional Valuation Checks (Kamayaka Framework)
+
+**PEG Ratio (Price/Earnings to Growth):**
+```
+PEG = P/E ÷ Expected EPS Growth Rate (%)
+PEG < 1.0x → potentially undervalued relative to growth
+PEG 1-2x  → fairly valued
+PEG > 2.0x → full valuation; growth already priced in
+```
+Use forward EPS growth (next 2 years), not trailing. Flag any position with PEG >2x.
+
+**P/S Benchmark by EBITDA Margin** (for pre-profit, high-growth, or thin-margin companies where P/E is meaningless):
+
+| EBITDA Margin | Fair P/S Multiple |
+|---------------|-----------------|
+| 1–10% | 0.5x – 1.0x |
+| 10–15% | 1.0x – 2.0x |
+| 15–20% | 2.0x – 4.0x |
+| 20–25% | 4.0x – 8.0x |
+| 25–30% | 8.0x – 10.0x |
+| 30%+ | 10.0x+ |
+
+Use P/S as a sanity check on any stock regardless of profitability stage. A 2% margin business at 5x P/S is pricing in a massive margin improvement — make sure that's explicitly in the thesis.
+
+**"Walk the Talk" Check:**
+For every holding, compare management guidance (from past concalls) vs actual outcomes delivered. Consistent guidance misses = management credibility problem = lower multiple warranted. Use NotebookLM with past concall transcripts to track this systematically.
 
 ---
 

@@ -237,6 +237,24 @@ out of inertia.
 
 [Write here — how this compares to alternatives in the portfolio]
 
+### Growth Trigger Scan
+
+<!--
+Kamayaka framework: a stock without a visible near-term trigger is speculation.
+Check all 6. Mark which are active. Entry with 2+ triggers = much higher conviction.
+-->
+
+| Trigger | Active? | Evidence |
+|---------|---------|----------|
+| Capacity Expansion (CWIP rising, new plant in 1-2Q) | Yes / No / Watch | |
+| Operating Leverage (margins growing faster than sales) | Yes / No / Watch | |
+| Margin Expansion (sustained improvement 3+ quarters, R&D >5%) | Yes / No / Watch | |
+| Promoter Buying (repeated accumulation ₹1-2 Cr+ over weeks) | Yes / No / Watch | |
+| Regulatory/Government Tailwind (PLI, anti-dumping, import ban) | Yes / No / Watch | |
+| Turnaround (debt reduction, new CEO, shedding loss divisions) | Yes / No / Watch | |
+
+**Active triggers:** [list which ones] | **Entry timing:** [1-2Q before trigger fully visible to market]
+
 ### Recent Developments
 
 <!--
@@ -347,6 +365,23 @@ Bad: "ROIC = NOPAT/IC = ₹85/₹315 = 27%. TAM = ₹50,000 Cr. Penetration = 15
 
 Both have the same numbers. The first explains WHY they matter.
 -->
+
+### Q0. Operating Leverage Test — does growth create margin leverage?
+
+<!--
+Kamayaka: "Operating leverage means margins grow faster than sales — that's the signal."
+If revenue grows 20% but margins are flat, it's volume growth without leverage — weaker business.
+If revenue grows 20% and EBITDA margin expands 200-300bps, the fixed cost base is being leveraged.
+Also check: capacity utilization %. 90%+ = constrained, new capex imminent. 50-60% = room to expand margins without capex.
+-->
+
+- Revenue growth (TTM vs 3yr avg): [X]%
+- EBITDA margin now vs 3 years ago: [X]% → [Y]% ([+/-Z bps])
+- **Operating leverage present?** [Yes — margins expanding faster than revenue / No — flat margins on volume growth]
+- Capacity utilization (if manufacturing): [X]% → [constrained / room to grow / expanding]
+- CWIP trend (Fixed Assets + CWIP, last 4 quarters): [rising / flat / declining] → [capex cycle starting/peaking/ending]
+
+---
 
 ### Q1. Is incremental ROIC genuinely high (>20%) — and is it structural, not cyclical?
 
@@ -465,9 +500,30 @@ Write the sentence you'd re-read when the stock is -40% and Twitter says "thesis
 | Metric | FY[N-3] | FY[N-2] | FY[N-1] | FY[N] | TTM |
 |--------|---------|---------|---------|-------|-----|
 | [e.g. Order Book (Cr)] | | | | | |
-| [e.g. Capacity / Utilisation %] | | | | | |
+| **Capacity Utilization %** | | | | | |
+| **Fixed Assets + CWIP (Cr)** | | | | | |
 | [e.g. Working Capital Days] | | | | | |
 | [e.g. Exports % / Domestic %] | | | | | |
+
+### Promoter Activity (last 8 quarters)
+
+| Quarter | Promoter % | Change | Open-market buys (₹ Cr) | Signal |
+|---------|-----------|--------|--------------------------|--------|
+| Q[N] | | | | |
+| Q[N-1] | | | | |
+| Q[N-2] | | | | |
+
+**Assessment:** [Accumulating / Stable / Reducing — and interpretation]
+
+### Walk the Talk — Guidance vs Actuals
+
+| Quarter | What management guided | What actually happened | Hit/Miss |
+|---------|------------------------|------------------------|----------|
+| Q[N-1] | | | |
+| Q[N-2] | | | |
+| Q[N-3] | | | |
+
+**Management credibility score:** [Strong / Moderate / Weak] — [1 sentence]
 
 ### CAGRs
 
@@ -656,6 +712,28 @@ Phase 4 = Competitive Landscape (Section 6)
 - FY[XX] PAT target: ₹ Cr (at ____% CAGR)
 - Exit multiple: [X]x P/E — justification: [still growing / mature / peers at X]
 - Probability: [Low / Medium / High] because ____
+
+---
+
+### 5.5 — Additional Valuation Checks
+
+**PEG Ratio:**
+```
+PEG = P/E ÷ Forward EPS Growth %
+Current P/E: [X]x | Forward growth: [Y]% | PEG = [Z]x
+PEG <1.0 = undervalued vs growth | 1-2 = fair | >2.0 = fully priced
+```
+**Assessment:** [Undervalued / Fair / Fully priced] — [1 sentence]
+
+**P/S Sanity Check** (especially useful for thin-margin or pre-profit companies):
+
+| EBITDA Margin | Fair P/S | Current P/S | Assessment |
+|---------------|----------|-------------|------------|
+| [X]% (current) | [Y]x | [Z]x | [Cheap / Fair / Expensive] |
+
+*Reference: 1-10% margin → 0.5-1x P/S; 15-20% → 2-4x; 25-30% → 8-10x; 30%+ → 10x+*
+
+**If P/S exceeds the band for current margins**, the stock is pricing in a margin improvement — state explicitly: "Market is pricing in margin expansion to [X]% — what's the evidence this happens?"
 
 ---
 
