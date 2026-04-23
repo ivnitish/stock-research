@@ -286,15 +286,21 @@ Management commentary, analyst reports, and sector tailwinds are inputs, not con
    Sector is growing → show this company's capacity to capture that growth specifically.
    Moat exists → name the exact mechanism and the rate at which it is eroding.
 
-10. **Write explanations so a smart non-specialist can follow — without dumbing down the analysis.**
-The test: if you cannot explain *why* a business will earn more money without using words like EBITDA, ROIC, or operating leverage as if they are self-evident — you have not yet understood it yourself.
+10. **Explain every concept as if the reader has never encountered it — then keep going until it is genuinely simple.**
 
-   Every time you introduce a concept or mechanism, immediately follow it with the plain-English version of what it means in this specific company's context. Not a textbook definition — the actual real-world meaning for this business.
+   Finance terms are shortcuts for ideas, not substitutes for them. When you write "operating leverage," "ROIC," "network effects," or "working capital" — you have named the concept but not explained it. The explanation is the analysis. The term is just a label.
+
+   The test for every mechanism you describe: **can you explain what is physically happening, in this specific company, without using the finance term?** If you can, you understand it. If removing the term leaves nothing, you were hiding behind vocabulary.
+
+   Jargon is allowed — but only after the plain explanation, not instead of it. Use it as shorthand once the reader already understands the thing it refers to.
+
+   If an explanation feels complex, that is a signal to keep breaking it down, not to leave it. Complexity that cannot be reduced usually means the underlying idea is not yet clear — not that it is too advanced to explain simply.
 
    **Bad:** *"EPACK benefits from operating leverage as fixed costs are absorbed over higher revenue."*
-   **Good:** *"EPACK has a factory with fixed costs of roughly ₹80 Cr/year — salaries, rent, equipment. Whether they sell ₹300 Cr or ₹500 Cr of buildings, those costs don't change much. So every extra rupee of revenue above ₹300 Cr flows almost entirely to profit. That's why margins jump from 8% to 14% as revenue grows — the factory overhead is already paid for."*
 
-   Same analysis. The second version proves understanding. The first version can be copy-pasted without understanding anything.
+   **Good:** *"EPACK has a factory with fixed costs of roughly ₹80 Cr/year — salaries, rent, equipment. Whether they sell ₹300 Cr or ₹500 Cr of buildings, those costs barely change. So every extra rupee of revenue above a certain level flows almost entirely to profit. That's why margins jump from 8% to 14% as revenue grows — the overhead is already paid for. This is what 'operating leverage' means here."*
+
+   The second version can only be written by someone who actually understands what is happening inside this business. The first version can be written by anyone who has read the word "operating leverage" once.
 
 ---
 
