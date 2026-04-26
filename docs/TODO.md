@@ -1,5 +1,25 @@
 # Research System — TODO
-*Last updated: 2026-04-15*
+*Last updated: 2026-04-26*
+
+---
+
+## ✅ Completed — 2026-04-26
+
+- **ABB India full research** — written `research/ABB.md` from CY25 concall + investor presentation
+  + Q4 CY25 concall + Q3 CY25 concall PDFs. Grade B (18/25), WATCHLIST at CMP ₹7,328.
+  Multi-bagger math: Bear ₹4,060 / Base ₹9,000 / Bull ₹14,300 (5-year horizon).
+  Buy zone ₹4,500-5,500 where asymmetry rises to 6-10x. Active triggers: Capacity
+  Expansion + Regulatory Tailwind (India-EU FTA, Budget 26-27).
+
+- **63MOONS full research** — written `research/63MOONS.md` driven by 63SATS Cybertech
+  FY26 Investor Update PDF. Grade C (10/25), SPECULATIVE WATCHLIST at CMP ₹683.
+  Trades at 0.9x book with embedded optionality on 63SATS subsidiary
+  (FY26 ₹87 Cr → FY27 target ₹350 Cr revenue). Governance overhang: NSEL legacy,
+  Feb 2026 NSE/BSE warning. Asymmetry 0.5x at CMP — only buy on price <₹500
+  AND clean Q1 FY27 print. Position size: 1% MAX.
+
+- Both files rendered to HTML + PDF (via `src/render_all.py`); index.html updated
+  with both entries in watchlist section.
 
 ---
 
