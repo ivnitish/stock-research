@@ -1,6 +1,102 @@
 # The 2026 Iran War: Updated Analysis (v2)
-**Original analysis: March 21, 2026 | Updated: April 4, 2026 | Latest: April 12, 2026**
+**Original analysis: March 21, 2026 | Updated: April 4, 2026 | Latest: April 27, 2026**
 **Previous version: [v1 — March 21, 2026](IRAN_WAR_V1.html)**
+
+---
+
+## April 27, 2026 — Day 58: Frozen Conflict, Whipsawing Markets, Scorecard
+
+*Added April 27, 2026. This is the 4th update to this document.*
+
+---
+
+### What Happened Since April 12
+
+| Date | Event |
+|---|---|
+| Apr 12 | Islamabad talks collapse — JD Vance leaves after 21 hours, no deal |
+| Apr 13-19 | Trump **extends ceasefire indefinitely** despite no agreement. No formal terms, just continuation. |
+| Apr 20 | Ceasefire pushed to brink — Iran seizes a vessel; multiple ship attacks near Hormuz |
+| Apr 23-24 | Nifty slumps 1,000 pts, falls below 23,900; Brent back above $107 |
+| Apr 26 | Iran's Deputy Parliament Speaker: Hormuz "will under no circumstances return to its previous state" |
+| Apr 27 | Iran offers to open Hormuz if US lifts blockade + ends war entirely. Trump "unlikely to accept." Brent ~$108. |
+
+---
+
+### Scorecard: What We Got Right, What We Got Wrong
+
+**Got right:**
+
+- **Path 1 (Rolling ceasefire / frozen conflict, 45%)** — This is exactly what happened. Talks failed, Trump extended anyway. No war resumption, no resolution. The war is now a frozen conflict in name.
+- **"Ceasefire is a loan, not a concession"** — correct. Hormuz remains functionally restricted. Iran's deputy speaker confirmed it explicitly.
+- **Physical crude/$131 spot signal** — correct directionally. Futures dropped to $94 post-ceasefire, then recovered to $107-108 as the market repriced the frozen conflict.
+- **July-August Q1 FY27 earnings trough** — still on track. The damage from March-April is baked into Q1 numbers. No ceasefire changes that.
+- **Lebanon as the structural flaw** — correct. Ship seizures + vessel attacks in late April are the proxy escalation we flagged.
+- **Trump extending indefinitely** — we said he'd keep extending to manage gas prices before midterms. That's what he did.
+
+**Got wrong / missed:**
+
+- **Path 2 probability (ceasefire collapse, 25%) was too high post-April 12.** Talks failed but war didn't resume. We over-weighted dramatic collapse vs. indefinite drift.
+- **Ship seizures as an escalation vector** — we didn't specifically flag this mechanism. Iran found a way to apply pressure without formally re-closing Hormuz.
+- **Crude recovery speed** — we expected a sharper re-spike if talks collapsed. Instead it's been a slow grind back to $107-108, not a violent spike. The market is treating this as chronic, not acute.
+- **Nifty whipsaw magnitude** — the ceasefire rally (+3.8%) and subsequent reversal (-1,000 pts) played out tighter than our expected range. Markets are getting numb to headlines.
+
+---
+
+### Where We Are Now (April 27)
+
+**The frozen conflict equilibrium:**
+
+Neither side can win, neither can exit. Iran's new offer (open Hormuz if US lifts full blockade + ends war) is structured to be unacceptable — it leaves nuclear unresolved and demands the US surrender all leverage. Trump won't take it. But the offer exists, which means Iran is signalling they want an off-ramp they can call victory. This is marginally constructive.
+
+The equilibrium: Hormuz semi-open (Iran allows selective passage, disrupts selectively), oil at $100-110, ceasefire technically holding, talks occasionally resuming and failing, war grinding into summer.
+
+**Current readings:**
+
+| Metric | Pre-war (Feb 27) | Peak stress (Mar-Apr) | Now (Apr 27) |
+|---|---|---|---|
+| Brent crude | ~$70 | $119 | ~$108 |
+| INR/USD | ~87 | 95.22 (record) | ~92.92 |
+| Nifty | ~25,000+ | ~21,000 (trough) | ~23,900 |
+| India CAD trajectory | 1.3% | ~3%+ | ~2.5-3% |
+
+**Nifty is range-bound 23,500-24,500 until one of three things happens:**
+1. Ceasefire converts to real resolution → rally to 26,000+
+2. Hormuz fully re-closes → fall to 21,000-22,000
+3. Q1 FY27 earnings (July) confirm damage → final leg down to 22,000-23,000 before recovery
+
+---
+
+### Updated Probabilities (April 27)
+
+| Scenario | Apr 12 | Apr 27 | Direction |
+|---|---|---|---|
+| A: Full resolution | 15-20% | 20-25% | ↑ slightly — Iran's new offer signals desire for exit |
+| B: Frozen conflict / rolling ceasefire | 45-50% | 50-55% | ↑ — this IS the current reality |
+| C: Severe escalation | 25-30% | 15-20% | ↓ — ship seizures absorbed without full re-closure |
+| D: Regime fracture | 10% | 5-8% | ↓ slightly — IRGC consolidated further |
+
+**Probability-weighted Nifty from current ~23,900:**
+```
+(0.225 × +10%) + (0.525 × -5%) + (0.175 × -20%) + (0.075 × +20%)
+= +2.25% - 2.6% - 3.5% + 1.5% = -2.4%
+```
+~2-3% expected downside. Tighter distribution than before — markets have absorbed most of the fear. Damage phase (earnings) is the remaining catalyst.
+
+---
+
+### Key Signals to Watch (May 2026)
+
+| Signal | Implication | Watch |
+|---|---|---|
+| Trump sets new hard deadline | Deal attempt within 48-72 hrs (established pattern) | Truth Social |
+| Iran allows free tanker passage for 1 week | Genuine de-escalation signal | Hormuz AIS data |
+| Q1 FY27 results: OMC/airline margins | Damage quantified — buy signal if stocks don't fall | July earnings |
+| IAEA gains Natanz access | Nuclear resolved — Scenario A opens | IAEA statements |
+| Iran seizes US-flagged vessel | Escalation, ceasefire formally over | Shipping news |
+| FII weekly inflows positive 2+ weeks | Risk-on returning, bottom near | SEBI data |
+
+*Sources: Fortune, PBS NewsHour, CNBC, NBC News, Business Standard — April 20-27, 2026.*
 
 ---
 
