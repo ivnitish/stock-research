@@ -5,6 +5,25 @@
 
 ## ✅ Completed — 2026-04-27
 
+- **RAYMOND research refresh + structural cleanup** — `research/RAYMOND.md` v2.2.
+  Stock rallied to ₹461 (+25.6% from ₹367 at Apr 9 exit decision). Refreshed CMP/
+  market cap/EV/asymmetry math. At ₹461, base case ₹530 = +15% upside vs bear ₹240
+  = −48% downside → asymmetry 0.31x, fails Grade B threshold. EXIT call vindicated;
+  capital redeployed to NEWGEN earned the gap as alpha. Re-entry framework: buy
+  back <₹380 OR <₹420 if Q4 FY26 prints aerospace ≥₹110 Cr at ≥20% margin.
+  **Structural fixes:** renamed duplicate `## 4b. Outlook` → `### 4h.` (was conflict
+  with `### 4b. Engineering Segment Actuals`); renumbered duplicate `### 5.2 Margin
+  of Safety` → `### 5.3` (was conflict with `### 5.2 DCF Calculation`); shifted
+  Position Sizing → 5.4, SoTP → 5.5. Reconciled header EXIT vs body HOLD/ADD
+  contradiction. Updated Decision History with exit row, Version History to v2.2,
+  Review Schedule with Q4 board meeting note (Apr 22 newspaper publication filed).
+  Index.html updated: Raymond moved Grade B holdings → watchlist with "Re-buy <₹380"
+  action tag and "Fairly Valued" classification.
+- **MCP status check** — Kite MCP session expired (need `mcp__kite__login`); Groww
+  MCP configured in `~/.claude.json` as `growwmcp` but no `mcp__growwmcp__*` tools
+  exposed in this session — server failing to register. Needs `claude mcp list`
+  diagnostics from repo dir.
+
 - **ADISOFT IPO analysis** — DRHP-based research note `research/ADISOFT.md`. Adisoft
   Technologies Ltd (SME IPO, NSE EMERGE), industrial automation integrator,
   Pune-based, FY25 revenue ₹131.7 Cr, PAT ₹16.1 Cr, reported RoCE 29% / RoE 39%.

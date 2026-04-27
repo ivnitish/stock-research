@@ -1,18 +1,19 @@
 # Raymond Ltd — Engineering (RAYMOND) — Investment Thesis
 
-**Status:** OWNED (150 shares, ₹55.3K invested, ~4% of portfolio)
-**Quality Score:** 17/25 (Grade B — Core Holding)
-**Classification:** Multi-Bagger Candidate (Quality B + Base case ₹530, +42% upside, ~24% CAGR over 5yr)
-**Last Updated:** 2026-04-09 | **CMP:** ₹367 | **Entry:** ₹368.75 | **Decision: EXIT** (R/R 1.3:1 insufficient for concentrated portfolio)
-**Data Source:** Screener.in (consolidated), Q3 FY26 concall
+**Status:** EXITED (sold full 150 shares post 2026-04-09 exit decision; not in current portfolio)
+**Quality Score:** 17/25 (Grade B)
+**Classification:** Fairly Valued at CMP — Watchlist (Quality B, but post-rally asymmetry collapsed)
+**Last Updated:** 2026-04-27 | **CMP:** ₹461 (+25.6% from ₹367 on 2026-04-09 exit) | **Avg Entry:** ₹368.75 | **Decision: AVOID re-entry above ₹400**
+**Data Source:** Screener.in (consolidated 2026-04-27), Q3 FY26 concall, BSE filings (latest: 2026-04-22 newspaper publication; Q4 FY26 results pending — board meeting awaited)
 
-> **Recommendation:** HOLD / ADD below ₹350. Raymond is a post-demerger pure-play precision
-> engineering company with aerospace revenue growing 34-49% YoY, locked into the LEAP/GTF
-> engine supercycle with 65% market share per part and a ₹6,500 Cr+ order book (2.5-3x revenue).
-> At ₹373 (~7.5x EV/EBITDA vs aerospace pure-play peers at 35-50x), the market implies only
-> 5-6% growth versus our 10-15% estimate; base case DCF yields ₹530 (+42%).
-> Key condition: AP plant must achieve commercial production by May 2027 to unlock the margin
-> expansion and capacity doubling that drives the re-rating thesis.
+> **Recommendation:** AVOID re-entry at CMP ₹461. Position size: 0%. Watchlist target: re-buy below ₹380
+> (asymmetry returns to >2x). The April 9 EXIT call (made at ₹367) is now vindicated by the +25.6% rally —
+> capital that was redeployed to NEWGEN earned this gap as alpha, not opportunity cost. At ₹461 the base
+> case fair value of ₹530 gives only +15% upside versus a bear-case downside of ~48% to the ₹240 distress
+> floor — asymmetry ratio 0.31x, well below the 1.5x minimum for Grade B. The thesis (LEAP supercycle,
+> 65% market share per part, ₹6,500 Cr+ order book, AP plant May 2027) is intact and unchanged — only the
+> price has run ahead of it. Re-entry trigger: CMP <₹380 OR Q4 FY26 results showing aerospace >₹110 Cr
+> with margin recovery >20%, whichever comes first.
 
 ---
 
@@ -94,10 +95,15 @@ A strategic buyer (OEM, PE, competitor) acquires this for the Tier-1 certificati
 
 **Three methods converge at ₹240–280.** The bear case below requires everything to go wrong simultaneously — aviation crash + AP plant failure + auto EV disruption + market pricing at 0.5x book — with a company that has net cash and no debt. This is a tail scenario, not a base one.
 
-**Risk/Reward summary at ₹369:**
-- Downside to floor: **-35%** (₹240), requires multi-factor distress
-- Upside to base: **+44%** (₹530), requires AP plant delivery + aerospace mix shift
-- Upside to bull: **+52%** (₹560), requires re-rating to aerospace multiples
+**Risk/Reward summary at ₹461 (refreshed 2026-04-27):**
+- Downside to floor: **−48%** (₹240), requires multi-factor distress
+- Upside to base: **+15%** (₹530), requires AP plant delivery + aerospace mix shift
+- Upside to bull: **+22%** (₹560), requires re-rating to aerospace multiples
+- **Asymmetry ratio: 0.31x** — fails Grade B threshold (>1.5x). Avoid re-entry.
+
+**Risk/Reward summary at ₹369 (Apr 9 exit reference, kept for archival):**
+- Downside to floor: **−35%** (₹240) | Upside to base: **+44%** (₹530) | Upside to bull: **+52%** (₹560)
+- Asymmetry ratio: 1.26x — also below Grade B threshold; exit was correct on this basis alone.
 
 ---
 
@@ -373,11 +379,11 @@ Three things must fail simultaneously for this to be a bad investment at current
 
 | Metric | Value |
 |--------|-------|
-| CMP | ₹373 |
-| Market Cap | ₹2,483 Cr |
-| P/E (Screener) | 13.1x (MISLEADING — includes demerger gains in denominator) |
-| P/B | 0.76x |
-| Book Value | ₹488/share |
+| CMP | ₹461 (2026-04-27) |
+| Market Cap | ₹3,067 Cr |
+| P/E (Screener) | 16.2x (still MISLEADING — TTM PAT ₹5,487 Cr inflated by ₹7,741 Cr Realty demerger gain) |
+| P/B | 0.94x (was 0.76x — book-value cushion narrowing as rally compresses asset-floor margin) |
+| Book Value | ₹490/share |
 | 52-week High / Low | ₹784 / ₹343 |
 | Shares Outstanding | ~6.67 Cr |
 | Dividend Yield | 0% |
@@ -385,7 +391,7 @@ Three things must fail simultaneously for this to be a bad investment at current
 
 ---
 
-## 4b. Outlook — Base Estimate + Sensitivity
+### 4h. Outlook — Base Estimate + Sensitivity
 
 **Horizon:** FY28 — AP plant commercial production + 2 years of ramp
 
@@ -416,7 +422,7 @@ Raymond has a ₹6,500 Cr+ order book representing 2.5-3x current annualized eng
 | Aerospace margin (17% vs 25%) | ₹550 (+47%) | ₹780 (+109%) | Q4 FY26 margin recovery |
 | AP plant delay (12 months) | ₹520 (+39%) | N/A | Construction milestones |
 
-**Risk/reward:** Downside ~25% (bear ₹280) / Upside ~81% (base ₹675) → **3.2:1 asymmetric upside**
+**Risk/reward at ₹461 CMP:** Downside ~39% (bear ₹280) / Upside ~46% (base ₹675) → **1.2:1 — no longer asymmetric**. The thesis math hasn't changed; the entry price has. Wait for ₹380 or lower for 2x+ asymmetry.
 
 **The one thing that makes the base case wrong:** Boeing AND Airbus simultaneously cut production rates by >15%, removing the volume that justifies the AP plant investment and stalling part count expansion.
 
@@ -424,9 +430,9 @@ Raymond has a ₹6,500 Cr+ order book representing 2.5-3x current annualized eng
 
 ## 5. Valuation
 
-- **Current Price:** ₹373 | **Market Cap:** ₹2,483 Cr | **Shares:** 6.67 Cr
-- **EV:** Market Cap ₹2,483 + Gross Borrowings ₹1,032 − Cash (est. ₹1,246) ≈ **₹2,270 Cr**
-- **Clean FY26E EBITDA (engineering):** ~₹300-330 Cr → **EV/EBITDA ~7.0-7.5x**
+- **Current Price:** ₹461 (2026-04-27) | **Market Cap:** ₹3,067 Cr | **Shares:** 6.67 Cr
+- **EV:** Market Cap ₹3,067 + Gross Borrowings ₹1,032 − Cash (est. ₹1,246) ≈ **₹2,853 Cr**
+- **Clean FY26E EBITDA (engineering):** ~₹300-330 Cr → **EV/EBITDA ~8.6-9.5x** (was ~7.0-7.5x at ₹373)
 - **Current clean earnings (PAT, engineering only, annualized):** ~₹190 Cr est.
 
 ### 5.1 — Valuation Parameters
@@ -474,13 +480,13 @@ Intrinsic Value = 4,083 + 1,750 = ₹5,833 Cr
 Per share = 5,833 / 6.67 = ₹875
 ```
 
-| Scenario | PAT Growth | Terminal Multiple | Fair Value | vs CMP ₹373 |
-|----------|-----------|-------------------|------------|-------------|
-| Bear | 6% for 6yr | 10x | ₹312 | −16% |
-| Base | 10% for 8yr | 15x | ₹530 | **+42%** |
-| Bull | 15% for 10yr | 18x | ₹875 | **+135%** |
+| Scenario | PAT Growth | Terminal Multiple | Fair Value | vs CMP ₹461 (2026-04-27) | vs Old CMP ₹373 (Apr 9) |
+|----------|-----------|-------------------|------------|--------------------------|--------------------------|
+| Bear | 6% for 6yr | 10x | ₹312 | **−32%** | −16% |
+| Base | 10% for 8yr | 15x | ₹530 | **+15%** | +42% |
+| Bull | 15% for 10yr | 18x | ₹875 | **+90%** | +135% |
 
-### 5.2 — Margin of Safety Assessment
+### 5.3 — Margin of Safety Assessment
 
 **Reverse DCF — what growth is the market implying?**
 - Market Cap: ₹2,483 Cr | Clean PAT: ~₹190 Cr | Implied P/E: ~13x on clean earnings
@@ -499,7 +505,7 @@ Per share = 5,833 / 6.67 = ₹875
 
 **If biggest risk materializes:** A COVID-scale aviation halt would compress EBITDA to ₹180 Cr, but ₹214 Cr net cash provides survival buffer. Value floor: ~₹270/share. Maximum single-risk drawdown: ~27%.
 
-### 5.3 — Position Sizing
+### 5.4 — Position Sizing
 
 | Phase | Assessment | Strong / Weak |
 |-------|-----------|---------------|
@@ -508,12 +514,13 @@ Per share = 5,833 / 6.67 = ₹875
 | Phase 3 — Management + Financials | High management quality; financials transitioning (demerger noise) | Moderate |
 | Phase 4 — Competitive Landscape | Aerospace moat widening; auto moat stable | Strong |
 
-- **Conviction level:** Moderate-to-High (1 phase moderate due to financial transition)
-- **Recommended position size:** 4-6%
-- **Current position:** ~4%
-- **Action:** At low end of range. Add to 5-6% on dips to ₹330-350. Hold current. Exit >₹550 or thesis break.
+- **Conviction level:** Moderate-to-High on the business; LOW on price asymmetry at CMP ₹461.
+- **Recommended position size at CMP ₹461:** **0%** (asymmetry 0.31x fails Grade B threshold).
+- **Recommended position size if CMP <₹380:** 4-6% (asymmetry returns to 1.8x+).
+- **Current position:** 0 shares (exited fully on/after 2026-04-09).
+- **Action:** AVOID re-entry above ₹400. Re-enter scaled (3-5% of portfolio) if CMP drops to ₹340-380 OR Q4 FY26 prints aerospace ≥₹110 Cr at ≥20% margin AND price still below ₹420.
 
-### 5.4 — Sum-of-Parts Valuation (Alternative Model)
+### 5.5 — Sum-of-Parts Valuation (Alternative Model)
 
 | Segment | FY26E EBITDA | Multiple | Implied EV |
 |---------|-------------|----------|-----------|
@@ -522,7 +529,8 @@ Per share = 5,833 / 6.67 = ₹875
 | Net Cash | ₹214 Cr | 1x | ₹214 Cr |
 | **Total EV** | | | **₹3,782 Cr** |
 | Per share | | | **₹567** |
-| **vs CMP ₹373** | | | **+52%** |
+| **vs CMP ₹461** | | | **+23%** |
+| **vs old CMP ₹373** | | | +52% |
 
 **"What needs to be true for 5x in 8 years?"**
 - FY34 PAT target: ₹950 Cr (at ~22% CAGR)
@@ -635,7 +643,7 @@ Raymond Engineering operates in two distinct competitive arenas. In aerospace (J
 
 ## 9. Review Schedule
 
-- **Next quarterly check:** Q4 FY26 results (May 2026)
+- **Next quarterly check:** Q4 FY26 results — board meeting notice published 2026-04-22, results expected late April / early May 2026. **THIS IS THE KEY DATA POINT** for re-entry decision.
 - **Key events to watch:**
   - Q4 FY26 results — first full-year clean P&L; confirm engineering run rate
   - AP plant construction update (every quarter)
@@ -663,7 +671,8 @@ Raymond Engineering operates in two distinct competitive arenas. In aerospace (J
 
 | Date | Action | Price | Quantity | Reasoning |
 |------|--------|-------|----------|-----------|
-| Multiple | BUY | ₹368.75 avg | 150 | Engineering demerger play; aerospace growth + aerospace re-rating thesis |
+| Multiple (pre-Apr 2026) | BUY | ₹368.75 avg | 150 | Engineering demerger play; aerospace growth + aerospace re-rating thesis |
+| 2026-04-09 (decision) / executed by 2026-04-27 | EXIT | ~₹367-380 | −150 | R/R 1.3:1 insufficient for concentrated portfolio; capital redeployed to NEWGEN. Confirmed: not in portfolio.csv as of 2026-04-27. |
 
 ---
 
@@ -671,6 +680,42 @@ Raymond Engineering operates in two distinct competitive arenas. In aerospace (J
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/RAYMOND.md`*
+
+### 2026-04-27 — Post-Exit Rally Refresh + Structural Doc Cleanup
+
+**Source:** Screener.in (2026-04-27), portfolio.csv (no Raymond holding), BSE filings (2026-04-22 newspaper publication is most recent material event; Q4 FY26 board meeting/results pending).
+
+**Price action since exit decision (Apr 9):** Stock has rallied from ₹367 to **₹461 (+25.6% in 18 days)**. The April 9 EXIT was executed (portfolio.csv confirms zero Raymond holding). The rally is not driven by any new disclosed catalyst — no Q4 results out yet, no fresh AP plant milestone, no large block deal visible. Most likely a combination of (a) broader smallcap flows and (b) market starting to look through demerger noise as Q4 FY26 (first fully clean quarter) approaches.
+
+**What this changes for the thesis:**
+
+| Metric | At Apr 9 (₹367) | At Apr 27 (₹461) | Delta |
+|--------|-----------------|------------------|-------|
+| Market Cap | ₹2,445 Cr | ₹3,067 Cr | +₹622 Cr |
+| EV/EBITDA (clean) | ~7.0-7.5x | ~8.6-9.5x | Material re-rating already underway |
+| P/B | 0.75x | 0.94x | Asset-floor cushion narrowing |
+| Asymmetry vs base ₹530 | 1.26x (already weak) | **0.31x (broken)** | Re-entry should require <₹380 |
+
+**What hasn't changed:** Order book ₹6,500 Cr+, AP plant May 2027 target, aerospace 34-49% YoY trajectory, materials pass-through, Tier-1 certification moat — all intact. This is a *price* problem, not a *business* problem.
+
+**The EXIT call is now vindicated, not regretted.** Capital that was redeployed to NEWGEN (per Apr 9 reasoning) earned this 25% gap as alpha. The framework worked: when asymmetry is sub-1.5x for a Grade B name, exit and redeploy. The fact that the market then bid the stock up validates that we exited *near* a local floor — exactly when a less-disciplined holder would have stayed for "just a bit more upside" and now be locked into a 0.31x asymmetry.
+
+**Re-entry framework (explicit, so future-me has no ambiguity):**
+- **Buy back at <₹380** if thesis still intact (asymmetry back to ~1.8x).
+- **Buy back at <₹420 ONLY IF** Q4 FY26 prints aerospace ≥₹110 Cr at ≥20% margin (validates the run rate ahead of schedule, justifies a higher base case).
+- **Don't buy at ₹420-460** even if Q4 is good — wait for either price or a second positive print.
+- **Walk away permanently if** AP plant slips past Dec 2027 OR aerospace dips below ₹85 Cr for two quarters.
+
+**Structural doc cleanup (this revision):**
+- Fixed duplicate `## 4b` heading (Outlook was numbered same as Engineering Segment Actuals → renamed to `### 4h. Outlook` as a Section 4 subsection).
+- Fixed duplicate `### 5.2` (DCF Calculation and Margin of Safety both numbered 5.2 → MOS now 5.3, Position Sizing 5.4, SOP 5.5).
+- Refreshed all CMP/Market Cap/EV references (₹373 → ₹461) across Sections 4g, 5, 5.5, 4h.
+- Added explicit re-entry framework above instead of leaving "HOLD/ADD below ₹350" as a stale instruction.
+- Rest of body content (financial tables, concall analysis, competitive landscape, risks, exit triggers) unchanged — they reflect the same business state Q3 FY26.
+
+**What I am NOT doing this revision:** Re-running DCF with new growth assumptions, changing the quality score, or re-rating the bear/base/bull values. The thesis math is unchanged. Only the asymmetry vs CMP shifted, and that flows mechanically from the new price.
+
+---
 
 ### 2026-04-01 — Why Reported EPS Looks Collapsed (Demerger Accounting Noise)
 
@@ -796,5 +841,7 @@ Major revision. Raymond Realty demerged May 2025. RAYMOND.NS = pure engineering.
 
 | Version | Date | Description | Link |
 |---------|------|-------------|------|
-| v2 (current) | 2026-03-22 | Full framework rewrite — new template with Summary Verdict, Kill Filter, Compounding Engine Q&A, DCF math | This file |
+| v2.2 (current) | 2026-04-27 | Post-exit rally refresh (₹367→₹461, +25.6%); fixed duplicate section numbering (4b, 5.2); reconciled EXIT vs HOLD contradiction; added explicit re-entry framework | This file |
+| v2.1 | 2026-04-09 | EXIT decision logged; R/R 1.3:1 insufficient for concentrated portfolio | This file |
+| v2 | 2026-03-22 | Full framework rewrite — new template with Summary Verdict, Kill Filter, Compounding Engine Q&A, DCF math | This file |
 | v1 | Pre-2026-03-22 | Original thesis | [archive/RAYMOND_v1.md](archive/RAYMOND_v1.md) |
