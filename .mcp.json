@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "growwmcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "mcp-remote@latest",
+        "https://mcp.groww.in/mcp",
+        "52155"
+      ],
+      "env": {}
+    },
+    "kite": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp.kite.trade/mcp"
+      ],
+      "env": {}
+    }
+  }
+}
