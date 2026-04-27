@@ -23,6 +23,10 @@ archive/
 .cursor/
 .vscode/
 
+# Claude Code Agent worktrees (temporary, auto-created)
+data/.claude/worktrees/
+.claude/worktrees/
+
 # Personal notes
 01 - AI knowledge/
 knowledge/
