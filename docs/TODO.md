@@ -1,5 +1,22 @@
 # Research System — TODO
-*Last updated: 2026-04-26*
+*Last updated: 2026-04-27*
+
+---
+
+## ✅ Completed — 2026-04-27
+
+- **ADISOFT IPO analysis** — DRHP-based research note `research/ADISOFT.md`. Adisoft
+  Technologies Ltd (SME IPO, NSE EMERGE), industrial automation integrator,
+  Pune-based, FY25 revenue ₹131.7 Cr, PAT ₹16.1 Cr, reported RoCE 29% / RoE 39%.
+  **Decision: AVOID at any plausible band — Grade D (8/25).**
+  Phase 0 fails: top customer 48.48% of revenue, 78.61% auto-sector concentration,
+  negative OCF for FY24 + FY25 despite rising PAT, trade receivables ~4x in 2 years,
+  pre-IPO 1,200:1 bonus issue (Sep 5, 2025), partnership-to-public-limited
+  conversion only Sep 11, 2025, restated financials by non-statutory auditor,
+  no ISO/IATF certification, all premises rented, unregistered trademarks,
+  no listed-co experience among directors. Sole listed peer Patil Automation
+  at 27.28x P/E provides soft cap; even at SME-discount band, asymmetry <1x.
+  Rendered to HTML; index.html updated with Adisoft in watchlist (Grade D · Avoid).
 
 ---
 
