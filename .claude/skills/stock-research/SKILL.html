@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>SKILL</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+         max-width: 880px; margin: 40px auto; padding: 0 24px; line-height: 1.6; color: #222; }
+  h1, h2, h3 { color: #111; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+  h1 { font-size: 1.9em; } h2 { font-size: 1.4em; margin-top: 1.8em; }
+  table { border-collapse: collapse; margin: 1em 0; }
+  th, td { border: 1px solid #ddd; padding: 6px 12px; text-align: left; }
+  th { background: #f6f8fa; }
+  code { background: #f6f8fa; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; }
+  pre { background: #f6f8fa; padding: 12px; border-radius: 6px; overflow-x: auto; }
+  blockquote { border-left: 4px solid #ddd; margin: 1em 0; padding: 0 1em; color: #666; }
+  a { color: #0366d6; }
+</style></head>
+<body><hr />
+<p>name: stock-research
+description: &gt;
+  Use whenever analysing any stock for investment — Indian (NSE/BSE) or US.
+  Triggers on: "analyse [stock]", "thesis for [stock]", "should I buy/sell/hold [stock]",
+  "quality score for [stock]", "research [stock]", or any stock analysis request.
+  Also triggers when user names a ticker and asks "what do you think?"
+  Merges data sourcing discipline (Tickertape CMP, Screener.in financials,
+  anti-hallucination rules) with Munger 5-dimension quality scorecard,
+  P/B-ROE justified valuation, reverse DCF, and single-file research log format.
+context: fork</p>
+<hr />
+<h1 id="stock-research-full-framework">Stock Research — Full Framework</h1>
+<p>Institutional-quality, Munger-philosophy research for stocks. Combines:
+- <strong>Data discipline</strong> (source verification, anti-hallucination, CMP fetching)
+- <strong>Munger quality scorecard</strong> (5-dimension, 1-5 each, /25 total)
+- <strong>P/B-ROE justified valuation</strong> (not just P/E)
+- <strong>Reverse DCF</strong> ("what growth is the market pricing in?")
+- <strong>Single-file research log</strong> with dated entries</p>
+<hr />
+<h2 id="mandatory-pre-flight-rules">MANDATORY PRE-FLIGHT RULES</h2>
+<ol>
+<li><strong>Never hallucinate figures.</strong> Every number must come from a fetched source.</li>
+<li><strong>Never use Screener.in for CMP.</strong> It shows stale cached prices — use Tickertape or Google Finance.</li>
+<li><strong>Never use Yahoo Finance for Indian CMP.</strong> It shows US-session delayed prices, off by 10-15%.</li>
+<li><strong>Every number must carry an inline source tag</strong> <code>[Source: URL, date]</code>.</li>
+<li>If a number cannot be sourced after 2 attempts, write "data unavailable" — never estimate.</li>
+<li><strong>Writing quality:</strong> Bull/bear/compounding sections must read as analyst narratives — weave numbers into cause-effect explanations, not formulaic template-filling.</li>
+</ol>
+<hr />
+<h2 id="market-detection">MARKET DETECTION</h2>
+<ul>
+<li><strong>Indian stocks:</strong> No suffix, or ends in .NS/.BO/.BSE → use India workflow (Screener.in + BSE)</li>
+<li><strong>US stocks:</strong> Standard US tickers (NVDA, GOOGL, etc.) → use US workflow (Alpha Vantage MCP + SEC)</li>
+<li>If ambiguous, ask the user.</li>
+</ul>
+<hr />
+<h2 id="india-workflow">INDIA WORKFLOW</h2>
+<h3 id="step-0-identify-and-resolve">Step 0 — Identify and Resolve</h3>
+<ul>
+<li>Resolve company name → NSE ticker (e.g., KAYNES, GROWW, NESCO)</li>
+<li>NSE preferred, BSE fallback (prefix <code>BSE:</code>)</li>
+</ul>
+<h3 id="step-1-fetch-live-cmp-mandatory-first">Step 1 — Fetch Live CMP (MANDATORY FIRST)</h3>
+<blockquote>
+<p>Screener.in and Yahoo Finance are BLOCKED for CMP. Both show stale/wrong prices.</p>
+</blockquote>
+<p><strong>CMP fetch procedure:</strong>
+1. <code>web_search: "[TICKER] NSE share price [MONTH YEAR]"</code> — read price from Google Finance card
+2. If unclear → <code>web_fetch: https://www.tickertape.in/stocks/[company-slug]-[TICKER]</code>
+3. Fallback → <code>web_fetch: https://www.5paisa.com/stocks/[company-name]-share-price</code>
+4. Record as: <code>CMP: ₹[X.XX] [Source: Tickertape/Google Finance, DD-Mon-YYYY]</code>
+5. Must be from most recent trading day. If &gt;3 days old, flag explicitly.</p>
+<p><strong>Do not proceed until you have a real ₹ number with a date.</strong></p>
+<h3 id="step-2-fetch-all-data">Step 2 — Fetch All Data</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Primary Source</th>
+<th>Fallback</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Historical financials (P&amp;L, BS, CF)</td>
+<td><code>screener.in/company/[TICKER]/consolidated/</code></td>
+<td>Tickertape</td>
+</tr>
+<tr>
+<td>Key ratios (P/E, P/B, ROE, ROCE, D/E)</td>
+<td>Screener.in (same page)</td>
+<td>Trendlyne</td>
+</tr>
+<tr>
+<td>Promoter &amp; institutional shareholding</td>
+<td>Screener.in shareholding tab</td>
+<td>BSE filings</td>
+</tr>
+<tr>
+<td>Quarterly results + commentary</td>
+<td><code>bseindia.com</code> corporate filings</td>
+<td>NSE</td>
+</tr>
+<tr>
+<td>Concall transcripts</td>
+<td>Screener.in concall tab</td>
+<td><code>web_search</code></td>
+</tr>
+<tr>
+<td>BSE filings (concalls, results PDFs)</td>
+<td><code>python3 src/fetch_bse_filings.py [TICKER]</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>News (last 90 days)</td>
+<td>ET Markets, Mint, Business Standard</td>
+<td>CNBCTV18, Moneycontrol</td>
+</tr>
+<tr>
+<td>Peer comparison (≥3 peers)</td>
+<td><code>trendlyne.com/equity/[TICKER]/</code> peers section</td>
+<td>Screener.in</td>
+</tr>
+<tr>
+<td>Analyst consensus target</td>
+<td>Trendlyne analyst section</td>
+<td><code>web_search</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="step-3-analysis">Step 3 — Analysis</h3>
+<h4 id="3a-munger-quality-scorecard">3A. MUNGER QUALITY SCORECARD</h4>
+<p>Rate each dimension 1-5. Calculate total /25. Assign grade.</p>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Score (1-5)</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MOAT</td>
+<td></td>
+<td>Type: cost/switching/network/intangible. Width/durability.</td>
+</tr>
+<tr>
+<td>Management</td>
+<td></td>
+<td>Promoter holding %, skin in game, capital allocation, pledging, governance</td>
+</tr>
+<tr>
+<td>Financials</td>
+<td></td>
+<td>ROCE%, ROE%, margins, debt, CFO/PAT ratio, FCF</td>
+</tr>
+<tr>
+<td>Growth Runway</td>
+<td></td>
+<td>TAM size, penetration, 3-5Y revenue CAGR potential, sector tailwinds</td>
+</tr>
+<tr>
+<td>Valuation</td>
+<td></td>
+<td>P/E vs growth (PEG), P/B vs ROE (justified P/B), DCF, vs peers</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>/25</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Grade:</strong> A (20-25) = High Conviction | B (15-19) = Moderate | C (10-14) = Watch | D (&lt;10) = Avoid</p>
+<p><strong>Scoring guides:</strong> See <code>gotchas.md</code> for detailed 1-5 criteria per dimension.</p>
+<h4 id="3b-dupont-roe-decomposition">3B. DUPONT ROE DECOMPOSITION</h4>
+<pre><code>ROE = Net Profit Margin × Asset Turnover × Equity Multiplier
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>FY[T-2]</th>
+<th>FY[T-1]</th>
+<th>FY[T]</th>
+<th>Trend</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Net Profit Margin (%)</td>
+<td></td>
+<td></td>
+<td></td>
+<td>↑/↓</td>
+<td>Pricing power / cost efficiency</td>
+</tr>
+<tr>
+<td>Asset Turnover (x)</td>
+<td></td>
+<td></td>
+<td></td>
+<td>↑/↓</td>
+<td>Capital efficiency</td>
+</tr>
+<tr>
+<td>Equity Multiplier (x)</td>
+<td></td>
+<td></td>
+<td></td>
+<td>↑/↓</td>
+<td>Leverage (watch if rising)</td>
+</tr>
+<tr>
+<td><strong>ROE (%)</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>ROE rising from margins = quality (sustainable)</li>
+<li>ROE rising from leverage = risk (don't pay premium)</li>
+<li>ROE rising from asset turnover = efficiency (good, check utilization limits)</li>
+</ul>
+<h4 id="3c-multi-bagger-framework-phases-0-4">3C. MULTI-BAGGER FRAMEWORK (Phases 0-4)</h4>
+<p>Run the full framework from CLAUDE.md:
+- <strong>Phase 0:</strong> Threshold checks (accounting, capital structure, business viability)
+- <strong>Phase 1:</strong> Compounding engine (incremental ROIC, unit economics, source of high ROIC)
+- <strong>Phase 2:</strong> Reinvestment runway (TAM, reinvestment rate, capital allocation, runway duration)
+- <strong>Phase 3:</strong> Competitive position (market share trend, widening vs narrowing advantage)
+- <strong>Phase 4:</strong> Management quality (skin in game, communication, capital allocation philosophy)</p>
+<h4 id="3d-second-order-stress-test">3D. SECOND-ORDER STRESS TEST</h4>
+<p>The standard framework answers "is this business good and is it cheap?" The stress test answers "what does the world look like if I'm right, and what could I be missing?" Two short drills — fill the corresponding subsection in <code>_TEMPLATE.md</code>.</p>
+<p><strong>5-Whys on the ROIC engine.</strong> Drill five layers from the first-order explanation ("ROIC is high because X") down to the systemic cause. If the fifth answer is something the company controls, the moat is fragile. If it's something structural about the industry or geography, it's durable.</p>
+<p><strong>Base-case world-state at 2 years and 5 years.</strong> If the thesis plays out, what does the company look like, what new things does management have to execute, and what new risks does success itself create? Most large losses come from theses that were correct on direction but missed what success triggered — new competitors, regulatory attention, margin compression from scale, capital allocation mistakes when cash starts flowing.</p>
+<h3 id="step-4-valuation-use-all-3-methods">Step 4 — Valuation (use all 3 methods)</h3>
+<h4 id="method-1-pe-re-rating">Method 1: P/E Re-rating</h4>
+<ul>
+<li>TTM EPS + forward EPS</li>
+<li>Target P/E = 5-year median or peer median (justify)</li>
+<li>Bull/Base/Bear scenarios with sensitivity table</li>
+</ul>
+<h4 id="method-2-pb-roe-justified-price-to-book">Method 2: P/B-ROE (Justified Price-to-Book)</h4>
+<pre><code>Justified P/B = (Sustainable ROE - g) / (Ke - g)
+where: Ke = 10Y G-Sec + Beta × ERP (6%), g = 5-6% for India
+</code></pre>
+<p>Run 3 scenarios. Key question: What ROE does the current P/B imply?</p>
+<h4 id="method-3-reverse-dcf">Method 3: Reverse DCF</h4>
+<pre><code>Back-solve FCF growth rate that justifies current market cap
+at 12% discount rate and 5% terminal growth.
+</code></pre>
+<p>State: "At current price, market is pricing in [X]% FCF CAGR for 5 years."</p>
+<h4 id="valuation-summary-table-mandatory">Valuation Summary Table (mandatory)</h4>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Bear</th>
+<th>Base</th>
+<th>Bull</th>
+<th>vs CMP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P/E Re-rating</td>
+<td>₹X</td>
+<td>₹X</td>
+<td>₹X</td>
+<td></td>
+</tr>
+<tr>
+<td>P/B-ROE Justified</td>
+<td>₹X</td>
+<td>₹X</td>
+<td>₹X</td>
+<td></td>
+</tr>
+<tr>
+<td>Reverse DCF implies:</td>
+<td>X% CAGR</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Analyst consensus</td>
+<td>₹X</td>
+<td></td>
+<td></td>
+<td>[Source]</td>
+</tr>
+<tr>
+<td><strong>Our verdict</strong></td>
+<td></td>
+<td>₹X</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="step-5-write-research-file">Step 5 — Write Research File</h3>
+<p>Save to <code>research/[TICKER].md</code> using <code>research/_TEMPLATE.md</code> as structural guide.</p>
+<p><strong>Required sections:</strong> Business Summary, Quality Score, Why This Could Be a Multi-Bagger, Key Metrics, Valuation (all methods + summary table), Risks, Exit Triggers, Review Schedule, Decision History, Research Log.</p>
+<h3 id="step-6-quality-checklist-mandatory-before-delivering">Step 6 — Quality Checklist (mandatory before delivering)</h3>
+<ul>
+<li>[ ] CMP is real ₹ number with date — NOT from Screener.in or Yahoo Finance</li>
+<li>[ ] Every figure has <code>[Source: URL, date]</code> tag</li>
+<li>[ ] Quality scorecard has notes for every dimension</li>
+<li>[ ] DuPont decomposition run and interpreted</li>
+<li>[ ] At least 2 of 3 valuation methods used</li>
+<li>[ ] Reverse DCF: "market prices in X% growth"</li>
+<li>[ ] Bull/Base/Bear scenarios present</li>
+<li>[ ] Research log entry with today's date added</li>
+<li>[ ] Bull/bear sections read as narratives, not formula-filling</li>
+<li>[ ] Second-order stress test completed (5-Whys + world-state at 2 and 5 years)</li>
+</ul>
+<hr />
+<h2 id="us-workflow">US WORKFLOW</h2>
+<h3 id="step-1-fetch-data">Step 1 — Fetch Data</h3>
+<ul>
+<li>Use Alpha Vantage MCP for: fundamentals, earnings, income statement, balance sheet, cash flow</li>
+<li><code>web_search</code> for: SEC filings (10-K, 10-Q), analyst consensus, competitive landscape</li>
+<li>CMP: Alpha Vantage MCP <code>get_ltp</code> or <code>web_search: "[TICKER] stock price"</code></li>
+</ul>
+<h3 id="step-2-analysis">Step 2 — Analysis</h3>
+<ul>
+<li>Same quality scorecard (adjust governance for US context — institutional ownership, insider buying)</li>
+<li>Same DuPont decomposition</li>
+<li>Same multi-bagger framework</li>
+</ul>
+<h3 id="step-3-valuation">Step 3 — Valuation</h3>
+<ul>
+<li>DCF with US WACC (risk-free = 10Y Treasury, ERP = 5%, Beta from Alpha Vantage)</li>
+<li>P/E re-rating with US peer medians</li>
+<li>Reverse DCF</li>
+</ul>
+<h3 id="step-4-write-to-researchustickermd">Step 4 — Write to <code>research/us/[TICKER].md</code></h3>
+<hr />
+<h2 id="general-instructions">GENERAL INSTRUCTIONS</h2>
+<ol>
+<li><strong>Always show your math.</strong> ROIC = show numerator + denominator. Runway = show TAM + penetration numbers.</li>
+<li><strong>Be specific with numbers.</strong> Not "margins are healthy" — "EBITDA margin 18.5%, up from 14.2% three years ago, driven by operating leverage on 38% revenue CAGR."</li>
+<li><strong>Distinguish facts from inferences.</strong> Label opinions explicitly.</li>
+<li><strong>For earnings call transcripts:</strong> Extract KEY numbers and management claims first, then evaluate through the multi-bagger lens.</li>
+<li><strong>When data is insufficient</strong>, say so and state exactly what additional data would help.</li>
+<li><strong>Be skeptical of management narratives.</strong> Cross-reference against financials.</li>
+<li><strong>For Indian small/mid caps:</strong> Pay extra attention to promoter quality, related party transactions, and cash flow vs reported profits.</li>
+<li><strong>Do not default to positive conclusions.</strong> Base rate for multi-baggers is low. Your job is to find reasons to REJECT.</li>
+</ol></body></html>

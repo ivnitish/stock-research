@@ -3,10 +3,10 @@
 **Status:** OWNED (200 shares, avg ₹447.8, ~6% of portfolio)
 **Quality Score:** 18/25 (Grade B+)
 **Classification:** Multi-Bagger Candidate
-**Last Updated:** 2026-04-19 | **CMP:** ₹484 | **Entry:** ₹447.8 | **P&L:** +8.1%
+**Last Updated:** 2026-04-28 | **CMP:** ₹484 | **Mkt Cap:** ₹7,022 Cr | **Entry:** ₹447.8 | **P&L:** +8.1%
 
 > **Recommendation:** HOLD. Add aggressively below ₹430.
-> Newgen is the only listed Indian software product company competing globally in enterprise workflow automation — a market where switching costs are measured in years of embedded processes, not months of migration effort. At 21x earnings on a 33% profit CAGR (5-year), the market is pricing in AI-driven demand destruction that hasn't materialised. The underlying platform keeps winning global bank and insurer deals. Base case: ₹900–1,000 over 3 years (2x from CMP). Critical catalyst: Q4 FY26 results May 5, 2026 — if revenue ≥₹430 Cr and OPM ≥28%, growth re-acceleration is confirmed and the stock re-rates.
+> Newgen is the only listed Indian software product company competing globally in enterprise workflow automation — a market where switching costs are measured in years of embedded processes, not months of migration effort. At 23x earnings on a 33% profit CAGR (5-year), the market is pricing in AI-driven demand destruction that hasn't materialised. The underlying platform keeps winning global bank and insurer deals — four new international contracts announced in March-April 2026 alone (US, Kuwait, Malaysia, Caribbean). Base case: ₹965 over 3 years (2x from CMP). **IMMINENT CATALYST: Q4 FY26 results + concall on April 30, 2026 (2 days away).** Analyst consensus: revenue ~₹415 Cr, PAT ~₹100 Cr. If revenue ≥₹430 Cr and OPM ≥28%, growth re-acceleration is confirmed and the stock re-rates. Non-deal roadshow scheduled May 4-6 in Mumbai — management will meet institutional investors.
 
 ---
 
@@ -26,7 +26,7 @@ India has hundreds of IT services companies that sell developer hours. Newgen is
 
 4. **Global reach, Indian cost base.** EMEA contributes 32% of revenue, US 21% (growing 21% YoY), APAC 16%, India 31%. Newgen is genuinely multinational — winning deals against ServiceNow and Pegasystems in their home markets — while paying Indian developer salaries. This structural cost advantage doesn't exist for any Indian IT services peer.
 
-5. **Balance sheet is a hidden asset.** Investments of ₹508 Cr + near-zero debt (D/E: 0.04x). At ₹6,881 Cr market cap, roughly 7% of the market cap is liquid investments. Subtract ₹508 Cr and you're buying the operating business at ~₹6,373 Cr — P/E drops from 21x to ~19.5x on TTM PAT.
+5. **Balance sheet is a hidden asset.** Cash + investments of ₹924 Cr (FY25) + near-zero debt (D/E: 0.03x). At ₹7,022 Cr market cap, roughly 13% of the market cap is liquid assets. Subtract ₹924 Cr and you're buying the operating business at ~₹6,098 Cr — P/E drops from 23x to ~20x on TTM PAT. Current ratio of 4.54x is fortress-level.
 
 ### Concerns
 
@@ -38,35 +38,50 @@ India has hundreds of IT services companies that sell developer hours. Newgen is
 
 4. **Qatar litigation.** Court ordered Newgen to pay USD 1.37 million + QAR 200,000 (Apr 2026). Small in absolute terms (~₹12 Cr) but signals international execution risk on government contracts.
 
-5. **FII holding at 14.48%** (down from ~17% in Dec 2025). Some institutional selling in recent months. Could be portfolio rebalancing or early concern about AI risk — worth monitoring.
+5. **FII holding collapsed from 19.36% (Mar 2025) to 14.48% (Mar 2026).** This is nearly 5 percentage points of institutional selling in 12 months — a significant de-risking by foreign institutions. FII peaked at 20.31% in Dec 2024 during the stock's all-time high. The selling accelerated as the stock fell from 1,379 to sub-500. Retail holding rose correspondingly from 17.73% to 23.15%. This is the classic "smart money exits, retail catches the falling knife" pattern — but it also means institutional re-entry on strong results could provide significant buying pressure.
 
 ### The Compounding Equation
 
 Newgen's growth engine is elegant in its simplicity. The company earns 28% ROCE on capital employed — meaning every ₹100 of capital generates ₹28 of operating profit. It is nearly debt-free and reinvests primarily through people (software engineers, sales teams, R&D) — expenses that flow through the P&L as opex, not capex. This is why CapEx is only ₹23 Cr against ₹1,552 Cr of revenue: the asset that generates value is intellectual (platform code, customer relationships, 17 verticals of domain logic) rather than physical.
 
-Incremental ROIC (FY22→FY25): Change in NOPAT = ₹315 Cr − ₹164 Cr = ₹151 Cr. Change in Capital Employed ≈ ₹645 Cr. Incremental ROIC ≈ **23%** — high enough to compound intrinsic value significantly above cost of capital.
+Incremental ROIC (FY22→FY25): Change in NOPAT = ₹315 Cr − ₹164 Cr = ₹151 Cr. Change in Capital Employed = Total Equity FY25 ₹1,516 Cr minus FY22 ₹811 Cr = ₹705 Cr. Incremental ROIC ≈ **21%** — comfortably above cost of capital and high enough to compound intrinsic value at meaningful rates. Groww shows current ROIC at 26.78% — the business is earning more on its total capital base than just the incremental, which means the legacy capital base is also productive.
 
 The SaaS transition amplifies this. Subscription revenue growing at 29% YoY means recurring revenue will be a larger share of the mix each year — reducing earnings volatility, improving FCF conversion, and warranting a higher P/E multiple over time. If Newgen's revenue mix shifts from 68% annuity to 80% annuity by FY28, the business looks more like an Indian SaaS compounder and less like a project-driven IT company — a re-rating event independent of earnings growth.
 
 ### What does the market think — and where do I disagree?
 
-At ₹484 and ₹6,881 Cr market cap, the market is implying roughly 12-14% long-term earnings growth — barely above India nominal GDP. For a company that compounded profits at 33% for 5 years and is growing subscription revenue at 29%, this is a dramatic underestimation. The market's fear: AI makes workflow automation obsolete, Newgen loses pricing power, growth collapses to 10-12%.
+At ₹484 and ₹7,022 Cr market cap, the market is implying roughly 12-14% long-term earnings growth — barely above India nominal GDP. For a company that compounded profits at 33% for 5 years and is growing subscription revenue at 29%, this is a dramatic underestimation. The market's fear: AI makes workflow automation obsolete, Newgen loses pricing power, growth collapses to 10-12%.
 
-My view: Workflow automation and AI are not substitutes. A bank doesn't replace its loan origination workflow engine with ChatGPT. It uses AI to make the workflow smarter (auto-populate fields, flag anomalies, suggest decisions) — and Newgen is the platform that houses those workflows. Newgen already integrates AI into its NewgenONE platform. The real risk is deal timing (CIOs pausing to plan AI integration), not demand destruction. Once CIOs resolve their AI strategy (12-18 months), deal velocity should normalise.
+My view: Workflow automation and AI are not substitutes. A bank doesn't replace its loan origination workflow engine with ChatGPT. It uses AI to make the workflow smarter (auto-populate fields, flag anomalies, suggest decisions) — and Newgen is the platform that houses those workflows. Newgen already integrates AI into its NewgenONE platform. The real risk is deal timing (CIOs pausing to plan AI integration), not demand destruction. Once CIOs resolve their AI strategy (12-18 months), deal velocity should normalise. Recent deal wins (4 new international contracts in March-April 2026) suggest the AI-driven deal pause is already thawing.
 
-Reverse DCF: at ₹484 and TTM PAT ₹303 Cr, the market implies ~14% earnings growth perpetually at 12% discount rate. Base case reality: 20-22% earnings growth (decelerating from 33% but still strong). The gap between 14% implied and 20-22% actual is where the return comes from.
+Reverse DCF: at ₹484 and TTM PAT ₹303 Cr (P/E 23.2x), the market implies ~14% earnings growth perpetually at 12% discount rate. Base case reality: 18-22% earnings growth (decelerating from 33% but still strong). The gap between 14% implied and 18-22% actual is where the return comes from. The FII exit from 19.36% to 14.48% over the past year — nearly 5 percentage points — has created the price dislocation. FII selling into retail hands typically reverses when institutional conviction returns, which Q4 FY26 results could trigger.
 
 ### Multi-Bagger Math
 
-| Scenario | Revenue CAGR FY26-29 | OPM FY29 | PAT FY29 | Exit P/E | Fair Value | Return | Probability |
-|----------|---------------------|----------|----------|---------|------------|--------|-------------|
-| Bear | 10% → ₹2,100 Cr | 22% | ₹320 Cr | 20x | ₹450 | -7% | 15% |
-| Base | 18% → ₹2,700 Cr | 26% | ₹490 Cr | 28x | ₹970 | 2.0x | 60% |
-| Bull | 25% → ₹3,300 Cr | 28% | ₹650 Cr | 35x | ₹1,600 | 3.3x | 25% |
+| Scenario | Revenue CAGR FY26-29 | OPM FY29 | PAT FY29 | Exit P/E | Fair Value | Return from ₹484 | Probability |
+|----------|---------------------|----------|----------|---------|------------|----------|-------------|
+| Bear | 10% → ₹2,100 Cr | 22% | ₹320 Cr | 18x | ₹405 | -16% | 15% |
+| Base | 18% → ₹2,700 Cr | 26% | ₹490 Cr | 28x | ₹965 | +99% (2.0x) | 60% |
+| Bull | 25% → ₹3,300 Cr | 28% | ₹650 Cr | 35x | ₹1,600 | +231% (3.3x) | 25% |
 
-**Probability-weighted fair value: ~₹1,000** (2x from CMP). Shares outstanding: ~14.22 Cr (diluted).
+**Probability-weighted fair value: ~₹1,000** (2.1x from CMP). Shares outstanding: ~14.22 Cr (diluted).
 
 *Bear case assumes AI genuinely disrupts workflow automation demand, growth collapses and multiples compress. Base case assumes AI causes 2-4 quarter delay, then normalises. Bull case assumes AI integration makes Newgen's platform stickier, accelerating US and EMEA wins.*
+
+### Margin of Safety Calculation (at CMP ₹484)
+
+```
+Base Case Fair Value: ₹965
+Bear Case Floor:     ₹405
+Current Price:       ₹484
+
+Margin of Safety = (965 - 484) / 965 = 49.8%  (Grade B+ requires 20-35% — EXCEEDED)
+Downside if wrong = (484 - 405) / 484 = 16.3%
+Upside if right   = (965 - 484) / 484 = 99.4%
+Asymmetry ratio   = 99.4 / 16.3 = 6.1x  (>3x = excellent bet)
+```
+
+At current price, the bet shape is exceptional: nearly 100% upside against 16% downside, a 6:1 asymmetry. The margin of safety of ~50% far exceeds the 20-35% threshold required for a Grade B+ business. The bear case requires AI to genuinely destroy BPM demand (not just delay it) AND multiple compression from 23x to 18x simultaneously.
 
 ### When do I sell?
 

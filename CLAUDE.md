@@ -170,6 +170,38 @@ Signs of narrowing: commoditization, new tech enabling smaller competitors, regu
 
 ---
 
+## PHASE 4.5: SECOND-ORDER STRESS TEST
+
+The standard framework answers two questions: is this business good, and is it cheap. This phase asks two more that the standard framework tends to skip — and they are where most large investing losses come from. Run both before moving on to valuation. Keep each answer to a few sentences; the goal is sharp thinking, not volume.
+
+### 4.5.1 — Five-Whys on the ROIC Engine
+
+Most analysts stop at the first level of explanation: "ROIC is high because the business is asset-light" or "margins are high because of pricing power." That's a description, not a cause. Drill five sequential layers down to the systemic root.
+
+```
+Q: Why does this business earn high returns on capital today?
+1. [first-order answer — usually a financial fact]
+2. Why is THAT true? → [...]
+3. Why is THAT true? → [...]
+4. Why is THAT true? → [...]
+5. Why is THAT true? → [systemic / structural answer]
+```
+
+Read the fifth answer carefully. If it points to something the company controls (a contract, a process, a person, a current cost advantage), the moat is fragile — those things change. If it points to something structural about the industry, geography, or regulation (network density, geographic monopoly, regulatory licence, switching cost embedded in customer infrastructure), the moat is durable. The 5-Whys is the test that separates the two.
+
+### 4.5.2 — World-State Under the Base Case
+
+If the base case plays out as expected, what does this company look like in 2 years and in 5 years?
+
+For each horizon, write three sentences answering:
+1. What does revenue and margin profile look like? (Get specific — not "bigger", but "₹1,200 Cr revenue at 18% OPM vs ₹400 Cr at 12% today.")
+2. What does management's agenda look like? What do they have to execute that they haven't done before? (New geographies, new product lines, debt management, succession, scaling beyond founder bandwidth — name the specific challenge.)
+3. What new risks does success itself create? (Competition entering, regulatory attention, capital allocation pressure once cash starts flowing, valuation compression because the obvious thesis is now consensus.)
+
+The biggest losses in long-horizon investing come from theses that were correct on direction but missed what success triggered. A company that doubles revenue invariably attracts new competition; a company that triples its market cap invariably attracts regulators or short-sellers; a management team that suddenly has cash invariably starts making capital allocation decisions they aren't trained for. State explicitly what these are for this specific company, or you've underwritten a thesis without underwriting its consequences.
+
+---
+
 ## PHASE 5: VALUATION & MARGIN OF SAFETY
 
 Only run this if Phases 0-4 show no disqualifying concerns.

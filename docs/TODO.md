@@ -1,7 +1,14 @@
 # Research System — TODO
-*Last updated: 2026-04-27*
+*Last updated: 2026-05-02*
 
 ---
+
+## ✅ Completed — 2026-05-02
+
+- **PROTEAN research note** — `research/PROTEAN.md`. Mid-depth analyst note on Protean eGov Technologies. CMP ₹530, down ~63% from 52w high after PAN 2.0 contract loss (May 2025). Debt-free utility at P/B 2.11, but 5y sales CAGR 3% and DII holding collapsed from 41% → 21% in two years. Verdict: watchlist, not buy. Look for two clean quarters of 15%+ growth from non-PAN lines, ₹50 Cr+ quarterly from ONDC/AA, DIIs stabilising. Index.html updated with watchlist entry (Grade C, watch <₹450, target ₹700).
+- **MANUGRAPH research note** — `research/MANUGRAPH.md`. Mid-depth note on Manugraph India (₹42 Cr mcap micro-cap). Trades at 0.43x book, debt-free, promoter at 57.67% stable, Q3 FY26 first profitable quarter in years. But newspaper press industry in 20-year structural decline, FY17 ₹35 Cr loss = Manugraph Americas / DGM Chapter 11 bankruptcy, Carraro packaging diversification 7yrs old still small. Includes decade P&L, balance sheet evolution, working capital chaos (inventory days peaked at 1,033 in FY21). Verdict: speculative deep-value ticket, half-percent position max. Index.html updated.
+- **Framework: Voice Guide added to template + writing-quality rule** — `_TEMPLATE.md` and `.claude/rules/writing-quality.md` updated with explicit anti-patterns (no LLM-template scaffolding like "the bull case is", no editorial one-liners like "cheap and stagnant is a trap, not an opportunity", no list-as-sentence comma strings, no preambles). Concrete reference paragraph from Protean verdict embedded as the voice anchor. Voice pass step required before finalising any research file.
+- **Framework: Phase 4.5 Second-Order Stress Test added across template + SKILL + CLAUDE** — All three files now require a 5-Whys drill on the ROIC engine (descriptive answer at level 1 → systemic cause at level 5; structural answer = durable moat, company-controlled = fragile) and a base-case world-state at 2 and 5 years (revenue/margin profile, management agenda, what new risks success itself triggers — competition entering, regulatory attention, capital allocation pressure once cash flows). New section in `_TEMPLATE.md` Summary Verdict between "What does the market think" and "Multi-Bagger Math". New Step 3D in `SKILL.md` with checklist item. New `## PHASE 4.5` in `CLAUDE.md` between Phase 4 and Phase 5.
 
 ## ✅ Completed — 2026-04-27
 

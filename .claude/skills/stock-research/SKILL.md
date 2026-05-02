@@ -119,6 +119,14 @@ Run the full framework from CLAUDE.md:
 - **Phase 3:** Competitive position (market share trend, widening vs narrowing advantage)
 - **Phase 4:** Management quality (skin in game, communication, capital allocation philosophy)
 
+#### 3D. SECOND-ORDER STRESS TEST
+
+The standard framework answers "is this business good and is it cheap?" The stress test answers "what does the world look like if I'm right, and what could I be missing?" Two short drills — fill the corresponding subsection in `_TEMPLATE.md`.
+
+**5-Whys on the ROIC engine.** Drill five layers from the first-order explanation ("ROIC is high because X") down to the systemic cause. If the fifth answer is something the company controls, the moat is fragile. If it's something structural about the industry or geography, it's durable.
+
+**Base-case world-state at 2 years and 5 years.** If the thesis plays out, what does the company look like, what new things does management have to execute, and what new risks does success itself create? Most large losses come from theses that were correct on direction but missed what success triggered — new competitors, regulatory attention, margin compression from scale, capital allocation mistakes when cash starts flowing.
+
 ### Step 4 — Valuation (use all 3 methods)
 
 #### Method 1: P/E Re-rating
@@ -167,6 +175,7 @@ Save to `research/[TICKER].md` using `research/_TEMPLATE.md` as structural guide
 - [ ] Bull/Base/Bear scenarios present
 - [ ] Research log entry with today's date added
 - [ ] Bull/bear sections read as narratives, not formula-filling
+- [ ] Second-order stress test completed (5-Whys + world-state at 2 and 5 years)
 
 ---
 

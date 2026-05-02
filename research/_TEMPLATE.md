@@ -33,6 +33,70 @@ CLASSIFICATION SYSTEM — Two independent axes:
   Both axes matter. Classification updates every time price or fundamentals change.
 -->
 
+<!--
+═══════════════════════════════════════════════════════════════════════════
+  VOICE GUIDE — READ BEFORE WRITING ANY PROSE IN THIS FILE
+
+  Every narrative section (Why this business, Compounding Equation, Where do
+  I disagree, Q1-Q5, Competitive Landscape, etc.) should read like an analyst
+  thinking out loud to a colleague — not like a template being filled in.
+
+  ────────────────────────────────────────────────────────────────────────
+  AVOID (the LLM-template tells)
+  ────────────────────────────────────────────────────────────────────────
+  ✗ Scaffolding labels in prose: "the bull case is", "the bear case is",
+    "the setup is", "the thesis is", "the play here is", "the read on this".
+    Just say the thing — don't announce that you're about to say it.
+  ✗ Editorial one-liners and aphorisms that exist for rhythm, not information:
+    "Cheap and stagnant is a trap, not an opportunity."
+    "A debt-free balance sheet doesn't rescue a business that isn't growing."
+    "Catching a falling knife." If a sentence could be a tweet, cut it.
+  ✗ Lists disguised as sentences: "I'd want to see two quarters of growth,
+    real revenue from new businesses, and DIIs stepping back in." Three items
+    strung together with commas reads like a checklist. Re-write so the
+    reader follows a thought instead of ticking off items.
+  ✗ Bullet-storms when prose would do. Bullets are for genuinely list-like
+    content (data tables, comparisons, exit triggers). Not for "here are
+    four sentences I split into four bullets."
+  ✗ Trailing recaps and "Let me..." preambles.
+
+  ────────────────────────────────────────────────────────────────────────
+  AIM FOR (the right register)
+  ────────────────────────────────────────────────────────────────────────
+  Concrete example of the voice — same facts, narrative flow:
+
+    "Protean is the kind of stock that looks cheap until you ask what it
+    actually is. On one side you have a debt-free utility with book value
+    as a floor and genuine optionality if ONDC or the account aggregator
+    ever scale. On the other, you have a company that grew sales 3% a year
+    for half a decade, just lost the renewal of its biggest contract, and
+    watched its most informed shareholders cut their stake in half. What's
+    missing is any evidence that the picture is turning. Until the non-PAN
+    revenue actually starts showing up in the quarterlies and the DII
+    selling finds a floor, the cheapness on its own isn't a reason to own it."
+
+  Notice: no "bull case", no "bear case", no aphorisms, no list-as-sentence.
+  The reader follows a thought. Numbers are embedded in the explanation,
+  not announced.
+
+  ────────────────────────────────────────────────────────────────────────
+  VOICE PASS — RUN BEFORE FINALISING
+  ────────────────────────────────────────────────────────────────────────
+  After drafting, re-read every prose section and ask:
+    1. Does any sentence exist purely for rhythm or punchline? Cut it.
+    2. Do I use "bull case / bear case / the setup / the thesis is" as a
+       label inside paragraphs? Rewrite without the scaffolding.
+    3. Are there sentences with three things strung together by commas
+       that should be a flowing argument? Re-write as narrative.
+    4. Could this paragraph be replaced by bullets without losing anything?
+       If yes, the prose isn't carrying its weight — make it earn its place
+       or convert to bullets honestly.
+
+  This voice pass applies to prose only. Tables, data, framework checks,
+  and structural sections are unchanged.
+═══════════════════════════════════════════════════════════════════════════
+-->
+
 > **Recommendation:** [BUY / HOLD / ADD / TRIM / EXIT] at ₹[CMP].
 > [2-4 lines: What is the core bet in plain language. What's the expected return
 > and timeline. What's the one thing to watch. Written so someone reading only
@@ -146,6 +210,44 @@ Answer specifically:
 -->
 
 [Write here — implied vs estimated growth, and why the gap exists]
+
+### Second-Order Stress Test
+
+<!--
+Two questions the standard analysis tends to skip — both kept short, no padding.
+
+(1) FIVE-WHYS on the ROIC engine. Most investors stop at the first level of
+explanation ("ROIC is 30% because asset-light"). Drill five layers down to find
+the systemic cause. If the fifth answer is something the company controls, the
+moat is fragile. If it's something structural about the industry or geography,
+the moat is durable.
+
+(2) WORLD-STATE under the base case. If the thesis plays out as expected, what
+does this company look like in 2 years and 5 years? What new problems does
+success itself create? Most position losses come from theses that were correct
+on direction but failed to account for what success triggered — new competitors,
+regulatory attention, margin compression from scale, capital allocation mistakes
+when the cash starts flowing.
+
+Write 3-5 sentences per question. Cut anything that reads like an aphorism.
+-->
+
+**5-Whys on the ROIC engine:**
+
+> Why does this business earn high returns on capital today?
+> 1. [first-order answer — usually a financial fact: asset-light, pricing power, etc.]
+> 2. Why is that true? → [...]
+> 3. Why is that true? → [...]
+> 4. Why is that true? → [...]
+> 5. Why is that true? → [systemic / structural answer — this is the real moat]
+
+**The world in 2 years if base case plays out:**
+
+[3-4 sentences. What does revenue look like, what does margin profile look like, what is management's agenda, what's the next thing they have to do that they haven't done before. Be specific to this company.]
+
+**What success itself triggers:**
+
+[2-3 sentences on new risks created by the thesis working — new competition, regulatory attention, capital allocation pressure once cash starts flowing, valuation re-rating expectations becoming the new bar.]
 
 ### Multi-Bagger Math
 
