@@ -32,9 +32,35 @@ Every research note evaluates 5 dimensions (5 points each, 25 max):
 
 ---
 
+## Major Framework Updates (May 2026 — multi-bagger pattern study)
+
+Added to `CLAUDE.md`, `SKILL.md`, `_TEMPLATE.md` after completing 5-stock historical multi-bagger study (BSE, BAF, Titan, Page, APL Apollo). **Read `research/learnings/multibagger_patterns.md` for the full synthesis.**
+
+**New CLAUDE.md additions:**
+
+1. **Phase 0.4 — Consolidation Trigger (new):** Organized market share in sub-segment below 40% + pending regulatory equalizer (GST, BIS, FSSAI, licensing) that specifically eliminates unorganized cost advantage. Track implementation timeline, not announcement date. Entry: between announcement and enforcement.
+
+2. **Phase 0.4 — Price-Business Disconnect (new):** Flag when stock price is flat/falling while operating metrics (volumes, disbursements, segment revenue, margins) are growing. Investigate cause — crisis memory, capex lag, macro sentiment are exploitable; actual deterioration is not.
+
+3. **Phase 1.1 — Segment-level ROIC rule (new):** For multi-segment companies, always compute segment revenue CAGR and PBIT separately. Ask "which segment is the market pricing on?" Also: always compute organized-only market share, not total market share.
+
+4. **Phase 4.4 — Domain-Specific Prior Track Record (new section):** Prior domain expertise (same business model, same category, prior geography) is a stronger management quality predictor than current company tenure. Examples: Genomal family (Jockey Philippines 50 years), Rajeev Jain (GE/AmEx consumer finance). Remove current company results from your assessment; would you hire this person for exactly this job based solely on prior track record?
+
+**New SKILL.md Step 6 checklist items (6 added):**
+- Organized sub-segment market share computed
+- Pending regulatory equalizer identified or confirmed absent
+- Segment-level revenue CAGR computed separately
+- Bear case root cause verified against current model (not prior)
+- Capex ROIC verified before treating flat PAT as structural
+- Operator prior domain experience checked
+
+**New `_TEMPLATE.md` turnaround table:** "What was true at the bottom" — 5-row table inside Second-Order Stress Test. Only required for turnaround/inflection theses. Forces: market pricing vs segment data vs root cause vs regulatory equalizer.
+
+---
+
 ## Major Framework Updates (Apr 2026)
 
-These were added to `CLAUDE.md` and `research/_TEMPLATE.md` this session — every new research note uses them automatically:
+These were added to `CLAUDE.md` and `research/_TEMPLATE.md` — every new research note uses them automatically:
 
 1. **Phase 0.4 — Growth Trigger Scan (Kamayaka Framework):** 6 triggers to identify before entering — Capacity Expansion, Operating Leverage, Margin Expansion, Promoter Buying, Regulatory Tailwind, Turnaround. Entry without a trigger = speculation.
 
@@ -170,7 +196,7 @@ Portfolio data is visible in browser, hidden in PDFs — safe to share with anyo
 
 ---
 
-## Active portfolio (as of Apr 2026)
+## Active portfolio (as of May 2026)
 
 | Symbol | Status | Qty | Avg | Key trigger |
 |--------|--------|-----|-----|-------------|
@@ -179,7 +205,7 @@ Portfolio data is visible in browser, hidden in PDFs — safe to share with anyo
 | EPACKPEB | HOLD | 451 | ₹227.9 | Capacity ramp FY27 |
 | KAYNES | HOLD | 31 | ₹3,923 | — |
 | KERNEX | HOLD | 90 | ₹1,125 | — |
-| STLNETWORK | HOLD | 1,500 | ₹31.2 | — |
+| STLNETWORK | STUB | 1 | ₹31.2 | Exited 02-May-26 (1-share tracking stub) |
 | BANCOINDIA | HOLD | 100 | ₹589.5 | Deep research pending |
 | Others | See `portfolio.csv` | — | — | — |
 
@@ -197,6 +223,24 @@ Portfolio data is visible in browser, hidden in PDFs — safe to share with anyo
 | MVGJL | C (11/25) | ~₹178 | <₹150 + OCF positive 2Q | OCF negative — wait for cash generation proof |
 
 ---
+
+## Recent research completed (May 2026)
+
+| Item | Date | What was done |
+|------|------|--------------|
+| Multi-bagger study: BAF | May 4 | `research/learnings/multibagger_BAF.md` — Bajaj Finance ~100x study |
+| Multi-bagger study: TITAN | May 4 | `research/learnings/multibagger_TITAN.md` — Titan ~150x study |
+| Multi-bagger study: PAGE | May 4 | `research/learnings/multibagger_PAGE.md` — Page Industries ~80x study |
+| Multi-bagger study: APLAPOLLO | May 4 | `research/learnings/multibagger_APLAPOLLO.md` — APL Apollo ~30x study |
+| Pattern synthesis | May 4 | `research/learnings/multibagger_patterns.md` — 8 patterns at 4+/5 bar |
+| Framework distillation | May 4 | CLAUDE.md + SKILL.md + _TEMPLATE.md updated (see section above) |
+
+## Pending queue (next session)
+
+1. **NCDEX research note** — unlisted commodity exchange, "what to watch if it IPOs"
+2. **Metropolitan Stock Exchange (MSE) research note** — third equity exchange, struggling
+3. **Ador Welding research note** — `screener.in/company/ADOR/`
+4. **Wire index.html → portfolio.csv** (Task #8) — holdings table auto-generates from CSV; currently hand-maintained
 
 ## Recent research completed (Apr 2026)
 
