@@ -128,13 +128,9 @@ The picture changes meaningfully below ₹3,200. At ₹2,800, base case upside b
 
 ### Where does this rank?
 
-Versus our current portfolio alternatives where the next ₹50,000-1,00,000 of capital might go:
+The next ₹50,000-1,00,000 of capital has better homes than BSE at ₹3,640. NEWGEN (owned, 200 shares at avg ₹447.79) trades at 21x earnings on 33% profit CAGR with a clearer margin of safety; the entry math just works. ICICIAMC (owned, 6 shares at avg ₹2,165) is the closest BSE-comparable — a platform business with operating leverage and broad institutional ownership — and at our target add price of ₹2,400 it offers a 40%+ margin of safety, vastly better than what BSE offers today. EPACKPEB (owned, 1,451 shares at avg ₹184) is a different category entirely (industrial cyclical), but its near-term capacity-expansion trigger gives it a more concrete catalyst path than BSE's wait-for-Q4-results setup.
 
-- **NEWGEN (owned, 200 shares avg ₹447.79):** Software product company at 21x earnings on 33% profit CAGR. Better entry valuation. BSE has higher quality, NEWGEN has better margin of safety.
-- **EPACKPEB (owned, 1,451 shares avg ₹184):** Pre-engineered building company at industrial cycle play. Different thesis entirely. Cyclical vs platform.
-- **ICICIAMC (owned, 6 shares avg ₹2,165, target ₹2,400):** Mutual fund AMC — also platform business with operating leverage. Cleaner regulatory framework. ICICIAMC is the closer comparable; if forced to pick one platform-economics name to add at current prices, ICICIAMC at ₹2,400 wins on margin of safety alone (40%+ MoS at lower entry).
-
-**Conclusion:** BSE is a high-quality second-priority addition. ICICIAMC and NEWGEN both rank ahead at current prices. BSE earns a place if (a) you have surplus capital after sizing them, or (b) BSE pulls back to ₹2,800-3,200 where the asymmetry is markedly better.
+BSE deserves a place in the portfolio, but not at this price and not from this list of available capital. The right move is to set price alerts at ₹3,200 and ₹2,800 and let the market come to us.
 
 ### Recent Developments
 
@@ -296,7 +292,8 @@ Subsidiaries include Indian Clearing Corporation Ltd (ICCL — clearing for BSE)
 
 | Date | Price | Action | Rationale |
 |------|-------|--------|-----------|
-| 2026-05-01 | ₹3,640 | Initiate coverage — WATCHLIST → BUY (reduced) | Quality A; asymmetry 4.6x; phase entry due to 52W high |
+| 2026-05-01 | ₹3,640 | Initiate coverage — BUY (reduced) | Initial draft used 40-50x exit multiples; gave 4.6x asymmetry. Recommendation later revised. |
+| 2026-05-02 | ₹3,640 | Revised to WATCHLIST | Exit multiples re-anchored to global comps (CME 23x, Nasdaq 30x). Base case fair value cut from ₹6,800 to ₹4,663. Asymmetry compressed from 4.6x to 0.9x. Buy zone moved to ₹3,200 / ₹2,800 / ₹2,400. |
 
 ### 12. Research Log
 
@@ -378,8 +375,23 @@ But entry at 52-week high without a buying catalyst between now and May 7 result
 5. NSE IPO timeline — DRHP filing status.
 6. OCF/PAT ratio investigation: is the FY25 31% conversion structural or working capital one-off?
 
+**2026-05-02 — Valuation re-anchor (v1.1 revision)**
+
+User pushed back on the magnitude of the implied market-cap upside in the v1.0 draft. The base case price of ₹6,800 implied a market cap of ₹2.79 lakh Cr in 2031, putting BSE among India's top 50 listed companies. The bull case at ₹11,200 implied ₹4.55 lakh Cr — top 25 territory. Neither is impossible, but both required exit multiples (40x and 50x respectively) that have no precedent in the global exchange industry. CME Group, the largest derivatives exchange in the world, trades at 23x trailing earnings on substantially higher revenue and PAT. Intercontinental Exchange (NYSE parent) trades at 22x. Nasdaq, more diversified into data and listings, trades at 30x. Hong Kong Exchanges trades at 25x.
+
+India warrants a premium to global comps for demographic and capital-formation reasons, so a sustainable terminal multiple in the 28-32x range for a mature BSE is more defensible than the 40-50x previously assumed. Re-running the math with bear 22x, base 30x, bull 38x:
+
+- Bear (15% PAT CAGR): FY31 PAT ₹4,705 Cr → ₹1,03,510 Cr mkt cap → ₹2,541/share (-30%)
+- Base (22% PAT CAGR): FY31 PAT ₹6,332 Cr → ₹1,89,960 Cr mkt cap → ₹4,663/share (+28%)
+- Bull (28% PAT CAGR): FY31 PAT ₹8,058 Cr → ₹3,06,200 Cr mkt cap → ₹7,517/share (+107%)
+
+Asymmetry at CMP ₹3,640: 28% upside vs 30% downside = 0.93x. Below 1x. Per CLAUDE.md decision matrix, Grade A + asymmetry below 1.5x = WATCHLIST. Buy zone moved down: ₹3,200 (asymmetry 2.2x), ₹2,800 (asymmetry 7.2x), ₹2,400 (near-zero downside).
+
+The v1.0 mistake: treating BSE's recent 65-70% PAT CAGR as a sustainable input to terminal valuation. That CAGR was the F&O re-rating event playing out — a one-time shift, not a steady state. The v1.1 numbers assume the operating leverage extends meaningfully (22% base CAGR is still very strong for a ₹1.5 lakh Cr-cap business) but the multiple normalises toward global exchange peers as the business matures.
+
 ### 13. Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
-| v1.0 | 2026-05-01 | Initial coverage. Grade A 21/25. WATCHLIST → BUY (reduced) phased entry. CMP ₹3,640, base case ₹6,800, bear ₹2,950. |
+| v1.0 | 2026-05-01 | Initial coverage. Grade A 21/25. BUY (reduced) phased entry. CMP ₹3,640, base case ₹6,800 (40x exit), bear ₹2,950 (30x exit). |
+| v1.1 | 2026-05-02 | Recommendation revised to WATCHLIST after exit multiples re-anchored to global exchange comparables (CME 23x, Nasdaq 30x, ICE 22x). Earlier 40-50x exits were not defensible at BSE's current ₹1.48 lakh Cr market cap. New base case ₹4,663 (30x), bear ₹2,541 (22x), bull ₹7,517 (38x). Asymmetry at CMP compressed from 4.6x to 0.9x. Buy zone moved down to ₹3,200 / ₹2,800 / ₹2,400. Trigger for revision: market-cap reality check from user feedback. |

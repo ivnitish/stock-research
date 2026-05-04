@@ -62,6 +62,9 @@ Before entering any position, identify which of the 6 triggers is present. Entry
 - [ ] **Regulatory/Government Tailwind:** PLI, anti-dumping duty, import ban, or policy mandate in this sector? Import bans can transform economics overnight. Read announcements before market prices them.
 - [ ] **Turnaround:** Debt restructuring reducing interest burden? New management with proven track record? Shedding loss-making division? Entry at extreme pessimism = best alpha. Verify: is the pain temporary or structural?
 
+- [ ] **Consolidation Trigger (Multi-Bagger Pattern Study addition):** Organized market share in sub-segment below 40% + a pending or in-progress regulatory equalizer (GST, BIS/FSSAI standards, import licensing, mandatory quality certification) that specifically eliminates the cost advantage of unorganized players. The company must be the dominant organized player. This is not a generic "regulatory tailwind" — the specific form is: unorganized competitors survive by avoiding taxes or quality compliance; once forced to comply, their cost advantage evaporates and volume flows to the organized leader. Track implementation timeline, not announcement date. Entry window: between announcement and implementation.
+- [ ] **Price-Business Disconnect (Multi-Bagger Pattern Study addition):** Stock price flat or falling while operating metrics (volumes, disbursements, segment revenue, margins) are growing. Investigate the cause of divergence — is it (a) crisis memory applied to a fixed model, (b) capex cycle lag, (c) macro sentiment, or (d) actual deterioration? Only (a), (b), and (c) are exploitable; (d) is not. Verify by tracking segment-level data, not consolidated headline P&L.
+
 **Rule:** A stock with 2+ triggers firing simultaneously has much higher probability of near-term re-rating.
 
 **Where to find:** BSE announcements + concall transcripts → capacity plans | Screener.in → quarterly margin trend | BSE → insider trading → promoter transactions | PIB + Ministry announcements for policy
@@ -77,7 +80,9 @@ Incremental ROIC = Change in NOPAT (Year N vs Year N-3) / Change in Capital Empl
 3-year delta smooths lumpiness. Target: incremental ROIC > 20%, ideally > 25%.
 Also compute: ROE and ROCE (trailing 3-year average).
 
-**Where to find:** Screener.in → P&L → EBIT (proxy NOPAT); Balance Sheet → Total Assets minus Current Liabilities (proxy Capital Employed) | Annual report → precise NOPAT = PAT + Interest×(1-tax rate)
+**Segment-level ROIC rule (Multi-Bagger Pattern Study addition):** For multi-segment or multi-product companies, always compute segment-level revenue CAGR and PBIT separately before reading consolidated headline. Ask: which segment is the market pricing the stock on? Multi-segment companies are frequently valued on their worst-performing segment or their weakest recent quarter — the strongest segment is an invisible free option. The critical check: compute the company's market share in the organized sub-segment (not total market). A 5% total market share in a 65%-unorganized market is 14% of the organized market — a fundamentally different competitive position than the aggregate number implies. Pull segment disclosures from annual reports (Segment Report section) rather than relying on consolidated P&L.
+
+**Where to find:** Screener.in → P&L → EBIT (proxy NOPAT); Balance Sheet → Total Assets minus Current Liabilities (proxy Capital Employed) | Annual report → precise NOPAT = PAT + Interest×(1-tax rate) | Annual report → Segment Report → Segment Revenue + Segment PBIT by division
 
 ### 1.2 — Unit Economics
 - Gross margin: stable or expanding?
@@ -167,6 +172,16 @@ Signs of narrowing: commoditization, new tech enabling smaller competitors, regu
 - Stated capital allocation framework? Deepen core vs chase adjacencies?
 
 **Where to find:** Annual report → MD&A → Strategy | Earnings calls → Q&A on capital allocation | Investor presentations → Strategy slides
+
+### 4.4 — Domain-Specific Prior Track Record (Multi-Bagger Pattern Study addition)
+
+Current company tenure and recent results are weak predictors of management quality at the early innings of a new strategy. What predicts better: has this operator managed the same business model, in the same domain, in a prior context?
+
+- **For family-controlled businesses:** Has this family managed the same product, category, or license in another geography or time period? (Genomal family: 50 years managing Jockey in Philippines before India — strongest possible prior. Gupta family: M&A acquisitions of Apollo Metalex 2007, Shri Lakshmi 2008 — track record of integrating tube manufacturing before the main growth phase.)
+- **For professional managers:** Does the hire come from a company in the same business, not just the same industry? (Rajeev Jain at Bajaj Finance: hired from GE/AmEx/AIG with consumer finance expertise — not just financial services, specifically consumer lending. Nanoo Pamnani: Citibank India CEO, the dominant consumer lender of the prior era.)
+- **The test:** Remove the current company's results from your analysis. Based solely on what this operator did in prior roles or contexts, would you hire them for exactly this job? If yes, weight management quality highly. If the track record is only in adjacent businesses, apply more skepticism.
+
+**Where to find:** LinkedIn profiles + MD&A "About the Board" section | Press archives around management appointment announcements | Prior company annual reports for operators who joined from listed companies | Earnings calls — listen for domain vocabulary vs. generic business-speak
 
 ---
 

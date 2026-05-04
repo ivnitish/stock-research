@@ -249,6 +249,24 @@ Write 3-5 sentences per question. Cut anything that reads like an aphorism.
 
 [2-3 sentences on new risks created by the thesis working — new competition, regulatory attention, capital allocation pressure once cash starts flowing, valuation re-rating expectations becoming the new bar.]
 
+**[For turnaround / inflection theses only] — What was true at the bottom:**
+
+<!--
+If this is a stock where the thesis involves a prior crisis, a capex cycle, or a narrative
+about past failure that the market is still pricing, fill this table. It forces you to
+distinguish between what the market is pricing (the crisis) and what the business data
+shows (the direction). Sourced from multi-bagger pattern study — appears in 4 of 5 cases.
+Skip for pure growth stories with no prior undervaluation narrative.
+-->
+
+| Question | Answer |
+|---|---|
+| What is the market pricing this stock on? | [the headline metric: flat PAT, 12% NPAs, failed segment] |
+| What does segment / operating data actually show? | [the hidden direction: growing disbursements, segment +29%, volumes up] |
+| What was the root cause of the prior failure/crisis? | [specific mechanism: 18-carat product error, indiscriminate auto-finance, cash NPA cycle] |
+| Is that root cause still present in today's business model? | [Yes / No — and explain specifically why] |
+| What is the pending regulatory or structural equalizer? | [GST, BIS hallmarking, RERA, FSSAI standard, or "none identified"] |
+
 ### Multi-Bagger Math
 
 <!--

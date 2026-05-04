@@ -176,6 +176,13 @@ Save to `research/[TICKER].md` using `research/_TEMPLATE.md` as structural guide
 - [ ] Research log entry with today's date added
 - [ ] Bull/bear sections read as narratives, not formula-filling
 - [ ] Second-order stress test completed (5-Whys + world-state at 2 and 5 years)
+- [ ] **Multi-Bagger Pattern checklist** (from multibagger_patterns.md — run for any BUY or TRACKING POSITION candidate):
+  - [ ] Organized market share in sub-segment computed (not just total market share)
+  - [ ] Pending regulatory equalizer identified (GST-type, BIS, FSSAI, licensing) or confirmed absent
+  - [ ] Segment-level revenue CAGR computed separately from consolidated headline
+  - [ ] Bear case root cause verified: does it apply to the *current* business model or a prior one?
+  - [ ] For capex-heavy businesses: prior capex cycle ROIC verified before treating flat PAT as structural
+  - [ ] Operator prior domain experience checked (not just current company tenure)
 
 ---
 

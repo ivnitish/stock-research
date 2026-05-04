@@ -1,5 +1,38 @@
 # Research System — TODO
-*Last updated: 2026-05-02*
+*Last updated: 2026-05-04*
+
+---
+
+## ✅ Completed — 2026-05-04
+
+- **Multi-bagger pattern study series complete (4 new studies):**
+  - `research/learnings/multibagger_BAF.md` — Bajaj Finance (2010-11 bottom, ~100x). Consumer NBFC pivot thesis: Rajeev Jain from GE/AmEx + Nanoo Pamnani advisory, 12% NPA root cause fixed (600-borrower-profile underwriting), zero-cost EMI generating 20-25% internal yield hidden below headline P&L, India credit-to-GDP secular tailwind. PAT CAGR 35% sustained over 12 years.
+  - `research/learnings/multibagger_TITAN.md` — Titan Company (2002-03 bottom, ~150x). Tanishq segment growing 29% to ₹345 Cr with positive PBIT, buried under consolidated -55% PAT. 18-carat failure already replaced by 22-carat + Karatmeter model by 2000; market still pricing the old failure in 2002-03. Jhunjhunwala entry at ₹3-6. Organized jewelry at 6% of ₹45,000 Cr TAM.
+  - `research/learnings/multibagger_PAGE.md` — Page Industries (2008-09 bottom, ~80x). Stock -50% while EPS +80% in same year. Exclusive 50-year Jockey license renewed in 2008. Genomal family 50-year Philippines track record. 65% unbranded innerwear market. ROE 35-40% through the crisis, OPM stable at 20-21%.
+  - `research/learnings/multibagger_APLAPOLLO.md` — APL Apollo Tubes (2014-15 bottom, ~30x). #1 organized player (55% structural hollow sections) in 50%-unorganized market. ₹250 Cr capex cycle causing flat PAT despite 42% revenue growth — market read as no earnings power; FY2017 showed 184% PAT jump. GST (2017) eliminated unorganized tax-evasion cost advantage.
+- **Pattern synthesis complete:** `research/learnings/multibagger_patterns.md` — 8 patterns, all with 4+/5 occurrence rate. Top 5 (universal, 5/5): underpenetrated TAM, first-mover position, price-business disconnect, bear case right about symptom wrong about root cause, structural regulatory tailwind. Plus 3 at 4/5: segment masking, domain-specific management prior, adequate balance sheet.
+- **Framework distillation (Block C):**
+  - `CLAUDE.md` Phase 0.4: Added "Consolidation Trigger" (organized share <40% + pending regulatory equalizer) and "Price-Business Disconnect" as named triggers
+  - `CLAUDE.md` Phase 1.1: Added segment-level ROIC rule — always compute organized-only market share + segment revenue CAGR separately from consolidated
+  - `CLAUDE.md` Phase 4.3→4.4: Added Phase 4.4 "Domain-Specific Prior Track Record" — prior domain expertise in same business/geography is stronger predictor than current company results
+  - `SKILL.md` Step 6: Added Multi-Bagger Pattern checklist (6 new items: organized share sub-segment, regulatory equalizer, segment CAGR, bear case root cause test, capex cycle ROIC verification, operator domain experience)
+  - `_TEMPLATE.md` Stress Test section: Added "What was true at the bottom" table for turnaround/inflection theses — forces separation of what market is pricing vs what segment data shows vs whether root cause is still present
+- **Index.html:** Added 6 rows (MULTIBAGGER patterns doc + 5 study rows: BSE, BAF, TITAN, PAGE, APL)
+
+## Open (next session)
+
+- NCDEX research note (Block F)
+- Metropolitan Stock Exchange (MSE) research note (Block F)
+- Ador Welding research note — screener.in/company/ADOR (Block F)
+- Wire index.html holdings table to data/portfolio.csv (Task #8 — Block D)
+
+---
+
+## ✅ Completed — 2026-05-03
+
+- **Holdings refresh** — `data/portfolio.csv` updated from Groww broker export (03-May-2026). STLNETWORK: 1500 shares → 1 share (sold down to tracking stub)
+- **index.html STLNETWORK row** updated to "Exited 02-May-26 (1-share stub)"
+- **BSE multi-bagger study** — `research/learnings/multibagger_BSE.md`. ~119x return. Pattern: fortress balance sheet + dormant SME platform + latent derivatives optionality priced at zero.
 
 ---
 
