@@ -982,3 +982,33 @@ itself, explained in context, per Instruction 10.
 
 **[Term 2]**
 [Plain-English explanation]
+
+---
+
+## APPENDIX — DRAFT SECTIONS PENDING REVIEW (2026-05-05)
+
+Candidate additions sitting at the end so the main template above is unchanged. Use them on the next research note; promote into the main flow once they've earned their place.
+
+### Market label vs business reality (universal)
+
+The "what was true at the bottom" table inside the Stress Test currently triggers only for turnarounds. The universal version applies to every note — pure growth stories included, where some rows may legitimately read "n/a" or "consensus aligned."
+
+| Question | Answer |
+|---|---|
+| What is the market currently pricing this stock on? | [The headline metric or narrative consensus is anchored to] |
+| What does segment / operating data actually show? | [The hidden direction visible in segment, volume, disbursement, or unit-level data] |
+| What is the bear narrative? | [The dominant negative case — not a strawman, the actual one being voiced] |
+| Is the bear narrative root cause still active in today's business? | [Yes / No — explain specifically. If yes, the bear case is fighting today's war, not yesterday's] |
+| What is the regulatory or structural equalizer in motion? | [Named change with implementation timeline; or "none identified"] |
+| What is the label-change catalyst? | [Specific event that flips consensus; or "n/a — quality compounder bet, no re-rating expected"] |
+
+### Pre-existing capability (required bullet in Strengths)
+
+In the Strengths block above, one bullet must name the specific physical thing already built that the thesis depends on. The test is whether the bullet survives without abstractions:
+
+- "Strong management" — fails
+- "Sanjay Gupta with 27 years in steel and proven M&A integration of Apollo Metalex 2007 and Shri Lakshmi 2008" — passes
+- "Large addressable market" — fails
+- "1.3 MTPA installed capacity with DFT lines across 5 plants and 600+ dealer network" — passes
+
+If the thesis-critical capability cannot be stated concretely — if the bet is on capability that management still has to build — flag the position as venture-grade and cap size accordingly.

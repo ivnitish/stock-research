@@ -217,3 +217,31 @@ Save to `research/[TICKER].md` using `research/_TEMPLATE.md` as structural guide
 6. **Be skeptical of management narratives.** Cross-reference against financials.
 7. **For Indian small/mid caps:** Pay extra attention to promoter quality, related party transactions, and cash flow vs reported profits.
 8. **Do not default to positive conclusions.** Base rate for multi-baggers is low. Your job is to find reasons to REJECT.
+
+---
+
+## APPENDIX — ADDITIONS PENDING REVIEW (2026-05-05)
+
+At the end so the main workflow above is unchanged. Run on the next 3-5 stocks; promote into the main steps once they've earned it.
+
+### Step 2.5 — Segment & insider depth pull
+
+Between Step 2 (data fetch) and Step 3 (analysis). Three additional fetches the current workflow doesn't require:
+
+1. **Segment data, 3 years.** Annual report segment note — segment revenue and segment PBIT broken out separately. Often at the back of the AR under "Segment Reporting." The consolidated P&L is not a substitute.
+2. **Insider trading disclosures, 12 months.** BSE corporate filings → Insider Trading Disclosure section. Pull all transactions, classify as ESOP / open-market buy / open-market sell / pledge change / off-market transfer.
+3. **Promoter shareholding, 8 quarters.** BSE shareholding pattern history. Track the trajectory and reconcile any quarter-on-quarter movement above 2% to a stated reason.
+
+The framework already says to compute segment ROIC, check insider activity, and watch promoter movement. These get skipped because there's no explicit fetch step producing them as artifacts before analysis begins.
+
+### Step 6 checklist — additions
+
+Add to the existing checklist:
+
+- [ ] 3-year segment revenue CAGR computed separately from consolidated headline (Pattern 6)
+- [ ] 5-year promoter holding trajectory reviewed; movements >2% reconciled with stated reason
+- [ ] 5-year ROIC trend pulled (not just current)
+- [ ] 3-year operating margin trend pulled — to detect permanent compression vs capex absorption vs one-time recovery
+- [ ] Pre-existing capability named: the specific physical thing (plant, license, certification, code, brand) already built that the thesis depends on
+- [ ] Market label written explicitly: what consensus calls this, what we call it, what flips the label
+- [ ] Kill signals checked (insider distribution, structural margin compression, active bear-case root cause, prior capex sub-10% ROIC, single-customer >40%, pledge >50%, audit qualification)

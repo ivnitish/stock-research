@@ -224,3 +224,63 @@ The following should now be incorporated into CLAUDE.md, SKILL.md, and _TEMPLATE
 ---
 
 *Synthesized on 2026-05-04 from five individual multi-bagger studies. Studies: multibagger_BSE.md, multibagger_BAF.md, multibagger_TITAN.md, multibagger_PAGE.md, multibagger_APLAPOLLO.md.*
+
+---
+
+## Appendix — Additions pending review (2026-05-05)
+
+Drafted but not folded into the main synthesis above. Living at the end so the document above is unchanged; promote into the main body once they've held up across the next several cases.
+
+### Pattern 9 — Margins held through the trough (5/5)
+
+Operating margins at the bottom were stable, recovering, or temporarily absorbed by capex with prior-cycle returns proven. Permanent margin collapse never showed up.
+
+- Page Industries: OPM stable at 20-21% through the 2008 panic. The IPO undersubscription and the 50% drawdown didn't show up on the income statement.
+- Bajaj Finance: NPAs declining from the 12% peak rather than expanding. Margin pressure was visibly resolving, not deepening.
+- APL Apollo: margins absorbed by ₹250 Cr of simultaneous capex (Raipur, DFT, capacity expansion) — but prior-cycle capex at the existing plants had returned 18-24% ROE, so the absorption was a timing question, not a returns question.
+- Titan: jewelry segment ran positive PBIT throughout the consolidated negative number. Segment data showed a recovering business; the headline showed a failing one.
+- BSE: margins held through the F&O share loss because the SME platform and listing fees were a different cost structure with intact unit economics.
+
+This separates recoverable undervaluation from a deteriorating business. Overlaps with Pattern 4 but is checked from a different artifact — the 3-year operating margin trend, not the bear narrative.
+
+Check at entry: 3-year operating margin trend, matched to one of the three valid states above. Sustained compression with no identifiable cause is not a multi-bagger setup regardless of valuation.
+
+### Pattern 10 — No insider distribution at the bottom (5/5)
+
+Different from "promoter buying" (which fails at 1/5 — BSE has no promoter). The signal is the absence of selling.
+
+- Page: Genomal family stable through the 2008-09 drawdown
+- APL Apollo: Gupta family expanding via M&A (Lloyds Linepipes 2015) while reported PAT was flat
+- Bajaj Finance: promoter at 54%+ throughout the recapitalization — they participated in the dilution rather than walking away
+- Titan: Tata holding intact; Jhunjhunwala building position
+- BSE: institutional float not turning over; no large block sales at the COVID lows
+
+Excludes routine ESOP, small estate-planning sales, family liquidity under 1% of holding. Requires no concentrated selling by holders with information.
+
+Check at entry: 12 months of BSE insider trading disclosures and 8 quarters of promoter shareholding. Reconcile any movement above 2% to a stated reason.
+
+### Kill signals (anti-patterns)
+
+Patterns describe what to look for. These describe what disqualifies, regardless of how many patterns hit. Any one standing alone is a walk-away:
+
+- Insider distribution beyond ESOP and routine liquidity
+- Operating margins compressed for 3+ years with no identified cause
+- Bear-case root cause still active in today's business model (not a prior model)
+- Prior capex deployed at sub-10% ROIC
+- Single customer above 40% of revenue
+- Promoter pledge above 50%
+- Audit qualification or opinion change in the last 2 years
+- Cash flow from operations below 0.5x reported PAT for 2+ consecutive years
+
+The first three are the inverse of Patterns 8-10. The rest are standard governance and concentration disqualifiers.
+
+### How to use this checklist
+
+Action threshold (calibrate as more cases are studied):
+- 4+ of universal patterns 1-5
+- 2+ of supporting patterns 6-10
+- Zero kill signals
+
+Universals are necessary. Supporting patterns confirm. A stock matching only 6-10 without 1-5 is a quality business but not a multi-bagger setup.
+
+Scope caveat: these patterns came from five Indian mid- and small-cap consumer and financial businesses. The weights probably shift for commodities (margin behaviour means something different), pure tech (capex cycles work differently), regulated PSUs (capital allocation is constrained), or US/international markets (organized penetration is mostly already done).

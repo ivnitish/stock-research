@@ -1,5 +1,23 @@
 # Research System — TODO
-*Last updated: 2026-05-04*
+*Last updated: 2026-05-09*
+
+---
+
+## ✅ Completed — 2026-05-09
+
+- **NCDEX pre-IPO watch note** — `research/NCDEX.md`. Grade D 8/25, status UNLISTED / PRE-IPO WATCH. FY25 op revenue ₹88 Cr (4-yr decline), unlisted ₹378-384, mcap ₹3,444 Cr, P/B 4.6x. Daily turnover collapsed from ₹2,310 Cr to ₹300-400 Cr after Dec 2021 SEBI ban on 7 agri contracts. ₹770 Cr fresh capital raised; equity & MF approvals received but not built. Recommendation: Avoid IPO, watch ban-lift.
+- **MSEI pre-IPO watch note** — `research/MSEI.md`. Grade D 9/25, status UNLISTED / PRE-IPO WATCH. FY25 revenue ₹17.4 Cr / op revenue ₹5.4 Cr, net loss ₹34.2 Cr, ₹1,240 Cr recapitalization (Peak XV / Rainmatter / Billionbrains / Share India / Jainam / Monarch / Trust). Unlisted ₹6, mcap ₹6,688 Cr, P/B 22.7x. LES launched Jan 27, 2026 covering 130 stocks (₹40 lakh/month/MM, runs through Jun 30, 2026). Recommendation: Watch until daily turnover sustains >₹100 Cr equity cash for 2 months.
+- **ADOR research note** — `research/ADOR.md`. Grade B 16/25, Tracking position. CMP ₹1,078, mcap ₹1,877 Cr, P/E 22.3x, P/B 3.37x. FY26 PAT ₹82 Cr (+37%) on revenue ₹1,140 Cr (flat). Margin recovery story — Q1 -2% OPM → Q4 14.79% OPM (PAT +89% YoY). Capex visible (FA ₹117 Cr → ₹204 Cr) but topline decoupled — needs FY27-28 absorption. Promoter -3.14% in FY25 = Pattern 10 yellow flag. Add criteria: 2 of 3 (promoter stable, OPM ≥13% × 2Q, revenue YoY ≥10% × 2Q).
+- **Framework appendices added** — Voice-compliant additions to `learnings/multibagger_patterns.md` (Pattern 9 margins-through-trough, Pattern 10 no-insider-distribution-at-bottom, kill signals), `CLAUDE.md` (Phase 0.5 Pre-existing capability, Phase 4.5.3 Margin behaviour through stress, Phase 4.5.4 Market label vs reality), `SKILL.md` (Step 2.5 Segment & insider depth pull, Step 6 checklist additions), `_TEMPLATE.md` (Universal market-label-vs-reality table). Appended as APPENDIX sections to preserve current flow; promote to main phases after they've earned their place.
+- **Task #8 — Holdings table wired to portfolio.csv** — `src/sync_holdings_from_csv.py`. Reads `data/portfolio.csv` as source of truth, updates qty/avg/invested + derived (Δ/share, current, P&L abs/%) on existing index.html stock rows by onclick handler. Right-to-left position-based replacement so identical "—" cells don't collide. Idempotent. Reports CSV symbols missing HTML rows (6: ATHERENERG, BHEL, NWIL, PATELSAI, SOUTHWEST, ZENTEC). Notable corrections applied: EPACKPEB 751 → 1,451; ARTEMISMED 181 → 362; RAYMOND "0 (exited)" → 300 (re-entered); NESCO 1 → 20.
+
+## Open (next session)
+
+- Add 6 missing holdings to index.html: ATHERENERG, BHEL, NWIL, PATELSAI, SOUTHWEST, ZENTEC. Each needs grade + action tag + research note triage.
+- Review whether to promote framework appendices into main phases (Phase 0.5, 4.5.3, 4.5.4 in CLAUDE.md; Step 2.5 in SKILL.md; market-label table in _TEMPLATE.md). Currently sitting as APPENDIX sections.
+- Review NESCO classification (tagged "Monitor · Exhibition+IT" in tracking section but holdings now show 20 shares — real position).
+- Review RAYMOND classification (still "Watch · Re-buy <₹380" in watch section; CSV shows 300 held).
+- Wire CMP refresh from Groww MCP into sync script (currently leaves CMP cell untouched, derives Δ/PL from existing CMP).
 
 ---
 

@@ -467,3 +467,47 @@ Management commentary, analyst reports, and sector tailwinds are inputs, not con
 - **Competitor data, industry news:** WebSearch
 - **Research template:** `research/_TEMPLATE.md`
 - **All research files:** `research/SYMBOL.md` → rendered to `output/html/SYMBOL.html`
+
+---
+
+## APPENDIX — ADDITIONS PENDING REVIEW (2026-05-05)
+
+Drafted at the end so the main framework above is unchanged. Run them on the next several research notes; promote into the relevant main phases once they've earned their place.
+
+### Phase 0.5 — Pre-existing capability check
+
+Sits between Phase 0.4 (Growth Trigger Scan) and Phase 1 (Compounding Engine).
+
+Name the specific physical thing that already exists today and powers the thesis. Not "they have a strong moat" — the actual physical instantiation: plant, certification, license, distribution network, installed capacity, code base, brand, customer book.
+
+Three valid forms:
+
+1. **Built and operating.** Capacity online, generating revenue, with proven unit economics. APL's 5 plants in 2014. Page's 50-year Jockey license signed in 1994.
+2. **Built but underutilized.** Asset exists, hasn't been monetized at scale yet, but unit economics are visible from comparable existing operations. BSE's SME platform at the March 2020 COVID bottom — operational with 60% share of SME listings, generating a fraction of its eventual revenue.
+3. **Acquired and integrated.** Capability bought rather than built, but already operating in the consolidated business. APL's Lloyds Linepipes acquisition (2015).
+
+If the entire thesis depends on management building something they haven't built before — a new factory before commissioning, a new geography before first revenue, a new product line before customer adoption — the bet is venture-grade. Cap position at 1-2% and treat as speculative regardless of how strong the rest of the framework reads.
+
+### Phase 4.5.3 — Margin behaviour through stress
+
+Inside Phase 4.5 (Second-Order Stress Test), required for any thesis where the stock has been under pressure or headline numbers have deteriorated.
+
+Pull 3-year operating margin trend. Three valid states for a multi-bagger setup:
+
+1. **Stable through stress.** Margins held within ~200bps of trend through the period of share price weakness. Earnings power intact; the multiple is what compressed.
+2. **Recovering from a known one-time.** Margins compressed for an identifiable reason (raw material spike, regulatory change, customer loss) and the cause has resolved. Verify the cause is past, not just postponed.
+3. **Temporarily absorbed by capex.** Margins flat or compressed during a heavy capex phase. Required verification: prior capex cycle converted at ROIC > 20%. Without prior-cycle proof, current absorption is indistinguishable from value destruction.
+
+Anything else — sustained compression with no identified cause, recovery thesis with the cause still active, capex absorption without prior-cycle proof — is a disqualifier even at low valuation.
+
+### Phase 4.5.4 — Market label vs reality
+
+Inside Phase 4.5, required before concluding any research note.
+
+Three things to write down:
+
+1. **Current market label.** What is the market calling this stock today? "Failed turnaround." "Commodity steel play." "Yesterday's growth story." "Quality compounder, fully priced." The label is what consensus believes the stock is, not what the company does.
+2. **Our label.** What we think it is. Different from current consensus, ideally — that's where the alpha sits.
+3. **Label-change catalyst.** The specific event that flips consensus from their label to ours. Quarterly results showing X. Regulatory implementation date. Order book conversion. Margin print above Y. Without a concrete event, there's no re-rating mechanism, even if the business compounds correctly.
+
+If labels match (consensus is right about quality and direction), this is a quality compounder bet, not a re-rating bet — note this explicitly and adjust expected return accordingly. The compounding return is real; expect no multiple expansion.
