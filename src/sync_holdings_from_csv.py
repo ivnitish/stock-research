@@ -29,10 +29,21 @@ CSV_PATH = ROOT / "data" / "portfolio.csv"
 HTML_PATH = ROOT / "output" / "html" / "index.html"
 
 ROW_RE = re.compile(
-    r'(<tr class="stock-row"[^>]*?onclick="go\(\'([A-Z0-9]+)\.html\'\)"[^>]*?>)(.*?)(</tr>)',
+    r'(<tr class="stock-row"[^>]*?>)(.*?)(</tr>)',
     re.DOTALL,
 )
 TD_RE = re.compile(r'(<td[^>]*>)(.*?)(</td>)', re.DOTALL)
+ONCLICK_RE = re.compile(r"onclick=\"go\('([A-Z0-9]+)\.html'\)\"")
+TICKER_RE = re.compile(r'<div class="td-ticker">([A-Z0-9]+)')
+
+
+def extract_symbol(opener: str, body: str) -> str | None:
+    """Ticker text wins over onclick — onclick may route to a parent's research note."""
+    m = TICKER_RE.search(body)
+    if m:
+        return m.group(1)
+    m = ONCLICK_RE.search(opener)
+    return m.group(1) if m else None
 
 
 def fmt_money(v: float) -> str:
@@ -168,8 +179,9 @@ def main():
 
     def replace_block(m):
         nonlocal total_updates
-        opener, sym, body, closer = m.group(1), m.group(2), m.group(3), m.group(4)
-        if sym not in csv_rows:
+        opener, body, closer = m.group(1), m.group(2), m.group(3)
+        sym = extract_symbol(opener, body)
+        if sym is None or sym not in csv_rows:
             return m.group(0)
         seen_in_html.add(sym)
         record = csv_rows[sym]

@@ -13,7 +13,7 @@
 
 ## Open (next session)
 
-- Add 6 missing holdings to index.html: ATHERENERG, BHEL, NWIL, PATELSAI, SOUTHWEST, ZENTEC. Each needs grade + action tag + research note triage.
+- Triage rows for ATHERENERG, BHEL, NWIL, PATELSAI, SOUTHWEST, ZENTEC — rows already exist in index.html and now sync from CSV; each still needs a research note + grade + onclick handler. Currently linked: NWIL→INTEGRATEDIND.html (parent company).
 - Review whether to promote framework appendices into main phases (Phase 0.5, 4.5.3, 4.5.4 in CLAUDE.md; Step 2.5 in SKILL.md; market-label table in _TEMPLATE.md). Currently sitting as APPENDIX sections.
 - Review NESCO classification (tagged "Monitor · Exhibition+IT" in tracking section but holdings now show 20 shares — real position).
 - Review RAYMOND classification (still "Watch · Re-buy <₹380" in watch section; CSV shows 300 held).
