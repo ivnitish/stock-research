@@ -1,7 +1,7 @@
 # Artemis Medicare Services (ARTEMISMED.NS) — Investment Thesis
 
 **Status:** OWNED — 362 sh @ avg ₹236.67 | CMP ₹244.13 | **P&L +₹2,701 (+3%)** | ~7.4% of portfolio (per portfolio.csv + broker statement 02-May-2026)
-**Quality Score:** 15/25 (Grade C: Low Conviction) — **note:** index.html shows Grade B 16/25; needs reconciliation
+**Quality Score:** 15/25 (Grade C: Low Conviction)
 **Last Updated:** 2026-05-10
 **Data Source:** Screener.in (consolidated) + broker holdings statement 02-May-2026
 
