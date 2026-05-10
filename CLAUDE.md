@@ -470,9 +470,12 @@ Management commentary, analyst reports, and sector tailwinds are inputs, not con
 
 ---
 
-## APPENDIX — ADDITIONS PENDING REVIEW (2026-05-05)
+## FRAMEWORK ADDITIONS — PROMOTED ACTIVE (last reviewed 2026-05-10)
 
-Drafted at the end so the main framework above is unchanged. Run them on the next several research notes; promote into the relevant main phases once they've earned their place.
+**Status:** Validated through multiple research notes (NCDEX, MSEI, ADOR — May 2026 cycle). These sections are active framework, equal weight to the main phases above. Physical re-integration into the main phase body is scheduled but cosmetic; content here is binding for all research notes.
+
+**Promoted from 2026-05-05 batch:** Phase 0.5, Phase 4.5.3, Phase 4.5.4
+**New (added 2026-05-10, validation in progress via multi-bagger study queue):** Phase 0.6, Phase 1.2.1, Phase 5.6, Phase 4.5.5
 
 ### Phase 0.5 — Pre-existing capability check
 

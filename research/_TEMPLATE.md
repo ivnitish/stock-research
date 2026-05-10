@@ -985,9 +985,9 @@ itself, explained in context, per Instruction 10.
 
 ---
 
-## APPENDIX — DRAFT SECTIONS PENDING REVIEW (2026-05-05)
+## TEMPLATE ADDITIONS — PROMOTED ACTIVE (last reviewed 2026-05-10)
 
-Candidate additions sitting at the end so the main template above is unchanged. Use them on the next research note; promote into the main flow once they've earned their place.
+**Status:** The market-label-vs-reality table is binding for all research notes (validated on NCDEX, MSEI, ADOR). Physical re-integration into the main template body is scheduled but cosmetic; content here is active.
 
 ### Market label vs business reality (universal)
 

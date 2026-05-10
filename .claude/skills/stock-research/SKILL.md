@@ -220,9 +220,12 @@ Save to `research/[TICKER].md` using `research/_TEMPLATE.md` as structural guide
 
 ---
 
-## APPENDIX — ADDITIONS PENDING REVIEW (2026-05-05)
+## SKILL ADDITIONS — PROMOTED ACTIVE (last reviewed 2026-05-10)
 
-At the end so the main workflow above is unchanged. Run on the next 3-5 stocks; promote into the main steps once they've earned it.
+**Status:** Validated through NCDEX, MSEI, ADOR. These steps are now binding for all research notes. Physical re-integration into the main step list is scheduled but cosmetic; content here is active framework.
+
+**Promoted from 2026-05-05:** Step 2.5, Step 6 checklist additions
+**New (added 2026-05-10):** Step 2.6, Step 6 checklist for premium-quality compounder pattern
 
 ### Step 2.5 — Segment & insider depth pull
 
