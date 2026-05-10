@@ -13,12 +13,15 @@
 
 ## Open (next session)
 
-- **MEIL research note** — Mangal Electrical Industries Ltd (BSE: 544492, NSE: MEIL). Transformer components / electrical capital goods. CMP ₹342, mcap ₹944 Cr, P/E 21.3, P/B 1.68, ROE 34.1%, ROCE 30.4%, 5y profit CAGR 74%. Source: https://www.screener.in/company/MEIL/. Initial read: high-quality returns at fair P/B; 5y profit CAGR 74% needs a sustainability check (base effect or genuine compounding?).
 - Triage rows for ATHERENERG, BHEL, NWIL, PATELSAI, SOUTHWEST, ZENTEC — rows already exist in index.html and now sync from CSV; each still needs a research note + grade + onclick handler. Currently linked: NWIL→INTEGRATEDIND.html (parent company).
 - Review whether to promote framework appendices into main phases (Phase 0.5, 4.5.3, 4.5.4 in CLAUDE.md; Step 2.5 in SKILL.md; market-label table in _TEMPLATE.md). Currently sitting as APPENDIX sections.
 - Review NESCO classification (tagged "Monitor · Exhibition+IT" in tracking section but holdings now show 20 shares — real position).
 - Review RAYMOND classification (still "Watch · Re-buy <₹380" in watch section; CSV shows 300 held).
 - Wire CMP refresh from Groww MCP into sync script (currently leaves CMP cell untouched, derives Δ/PL from existing CMP).
+
+### New research candidates (queued)
+
+- **MEIL** — Mangal Electrical Industries Ltd (BSE: 544492, NSE: MEIL). Transformer components / electrical capital goods. CMP ₹342, mcap ₹944 Cr, P/E 21.3, P/B 1.68, ROE 34.1%, ROCE 30.4%, 5y profit CAGR 74%. Source: https://www.screener.in/company/MEIL/. Initial read: high-quality returns at fair P/B; 5y profit CAGR 74% needs a sustainability check (base effect or genuine compounding?). Queued 2026-05-10.
 
 ---
 
