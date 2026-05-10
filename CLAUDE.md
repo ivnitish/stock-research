@@ -511,3 +511,69 @@ Three things to write down:
 3. **Label-change catalyst.** The specific event that flips consensus from their label to ours. Quarterly results showing X. Regulatory implementation date. Order book conversion. Margin print above Y. Without a concrete event, there's no re-rating mechanism, even if the business compounds correctly.
 
 If labels match (consensus is right about quality and direction), this is a quality compounder bet, not a re-rating bet — note this explicitly and adjust expected return accordingly. The compounding return is real; expect no multiple expansion.
+
+### Phase 0.6 — Distribution / capability density trigger (added 2026-05-10)
+
+A second multi-bagger trigger distinct from Phase 0.4's six. This one fires when the entry would look statistically expensive on trailing P/E.
+
+Observable conditions:
+
+- Dealer / distributor / outlet count compounding above 20% per year for 2+ years
+- Geographic territory expansion (bottling lines, retail stores, country footprint) at >15% per year
+- Mix-shift rate: specialty / premium / retail / export percentage of revenue rising at least 200bps per year for 3+ years
+- Capacity utilization rising past 75% with new CWIP visible on balance sheet
+
+This trigger is the leading indicator that revenue compounding will exceed what current P/E reflects. Examples: Astral 2014-2022 (dealer count + adhesives mix), KEI 2018-2024 (retail mix climb), Varun Beverages 2017-2024 (territory expansion).
+
+When this trigger fires, statistical cheapness on trailing earnings is not required for entry — but Phase 5's PEG-primary discipline must be applied (see Phase 5.6 below).
+
+### Phase 1.2.1 — Mix-shift compounding test
+
+Sits inside Phase 1.2 (Unit Economics).
+
+Single-track operating leverage means more units at the same margin. Mix-shift operating leverage means more units AND a richer mix simultaneously. The latter is structurally stronger.
+
+For any multi-segment or multi-SKU business, pull 5-year segment-level revenue mix and segment-level operating margin. Three valid states:
+
+1. **Mix shifting toward higher-margin segments at >200bps per year.** This is the strongest form. Garware specialty / commodity ratio, KEI retail / industrial, Cera premium / standard, Astral adhesives / pipes — all moved at this rate during their compounding phase.
+2. **Stable mix, scale-driven leverage only.** Single-track operating leverage. Compounds while utilization is rising; compresses or flatlines once utilization plateaus.
+3. **Mix shifting toward lower-margin segments.** Disqualifier. Even with revenue compounding, margins will compress. APL Apollo briefly hit this around 2019-20 when commodity tubes mix rose; was rescued by structural-segment recovery.
+
+Failure to disclose segment mix at all is itself a yellow flag — either the company doesn't track it, or it has reasons not to share.
+
+### Phase 5.6 — Forward PEG as primary tool when trailing is uninformative
+
+PEG already exists in Phase 5.4 as an "additional check." This section makes it the primary valuation tool in defined circumstances.
+
+Use forward PEG as primary, not P/E margin-of-safety, when ANY of the following holds:
+
+- Capex is currently absorbing operating margins (current OPM understates run-rate)
+- Mix shift is in early innings (<3 years into a multi-year shift; current revenue/margin not reflective of forward state)
+- Distribution density is still building (dealer/territory count compounding above 20%)
+- Single capex project pending commissioning that will materially change earnings power (Deepak Nitrite phenolics 2017-18, Astral capacity rounds 2014-16)
+
+Forward PEG calculation:
+
+```
+Forward PEG = Current P/E ÷ Expected forward 3-year EPS CAGR (%)
+
+PEG ≤ 1.0x: undervalued relative to forward growth — strong buy
+PEG 1.0-1.5x: fair to undervalued
+PEG 1.5-2.0x: full valuation; growth must materialise
+PEG > 2.0x: priced for perfection; kill
+```
+
+Forward EPS CAGR estimate must be defended with the physical mechanism (dealer count × revenue per dealer × margin trajectory) — not just management guidance or sell-side consensus.
+
+### Phase 4.5.5 — Kill signals for premium-quality compounders
+
+Distinct from Phase 4.5.3 (margin-through-stress) which applies to trough patterns. These apply when entry was justified via Phase 0.6 distribution-density trigger.
+
+Any one of these is a walk-away or active-position exit signal:
+
+- Distribution density growth rate slowing below 15% for 2 consecutive years
+- Mix-shift rate plateaued for 2+ years (specialty / premium / retail percentage flat)
+- Capacity utilization plateaued without new capex announced
+- Trailing PEG above 3x with forward EPS growth confirmed at sub-15%
+
+The general framework's "trailing P/E too high" bear case is not a kill signal for this pattern — it is the premise of the pattern. The kill signals here are about the rate of change, not the level.

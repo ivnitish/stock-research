@@ -245,3 +245,31 @@ Add to the existing checklist:
 - [ ] Pre-existing capability named: the specific physical thing (plant, license, certification, code, brand) already built that the thesis depends on
 - [ ] Market label written explicitly: what consensus calls this, what we call it, what flips the label
 - [ ] Kill signals checked (insider distribution, structural margin compression, active bear-case root cause, prior capex sub-10% ROIC, single-customer >40%, pledge >50%, audit qualification)
+
+### Step 2.6 — Distribution / capability density pull (added 2026-05-10)
+
+Required for any business where the thesis is forward-driven (capex absorbing margin, mix shift in early innings, distribution still building) — i.e., any candidate for the Phase 0.6 trigger.
+
+Three additional fetches:
+
+1. **Investor presentations, latest 4 quarters.** Look specifically for:
+   - Dealer / distributor / outlet count (Astral, Cera, KEI report this)
+   - Geographic territory or store count (Varun Beverages bottling lines, retail businesses)
+   - Capacity utilization percentage and CWIP details
+2. **Segment mix percentage, 5 years.** From AR segment notes — specialty/commodity, premium/standard, retail/institutional, export/domestic. Compute year-over-year change in basis points.
+3. **Capex commissioning timeline.** From concall transcripts — when does CWIP convert to operating capacity, and what is the expected ROIC on the deployed capital based on prior cycles.
+
+Compute three rates:
+- Distribution density growth rate (YoY % change)
+- Mix-shift rate (bps per year for last 3 years)
+- Capacity utilization trajectory (rising / plateaued / declining)
+
+Record in the research log. If any rate is below the Phase 4.5.5 kill signal threshold, flag immediately.
+
+### Step 6 checklist — additions for premium-quality compounder pattern
+
+- [ ] Distribution density growth rate computed (>20% / 15-20% / <15% / declining)
+- [ ] Mix-shift rate computed in basis points per year (>200bps / 100-200bps / <100bps / flat or reversing)
+- [ ] Capacity utilization current % + CWIP trajectory noted
+- [ ] If trailing P/E uninformative, forward PEG computed with defended forward EPS CAGR
+- [ ] Phase 4.5.5 kill signals checked

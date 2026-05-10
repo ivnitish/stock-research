@@ -284,3 +284,50 @@ Action threshold (calibrate as more cases are studied):
 Universals are necessary. Supporting patterns confirm. A stock matching only 6-10 without 1-5 is a quality business but not a multi-bagger setup.
 
 Scope caveat: these patterns came from five Indian mid- and small-cap consumer and financial businesses. The weights probably shift for commodities (margin behaviour means something different), pure tech (capex cycles work differently), regulated PSUs (capital allocation is constrained), or US/international markets (organized penetration is mostly already done).
+
+---
+
+## APPENDIX 2 — "Quality re-rates ahead of earnings" pattern (added 2026-05-10)
+
+The original 8 patterns were synthesised from 5 trough-pattern studies — buying at extreme pessimism, statistical cheapness present, bear case right about symptom and wrong about root cause. This appendix names a different path observed across 8 Indian multi-baggers (Astral, KEI Industries, Varun Beverages, Deepak Nitrite, APL Apollo, Garware Hi-Tech, Fine Organic, Cera). The common thread: each one looked statistically expensive almost the entire compounding phase, and the market re-rated ahead of reported earnings catching up.
+
+### What the pattern looks like
+
+The setup at the entry window does not show statistical cheapness. Trailing P/E is 30-50x. Trailing P/B is 5-15x. The conventional margin-of-safety check fails. What is visible instead:
+
+- A specific forward indicator compounding faster than headline revenue. Astral's dealer count adding continuously through 2014-2022 ahead of revenue (₹700-800 Cr → ₹5,500+ Cr). KEI's retail-channel revenue percentage rising sharply against the industrial cables base. Varun Beverages' bottling territory count expanding geographically year by year. Deepak Nitrite's phenolics CWIP sitting on the balance sheet for 2-3 years before the PAT inflection from ~₹150 Cr to ~₹1,000+ Cr. Cera's dealer expansion compounding continuously through the 2010-2018 run.
+- A mix shift toward higher-margin segments at a measurable rate. Garware's specialty films (Sun Control, paint protection) replacing commodity packaging in the same factories. KEI's retail-vs-industrial mix. Cera's premium-vs-standard SKU mix. Astral's adhesives via the ResiQuick acquisition layered on top of pipes.
+- Operating leverage materialising as both revenue growth and margin expansion simultaneously. Single-track operating leverage (more units, same margin) is weaker than mix-shift operating leverage (more units AND richer mix). The latter is the engine here.
+
+### What earnings do over the compounding phase
+
+Earnings caught up to forward indicators with a 2-3 year lag, then accelerated. Trailing P/E that "always looked expensive" stayed at 30-50x because EPS growth ran 30-40% annually for years — the multiple held while the denominator compounded. PEG was the relevant valuation tool, not P/E. Astral compounded EPS roughly 30% annually 2014-2022 while keeping P/E at 40-50x. Varun's earnings grew faster than its multiple expanded. KEI re-rated from ~25x to ~50x while EPS roughly tripled.
+
+### Discriminator from "expensive that didn't work"
+
+Every example here worked. But Asian Paints 2021-2025, HUL 2020-2024, and Bata 2019-2022 looked like the same pattern at the start and delivered single-digit returns or worse — multiple compressed when growth slowed. The discriminator is not trailing P/E. It is the **rate of change** of the forward indicator. Astral was still adding dealers in 2022. Asian Paints' dealer expansion had matured by 2021 and the incremental dealer was diminishing in productivity. KEI's retail mix was still climbing in 2024. Bata's premium-mix shift had already happened.
+
+The pattern is identifiable by checking three rate-of-change metrics, not levels:
+
+1. Distribution density growth rate (dealers, territories, SKUs). Accelerating, holding above 20%, between 15-20%, or below 15%.
+2. Mix-shift rate. Specialty / premium / retail percentage of revenue moving year-over-year. Still climbing, plateaued for 1 year, plateaued for 2+ years.
+3. Capacity utilization trajectory. Still building capacity (CWIP rising), commissioning (CWIP converting), or plateaued (capex equal to depreciation, no expansion plan disclosed).
+
+When any of these slow into the "below 15%" or "plateaued for 2+ years" or "no expansion plan" zone, the multiple-compression risk activates.
+
+### What the bear case sounds like at the entry
+
+The bear case at entry for the 8 examples was almost identical: "trailing P/E too high, look at peers." This is the same bear case Asian Paints, HUL, and Bata bears used at their tops. The difference is whether the pattern's three rate-of-change metrics confirm the runway is still active or signal it is closing.
+
+The framework hook this appendix calls for is in Phase 0.4 (named distribution density trigger), Phase 1.2 (named mix-shift compounding test), and Phase 5 (forward PEG as primary tool when trailing is uninformative, with kill signals for the rate slowing).
+
+### Kill signals specific to this pattern
+
+Distinct from the kill signals listed earlier, which apply mostly to trough-pattern stocks. For premium-quality compounders, any one of the following is a walk-away or an exit signal mid-position:
+
+- Distribution density growth rate slowing below 15% for 2 consecutive years
+- Mix-shift rate plateaued for 2+ years (specialty / premium / retail percentage flat)
+- Capacity utilization plateaued without new capex announced — same plant runs at the same throughput, no CWIP rising
+- Trailing PEG above 3x with forward EPS growth confirmed by management at sub-15%
+
+Trailing P/E alone is not on this list. A 50x trailing P/E with 35% confirmed forward earnings growth is fine. A 25x trailing P/E with 5% growth and a flat mix is the trap.
