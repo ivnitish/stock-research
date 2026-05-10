@@ -1,16 +1,21 @@
 # Swiggy Ltd (SWIGGY.NS) — Investment Thesis
 
-**Status:** OWNED (IPO entry ~₹390, current ₹281, **-28% from IPO / -48% P&L**)
+**Status:** OWNED — 49 sh @ avg ₹565.23 | CMP ₹270.30 | **P&L −₹14,452 (−52%)** (per portfolio.csv + broker statement 02-May-2026)
 **Quality Score:** 10/25 (Grade C: Watch — Turnaround Required)
-**Last Updated:** 2026-03-12
-**Data Source:** Screener.in + yfinance
+**Last Updated:** 2026-05-10
+**Data Source:** Screener.in + yfinance + broker holdings statement 02-May-2026
+
+> **Decision:** Apr 9, 2026 the call was EXIT — not executed. At CMP ₹270 the position is sitting on a 52% loss.
+> **Recommendation: EXIT and harvest the ~₹14.5K capital loss** to offset gains from winners (ICICIAMC, Raymond,
+> GRSE). Grade C, #2 in every segment it operates, no high-conviction thesis. If holding through to Q1 FY27,
+> set a hard review at the next earnings print — if path-to-EBITDA-breakeven slips again, exit regardless.
 
 ---
 ## Quick Summary
 
 **One-line thesis:** India's #2 food delivery and quick commerce platform — a loss-making turnaround bet where margin improvement (-22% → -13% OPM in 3 quarters) points toward break-even in Dec 2026–Mar 2027, but the #2 position in every market it operates in is a structural concern.
 
-**Action:** WEAK HOLD
+**Action:** EXIT — harvest loss, redeploy
 
 | Level | Price | Trigger |
 |-------|-------|---------|

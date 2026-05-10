@@ -1,16 +1,24 @@
 # Artemis Medicare Services (ARTEMISMED.NS) — Investment Thesis
 
-**Status:** OWNED (181 shares, ₹44,499 invested, 4.4% of portfolio)
-**Quality Score:** 15/25 (Grade C: Low Conviction)
-**Last Updated:** 2026-03-11
-**Data Source:** Screener.in (consolidated)
+**Status:** OWNED — 362 sh @ avg ₹236.67 | CMP ₹244.13 | **P&L +₹2,701 (+3%)** | ~7.4% of portfolio (per portfolio.csv + broker statement 02-May-2026)
+**Quality Score:** 15/25 (Grade C: Low Conviction) — **note:** index.html shows Grade B 16/25; needs reconciliation
+**Last Updated:** 2026-05-10
+**Data Source:** Screener.in (consolidated) + broker holdings statement 02-May-2026
+
+> **Decision:** Position has doubled in size (181 → 362 sh) since the original Mar 2026 thesis was written.
+> At 7.4% of portfolio it is materially oversized for a Grade C single-hospital play with no meaningful moat
+> vs Medanta/Max/Apollo. **Recommendation: TRIM to 2-3% of portfolio (~100-150 sh).** Selling ~200-260 sh at
+> CMP ₹244 realises ~₹49-63K against an essentially flat cost basis, freeing ~5% of portfolio capital for
+> higher-conviction names. The VIMHANS expansion catalyst is still the only upside; no earnings inflection
+> visible yet. Don't sell the whole thing — keep a tracking position to follow the catalyst — but don't
+> carry 7% portfolio weight on a Grade C either.
 
 ---
 ## Quick Summary
 
 **One-line thesis:** Single-hospital NCR operator at 37x P/E pricing in 33% FCF CAGR — both valuation models show 35–64% overvaluation even in base case, with no meaningful moat vs Medanta/Max/Apollo in the same geography; the VIMHANS expansion is the only catalyst.
 
-**Action:** HOLD — consider trimming to 2–3%
+**Action:** TRIM to 2-3% of portfolio
 
 | Level | Price | Trigger |
 |-------|-------|---------|

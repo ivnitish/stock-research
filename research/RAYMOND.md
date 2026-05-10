@@ -1,19 +1,21 @@
 # Raymond Ltd — Engineering (RAYMOND) — Investment Thesis
 
-**Status:** EXITED (sold full 150 shares post 2026-04-09 exit decision; not in current portfolio)
+**Status:** HOLD — 300 shares at avg ₹364.37 (re-entered after the April exit, position now +41.6% at CMP ₹516)
 **Quality Score:** 17/25 (Grade B)
-**Classification:** Fairly Valued at CMP — Watchlist (Quality B, but post-rally asymmetry collapsed)
-**Last Updated:** 2026-04-27 | **CMP:** ₹461 (+25.6% from ₹367 on 2026-04-09 exit) | **Avg Entry:** ₹368.75 | **Decision: AVOID re-entry above ₹400**
-**Data Source:** Screener.in (consolidated 2026-04-27), Q3 FY26 concall, BSE filings (latest: 2026-04-22 newspaper publication; Q4 FY26 results pending — board meeting awaited)
+**Classification:** Quality Compounder — Hold; thesis intact, AP plant catalyst 12 months out
+**Last Updated:** 2026-05-09 | **CMP:** ₹516 | **Avg Entry:** ₹364.37 | **Position P&L:** +₹45,489 (+41.6%) | **Decision: HOLD; do not add at CMP, do not trim**
+**Data Source:** Q4 FY26 audited results (BSE filing 2026-05-05), portfolio.csv (300 shares), Screener.in (2026-05-09), Q3 FY26 concall
 
-> **Recommendation:** AVOID re-entry at CMP ₹461. Position size: 0%. Watchlist target: re-buy below ₹380
-> (asymmetry returns to >2x). The April 9 EXIT call (made at ₹367) is now vindicated by the +25.6% rally —
-> capital that was redeployed to NEWGEN earned this gap as alpha, not opportunity cost. At ₹461 the base
-> case fair value of ₹530 gives only +15% upside versus a bear-case downside of ~48% to the ₹240 distress
-> floor — asymmetry ratio 0.31x, well below the 1.5x minimum for Grade B. The thesis (LEAP supercycle,
-> 65% market share per part, ₹6,500 Cr+ order book, AP plant May 2027) is intact and unchanged — only the
-> price has run ahead of it. Re-entry trigger: CMP <₹380 OR Q4 FY26 results showing aerospace >₹110 Cr
-> with margin recovery >20%, whichever comes first.
+> **Recommendation:** HOLD 300 shares. Do not add at ₹516; do not trim either. Q4 FY26 (May 5) gave a partial
+> green light — aerospace revenue ₹119.4 Cr cleared the ₹110 Cr threshold (✅), PBIT snapped back from Q3's 9%
+> trough to 17.45% (margin trigger of 20% missed by 2.55pp, but trajectory is right). FY26 full-year aerospace
+> ₹392 Cr revenue (+26% YoY), PBIT ₹49 Cr (+51%), 12.4% margin — the supercycle thesis is compounding ahead
+> of the conservative 22% base-case revenue assumption. AP plant capex visible in CWIP (₹5 Cr → ₹38 Cr); May
+> 2027 commissioning still on track per Q3 concall. **For the existing 300-share position the call is HOLD —**
+> 12 months to the AP plant catalyst, Quality B with structural moats, position already +42%. Adding at ₹516
+> doesn't make sense (asymmetry from CMP is ~+15-25% to base/bull vs ~-20% to a realistic ₹420 bear) but neither
+> does trimming a working thesis 12 months before the main re-rating catalyst. Add zone: ₹400-450 if it
+> retraces. Trim zone: ₹620+ before AP plant commissions, OR if Q1/Q2 FY27 aero margins fail to sustain ≥15%.
 
 ---
 

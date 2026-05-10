@@ -37,7 +37,74 @@ strong{color:#111827;}
 </style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
 <details id="toc" class="no-print"><summary>Jump to section</summary></details>
 <h1 id="research-system-todo">Research System — TODO</h1>
-<p><em>Last updated: 2026-05-02</em></p>
+<p><em>Last updated: 2026-05-09</em></p>
+
+<hr>
+
+<h2 id="completed-2026-05-09">✅ Completed — 2026-05-09</h2>
+
+<ul>
+<li><strong>NCDEX pre-IPO watch note</strong> — <code>research/NCDEX.md</code>. Grade D 8/25, status UNLISTED / PRE-IPO WATCH. FY25 op revenue ₹88 Cr (4-yr decline), unlisted ₹378-384, mcap ₹3,444 Cr, P/B 4.6x. Daily turnover collapsed from ₹2,310 Cr to ₹300-400 Cr after Dec 2021 SEBI ban on 7 agri contracts. ₹770 Cr fresh capital raised; equity & MF approvals received but not built. Recommendation: Avoid IPO, watch ban-lift.</li>
+<li><strong>MSEI pre-IPO watch note</strong> — <code>research/MSEI.md</code>. Grade D 9/25, status UNLISTED / PRE-IPO WATCH. FY25 revenue ₹17.4 Cr / op revenue ₹5.4 Cr, net loss ₹34.2 Cr, ₹1,240 Cr recapitalization (Peak XV / Rainmatter / Billionbrains / Share India / Jainam / Monarch / Trust). Unlisted ₹6, mcap ₹6,688 Cr, P/B 22.7x. LES launched Jan 27, 2026 covering 130 stocks (₹40 lakh/month/MM, runs through Jun 30, 2026). Recommendation: Watch until daily turnover sustains >₹100 Cr equity cash for 2 months.</li>
+<li><strong>ADOR research note</strong> — <code>research/ADOR.md</code>. Grade B 16/25, Tracking position. CMP ₹1,078, mcap ₹1,877 Cr, P/E 22.3x, P/B 3.37x. FY26 PAT ₹82 Cr (+37%) on revenue ₹1,140 Cr (flat). Margin recovery story — Q1 -2% OPM → Q4 14.79% OPM (PAT +89% YoY). Capex visible (FA ₹117 Cr → ₹204 Cr) but topline decoupled — needs FY27-28 absorption. Promoter -3.14% in FY25 = Pattern 10 yellow flag. Add criteria: 2 of 3 (promoter stable, OPM ≥13% × 2Q, revenue YoY ≥10% × 2Q).</li>
+<li><strong>Framework appendices added</strong> — Voice-compliant additions to <code>learnings/multibagger_patterns.md</code> (Pattern 9 margins-through-trough, Pattern 10 no-insider-distribution-at-bottom, kill signals), <code>CLAUDE.md</code> (Phase 0.5 Pre-existing capability, Phase 4.5.3 Margin behaviour through stress, Phase 4.5.4 Market label vs reality), <code>SKILL.md</code> (Step 2.5 Segment & insider depth pull, Step 6 checklist additions), <code>_TEMPLATE.md</code> (Universal market-label-vs-reality table). Appended as APPENDIX sections to preserve current flow; promote to main phases after they've earned their place.</li>
+<li><strong>Task #8 — Holdings table wired to portfolio.csv</strong> — <code>src/sync_holdings_from_csv.py</code>. Reads <code>data/portfolio.csv</code> as source of truth, updates qty/avg/invested + derived (Δ/share, current, P&L abs/%) on existing index.html stock rows by onclick handler. Right-to-left position-based replacement so identical "—" cells don't collide. Idempotent. Reports CSV symbols missing HTML rows (6: ATHERENERG, BHEL, NWIL, PATELSAI, SOUTHWEST, ZENTEC). Notable corrections applied: EPACKPEB 751 → 1,451; ARTEMISMED 181 → 362; RAYMOND "0 (exited)" → 300 (re-entered); NESCO 1 → 20.</li>
+</ul>
+
+<h2 id="open-next-session">Open (next session)</h2>
+
+<ul>
+<li>Triage rows for ATHERENERG, BHEL, NWIL, PATELSAI, SOUTHWEST, ZENTEC — rows already exist in index.html and now sync from CSV; each still needs a research note + grade + onclick handler. Currently linked: NWIL→INTEGRATEDIND.html (parent company).</li>
+<li>Review whether to promote framework appendices into main phases (Phase 0.5, 4.5.3, 4.5.4 in CLAUDE.md; Step 2.5 in SKILL.md; market-label table in _TEMPLATE.md). Currently sitting as APPENDIX sections.</li>
+<li>Review NESCO classification (tagged "Monitor · Exhibition+IT" in tracking section but holdings now show 20 shares — real position).</li>
+<li>Review RAYMOND classification (still "Watch · Re-buy <₹380" in watch section; CSV shows 300 held).</li>
+<li>Wire CMP refresh from Groww MCP into sync script (currently leaves CMP cell untouched, derives Δ/PL from existing CMP).</li>
+</ul>
+
+<h3 id="new-research-candidates-queued">New research candidates (queued)</h3>
+
+<ul>
+<li><strong>MEIL</strong> — Mangal Electrical Industries Ltd (BSE: 544492, NSE: MEIL). Transformer components / electrical capital goods. CMP ₹342, mcap ₹944 Cr, P/E 21.3, P/B 1.68, ROE 34.1%, ROCE 30.4%, 5y profit CAGR 74%. Source: https://www.screener.in/company/MEIL/. Initial read: high-quality returns at fair P/B; 5y profit CAGR 74% needs a sustainability check (base effect or genuine compounding?). Queued 2026-05-10.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-05-04">✅ Completed — 2026-05-04</h2>
+
+<ul>
+<li><strong>Multi-bagger pattern study series complete (4 new studies):</strong></li>
+<li style="margin-left:20px"><code>research/learnings/multibagger_BAF.md</code> — Bajaj Finance (2010-11 bottom, ~100x). Consumer NBFC pivot thesis: Rajeev Jain from GE/AmEx + Nanoo Pamnani advisory, 12% NPA root cause fixed (600-borrower-profile underwriting), zero-cost EMI generating 20-25% internal yield hidden below headline P&L, India credit-to-GDP secular tailwind. PAT CAGR 35% sustained over 12 years.</li>
+<li style="margin-left:20px"><code>research/learnings/multibagger_TITAN.md</code> — Titan Company (2002-03 bottom, ~150x). Tanishq segment growing 29% to ₹345 Cr with positive PBIT, buried under consolidated -55% PAT. 18-carat failure already replaced by 22-carat + Karatmeter model by 2000; market still pricing the old failure in 2002-03. Jhunjhunwala entry at ₹3-6. Organized jewelry at 6% of ₹45,000 Cr TAM.</li>
+<li style="margin-left:20px"><code>research/learnings/multibagger_PAGE.md</code> — Page Industries (2008-09 bottom, ~80x). Stock -50% while EPS +80% in same year. Exclusive 50-year Jockey license renewed in 2008. Genomal family 50-year Philippines track record. 65% unbranded innerwear market. ROE 35-40% through the crisis, OPM stable at 20-21%.</li>
+<li style="margin-left:20px"><code>research/learnings/multibagger_APLAPOLLO.md</code> — APL Apollo Tubes (2014-15 bottom, ~30x). #1 organized player (55% structural hollow sections) in 50%-unorganized market. ₹250 Cr capex cycle causing flat PAT despite 42% revenue growth — market read as no earnings power; FY2017 showed 184% PAT jump. GST (2017) eliminated unorganized tax-evasion cost advantage.</li>
+<li><strong>Pattern synthesis complete:</strong> <code>research/learnings/multibagger_patterns.md</code> — 8 patterns, all with 4+/5 occurrence rate. Top 5 (universal, 5/5): underpenetrated TAM, first-mover position, price-business disconnect, bear case right about symptom wrong about root cause, structural regulatory tailwind. Plus 3 at 4/5: segment masking, domain-specific management prior, adequate balance sheet.</li>
+<li><strong>Framework distillation (Block C):</strong></li>
+<li style="margin-left:20px"><code>CLAUDE.md</code> Phase 0.4: Added "Consolidation Trigger" (organized share <40% + pending regulatory equalizer) and "Price-Business Disconnect" as named triggers</li>
+<li style="margin-left:20px"><code>CLAUDE.md</code> Phase 1.1: Added segment-level ROIC rule — always compute organized-only market share + segment revenue CAGR separately from consolidated</li>
+<li style="margin-left:20px"><code>CLAUDE.md</code> Phase 4.3→4.4: Added Phase 4.4 "Domain-Specific Prior Track Record" — prior domain expertise in same business/geography is stronger predictor than current company results</li>
+<li style="margin-left:20px"><code>SKILL.md</code> Step 6: Added Multi-Bagger Pattern checklist (6 new items: organized share sub-segment, regulatory equalizer, segment CAGR, bear case root cause test, capex cycle ROIC verification, operator domain experience)</li>
+<li style="margin-left:20px"><code>_TEMPLATE.md</code> Stress Test section: Added "What was true at the bottom" table for turnaround/inflection theses — forces separation of what market is pricing vs what segment data shows vs whether root cause is still present</li>
+<li><strong>Index.html:</strong> Added 6 rows (MULTIBAGGER patterns doc + 5 study rows: BSE, BAF, TITAN, PAGE, APL)</li>
+</ul>
+
+<h2 id="open-next-session">Open (next session)</h2>
+
+<ul>
+<li>NCDEX research note (Block F)</li>
+<li>Metropolitan Stock Exchange (MSE) research note (Block F)</li>
+<li>Ador Welding research note — screener.in/company/ADOR (Block F)</li>
+<li>Wire index.html holdings table to data/portfolio.csv (Task #8 — Block D)</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-05-03">✅ Completed — 2026-05-03</h2>
+
+<ul>
+<li><strong>Holdings refresh</strong> — <code>data/portfolio.csv</code> updated from Groww broker export (03-May-2026). STLNETWORK: 1500 shares → 1 share (sold down to tracking stub)</li>
+<li><strong>index.html STLNETWORK row</strong> updated to "Exited 02-May-26 (1-share stub)"</li>
+<li><strong>BSE multi-bagger study</strong> — <code>research/learnings/multibagger_BSE.md</code>. ~119x return. Pattern: fortress balance sheet + dormant SME platform + latent derivatives optionality priced at zero.</li>
+</ul>
 
 <hr>
 

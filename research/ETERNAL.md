@@ -1,16 +1,22 @@
 # Eternal Ltd — formerly Zomato (ETERNAL.NS) — Investment Thesis
 
-**Status:** OWNED (entry ~₹330 avg, current ₹221, **-33% P&L**)
+**Status:** OWNED — 98 sh @ avg ₹337.35 | CMP ₹247.03 | **P&L −₹8,851 (−27%)** (per portfolio.csv + broker statement 02-May-2026)
 **Quality Score:** 15/25 (Grade B: Moderate — hold, don't add)
-**Last Updated:** 2026-03-12
-**Data Source:** Screener.in + yfinance
+**Last Updated:** 2026-05-10
+**Data Source:** Screener.in + yfinance + broker holdings statement 02-May-2026
+
+> **Decision:** Apr 9, 2026 the call was "Exit on rally above ₹260" — CMP ₹247 sits below that trigger.
+> **Recommendation: HOLD until ₹260+ rally, then trim/exit.** Position is −27%. The Blinkit moat is real
+> but P/E stays elevated and quarterly PAT keeps compressing as Blinkit absorbs capex. Don't add. If price
+> stays below ₹260 through Q1 FY27 print, re-evaluate as a tax-loss-harvest candidate. The thesis isn't
+> structurally broken — Blinkit is genuinely scaling — but the margin of safety isn't there at this valuation.
 
 ---
 ## Quick Summary
 
 **One-line thesis:** India's dominant food-tech platform with a real Blinkit quick commerce moat being built — but at P/E 884x with quarterly profits declining (₹253 Cr → ₹39 Cr) as Blinkit expansion burns cash, the base case fair value is essentially the current price with no margin of safety.
 
-**Action:** HOLD — do not add
+**Action:** HOLD until rally to ₹260, then trim/exit
 
 | Level | Price | Trigger |
 |-------|-------|---------|

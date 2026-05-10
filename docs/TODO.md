@@ -1,5 +1,35 @@
 # Research System — TODO
-*Last updated: 2026-05-09*
+*Last updated: 2026-05-10*
+
+---
+
+## ✅ Completed — 2026-05-10
+
+- **Q4 FY26 results sweep** — fetched and analysed for RAYMOND, NEWGEN, GRSE, EPACKPEB (not yet filed), LIFE/Ethos.
+  - RAYMOND: aerospace ₹119.4 Cr revenue cleared ₹110 Cr trigger; PBIT margin 17.45% (missed 20% bar by 2.55pp). FY26 aero ₹392 Cr (+26%), PBIT ₹49 Cr (+51%). Net debt has reappeared (~₹360 Cr) as AP plant capex begins to bite.
+  - NEWGEN: FY26 revenue ₹1,574 Cr (+6%), PAT ₹301 Cr, EPS ₹21.38. Subscription +24% (SaaS +36%); US +20%; India/EMEA license deals delayed.
+  - GRSE: FY26 revenue ₹7,002 Cr (+38%), PAT ₹748 Cr (+42%), EBITDA margin 15.3%. ₹520 Cr revenue + ₹63 Cr PBT from P-17A true-up (underlying revenue ~₹6,482 Cr +28%).
+  - LIFE/Ethos: Q1 2026 revenue $193M (+104% YoY) blew out; stock at $30 vs $8-10 buy zone — dip thesis dead unless lock-up unloading creates real selling.
+  - EPACKPEB: Q4 not filed yet (board meeting pending). Mambattu Phase II commercial production from Apr 29 → Q1 FY27 impact.
+- **Portfolio reality fix — research file `Status:` headers refreshed** to match `data/portfolio.csv`:
+  - RAYMOND — was "EXITED"; now HOLD 300 sh @ ₹364.37, +42% (CMP ~₹516). Decision: HOLD; add zone ₹400-450; trim zone ₹620+.
+  - SWIGGY — was "OWNED IPO entry"; now HOLD 49 sh @ ₹565, −52%. Decision: EXIT and harvest ~₹14.5K capital loss.
+  - ETERNAL — was stale entry/CMP; now HOLD 98 sh @ ₹337, −27%. Decision: HOLD until ₹260+ rally then trim/exit.
+  - GRSE — was WATCHLIST + EXIT call; now HOLD 26 sh @ ₹2,267, +29%. Decision: HOLD; trim half above ₹3,000 if NGC contract remains unsigned.
+  - ARTEMISMED — was OWNED 181 sh; now HOLD 362 sh @ ₹236.67, +3%. Position is 7.4% of portfolio. Decision: TRIM to 2-3%.
+- **index.html structural fixes:**
+  - RAYMOND moved from `data-section="watch india"` → `"grade-b india"` (held). Action tag: "Watch · Re-buy <₹380" → "Hold · add ₹400-450".
+  - GRSE duplicate watchlist row removed (was double-listed at line 1484). Action tag updated: "Hold · add at ₹1,800-2,000" → "Hold · trim above ₹3,000 if NGC unsigned".
+  - SWIGGY action tag updated: "Weak Hold — Q4" → "Exit · harvest loss".
+- **Memory saved** — `feedback_check_portfolio_first.md` — always read `data/portfolio.csv` before framing any stock recommendation; existing positions are HOLD/ADD/TRIM decisions, not "re-enter" decisions; lean into TRACKING POSITION calls per framework matrix instead of defaulting to WATCHLIST/AVOID.
+
+## Open (next session)
+
+- **Build `src/refresh_portfolio.py`** — single command that reads latest broker export from `data/broker-exports/`, joins with portfolio.csv, generates portfolio snapshot table, refreshes CMP cells in index.html. Currently sync_holdings_from_csv.py only updates qty/avg/invested — leaves CMP cells untouched. Wire CMP refresh in.
+- Decide on the SWIGGY exit (book loss) and ARTEMISMED trim (sell ~200-260 sh). Both need user execution; not autonomous.
+- ETERNAL — set price alert at ₹260 to trigger exit-on-rally action.
+- Watch GRSE May 8 concall transcript (not yet posted to BSE) for: NGC contract status, FY27 revenue guidance, FY28 P-17A delivery gap mitigation.
+- ARTEMISMED Quality Score reconciliation — research file says 15/25 Grade C; index.html says B 16/25. Pick one and update the other.
 
 ---
 

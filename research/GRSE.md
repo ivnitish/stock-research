@@ -1,17 +1,22 @@
 # Garden Reach Shipbuilders & Engineers Ltd (GRSE) — Investment Thesis
 
-**Status:** WATCHLIST
+**Status:** OWNED — 26 sh @ avg ₹2,267.42 | CMP ₹2,930.80 | **P&L +₹17,248 (+29%)** (per portfolio.csv + broker statement 02-May-2026)
 **Quality Score:** 17/25 (Grade B: Good Business)
-**Classification:** Fairly Valued (Quality B + base case ~1.1x at CMP; need correction or export catalyst for multi-bagger entry)
-**Last Updated:** 2026-04-09 | **CMP:** ₹2,525 | **Decision: EXIT** (base case ₹2,459 < CMP)
-**Data Source:** Screener.in (consolidated), Q3 FY26 earnings call
+**Classification:** Fairly Valued — trades 19% above base case ₹2,459 after Q4 FY26 strength
+**Last Updated:** 2026-05-10 | **CMP:** ₹2,931 | **Decision: HOLD; trim half above ₹3,000 if NGC unsigned**
+**Data Source:** Screener.in + Q4 FY26 audited results (BSE 28-Apr-2026) + Q3 FY26 earnings call
 
-> **Recommendation:** WATCHLIST — wait for correction to ₹1,800-2,000 (30-32x TTM P/E) or export
-> catalyst. GRSE compounds at 25%+ PAT CAGR on sovereign-mandated naval orders (4.5-5x revenue
-> coverage) with 37% ROCE powered by negative working capital — the Navy funds GRSE's operations,
-> not the other way around. At ₹2,296 (38x PE), the market implies exactly 25% growth, leaving zero
-> margin of safety; base DCF fair value is ₹2,459. Key condition: NGC contract (₹33,000 Cr) must
-> be signed to extend order book visibility to 7-8x revenue.
+> **Recommendation:** HOLD the 26-share position. Apr 9 EXIT call was not executed — stock has rallied +21%
+> since (₹2,525 → ₹2,931). Q4 FY26 was strong: FY26 revenue ₹7,002 Cr (+38%), PAT ₹748 Cr (+42%), EBITDA
+> margin step-up to 15.3%. Note: ₹520 Cr of FY26 revenue and ₹63 Cr of PBT come from a P-17A/ASWSWC/NGOPV
+> cost-to-completion true-up — underlying revenue ~₹6,482 Cr (+28% ex-true-up). The headline beat is real
+> but partially flattered.
+>
+> **Why not exit at +29%?** The NGC contract (₹33,000 Cr, 5 corvettes) and first export warship G-to-G deal
+> are both pending — either confirms order book visibility to 7-8x revenue and would re-rate base case to
+> ₹3,500+. The May 8 concall is the next checkpoint. **Trim half (13 sh) above ₹3,000 if NGC remains
+> unsigned 60 days post-FY26 results.** Hold the rest pending the contract. Re-buy zone if it corrects:
+> ₹2,200-2,400.
 
 ---
 
