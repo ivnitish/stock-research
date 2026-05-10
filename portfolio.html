@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Portfolio · Stock Research</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #f8fafc; color: #1a1a2e; }
+  header { background: linear-gradient(135deg, #1a1a2e 0%, #2d3055 100%); color: #fff; padding: 18px 22px; }
+  header .top { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 12px; max-width: 1280px; margin: 0 auto; }
+  header h1 { font-size: 1.4rem; font-weight: 700; }
+  header p { color: #94a3b8; font-size: 0.85rem; margin-top: 4px; }
+  .nav-links a { color: #93c5fd; text-decoration: none; font-size: 0.88rem; margin-left: 8px; padding: 6px 12px; border: 1px solid rgba(147,197,253,0.3); border-radius: 6px; }
+  .nav-links a:hover { background: rgba(147,197,253,0.1); }
+  .container { max-width: 1280px; margin: 22px auto; padding: 0 22px; }
+  .snapshot { background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 22px 26px; margin-bottom: 22px; }
+  .snapshot h2 { font-size: 1.05rem; font-weight: 700; margin-bottom: 14px; color: #1a1a2e; }
+  .snapshot-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 20px; }
+  .stat-label { color: #64748b; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 5px; }
+  .stat-value { font-size: 1.18rem; font-weight: 700; }
+  table { width: 100%; background: #fff; border-collapse: collapse; border-radius: 10px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+  th { background: #f1f5f9; color: #475569; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; padding: 12px 10px; border-bottom: 2px solid #e2e8f0; text-align: left; }
+  td { padding: 11px 10px; font-size: 0.88rem; border-bottom: 1px solid #f1f5f9; font-variant-numeric: tabular-nums; }
+  th.num, td.num { text-align: right; }
+  tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: #f8fafc; }
+  .totals-row td { background: #f1f5f9; font-weight: 700; border-top: 2px solid #cbd5e1; padding: 14px 10px; font-size: 0.92rem; }
+  .footer { color: #94a3b8; font-size: 0.76rem; text-align: center; margin: 28px 0 22px; line-height: 1.6; }
+  .footer code { background: #f1f5f9; padding: 2px 6px; border-radius: 3px; font-size: 0.85em; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="top">
+    <div>
+      <h1>📊 Portfolio</h1>
+      <p>23 holdings · as of 02-05-2026 (broker close)</p>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">🔍 Research Catalog</a>
+      <a href="DECISION_LOG.html">📋 Decisions</a>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="snapshot">
+    <h2>Snapshot</h2>
+    <div class="snapshot-grid">
+      <div>
+        <div class="stat-label">Invested</div>
+        <div class="stat-value">₹11.62L</div>
+      </div>
+      <div>
+        <div class="stat-label">Current</div>
+        <div class="stat-value">₹12.62L</div>
+      </div>
+      <div>
+        <div class="stat-label">Unrealised P&amp;L</div>
+        <div class="stat-value" style="color:#166534">+₹99.50K (+8.56%)</div>
+      </div>
+      <div>
+        <div class="stat-label">Expected 3yr CAGR</div>
+        <div class="stat-value" style="color:#1e40af">+18.3% <span style="font-size:0.74rem;font-weight:500;color:#94a3b8">(97% coverage)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Symbol</th>
+        <th class="num">Qty</th>
+        <th class="num">Avg</th>
+        <th class="num">CMP</th>
+        <th class="num">Invested</th>
+        <th class="num">Current</th>
+        <th class="num">P&amp;L</th>
+        <th class="num">P&amp;L %</th>
+        <th class="num">Wt %</th>
+        <th class="num">Target</th>
+        <th class="num">Exp 3y CAGR</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr onclick="window.location.href='EPACKPEB.html'" style="cursor:pointer">
+          <td><b>EPACKPEB</b></td>
+          <td class="num">1,451</td>
+          <td class="num">₹183.99</td>
+          <td class="num" style="font-weight:600">₹200.22</td>
+          <td class="num">₹267.0K</td>
+          <td class="num" style="font-weight:600">₹290.5K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹23.5K</td>
+          <td class="num" style="font-weight:600;color:#166534">+8.8%</td>
+          <td class="num">23.0%</td>
+          <td class="num">₹800</td>
+          <td class="num" style="font-weight:600;color:#1e40af">+58.7%</td>
+        </tr>
+        <tr onclick="window.location.href='RAYMOND.html'" style="cursor:pointer">
+          <td><b>RAYMOND</b></td>
+          <td class="num">300</td>
+          <td class="num">₹364.37</td>
+          <td class="num" style="font-weight:600">₹465.80</td>
+          <td class="num">₹109.3K</td>
+          <td class="num" style="font-weight:600">₹139.7K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹30.4K</td>
+          <td class="num" style="font-weight:600;color:#166534">+27.8%</td>
+          <td class="num">11.1%</td>
+          <td class="num">₹530</td>
+          <td class="num" style="font-weight:600;color:#1e40af">+4.4%</td>
+        </tr>
+        <tr onclick="window.location.href='KERNEX.html'" style="cursor:pointer">
+          <td><b>KERNEX</b></td>
+          <td class="num">90</td>
+          <td class="num">₹1,125.35</td>
+          <td class="num" style="font-weight:600">₹1,348.80</td>
+          <td class="num">₹101.3K</td>
+          <td class="num" style="font-weight:600">₹121.4K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹20.1K</td>
+          <td class="num" style="font-weight:600;color:#166534">+19.9%</td>
+          <td class="num">9.6%</td>
+          <td class="num">₹1,444</td>
+          <td class="num" style="font-weight:600;color:#1e40af">+2.3%</td>
+        </tr>
+        <tr onclick="window.location.href='NEWGEN.html'" style="cursor:pointer">
+          <td><b>NEWGEN</b></td>
+          <td class="num">200</td>
+          <td class="num">₹447.78</td>
+          <td class="num" style="font-weight:600">₹505.75</td>
+          <td class="num">₹89.6K</td>
+          <td class="num" style="font-weight:600">₹101.2K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹11.6K</td>
+          <td class="num" style="font-weight:600;color:#166534">+12.9%</td>
+          <td class="num">8.0%</td>
+          <td class="num">₹965</td>
+          <td class="num" style="font-weight:600;color:#1e40af">+24.0%</td>
+        </tr>
+        <tr onclick="window.location.href='THRIVE.html'" style="cursor:pointer">
+          <td><b>THRIVE</b></td>
+          <td class="num">815</td>
+          <td class="num">₹133.47</td>
+          <td class="num" style="font-weight:600">₹121.99</td>
+          <td class="num">₹108.8K</td>
+          <td class="num" style="font-weight:600">₹99.4K</td>
+          <td class="num" style="font-weight:600;color:#991b1b">₹-9.4K</td>
+          <td class="num" style="font-weight:600;color:#991b1b">-8.6%</td>
+          <td class="num">7.9%</td>
+          <td class="num">₹90</td>
+          <td class="num" style="font-weight:600;color:#991b1b">-9.6%</td>
+        </tr>
+        <tr onclick="window.location.href='ANANTRAJ.html'" style="cursor:pointer">
+          <td><b>ANANTRAJ</b></td>
+          <td class="num">200</td>
+          <td class="num">₹460.80</td>
+          <td class="num" style="font-weight:600">₹486.90</td>
+          <td class="num">₹92.2K</td>
+          <td class="num" style="font-weight:600">₹97.4K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹5.2K</td>
+          <td class="num" style="font-weight:600;color:#166534">+5.7%</td>
+          <td class="num">7.7%</td>
+          <td class="num">₹660</td>
+          <td class="num" style="font-weight:600;color:#1e40af">+10.7%</td>
+        </tr>
+        <tr onclick="window.location.href='ARTEMISMED.html'" style="cursor:pointer">
+          <td><b>ARTEMISMED</b></td>
+          <td class="num">362</td>
+          <td class="num">₹236.67</td>
+          <td class="num" style="font-weight:600">₹244.13</td>
+          <td class="num">₹85.7K</td>
+          <td class="num" style="font-weight:600">₹88.4K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹2.7K</td>
+          <td class="num" style="font-weight:600;color:#166534">+3.2%</td>
+          <td class="num">7.0%</td>
+          <td class="num">₹279</td>
+          <td class="num" style="font-weight:600;color:#1e40af">+4.6%</td>
+        </tr>
+        <tr onclick="window.location.href='GRSE.html'" style="cursor:pointer">
+          <td><b>GRSE</b></td>
+          <td class="num">26</td>
+          <td class="num">₹2,267.42</td>
+          <td class="num" style="font-weight:600">₹2,930.80</td>
+          <td class="num">₹59.0K</td>
+          <td class="num" style="font-weight:600">₹76.2K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹17.2K</td>
+          <td class="num" style="font-weight:600;color:#166534">+29.3%</td>
+          <td class="num">6.0%</td>
+          <td class="num">₹2,459</td>
+          <td class="num" style="font-weight:600;color:#991b1b">-5.7%</td>
+        </tr>
+        <tr onclick="window.location.href='SAKSOFT.html'" style="cursor:pointer">
+          <td><b>SAKSOFT</b></td>
+          <td class="num">450</td>
+          <td class="num">₹129.41</td>
+          <td class="num" style="font-weight:600">₹140.15</td>
+          <td class="num">₹58.2K</td>
+          <td class="num" style="font-weight:600">₹63.1K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹4.8K</td>
+          <td class="num" style="font-weight:600;color:#166534">+8.3%</td>
+          <td class="num">5.0%</td>
+          <td class="num">₹320</td>
+          <td class="num" style="font-weight:600;color:#1e40af">+31.7%</td>
+        </tr>
+        <tr onclick="window.location.href='BANCOINDIA.html'" style="cursor:pointer">
+          <td><b>BANCOINDIA</b></td>
+          <td class="num">100</td>
+          <td class="num">₹589.50</td>
+          <td class="num" style="font-weight:600">₹618.55</td>
+          <td class="num">₹59.0K</td>
+          <td class="num" style="font-weight:600">₹61.9K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹2.9K</td>
+          <td class="num" style="font-weight:600;color:#166534">+4.9%</td>
+          <td class="num">4.9%</td>
+          <td class="num">₹701</td>
+          <td class="num" style="font-weight:600;color:#1e40af">+4.3%</td>
+        </tr>
+        <tr onclick="window.location.href='SHILCTECH.html'" style="cursor:pointer">
+          <td><b>SHILCTECH</b></td>
+          <td class="num">6</td>
+          <td class="num">₹4,559.69</td>
+          <td class="num" style="font-weight:600">₹5,160.60</td>
+          <td class="num">₹27.4K</td>
+          <td class="num" style="font-weight:600">₹31.0K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹3.6K</td>
+          <td class="num" style="font-weight:600;color:#166534">+13.2%</td>
+          <td class="num">2.5%</td>
+          <td class="num">₹3,596</td>
+          <td class="num" style="font-weight:600;color:#991b1b">-11.3%</td>
+        </tr>
+        <tr onclick="window.location.href='NESCO.html'" style="cursor:pointer">
+          <td><b>NESCO</b></td>
+          <td class="num">20</td>
+          <td class="num">₹1,150.00</td>
+          <td class="num" style="font-weight:600">₹1,227.70</td>
+          <td class="num">₹23.0K</td>
+          <td class="num" style="font-weight:600">₹24.6K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹1.6K</td>
+          <td class="num" style="font-weight:600;color:#166534">+6.8%</td>
+          <td class="num">1.9%</td>
+          <td class="num">—</td>
+          <td class="num" style="font-weight:600;color:#94a3b8">—</td>
+        </tr>
+        <tr onclick="window.location.href='ETERNAL.html'" style="cursor:pointer">
+          <td><b>ETERNAL</b></td>
+          <td class="num">98</td>
+          <td class="num">₹337.35</td>
+          <td class="num" style="font-weight:600">₹247.03</td>
+          <td class="num">₹33.1K</td>
+          <td class="num" style="font-weight:600">₹24.2K</td>
+          <td class="num" style="font-weight:600;color:#991b1b">₹-8.9K</td>
+          <td class="num" style="font-weight:600;color:#991b1b">-26.8%</td>
+          <td class="num">1.9%</td>
+          <td class="num">₹218</td>
+          <td class="num" style="font-weight:600;color:#991b1b">-4.1%</td>
+        </tr>
+        <tr onclick="window.location.href='ICICIAMC.html'" style="cursor:pointer">
+          <td><b>ICICIAMC</b></td>
+          <td class="num">6</td>
+          <td class="num">₹2,165.00</td>
+          <td class="num" style="font-weight:600">₹3,290.20</td>
+          <td class="num">₹13.0K</td>
+          <td class="num" style="font-weight:600">₹19.7K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹6.8K</td>
+          <td class="num" style="font-weight:600;color:#166534">+52.0%</td>
+          <td class="num">1.6%</td>
+          <td class="num">₹3,520</td>
+          <td class="num" style="font-weight:600;color:#1e40af">+2.3%</td>
+        </tr>
+        <tr onclick="window.location.href='SWIGGY.html'" style="cursor:pointer">
+          <td><b>SWIGGY</b></td>
+          <td class="num">49</td>
+          <td class="num">₹565.23</td>
+          <td class="num" style="font-weight:600">₹270.30</td>
+          <td class="num">₹27.7K</td>
+          <td class="num" style="font-weight:600">₹13.2K</td>
+          <td class="num" style="font-weight:600;color:#991b1b">₹-14.5K</td>
+          <td class="num" style="font-weight:600;color:#991b1b">-52.2%</td>
+          <td class="num">1.0%</td>
+          <td class="num">₹385</td>
+          <td class="num" style="font-weight:600;color:#1e40af">+12.5%</td>
+        </tr>
+        <tr onclick="window.location.href='NWIL.html'" style="cursor:pointer">
+          <td><b>NWIL</b></td>
+          <td class="num">165</td>
+          <td class="num">₹27.96</td>
+          <td class="num" style="font-weight:600">₹33.64</td>
+          <td class="num">₹4.6K</td>
+          <td class="num" style="font-weight:600">₹5.6K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹0.9K</td>
+          <td class="num" style="font-weight:600;color:#166534">+20.3%</td>
+          <td class="num">0.4%</td>
+          <td class="num">—</td>
+          <td class="num" style="font-weight:600;color:#94a3b8">—</td>
+        </tr>
+        <tr onclick="window.location.href='ZENTEC.html'" style="cursor:pointer">
+          <td><b>ZENTEC</b></td>
+          <td class="num">1</td>
+          <td class="num">₹1,479.20</td>
+          <td class="num" style="font-weight:600">₹1,671.10</td>
+          <td class="num">₹1.5K</td>
+          <td class="num" style="font-weight:600">₹1.7K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹0.2K</td>
+          <td class="num" style="font-weight:600;color:#166534">+13.0%</td>
+          <td class="num">0.1%</td>
+          <td class="num">—</td>
+          <td class="num" style="font-weight:600;color:#94a3b8">—</td>
+        </tr>
+        <tr onclick="window.location.href='DREDGECORP.html'" style="cursor:pointer">
+          <td><b>DREDGECORP</b></td>
+          <td class="num">1</td>
+          <td class="num">₹898.45</td>
+          <td class="num" style="font-weight:600">₹938.45</td>
+          <td class="num">₹0.9K</td>
+          <td class="num" style="font-weight:600">₹0.9K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹0.0K</td>
+          <td class="num" style="font-weight:600;color:#166534">+4.5%</td>
+          <td class="num">0.1%</td>
+          <td class="num">—</td>
+          <td class="num" style="font-weight:600;color:#94a3b8">—</td>
+        </tr>
+        <tr onclick="window.location.href='ATHERENERG.html'" style="cursor:pointer">
+          <td><b>ATHERENERG</b></td>
+          <td class="num">1</td>
+          <td class="num">₹665.05</td>
+          <td class="num" style="font-weight:600">₹934.85</td>
+          <td class="num">₹0.7K</td>
+          <td class="num" style="font-weight:600">₹0.9K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹0.3K</td>
+          <td class="num" style="font-weight:600;color:#166534">+40.6%</td>
+          <td class="num">0.1%</td>
+          <td class="num">—</td>
+          <td class="num" style="font-weight:600;color:#94a3b8">—</td>
+        </tr>
+        <tr onclick="window.location.href='BHEL.html'" style="cursor:pointer">
+          <td><b>BHEL</b></td>
+          <td class="num">1</td>
+          <td class="num">₹254.00</td>
+          <td class="num" style="font-weight:600">₹352.41</td>
+          <td class="num">₹0.3K</td>
+          <td class="num" style="font-weight:600">₹0.4K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹0.1K</td>
+          <td class="num" style="font-weight:600;color:#166534">+38.7%</td>
+          <td class="num">0.0%</td>
+          <td class="num">—</td>
+          <td class="num" style="font-weight:600;color:#94a3b8">—</td>
+        </tr>
+        <tr onclick="window.location.href='PATELSAI.html'" style="cursor:pointer">
+          <td><b>PATELSAI</b></td>
+          <td class="num">1</td>
+          <td class="num">₹265.00</td>
+          <td class="num" style="font-weight:600">₹325.60</td>
+          <td class="num">₹0.3K</td>
+          <td class="num" style="font-weight:600">₹0.3K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹0.1K</td>
+          <td class="num" style="font-weight:600;color:#166534">+22.9%</td>
+          <td class="num">0.0%</td>
+          <td class="num">—</td>
+          <td class="num" style="font-weight:600;color:#94a3b8">—</td>
+        </tr>
+        <tr onclick="window.location.href='SOUTHWEST.html'" style="cursor:pointer">
+          <td><b>SOUTHWEST</b></td>
+          <td class="num">1</td>
+          <td class="num">₹172.38</td>
+          <td class="num" style="font-weight:600">₹240.59</td>
+          <td class="num">₹0.2K</td>
+          <td class="num" style="font-weight:600">₹0.2K</td>
+          <td class="num" style="font-weight:600;color:#166534">+₹0.1K</td>
+          <td class="num" style="font-weight:600;color:#166534">+39.6%</td>
+          <td class="num">0.0%</td>
+          <td class="num">—</td>
+          <td class="num" style="font-weight:600;color:#94a3b8">—</td>
+        </tr>
+        <tr onclick="window.location.href='STLNETWORK.html'" style="cursor:pointer">
+          <td><b>STLNETWORK</b></td>
+          <td class="num">1</td>
+          <td class="num">₹31.22</td>
+          <td class="num" style="font-weight:600">₹27.76</td>
+          <td class="num">₹0.0K</td>
+          <td class="num" style="font-weight:600">₹0.0K</td>
+          <td class="num" style="font-weight:600;color:#991b1b">₹-0.0K</td>
+          <td class="num" style="font-weight:600;color:#991b1b">-11.1%</td>
+          <td class="num">0.0%</td>
+          <td class="num">—</td>
+          <td class="num" style="font-weight:600;color:#94a3b8">—</td>
+        </tr>
+      <tr class="totals-row">
+        <td colspan="4">TOTAL · 23 holdings</td>
+        <td class="num">₹11.62L</td>
+        <td class="num">₹12.62L</td>
+        <td class="num" style="color:#166534">+₹99.50K</td>
+        <td class="num" style="color:#166534">+8.56%</td>
+        <td class="num">100.0%</td>
+        <td class="num">—</td>
+        <td class="num" style="color:#1e40af">+18.3%</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="footer">Sorted by current value descending · CMPs from broker close on 02-05-2026 · Click any row to open the research note<br>
+  Refresh: drop new broker xlsx into <code>data/broker-exports/</code>, then <code>python3 src/refresh_portfolio.py --write</code></p>
+
+</div>
+
+</body>
+</html>
