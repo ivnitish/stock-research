@@ -53,6 +53,10 @@
 
 - **MEIL** — Mangal Electrical Industries Ltd (BSE: 544492, NSE: MEIL). Transformer components / electrical capital goods. CMP ₹342, mcap ₹944 Cr, P/E 21.3, P/B 1.68, ROE 34.1%, ROCE 30.4%, 5y profit CAGR 74%. Source: https://www.screener.in/company/MEIL/. Initial read: high-quality returns at fair P/B; 5y profit CAGR 74% needs a sustainability check (base effect or genuine compounding?). Queued 2026-05-10.
 
+### Multi-bagger study queue (learning, not buy candidates)
+
+- See `research/learnings/_QUEUE.md` — 7 candidates queued from the "quality re-rates ahead of earnings" pattern (Astral, KEI, Varun Beverages, Deepak Nitrite, Garware Hi-Tech, Fine Organic, Cera). Order of priority: Astral → Deepak Nitrite → Varun → KEI → others. 3-4 studies expected to validate the pattern before promoting the appendix in `multibagger_patterns.md` to a main-framework hook. Queued 2026-05-10.
+
 ---
 
 ## ✅ Completed — 2026-05-04
