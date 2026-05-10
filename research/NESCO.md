@@ -1,9 +1,9 @@
 # Nesco Limited (NESCO) — Investment Thesis
 
-**Status:** OWNED (1 share, ₹1,376 invested, tracking position)
+**Status:** OWNED — 20 shares @ ₹1,150 avg, ₹23,000 invested (per portfolio.csv)
 **Quality Score:** 19/25 (Grade B+: High Conviction)
 **Classification:** Quality Compounder (Quality B+ + Base case 1.9x/5yrs, 14% CAGR; bull case 2.7-3.0x)
-**Last Updated:** 2026-04-09 | **CMP:** ₹1,124 | **Entry:** ₹1,376 (1 share, tracking) | **P&L:** -18.3%
+**Last Updated:** 2026-05-10 | **CMP:** ₹1,228 | **Avg:** ₹1,150 | **P&L:** +₹1,554 (+6.76%)
 **Data Source:** Screener.in (consolidated), Q3 FY26 BSE filing
 
 > **Recommendation:** BUY / accumulate aggressively below ₹1,100. Nesco owns 70 irreplaceable
