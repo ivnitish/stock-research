@@ -349,25 +349,28 @@ def render_portfolio_html(
         pl_color = "#166534" if h["pnl"] >= 0 else "#991b1b"
         pl_sign = "+" if h["pnl"] >= 0 else ""
         pnl_pct_s = (h["pnl"] / h["invested"] * 100) if h["invested"] else 0
+        cagr_val = None
         cagr_str = "—"
         cagr_color = "#94a3b8"
         if h["target"] and h["target"] > 0 and h["cmp"] > 0:
-            cagr = ((h["target"] / h["cmp"]) ** (1.0 / horizon_years) - 1.0) * 100
-            cagr_str = f"{cagr:+.1f}%"
-            cagr_color = "#1e40af" if cagr >= 0 else "#991b1b"
+            cagr_val = ((h["target"] / h["cmp"]) ** (1.0 / horizon_years) - 1.0) * 100
+            cagr_str = f"{cagr_val:+.1f}%"
+            cagr_color = "#1e40af" if cagr_val >= 0 else "#991b1b"
         target_str = f"₹{h['target']:,.0f}" if h["target"] else "—"
+        target_sort = h["target"] if h["target"] else -1
+        cagr_sort = cagr_val if cagr_val is not None else -999
         rows.append(f"""        <tr onclick="window.location.href='{h['symbol']}.html'" style="cursor:pointer">
-          <td><b>{h['symbol']}</b></td>
-          <td class="num">{h['qty']:,.0f}</td>
-          <td class="num">₹{h['avg']:,.2f}</td>
-          <td class="num" style="font-weight:600">₹{h['cmp']:,.2f}</td>
-          <td class="num">₹{h['invested']/1000:,.1f}K</td>
-          <td class="num" style="font-weight:600">₹{h['current']/1000:,.1f}K</td>
-          <td class="num" style="font-weight:600;color:{pl_color}">{pl_sign}₹{h['pnl']/1000:.1f}K</td>
-          <td class="num" style="font-weight:600;color:{pl_color}">{pnl_pct_s:+.1f}%</td>
-          <td class="num">{wt:.1f}%</td>
-          <td class="num">{target_str}</td>
-          <td class="num" style="font-weight:600;color:{cagr_color}">{cagr_str}</td>
+          <td data-sort="{h['symbol']}"><b>{h['symbol']}</b></td>
+          <td class="num" data-sort="{h['qty']}">{h['qty']:,.0f}</td>
+          <td class="num" data-sort="{h['avg']}">₹{h['avg']:,.2f}</td>
+          <td class="num" data-sort="{h['cmp']}" style="font-weight:600">₹{h['cmp']:,.2f}</td>
+          <td class="num" data-sort="{h['invested']}">₹{h['invested']/1000:,.1f}K</td>
+          <td class="num" data-sort="{h['current']}" style="font-weight:600">₹{h['current']/1000:,.1f}K</td>
+          <td class="num" data-sort="{h['pnl']}" style="font-weight:600;color:{pl_color}">{pl_sign}₹{h['pnl']/1000:.1f}K</td>
+          <td class="num" data-sort="{pnl_pct_s}" style="font-weight:600;color:{pl_color}">{pnl_pct_s:+.1f}%</td>
+          <td class="num" data-sort="{wt}">{wt:.1f}%</td>
+          <td class="num" data-sort="{target_sort}">{target_str}</td>
+          <td class="num" data-sort="{cagr_sort}" style="font-weight:600;color:{cagr_color}">{cagr_str}</td>
         </tr>""")
 
     pnl_color = "#166534" if pnl >= 0 else "#991b1b"
@@ -397,7 +400,10 @@ def render_portfolio_html(
   .stat-label {{ color: #64748b; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 5px; }}
   .stat-value {{ font-size: 1.18rem; font-weight: 700; }}
   table {{ width: 100%; background: #fff; border-collapse: collapse; border-radius: 10px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }}
-  th {{ background: #f1f5f9; color: #475569; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; padding: 12px 10px; border-bottom: 2px solid #e2e8f0; text-align: left; }}
+  th {{ background: #f1f5f9; color: #475569; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; padding: 12px 10px; border-bottom: 2px solid #e2e8f0; text-align: left; cursor: pointer; user-select: none; position: relative; }}
+  th:hover {{ background: #e2e8f0; color: #1a1a2e; }}
+  th .sort-arrow {{ display: inline-block; margin-left: 4px; color: #94a3b8; font-size: 0.7rem; }}
+  th.sort-active .sort-arrow {{ color: #1a1a2e; }}
   td {{ padding: 11px 10px; font-size: 0.88rem; border-bottom: 1px solid #f1f5f9; font-variant-numeric: tabular-nums; }}
   th.num, td.num {{ text-align: right; }}
   tr:last-child td {{ border-bottom: none; }}
@@ -449,17 +455,17 @@ def render_portfolio_html(
   <table>
     <thead>
       <tr>
-        <th>Symbol</th>
-        <th class="num">Qty</th>
-        <th class="num">Avg</th>
-        <th class="num">CMP</th>
-        <th class="num">Invested</th>
-        <th class="num">Current</th>
-        <th class="num">P&amp;L</th>
-        <th class="num">P&amp;L %</th>
-        <th class="num">Wt %</th>
-        <th class="num">Target</th>
-        <th class="num">Exp {horizon_years}y CAGR</th>
+        <th>Symbol<span class="sort-arrow"></span></th>
+        <th class="num">Qty<span class="sort-arrow"></span></th>
+        <th class="num">Avg<span class="sort-arrow"></span></th>
+        <th class="num">CMP<span class="sort-arrow"></span></th>
+        <th class="num">Invested<span class="sort-arrow"></span></th>
+        <th class="num sort-active">Current<span class="sort-arrow">▼</span></th>
+        <th class="num">P&amp;L<span class="sort-arrow"></span></th>
+        <th class="num">P&amp;L %<span class="sort-arrow"></span></th>
+        <th class="num" title="Position weight as % of total portfolio current value">% of Portfolio<span class="sort-arrow"></span></th>
+        <th class="num">Target<span class="sort-arrow"></span></th>
+        <th class="num">Exp {horizon_years}y CAGR<span class="sort-arrow"></span></th>
       </tr>
     </thead>
     <tbody>
@@ -477,10 +483,59 @@ def render_portfolio_html(
     </tbody>
   </table>
 
-  <p class="footer">Sorted by current value descending · CMPs from broker close on {snapshot_date} · Click any row to open the research note<br>
+  <p class="footer">Click any column header to sort · Click any row to open the research note · CMPs from broker close on {snapshot_date}<br>
   Refresh: drop new broker xlsx into <code>data/broker-exports/</code>, then <code>python3 src/refresh_portfolio.py --write</code></p>
 
 </div>
+
+<script>
+(function() {{
+  const table = document.querySelector('table');
+  const tbody = table.querySelector('tbody');
+  const headers = table.querySelectorAll('thead th');
+  // Default sort: column 5 (Current) descending — matches initial server-side sort.
+  let sortState = {{ col: 5, dir: -1 }};
+
+  function getSortValue(td) {{
+    const raw = td.dataset.sort;
+    if (raw === undefined) return td.textContent.trim();
+    const n = parseFloat(raw);
+    return isNaN(n) ? raw : n;
+  }}
+
+  function sortBy(colIdx) {{
+    if (sortState.col === colIdx) {{
+      sortState.dir *= -1;
+    }} else {{
+      sortState.col = colIdx;
+      // Text columns default ascending, numeric default descending.
+      sortState.dir = (colIdx === 0) ? 1 : -1;
+    }}
+    const dataRows = Array.from(tbody.querySelectorAll('tr:not(.totals-row)'));
+    const totalsRow = tbody.querySelector('.totals-row');
+    dataRows.sort((a, b) => {{
+      const av = getSortValue(a.cells[colIdx]);
+      const bv = getSortValue(b.cells[colIdx]);
+      if (typeof av === 'number' && typeof bv === 'number') return (av - bv) * sortState.dir;
+      return String(av).localeCompare(String(bv)) * sortState.dir;
+    }});
+    dataRows.forEach(r => tbody.appendChild(r));
+    if (totalsRow) tbody.appendChild(totalsRow);
+    headers.forEach((th, i) => {{
+      const arrow = th.querySelector('.sort-arrow');
+      if (i === colIdx) {{
+        th.classList.add('sort-active');
+        arrow.textContent = sortState.dir === 1 ? '▲' : '▼';
+      }} else {{
+        th.classList.remove('sort-active');
+        arrow.textContent = '';
+      }}
+    }});
+  }}
+
+  headers.forEach((th, i) => th.addEventListener('click', () => sortBy(i)));
+}})();
+</script>
 
 </body>
 </html>
