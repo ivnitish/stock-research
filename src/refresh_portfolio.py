@@ -328,6 +328,168 @@ def render_snapshot_block(
 <!-- END_PORTFOLIO_SNAPSHOT -->'''
 
 
+def render_portfolio_html(
+    snapshot_date: str,
+    invested: float,
+    current: float,
+    pnl: float,
+    pnl_pct: float,
+    weighted_cagr: float,
+    cagr_coverage_pct: float,
+    horizon_years: int,
+    holdings: list[dict],
+) -> str:
+    """Generate a standalone clean portfolio.html — held positions only,
+    sorted by current value, no grade-based bucketing."""
+    holdings_sorted = sorted(holdings, key=lambda h: -h["current"])
+
+    rows = []
+    for h in holdings_sorted:
+        wt = (h["current"] / current * 100) if current else 0
+        pl_color = "#166534" if h["pnl"] >= 0 else "#991b1b"
+        pl_sign = "+" if h["pnl"] >= 0 else ""
+        pnl_pct_s = (h["pnl"] / h["invested"] * 100) if h["invested"] else 0
+        cagr_str = "—"
+        cagr_color = "#94a3b8"
+        if h["target"] and h["target"] > 0 and h["cmp"] > 0:
+            cagr = ((h["target"] / h["cmp"]) ** (1.0 / horizon_years) - 1.0) * 100
+            cagr_str = f"{cagr:+.1f}%"
+            cagr_color = "#1e40af" if cagr >= 0 else "#991b1b"
+        target_str = f"₹{h['target']:,.0f}" if h["target"] else "—"
+        rows.append(f"""        <tr onclick="window.location.href='{h['symbol']}.html'" style="cursor:pointer">
+          <td><b>{h['symbol']}</b></td>
+          <td class="num">{h['qty']:,.0f}</td>
+          <td class="num">₹{h['avg']:,.2f}</td>
+          <td class="num" style="font-weight:600">₹{h['cmp']:,.2f}</td>
+          <td class="num">₹{h['invested']/1000:,.1f}K</td>
+          <td class="num" style="font-weight:600">₹{h['current']/1000:,.1f}K</td>
+          <td class="num" style="font-weight:600;color:{pl_color}">{pl_sign}₹{h['pnl']/1000:.1f}K</td>
+          <td class="num" style="font-weight:600;color:{pl_color}">{pnl_pct_s:+.1f}%</td>
+          <td class="num">{wt:.1f}%</td>
+          <td class="num">{target_str}</td>
+          <td class="num" style="font-weight:600;color:{cagr_color}">{cagr_str}</td>
+        </tr>""")
+
+    pnl_color = "#166534" if pnl >= 0 else "#991b1b"
+    pnl_sign = "+" if pnl >= 0 else ""
+    cagr_color = "#1e40af" if weighted_cagr >= 0 else "#991b1b"
+    rows_str = "\n".join(rows)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Portfolio · Stock Research</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * {{ box-sizing: border-box; margin: 0; padding: 0; }}
+  body {{ font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #f8fafc; color: #1a1a2e; }}
+  header {{ background: linear-gradient(135deg, #1a1a2e 0%, #2d3055 100%); color: #fff; padding: 18px 22px; }}
+  header .top {{ display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 12px; max-width: 1280px; margin: 0 auto; }}
+  header h1 {{ font-size: 1.4rem; font-weight: 700; }}
+  header p {{ color: #94a3b8; font-size: 0.85rem; margin-top: 4px; }}
+  .nav-links a {{ color: #93c5fd; text-decoration: none; font-size: 0.88rem; margin-left: 8px; padding: 6px 12px; border: 1px solid rgba(147,197,253,0.3); border-radius: 6px; }}
+  .nav-links a:hover {{ background: rgba(147,197,253,0.1); }}
+  .container {{ max-width: 1280px; margin: 22px auto; padding: 0 22px; }}
+  .snapshot {{ background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 22px 26px; margin-bottom: 22px; }}
+  .snapshot h2 {{ font-size: 1.05rem; font-weight: 700; margin-bottom: 14px; color: #1a1a2e; }}
+  .snapshot-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 20px; }}
+  .stat-label {{ color: #64748b; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 5px; }}
+  .stat-value {{ font-size: 1.18rem; font-weight: 700; }}
+  table {{ width: 100%; background: #fff; border-collapse: collapse; border-radius: 10px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }}
+  th {{ background: #f1f5f9; color: #475569; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; padding: 12px 10px; border-bottom: 2px solid #e2e8f0; text-align: left; }}
+  td {{ padding: 11px 10px; font-size: 0.88rem; border-bottom: 1px solid #f1f5f9; font-variant-numeric: tabular-nums; }}
+  th.num, td.num {{ text-align: right; }}
+  tr:last-child td {{ border-bottom: none; }}
+  tbody tr:hover {{ background: #f8fafc; }}
+  .totals-row td {{ background: #f1f5f9; font-weight: 700; border-top: 2px solid #cbd5e1; padding: 14px 10px; font-size: 0.92rem; }}
+  .footer {{ color: #94a3b8; font-size: 0.76rem; text-align: center; margin: 28px 0 22px; line-height: 1.6; }}
+  .footer code {{ background: #f1f5f9; padding: 2px 6px; border-radius: 3px; font-size: 0.85em; }}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="top">
+    <div>
+      <h1>📊 Portfolio</h1>
+      <p>{len(holdings)} holdings · as of {snapshot_date} (broker close)</p>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">🔍 Research Catalog</a>
+      <a href="DECISION_LOG.html">📋 Decisions</a>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="snapshot">
+    <h2>Snapshot</h2>
+    <div class="snapshot-grid">
+      <div>
+        <div class="stat-label">Invested</div>
+        <div class="stat-value">₹{invested/100000:.2f}L</div>
+      </div>
+      <div>
+        <div class="stat-label">Current</div>
+        <div class="stat-value">₹{current/100000:.2f}L</div>
+      </div>
+      <div>
+        <div class="stat-label">Unrealised P&amp;L</div>
+        <div class="stat-value" style="color:{pnl_color}">{pnl_sign}₹{pnl/1000:.2f}K ({pnl_pct:+.2f}%)</div>
+      </div>
+      <div>
+        <div class="stat-label">Expected {horizon_years}yr CAGR</div>
+        <div class="stat-value" style="color:{cagr_color}">{weighted_cagr:+.1f}% <span style="font-size:0.74rem;font-weight:500;color:#94a3b8">({cagr_coverage_pct:.0f}% coverage)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Symbol</th>
+        <th class="num">Qty</th>
+        <th class="num">Avg</th>
+        <th class="num">CMP</th>
+        <th class="num">Invested</th>
+        <th class="num">Current</th>
+        <th class="num">P&amp;L</th>
+        <th class="num">P&amp;L %</th>
+        <th class="num">Wt %</th>
+        <th class="num">Target</th>
+        <th class="num">Exp {horizon_years}y CAGR</th>
+      </tr>
+    </thead>
+    <tbody>
+{rows_str}
+      <tr class="totals-row">
+        <td colspan="4">TOTAL · {len(holdings)} holdings</td>
+        <td class="num">₹{invested/100000:.2f}L</td>
+        <td class="num">₹{current/100000:.2f}L</td>
+        <td class="num" style="color:{pnl_color}">{pnl_sign}₹{pnl/1000:.2f}K</td>
+        <td class="num" style="color:{pnl_color}">{pnl_pct:+.2f}%</td>
+        <td class="num">100.0%</td>
+        <td class="num">—</td>
+        <td class="num" style="color:{cagr_color}">{weighted_cagr:+.1f}%</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="footer">Sorted by current value descending · CMPs from broker close on {snapshot_date} · Click any row to open the research note<br>
+  Refresh: drop new broker xlsx into <code>data/broker-exports/</code>, then <code>python3 src/refresh_portfolio.py --write</code></p>
+
+</div>
+
+</body>
+</html>
+"""
+
+
+PORTFOLIO_HTML_PATH = ROOT / "output" / "html" / "portfolio.html"
+
+
 def insert_snapshot(html: str, block: str) -> str:
     """Replace existing block, or insert just before the table view comment."""
     if SNAPSHOT_RE.search(html):
@@ -486,14 +648,34 @@ def main():
         if len(update_log) > 10:
             print(f"  ... +{len(update_log) - 10} more")
 
+    # Render the standalone portfolio.html (Groww-style P&L per stock view).
+    portfolio_html = render_portfolio_html(
+        snapshot_date=snapshot_date,
+        invested=invested_sum,
+        current=current_sum,
+        pnl=pnl_sum,
+        pnl_pct=pnl_pct,
+        weighted_cagr=weighted_cagr,
+        cagr_coverage_pct=cagr_coverage_pct,
+        horizon_years=args.horizon,
+        holdings=per_stock_stats,
+    )
+
     if args.write:
+        wrote_any = False
         if new_html != html:
             HTML_PATH.write_text(new_html)
             print(f"✓ Wrote {HTML_PATH.relative_to(ROOT)}")
-        else:
+            wrote_any = True
+        existing_pf = PORTFOLIO_HTML_PATH.read_text() if PORTFOLIO_HTML_PATH.exists() else ""
+        if portfolio_html != existing_pf:
+            PORTFOLIO_HTML_PATH.write_text(portfolio_html)
+            print(f"✓ Wrote {PORTFOLIO_HTML_PATH.relative_to(ROOT)}")
+            wrote_any = True
+        if not wrote_any:
             print("No HTML changes to write.")
     else:
-        print("\n(dry-run; pass --write to apply)")
+        print("\n(dry-run; pass --write to apply — will write index.html + portfolio.html)")
 
 
 if __name__ == "__main__":
