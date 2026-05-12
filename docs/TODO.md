@@ -1,5 +1,11 @@
 # Research System — TODO
-*Last updated: 2026-05-10*
+*Last updated: 2026-05-11*
+
+---
+
+## ✅ Completed — 2026-05-11
+
+- **GREAVESCOT initial thesis** — `research/GREAVESCOT.md` written. Grade C (12/25), WATCHLIST. Sum-of-parts asymmetry note. Standalone diesel-engine + Excel earns ₹200 Cr PAT but GEML (Ampere EV) burns ₹182 Cr at segment PBIT — consolidated EPS ₹4.60 hides ~₹8.59 standalone. CMP ₹177 vs base FV ₹150 (-15% MOS), bear ₹47 (-73%), bull ₹273 (+54%). Asymmetry 0.74x — fails >2x test at current price; spec buy zone ₹120-135. Catalysts: GEML PBIT loss narrowing (-₹223 → -₹182 in FY26), FAME III notification, GEML IPO (DRHP filed Dec 2024). Added to index.html under watch/grade-c section. Q4 FY26 segment data fetched from financial results PDF; investor presentation downloaded to `data/filings/GREAVESCOT/`.
 
 ---
 
@@ -23,7 +29,22 @@
   - SWIGGY action tag updated: "Weak Hold — Q4" → "Exit · harvest loss".
 - **Memory saved** — `feedback_check_portfolio_first.md` — always read `data/portfolio.csv` before framing any stock recommendation; existing positions are HOLD/ADD/TRIM decisions, not "re-enter" decisions; lean into TRACKING POSITION calls per framework matrix instead of defaulting to WATCHLIST/AVOID.
 
+## ✅ Completed — 2026-05-12
+
+- **`src/refresh_portfolio.py`** — single-command portfolio refresh: reads latest broker xlsx, refreshes CMP + derived cells in index.html, computes weighted expected 3yr CAGR, inserts Portfolio Snapshot block, flags stale Status headers. Idempotent. Also generates `output/html/portfolio.html` (Groww-style standalone view, sorted by current value).
+- **`output/html/portfolio.html`** — clean held-only Portfolio tab: snapshot at top, sortable columns (click headers, default Current value desc), per-stock P&L + expected 3yr CAGR, click-through to research file. Renamed "Wt %" → "% of Portfolio" with tooltip.
+- **`/refresh-portfolio` slash command** — `.claude/commands/refresh-portfolio.md` so user can invoke without remembering Python command.
+- **`docs/FOCUS.md`** — new "what I'm doing now" landing page. Top of page: this week's high-priority TODOs (concall reads for top 3 holdings, decided exits, price alerts, monthly capital commitment). Middle: Path-to-₹1Cr tracker with monthly checkpoints + scenario table at different injection rates. Bottom: quick links + cadence reminder. Rendered to `output/html/FOCUS.html`.
+- **`docs/INVESTING_PLAYBOOK.md`** — standing investing rules: 5 focus areas (concentration cap at 12, exit 7-day rule, entry asymmetry ≥1.5x, Sunday concall read, cycle winners at 0.95× target), cadence table, "rules I commit to" (10 rules), 12-slot tracker template, "don't" list for ADHD-loud moments. The week-specific actions section now links to FOCUS.md to avoid duplication.
+- **index.html + portfolio.html nav** — added `🎯 Focus` (red, prominent), `📖 Playbook` (blue) links to both pages. Focus is the high-priority landing.
+
 ## Open (next session)
+
+- **Simplify index.html** — user feedback: page has too much noise (currently ~2800 lines, ~50+ rows mixing grades, US, tracking, watchlist, scenario). Options to consider: (a) move all 1-share tracking stubs to a separate `tracking.html` page; (b) compress grade-A/B/C into a single sortable "Research" tab; (c) make the held vs watchlist split harder (right now they share grade sections); (d) reduce number of columns visible by default — many cells are "—" for watchlist rows. Decide architecture before editing.
+- **Wire FOCUS.md regeneration into `/refresh-portfolio`** — currently FOCUS.md is hand-edited. The Path-to-₹1Cr table should auto-fill from broker exports each month. The 12-slot tracker in playbook should auto-rank from portfolio.csv current value.
+- **High priority — Nitheesh's concall reads:** EPACKPEB, RAYMOND, KERNEX (see FOCUS.md). I (Claude) cannot do these for him — they're personal-conviction reads. Next session start: ask if these were done.
+
+## Open (next session, lower priority)
 
 - **Build `src/refresh_portfolio.py`** — single command that reads latest broker export from `data/broker-exports/`, joins with portfolio.csv, generates portfolio snapshot table, refreshes CMP cells in index.html. Currently sync_holdings_from_csv.py only updates qty/avg/invested — leaves CMP cells untouched. Wire CMP refresh in.
 - Decide on the SWIGGY exit (book loss) and ARTEMISMED trim (sell ~200-260 sh). Both need user execution; not autonomous.

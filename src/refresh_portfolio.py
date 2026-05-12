@@ -422,7 +422,9 @@ def render_portfolio_html(
       <p>{len(holdings)} holdings · as of {snapshot_date} (broker close)</p>
     </div>
     <div class="nav-links">
-      <a href="index.html">🔍 Research Catalog</a>
+      <a href="FOCUS.html" style="border-color:rgba(239,68,68,0.5);color:#fca5a5;font-weight:700">🎯 Focus</a>
+      <a href="index.html">🔍 Research</a>
+      <a href="INVESTING_PLAYBOOK.html">📖 Playbook</a>
       <a href="DECISION_LOG.html">📋 Decisions</a>
     </div>
   </div>
