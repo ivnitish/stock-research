@@ -1,5 +1,14 @@
 # Research System — TODO
-*Last updated: 2026-05-11*
+*Last updated: 2026-05-12*
+
+---
+
+## ✅ Completed — 2026-05-12
+
+- **RAILTEL initial thesis** — `research/RAILTEL.md` written (643 lines, ~9.5K words). Grade B (16/25), **BUY REDUCED 3%** at CMP ₹333. Base FV ₹442 (MOS 24.7%), bear ₹245, bull ₹680. Asymmetry 1.27x. Core thesis: Telecom segment ROIC 37% on already-depreciated 65,000-km OFC + railway right-of-way; segment mix-shift from low-margin Project (4-5%) toward high-margin Telecom (27% and rising via Data Centre + Aadhaar). Sharpest concern: trade receivables +30% YoY vs revenue +23%; cash conversion the load-bearing watch. Index entry added under `grade-b india` 16/25 section.
+- **RAILTEL Section 4c added (OFC + DC deep dive)** — answering: can the OFC + DC sub-business reach ₹10,000 Cr standalone valuation? Math: FY30 needs OFC ₹2,100 Cr (12% CAGR), DC ₹950 Cr (47% CAGR; 25-30 MW capacity vs 3 MW today), combined PBIT ₹915 Cr at 30% margin, exit P/E 15x → ₹10,275 Cr standalone. Probability ~40-50% by FY30, ~65-70% by FY32. Trigger to upgrade conviction: FY28 capex guidance during May 2027 call — if ₹500 Cr+ with explicit DC capacity targets >10 MW, size up. Hyperscaler partnership (telegraphed 18 months, not yet announced) is the single biggest accelerant.
+- **NSDL framework gap-fill pass** — added (a) "Why this business?" opener, (b) first-principles physical earnings mechanism per Instruction 9 (three observable revenue drivers with evidence already in motion), (c) Growth Trigger Scan across 6 Kamayaka triggers (two yellows, zero greens — speculative-entry by Kamayaka rule, consistent with tracking-not-buy verdict), (d) Technical Entry Snapshot from Trendlyne (CMP ₹855, RSI 42.7, MFI 35.6, price below both 50- and 200-SMAs — neutral with slight oversold tilt; updated MOS 36.8%, asymmetry 1.35x at the new CMP), (e) Glossary defining DP/DPS, demat, custody, NDML, AA, e-KYC, PEG, OPM, promoter conventions, OFS, FII/DII, reverse DCF. Plus Multi-bagger Math + MOS section added 2026-05-11: present-day fair values (bear ₹487, base ₹1,352, bull ₹2,024) discounted at 13% from 3-yr targets; MOS 35.3% clears Grade B threshold but asymmetry 1.23x caps at tracking-not-full-BUY. Full-BUY upgrade triggers: CMP ≤ ₹780, OR two consecutive quarters of revenue ≥22% with OPM ≥32%.
+- **GREAVESCOT, RAILTEL, NSDL rendered** to HTML + PDF (`output/html/{...}.html`, `output/pdf/{SYMBOL}_2026-05-12.pdf`). All three opened in Chrome.
 
 ---
 
