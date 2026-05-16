@@ -83,7 +83,7 @@ def md_to_html(md):
 
     # Tables and lists (line-by-line)
     lines = html.split('\n')
-    out = []; in_table = False; in_list = False
+    out = []; in_table = False; in_list = False; in_quote = False
 
     for line in lines:
         # Pass-through already-converted HTML blocks
@@ -94,8 +94,21 @@ def md_to_html(md):
                 or stripped.startswith('</ul') or stripped.startswith('<li'):
             if in_table: out.append('</table>'); in_table = False
             if in_list:  out.append('</ul>');    in_list  = False
+            if in_quote: out.append('</blockquote>'); in_quote = False
             out.append(line)
             continue
+
+        # Blockquote: lines starting with ">" become <blockquote>...</blockquote>
+        if re.match(r'^>\s*$', line):
+            if in_quote: out.append('')  # paragraph break within blockquote
+            continue
+        if re.match(r'^>\s+', line):
+            if in_table: out.append('</table>'); in_table = False
+            if in_list:  out.append('</ul>');    in_list  = False
+            if not in_quote: out.append('<blockquote>'); in_quote = True
+            out.append('<p>' + re.sub(r'^>\s+', '', line) + '</p>')
+            continue
+        if in_quote: out.append('</blockquote>'); in_quote = False
 
         if re.match(r'^\|', line):
             if re.match(r'^\|[-| :]+\|', line): continue
@@ -118,6 +131,7 @@ def md_to_html(md):
 
     if in_table: out.append('</table>')
     if in_list:  out.append('</ul>')
+    if in_quote: out.append('</blockquote>')
     return '\n'.join(out)
 
 
