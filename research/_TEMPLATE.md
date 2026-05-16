@@ -169,30 +169,20 @@ If no material concerns: "No material concerns identified."
 - [Concern 1 — specific mechanism and why it matters]
 - [Concern 2]
 
-### The Compounding Equation
+### How does this actually compound? (one-line summary; full breakdown in Section 3 below)
 
 <!--
-First-principles EPS math. This is the engine section.
-Start from: ROIC × reinvestment rate = earnings growth rate.
-Then ground it in physical reality — capacity, TAM, penetration, order book.
+Keep this to 2-3 sentences MAX. The reader gets the gist; the full Q1 walk-through
+with worked example lives in Section 3 of Detailed Analysis. Resist the urge to
+write three paragraphs here — that's editorial filler the reader will skip past.
 
-The reader should understand three things:
-  1. THE ENGINE — what generates high returns on capital (and why it's structural)
-  2. THE FUEL — what the company reinvests into (capacity, R&D, distribution)
-  3. THE RUNWAY — how long the fuel lasts before diminishing returns
-
-Include the numbers but explain the causation. Not "ROIC is 27%" but "ROIC is 27%
-BECAUSE the business is asset-light relative to revenue — working capital days are
-just 8, and customers partially fund operations through advances."
-
-Also address margin structure and what protects it. For thin-margin businesses,
-explain why ROE can still be high (asset turns, leverage, working capital).
-
-1-2 paragraphs. This should read like an analyst explaining the business to a
-smart non-specialist.
+What belongs in these 2-3 sentences:
+- The single most important driver of EPS growth (operating leverage / mix shift / capacity ramp / pricing)
+- Why headline ROIC may or may not match the underlying incremental return
+- A pointer to Section 3 for the full math
 -->
 
-[Write here — engine + fuel + runway, with numbers woven into explanation]
+[2-3 sentences: where profit growth comes from, why incremental returns differ from headline, pointer to Section 3.]
 
 ### What does the market think — and where do I disagree?
 
@@ -299,6 +289,88 @@ Total return = EPS growth × PE change = price target
 [1-2 sentences interpreting the table. What does the asymmetry look like?
 Is the risk/reward skewed in your favour? How much do you lose in the bear
 case vs how much you gain in the bull?]
+
+### Key Metrics & Trends
+
+<!--
+This is the numbers section that anchors everything above. Reader needs to see
+the actual P&L, balance sheet, cash flow, quarterly trend, and shareholding
+right here in Summary Verdict — the narrative does not land without them.
+
+Keep tables tight. Include the longest history that's available (typically 5-10
+years), the last 6-9 quarters, and one snapshot ratios table. Sector-specific
+operating metrics (order book, capacity utilisation, AUM, etc.) belong in
+Section 4 of Detailed Analysis, not here. This section is the universal core.
+-->
+
+#### N-year P&L (₹ Cr)
+
+| FY | Revenue | OPM% | PAT | EPS (₹) |
+|----|---------|------|-----|---------|
+| FY[N-9] | | | | |
+| FY[N-8] | | | | |
+| ... | | | | |
+| FY[N] | | | | |
+| 9M FY[N+1] (if available) | | | | |
+
+[1-2 lines: revenue CAGR, key inflection point, PAT trajectory direction.]
+
+#### Balance sheet evolution (₹ Cr) — selected years
+
+| FY | Borrowings | Fixed Assets | CWIP | Reserves | Equity |
+|----|------------|--------------|------|----------|--------|
+| FY[start] | | | | | |
+| FY[mid] | | | | | |
+| FY[end] | | | | | |
+
+[1 line on what the balance sheet trend shows — deleveraging, capex cycle, dilution.]
+
+#### Cash flow (₹ Cr)
+
+| FY | OCF | Capex | FCF |
+|----|-----|-------|-----|
+| FY[N-4] | | | |
+| FY[N-3] | | | |
+| FY[N-2] | | | |
+| FY[N-1] | | | |
+| FY[N] | | | |
+
+[1 line: OCF/PAT ratio over the period, capex cycle status.]
+
+#### Quarterly trend (last 6-9 quarters, ₹ Cr)
+
+| Quarter | Revenue | OPM | PAT | EPS |
+|---------|---------|-----|-----|-----|
+| [Quarter 1] | | | | |
+| ... | | | | |
+| [Latest quarter] | | | | |
+
+[1 line: trajectory, any lumpiness, recent inflection.]
+
+#### Shareholding (latest quarter)
+
+- Promoter: **X%** (stable / rising / declining; pledge status)
+- FII: X% (trend vs prior 4 quarters)
+- DII: X% (trend vs prior 4 quarters)
+- Public: X%
+- Total shareholders: X
+
+[1 line: what the institutional flow signals.]
+
+#### Snapshot ratios (latest)
+
+| Metric | Value | Read |
+|--------|-------|------|
+| CMP | ₹ | distance from 52w high/low |
+| Market cap | ₹X Cr | mid/small/large cap classification |
+| P/E (trailing) | x | vs sector / peer set |
+| P/E (forward FY[N+1]E) | x | |
+| P/B | x | |
+| ROCE | % | |
+| ROE | % | |
+| D/E | x | |
+| Dividend yield | % | |
+| Working capital days | | sector context |
 
 ### Downside Framework — What Protects Capital?
 
@@ -427,6 +499,39 @@ Each bullet: date, what happened, and whether it strengthens/weakens the thesis.
 -->
 
 # Detailed Analysis
+
+---
+
+## Deep Dives
+
+<!--
+This section is for the 1-4 specific questions that need dedicated walk-throughs
+in this stock's story. They live at the START of Detailed Analysis (not buried
+deeper) because they're often the most interesting reading once the reader has
+absorbed the Summary Verdict.
+
+Examples of what belongs here:
+- Plain-English primer on a technical product or technology the company sells
+- Scenario math for an extreme outcome the reader asked about (e.g. "can this 10x?")
+- Market sizing breakdown for a specific opportunity
+- Deep-dive on a regulatory event or catalyst that's load-bearing for the thesis
+- Comparative breakdown vs a specific peer the reader asked to be benchmarked against
+
+Each deep dive should be self-contained — written so it can be read without
+context from the rest of the file. Use letter labels (A, B, C, D) rather than
+numbers to keep them visually distinct from the standard 1-12 sections below.
+
+Skip this section entirely if there are no deep dives — don't leave placeholder
+text in the published file.
+-->
+
+### A. [Question or topic title]
+
+[Self-contained walk-through. Plain English. No scaffolding labels.]
+
+### B. [Question or topic title]
+
+[Self-contained walk-through.]
 
 ---
 
@@ -585,35 +690,19 @@ Write the sentence you'd re-read when the stock is -40% and Twitter says "thesis
 
 ---
 
-## 4. Key Metrics
+## 4. Operating Metrics & Sector-Specific Detail
 
-<!-- Source: Screener.in → company page → 5-year data tab. Or run: scripts/fetch_bse_filings.py {BSE_CODE} -->
+<!--
+Note: Core financial metrics (10-yr P&L, balance sheet, cash flow, quarterly
+trend, shareholding, snapshot ratios) live in Summary Verdict → Key Metrics
+& Trends. Section 4 here is for supplementary / sector-specific detail that
+doesn't fit there.
 
-### P&L (Last 4 Years + TTM)
+Examples: order book composition, capacity utilisation by plant, AUM split,
+geographic mix, walk-the-talk track record, segment-level P&L breakdowns.
 
-| Metric | FY[N-3] | FY[N-2] | FY[N-1] | FY[N] | TTM |
-|--------|---------|---------|---------|-------|-----|
-| Revenue (Cr) | | | | | |
-| Revenue Growth % | — | | | | |
-| EBITDA (Cr) | | | | | |
-| EBITDA Margin % | | | | | |
-| Net Profit (Cr) | | | | | |
-| Net Margin % | | | | | |
-| EPS (₹) | | | | | |
-| EPS Growth % | — | | | | |
-
-### Balance Sheet + Returns (Last 4 Years)
-
-| Metric | FY[N-3] | FY[N-2] | FY[N-1] | FY[N] | TTM |
-|--------|---------|---------|---------|-------|-----|
-| Total Debt (Cr) | | | | | |
-| Debt / Equity | | | | | |
-| Cash + Investments (Cr) | | | | | |
-| ROCE % | | | | | |
-| ROE % | | | | | |
-| Capex (Cr) | | | | | |
-| FCF (Cr) | | | | | |
-| Promoter Holding % | | | | | |
+Skip this section entirely if all relevant metrics are already in Summary Verdict.
+-->
 
 ### Key Operating Metrics (sector-specific)
 
@@ -950,13 +1039,22 @@ evidenced by OPM 30% vs industry 15%" is. -->
 
 ---
 
-## Version History
+## Update History
 
-| Version | Date | Description | Link |
-|---------|------|-------------|------|
-| v3 (current) | YYYY-MM-DD | Template v3 — classification system, expanded verdict | This file |
-| v2 | YYYY-MM-DD | Template v2 — compounding Q&A, narrative bull/bear | [archive/{SYMBOL}_v2.md](archive/{SYMBOL}_v2.md) |
-| v1 | YYYY-MM-DD | Original thesis | [archive/{SYMBOL}_v1.md](archive/{SYMBOL}_v1.md) |
+<!--
+Single chronological log. No v1.0 / v1.1 / v2 framing — there is one living thesis,
+edited in place over time. Each entry: date + 1-2 lines on what changed and why.
+
+Only meaningful changes go here (recommendation change, score change, major data
+update from quarterly results, thesis pivot). Cosmetic edits do not.
+
+For major rewrites, archive the prior file to `research/archive/{SYMBOL}_{YYYY-MM-DD}.md`
+and add a line here pointing to it.
+-->
+
+| Date | Update |
+|------|--------|
+| YYYY-MM-DD | Initial research note. Grade X (Y/25). [Recommendation + position size + key call]. [Optional: link to archive if this replaces a prior version.] |
 
 ---
 
