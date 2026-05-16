@@ -1,5 +1,11 @@
 # Research System — TODO
-*Last updated: 2026-05-12*
+*Last updated: 2026-05-16*
+
+---
+
+## ✅ Completed — 2026-05-16
+
+- **VENUSREM initial thesis** — `research/VENUSREM.md` written. Grade B (15/25), **TRACKING POSITION 1-2%** at CMP ₹912. Base FV ₹1,675 (5-yr, +84%), bear ₹412 (-55%), bull ₹3,785 (+315%). PV-discounted asymmetry 1.26x — clears tracking, not full BUY. Full BUY zone <₹700. Core thesis: post-debt-cleanup injectables exporter (carbapenem/meropenem focus); borrowings ₹335 Cr (FY16) → ₹2 Cr (FY25); Q3 FY26 EBITDA margin >20% (multi-quarter high), 9M FY26 PAT +127% YoY on revenue +12%. Three Kamayaka triggers firing (capex, operating leverage, margin expansion). Sharpest concerns: zero concalls / investor presentations for 10+ years (governance/communication overhang), no USFDA for any plant (multiple ceiling), ROE 7%/ROCE 11% on legacy capital block. AMR optionality via Feb 2025 Infex Therapeutics MET-X license (UK partnership). Catalysts: Q4 FY26 results 2026-05-26 (OPM sustain test + possible first dividend in 12 years); MET-X Phase 1/2 readouts; any USFDA filing. Index entry added under watch india section.
 
 ---
 
