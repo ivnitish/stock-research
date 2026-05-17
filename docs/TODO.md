@@ -1,5 +1,14 @@
 # Research System — TODO
-*Last updated: 2026-05-16*
+*Last updated: 2026-05-18*
+
+---
+
+## ✅ Completed — 2026-05-18
+
+- **Multibagger Astral study integrated.** `multibagger_ASTRAL.md` validated APPENDIX 2 — Astral compounded ~20-25x 2014-2022 while trading at 30-50x trailing P/E throughout; PEG 1.0-1.6x most of the run. Four refinements applied to `research/learnings/multibagger_patterns.md` APPENDIX 2 as "Refinements from Astral study (2026-05-12)" sub-section: (1) **Mix-shift duration substitutes for rate** — terminal mix percentage is the criterion, not 200bps/yr threshold (100bps × 9yrs ≈ 200bps × 4yrs); (2) **Distribution density uses company's own disclosure** — track whichever count the company reports consistently, not an imposed definition; (3) **Crisp-event re-rating vs cumulative re-label** — Phase 4.5.4 distinguishes step-function re-ratings (BSE/BAF/APL) from attrition re-ratings (Astral/Cera/Fine Organic), with different position-sizing implications; (4) **Kill signals need corroboration** — single trigger = monitoring signal; ≥2 concurrent triggers needed to confirm runway closed and justify exit (Astral 2022-2024 was a false positive under single-trigger rule). Re-rendered to HTML and pushed to `output/html/`.
+- **Multibagger study index links fixed.** 6 existing rows (MULTIBAGGER pattern synthesis, BSE STUDY, BAF STUDY, TITAN STUDY, PAGE STUDY, APL STUDY) had no `onclick` handler — visible but unclickable since 2026-05-04. All 6 wired to `multibagger_X.html`. New ASTRAL STUDY row added to the same series. Per-study HTML files (multibagger_BSE.html, _BAF.html, _TITAN.html, _PAGE.html, _APLAPOLLO.html, _ASTRAL.html) rendered via background agent and copied to `output/html/` from `research/learnings/`. Updated synthesis card to reflect "6-stock study + APPENDIX 2".
+- **Invisible-links systemic issue identified.** 26 stock-rows in index.html have no onclick (20 in tracking-india section, 6 multibagger rows now fixed). Triage of the remaining 20 (KPITTECH, BRIGADE, FABTECH, NIPPOBATRY, TTKHLTCARE, SAGILITY, URBANCO, POLICYBZR, IZMO, NDTV, CGCL, VSTIND, NETWEB, ZENTEC, SATIN, BHEL, ATHERENERG, DREDGECORP, SOUTHWEST, QQQM) in progress via background agent — output will list per-row recommendation (wire existing / create stub / remove).
+- **Index page declutter proposal in flight.** User flagged page is too cluttered (~50 rows × 15 columns, mostly "—" placeholders for non-held rows). Audit agent producing 3 layout options for selection.
 
 ---
 
