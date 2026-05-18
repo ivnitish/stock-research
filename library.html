@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Library — Frameworks, Journals, Macro</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f7f8fa; color: #1a1a1a; }
+
+  /* ── Header ── */
+  header { background: #1a1a2e; color: white; padding: 20px 20px 18px; }
+  .header-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 6px; }
+  header h1 { font-size: 1.3rem; font-weight: 700; letter-spacing: -0.5px; }
+  header p { color: #9090b0; font-size: 0.78rem; margin-top: 2px; }
+
+  .view-toggle { display: flex; gap: 4px; flex-wrap: wrap; }
+  .view-btn {
+    font-size: 0.72rem; padding: 5px 10px; border-radius: 6px;
+    border: 1px solid rgba(255,255,255,0.25); background: transparent;
+    color: #9090b0; cursor: pointer; transition: all 0.15s;
+    text-decoration: none; display: inline-block;
+  }
+  .view-btn.active { background: rgba(255,255,255,0.15); color: white; border-color: rgba(255,255,255,0.4); }
+
+  /* ── Main container ── */
+  .container { max-width: 1300px; margin: 0 auto; padding: 24px 12px 40px; }
+  .intro {
+    background: white; border: 1px solid #e8e8e8; border-radius: 10px;
+    padding: 14px 18px; margin-bottom: 18px; font-size: 0.85rem; color: #444; line-height: 1.55;
+  }
+  .intro strong { color: #1a1a2e; }
+
+  /* ══════════════════════
+     TABLE VIEW
+  ══════════════════════ */
+  .table-wrap {
+    background: white; border-radius: 12px; border: 1px solid #e8e8e8;
+    overflow-x: clip;
+    -webkit-overflow-scrolling: touch;
+  }
+  @media (max-width: 1000px) {
+    .table-wrap { overflow-x: auto; }
+  }
+
+  table { width: 100%; border-collapse: collapse; min-width: 600px; }
+
+  thead tr { background: #f8f9fb; border-bottom: 2px solid #e8e8e8; }
+  th {
+    padding: 9px 12px; text-align: left; font-size: 0.65rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.8px; color: #666; white-space: nowrap;
+    background: #f8f9fb;
+  }
+
+  .section-row td {
+    background: #f0f2f8; color: #555; font-size: 0.68rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 1px; padding: 7px 12px;
+    border-top: 1px solid #e0e4f0;
+  }
+  .section-row:first-child td { border-top: none; }
+
+  tbody tr.stock-row {
+    cursor: pointer; transition: background 0.1s;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  tbody tr.stock-row:hover { background: #f8f9ff; }
+  tbody tr.stock-row:last-child { border-bottom: none; }
+
+  td { padding: 9px 12px; vertical-align: middle; white-space: nowrap; }
+
+  .td-ticker { font-size: 0.88rem; font-weight: 700; color: #1a1a2e; }
+  .td-company { font-size: 0.7rem; color: #888; margin-top: 2px; white-space: normal; max-width: 360px; font-weight: 400; }
+
+  .grade {
+    display: inline-block; font-size: 0.65rem; font-weight: 700;
+    padding: 2px 7px; border-radius: 10px; white-space: nowrap;
+  }
+  .grade-W { background: #e2e8f0; color: #475569; }
+  .grade-A { background: #d4edda; color: #155724; }
+  .grade-B { background: #fff3cd; color: #856404; }
+
+  .action-tag {
+    font-size: 0.65rem; font-weight: 700; padding: 2px 8px;
+    border-radius: 8px; white-space: nowrap;
+  }
+  .act-ref { background: #f0f0f0; color: #555; }
+  .act-buy { background: #dcfce7; color: #166534; }
+  .act-watch { background: #fef9c3; color: #854d0e; }
+
+  .td-arrow { color: #bbb; font-size: 1rem; text-align: right; padding-right: 10px; }
+  tbody tr.stock-row:hover .td-arrow { color: #1a1a2e; }
+
+  @media (max-width: 640px) {
+    td { padding: 7px 8px; font-size: 0.76rem; white-space: normal; word-break: break-word; }
+    .td-company { font-size: 0.66rem; }
+    .grade { font-size: 0.6rem; padding: 1px 5px; }
+    .action-tag { font-size: 0.6rem; padding: 1px 5px; }
+  }
+
+  footer { text-align: center; color: #aaa; font-size: 0.72rem; padding: 24px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div>
+      <h1>Library</h1>
+      <p>Frameworks · Journals · Macro · Screens · Learning Notes</p>
+    </div>
+    <div class="view-toggle">
+      <a class="view-btn" href="index.html" style="border-color:rgba(255,255,255,0.4);color:white;font-weight:600">← Home</a>
+      <a class="view-btn" href="FOCUS.html" style="border-color:#ef4444;color:#fca5a5;font-weight:700">🎯 Focus</a>
+      <a class="view-btn" href="portfolio.html" style="border-color:#22c55e;color:#22c55e">📊 Portfolio</a>
+      <a class="view-btn" href="INVESTING_PLAYBOOK.html" style="border-color:#3b82f6;color:#93c5fd">📖 Playbook</a>
+      <a class="view-btn" href="DECISION_LOG.html" style="border-color:#f59e0b;color:#f59e0b">📋 Decisions</a>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="intro">
+    <strong>What's in here:</strong> meta-documents that aren't per-stock research — frameworks, methodology notes, macro tracking, weekly journals, screen outputs, portfolio strategy and learning notes. Per-stock research and multi-bagger pattern studies live on the <a href="index.html" style="color:#1d4ed8;text-decoration:none;font-weight:600">homepage</a>.
+  </div>
+
+  <script>
+    function go(url) { window.location.href = url; }
+  </script>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th style="min-width:180px">Document</th>
+          <th>Type</th>
+          <th>Tag</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <!-- ══ MACRO & MARKET NOTES ══ -->
+        <tr class="section-row"><td colspan="4">Macro &amp; Market Notes</td></tr>
+
+        <tr class="stock-row" onclick="go('IRAN_WAR_V2.html')">
+          <td><div class="td-ticker">IRAN WAR v2<div class="td-company">Iran War Analysis — Apr 4, 2026 · Oil · INR · Nifty · Scenarios</div></div></td>
+          <td><span class="grade grade-W" style="background:#fce7f3;color:#9d174d">Macro</span></td>
+          <td><span class="action-tag act-ref">Geopolitical Analysis</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <tr class="stock-row" onclick="go('MARKET_NOTE_MAR2026.html')">
+          <td><div class="td-ticker">MKT NOTE<div class="td-company">Market Note — Mar 2026 · Nifty + HDFC Bank</div></div></td>
+          <td><span class="grade grade-W" style="background:#e0e7ff;color:#3730a3">Note</span></td>
+          <td><span class="action-tag act-ref">Market Analysis</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <tr class="stock-row" onclick="go('NIFTY_VALUATION.html')">
+          <td><div class="td-ticker">NIFTY 50<div class="td-company">Valuation Dashboard — PE/PB Band Framework</div></div></td>
+          <td><span class="grade grade-W">Macro</span></td>
+          <td><span class="action-tag act-ref">Reference</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <tr class="stock-row" onclick="go('MACRO_NOTES.html')">
+          <td><div class="td-ticker">MACRO NOTES<div class="td-company">Rolling Macro Tracker</div></div></td>
+          <td><span class="grade grade-W">Macro</span></td>
+          <td><span class="action-tag act-ref">Reference</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <tr class="stock-row" onclick="go('NIFTY20K_WATCHLIST.html')">
+          <td><div class="td-ticker">NIFTY 20K<div class="td-company">Scenario Buy List</div></div></td>
+          <td><span class="grade grade-W">Scenario</span></td>
+          <td><span class="action-tag act-buy">Deploy at 20K</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <!-- ══ FRAMEWORKS & METHODOLOGY ══ -->
+        <tr class="section-row"><td colspan="4">Frameworks &amp; Methodology</td></tr>
+
+        <tr class="stock-row" onclick="go('VALUATION_FRAMEWORK.html')">
+          <td><div class="td-ticker">VALUATION<div class="td-company">DCF + P/B-ROE Framework</div></div></td>
+          <td><span class="grade grade-W">Methodology</span></td>
+          <td><span class="action-tag act-ref">Reference</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <tr class="stock-row" onclick="go('CONCENTRATION_STRATEGY.html')">
+          <td><div class="td-ticker">CONCENTRATE<div class="td-company">Portfolio Strategy</div></div></td>
+          <td><span class="grade grade-A">Strategy</span></td>
+          <td><span class="action-tag act-buy">Action Plan</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <tr class="stock-row" onclick="go('SECTOR_NUCLEAR_INDIA.html')">
+          <td><div class="td-ticker">NUCLEAR<div class="td-company">India Nuclear Power Sector Thesis</div></div></td>
+          <td><span class="grade grade-W">Sector</span></td>
+          <td><span class="action-tag act-ref">Sector Thesis</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <!-- ══ SCREENS ══ -->
+        <tr class="section-row"><td colspan="4">Screens</td></tr>
+
+        <tr class="stock-row" onclick="go('WATCHLIST_SCREEN_MAR2026.html')">
+          <td><div class="td-ticker">WATCHLIST<div class="td-company">Mar 2026 · 39 stocks</div></div></td>
+          <td><span class="grade grade-W">Screen</span></td>
+          <td><span class="action-tag act-ref">Full screen</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <!-- ══ PORTFOLIO REFLECTION & DECISIONS ══ -->
+        <tr class="section-row"><td colspan="4">Portfolio Reflection &amp; Decisions</td></tr>
+
+        <tr class="stock-row" onclick="go('PORTFOLIO_OVERVIEW.html')">
+          <td><div class="td-ticker">OVERVIEW<div class="td-company">Portfolio Summary — ₹15.21L invested · ₹13.84L current · 41 positions</div></div></td>
+          <td><span class="grade grade-W">Summary</span></td>
+          <td><span class="action-tag act-ref">Reference</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <tr class="stock-row" onclick="go('DECISION_LOG.html')">
+          <td><div class="td-ticker">DECISION LOG<div class="td-company">Portfolio decisions &amp; takeaways — date-wise</div></div></td>
+          <td><span class="grade grade-W">Log</span></td>
+          <td><span class="action-tag act-ref">Running log</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <tr class="stock-row" onclick="go('LOSERS_ANALYSIS.html')">
+          <td><div class="td-ticker">LOSERS<div class="td-company">Portfolio Losers Analysis</div></div></td>
+          <td><span class="grade grade-W">Analysis</span></td>
+          <td><span class="action-tag act-ref">Reference</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <tr class="stock-row" onclick="go('GROWW_vs_ICICIAMC.html')">
+          <td><div class="td-ticker">GROWW vs ICICI<div class="td-company">Broker Comparison</div></div></td>
+          <td><span class="grade grade-W">Comparison</span></td>
+          <td><span class="action-tag act-ref">Reference</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <!-- ══ JOURNALS & LEARNING ══ -->
+        <tr class="section-row"><td colspan="4">Journals &amp; Learning</td></tr>
+
+        <tr class="stock-row" onclick="go('2026-W11.html')">
+          <td><div class="td-ticker">W11 JOURNAL<div class="td-company">Weekly Review Mar 9–15</div></div></td>
+          <td><span class="grade grade-W">Journal</span></td>
+          <td><span class="action-tag act-ref">Review</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+        <tr class="stock-row" onclick="go('Kamayaka_Research_Value_Investing_summary.html')">
+          <td><div class="td-ticker">KAMAYAKA<div class="td-company">Value Investing Webinar — Nita (Kamayaka Research)</div></div></td>
+          <td><span class="grade grade-W">Learning</span></td>
+          <td><span class="action-tag act-ref">Learnings &amp; Framework</span></td>
+          <td class="td-arrow">›</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<footer>
+  Library · meta-documents alongside per-stock research at <a href="index.html" style="color:#999;text-decoration:none">home</a>.
+</footer>
+
+</body>
+</html>
