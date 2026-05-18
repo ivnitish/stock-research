@@ -1,5 +1,20 @@
 # Research System — TODO
-*Last updated: 2026-05-18*
+*Last updated: 2026-05-19*
+
+---
+
+## ✅ Completed — 2026-05-19
+
+- **Index page declutter (Proposal B+A) — complete.** Full restructure of `output/html/index.html`:
+  - **B (sections):** Built new `output/html/library.html` with 15 meta-doc rows (Macro, Market Notes, Screens, Frameworks, Decisions, Journals, Learning) moved off the homepage. Linked via "📚 Library" in header nav.
+  - **A (columns):** Trimmed from 16 columns to 7 — kept Ticker, Grade, Action, CMP, P&L%, Target·Mult (combined), arrow. Dropped Qty, Avg, Δ/share, Invested, Current, P&L₹, CMP-Ref, Buy-Zone. 87 rows transformed. ~21% line reduction (2480 → 1954).
+  - **Holdings rebuilt against portfolio.csv as source of truth:** 6 stale held rows (GROWW, KAYNES, SHAKTIPUMP, NAVA, RSYSTEMS, PARADEEP — all exited but cells never cleared) cleared and evicted to Watchlist section. BSE and RAILTEL also evicted (researched but not held). Total 8 rows moved to Watchlist.
+  - **Held block sorted by current value desc** (user explicitly said "not by grade"). Single "INDIAN HOLDINGS" banner replaces the previous Grade A / Grade B 19/25 / Grade B 18/25 / Grade B 17/25 / Grade C / Tracking sub-banners. Top 5 holdings by value: EPACKPEB, RAYMOND, KERNEX, NEWGEN, THRIVE.
+  - **Totals reconciled to portfolio.csv:** Header pf-strip and footer TOTAL row both show ₹11.62L invested, ₹12.62L current, +₹1.00L (+8.61%), 23 holdings, dated 19-May-2026. Previously off by ₹1.4-3.6L because of the 6 stale held rows + stale hardcoded values.
+  - **Nav dedup:** Removed the `👁 Portfolio` toggle button (column-trim made it redundant). Single `📊 Portfolio` link to `portfolio.html` remains.
+  - 14 watchlist-no-thesis rows (KPITTECH, BRIGADE, FABTECH, NIPPOBATRY, TTKHLTCARE, SAGILITY, URBANCO, POLICYBZR, IZMO, NDTV, CGCL, VSTIND, NETWEB, SATIN) removed from index entirely — no research, no holding, just cruft.
+  - 4 monitor-position stub research files created (ATHERENERG, BHEL, ZENTEC, SOUTHWEST) so all index links resolve. DREDGECORP onclick wired to existing research file. Only QQQM (US ETF info row) intentionally remains without an onclick.
+- **Scripts added** to `src/` for repeatability: `declutter_index.py` (row removal + onclick wiring), `fix_index_totals.py` (CSV reconciliation + strip/footer update), `trim_index_columns.py` (16→7 column transform), `rebuild_held_block.py` (rebuilds held block from CSV with sort), `sort_index_by_amount.py` (earlier iteration, kept for reference).
 
 ---
 
