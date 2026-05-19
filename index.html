@@ -258,18 +258,57 @@
 
   <div class="filters">
     <button class="filter-btn active" onclick="filter('all', this)">All</button>
-    <button class="filter-btn" onclick="filter('india', this)">India</button>
+    <button class="filter-btn accent" onclick="filter('holdings', this)">📊 Holdings (23)</button>
+    <button class="filter-btn accent" onclick="filter('buy', this)">🎯 Buy candidates</button>
+    <button class="filter-btn" onclick="filter('add', this)">Add to existing</button>
+    <button class="filter-btn" onclick="filter('watch', this)">Researched · not held</button>
     <button class="filter-btn" onclick="filter('us', this)">US</button>
-    <button class="filter-btn" onclick="filter('grade-a', this)">Grade A</button>
-    <button class="filter-btn" onclick="filter('grade-b', this)">Grade B</button>
-    <button class="filter-btn" onclick="filter('grade-c', this)">Grade C</button>
-    <button class="filter-btn accent" onclick="filter('add', this)">Add Candidates</button>
-    <button class="filter-btn accent" onclick="filter('avg', this)">Avg Down</button>
-    <button class="filter-btn" onclick="filter('exit', this)">Exit List</button>
-    <button class="filter-btn" onclick="filter('watch', this)">Watchlist</button>
-    <button class="filter-btn" onclick="filter('tracking', this)">Tracking (1 share)</button>
   </div>
 </header>
+
+  <!-- BUY CANDIDATES BLOCK -->
+  <section style="max-width:1200px;margin:8px auto 18px;padding:0 16px">
+    <div style="background:linear-gradient(135deg,#fef3c7 0%,#fef9c3 100%);border:1px solid #fde68a;border-radius:12px;padding:18px 22px 14px;font-family:-apple-system,sans-serif">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:12px">
+        <div>
+          <h2 style="margin:0;font-size:1.1rem;font-weight:700;color:#78350f">🎯 Top Buy Candidates — pick when you have time</h2>
+          <p style="margin:3px 0 0;font-size:0.75rem;color:#92400e">Ranked by grade · recommendation strength · upside vs CMP. Click any row to open the research note.</p>
+        </div>
+        <span style="font-size:0.7rem;color:#92400e">Top 12 of 44 actionable</span>
+      </div>
+      <div style="background:white;border-radius:8px;overflow:hidden">
+      <table style="width:100%;border-collapse:collapse;font-family:-apple-system,sans-serif">
+        <thead>
+          <tr style="background:#1a1a2e;color:#e2e8f0;font-size:0.7rem;text-transform:uppercase;letter-spacing:0.05em">
+            <th style="padding:8px 8px 8px 14px;text-align:left">#</th>
+            <th style="padding:8px 8px;text-align:left">Stock</th>
+            <th style="padding:8px 8px;text-align:left">Grade</th>
+            <th style="padding:8px 8px;text-align:left">Type</th>
+            <th style="padding:8px 8px;text-align:left">Action</th>
+            <th style="padding:8px 8px;text-align:right">CMP</th>
+            <th style="padding:8px 8px;text-align:right">Target</th>
+            <th style="padding:8px 14px 8px 8px;text-align:right">Upside</th>
+          </tr>
+        </thead>
+        <tbody>
+<tr style="border-bottom:1px solid #f1f5f9;cursor:pointer" onclick="window.location.href='EPACKPEB.html'" onmouseover="this.style.background='#f8fafc'" onmouseout="this.style.background='transparent'"><td style="padding:9px 8px 9px 14px;color:#94a3b8;font-size:0.78rem;font-weight:600">#1</td><td style="padding:9px 8px"><b style="font-size:0.92rem;color:#0f172a">EPACKPEB</b><div style="font-size:0.74rem;color:#64748b;margin-top:1px">EPACK Prefab</div></td><td style="padding:9px 8px"><span style="background:#fff3cd;color:#856404;font-size:0.7rem;font-weight:700;padding:2px 7px;border-radius:10px">B · 17/25</span></td><td style="padding:9px 8px"><span style="background:#cffafe;color:#0891b2;font-size:0.68rem;font-weight:700;padding:3px 8px;border-radius:4px">ADD</span></td><td style="padding:9px 8px;font-size:0.78rem;color:#334155">ADD &lt;₹155 · add zone</td><td style="padding:9px 8px;font-size:0.78rem;color:#64748b;text-align:right">₹200.22</td><td style="padding:9px 8px;font-size:0.78rem;text-align:right">₹800</td><td style="padding:9px 14px 9px 8px;text-align:right;font-weight:700;color:#166534;font-size:0.85rem">+300%</td></tr>
+          <tr style="border-bottom:1px solid #f1f5f9;cursor:pointer" onclick="window.location.href='NEWGEN.html'" onmouseover="this.style.background='#f8fafc'" onmouseout="this.style.background='transparent'"><td style="padding:9px 8px 9px 14px;color:#94a3b8;font-size:0.78rem;font-weight:600">#2</td><td style="padding:9px 8px"><b style="font-size:0.92rem;color:#0f172a">NEWGEN</b><div style="font-size:0.74rem;color:#64748b;margin-top:1px">Newgen Software</div></td><td style="padding:9px 8px"><span style="background:#fff3cd;color:#856404;font-size:0.7rem;font-weight:700;padding:2px 7px;border-radius:10px">B · 18/25</span></td><td style="padding:9px 8px"><span style="background:#cffafe;color:#0891b2;font-size:0.68rem;font-weight:700;padding:3px 8px;border-radius:4px">ADD</span></td><td style="padding:9px 8px;font-size:0.78rem;color:#334155">Hold · Add &lt;₹430</td><td style="padding:9px 8px;font-size:0.78rem;color:#64748b;text-align:right">₹459</td><td style="padding:9px 8px;font-size:0.78rem;text-align:right">₹1,043</td><td style="padding:9px 14px 9px 8px;text-align:right;font-weight:700;color:#166534;font-size:0.85rem">+127%</td></tr>
+          <tr style="border-bottom:1px solid #f1f5f9;cursor:pointer" onclick="window.location.href='BOSCHLTD.html'" onmouseover="this.style.background='#f8fafc'" onmouseout="this.style.background='transparent'"><td style="padding:9px 8px 9px 14px;color:#94a3b8;font-size:0.78rem;font-weight:600">#3</td><td style="padding:9px 8px"><b style="font-size:0.92rem;color:#0f172a">BOSCHLTD</b><div style="font-size:0.74rem;color:#64748b;margin-top:1px">Bosch Limited</div></td><td style="padding:9px 8px"><span style="background:#d4edda;color:#155724;font-size:0.7rem;font-weight:700;padding:2px 7px;border-radius:10px">A– 19/25</span></td><td style="padding:9px 8px"><span style="background:#dcfce7;color:#16a34a;font-size:0.68rem;font-weight:700;padding:3px 8px;border-radius:4px">BUY</span></td><td style="padding:9px 8px;font-size:0.78rem;color:#334155">Watch · Buy &lt;₹26k</td><td style="padding:9px 8px;font-size:0.78rem;color:#64748b;text-align:right">—</td><td style="padding:9px 8px;font-size:0.78rem;text-align:right">₹28,000</td><td style="padding:9px 14px 9px 8px;text-align:right;font-weight:700;color:#666;font-size:0.85rem">—</td></tr>
+          <tr style="border-bottom:1px solid #f1f5f9;cursor:pointer" onclick="window.location.href='BSE.html'" onmouseover="this.style.background='#f8fafc'" onmouseout="this.style.background='transparent'"><td style="padding:9px 8px 9px 14px;color:#94a3b8;font-size:0.78rem;font-weight:600">#4</td><td style="padding:9px 8px"><b style="font-size:0.92rem;color:#0f172a">BSE</b><div style="font-size:0.74rem;color:#64748b;margin-top:1px">BSE Ltd</div></td><td style="padding:9px 8px"><span style="background:#d4edda;color:#155724;font-size:0.7rem;font-weight:700;padding:2px 7px;border-radius:10px">A · 21/25</span></td><td style="padding:9px 8px"><span style="background:#dcfce7;color:#16a34a;font-size:0.68rem;font-weight:700;padding:3px 8px;border-radius:4px">BUY</span></td><td style="padding:9px 8px;font-size:0.78rem;color:#334155">Buy phased &lt;₹3,200</td><td style="padding:9px 8px;font-size:0.78rem;color:#64748b;text-align:right">—</td><td style="padding:9px 8px;font-size:0.78rem;text-align:right">₹6,800</td><td style="padding:9px 14px 9px 8px;text-align:right;font-weight:700;color:#666;font-size:0.85rem">—</td></tr>
+          <tr style="border-bottom:1px solid #f1f5f9;cursor:pointer" onclick="window.location.href='us/MSFT.html'" onmouseover="this.style.background='#f8fafc'" onmouseout="this.style.background='transparent'"><td style="padding:9px 8px 9px 14px;color:#94a3b8;font-size:0.78rem;font-weight:600">#5</td><td style="padding:9px 8px"><b style="font-size:0.92rem;color:#0f172a">MSFT</b><div style="font-size:0.74rem;color:#64748b;margin-top:1px">Microsoft Corp</div></td><td style="padding:9px 8px"><span style="background:#d4edda;color:#155724;font-size:0.7rem;font-weight:700;padding:2px 7px;border-radius:10px">A · 20/25</span></td><td style="padding:9px 8px"><span style="background:#dcfce7;color:#16a34a;font-size:0.68rem;font-weight:700;padding:3px 8px;border-radius:4px">BUY</span></td><td style="padding:9px 8px;font-size:0.78rem;color:#334155">BUY $340–370</td><td style="padding:9px 8px;font-size:0.78rem;color:#64748b;text-align:right">—</td><td style="padding:9px 8px;font-size:0.78rem;text-align:right">$555</td><td style="padding:9px 14px 9px 8px;text-align:right;font-weight:700;color:#666;font-size:0.85rem">—</td></tr>
+          <tr style="border-bottom:1px solid #f1f5f9;cursor:pointer" onclick="window.location.href='SAKSOFT.html'" onmouseover="this.style.background='#f8fafc'" onmouseout="this.style.background='transparent'"><td style="padding:9px 8px 9px 14px;color:#94a3b8;font-size:0.78rem;font-weight:600">#6</td><td style="padding:9px 8px"><b style="font-size:0.92rem;color:#0f172a">SAKSOFT</b><div style="font-size:0.74rem;color:#64748b;margin-top:1px">Saksoft Ltd</div></td><td style="padding:9px 8px"><span style="background:#fff3cd;color:#856404;font-size:0.7rem;font-weight:700;padding:2px 7px;border-radius:10px">B · 16/25</span></td><td style="padding:9px 8px"><span style="background:#cffafe;color:#0891b2;font-size:0.68rem;font-weight:700;padding:3px 8px;border-radius:4px">ADD</span></td><td style="padding:9px 8px;font-size:0.78rem;color:#334155">Add below ₹115</td><td style="padding:9px 8px;font-size:0.78rem;color:#64748b;text-align:right">₹140.15</td><td style="padding:9px 8px;font-size:0.78rem;text-align:right">₹320</td><td style="padding:9px 14px 9px 8px;text-align:right;font-weight:700;color:#166534;font-size:0.85rem">+128%</td></tr>
+          <tr style="border-bottom:1px solid #f1f5f9;cursor:pointer" onclick="window.location.href='ABB.html'" onmouseover="this.style.background='#f8fafc'" onmouseout="this.style.background='transparent'"><td style="padding:9px 8px 9px 14px;color:#94a3b8;font-size:0.78rem;font-weight:600">#7</td><td style="padding:9px 8px"><b style="font-size:0.92rem;color:#0f172a">ABB</b><div style="font-size:0.74rem;color:#64748b;margin-top:1px">ABB India</div></td><td style="padding:9px 8px"><span style="background:#fff3cd;color:#856404;font-size:0.7rem;font-weight:700;padding:2px 7px;border-radius:10px">B · 18/25</span></td><td style="padding:9px 8px"><span style="background:#dcfce7;color:#16a34a;font-size:0.68rem;font-weight:700;padding:3px 8px;border-radius:4px">BUY</span></td><td style="padding:9px 8px;font-size:0.78rem;color:#334155">Watch · Buy &lt;₹5,500</td><td style="padding:9px 8px;font-size:0.78rem;color:#64748b;text-align:right">—</td><td style="padding:9px 8px;font-size:0.78rem;text-align:right">₹9,000</td><td style="padding:9px 14px 9px 8px;text-align:right;font-weight:700;color:#666;font-size:0.85rem">—</td></tr>
+          <tr style="border-bottom:1px solid #f1f5f9;cursor:pointer" onclick="window.location.href='IEX.html'" onmouseover="this.style.background='#f8fafc'" onmouseout="this.style.background='transparent'"><td style="padding:9px 8px 9px 14px;color:#94a3b8;font-size:0.78rem;font-weight:600">#8</td><td style="padding:9px 8px"><b style="font-size:0.92rem;color:#0f172a">IEX</b><div style="font-size:0.74rem;color:#64748b;margin-top:1px">Indian Energy Exchange</div></td><td style="padding:9px 8px"><span style="background:#fff3cd;color:#856404;font-size:0.7rem;font-weight:700;padding:2px 7px;border-radius:10px">B · 18/25</span></td><td style="padding:9px 8px"><span style="background:#dcfce7;color:#16a34a;font-size:0.68rem;font-weight:700;padding:3px 8px;border-radius:4px">BUY</span></td><td style="padding:9px 8px;font-size:0.78rem;color:#334155">Watch · Buy &lt;₹120</td><td style="padding:9px 8px;font-size:0.78rem;color:#64748b;text-align:right">—</td><td style="padding:9px 8px;font-size:0.78rem;text-align:right">₹194</td><td style="padding:9px 14px 9px 8px;text-align:right;font-weight:700;color:#666;font-size:0.85rem">—</td></tr>
+          <tr style="border-bottom:1px solid #f1f5f9;cursor:pointer" onclick="window.location.href='ITC.html'" onmouseover="this.style.background='#f8fafc'" onmouseout="this.style.background='transparent'"><td style="padding:9px 8px 9px 14px;color:#94a3b8;font-size:0.78rem;font-weight:600">#9</td><td style="padding:9px 8px"><b style="font-size:0.92rem;color:#0f172a">ITC</b><div style="font-size:0.74rem;color:#64748b;margin-top:1px">ITC Limited</div></td><td style="padding:9px 8px"><span style="background:#fff3cd;color:#856404;font-size:0.7rem;font-weight:700;padding:2px 7px;border-radius:10px">B · 19/25</span></td><td style="padding:9px 8px"><span style="background:#dcfce7;color:#16a34a;font-size:0.68rem;font-weight:700;padding:3px 8px;border-radius:4px">BUY</span></td><td style="padding:9px 8px;font-size:0.78rem;color:#334155">Watch · Buy &lt;₹270</td><td style="padding:9px 8px;font-size:0.78rem;color:#64748b;text-align:right">—</td><td style="padding:9px 8px;font-size:0.78rem;text-align:right">₹384</td><td style="padding:9px 14px 9px 8px;text-align:right;font-weight:700;color:#666;font-size:0.85rem">—</td></tr>
+          <tr style="border-bottom:1px solid #f1f5f9;cursor:pointer" onclick="window.location.href='ICICIAMC.html'" onmouseover="this.style.background='#f8fafc'" onmouseout="this.style.background='transparent'"><td style="padding:9px 8px 9px 14px;color:#94a3b8;font-size:0.78rem;font-weight:600">#10</td><td style="padding:9px 8px"><b style="font-size:0.92rem;color:#0f172a">ICICIAMC</b><div style="font-size:0.74rem;color:#64748b;margin-top:1px">ICICI Pru AMC</div></td><td style="padding:9px 8px"><span style="background:#d4edda;color:#155724;font-size:0.7rem;font-weight:700;padding:2px 7px;border-radius:10px">A · 20/25</span></td><td style="padding:9px 8px"><span style="background:#cffafe;color:#0891b2;font-size:0.68rem;font-weight:700;padding:3px 8px;border-radius:4px">ADD</span></td><td style="padding:9px 8px;font-size:0.78rem;color:#334155">Add &lt;₹2,400</td><td style="padding:9px 8px;font-size:0.78rem;color:#64748b;text-align:right">₹3,290</td><td style="padding:9px 8px;font-size:0.78rem;text-align:right">₹3,520</td><td style="padding:9px 14px 9px 8px;text-align:right;font-weight:700;color:#666;font-size:0.85rem">+7%</td></tr>
+          <tr style="border-bottom:1px solid #f1f5f9;cursor:pointer" onclick="window.location.href='VENUSREM.html'" onmouseover="this.style.background='#f8fafc'" onmouseout="this.style.background='transparent'"><td style="padding:9px 8px 9px 14px;color:#94a3b8;font-size:0.78rem;font-weight:600">#11</td><td style="padding:9px 8px"><b style="font-size:0.92rem;color:#0f172a">VENUSREM</b><div style="font-size:0.74rem;color:#64748b;margin-top:1px">Venus Remedies (Injectable pharma · FDA QIDP for VRP-034 polymyxin)</div></td><td style="padding:9px 8px"><span style="background:#fff3cd;color:#856404;font-size:0.7rem;font-weight:700;padding:2px 7px;border-radius:10px">B · 18/25</span></td><td style="padding:9px 8px"><span style="background:#dcfce7;color:#16a34a;font-size:0.68rem;font-weight:700;padding:3px 8px;border-radius:4px">BUY</span></td><td style="padding:9px 8px;font-size:0.78rem;color:#334155">Buy reduced 3-4% · Build &lt;₹780</td><td style="padding:9px 8px;font-size:0.78rem;color:#64748b;text-align:right">—</td><td style="padding:9px 8px;font-size:0.78rem;text-align:right">₹1,675</td><td style="padding:9px 14px 9px 8px;text-align:right;font-weight:700;color:#666;font-size:0.85rem">—</td></tr>
+          <tr style="border-bottom:1px solid #f1f5f9;cursor:pointer" onclick="window.location.href='JUSTDIAL.html'" onmouseover="this.style.background='#f8fafc'" onmouseout="this.style.background='transparent'"><td style="padding:9px 8px 9px 14px;color:#94a3b8;font-size:0.78rem;font-weight:600">#12</td><td style="padding:9px 8px"><b style="font-size:0.92rem;color:#0f172a">JUSTDIAL</b><div style="font-size:0.74rem;color:#64748b;margin-top:1px">Just Dial</div></td><td style="padding:9px 8px"><span style="background:#fff3cd;color:#856404;font-size:0.7rem;font-weight:700;padding:2px 7px;border-radius:10px">B · 17/25</span></td><td style="padding:9px 8px"><span style="background:#dcfce7;color:#16a34a;font-size:0.68rem;font-weight:700;padding:3px 8px;border-radius:4px">BUY</span></td><td style="padding:9px 8px;font-size:0.78rem;color:#334155">BUY ₹526</td><td style="padding:9px 8px;font-size:0.78rem;color:#64748b;text-align:right">—</td><td style="padding:9px 8px;font-size:0.78rem;text-align:right">₹963</td><td style="padding:9px 14px 9px 8px;text-align:right;font-weight:700;color:#666;font-size:0.85rem">—</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+  </section>
+
 
 <div class="container">
 
@@ -315,7 +354,7 @@
           <td class="col-hide-sm"><span class="action-tag act-add">ADD &lt;₹155 · add zone</span></td>
           <td class="col-hide-sm num-cell">₹200.22</td>
           <td class="num-cell pl-gain">+8.82%</td>
-          <td class="col-hide-sm num-cell" style="color:#666">₹800 · 5x+</td>
+          <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">₹800 · +300%</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('RAYMOND.html')">
@@ -324,7 +363,7 @@
           <td class="col-hide-sm"><span class="action-tag act-hold">Hold · add ₹400-450</span></td>
           <td class="col-hide-sm num-cell">₹465.80</td>
           <td class="num-cell num-dim">+27.84%</td>
-          <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">₹530 · 0.31x</td>
+          <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">₹530 · +14%</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" data-action="avg" onclick="go('KERNEX.html')">
@@ -333,7 +372,7 @@
           <td class="col-hide-sm"><span class="action-tag act-hold">Hold · add only &lt;₹750</span></td>
           <td class="col-hide-sm num-cell">₹1,349</td>
           <td class="num-cell pl-gain">+19.86%</td>
-          <td class="col-hide-sm num-cell" style="color:#666">₹1,444 · 2.7x</td>
+          <td class="col-hide-sm num-cell" style="color:#666">₹1,444 · +7%</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" data-action="add" onclick="go('NEWGEN.html')">
@@ -342,7 +381,7 @@
           <td class="col-hide-sm"><span class="action-tag act-hold">Hold · Add &lt;₹430</span></td>
           <td class="col-hide-sm num-cell">₹459</td>
           <td class="num-cell pl-gain">+2.5%</td>
-          <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">₹1,043 · 2.3x</td>
+          <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">₹1,043 · +127%</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-c india" data-grade="c" onclick="go('THRIVE.html')">
@@ -351,7 +390,7 @@
           <td class="col-hide-sm"><span class="action-tag act-watch">Watch · 0.5% max</span></td>
           <td class="col-hide-sm num-cell num-dim">₹121.99</td>
           <td class="num-cell pl-loss">-8.60%</td>
-          <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹90</td>
+          <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹90 · -26%</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('ANANTRAJ.html')">
@@ -360,7 +399,7 @@
           <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
           <td class="col-hide-sm num-cell">₹486.90</td>
           <td class="num-cell pl-gain">+5.66%</td>
-          <td class="col-hide-sm num-cell" style="color:#666">₹660</td>
+          <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">₹660 · +36%</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-c india" data-grade="c" data-action="trim" onclick="go('ARTEMISMED.html')">
@@ -369,7 +408,7 @@
           <td class="col-hide-sm"><span class="action-tag act-hold">Hold · trim to 2%</span></td>
           <td class="col-hide-sm num-cell">₹244.13</td>
           <td class="num-cell pl-gain">+3.15%</td>
-          <td class="col-hide-sm num-cell" style="color:#666">₹279 · 1.2x</td>
+          <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">₹279 · +14%</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('GRSE.html')">
@@ -378,7 +417,7 @@
           <td class="col-hide-sm"><span class="action-tag act-hold">Hold · trim above ₹3,000 if NGC unsigned</span></td>
           <td class="col-hide-sm num-cell">₹2,931</td>
           <td class="num-cell pl-gain">+29.26%</td>
-          <td class="col-hide-sm num-cell" style="color:#666">₹2,459 · 1.1x</td>
+          <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹2,459 · -16%</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" data-action="add" onclick="go('SAKSOFT.html')">
@@ -387,7 +426,7 @@
           <td class="col-hide-sm"><span class="action-tag act-add">Add below ₹115</span></td>
           <td class="col-hide-sm num-cell">₹140.15</td>
           <td class="num-cell pl-gain">+8.30%</td>
-          <td class="col-hide-sm num-cell" style="color:#666">₹320</td>
+          <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">₹320 · +128%</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" data-action="avg" onclick="go('BANCOINDIA.html')">
@@ -396,7 +435,7 @@
           <td class="col-hide-sm"><span class="action-tag act-add">Avg below ₹530</span></td>
           <td class="col-hide-sm num-cell">₹618.55</td>
           <td class="num-cell pl-gain">+4.93%</td>
-          <td class="col-hide-sm num-cell" style="color:#666">₹701 · 1.3x</td>
+          <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">₹701 · +13%</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" onclick="go('SHILCTECH.html')">
@@ -405,7 +444,7 @@
           <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
           <td class="col-hide-sm num-cell">₹5,161</td>
           <td class="num-cell pl-gain">+13.18%</td>
-          <td class="col-hide-sm num-cell" style="color:#666">₹3,596 · 1.0x</td>
+          <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹3,596 · -30%</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-b india" data-grade="b" data-action="hold" onclick="go('NESCO.html')">
@@ -423,7 +462,7 @@
           <td class="col-hide-sm"><span class="action-tag act-watch">Hold — Q4 review</span></td>
           <td class="col-hide-sm num-cell">₹247.03</td>
           <td class="num-cell pl-loss">-26.77%</td>
-          <td class="col-hide-sm num-cell" style="color:#666">₹218 · 2.4x</td>
+          <td class="col-hide-sm num-cell" style="color:#991b1b;font-weight:600">₹218 · -12%</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-a india" data-grade="a" data-action="add" onclick="go('ICICIAMC.html')">
@@ -432,7 +471,7 @@
           <td class="col-hide-sm"><span class="action-tag act-add">Add &lt;₹2,400</span></td>
           <td class="col-hide-sm num-cell">₹3,290</td>
           <td class="num-cell pl-gain">+51.97%</td>
-          <td class="col-hide-sm num-cell" style="color:#666">₹3,520 · 1.2x</td>
+          <td class="col-hide-sm num-cell" style="color:#666">₹3,520 · +7%</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="grade-c india" data-grade="c" data-action="exit" onclick="go('SWIGGY.html')">
@@ -441,7 +480,7 @@
           <td class="col-hide-sm"><span class="action-tag act-exit">Exit · harvest loss</span></td>
           <td class="col-hide-sm num-cell">₹270.30</td>
           <td class="num-cell pl-loss">-52.18%</td>
-          <td class="col-hide-sm num-cell" style="color:#666">₹385 · 4.5x</td>
+          <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">₹385 · +42%</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="tracking india" data-grade="w" onclick="go('INTEGRATEDIND.html')">
@@ -525,7 +564,7 @@
           <td class="col-hide-sm"><span class="action-tag act-hold">Hold</span></td>
           <td class="col-hide-sm num-cell">$183.12</td>
           <td class="num-cell pl-loss">-5.36%</td>
-          <td class="col-hide-sm num-cell" style="color:#666">$1,210</td>
+          <td class="col-hide-sm num-cell" style="color:#166534;font-weight:600">$1,210 · +561%</td>
           <td class="td-arrow">›</td>
         </tr>
         <tr class="stock-row" data-section="us" data-grade="w" onclick="go('us/AMD.html')">
@@ -1737,16 +1776,32 @@
       const sec = r.dataset.section || '';
       const grade = r.dataset.grade || '';
       const action = r.dataset.action || '';
+      const actionTagEl = r.querySelector('.action-tag');
+      const actionText = (actionTagEl ? actionTagEl.textContent : '').toLowerCase();
 
       let show = false;
-      if (key === 'india') show = sec.includes('india');
-      else if (key === 'us') show = sec.includes('us');
-      else if (key === 'grade-a') show = grade === 'a';
-      else if (key === 'grade-b') show = grade === 'b';
-      else if (key === 'grade-c') show = grade === 'c';
-      else if (key === 'add') show = action === 'add';
-      else if (key === 'exit') show = action === 'exit';
-      else if (key === 'watch') show = sec.startsWith('watch');
+      if (key === 'holdings') {
+        // India + US held sections (not watch, not multibagger)
+        show = sec === 'grade-a india' || sec === 'grade-b india' || sec === 'grade-c india'
+            || sec === 'tracking india' || sec === 'us';
+      } else if (key === 'buy') {
+        // Buy-flavoured action: buy, add, avg (excluding hold·X-only and watch-only)
+        show = /\bbuy\b|^buy|add|avg|speculative/.test(actionText)
+            && !/exit|sold|avoid/.test(actionText);
+      } else if (key === 'add') {
+        // Existing holding to add to
+        show = (action === 'add' || /add|avg/.test(actionText))
+            && (sec.startsWith('grade-') || sec === 'tracking india' || sec === 'us');
+      } else if (key === 'watch') {
+        // Researched but not held
+        show = sec.startsWith('watch');
+      } else if (key === 'us') {
+        show = sec.includes('us');
+      } else if (key === 'india') {
+        show = sec.includes('india');
+      } else if (key === 'exit') {
+        show = action === 'exit' || /exit|sold|avoid/.test(actionText);
+      }
       r.style.display = show ? '' : 'none';
     });
 
