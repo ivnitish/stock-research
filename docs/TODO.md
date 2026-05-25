@@ -20,13 +20,11 @@
   - **Updated SOTP**: base ₹1,100-1,200 (3x from ₹364 entry), bull ₹1,500-1,800 (4x), stretch 5y with aerospace pure-play SOTP unlock ₹2,000-2,500 (5-6x from entry)
   - **Position-size action**: add ~90 sh in ₹460-475 zone (funded from EPACKPEB trim above); takes RAYMOND from 11.1% → ~14% of portfolio. Don't pay above ₹500.
 
-### Pending (created this session, queued for action)
+### Pending repo tasks (broker-side stock repositioning is user's own; not tracked here)
 
-- **Execute EPACK trim** — sell 400 sh @ ₹200-210 next session. Broker-side action.
-- **Execute RAYMOND add** — buy ~90 sh ₹460-475 next session. Broker-side action.
-- **Tail cleanup orders** — ETERNAL exit (~₹24K), SWIGGY exit (~₹13K, already decided), THRIVE exit decision (~₹99K, target -9.6% CAGR), SHILCTECH exit (~₹31K), 8 token positions cleanup (~₹4K). Frees ~₹1.7L for redeployment into multi-bagger top-5 names.
-- **SAKSOFT verification** — portfolio model shows +31.7% expected CAGR (highest after EPACKPEB); but currently only 5% weight. If thesis verifies, candidate for 10% slot in top-5 multi-bagger basket. Refresh research file.
-- **BANCOINDIA deep refresh** — owned position 4.9% with shallow research file. Refresh thesis depth.
+- **SAKSOFT thesis verification** — portfolio model shows +31.7% expected CAGR (highest after EPACKPEB); currently only 5% weight. Refresh research file to verify whether thesis supports promoting to a 10% slot in top-5 multi-bagger basket.
+- **BANCOINDIA deep refresh** — owned position 4.9% with shallow research file; user previously flagged as priority refresh.
+- **NEWGEN Q1 FY27 working-capital normalisation check** — research file has open monitor: working capital days exploded 72d → 244d in Q4 FY26; needs to drop back <200d in Q1 FY27 print for the deep-dive A diagnostic to close cleanly.
 
 ---
 
