@@ -1,5 +1,43 @@
 # Research System — TODO
-*Last updated: 2026-05-19*
+*Last updated: 2026-05-25*
+
+---
+
+## ✅ Completed — 2026-05-25
+
+- **Portfolio model targets refresh** — `src/valuation_dashboard.py` TARGETS dict updated for three stale entries flagged in this session: **RAYMOND ₹493 → ₹1,100** (post-realty-demerger SOTP base; aerospace + auto components only — old target was set before clean post-demerger numbers); **EPACKPEB ₹800 → ₹500** (de-rate is done, from here PAT-growth play not multiple-expansion play; ₹800 needed margin breakout to 13-14% AND multiple staying at 25-30x while sector de-rates — aggressive); **KERNEX ₹1,444 → ₹1,800** (base case at P/E 30x FY29E; explicit caution: don't add above ₹1,050, trailing 43x already rich). Method strings document the reasoning.
+
+- **EPACKPEB research file refresh** — `research/EPACKPEB.md` log entry for 2026-05-25: corrected position-size header (was 451 sh / ₹195 avg from older snapshot, actual is **1,451 sh at ₹183.99 avg, 23.0% of portfolio**, +8.8% in profit). Folded in Q4 FY26 + FY26 print (revenue ₹1,525 Cr +34%, PAT ₹93 Cr +56%, OPM stuck at 10% all four quarters — margin breakout failed empirically). Peer comp table vs INTERARCH and PENIND (corrects earlier overstatement that "peers at 13-15% OPM" — actual PEB sector is 9-11% structural). PEB sector de-rate diagnosis (P/E 57x → 22x is multiple compression, not earnings collapse; largely done from here). Revised multi-bagger math from ₹184 entry: base 2.5x (₹460-500), bull 3.5-3.8x (₹650-700). Position-size decision: **trim 400 sh @ ₹200-210 to drop to 17%**, redeploy ~₹80K (₹42K → RAYMOND add, ₹35K → NEWGEN dry powder <₹430). Q1 FY27 thesis test rules: OPM ≥12% AND order book cover >0.8x ⇒ upgrade; OPM <11% AND cover <0.7x ⇒ exit residual to ~5%.
+
+- **KERNEX research file refresh** — `research/KERNEX.md` log entry for 2026-05-25: B- borderline-multibagger scrutiny under 80%-in-top-5 concentration mandate. CMP ₹1,351 (mcap ₹2,271 Cr), P/E **43.1x trailing** (already very rich), P/B 13.1x, ROE 38% / ROCE 23.8% / OPM 23% (excellent), order book ₹2,704 Cr (~10x FY25 revenue), April 2026 BLW + PLW Kavach wins ₹158 Cr. Honest multi-bagger math from ₹1,125 entry: base 1.6x (₹1,800), bull 2.5x (₹2,800), bear 0.8x (₹900). Three structural reasons to stay cautious: 43x P/E means most multiple expansion is done, promoter holding 28.8% (declining, below 30% framework threshold), execution at scale unproven (FY25 was first profitable year). **Hold 90 sh, don't add above ₹1,050.** Not a top-5 conviction slot at current price.
+
+- **RAYMOND research file refresh — Q4 FY26 concall deep dive (YouTube)** — `research/RAYMOND.md` log entry for 2026-05-25 from Q4 FY26 earnings call transcript ([Concall.in upload](https://www.youtube.com/watch?v=H33qGBo2q9A), hosted by Anand Rathi). Full transcript saved at `data/transcripts/raymond/raymond_q4_fy26_concall.txt` (55,390 chars). New disclosures absorbed:
+  - **Aerospace segment ₹392 Cr revenue (+26% YoY), EBITDA ₹88 Cr (+25%), 22.3% margin**; order book ₹2,350 Cr over 5 years; 75% of products engine-segment across LEAP/GTF/narrow-body/wide-body; 25+ customers (single OEM has 7+ legal entities — derisked); 100+ new SKUs FY26 targeting 250-365/year ("one a day")
+  - **Auto components ₹1,667 Cr revenue (+10%), EBITDA ₹223 Cr (+34%), 13.4% margin (+240 bps YoY)** — operating leverage CONFIRMED structural per SAP HANA + integration synergies + cost reduction programs (not one-off)
+  - **₹930 Cr 5-year capex disclosed** (₹500 Cr aerospace + ₹430 Cr auto) — fully self-funded from internal accruals, no dilution risk
+  - **Andhra Pradesh greenfield timeline clarified**: commercial production starts late calendar year 2027 = Q4 FY28 (was assumed May 2027 in prior research); FY29 is when "real growth" from AP shows up (~₹150-200 Cr incremental)
+  - **NEW optionality surfaced**: first build-to-spec / own-design IP order won (customer + product confidential); N1 component qualification (rotating engine parts — turbine blades etc) on roadmap (currently N2; N3→N2 took 5y); industrial gas turbine RFQs in pipeline
+  - **Updated SOTP**: base ₹1,100-1,200 (3x from ₹364 entry), bull ₹1,500-1,800 (4x), stretch 5y with aerospace pure-play SOTP unlock ₹2,000-2,500 (5-6x from entry)
+  - **Position-size action**: add ~90 sh in ₹460-475 zone (funded from EPACKPEB trim above); takes RAYMOND from 11.1% → ~14% of portfolio. Don't pay above ₹500.
+
+### Pending (created this session, queued for action)
+
+- **Execute EPACK trim** — sell 400 sh @ ₹200-210 next session. Broker-side action.
+- **Execute RAYMOND add** — buy ~90 sh ₹460-475 next session. Broker-side action.
+- **Tail cleanup orders** — ETERNAL exit (~₹24K), SWIGGY exit (~₹13K, already decided), THRIVE exit decision (~₹99K, target -9.6% CAGR), SHILCTECH exit (~₹31K), 8 token positions cleanup (~₹4K). Frees ~₹1.7L for redeployment into multi-bagger top-5 names.
+- **SAKSOFT verification** — portfolio model shows +31.7% expected CAGR (highest after EPACKPEB); but currently only 5% weight. If thesis verifies, candidate for 10% slot in top-5 multi-bagger basket. Refresh research file.
+- **BANCOINDIA deep refresh** — owned position 4.9% with shallow research file. Refresh thesis depth.
+
+---
+
+- **Iran War v3 — Day 85 update (May 19-24 events).** Added a fresh section at the top of `research/IRAN_WAR_V3.md` and re-rendered `output/html/IRAN_WAR_V3.html`. Five-day events:
+  - **Russia oil waiver expired May 16 without renewal.** Treasury Sec Bessent publicly said no renewal (May 12-13), Treasury posted a renewed licence (May 14-15), licence lapsed (May 16). India's May 14 formal extension request was acknowledged, not granted. India's May 2.3 mbpd Russian-crude run-rate is now a ceiling, not a floor. Secondary-sanctions risk on Indian banks/shippers active.
+  - **14-point MOU now "converging"** per Iran FM spox Baghaei (May 23 — Persian first, then English). Enrichment moratorium negotiated at 12-15 years; snap IAEA inspections; first frozen-asset tranche $6-10B.
+  - **60-day ceasefire extension reportedly close to signing.** Business Standard May 22 wrap tied Nifty +0.27% (close 23,719) to traders monitoring US-Iran talks; Hormuz reopening is the signing condition.
+  - **Iran-Oman Hormuz toll framework** — Iran offered paid-passage model; Trump rejected the structure (insisting "free, no toll"), not the underlying trade. Oman channel still active at deputy-FM level.
+  - **Markets:** Brent ~$105 (May 22), INR 96.96 ATH low (past v3 escalation tell of <97), Brent-Dubai spread widening to Dubai +$1.50 from near-parity on May 18.
+  - **Probability shifts vs v3 May 19:** base case 55% → 45-50%; escalation 25% → 25-30%; de-escalation 20% → 25-30%; regime fracture unchanged sub-5%. Distribution widened — both tails fatter, same expected value.
+  - **Action list adjustments:** de-escalation trade moves from "deploy on signing" to "1-2% probe pre-signing" (Indian financials + IT) because MOU convergence is now official Iranian language. ONGC trade now closer to active because Brent has held >$95 for four weeks AND Russia exemption lapsed. PSU OMC / Indigo / defence / paints unchanged.
 
 ---
 

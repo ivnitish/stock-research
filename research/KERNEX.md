@@ -1,17 +1,12 @@
 # Kernex Microsystems (KERNEX) — Investment Thesis
 
-**Status:** OWNED (90 shares, ~₹1.01L invested, ~10% of portfolio)
-**Quality Score:** 17/25 (Grade B: Moderate Conviction)
-**Classification:** Multi-Bagger Candidate (Quality B + Base case 30% PAT CAGR, order book 12.6x revenue)
-**Last Updated:** 2026-04-09 | **CMP:** ₹1,109 | **Entry:** ₹1,125 avg | **P&L:** -1.4% | **Hold 90 shares (small speculative)**
-**Data Source:** Screener.in (consolidated), March 2025 investor presentation
+**Status:** OWNED (90 shares, ₹1.01L invested, 9.6% of portfolio)
+**Quality Score:** 17/25 — Grade B- (Moderate Conviction, downgraded 2026-05-25 from price-action perspective; same fundamentals)
+**Classification:** Borderline Multi-Bagger from entry (Base 1.6x/3yrs ~17% CAGR; Bull 2.5x ~36%) — NOT a top-5 conviction slot at current price
+**Last Updated:** 2026-05-25 | **CMP:** ₹1,351 | **Entry:** ₹1,125 avg | **P&L:** +19.9% | **Hold 90 shares; don't add above ₹1,050**
+**Data Source:** Screener.in (consolidated), April 2026 BLW/PLW order wins, March 2025 investor presentation
 
-> **Recommendation:** HOLD / ADD below ₹750. Kernex is one of only 3 RDSO-approved Kavach v4.0
-> OEMs with a ₹3,268 Cr order book (12.6x revenue) anchored by India's mandated train collision
-> avoidance rollout across 85,000 km. At ₹962 (normalised P/E ~54x), the market prices in ~28%
-> growth versus our 30% estimate — thin margin of safety, but order book arithmetic and ₹14,600 Cr
-> tender pipeline provide upside. Key condition: Q4 FY26 revenue must confirm ₹260+ Cr full-year
-> trajectory and normalised tax rate must validate sustainable PAT.
+> **Recommendation (revised 2026-05-25):** HOLD 90 sh; DO NOT ADD above ₹1,050 (P/E 33x). Kernex remains one of 3 RDSO-approved Kavach v4.0 OEMs with order book ₹2,704 Cr (10x FY25 revenue), but at CMP ₹1,351 (P/E 43.1x trailing) the price has run ahead of execution. Three reasons to stay cautious: (1) most multiple expansion is done — from here it's an earnings-execution story, not a re-rating story; (2) promoter holding 28.8% still below the 30% framework threshold and declining; (3) FY25 was first profitable year — execution at ₹500+ Cr revenue is unproven. Multi-bagger math from ₹1,125 entry: base 1.6x (₹1,800), bull 2.5x (₹2,800), bear 0.8x (₹900) over 3 years. **Not a top-5 conviction slot at current price.** Add zone: only on pullback below ₹1,050. Internal target revised ₹1,444 → ₹1,800 base / ₹2,800 bull.
 
 ---
 
@@ -607,6 +602,46 @@ Kernex is one of three RDSO-approved Kavach v4.0 OEMs, alongside HBL Engineering
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/KERNEX.md`*
+
+### 2026-05-25 — Multi-bagger scrutiny under 80%-in-top-5 concentration mandate; B- borderline grade
+
+**Trigger:** Portfolio philosophy clarification — user is concentrating top 5 holdings at 80% with multi-bagger conviction only. KERNEX at 9.6% of portfolio with stale model target ₹1,444 (+7%) was flagged for the same scrutiny we just did on RAYMOND. Honest re-grade required.
+
+**Updated quick facts (May 2026):**
+- CMP ₹1,351 (May 22, 2026), Mcap ₹2,271 Cr
+- **P/E 43.1x trailing**, P/B 13.1x
+- 52w range: ₹850 - ₹1,626 (currently 17% below high)
+- ROE 38%, ROCE 23.8%, OPM 23% — all excellent
+- Order book ₹2,704 Cr (~10x of FY25 sales of ₹259 Cr)
+- April 2026 wins: ₹91 Cr (BLW Kavach) + ₹67 Cr (PLW) = ₹158 Cr more
+- Promoter holding 28.8% — still below the 30% threshold
+- 5y price: ₹42 → ₹1,350 (32x already done)
+
+**Honest multi-bagger math from user's ₹1,125 entry:**
+
+| Path | Mechanism | 3y price | Multiple from entry | CAGR |
+|---|---|---|---|---|
+| Base | Execute ₹500-600 Cr/y revenue → PAT ₹110-130 Cr → 30x P/E (de-rate from 43x) | ₹1,800 | 1.6x | ~17% |
+| Bull | Execute ₹800 Cr/y revenue → PAT ₹180 Cr → 35x P/E held | ₹2,800 | 2.5x | ~36% |
+| Bear | Order book delays, P/E compresses to 25x on FY26 PAT | ₹900 | 0.8x | -7% |
+
+**Verdict: B- borderline multi-bagger from current price.** The Kavach mandate is real (₹40,000+ Cr opportunity across Indian Railways over 10 years) and KERNEX is one of only 3 RDSO-approved vendors. But the **price has run ahead of execution** in a way RAYMOND has not. Three structural reasons to be cautious adding above ₹1,050:
+
+1. **43x P/E means most of the multiple expansion is already done.** Unlike RAYMOND where aerospace value is hidden in the SOTP and not in the price, KERNEX has the Kavach story fully baked.
+2. **Promoter holding 28.8%** — below the 30% threshold per Phase 0.2; declining trend (Mar 2025 29.08% → Dec 2025 28.89%). Real governance signal.
+3. **Execution history is thin.** FY25 was first profitable year. Historically missed delivery timelines. ₹2,704 Cr order book means nothing if conversion is slow — and at current 43x P/E the market is pricing in fast, reliable conversion.
+
+**Updated decision matrix:**
+- **Hold 90 shares** — multi-bagger trajectory from ₹1,125 entry still defensible (1.6-2.5x base-to-bull)
+- **Don't add at ₹1,350** — P/E too rich for the execution risk profile
+- **Add zone moves UP from prior ₹600-750 to ₹1,050 maximum** — i.e., only add if pullback below ₹1,050 (P/E ~33x), which is more achievable than the earlier ₹600-750 target but still requires patience
+- **Internal target revised from ₹1,444 → ₹1,800 base / ₹2,800 bull** (updated in valuation_dashboard.py)
+- **Not a top-5 conviction slot** at current price — this is a B-grade hold, not a buy
+
+**What would change the grade:**
+- Promoter holding rising back above 30% via primary or open-market buy
+- Two consecutive quarters of revenue >₹100 Cr each with sustained 25%+ OPM (showing execution at scale)
+- One large defence revenue win (smart munitions, electronic fuzes) — diversifies away from 90% sovereign-railway dependency
 
 ### 2026-03-28 — Investor Presentation Cross-Reference (March 2025 BSE Filing)
 

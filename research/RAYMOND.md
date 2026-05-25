@@ -1,21 +1,12 @@
 # Raymond Ltd — Engineering (RAYMOND) — Investment Thesis
 
-**Status:** HOLD — 300 shares at avg ₹364.37 (re-entered after the April exit, position now +41.6% at CMP ₹516)
-**Quality Score:** 17/25 (Grade B)
-**Classification:** Quality Compounder — Hold; thesis intact, AP plant catalyst 12 months out
-**Last Updated:** 2026-05-09 | **CMP:** ₹516 | **Avg Entry:** ₹364.37 | **Position P&L:** +₹45,489 (+41.6%) | **Decision: HOLD; do not add at CMP, do not trim**
-**Data Source:** Q4 FY26 audited results (BSE filing 2026-05-05), portfolio.csv (300 shares), Screener.in (2026-05-09), Q3 FY26 concall
+**Status:** HOLD 300 shares; ADD candidate (see 2026-05-25 log — Q4 concall reaffirms aerospace multi-bagger thesis, suggested add ~90 sh ₹460-475)
+**Quality Score:** 17/25 (Grade B) — but **multi-bagger from entry**, not just compounder
+**Classification:** Multi-Bagger from ₹364 entry — Base 3x in 3-4y (₹1,100-1,200); Bull 4x (₹1,500-1,800); Stretch 5y 5-6x with aerospace SOTP unlock optionality
+**Last Updated:** 2026-05-25 | **CMP:** ₹466 | **Avg Entry:** ₹364.37 | **Position P&L:** +₹30,429 (+27.8%) | **Decision: HOLD + ADD ZONE ₹460-475 (build to ~14% weight from current 11.1%)**
+**Data Source:** Q4 FY26 audited results (BSE 2026-05-05), Q4 FY26 earnings concall (YouTube, 2026-05-25 deep dive), portfolio.csv (300 shares 02-05-2026), Screener.in
 
-> **Recommendation:** HOLD 300 shares. Do not add at ₹516; do not trim either. Q4 FY26 (May 5) gave a partial
-> green light — aerospace revenue ₹119.4 Cr cleared the ₹110 Cr threshold (✅), PBIT snapped back from Q3's 9%
-> trough to 17.45% (margin trigger of 20% missed by 2.55pp, but trajectory is right). FY26 full-year aerospace
-> ₹392 Cr revenue (+26% YoY), PBIT ₹49 Cr (+51%), 12.4% margin — the supercycle thesis is compounding ahead
-> of the conservative 22% base-case revenue assumption. AP plant capex visible in CWIP (₹5 Cr → ₹38 Cr); May
-> 2027 commissioning still on track per Q3 concall. **For the existing 300-share position the call is HOLD —**
-> 12 months to the AP plant catalyst, Quality B with structural moats, position already +42%. Adding at ₹516
-> doesn't make sense (asymmetry from CMP is ~+15-25% to base/bull vs ~-20% to a realistic ₹420 bear) but neither
-> does trimming a working thesis 12 months before the main re-rating catalyst. Add zone: ₹400-450 if it
-> retraces. Trim zone: ₹620+ before AP plant commissions, OR if Q1/Q2 FY27 aero margins fail to sustain ≥15%.
+> **Recommendation (revised 2026-05-25 after Q4 FY26 concall):** HOLD 300 sh; ADD ~90 sh in ₹460-475 zone (takes position from 11.1% → ~14%). Q4 concall confirms multi-bagger setup: aerospace FY26 ₹392 Cr (+26% YoY) at 22.3% EBITDA margin, 25% CAGR guided through FY28 supportable from existing capacity, then Andhra Pradesh greenfield (commercial Q4 FY28, 45 acres, ₹500 Cr capex) drives FY29 step-up. Auto components hit 13.4% EBITDA margin (+240 bps YoY, structural per SAP+synergies). ₹930 Cr 5-year capex fully self-funded — no dilution risk. New optionality: first build-to-spec order won (own-design IP, undisclosed), N1 component qualification on roadmap, industrial gas turbine RFQs in pipeline. Updated SOTP: base ₹1,100-1,200 (3x from entry), bull ₹1,500-1,800 (4x), stretch ₹2,000-2,500 (5-6x with aerospace pure-play SOTP unlock). Old portfolio model target ₹493 was stale — revised to ₹1,100 base / ₹1,800 bull (updated in valuation_dashboard.py). **Don't pay above ₹500 in this build phase** — chasing compresses asymmetry below 2.5x.
 
 ---
 
@@ -682,6 +673,144 @@ Raymond Engineering operates in two distinct competitive arenas. In aerospace (J
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/RAYMOND.md`*
+
+### 2026-05-25 — Q4 FY26 Earnings Call Deep Dive (YouTube source) + SOTP Revision
+
+**Source:** Q4 FY26 earnings conference call — [YouTube link](https://www.youtube.com/watch?v=H33qGBo2q9A&t=483s) (Concall.in upload, hosted by Anand Rathi). Speakers: Gautam Maini (MD Engineering), Rakesh Diwali (group CFO), Sanjiv Sharma (joint MD & CEO JKMPL), Naveen Sharma (CFO Engineering), Sunoni Desai (head IR). Full 55,390-char transcript saved at `data/transcripts/raymond/raymond_q4_fy26_concall.txt`.
+
+**Trigger for re-read:** Multi-bagger conviction scrutiny within an 80%-top-5 concentration mandate. RAYMOND was sitting at 11.1% with a stale portfolio model target of ₹530 that doesn't reflect the post-realty-demerger reality. Needed a forward thesis update grounded in fresh concall data, not Apr 2026 SOTP estimates.
+
+**Headline Q4 FY26 + FY26 numbers (consolidated Raymond Limited, engineering-only):**
+
+| Line item | Q4 FY26 | Q4 FY25 | YoY | FY26 | FY25 | YoY |
+|---|---|---|---|---|---|---|
+| Total income | ₹613 Cr | ₹601 Cr | +2% | ₹2,312 Cr | ₹2,105 Cr | +10% |
+| EBITDA | ₹85 Cr | ₹99 Cr | -14% | ₹335 Cr | ₹335 Cr | flat |
+| EBITDA margin | 13.9% | 16.4% | -250 bps | 14.5% | 15.9% | -140 bps |
+
+**Important context for the margin compression:** ₹600 Cr cash transferred from Raymond Limited to Raymond Realty post-demerger. The non-operating income that previously flowed through (interest on the corpus) has dropped meaningfully. CFO confirms: "Raymond corporate will be more or less even Stevens" going forward — the engineering business has to do all the work. Once you strip the holding-company noise, the operational EBITDA story is the two engineering subsidiaries below.
+
+**Segment 1 — JKMGAL Aerospace & Defence (the multi-bagger engine):**
+
+| Line item | Q4 FY26 | Q4 FY25 | YoY | FY26 | FY25 | YoY |
+|---|---|---|---|---|---|---|
+| Revenue | ₹119 Cr | ₹107 Cr | +11% | ₹392 Cr | ₹311 Cr | **+26%** |
+| EBITDA | ₹30 Cr | ₹27 Cr | +11% | ₹88 Cr | ₹70 Cr | **+25%** |
+| EBITDA margin | **25.5%** | 25.5% | flat | **22.3%** | 22.4% | flat |
+
+- Order book disclosed: **₹2,350 Cr aerospace over 5 years** — averages ₹470 Cr/year, matches the FY26 run-rate exactly. Order conversion is real-time, not pipeline-stuffed.
+- 100+ new SKUs added in FY26; target 250-365 components/year ("one new part a day")
+- **75% of products are for engine segment** across OEMs globally (LEAP, GTF, narrow-body, wide-body engines)
+- 25+ customers; the "OEM mentioned has 7+ legal entities" — derisked single-customer concentration
+- 25% of revenue from landing gears, hydraulics, fuel, accumulators, auxiliary engines — confirms diversification beyond engines
+
+**Segment 2 — JKMPL Precision Technology & Auto Components (the cash machine showing operating leverage):**
+
+| Line item | Q4 FY26 | Q4 FY25 | YoY | FY26 | FY25 | YoY |
+|---|---|---|---|---|---|---|
+| Revenue | ₹442 Cr | ₹421 Cr | +5% | ₹1,667 Cr | ₹1,513 Cr | +10% |
+| EBITDA | ₹67 Cr | ₹53 Cr | +26% | ₹223 Cr | ₹167 Cr | **+34%** |
+| EBITDA margin | **15.2%** | 12.7% | +250 bps | **13.4%** | 11.0% | **+240 bps** |
+
+- Margin expansion +250 bps YoY confirmed structural — driven by SAP HANA rollout (live since Aug 2025), integration synergies, consolidated buying, formal cost-reduction program. CFO explicitly says: "these are permanent synergies and cost reduction programs that we've put in place"
+- Note one-time gain ₹13 Cr from land sale included in Q2 FY26 — strip from FY26 EBITDA for clean comparison
+- Hybrid market focus is meaningfully outpacing EV (Europe pushed EV mandates back 4-5 years); Raymond has captured major hybrid share
+- US auto tariff dropped to 18% from earlier higher level — headwind easing, customers normalizing to new normal
+
+**₹930 Cr 5-year capex plan (first time concretely disclosed):**
+
+- ₹500 Cr aerospace (Andhra Pradesh greenfield — 45 acres allotted)
+- ₹430 Cr precision/auto components
+- ~₹200 Cr/year ramp (₹100 Cr each business)
+- **Self-funded** from internal accruals + small debt component. CFO: "balance sheet of engineering business itself has strength to take care of growth plans... doesn't need to draw upon parent company"
+- Parent Raymond Limited still holds ~₹1,000 Cr in liquid securities as safety net (the Realty post-demerger residual that didn't transfer)
+
+**Andhra Pradesh plant timeline (critical date clarification):**
+
+Previous research had AP plant commissioning at "May 2027". Concall corrects this:
+- **Commercial production starts late calendar year 2027** = Q4 FY28 (Jan-Mar 2028) — about 18 months from now
+- FY28 last quarter sees initial commercial production
+- **FY29 is when "real growth" from Andhra shows up** — incremental ₹150-200 Cr from Andhra alone in FY29
+- Existing facility can support 25% YoY growth in aerospace until Andhra goes live
+
+This pushes the meaningful Andhra-driven step-change ~6 months later than the prior assumption, but the visible execution within existing plant means **the growth trajectory is not gated on Andhra** until FY29.
+
+**Strategic value-chain progression (the hidden optionality):**
+
+The transcript surfaces several things not in the prior thesis:
+
+1. **First build-to-spec order won.** Historically Raymond made parts to customer drawings ("build-to-print"). Won first own-design contract (customer + product undisclosed under confidentiality). Significance: build-to-spec carries 2-3x the gross margin of build-to-print because Raymond owns the design IP. "It will take a few years to establish ourselves... we've just made a beginning."
+
+2. **N1 component qualification on roadmap.** Aerospace component complexity goes N4 (simplest) → N3 → N2 → N1 (rotating engine parts — turbine blades, discs). Raymond is currently N2. Took 5 years to go N4 → N3, another 5 years N3 → N2. N1 is wish-list. Significance: N1 components command 3-5x the margin of N2; only a handful of global suppliers qualified.
+
+3. **Industrial gas turbine optionality.** Asked about cross-sell into industrial gas turbines (Siemens, GE, Mitsubishi Heavy). MD: "we don't rule it out... there are similarities and we have some RFQs in that direction." Not in any current revenue line — pure optionality.
+
+4. **Andhra is being designed as "one-stop shop"** — vertical integration into surface treatment, heat treatment, sub-assemblies, final assemblies. Raw material localization (titanium, aluminium) in progress — 6-8 months to first wins. Today 100% of aero raw materials are imported, creating margin risk from Gulf logistic blockades (Q4 FY26 was specifically impacted).
+
+5. **Self-certification gained on some products** — fastest customer cycle. Medium complexity: 3-6 months. Very complex with validation: 12+ months. Each part follows its own path — explains why disclosed "order book" understates the revenue trajectory (only includes products *already* in contract; products in qualification add to backlog every month).
+
+**Macro context disclosed:**
+- Global aerospace tier-1 sourcing from India tripled to $1.5B vs 2019 — Raymond is in the wave, not bucking it
+- 17,000 commercial aircraft backlog = 10+ years visibility for engine OEMs
+- Aerospace ecosystem has "extreme barriers to entry" — certified suppliers protected by "compliance moat that insulates them from low-cost competition"
+- India PV sales hit record 4.64M units FY26 (+7.9%) — supports auto component segment baseline
+
+**Updated SOTP (revised based on concall guidance):**
+
+*Aerospace segment FY29 projection:*
+- FY26 baseline: ₹392 Cr revenue, ₹88 Cr EBITDA (22.3% margin)
+- 25% CAGR for 3 years (management guidance, supported by existing capacity until FY28-Q4): FY29 revenue ₹780 Cr
+- Add Andhra ramp: +₹100-150 Cr → FY29 revenue ₹880-930 Cr
+- At 22-23% EBITDA margin = **EBITDA ₹195-215 Cr by FY29**
+- Pure-play aerospace peers (Bharat Forge aero, Azad Engineering, MTAR Tech) trade 25-35x EBITDA
+- Apply mid-range 25x → enterprise value ₹4,875-5,375 Cr
+
+*Auto components segment FY29 projection:*
+- FY26 baseline: ₹1,667 Cr revenue, ₹223 Cr EBITDA (13.4% margin)
+- 10% CAGR (organic growth, hybrid + auto recovery): FY29 revenue ₹2,200-2,300 Cr
+- 250-300 bps further margin lift from SAP synergies maturity + capex efficiency → 14.5-15.5% EBITDA margin
+- **EBITDA ₹320-355 Cr by FY29**
+- Auto component peers trade 12-15x EBITDA
+- Apply mid-range 13x → enterprise value ₹4,160-4,615 Cr
+
+*Consolidated SOTP FY29:*
+- Total enterprise value: ₹9,035-9,990 Cr (midpoint ₹9,500 Cr)
+- Net debt: assume neutral (cash + debt mix)
+- **Equity value: ₹9,000-10,000 Cr**
+- Shares outstanding: ~6.66 Cr (Raymond Limited post-demerger)
+- **Per share: ₹1,350-1,500**
+
+*Add optionality (not in base SOTP):*
+- Build-to-spec / design IP wins materializing by FY29: +₹100-200/share
+- N1 component qualification (5-year horizon, premium pricing): +₹100/share if first contract signed
+- Industrial gas turbine entry: +₹50-100/share
+- Aerospace pure-play SOTP demerger (Singhania track record): re-rating to 30x EBITDA = +₹400-600/share
+
+**Revised multi-bagger math (from CMP ₹465 and your ₹364 entry):**
+
+| Path | 3-4y horizon | Per share | From CMP ₹465 | From entry ₹364 |
+|---|---|---|---|---|
+| Bear | Aerospace slows to 15% CAGR, auto margin reverts, Andhra delays | ₹650-750 | 1.4-1.6x | 1.8-2.1x |
+| Base | 25% aero CAGR through FY28, auto margin holds 13-14%, no optionality | ₹1,100-1,200 | **2.4-2.6x** | **3.0-3.3x** |
+| Bull | 25% aero CAGR + Andhra adds ₹150 Cr in FY29 + build-to-spec gains traction | ₹1,500-1,800 | **3.2-3.9x** | **4.1-4.9x** |
+| Stretch (5y) | Bull + N1 qualification + aerospace pure-play SOTP unlock | ₹2,000-2,500 | 4.3-5.4x | 5.5-6.9x |
+
+Old portfolio model target ₹493/₹530 was way too conservative — it was set before clean post-demerger numbers and before the aerospace ramp visibility. **Internal target revised to ₹1,100 base / ₹1,800 bull** (updated in `valuation_dashboard.py`).
+
+**Implications for position sizing within the 80%-top-5 mandate:**
+
+RAYMOND at 11.1% portfolio weight is *defensible at current price* — multi-bagger trajectory intact from ₹364 entry, base case 3x in 3-4 years. But the post-demerger numbers + concall optionality argue for **building higher conviction, not maintaining**. Suggested move:
+
+- **Add ~90 shares around ₹460-475** (~₹42K) → takes position from 11.1% to ~14%
+- **Funding source:** trim EPACKPEB position from 23% → 17% (see EPACKPEB.md 2026-05-25 log) — frees ~₹80K, half goes to RAYMOND add
+- **Don't pay above ₹500** in this phase — bull case 3.2-3.9x asymmetry requires entry near current price; chasing above ₹500 compresses asymmetry below 2.5x
+
+**Q1 FY27 monitoring items (results expected late July 2026):**
+- Aerospace quarterly revenue ≥₹110 Cr (confirms 25% YoY trajectory)
+- Aerospace EBITDA margin ≥22% (no compression from titanium/aluminium imports)
+- Auto EBITDA margin ≥13.5% (SAP synergies sustaining)
+- Build-to-spec order details disclosed (currently under confidentiality — name + product + size)
+- Andhra construction milestones — concrete pour, equipment ordering
 
 ### 2026-04-27 — Post-Exit Rally Refresh + Structural Doc Cleanup
 

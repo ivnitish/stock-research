@@ -1,16 +1,12 @@
 # EPACK Prefab Technologies (EPACKPEB) — Investment Thesis
 
-**Status:** OWNED (451 shares, ₹1.03L invested, 10% of portfolio)
+**Status:** OWNED (1,451 shares, ₹2.67L invested, 23.0% of portfolio — LARGEST POSITION; trim to ~17% planned, see 2026-05-25 log)
 **Quality Score:** 17/25 (Grade B: Good Business)
-**Classification:** Multi-Bagger Candidate (Quality B + Base case 2.3x/3yrs, 31% CAGR)
-**Last Updated:** 2026-04-09 | **CMP:** ₹177 | **Entry:** ₹195.06 (751 shares) | **P&L:** -9.2%
-**Data Source:** Screener.in (consolidated), Q3 FY26 concall
+**Classification:** Multi-Bagger Candidate from ₹184 entry (Base 2.5x/3yrs ~37% CAGR; Bull 3.5-3.8x ~50% CAGR)
+**Last Updated:** 2026-05-25 | **CMP:** ₹200 | **Entry:** ₹183.99 avg (1,451 shares) | **P&L:** +8.8%
+**Data Source:** Screener.in (consolidated), Q4 FY26 results May 16 2026, peer comp vs Interarch/Pennar
 
-> **Recommendation:** HOLD / ADD below ₹155. India's PEB penetration is 15% vs 70%+
-> globally — EPACK is the market leader deploying capital at 23% ROCE into this structural
-> gap. At ₹149 (18x PE), the market prices in only 15% growth versus our 22% estimate;
-> base case implies 2.3x in 3 years (31% CAGR). Key condition: Q4 FY26 revenue must
-> exceed ₹400 Cr to confirm FY26 guidance of ₹1,500 Cr.
+> **Recommendation (revised 2026-05-25):** TRIM to 17% (sell 400 sh @ ₹200-210); HOLD residual 1,051 sh tied to Q1 FY27 thesis test. Q4 FY26 confirmed: revenue ₹1,525 Cr (+34%), PAT ₹93 Cr (+56%) — strong, but OPM stuck at 10% (margin breakout failed). Sector de-rate (P/E 57x → 22x) largely done; from here it is a PAT-growth play, not a multiple-expansion play. Revised target: ₹500 base / ₹700 bull (was ₹800 — aggressive). Position grew to 23% concentration on a Grade B+ name — trim to redeploy ~₹80K into RAYMOND (post-demerger aerospace ramp) + NEWGEN dry powder. **Key thesis test:** Q1 FY27 (Jul-Aug 2026) — OPM ≥12% AND order book cover >0.8x ⇒ upgrade conviction; OPM <11% AND cover <0.7x ⇒ exit residual to ~5%.
 
 ---
 
@@ -819,6 +815,71 @@ Interarch is arguably the higher-quality business. But EPACK is significantly ch
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/EPACKPEB.md`*
+
+### 2026-05-25 — Q4 FY26 print, PEB peer comparison, sector de-rate diagnosis, position-size revision
+
+**Position correction (housekeeping):** Header still showed 451 shares at ₹195 avg from older snapshot. Actual broker file dated 02-05-2026: **1,451 shares at ₹183.99 avg**, current value ~₹2.90L, **23.0% of portfolio** — largest single position. Already in profit +8.8%.
+
+**Q4 FY26 + FY26 full-year print (announced May 16, 2026):**
+- Q4 revenue ₹471 Cr (+42.4% YoY), PAT ₹30 Cr (+51.5% YoY)
+- FY26 revenue ₹1,525 Cr (+34.5%), PAT ₹93 Cr (+56.2%)
+- **OPM stuck at 10%** all four quarters (Q1 10% → Q2 12% → Q3 10% → Q4 10%) — the operating-leverage breakout that bulls modelled at 13-14% did not happen
+- Order book ₹1,113 Cr (Mar 2026) = revenue cover 0.73x — adequate, not strong
+- Net cash positive after debt reduction (borrowings ₹115 Cr Mar 2026 vs ₹216 Cr year ago)
+- FY27 guidance: +30% revenue growth, Mambattu Phase II commercial from Apr 29, 2026
+- ICRA rating upgraded to A+ (Stable) / A1 short-term
+
+**Peer comparison (clean PEB peers):**
+
+| Metric | EPACKPEB | INTERARCH | PENIND |
+|---|---|---|---|
+| FY26 revenue | ₹1,525 Cr | ₹1,898 Cr | ~₹3,400 Cr (mixed biz) |
+| FY26 PAT | ₹93 Cr | ₹135 Cr | ~₹135 Cr |
+| FY26 OPM | 10.0% | 9.3% | ~9% |
+| Q4 PAT YoY | **+51%** | **–5.4%** | flat |
+| FY26 PAT growth | **+56%** | +25% | low single |
+| P/E (TTM) | 20.6x | 21.7x | 15.3x |
+| ROE / ROCE | 17% / 21.7% | mid-teens (IPO cash drag) | 12.6% / 15.9% |
+| Net debt | near net-cash | net cash post-IPO | ₹812 Cr leveraged |
+| Order book cover | 0.73x | 0.90x | n/a |
+| FY27 guidance | +30% | +16% | n/a |
+
+**Correction to earlier framework claim:** Previously claimed "PEB peers at 13-15% OPM" — this was wrong. PEB is structurally a 9-11% OPM business. EPACK at 10% is *in line with peers*, not behind. The margin-gap thesis I had been using doesn't exist.
+
+**PEB sector de-rate diagnosis (why stock is down 42% from ₹344 high despite +56% PAT):**
+
+This is multiple compression, not earnings collapse. EPACK implied P/E walk:
+- Aug 2024 peak: ₹344 / FY24 EPS ~₹6 ≈ **57x trailing**
+- Today: ₹200 / FY26 EPS ~₹9.2 ≈ **22x trailing**
+
+EPS roughly doubled. Stock fell 42%. Multiple went from 57x → 22x. Same pattern at Interarch (-34%) and Pennar (-46%).
+
+What drove the de-rate, in order of importance:
+1. **Margin breakout failed empirically.** Four quarters at 10% OPM killed the "OPM goes to 14%" bull DCF
+2. **Order-book deceleration signal.** Interarch FY27 guide +16% (vs FY26 +30%); EPACK book-to-bill 0.73x
+3. **Smallcap macro de-rate.** Nifty Smallcap 250 weak; PEB names high beta
+4. **Sector rotation.** Defence, electronics, pharma, AI/data-centre capex absorbing flows that previously chased "infrastructure capex beneficiary" narrative
+
+**De-rate is largely done.** From 22x P/E for a 25-30% PAT growth, net-cash, 17% ROE business, further compression would need either earnings collapse (no sign) or sub-18x P/E (would imply growth collapse or governance issue, neither present). Realistic downside floor ~₹150-170 (16-18x on FY26 EPS).
+
+**Forward read: PAT-growth play, not multiple-expansion play.** From ₹200 to ₹460-500 base case = multiple stays at ~22x while PAT compounds ₹93 Cr → ~₹200-220 Cr in 3 years (~30% CAGR). The narrative tailwind is gone; the math has to do all the work.
+
+**Revised multi-bagger math (from ₹184 entry avg):**
+
+| Path | Mechanism | 3y price | Multiple from entry | CAGR |
+|---|---|---|---|---|
+| Base | 30% PAT CAGR, multiple holds at 22x | ₹460-500 | **2.5x** | ~37% |
+| Bull | 35% PAT CAGR, margin breakout to 12% OPM, multiple to 25x | ₹650-700 | **3.5-3.8x** | ~50% |
+| Bear | 20% PAT CAGR, multiple compresses to 18x | ₹280-320 | 1.5-1.7x | ~16% |
+
+Old portfolio model target ₹800 (4.3x from entry) was aggressive — needed margin breakout to 13-14% AND multiple holding at 25-30x while sector de-rates. **Revised internal target ₹500 base / ₹700 bull** (updated in valuation_dashboard.py).
+
+**Position-size decision (concentration risk):** 23% in a Grade B+ low-margin cyclical engineering business is over-weight for the quality grade. The conviction grade does not justify the slot size. Recommended trim: 400 sh @ ₹200-210 (frees ~₹80-84K, books ~₹6-10K gain on ₹184 cost), drops position to 1,051 sh (~17% of portfolio). Redeploy proceeds: ~₹42K to RAYMOND add (aerospace ramp + post-demerger SOTP, see RAYMOND.md), ~₹35K dry powder for NEWGEN add below ₹430, ~₹5-8K reserve.
+
+**Q1 FY27 thesis test (results expected Jul-Aug 2026)** — this is the catalyst that defines whether residual position scales up or down:
+- **Upgrade conviction** (back to 23%+): Q1 OPM ≥12% confirming Mambattu Phase II operating leverage AND order book cover >0.8x
+- **Hold residual 17%**: OPM 10-11%, order book cover 0.7-0.8x — incremental, no major change
+- **Exit residual to ~5%**: Q1 OPM <11% AND order book cover <0.7x — thesis test fails, sector exposure not justified
 
 ### 2026-03-28 — YouTube transcript analysis (4 videos) + Cash quality analysis
 
