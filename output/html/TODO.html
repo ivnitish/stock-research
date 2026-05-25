@@ -37,7 +37,167 @@ strong{color:#111827;}
 </style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
 <details id="toc" class="no-print"><summary>Jump to section</summary></details>
 <h1 id="research-system-todo">Research System — TODO</h1>
-<p><em>Last updated: 2026-05-09</em></p>
+<p><em>Last updated: 2026-05-25</em></p>
+
+<hr>
+
+<h2 id="completed-2026-05-25">✅ Completed — 2026-05-25</h2>
+
+<ul>
+<li><strong>Portfolio model targets refresh</strong> — <code>src/valuation_dashboard.py</code> TARGETS dict updated for three stale entries flagged in this session: <strong>RAYMOND ₹493 → ₹1,100</strong> (post-realty-demerger SOTP base; aerospace + auto components only — old target was set before clean post-demerger numbers); <strong>EPACKPEB ₹800 → ₹500</strong> (de-rate is done, from here PAT-growth play not multiple-expansion play; ₹800 needed margin breakout to 13-14% AND multiple staying at 25-30x while sector de-rates — aggressive); <strong>KERNEX ₹1,444 → ₹1,800</strong> (base case at P/E 30x FY29E; explicit caution: don't add above ₹1,050, trailing 43x already rich). Method strings document the reasoning.</li>
+</ul>
+
+<ul>
+<li><strong>EPACKPEB research file refresh</strong> — <code>research/EPACKPEB.md</code> log entry for 2026-05-25: corrected position-size header (was 451 sh / ₹195 avg from older snapshot, actual is <strong>1,451 sh at ₹183.99 avg, 23.0% of portfolio</strong>, +8.8% in profit). Folded in Q4 FY26 + FY26 print (revenue ₹1,525 Cr +34%, PAT ₹93 Cr +56%, OPM stuck at 10% all four quarters — margin breakout failed empirically). Peer comp table vs INTERARCH and PENIND (corrects earlier overstatement that "peers at 13-15% OPM" — actual PEB sector is 9-11% structural). PEB sector de-rate diagnosis (P/E 57x → 22x is multiple compression, not earnings collapse; largely done from here). Revised multi-bagger math from ₹184 entry: base 2.5x (₹460-500), bull 3.5-3.8x (₹650-700). Position-size decision: <strong>trim 400 sh @ ₹200-210 to drop to 17%</strong>, redeploy ~₹80K (₹42K → RAYMOND add, ₹35K → NEWGEN dry powder <₹430). Q1 FY27 thesis test rules: OPM ≥12% AND order book cover >0.8x ⇒ upgrade; OPM <11% AND cover <0.7x ⇒ exit residual to ~5%.</li>
+</ul>
+
+<ul>
+<li><strong>KERNEX research file refresh</strong> — <code>research/KERNEX.md</code> log entry for 2026-05-25: B- borderline-multibagger scrutiny under 80%-in-top-5 concentration mandate. CMP ₹1,351 (mcap ₹2,271 Cr), P/E <strong>43.1x trailing</strong> (already very rich), P/B 13.1x, ROE 38% / ROCE 23.8% / OPM 23% (excellent), order book ₹2,704 Cr (~10x FY25 revenue), April 2026 BLW + PLW Kavach wins ₹158 Cr. Honest multi-bagger math from ₹1,125 entry: base 1.6x (₹1,800), bull 2.5x (₹2,800), bear 0.8x (₹900). Three structural reasons to stay cautious: 43x P/E means most multiple expansion is done, promoter holding 28.8% (declining, below 30% framework threshold), execution at scale unproven (FY25 was first profitable year). <strong>Hold 90 sh, don't add above ₹1,050.</strong> Not a top-5 conviction slot at current price.</li>
+</ul>
+
+<ul>
+<li><strong>RAYMOND research file refresh — Q4 FY26 concall deep dive (YouTube)</strong> — <code>research/RAYMOND.md</code> log entry for 2026-05-25 from Q4 FY26 earnings call transcript ([Concall.in upload](https://www.youtube.com/watch?v=H33qGBo2q9A), hosted by Anand Rathi). Full transcript saved at <code>data/transcripts/raymond/raymond_q4_fy26_concall.txt</code> (55,390 chars). New disclosures absorbed:</li>
+<li style="margin-left:20px"><strong>Aerospace segment ₹392 Cr revenue (+26% YoY), EBITDA ₹88 Cr (+25%), 22.3% margin</strong>; order book ₹2,350 Cr over 5 years; 75% of products engine-segment across LEAP/GTF/narrow-body/wide-body; 25+ customers (single OEM has 7+ legal entities — derisked); 100+ new SKUs FY26 targeting 250-365/year ("one a day")</li>
+<li style="margin-left:20px"><strong>Auto components ₹1,667 Cr revenue (+10%), EBITDA ₹223 Cr (+34%), 13.4% margin (+240 bps YoY)</strong> — operating leverage CONFIRMED structural per SAP HANA + integration synergies + cost reduction programs (not one-off)</li>
+<li style="margin-left:20px"><strong>₹930 Cr 5-year capex disclosed</strong> (₹500 Cr aerospace + ₹430 Cr auto) — fully self-funded from internal accruals, no dilution risk</li>
+<li style="margin-left:20px"><strong>Andhra Pradesh greenfield timeline clarified</strong>: commercial production starts late calendar year 2027 = Q4 FY28 (was assumed May 2027 in prior research); FY29 is when "real growth" from AP shows up (~₹150-200 Cr incremental)</li>
+<li style="margin-left:20px"><strong>NEW optionality surfaced</strong>: first build-to-spec / own-design IP order won (customer + product confidential); N1 component qualification (rotating engine parts — turbine blades etc) on roadmap (currently N2; N3→N2 took 5y); industrial gas turbine RFQs in pipeline</li>
+<li style="margin-left:20px"><strong>Updated SOTP</strong>: base ₹1,100-1,200 (3x from ₹364 entry), bull ₹1,500-1,800 (4x), stretch 5y with aerospace pure-play SOTP unlock ₹2,000-2,500 (5-6x from entry)</li>
+<li style="margin-left:20px"><strong>Position-size action</strong>: add ~90 sh in ₹460-475 zone (funded from EPACKPEB trim above); takes RAYMOND from 11.1% → ~14% of portfolio. Don't pay above ₹500.</li>
+</ul>
+
+<h3 id="pending-created-this-session-queued-for-action">Pending (created this session, queued for action)</h3>
+
+<ul>
+<li><strong>Execute EPACK trim</strong> — sell 400 sh @ ₹200-210 next session. Broker-side action.</li>
+<li><strong>Execute RAYMOND add</strong> — buy ~90 sh ₹460-475 next session. Broker-side action.</li>
+<li><strong>Tail cleanup orders</strong> — ETERNAL exit (~₹24K), SWIGGY exit (~₹13K, already decided), THRIVE exit decision (~₹99K, target -9.6% CAGR), SHILCTECH exit (~₹31K), 8 token positions cleanup (~₹4K). Frees ~₹1.7L for redeployment into multi-bagger top-5 names.</li>
+<li><strong>SAKSOFT verification</strong> — portfolio model shows +31.7% expected CAGR (highest after EPACKPEB); but currently only 5% weight. If thesis verifies, candidate for 10% slot in top-5 multi-bagger basket. Refresh research file.</li>
+<li><strong>BANCOINDIA deep refresh</strong> — owned position 4.9% with shallow research file. Refresh thesis depth.</li>
+</ul>
+
+<hr>
+
+<ul>
+<li><strong>Iran War v3 — Day 85 update (May 19-24 events).</strong> Added a fresh section at the top of <code>research/IRAN_WAR_V3.md</code> and re-rendered <code>output/html/IRAN_WAR_V3.html</code>. Five-day events:</li>
+<li style="margin-left:20px"><strong>Russia oil waiver expired May 16 without renewal.</strong> Treasury Sec Bessent publicly said no renewal (May 12-13), Treasury posted a renewed licence (May 14-15), licence lapsed (May 16). India's May 14 formal extension request was acknowledged, not granted. India's May 2.3 mbpd Russian-crude run-rate is now a ceiling, not a floor. Secondary-sanctions risk on Indian banks/shippers active.</li>
+<li style="margin-left:20px"><strong>14-point MOU now "converging"</strong> per Iran FM spox Baghaei (May 23 — Persian first, then English). Enrichment moratorium negotiated at 12-15 years; snap IAEA inspections; first frozen-asset tranche $6-10B.</li>
+<li style="margin-left:20px"><strong>60-day ceasefire extension reportedly close to signing.</strong> Business Standard May 22 wrap tied Nifty +0.27% (close 23,719) to traders monitoring US-Iran talks; Hormuz reopening is the signing condition.</li>
+<li style="margin-left:20px"><strong>Iran-Oman Hormuz toll framework</strong> — Iran offered paid-passage model; Trump rejected the structure (insisting "free, no toll"), not the underlying trade. Oman channel still active at deputy-FM level.</li>
+<li style="margin-left:20px"><strong>Markets:</strong> Brent ~$105 (May 22), INR 96.96 ATH low (past v3 escalation tell of <97), Brent-Dubai spread widening to Dubai +$1.50 from near-parity on May 18.</li>
+<li style="margin-left:20px"><strong>Probability shifts vs v3 May 19:</strong> base case 55% → 45-50%; escalation 25% → 25-30%; de-escalation 20% → 25-30%; regime fracture unchanged sub-5%. Distribution widened — both tails fatter, same expected value.</li>
+<li style="margin-left:20px"><strong>Action list adjustments:</strong> de-escalation trade moves from "deploy on signing" to "1-2% probe pre-signing" (Indian financials + IT) because MOU convergence is now official Iranian language. ONGC trade now closer to active because Brent has held >$95 for four weeks AND Russia exemption lapsed. PSU OMC / Indigo / defence / paints unchanged.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-05-19">✅ Completed — 2026-05-19</h2>
+
+<ul>
+<li><strong>Index page declutter (Proposal B+A) — complete.</strong> Full restructure of <code>output/html/index.html</code>:</li>
+<li style="margin-left:20px"><strong>B (sections):</strong> Built new <code>output/html/library.html</code> with 15 meta-doc rows (Macro, Market Notes, Screens, Frameworks, Decisions, Journals, Learning) moved off the homepage. Linked via "📚 Library" in header nav.</li>
+<li style="margin-left:20px"><strong>A (columns):</strong> Trimmed from 16 columns to 7 — kept Ticker, Grade, Action, CMP, P&L%, Target·Mult (combined), arrow. Dropped Qty, Avg, Δ/share, Invested, Current, P&L₹, CMP-Ref, Buy-Zone. 87 rows transformed. ~21% line reduction (2480 → 1954).</li>
+<li style="margin-left:20px"><strong>Holdings rebuilt against portfolio.csv as source of truth:</strong> 6 stale held rows (GROWW, KAYNES, SHAKTIPUMP, NAVA, RSYSTEMS, PARADEEP — all exited but cells never cleared) cleared and evicted to Watchlist section. BSE and RAILTEL also evicted (researched but not held). Total 8 rows moved to Watchlist.</li>
+<li style="margin-left:20px"><strong>Held block sorted by current value desc</strong> (user explicitly said "not by grade"). Single "INDIAN HOLDINGS" banner replaces the previous Grade A / Grade B 19/25 / Grade B 18/25 / Grade B 17/25 / Grade C / Tracking sub-banners. Top 5 holdings by value: EPACKPEB, RAYMOND, KERNEX, NEWGEN, THRIVE.</li>
+<li style="margin-left:20px"><strong>Totals reconciled to portfolio.csv:</strong> Header pf-strip and footer TOTAL row both show ₹11.62L invested, ₹12.62L current, +₹1.00L (+8.61%), 23 holdings, dated 19-May-2026. Previously off by ₹1.4-3.6L because of the 6 stale held rows + stale hardcoded values.</li>
+<li style="margin-left:20px"><strong>Nav dedup:</strong> Removed the <code>👁 Portfolio</code> toggle button (column-trim made it redundant). Single <code>📊 Portfolio</code> link to <code>portfolio.html</code> remains.</li>
+<li style="margin-left:20px">14 watchlist-no-thesis rows (KPITTECH, BRIGADE, FABTECH, NIPPOBATRY, TTKHLTCARE, SAGILITY, URBANCO, POLICYBZR, IZMO, NDTV, CGCL, VSTIND, NETWEB, SATIN) removed from index entirely — no research, no holding, just cruft.</li>
+<li style="margin-left:20px">4 monitor-position stub research files created (ATHERENERG, BHEL, ZENTEC, SOUTHWEST) so all index links resolve. DREDGECORP onclick wired to existing research file. Only QQQM (US ETF info row) intentionally remains without an onclick.</li>
+<li><strong>Scripts added</strong> to <code>src/</code> for repeatability: <code>declutter_index.py</code> (row removal + onclick wiring), <code>fix_index_totals.py</code> (CSV reconciliation + strip/footer update), <code>trim_index_columns.py</code> (16→7 column transform), <code>rebuild_held_block.py</code> (rebuilds held block from CSV with sort), <code>sort_index_by_amount.py</code> (earlier iteration, kept for reference).</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-05-18">✅ Completed — 2026-05-18</h2>
+
+<ul>
+<li><strong>Multibagger Astral study integrated.</strong> <code>multibagger_ASTRAL.md</code> validated APPENDIX 2 — Astral compounded ~20-25x 2014-2022 while trading at 30-50x trailing P/E throughout; PEG 1.0-1.6x most of the run. Four refinements applied to <code>research/learnings/multibagger_patterns.md</code> APPENDIX 2 as "Refinements from Astral study (2026-05-12)" sub-section: (1) <strong>Mix-shift duration substitutes for rate</strong> — terminal mix percentage is the criterion, not 200bps/yr threshold (100bps × 9yrs ≈ 200bps × 4yrs); (2) <strong>Distribution density uses company's own disclosure</strong> — track whichever count the company reports consistently, not an imposed definition; (3) <strong>Crisp-event re-rating vs cumulative re-label</strong> — Phase 4.5.4 distinguishes step-function re-ratings (BSE/BAF/APL) from attrition re-ratings (Astral/Cera/Fine Organic), with different position-sizing implications; (4) <strong>Kill signals need corroboration</strong> — single trigger = monitoring signal; ≥2 concurrent triggers needed to confirm runway closed and justify exit (Astral 2022-2024 was a false positive under single-trigger rule). Re-rendered to HTML and pushed to <code>output/html/</code>.</li>
+<li><strong>Multibagger study index links fixed.</strong> 6 existing rows (MULTIBAGGER pattern synthesis, BSE STUDY, BAF STUDY, TITAN STUDY, PAGE STUDY, APL STUDY) had no <code>onclick</code> handler — visible but unclickable since 2026-05-04. All 6 wired to <code>multibagger_X.html</code>. New ASTRAL STUDY row added to the same series. Per-study HTML files (multibagger_BSE.html, _BAF.html, _TITAN.html, _PAGE.html, _APLAPOLLO.html, _ASTRAL.html) rendered via background agent and copied to <code>output/html/</code> from <code>research/learnings/</code>. Updated synthesis card to reflect "6-stock study + APPENDIX 2".</li>
+<li><strong>Invisible-links systemic issue identified.</strong> 26 stock-rows in index.html have no onclick (20 in tracking-india section, 6 multibagger rows now fixed). Triage of the remaining 20 (KPITTECH, BRIGADE, FABTECH, NIPPOBATRY, TTKHLTCARE, SAGILITY, URBANCO, POLICYBZR, IZMO, NDTV, CGCL, VSTIND, NETWEB, ZENTEC, SATIN, BHEL, ATHERENERG, DREDGECORP, SOUTHWEST, QQQM) in progress via background agent — output will list per-row recommendation (wire existing / create stub / remove).</li>
+<li><strong>Index page declutter proposal in flight.</strong> User flagged page is too cluttered (~50 rows × 15 columns, mostly "—" placeholders for non-held rows). Audit agent producing 3 layout options for selection.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-05-16">✅ Completed — 2026-05-16</h2>
+
+<ul>
+<li><strong>VENUSREM v1.1 — material correction for VRP-034 / FDA QIDP miss.</strong> User flagged that v1.0 missed Venus's April 2025 US FDA QIDP designation for VRP-034 (novel polymyxin B with proprietary Renal Guard tech, 70% nephrotoxicity reduction). QIDP under GAIN Act = priority FDA review + Fast Track + 5 years extra US market exclusivity (10 total post-approval). This is the FDA pathway v1.0 incorrectly assumed was absent. Re-graded: MOAT 3→4, MANAGEMENT 2→3, GROWTH RUNWAY 3→4. <strong>Quality Score 15→18/25 (Grade B upper half).</strong> Probability-weighted PV ₹1,117 vs CMP ₹912 → MOS 18%, asymmetry >2x. <strong>Recommendation upgraded from Tracking 1-2% to BUY REDUCED 3-4%</strong> at ₹912; build to 5% on Q4 FY26 OPM ≥18% OR VRP-034 Phase 2 progression. Aggressive buy zone moved up from <₹700 to <₹780. Index entry tag updated to "Buy reduced 3-4% · Build <₹780", val-tag changed to undervalued, asymmetry shown as ~2.3x.</li>
+<li><strong>VENUSREM v1.0 initial thesis</strong> — <code>research/VENUSREM.md</code> written. Grade B (15/25), TRACKING POSITION 1-2% at CMP ₹912. Subsequently upgraded — see v1.1 entry above. Core thesis: post-debt-cleanup injectables exporter (carbapenem/meropenem focus); borrowings ₹335 Cr (FY16) → ₹2 Cr (FY25); Q3 FY26 EBITDA margin >20% (multi-quarter high), 9M FY26 PAT +127% YoY on revenue +12%. Three Kamayaka triggers firing (capex, operating leverage, margin expansion). AMR optionality via Feb 2025 Infex Therapeutics MET-X license (UK partnership). Catalysts: Q4 FY26 results 2026-05-26 (OPM sustain test + possible first dividend in 12 years); VRP-034 Phase 2 progression; MET-X readouts.</li>
+<li><strong>Memory saved</strong> — <code>feedback_no_default_tracking.md</code> — don't default to "Tracking 1-2%" on every stock. Grade A/B + asymmetry >2x + MOS >15% means BUY REDUCED 3-5%, not Tracking. For pharma research, always search FDA designations (QIDP / Fast Track / Orphan / Breakthrough) before grading — VENUSREM v1.0→v1.1 case study.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-05-12">✅ Completed — 2026-05-12</h2>
+
+<ul>
+<li><strong>RAILTEL initial thesis</strong> — <code>research/RAILTEL.md</code> written (643 lines, ~9.5K words). Grade B (16/25), <strong>BUY REDUCED 3%</strong> at CMP ₹333. Base FV ₹442 (MOS 24.7%), bear ₹245, bull ₹680. Asymmetry 1.27x. Core thesis: Telecom segment ROIC 37% on already-depreciated 65,000-km OFC + railway right-of-way; segment mix-shift from low-margin Project (4-5%) toward high-margin Telecom (27% and rising via Data Centre + Aadhaar). Sharpest concern: trade receivables +30% YoY vs revenue +23%; cash conversion the load-bearing watch. Index entry added under <code>grade-b india</code> 16/25 section.</li>
+<li><strong>RAILTEL Section 4c added (OFC + DC deep dive)</strong> — answering: can the OFC + DC sub-business reach ₹10,000 Cr standalone valuation? Math: FY30 needs OFC ₹2,100 Cr (12% CAGR), DC ₹950 Cr (47% CAGR; 25-30 MW capacity vs 3 MW today), combined PBIT ₹915 Cr at 30% margin, exit P/E 15x → ₹10,275 Cr standalone. Probability ~40-50% by FY30, ~65-70% by FY32. Trigger to upgrade conviction: FY28 capex guidance during May 2027 call — if ₹500 Cr+ with explicit DC capacity targets >10 MW, size up. Hyperscaler partnership (telegraphed 18 months, not yet announced) is the single biggest accelerant.</li>
+<li><strong>NSDL framework gap-fill pass</strong> — added (a) "Why this business?" opener, (b) first-principles physical earnings mechanism per Instruction 9 (three observable revenue drivers with evidence already in motion), (c) Growth Trigger Scan across 6 Kamayaka triggers (two yellows, zero greens — speculative-entry by Kamayaka rule, consistent with tracking-not-buy verdict), (d) Technical Entry Snapshot from Trendlyne (CMP ₹855, RSI 42.7, MFI 35.6, price below both 50- and 200-SMAs — neutral with slight oversold tilt; updated MOS 36.8%, asymmetry 1.35x at the new CMP), (e) Glossary defining DP/DPS, demat, custody, NDML, AA, e-KYC, PEG, OPM, promoter conventions, OFS, FII/DII, reverse DCF. Plus Multi-bagger Math + MOS section added 2026-05-11: present-day fair values (bear ₹487, base ₹1,352, bull ₹2,024) discounted at 13% from 3-yr targets; MOS 35.3% clears Grade B threshold but asymmetry 1.23x caps at tracking-not-full-BUY. Full-BUY upgrade triggers: CMP ≤ ₹780, OR two consecutive quarters of revenue ≥22% with OPM ≥32%.</li>
+<li><strong>GREAVESCOT, RAILTEL, NSDL rendered</strong> to HTML + PDF (<code>output/html/{...}.html</code>, <code>output/pdf/{SYMBOL}_2026-05-12.pdf</code>). All three opened in Chrome.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-05-11">✅ Completed — 2026-05-11</h2>
+
+<ul>
+<li><strong>GREAVESCOT initial thesis</strong> — <code>research/GREAVESCOT.md</code> written. Grade C (12/25), WATCHLIST. Sum-of-parts asymmetry note. Standalone diesel-engine + Excel earns ₹200 Cr PAT but GEML (Ampere EV) burns ₹182 Cr at segment PBIT — consolidated EPS ₹4.60 hides ~₹8.59 standalone. CMP ₹177 vs base FV ₹150 (-15% MOS), bear ₹47 (-73%), bull ₹273 (+54%). Asymmetry 0.74x — fails >2x test at current price; spec buy zone ₹120-135. Catalysts: GEML PBIT loss narrowing (-₹223 → -₹182 in FY26), FAME III notification, GEML IPO (DRHP filed Dec 2024). Added to index.html under watch/grade-c section. Q4 FY26 segment data fetched from financial results PDF; investor presentation downloaded to <code>data/filings/GREAVESCOT/</code>.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-05-10">✅ Completed — 2026-05-10</h2>
+
+<ul>
+<li><strong>Q4 FY26 results sweep</strong> — fetched and analysed for RAYMOND, NEWGEN, GRSE, EPACKPEB (not yet filed), LIFE/Ethos.</li>
+<li style="margin-left:20px">RAYMOND: aerospace ₹119.4 Cr revenue cleared ₹110 Cr trigger; PBIT margin 17.45% (missed 20% bar by 2.55pp). FY26 aero ₹392 Cr (+26%), PBIT ₹49 Cr (+51%). Net debt has reappeared (~₹360 Cr) as AP plant capex begins to bite.</li>
+<li style="margin-left:20px">NEWGEN: FY26 revenue ₹1,574 Cr (+6%), PAT ₹301 Cr, EPS ₹21.38. Subscription +24% (SaaS +36%); US +20%; India/EMEA license deals delayed.</li>
+<li style="margin-left:20px">GRSE: FY26 revenue ₹7,002 Cr (+38%), PAT ₹748 Cr (+42%), EBITDA margin 15.3%. ₹520 Cr revenue + ₹63 Cr PBT from P-17A true-up (underlying revenue ~₹6,482 Cr +28%).</li>
+<li style="margin-left:20px">LIFE/Ethos: Q1 2026 revenue $193M (+104% YoY) blew out; stock at $30 vs $8-10 buy zone — dip thesis dead unless lock-up unloading creates real selling.</li>
+<li style="margin-left:20px">EPACKPEB: Q4 not filed yet (board meeting pending). Mambattu Phase II commercial production from Apr 29 → Q1 FY27 impact.</li>
+<li><strong>Portfolio reality fix — research file <code>Status:</code> headers refreshed</strong> to match <code>data/portfolio.csv</code>:</li>
+<li style="margin-left:20px">RAYMOND — was "EXITED"; now HOLD 300 sh @ ₹364.37, +42% (CMP ~₹516). Decision: HOLD; add zone ₹400-450; trim zone ₹620+.</li>
+<li style="margin-left:20px">SWIGGY — was "OWNED IPO entry"; now HOLD 49 sh @ ₹565, −52%. Decision: EXIT and harvest ~₹14.5K capital loss.</li>
+<li style="margin-left:20px">ETERNAL — was stale entry/CMP; now HOLD 98 sh @ ₹337, −27%. Decision: HOLD until ₹260+ rally then trim/exit.</li>
+<li style="margin-left:20px">GRSE — was WATCHLIST + EXIT call; now HOLD 26 sh @ ₹2,267, +29%. Decision: HOLD; trim half above ₹3,000 if NGC contract remains unsigned.</li>
+<li style="margin-left:20px">ARTEMISMED — was OWNED 181 sh; now HOLD 362 sh @ ₹236.67, +3%. Position is 7.4% of portfolio. Decision: TRIM to 2-3%.</li>
+<li><strong>index.html structural fixes:</strong></li>
+<li style="margin-left:20px">RAYMOND moved from <code>data-section="watch india"</code> → <code>"grade-b india"</code> (held). Action tag: "Watch · Re-buy <₹380" → "Hold · add ₹400-450".</li>
+<li style="margin-left:20px">GRSE duplicate watchlist row removed (was double-listed at line 1484). Action tag updated: "Hold · add at ₹1,800-2,000" → "Hold · trim above ₹3,000 if NGC unsigned".</li>
+<li style="margin-left:20px">SWIGGY action tag updated: "Weak Hold — Q4" → "Exit · harvest loss".</li>
+<li><strong>Memory saved</strong> — <code>feedback_check_portfolio_first.md</code> — always read <code>data/portfolio.csv</code> before framing any stock recommendation; existing positions are HOLD/ADD/TRIM decisions, not "re-enter" decisions; lean into TRACKING POSITION calls per framework matrix instead of defaulting to WATCHLIST/AVOID.</li>
+</ul>
+
+<h2 id="completed-2026-05-12">✅ Completed — 2026-05-12</h2>
+
+<ul>
+<li><strong><code>src/refresh_portfolio.py</code></strong> — single-command portfolio refresh: reads latest broker xlsx, refreshes CMP + derived cells in index.html, computes weighted expected 3yr CAGR, inserts Portfolio Snapshot block, flags stale Status headers. Idempotent. Also generates <code>output/html/portfolio.html</code> (Groww-style standalone view, sorted by current value).</li>
+<li><strong><code>output/html/portfolio.html</code></strong> — clean held-only Portfolio tab: snapshot at top, sortable columns (click headers, default Current value desc), per-stock P&L + expected 3yr CAGR, click-through to research file. Renamed "Wt %" → "% of Portfolio" with tooltip.</li>
+<li><strong><code>/refresh-portfolio</code> slash command</strong> — <code>.claude/commands/refresh-portfolio.md</code> so user can invoke without remembering Python command.</li>
+<li><strong><code>docs/FOCUS.md</code></strong> — new "what I'm doing now" landing page. Top of page: this week's high-priority TODOs (concall reads for top 3 holdings, decided exits, price alerts, monthly capital commitment). Middle: Path-to-₹1Cr tracker with monthly checkpoints + scenario table at different injection rates. Bottom: quick links + cadence reminder. Rendered to <code>output/html/FOCUS.html</code>.</li>
+<li><strong><code>docs/INVESTING_PLAYBOOK.md</code></strong> — standing investing rules: 5 focus areas (concentration cap at 12, exit 7-day rule, entry asymmetry ≥1.5x, Sunday concall read, cycle winners at 0.95× target), cadence table, "rules I commit to" (10 rules), 12-slot tracker template, "don't" list for ADHD-loud moments. The week-specific actions section now links to FOCUS.md to avoid duplication.</li>
+<li><strong>index.html + portfolio.html nav</strong> — added <code>🎯 Focus</code> (red, prominent), <code>📖 Playbook</code> (blue) links to both pages. Focus is the high-priority landing.</li>
+</ul>
+
+<h2 id="open-next-session">Open (next session)</h2>
+
+<ul>
+<li><strong>Simplify index.html</strong> — user feedback: page has too much noise (currently ~2800 lines, ~50+ rows mixing grades, US, tracking, watchlist, scenario). Options to consider: (a) move all 1-share tracking stubs to a separate <code>tracking.html</code> page; (b) compress grade-A/B/C into a single sortable "Research" tab; (c) make the held vs watchlist split harder (right now they share grade sections); (d) reduce number of columns visible by default — many cells are "—" for watchlist rows. Decide architecture before editing.</li>
+<li><strong>Wire FOCUS.md regeneration into <code>/refresh-portfolio</code></strong> — currently FOCUS.md is hand-edited. The Path-to-₹1Cr table should auto-fill from broker exports each month. The 12-slot tracker in playbook should auto-rank from portfolio.csv current value.</li>
+<li><strong>High priority — Nitheesh's concall reads:</strong> EPACKPEB, RAYMOND, KERNEX (see FOCUS.md). I (Claude) cannot do these for him — they're personal-conviction reads. Next session start: ask if these were done.</li>
+</ul>
+
+<h2 id="open-next-session-lower-priority">Open (next session, lower priority)</h2>
+
+<ul>
+<li><strong>Build <code>src/refresh_portfolio.py</code></strong> — single command that reads latest broker export from <code>data/broker-exports/</code>, joins with portfolio.csv, generates portfolio snapshot table, refreshes CMP cells in index.html. Currently sync_holdings_from_csv.py only updates qty/avg/invested — leaves CMP cells untouched. Wire CMP refresh in.</li>
+<li>Decide on the SWIGGY exit (book loss) and ARTEMISMED trim (sell ~200-260 sh). Both need user execution; not autonomous.</li>
+<li>ETERNAL — set price alert at ₹260 to trigger exit-on-rally action.</li>
+<li>Watch GRSE May 8 concall transcript (not yet posted to BSE) for: NGC contract status, FY27 revenue guidance, FY28 P-17A delivery gap mitigation.</li>
+<li>ARTEMISMED Quality Score reconciliation — research file says 15/25 Grade C; index.html says B 16/25. Pick one and update the other.</li>
+</ul>
 
 <hr>
 
@@ -65,6 +225,12 @@ strong{color:#111827;}
 
 <ul>
 <li><strong>MEIL</strong> — Mangal Electrical Industries Ltd (BSE: 544492, NSE: MEIL). Transformer components / electrical capital goods. CMP ₹342, mcap ₹944 Cr, P/E 21.3, P/B 1.68, ROE 34.1%, ROCE 30.4%, 5y profit CAGR 74%. Source: https://www.screener.in/company/MEIL/. Initial read: high-quality returns at fair P/B; 5y profit CAGR 74% needs a sustainability check (base effect or genuine compounding?). Queued 2026-05-10.</li>
+</ul>
+
+<h3 id="multi-bagger-study-queue-learning-not-buy-candidates">Multi-bagger study queue (learning, not buy candidates)</h3>
+
+<ul>
+<li>See <code>research/learnings/_QUEUE.md</code> — 7 candidates queued from the "quality re-rates ahead of earnings" pattern (Astral, KEI, Varun Beverages, Deepak Nitrite, Garware Hi-Tech, Fine Organic, Cera). Order of priority: Astral → Deepak Nitrite → Varun → KEI → others. 3-4 studies expected to validate the pattern before promoting the appendix in <code>multibagger_patterns.md</code> to a main-framework hook. Queued 2026-05-10.</li>
 </ul>
 
 <hr>
