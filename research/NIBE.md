@@ -1,12 +1,18 @@
 # NIBE Limited (NIBE) — Investment Thesis
 
 **Status:** NOT OWNED (new-position evaluation)
-**Quality Score:** 13/25 — Grade C+ (Speculative — quality flaws compensated only by very explicit price discipline)
-**Classification:** Borderline Multi-Bagger candidate — bull case is real (₹3,000 Cr Shirdi complex + Pinaka ToT + Elbit PULS), but bear case is also real (FY26 PAT collapsed to ~₹0, debtor days 178, two consecutive quarters of operating losses)
-**Last Updated:** 2026-06-01 | **CMP:** ₹1,521 | **Market Cap:** ₹2,274 Cr | **52w range:** ₹810 – ₹2,001
+**Quality Score:** 13/25 — Grade C+
+**Classification:** Watchlist — wait-for-entry. Real capability + ugly books = no buy at CMP. Re-evaluate at ₹1,150 where asymmetry crosses 2x.
+**Last Updated:** 2026-06-01 (revised) | **CMP:** ₹1,521 | **Market Cap:** ₹2,274 Cr | **52w range:** ₹810 – ₹2,001
 **Data Source:** Screener.in (consolidated, as of Mar 2026 results), BSE announcements May 2026, Shirdi inauguration coverage (23 May 2026)
 
-> **Recommendation: TRACKING POSITION — 1.5% (₹15k on a ₹10L portfolio).** NIBE is a real Pinaka / Suryastra / Universal Rocket Launcher manufacturer with a brand-new ₹3,000 Cr Shirdi facility inaugurated by the Defence Minister on 23 May 2026, an ARDE/DRDO ToT for Pinaka MBRL signed May 2025, and an Elbit PULS partnership for MLRS manufacture. But on the numbers, FY26 was a disaster — revenue fell 6% to ₹474 Cr, PAT collapsed from ₹27 Cr to roughly zero, Q2 and Q3 FY26 were outright operating losses, and Q4 FY26 was a violent ₹260 Cr / ₹28 Cr profit snap-back that looks more like delayed delivery being recognised in one quarter than steady-state operations. Trailing P/E is 404x because the denominator broke; on forward FY28E PAT of ₹70–90 Cr (best case from order book conversion) the stock is 25–32x — fair, not cheap. The bet is that the Shirdi facility + Pinaka ToT + Suryastra emergency procurement produce a step-change in revenue from FY27 onwards, justifying a Grade B re-rating later. Until two consecutive clean quarters confirm the Shirdi ramp is converting (revenue >₹200 Cr per quarter, OPM ≥15%, debtor days reverting toward 90), this is a 1.5% tracking slot, not a real position. Conviction upgrade trigger: Q1 FY27 and Q2 FY27 both clear ₹180 Cr revenue at OPM ≥15%, debtor days <120, no new equity dilution announced. If that prints, build to 4–5% on dips toward ₹1,150. Walk-away trigger: any single quarter where PAT is negative AND debtor days exceed 200, OR a QIP / preferential allotment >10% of equity to fund Shirdi working capital. Expected return at TRACKING: bear ₹720 (–53%), base ₹2,000 (+31%), bull ₹3,200 (+110%) over 3 years — asymmetry 2.1x on the median, weak enough that this is not a buy at full size.
+> **Recommendation: AVOID at ₹1,521. Re-evaluate as BUY REDUCED 3-5% at ≤₹1,150 IF conviction upgrade triggers fire.** Math first: bear ₹720 (–53%) / base ₹2,000 (+31%) / bull ₹3,200 (+110%). Upside-to-downside at CMP is **0.58x — below 1x.** Phase 5.2 of the framework is explicit: *"asymmetry ratio < 1x: do not buy regardless of margin of safety number."* This is an AVOID at ₹1,521. The earlier draft of this file rated it TRACKING POSITION 1.5% — that was the wrong call, softened from AVOID because TRACKING felt less harsh. Fixed 2026-06-01.
+>
+> **Why it's a real watchlist (not AVOID forever):** NIBE has the physical capability — ₹3,000 Cr Shirdi facility inaugurated by the Defence Minister 23 May 2026, ARDE/DRDO ToT for Pinaka MBRL signed May 2025, Elbit PULS MLRS partnership, ~₹500 Cr+ disclosed order book. That's a Phase 0.5 capability that passes (built, operating, not promised). But FY26 broke: PAT collapsed from ₹27 Cr to ~₹0, Q2/Q3 FY26 were operating losses, debtor days went 109→178, FCF negative two years, borrowings up 56%. Q4 FY26 was a violent ₹260 Cr / ₹28 Cr snap-back that public data can't tell from delayed-delivery catch-up. The bet only becomes investable when the books prove the capability is converting.
+>
+> **Re-entry trigger (BUY REDUCED 3-5%):** CMP ≤₹1,150 (asymmetry crosses 2x) AND Q1 FY27 AND Q2 FY27 both clear ₹180 Cr revenue at OPM ≥15%, debtor days <120, no new equity dilution announced. If price hits ₹1,150 before the operating quarters print, treat as half-position 2% and add the second 2-3% after the second clean quarter.
+>
+> **Walk-away (drop from watchlist):** any single quarter with negative PAT AND debtor days >200, OR a QIP / preferential allotment >10% of equity to fund Shirdi working capital, OR promoter holding falls below 50%.
 
 ---
 

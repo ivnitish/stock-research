@@ -1,13 +1,15 @@
 # Venus Remedies (VENUSREM) — Investment Thesis
 
-**Status:** WATCHLIST (Buy zone active)
+**Status:** HOLD existing; new-money entry above ideal range (thesis confirmed by Q4 FY26 print, stock has run +48% since v1.1)
 **Quality Score:** 18/25 (Grade B, upper half)
 **Classification:** Quality Compounder (base) + Multi-Bagger Candidate (bull, with VRP-034 US launch optionality)
-**Last Updated:** 2026-05-16 | **CMP:** ₹912 | **Market Cap:** ₹1,219 Cr
+**Last Updated:** 2026-06-01 | **CMP:** ₹1,347 | **Market Cap:** ₹1,797 Cr
 
 ---
 
-**Recommendation:** BUY REDUCED 3-4% at ₹912. Build to 5% on Q4 FY26 operating margin ≥18%, or VRP-034 advancing into Phase 2. Add aggressively below ₹780.
+**Recommendation (v1.1, May 16):** BUY REDUCED 3-4% at ₹912. Build to 5% on Q4 FY26 operating margin ≥18%, or VRP-034 advancing into Phase 2. Add aggressively below ₹780.
+
+**Post Q4 FY26 print (2026-06-01) — interim guidance pending v1.2 refresh:** Thesis confirmed (Q4 FY26 OPM 24%, FY26 OPM 19%, PAT ₹103 Cr +129%, first dividend in 12 years declared at ₹10/share). But CMP ₹1,347 is now above the "BUY REDUCED" zone (₹780-₹950) and inside the "HOLD, pause add" band (₹950-₹1,200) verging on the TRIM line (>₹1,400). For existing 3-4% holders: HOLD; do not trim solely on price — the OPM-sustain test was the explicit upgrade-to-5% condition and it passed. For new money: WAIT for a pullback into ₹950-₹1,100 OR a VRP-034 Phase 2 catalyst that justifies the higher entry. Aggressive add zone moves to <₹950 (from <₹780) given de-risked execution. See log entry 2026-06-01 for full reasoning; multi-bagger math table and Action Table both flagged for v1.2 refresh.
 
 Venus Remedies makes injectable antibiotics — primarily carbapenems like meropenem, the drugs hospitals use in ICUs when standard antibiotics fail — out of plants in Panchkula, Baddi (Himachal Pradesh), and Werne (Germany). For most of the last decade the company was a debt-laden survival story: ₹335 Cr of borrowings against a ₹400 Cr revenue base, four straight years of losses through FY20. Between FY21 and FY25 it executed one of the cleanest deleveraging stories in mid-cap pharma — debt paid down to ₹2 Cr without taking in any fresh equity, revenue back to ₹640 Cr. That chapter is largely closed and the stock has already tripled from the FY24 lows recognising it.
 

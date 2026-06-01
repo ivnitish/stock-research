@@ -182,6 +182,32 @@ Both models agree: ARTEMIS is significantly overvalued at current price unless R
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/ARTEMIS.md`*
 
+### 2026-06-01 — Q4 FY26 + FY26 results print; Raipur live in Q1 FY27
+
+**Source:** Screener.in consolidated quarterly + earnings call transcript dated 15-May-2026; secretarial compliance filed 25-May-2026.
+
+**Q4 FY26 numbers:**
+- Revenue ₹279 Cr (+15.4% YoY vs ~₹242 Cr Q4 FY25)
+- OPM 18% (vs ~16% Q4 FY25 — ~200bps expansion)
+- PAT ₹30 Cr (+26.2% YoY vs ~₹24 Cr Q4 FY25)
+
+**FY26 full year:**
+- Revenue ₹1,081 Cr
+- EBITDA ₹188 Cr (17.4% OPM)
+- PAT ₹104 Cr
+
+**Valuation as of today:** CMP ₹267, mcap ₹4,208 Cr, P/E 39.7x, ROCE 14.6%, ROE 12.0%.
+
+**Thesis read.** The Q4 print is genuinely good — revenue +15% YoY, PAT +26% YoY, and margins expanding ~200bps. This is the cleanest single-quarter beat since the original Mar 2026 thesis was written. But the move is incremental, not a step-change: PAT growth running ~26% is still below the 33% FCF CAGR the market is pricing in via the 40x P/E. ROE at 12% remains below the 13% used in the P/B-ROE model — no upgrade to the valuation framework warranted yet.
+
+**The Raipur disclosure changes the watch-list materially.** Management noted on the May 15 concall that the Raipur facility commenced operations in Q1 FY27 (i.e. it is live as of April-May 2026). This is a second physical asset starting to contribute — the thesis had been single-hospital-NCR with VIMHANS as the only catalyst out to FY29. Raipur arrives 2-3 years earlier than VIMHANS and gives the company its first multi-location revenue stream. Need to track utilisation and per-bed revenue contribution from Q1 FY27 onwards — if it scales to single-digit EBITDA contribution in FY27 itself, the "single-hospital" risk discount narrows.
+
+**Position-size implication: no change to TRIM recommendation, but pause it.** The earlier note recommended trimming 200-260 sh of the 362-share holding to free 5% of portfolio. Q4 was strong enough and Raipur is a fresh positive datapoint, so trimming aggressively right after a good print is bad sequencing — wait one quarter to see whether Raipur shows revenue traction in Q1 FY27. If Q1 FY27 confirms operating leverage from the new facility, the Grade C might warrant upgrade. If Raipur disappoints or VIMHANS slips, revert to the original trim plan.
+
+**Quality score reconciliation note:** Confirmed file and index both show 15/25 Grade C. No conflict — earlier user flag (file C 15/25 vs index B 16/25) appears already reconciled. No change to the 15/25 breakdown given Q4 alone is not enough evidence to upgrade any dimension; revisit after Q1 FY27 with Raipur contribution visible.
+
+---
+
 ### 2026-03-11 — Initial thesis + promoter stake investigation
 - Built 2-model valuation: DCF (very bearish), P/B-ROE (bearish unless ROE doubles to 28%)
 - **Promoter sale decoded:** The 8.15% stake was sold in a single quarter (Sep→Dec 2025). Simultaneously, FII holding surged from 0.37% → 12.47%. This is a **block deal / secondary sale to institutional investors** — not a pledge invocation or distress sale. FIIs buying at scale is a positive signal (they did due diligence).

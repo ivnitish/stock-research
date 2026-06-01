@@ -43,6 +43,7 @@ PORTFOLIO = {
     "DREDGECORP": 523618,
     "NILE":       530129,
     "DCMSIL":     544702,
+    "KAYA":       539276,
     # US stocks don't have BSE codes — skip them
 }
 
