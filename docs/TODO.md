@@ -3,6 +3,18 @@
 
 ---
 
+## ✅ Completed — 2026-05-25 (afternoon — portfolio single-source-of-truth fix)
+
+- **Portfolio page collapsed to single source of truth.** Three pages were drifting and confusing agents (portfolio.html, PORTFOLIO_OVERVIEW.html stale at 2026-03-13 showing wrong totals like ₹15.21L invested / 45 positions, and the inline table inside index.html). Cleanup: `output/html/PORTFOLIO_OVERVIEW.html` now a meta-refresh redirect to `portfolio.html`; `research/PORTFOLIO_OVERVIEW.md` moved to `research/archive/PORTFOLIO_OVERVIEW_v1_2026-03-13.md`; the OVERVIEW card on index.html (line ~1464) now points at portfolio.html with accurate copy; the three orphaned scripts `src/portfolio_overview.py`, `portfolio_update.py`, `portfolio_review.py` moved to `src/archive/`. Updated `.claude/commands/portfolio-check.md` and `.claude/agents/portfolio-reviewer.md` so future agents read portfolio.html first (Kite/Groww MCP becomes the fallback, not the entry point). README.md gained a "Source-of-truth chain" diagram so the rule is documented.
+
+- **Expected 3yr CAGR column removed; Upside % + Action shown instead.** The old "Exp 3y CAGR" applied a single 3-year horizon to per-row targets that came from research files written with different horizons (EPACKPEB ₹800 multi-year base case sat next to RAYMOND ₹530 1-yr fair value next to ETERNAL ₹218 exit trigger), producing a meaningless weighted +18.3% portfolio CAGR. The fix replaces the CAGR column with two cleaner columns: **Upside % = (target / CMP − 1) × 100** (raw distance, no horizon assumed) and **Action** (BUY / ADD / HOLD / WATCH / EXIT, taken from each row's action-tag class in index.html). The snapshot now shows "Avg Upside · Active Holds" current-weighted across BUY/ADD/HOLD positions only (excludes EXIT/WATCH/no-target), with explicit caveat in the footer that target horizons differ.
+
+- **`src/refresh_portfolio.py` rewritten** to match the current 7-cell stock-row layout in index.html (the legacy version expected an 11-cell layout that index.html stopped using around mid-May, so portfolio.html was silently stuck on May 12 stale data). New flow: read qty/avg from portfolio.csv, CMP from latest broker xlsx, target+action from index.html stock-rows, then generate (a) standalone portfolio.html + (b) snapshot block in index.html. The old per-row patch logic on index.html stock-rows was dropped — index.html stock-rows are now read-only for the script's purposes (they belong to the research-index view, not the portfolio view).
+
+- **FOCUS.md + INVESTING_PLAYBOOK.md updated** to drop the misleading "18.3% expected 3yr CAGR" header line and point at portfolio.html for live state instead. Both re-rendered to HTML.
+
+---
+
 ## ✅ Completed — 2026-05-25
 
 - **Portfolio model targets refresh** — `src/valuation_dashboard.py` TARGETS dict updated for three stale entries flagged in this session: **RAYMOND ₹493 → ₹1,100** (post-realty-demerger SOTP base; aerospace + auto components only — old target was set before clean post-demerger numbers); **EPACKPEB ₹800 → ₹500** (de-rate is done, from here PAT-growth play not multiple-expansion play; ₹800 needed margin breakout to 13-14% AND multiple staying at 25-30x while sector de-rates — aggressive); **KERNEX ₹1,444 → ₹1,800** (base case at P/E 30x FY29E; explicit caution: don't add above ₹1,050, trailing 43x already rich). Method strings document the reasoning.

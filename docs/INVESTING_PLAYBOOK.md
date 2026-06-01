@@ -2,7 +2,7 @@
 
 > **Goal:** ₹1 Cr portfolio · target horizon 24-30 months · sustainable 25-30% CAGR · max 12 positions
 >
-> **Today:** ₹12.62L invested · +8.56% unrealised · 18.3% expected 3yr CAGR (base case)
+> **Today:** ₹12.62L invested · +8.56% unrealised. Per-position upside-to-target is published in [portfolio.html](../output/html/portfolio.html); aggregate CAGR is no longer shown because cross-row target horizons differ (1yr fair value vs 3-5yr multi-bagger base case).
 >
 > **The gap is closed by capital additions + concentration + execution discipline — not by chasing returns.**
 

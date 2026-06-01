@@ -3,7 +3,7 @@
 *Single source of truth for current priorities. Open every Sunday morning. Updated weekly.*
 
 > **Goal:** ₹1,00,00,000 portfolio · target horizon ~24-30 months · current value ₹12.62L (+8.56%)
-> **Expected 3yr CAGR:** +18.3% (weighted, base case) · push to 25-30% via concentration discipline
+> **Live state:** see [portfolio.html](../output/html/portfolio.html) — sortable per-stock view with upside-to-target on every position. Aggregate "expected CAGR" is no longer published in the snapshot because targets across research files use different horizons (1yr fair value vs 3-5yr multi-bagger base case) and averaging them was misleading.
 > **Monthly capital commitment:** ₹_____ (define this week ↓)
 
 ---
