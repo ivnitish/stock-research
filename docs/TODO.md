@@ -1,5 +1,11 @@
 # Research System — TODO
-*Last updated: 2026-05-25*
+*Last updated: 2026-06-01*
+
+---
+
+## ✅ Completed — 2026-06-01
+
+- **NIBE Ltd research file created** — `research/NIBE.md` written + rendered to `output/html/NIBE.html` + indexed under Grade C watch section in `output/html/index.html`. Grade C+ (13/25), **TRACKING POSITION 1.5% at ₹1,521**. Multi-bagger math: bear ₹720 (-53%) / base ₹2,000 (+31%) / bull ₹3,200 (+110%) over 3 years; asymmetry unfavourable at CMP, becomes 2x at ₹1,150 entry. Thesis: real capability story (Pinaka ToT May 2025, Elbit PULS partnership, ₹3,000 Cr Shirdi complex inaugurated 23 May 2026 by Defence Minister, Suryastra MLRS production flagged off) but ugly FY26 numbers (PAT collapsed from ₹27 Cr to ~₹0, two consecutive quarters of operating losses, debtor days 109→178, FCF negative two years). Phase 5.6 forward PEG primary applied (capex absorbing margins). Walk-away triggers: any quarter with negative PAT AND debtor days >200; QIP >10% of equity; promoter <50%. Phase 0.4 active triggers: Capacity Expansion + Regulatory Tailwind + Turnaround (partial). Phase 0.5 capability passes (Shirdi built/operating), Phase 4.5.3 borderline (capex absorbing without prior-cycle ROIC proof). Open questions: Is Q4 FY26 snap-back delivery catch-up or genuine ramp? Total order book across subs? Why did NAL cease as step-down subsidiary April 2026?
 
 ---
 
