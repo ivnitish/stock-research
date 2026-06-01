@@ -37,7 +37,39 @@ strong{color:#111827;}
 </style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
 <details id="toc" class="no-print"><summary>Jump to section</summary></details>
 <h1 id="research-system-todo">Research System — TODO</h1>
-<p><em>Last updated: 2026-05-25</em></p>
+<p><em>Last updated: 2026-06-01</em></p>
+
+<hr>
+
+<h2 id="completed-2026-06-01">✅ Completed — 2026-06-01</h2>
+
+<ul>
+<li><strong>KELTECH (Keltech Energies) research file created</strong> — <code>research/KELTECH.md</code> written + rendered to <code>output/html/KELTECH.html</code> + indexed under Grade C section. Grade <strong>C (12/25), AVOID at ₹5,010</strong>. Defence-energetics market label does not appear in company disclosure: customer page lists Coal India, NMDC, SAIL, cement majors and zero MoD/OFB/DRDO entries; segment report shows only Explosives (88%) + Perlite (12%); OPM 8% vs Solar Industries' 28% and Premier Explosives' 10%-on-defence-book. Multi-bagger math: bear ₹3,185 (-36%) / base ₹6,400 (+28%) / bull ₹16,800 (+236% IF defence revenue actually shows up in FY26 AR). Asymmetry 0.78x at CMP — does not clear Phase 5.3 thresholds. Revisit triggers: ₹3,500 entry zone, FY26 annual report defence disclosure (July-Aug 2026), or quarterly OPM through 10% for 2 consecutive quarters. Peer comp table the most load-bearing analysis. ₹38 Cr CWIP build in FY26 with no investor presentation explaining purpose is the residual reason not to short. Open questions: capex purpose, capacity utilisation, Chowgule group RPT in FY26 AR.</li>
+</ul>
+
+<ul>
+<li><strong>NIBE Ltd research file created</strong> — <code>research/NIBE.md</code> written + rendered to <code>output/html/NIBE.html</code> + indexed under Grade C watch section in <code>output/html/index.html</code>. Grade C+ (13/25), <strong>TRACKING POSITION 1.5% at ₹1,521</strong>. Multi-bagger math: bear ₹720 (-53%) / base ₹2,000 (+31%) / bull ₹3,200 (+110%) over 3 years; asymmetry unfavourable at CMP, becomes 2x at ₹1,150 entry. Thesis: real capability story (Pinaka ToT May 2025, Elbit PULS partnership, ₹3,000 Cr Shirdi complex inaugurated 23 May 2026 by Defence Minister, Suryastra MLRS production flagged off) but ugly FY26 numbers (PAT collapsed from ₹27 Cr to ~₹0, two consecutive quarters of operating losses, debtor days 109→178, FCF negative two years). Phase 5.6 forward PEG primary applied (capex absorbing margins). Walk-away triggers: any quarter with negative PAT AND debtor days >200; QIP >10% of equity; promoter <50%. Phase 0.4 active triggers: Capacity Expansion + Regulatory Tailwind + Turnaround (partial). Phase 0.5 capability passes (Shirdi built/operating), Phase 4.5.3 borderline (capex absorbing without prior-cycle ROIC proof). Open questions: Is Q4 FY26 snap-back delivery catch-up or genuine ramp? Total order book across subs? Why did NAL cease as step-down subsidiary April 2026?</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-05-25-afternoon-portfolio-single-source-of-truth-fix">✅ Completed — 2026-05-25 (afternoon — portfolio single-source-of-truth fix)</h2>
+
+<ul>
+<li><strong>Portfolio page collapsed to single source of truth.</strong> Three pages were drifting and confusing agents (portfolio.html, PORTFOLIO_OVERVIEW.html stale at 2026-03-13 showing wrong totals like ₹15.21L invested / 45 positions, and the inline table inside index.html). Cleanup: <code>output/html/PORTFOLIO_OVERVIEW.html</code> now a meta-refresh redirect to <code>portfolio.html</code>; <code>research/PORTFOLIO_OVERVIEW.md</code> moved to <code>research/archive/PORTFOLIO_OVERVIEW_v1_2026-03-13.md</code>; the OVERVIEW card on index.html (line ~1464) now points at portfolio.html with accurate copy; the three orphaned scripts <code>src/portfolio_overview.py</code>, <code>portfolio_update.py</code>, <code>portfolio_review.py</code> moved to <code>src/archive/</code>. Updated <code>.claude/commands/portfolio-check.md</code> and <code>.claude/agents/portfolio-reviewer.md</code> so future agents read portfolio.html first (Kite/Groww MCP becomes the fallback, not the entry point). README.md gained a "Source-of-truth chain" diagram so the rule is documented.</li>
+</ul>
+
+<ul>
+<li><strong>Expected 3yr CAGR column removed; Upside % + Action shown instead.</strong> The old "Exp 3y CAGR" applied a single 3-year horizon to per-row targets that came from research files written with different horizons (EPACKPEB ₹800 multi-year base case sat next to RAYMOND ₹530 1-yr fair value next to ETERNAL ₹218 exit trigger), producing a meaningless weighted +18.3% portfolio CAGR. The fix replaces the CAGR column with two cleaner columns: <strong>Upside % = (target / CMP − 1) × 100</strong> (raw distance, no horizon assumed) and <strong>Action</strong> (BUY / ADD / HOLD / WATCH / EXIT, taken from each row's action-tag class in index.html). The snapshot now shows "Avg Upside · Active Holds" current-weighted across BUY/ADD/HOLD positions only (excludes EXIT/WATCH/no-target), with explicit caveat in the footer that target horizons differ.</li>
+</ul>
+
+<ul>
+<li><strong><code>src/refresh_portfolio.py</code> rewritten</strong> to match the current 7-cell stock-row layout in index.html (the legacy version expected an 11-cell layout that index.html stopped using around mid-May, so portfolio.html was silently stuck on May 12 stale data). New flow: read qty/avg from portfolio.csv, CMP from latest broker xlsx, target+action from index.html stock-rows, then generate (a) standalone portfolio.html + (b) snapshot block in index.html. The old per-row patch logic on index.html stock-rows was dropped — index.html stock-rows are now read-only for the script's purposes (they belong to the research-index view, not the portfolio view).</li>
+</ul>
+
+<ul>
+<li><strong>FOCUS.md + INVESTING_PLAYBOOK.md updated</strong> to drop the misleading "18.3% expected 3yr CAGR" header line and point at portfolio.html for live state instead. Both re-rendered to HTML.</li>
+</ul>
 
 <hr>
 
@@ -66,14 +98,12 @@ strong{color:#111827;}
 <li style="margin-left:20px"><strong>Position-size action</strong>: add ~90 sh in ₹460-475 zone (funded from EPACKPEB trim above); takes RAYMOND from 11.1% → ~14% of portfolio. Don't pay above ₹500.</li>
 </ul>
 
-<h3 id="pending-created-this-session-queued-for-action">Pending (created this session, queued for action)</h3>
+<h3 id="pending-repo-tasks-broker-side-stock-repositioning-is-user-s-own-not-tracked-here">Pending repo tasks (broker-side stock repositioning is user's own; not tracked here)</h3>
 
 <ul>
-<li><strong>Execute EPACK trim</strong> — sell 400 sh @ ₹200-210 next session. Broker-side action.</li>
-<li><strong>Execute RAYMOND add</strong> — buy ~90 sh ₹460-475 next session. Broker-side action.</li>
-<li><strong>Tail cleanup orders</strong> — ETERNAL exit (~₹24K), SWIGGY exit (~₹13K, already decided), THRIVE exit decision (~₹99K, target -9.6% CAGR), SHILCTECH exit (~₹31K), 8 token positions cleanup (~₹4K). Frees ~₹1.7L for redeployment into multi-bagger top-5 names.</li>
-<li><strong>SAKSOFT verification</strong> — portfolio model shows +31.7% expected CAGR (highest after EPACKPEB); but currently only 5% weight. If thesis verifies, candidate for 10% slot in top-5 multi-bagger basket. Refresh research file.</li>
-<li><strong>BANCOINDIA deep refresh</strong> — owned position 4.9% with shallow research file. Refresh thesis depth.</li>
+<li><strong>SAKSOFT thesis verification</strong> — portfolio model shows +31.7% expected CAGR (highest after EPACKPEB); currently only 5% weight. Refresh research file to verify whether thesis supports promoting to a 10% slot in top-5 multi-bagger basket.</li>
+<li><strong>BANCOINDIA deep refresh</strong> — owned position 4.9% with shallow research file; user previously flagged as priority refresh.</li>
+<li><strong>NEWGEN Q1 FY27 working-capital normalisation check</strong> — research file has open monitor: working capital days exploded 72d → 244d in Q4 FY26; needs to drop back <200d in Q1 FY27 print for the deep-dive A diagnostic to close cleanly.</li>
 </ul>
 
 <hr>
