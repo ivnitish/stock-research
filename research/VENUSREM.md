@@ -3,13 +3,13 @@
 **Status:** HOLD existing; new-money entry above ideal range (thesis confirmed by Q4 FY26 print, stock has run +48% since v1.1)
 **Quality Score:** 18/25 (Grade B, upper half)
 **Classification:** Quality Compounder (base) + Multi-Bagger Candidate (bull, with VRP-034 US launch optionality)
-**Last Updated:** 2026-06-01 | **CMP:** ₹1,347 | **Market Cap:** ₹1,797 Cr
+**Last Updated:** 2026-06-02 | **CMP:** ₹1,414 | **Market Cap:** ₹1,890 Cr
 
 ---
 
 **Recommendation (v1.1, May 16):** BUY REDUCED 3-4% at ₹912. Build to 5% on Q4 FY26 operating margin ≥18%, or VRP-034 advancing into Phase 2. Add aggressively below ₹780.
 
-**Post Q4 FY26 print (2026-06-01) — interim guidance pending v1.2 refresh:** Thesis confirmed (Q4 FY26 OPM 24%, FY26 OPM 19%, PAT ₹103 Cr +129%, first dividend in 12 years declared at ₹10/share). But CMP ₹1,347 is now above the "BUY REDUCED" zone (₹780-₹950) and inside the "HOLD, pause add" band (₹950-₹1,200) verging on the TRIM line (>₹1,400). For existing 3-4% holders: HOLD; do not trim solely on price — the OPM-sustain test was the explicit upgrade-to-5% condition and it passed. For new money: WAIT for a pullback into ₹950-₹1,100 OR a VRP-034 Phase 2 catalyst that justifies the higher entry. Aggressive add zone moves to <₹950 (from <₹780) given de-risked execution. See log entry 2026-06-01 for full reasoning; multi-bagger math table and Action Table both flagged for v1.2 refresh.
+**Post Q4 FY26 print (2026-06-02 refresh, v1.2 pending) — interim guidance:** Thesis confirmed (Q4 FY26 revenue ₹259 Cr +33% YoY, OPM 24%, PAT ₹48 Cr +129%; FY26 OPM 19%, PAT ₹103 Cr +129%; ₹10/share dividend declared — first in 12 years). CMP has moved to ₹1,414 (+55% since v1.1 entry at ₹912), now at the Action Table TRIM trigger line. Strict reading: the TRIM trigger is conditional on "no FY27 OPM ≥17%" — FY27 isn't observable yet and the FY26 print (19% OPM) is supportive, so the failure condition has not fired. **Recommendation held, not changed:** existing 3-4% holders HOLD (do not trim on price alone — the OPM-sustain test that was the upgrade condition passed); new money WAIT for a pullback into ₹950-₹1,100 OR a VRP-034 Phase 2 catalyst. Aggressive add zone moves to <₹950 (from <₹780) given de-risked execution. Multi-bagger math table and Action Table refresh queued for v1.2. See 2026-06-02 log entry for full reasoning.
 
 Venus Remedies makes injectable antibiotics — primarily carbapenems like meropenem, the drugs hospitals use in ICUs when standard antibiotics fail — out of plants in Panchkula, Baddi (Himachal Pradesh), and Werne (Germany). For most of the last decade the company was a debt-laden survival story: ₹335 Cr of borrowings against a ₹400 Cr revenue base, four straight years of losses through FY20. Between FY21 and FY25 it executed one of the cleanest deleveraging stories in mid-cap pharma — debt paid down to ₹2 Cr without taking in any fresh equity, revenue back to ₹640 Cr. That chapter is largely closed and the stock has already tripled from the FY24 lows recognising it.
 
@@ -92,8 +92,9 @@ OCF/PAT ratio over FY21-25: ~1.5x average — clean cash conversion. FY25 capex 
 | Q1 FY26 (Jun'25) | 137 | 11% | 10  | 7.18 |
 | Q2 FY26 (Sep'25) | 193 | 16% | 20  | 15.06 |
 | Q3 FY26 (Dec'25) | 180 | 20%+| 26  | 19.1 |
+| Q4 FY26 (Mar'26) | 259 | 24% | 48  | 35.54 |
 
-The Q2 FY25 OPM at 4% is the cautionary data point — the company can swing hard on mix. Three consecutive quarters at ≥15% (Q4 FY25, Q2 FY26, Q3 FY26) is the bullish counter-evidence.
+The Q2 FY25 OPM at 4% is the cautionary data point — the company can swing hard on mix. Four consecutive quarters at ≥15% (Q4 FY25, Q2 FY26, Q3 FY26, Q4 FY26) — and the latest two at 20%+ — is the bullish counter-evidence. Q4 FY26 sales ₹259 Cr (+33% YoY) is the largest quarter in the company's history; FY26 closes at ₹770 Cr revenue, ₹103 Cr PAT (+129% YoY), 19% full-year OPM. (Source: Screener consolidated, 2026-06-02 refresh.)
 
 #### Shareholding (Mar 2026)
 
@@ -202,12 +203,14 @@ Against ICICIAMC at ₹2,400 entry (asset-light, 35%+ ROE, regulated TAM): ICICI
 
 ### Recent Developments (most recent first)
 
+- **2026-05-26:** **Q4 FY26 + full-year FY26 results declared.** Q4 revenue ₹259 Cr (+33% YoY, largest quarter ever), OPM 24%, PAT ₹48 Cr (+129% YoY), EPS ₹35.54. FY26: revenue ₹770 Cr, OPM 19%, PAT ₹103 Cr (+129% YoY), EPS ₹76.90. **Final dividend ₹10/share recommended** — first dividend in 12+ years; AGM 2026-08-20. Borrowings ₹12 Cr (still effectively debt-free), reserves ₹650 Cr. VRP-034 status not disclosed in result announcement (open follow-up). *Thesis impact: materially strengthens — confirms OPM-sustain test (≥18% upgrade condition) at full-year level; dividend resumption is a governance positive.*
 - **2026-03-02:** Promoter group internal merger announced — Sunev Pharma Solutions (17.21% of equity) to merge into Spine Software Systems. No change of control, no impact on aggregate promoter shareholding. *Thesis impact: neutral.*
 - **2026-01-29:** Q3 FY26 results — revenue ₹180 Cr (+2% YoY), PAT ₹25.58 Cr (+31%), EBITDA margin crossed 20% for first time in many quarters. 9M FY26 PAT ₹55 Cr (+127% YoY). *Thesis impact: strengthens — third consecutive quarter of >15% OPM.*
 - **2025-04:** **US FDA grants QIDP designation to VRP-034** — novel polymyxin B formulation using Venus's proprietary Renal Guard / supramolecular cationic (SMC) technology, indicated for bloodstream infections caused by polymyxin B-susceptible strains. Stock jumped 11-14% on the announcement. Benefits under GAIN Act: priority FDA review, Fast Track eligibility, 5 years extra US market exclusivity (10 total post-approval). *Thesis impact: materially strengthens — opens the US novel-drug pathway, biggest single source of upside optionality.*
 - **2025-02:** Exclusive India license signed with Infex Therapeutics (UK) for MET-X — a metallo-beta-lactamase inhibitor designed to extend meropenem efficacy against resistant gram-negative infections. Phase 1/2 clinical development underway. *Thesis impact: strengthens — adds AMR optionality, but multi-year horizon.*
 - **2024-2025:** Multiple GMP renewals — EU INFARMED, Ukraine PIC/S, Moldova, Indonesia MAs. *Thesis impact: incrementally strengthens — geographic expansion proof.*
-- **2026-05-26 (upcoming):** Q4 FY26 + full-year FY26 results board meeting; possible first dividend in 12+ years. *Thesis impact: critical — sets the OPM-sustain question.*
+<!-- 2026-05-26 actual result now logged at top of section. Original upcoming-event line retained below for audit. -->
+- **2026-05-26 (event — now actualised, see top bullet):** Q4 FY26 + full-year FY26 results board meeting; possible first dividend in 12+ years. *Thesis impact: critical — sets the OPM-sustain question.*
 
 ### Action Table
 
@@ -483,6 +486,49 @@ Exit if any of the following:
 
 ### 11. Research Log
 
+**2026-06-02 — Q4 FY26 + FY26 results review; thesis test confirmed; position guidance held.**
+
+Data refresh source: Screener.in consolidated page (https://www.screener.in/company/VENUSREM/consolidated/), fetched 2026-06-02.
+
+**Q4 FY26 print (board meeting 2026-05-26):**
+
+| Line | Q4 FY26 | Q4 FY25 | YoY |
+|------|---------|---------|-----|
+| Revenue | ₹259 Cr | ₹195 Cr | +33% |
+| Operating Profit | ₹63 Cr | ₹29 Cr | +117% |
+| OPM | 24% | 15% | +900 bps |
+| PAT | ₹48 Cr | ₹21 Cr | +129% |
+| EPS | ₹35.54 | ₹15.71 | +126% |
+
+**FY26 full-year:** Revenue ₹770 Cr (+20% YoY vs FY25 ₹640 Cr), OPM 19% (vs FY25 10%), PAT ₹103 Cr (+129% vs FY25 ₹45 Cr), EPS ₹76.90. Borrowings ₹12 Cr, reserves ₹650 Cr — balance sheet remains effectively debt-free with a one-time minor borrowing tick (still <2% of equity).
+
+**Did the OPM-sustain test pass?** Yes, comfortably. The explicit upgrade-to-5% condition in the May 16 thesis was "Q4 FY26 OPM ≥18%." Q4 printed 24% and full-year FY26 came in at 19%. This is the second quarter at 20%+ in a row (Q3 FY26 21%, Q4 FY26 24%), and the fourth consecutive quarter at ≥15%. The margin profile has clearly stepped up from the historical 10% line — three years of compounding above 15% would now be needed to call this fully de-risked, but the 9M FY26 + Q4 print is enough to reject the "10% mean-reversion" bear scenario for the visible horizon.
+
+**Dividend declared:** ₹10/share final dividend recommended — first dividend in 12+ years. This was explicitly flagged in the May 16 note as a watch item. At ₹10 on share count 1.34 Cr that's ~₹13.4 Cr payout, ~13% of FY26 PAT — a modest, sustainable starter dividend, not a one-off bonanza. The signal value matters more than the cash: a board comfortable enough to start paying out is a board that believes the cash flows are sustainable. Mild positive for the governance overhang concern, though not a substitute for actually doing concalls.
+
+**VRP-034 update in Q4 release:** Not disclosed in the Screener summary. The result announcement is the standard quarterly P&L without management commentary; there are still no investor concalls. VRP-034 status (Phase 1 enrolment progress, FDA interactions, US manufacturing pathway) remains an open follow-up — to be checked in BSE filings around the result date and in the FY26 annual report when filed.
+
+**Price action since v1.1 (May 16):** Stock has run from ₹912 to ₹1,414 (+55%) over 17 days. CMP is now above the May 16 BUY REDUCED zone (₹780-₹950) and above the HOLD-pause-add band (₹950-₹1,200), sitting at the TRIM trigger line (₹1,400). 
+
+**Action Table interpretation:** The trigger reads "TRIM 25% if >₹1,400 AND no FY27 OPM ≥17% on full-year basis." FY27 is not yet observable, but FY26 came in at 19% OPM (above the 17% bar) and Q4 FY26 at 24%. Reading the trigger strictly: the precondition is a *failure* to print 17%+ at the FY27 full-year mark — that data doesn't exist yet, and the trajectory is supportive, not threatening. **The TRIM trigger has not fired.** The price has reached the level, but the failure condition that pairs with it has not.
+
+**Recommendation impact — held, not changed:**
+
+- **Existing 3-4% holders:** HOLD. The OPM-sustain test that was the upgrade-to-5% condition passed cleanly. Do not trim solely on price; do not auto-add at ₹1,414 either — the asymmetry that justified building from 3-4% to 5% has been eaten by the price move. If a Phase 2 VRP-034 catalyst arrives, build to 5-7% per the original upsize trigger.
+- **New money:** WAIT. The BUY REDUCED entry zone was ₹780-₹950; that's gone. New buyers should wait for either (a) a pullback into ₹950-₹1,100 or (b) a VRP-034 Phase 2 enrolment / readout catalyst that justifies paying at or above ₹1,400. The thesis is more de-risked at ₹1,414 than at ₹912, but the price has run faster than the de-risking; that's the trade-off.
+- **Aggressive add zone:** Moves to <₹950 (from <₹780) given execution is now substantially de-risked. Below ₹950 the asymmetry comes back above 2x even on conservative FY30 estimates.
+
+**Multi-bagger math implication (qualitative — full v1.2 refresh deferred):** FY26 PAT of ₹103 Cr is already above the FY27E base case of ₹100 Cr from the v1.1 model — i.e. the company has pulled forward roughly a year of expected earnings progression. If FY27 holds OPM at 17-18% on ₹850 Cr revenue, PAT lands at ₹125-140 Cr — within striking distance of the FY30 base case of ₹140 Cr four years early. The base case 5-year FV of ₹1,675 likely needs to move up; the bull case (₹3,785) needs less re-rate to justify than it did 17 days ago because the OPM-sustain leg of the trajectory has materially proven. Formal scenario refresh and Action Table recalibration is queued for v1.2 — not done in this entry to preserve the v1.1 structure for comparison.
+
+**Open follow-ups:**
+- VRP-034 trial phase / enrolment / FDA interactions (no Q4 release commentary; check BSE filings, FY26 annual report)
+- US manufacturing pathway plans (still undisclosed)
+- FY26 annual report when filed: India vs export split, therapy mix, FY27 capex plans
+- Q1 FY27 OPM print (sustain check after a record Q4)
+- MET-X clinical milestone update from Infex Therapeutics
+
+---
+
 **2026-05-16 — Research note initiated.**
 
 Data sources: Screener consolidated 10-year history, BSE filings index (no concall transcripts available — confirmed; this is a finding, not a gap), 91Capital Substack Q3 FY26 update, MarketsMojo Q3 FY26 result note, Business Standard archive on 2019 Elores divestiture to Cipla, Infex Therapeutics press releases on MET-X partnership, Cipla press release on Elores acquisition, pharma trade press on multi-country GMP renewals, Business Standard / multiple sources on VRP-034 QIDP grant April 2025, CDC data on CRE / carbapenem-resistant gram-negative incidence, published market reports on global polymyxin B end-market sizing.
@@ -517,6 +563,7 @@ Data sources: Screener consolidated 10-year history, BSE filings index (no conca
 
 | Date | Update |
 |------|--------|
+| 2026-06-02 | Q4 FY26 + FY26 review. Q4 revenue ₹259 Cr (+33% YoY), OPM 24%, PAT ₹48 Cr (+129%); FY26 revenue ₹770 Cr, OPM 19%, PAT ₹103 Cr (+129%); ₹10/share dividend declared (first in 12 years). OPM-sustain test passed comfortably. CMP ₹1,414 at TRIM trigger line but failure condition (no FY27 ≥17% OPM) not yet observable and trajectory is supportive — TRIM not fired. Recommendation held: HOLD existing 3-4%; WAIT for new money. Multi-bagger math + Action Table refresh deferred to v1.2. VRP-034 status not disclosed in Q4 release — open follow-up. |
 | 2026-05-16 | Initial research note. Grade B (18/25). BUY REDUCED 3-4% at CMP ₹912; build to 5% on Q4 FY26 OPM ≥18% or VRP-034 Phase 2 progression. Aggressive buy below ₹780. Probability-weighted MOS 18%, asymmetry above 2x. Three deep-dive sections (VRP-034 explainer, 10x scenario math, US market sizing) at start of Detailed Analysis. |
 
 ---

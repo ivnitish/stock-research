@@ -111,6 +111,38 @@ Summary:
 ---
 
 ## 7. Research Log
+
+### 2026-06-02 — Q4 FY26 + FY26 full-year print
+
+**Source:** Screener.in standalone quarterly + annual.
+
+**Q4 FY26 (quarter ended Mar 2026, ₹ Cr):**
+
+| Metric | Q4 FY26 | Q3 FY26 | Q4 FY25 | YoY | QoQ |
+|--------|---------|---------|---------|-----|-----|
+| Revenue | 1,517 | 1,515 | 1,269 | +20% | flat |
+| EBITDA | 1,160 | 1,140 | 894 | +30% | +2% |
+| EBITDA Margin | 76% | 75% | 70% | +600bps | +100bps |
+| PAT | 763 | 917 | 692 | +10% | **-17%** |
+
+**FY26 full year:** Revenue ₹5,765 Cr (+16% YoY vs ₹4,977 Cr FY25), PAT ₹3,298 Cr (+24% vs ₹2,651 Cr), Operating Margin 74%. EPS ₹66.73.
+
+**Market data:** CMP ₹3,354 | Mcap ₹1,65,787 Cr | P/E 50.3x | Promoter 87.59% (unchanged)
+
+**What changed:**
+
+Top-line is holding up — revenue at ₹1,517 Cr Q4 is flat QoQ but +20% YoY, EBITDA margin expanded to 76% (up from 73% trailing). This is consistent with the toll-booth thesis: AUM-linked fee income is compounding, operating leverage continues. The 76% margin in Q4 is the highest in the dataset and pushes the thesis: this business doesn't add cost as AUM grows.
+
+The wrinkle is Q4 PAT at ₹763 Cr — down 17% QoQ from ₹917 Cr despite EBITDA being marginally higher. That's a tax / other-income line distortion (mark-to-market on treasury book, deferred tax) rather than operating deterioration, but the absolute Q4 PAT looks weaker than the run-rate. The FY26 PAT of ₹3,298 Cr is still +24% YoY — a clean year.
+
+Screener doesn't disclose AUM, equity-mix shift, or brokerage margin granularity — these need the AMC's investor presentation or earnings call to track properly. Top-line growing 20% YoY at industry SIP inflows of ₹25,000+ Cr/month is consistent with AUM compounding 18-22%, fees per unit AUM stable.
+
+**Position implication:** HOLD. Position is 1.6% (6 sh, +52% P&L on ₹2,165 avg). CMP ₹3,354 is above the original ₹2,400 add zone — too rich to add today at 50x P/E. The FY26 print (PAT +24%, margin expansion) reinforces the Grade A thesis. Add zone remains ₹2,200-2,400 on any market correction. No reason to trim — the +52% P&L is the toll-booth doing exactly what it should.
+
+**Watch next:** the PAT QoQ dip needs explanation from the earnings call (treasury MTM vs operating). If recurring fee-income PAT is actually flat/down, that's a yellow flag. Check the May 2026 concall.
+
+---
+
 ### 2026-03-12 — Initial thesis
 - Discovered via Groww MCP: 6 shares, ₹13K, +35.6% (best performer ratio-wise in portfolio)
 - Grade A 20/25. AMC is one of the best business models in India.

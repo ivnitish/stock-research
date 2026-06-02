@@ -48,9 +48,9 @@ Working capital management is genuinely concerning — OCF was negative in FY23 
 
 **One-line thesis:** India's #1 radiator maker with 21% market share, 32% ROCE, locked-in OEM relationships, and an EV thermal management optionality — but working capital discipline and rising debt need watching.
 
-**Status:** OWNED (100 shares, ₹58,950 invested, ~5.8% of portfolio)
-**Entry:** ₹589 avg | **CMP:** ₹554 | **P&L:** -6%
-**Last Updated:** 2026-03-22 | **Sources:** Screener.in (consolidated), CARE Ratings Jul 2025, BSE filings
+**Status:** OWNED (100 shares, ~4.9% of portfolio)
+**Entry:** ₹589 avg | **CMP:** ₹647 | **P&L:** +4.9%
+**Last Updated:** 2026-06-02 (Q4 FY26 partial refresh — full refresh still pending) | **Sources:** Screener.in (consolidated), CARE Ratings Jul 2025, BSE filings
 
 **Action:** HOLD — monitor OCF
 

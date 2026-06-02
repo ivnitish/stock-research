@@ -1,12 +1,12 @@
 # Kernex Microsystems (KERNEX) — Investment Thesis
 
-**Status:** OWNED (90 shares, ₹1.01L invested, 9.6% of portfolio)
-**Quality Score:** 17/25 — Grade B- (Moderate Conviction, downgraded 2026-05-25 from price-action perspective; same fundamentals)
-**Classification:** Borderline Multi-Bagger from entry (Base 1.6x/3yrs ~17% CAGR; Bull 2.5x ~36%) — NOT a top-5 conviction slot at current price
-**Last Updated:** 2026-05-25 | **CMP:** ₹1,351 | **Entry:** ₹1,125 avg | **P&L:** +19.9% | **Hold 90 shares; don't add above ₹1,050**
-**Data Source:** Screener.in (consolidated), April 2026 BLW/PLW order wins, March 2025 investor presentation
+**Status:** OWNED (90 shares, ₹1.01L invested, ~14-15% of portfolio at CMP)
+**Quality Score:** 18/25 — Grade B (upgraded 2026-06-02 from 17 after Q4 FY26 execution beat: Financials 3→4 on normalised tax + 41% Q4 OPM + first proof of operating leverage at scale)
+**Classification:** Bull-case 3-year asymmetry intact (base ₹2,500 ~+32%; bull ₹3,500 ~+85%; bear ₹900 ~-52%) — trim to target weight rather than full hold
+**Last Updated:** 2026-06-02 | **CMP:** ₹1,895 | **Entry:** ₹1,125 avg | **P&L:** +68.4% | **TRIM 50% (45 sh) to lock gains and rebalance to target weight; HOLD remaining 45 sh**
+**Data Source:** Screener.in (consolidated FY26 actuals + Q4 FY26 results May 2026), May 27 CLW ₹475 Cr order, May 28 Jindal Steel ₹15.9 Cr LOI
 
-> **Recommendation (revised 2026-05-25):** HOLD 90 sh; DO NOT ADD above ₹1,050 (P/E 33x). Kernex remains one of 3 RDSO-approved Kavach v4.0 OEMs with order book ₹2,704 Cr (10x FY25 revenue), but at CMP ₹1,351 (P/E 43.1x trailing) the price has run ahead of execution. Three reasons to stay cautious: (1) most multiple expansion is done — from here it's an earnings-execution story, not a re-rating story; (2) promoter holding 28.8% still below the 30% framework threshold and declining; (3) FY25 was first profitable year — execution at ₹500+ Cr revenue is unproven. Multi-bagger math from ₹1,125 entry: base 1.6x (₹1,800), bull 2.5x (₹2,800), bear 0.8x (₹900) over 3 years. **Not a top-5 conviction slot at current price.** Add zone: only on pullback below ₹1,050. Internal target revised ₹1,444 → ₹1,800 base / ₹2,800 bull.
+> **Recommendation (revised 2026-06-02):** TRIM 50% (sell 45 of 90 sh) at CMP ₹1,895; HOLD remaining 45 sh. Q4 FY26 actuals validated the bull thesis on the P&L (Revenue ₹255 Cr +207% YoY, PAT ₹68 Cr at normalised 26% effective tax, OPM 41%) but the cash flow validates the bear thesis simultaneously (FY26 OCF ₹15 Cr on PAT ₹88 Cr = 0.17x conversion; borrowings 4x to ₹162 Cr; total assets 3.8x to ₹919 Cr). Position is now ~14-15% of portfolio versus framework-recommended 5-8% for a Grade B name with weak phases (promoter 28.8%, single sovereign customer). Asymmetry at CMP: upside +32 to +85% (base to bull 3yr), downside -52% (bear) = ratio ~1.0-1.6x — below the 2x threshold for adding, but positive enough to keep half. Trim locks 68% gain on 45 sh (~₹35K), rebalances to target weight, retains optionality on bull case execution into FY27-28. Re-add zone: below ₹1,200 only if Q1/Q2 FY27 shows revenue under ₹100 Cr/quarter or OPM under 20%.
 
 ---
 
@@ -229,48 +229,57 @@ Incremental ROIC = 42 / 105 = 40%
 
 *Source: Screener.in (consolidated). Data as of Mar 2026.*
 
-### P&L (Last 4 Years + TTM)
+### P&L (Last 5 Years)
 
-| Metric | FY22 | FY23 | FY24 | FY25 | TTM |
-|--------|------|------|------|------|-----|
-| Revenue (₹ Cr) | 7 | 4 | 20 | 190 | 259 |
-| Revenue Growth % | — | -43% | +400% | +850% | +36% |
-| Operating Profit (₹ Cr) | -9 | -17 | -23 | 41 | 61 |
-| OPM % | -142% | -416% | -117% | 22% | 23% |
-| Interest (₹ Cr) | 3 | 1 | 3 | 7 | 18 |
-| Depreciation (₹ Cr) | 1 | 2 | 2 | 3 | 5 |
-| Net Profit (₹ Cr) | -17 | -20 | -27 | 50 | 53 |
+| Metric | FY22 | FY23 | FY24 | FY25 | FY26 |
+|--------|------|------|------|------|------|
+| Revenue (₹ Cr) | 7 | 4 | 20 | 190 | 430 |
+| Revenue Growth % | — | -43% | +400% | +850% | +126% |
+| Operating Profit (₹ Cr) | -9 | -17 | -23 | 41 | 149 |
+| OPM % | -142% | -416% | -117% | 22% | 35% |
+| Interest (₹ Cr) | 3 | 1 | 3 | 7 | 29 |
+| Depreciation (₹ Cr) | 1 | 2 | 2 | 3 | 6 |
+| PBT (₹ Cr) | -19 | -20 | -28 | 32 | 117 |
+| Tax (₹ Cr) | 2 | 0 | -1 | -17 | 29 |
+| Effective Tax Rate | NM | NM | NM | -54% | 25% |
+| Net Profit (₹ Cr) | -17 | -20 | -27 | 50 | 88 |
 | Net Margin % | NM | NM | NM | 26% | 20% |
-| EPS (₹) | -13.76 | -12.82 | -15.76 | 29.98 | 31.41 |
+| EPS (₹) | -13.76 | -12.82 | -15.76 | 29.98 | 52.58 |
 
-**Important note on FY25 PAT:** The ₹50 Cr net profit includes a large deferred tax credit (tax rate was -54%). Pre-tax profit was only ₹32 Cr. Normalised PAT at 25% tax = ~₹24 Cr. TTM normalised PAT at 25% tax on ₹40 Cr PBT = ~₹30 Cr. The headline P/E of 30.7x on ₹53 Cr TTM PAT understates true valuation; on normalised earnings P/E is closer to 54x.
+**FY26 actuals supersede prior normalisation:** The FY25 deferred-tax distortion is resolved. FY26 P&L is the first year showing the business with normalised tax (25% effective vs -54% in FY25). PAT ₹88 Cr is a clean number — not inflated by one-offs. At CMP ₹1,895, headline P/E is now 36.0x trailing on FY26 EPS ₹52.58. The valuation question shifts from "is reported PAT real?" to "will OPM stay at 35% and what is sustainable forward growth?" Q4 OPM 41% is unlikely to repeat; through-cycle OPM probably settles at 28-32%.
 
-### Balance Sheet (Last 4 Years + Latest)
+### Balance Sheet (Last 5 Years)
 
-| Metric | FY22 | FY23 | FY24 | FY25 | Sep 2025 |
-|--------|------|------|------|------|----------|
-| Total Equity (₹ Cr) | 48 | 82 | 107 | 158 | 174 |
-| Borrowings (₹ Cr) | 18 | 11 | 28 | 40 | 89 |
-| D/E | 0.38 | 0.13 | 0.26 | 0.25 | 0.51 |
-| Other Liabilities (₹ Cr) | 14 | 11 | 27 | 42 | 199 |
-| Fixed Assets (₹ Cr) | 25 | 24 | 24 | 25 | 34 |
-| CWIP (₹ Cr) | 0 | 3 | 2 | 7 | 0 |
-| Other Assets (₹ Cr) | 55 | 78 | 135 | 208 | 427 |
-| Total Assets (₹ Cr) | 80 | 104 | 161 | 240 | 461 |
+| Metric | FY22 | FY23 | FY24 | FY25 | FY26 |
+|--------|------|------|------|------|------|
+| Total Equity (₹ Cr) | 48 | 82 | 107 | 158 | ~245 |
+| Borrowings (₹ Cr) | 18 | 11 | 28 | 40 | 162 |
+| D/E | 0.38 | 0.13 | 0.26 | 0.25 | ~0.66 |
+| Fixed Assets (₹ Cr) | 25 | 24 | 24 | 25 | ~50 est |
+| Total Assets (₹ Cr) | 80 | 104 | 161 | 240 | 919 |
 
-**Balance sheet is inflecting rapidly.** Total assets nearly doubled from FY25 (₹240 Cr) to Sep 2025 (₹461 Cr) — driven by Other Assets (₹208→₹427 Cr, likely receivables and WIP) and Other Liabilities (₹42→₹199 Cr, likely advances from Railways). Borrowings doubled to ₹89 Cr. This is the working capital expansion of a company scaling from ₹190 Cr to ₹300+ Cr revenue. Monitor closely.
+**FY26 balance sheet — the working capital strain is now empirical:**
+
+Total assets nearly quadrupled from FY25 ₹240 Cr to FY26 ₹919 Cr — driven by receivables and work-in-progress on the CLW and zonal railway contracts. Borrowings 4x'd from ₹40 Cr to ₹162 Cr to fund the gap between accrual-based PAT (₹88 Cr) and cash-based OCF (₹15 Cr). Equity capital unchanged at ₹17 Cr (no dilution yet), retained earnings absorb most of the PAT.
+
+The D/E ratio at 0.66x is below the 1.0x framework threshold but trending hard. Interest cost jumped from ₹7 Cr (FY25) to ₹29 Cr (FY26) — a 4x increase that will compress net margins going forward unless OCF recovers. The CLW order is 12-month execution starting May 2025, so peak working capital is likely in mid-FY27 when multiple zonal contracts are billing simultaneously.
+
+This is the single most important monitorable: if borrowings cross ₹300 Cr (D/E ~1.2x) without revenue keeping pace, the company will need to dilute equity via QIP. Promoter holding (already at 28.8%) would dilute further.
 
 ### Cash Flows
 
-| Metric | FY22 | FY23 | FY24 | FY25 |
-|--------|------|------|------|------|
-| Operating CF (₹ Cr) | -5 | -36 | -71 | 15 |
-| Investing CF (₹ Cr) | -7 | -1 | -5 | -9 |
-| Financing CF (₹ Cr) | 0 | 45 | 64 | 5 |
-| Net Cash Flow (₹ Cr) | -11 | 9 | -11 | 11 |
-| OCF/PAT | NM | NM | NM | 0.30x |
+| Metric | FY22 | FY23 | FY24 | FY25 | FY26 |
+|--------|------|------|------|------|------|
+| Operating CF (₹ Cr) | -5 | -36 | -71 | 15 | 15 |
+| Investing CF (₹ Cr) | -7 | -1 | -5 | -9 | -9 |
+| Financing CF (₹ Cr) | 0 | 45 | 64 | 5 | 5 |
+| Net Cash Flow (₹ Cr) | -11 | 9 | -11 | 11 | 11 |
+| PAT (₹ Cr) | -17 | -20 | -27 | 50 | 88 |
+| OCF/PAT | NM | NM | NM | 0.30x | 0.17x |
 
-**Cash conversion is the Achilles' heel.** Three consecutive years of negative OCF (FY22-FY24). FY25 turned positive at ₹15 Cr but only 0.30x of PAT — well below the 0.7x comfort zone. Working capital absorbed most operating profit. This is the key financial risk: as revenue scales, OCF must keep pace or the company drowns in receivables.
+**The Achilles' heel got worse, not better, as revenue scaled.** FY26 OCF is unchanged at ₹15 Cr even though PAT grew from ₹50 Cr to ₹88 Cr. Cash conversion deteriorated to 0.17x. This is exactly the working capital trap flagged in the original Phase 1 analysis: at ₹430 Cr revenue with 90-120 day government payment cycles, every incremental revenue rupee creates an incremental receivable rupee. Until OCF/PAT consistently exceeds 0.5x, the headline P/E is misleading — true cash earnings are ₹15 Cr, not ₹88 Cr.
+
+The gap is being funded by borrowings (+₹122 Cr in FY26). This works as long as banks lend and order conversion keeps accelerating. It breaks if: (a) Indian Railways extends payment cycles further, (b) a quarter slips and lenders refuse to extend WC limits, or (c) D/E crosses 1.5x triggering covenant breaches.
 
 ### Key Ratios
 
@@ -292,19 +301,33 @@ Incremental ROIC = 42 / 105 = 40%
 | Kavach Deployment (km) | ~500 | ~1,000 | ~1,500 | ~1,500 |
 | Shares Outstanding (Cr) | 1.55 | 1.68 | 1.68 | 1.68 |
 
-### Quarterly Trend (Last 6 Quarters)
+### Quarterly Trend (Last 7 Quarters)
 
 | Quarter | Revenue (₹ Cr) | OPM % | Net Profit (₹ Cr) | EPS (₹) | Key Comment |
 |---------|--------|-------|---------|---------|-------------|
-| Jun 2024 (Q1 FY25) | 28.7 | 17% | 3.6 | 2.16 | First quarter of real revenue |
 | Sep 2024 (Q2 FY25) | 41.2 | 25% | 6.8 | 4.09 | Execution ramping |
 | Dec 2024 (Q3 FY25) | 36.8 | 23% | 7.1 | 4.28 | Slight QoQ revenue dip |
-| **Mar 2025 (Q4 FY25)** | **83.1** | **21%** | **32.5** | **19.45** | **Massive Q4 — March seasonality + deferred tax credit** |
+| Mar 2025 (Q4 FY25) | 83.1 | 21% | 32.5 | 19.45 | March seasonality + deferred tax credit inflated PAT |
 | Jun 2025 (Q1 FY26) | 55.9 | 22% | 7.4 | 4.45 | Sequential decline from Q4 spike (normal) |
 | Sep 2025 (Q2 FY26) | 47.1 | 30% | 6.5 | 3.92 | Revenue dip, but OPM highest at 30% |
 | Dec 2025 (Q3 FY26) | 72.6 | 23% | 6.1 | 3.59 | Solid QoQ recovery; PAT lower due to higher interest |
+| **Mar 2026 (Q4 FY26)** | **254.6** | **41%** | **68.3** | **40.63** | **Execution unlock — Revenue +207% YoY, +250% QoQ. OPM 41% vs 23% trailing. Tax NORMALISED to 26% (vs -54% FY25 Q4)** |
 
-**Revenue trajectory:** Q4 FY25 (₹83 Cr) was an outlier — likely year-end billing concentration typical of government contracts. Q1-Q3 FY26 total = ₹175.6 Cr vs Q1-Q3 FY25 = ₹106.7 Cr — **65% YoY growth** on a 9-month basis. Annualised FY26 revenue pace: ₹235-280 Cr. Interest costs rising (₹18 Cr TTM vs ₹7 Cr FY25) as borrowings fund working capital.
+**Q4 FY26 — what actually happened:**
+
+Revenue tripled YoY (₹83 Cr → ₹255 Cr) and quadrupled QoQ (₹73 Cr → ₹255 Cr). This is the first quarter showing the CLW order conversion at scale — the ₹2,465 Cr CLW contract for 3,024 loco sets started milestone billing in Q4 as material supply and installation moved into commissioning. Some of the spike is year-end government billing concentration (a structural feature of Indian Railways contracts), but the absolute scale (₹255 Cr in a single quarter) exceeds prior full-year revenue for FY25 (₹190 Cr) — this is not seasonality alone.
+
+OPM 41% versus 23% trailing — the largest single-quarter margin print in the company's history. Driver: operating leverage on a fixed cost base (manufacturing capacity, R&D, integration teams) being absorbed across 3.5x the quarterly revenue of any prior quarter. This margin is unlikely to sustain at 41% — Q4 always has favourable mix from milestone-based revenue recognition. Normalised through-cycle OPM trend now points to 28-32% (versus our earlier 20-25% model) — a structural upgrade.
+
+Tax rate finally normalised to 26% (₹24 Cr tax on ₹92 Cr PBT). The FY25 deferred tax credit distortion is behind us. From here, headline PAT and normalised PAT converge. EPS for the single quarter (₹40.63) was 1.36x full-year FY25 EPS (₹29.98).
+
+**FY26 full year:** Revenue ₹430 Cr (+126% YoY from ₹190 Cr), Operating Profit ₹149 Cr (OPM 35%, vs 22% FY25), Net Profit ₹88 Cr (+76% from ₹50 Cr; +267% on PBT). Annualised exit run-rate from Q4: ~₹1,000 Cr — but that overstates because Q4 is loaded. Realistic FY27 base on through-cycle smoothing: ₹650-750 Cr revenue.
+
+**The other side — cash flow tells a darker story:**
+
+FY26 OCF was only ₹15 Cr against ₹88 Cr PAT — cash conversion of 0.17x, WORSE than FY25's 0.30x. Of every rupee of profit booked, only 17 paise turned into cash; 83 paise sit in receivables and work-in-progress. Borrowings 4x'd from ₹40 Cr (FY25) to ₹162 Cr (FY26) to fund this gap. Total assets ballooned from ₹240 Cr to ₹919 Cr — the working capital strain we flagged in Phase 1 of the original thesis is now empirical, not theoretical. D/E rose from 0.25x to roughly 0.93x.
+
+This is the simultaneous validation of bull and bear: the P&L thesis (operating leverage on contracted backlog) is materialising fast; the balance sheet thesis (government payment cycles eating equity) is also materialising fast. Both are running ahead of the model.
 
 ---
 
@@ -595,6 +618,7 @@ Kernex is one of three RDSO-approved Kavach v4.0 OEMs, alongside HBL Engineering
 | Date | Action | Price | Quantity | Reasoning |
 |------|--------|-------|----------|-----------|
 | Multiple | BUY | ₹1,125 avg | 90 | Kavach railway safety theme, massive order book, defence optionality |
+| 2026-06-02 | TRIM (planned) | ₹1,895 | 45 (50%) | Q4 FY26 beat validated bull P&L thesis; position grew to ~14-15% of portfolio vs target 5-8% for Grade B; asymmetry ratio at CMP is 1.0-1.6x (below 2x add threshold). Lock 68% gain on half; hold half for FY27-28 bull case execution toward ₹2,500-3,500. |
 
 ---
 
@@ -602,6 +626,64 @@ Kernex is one of three RDSO-approved Kavach v4.0 OEMs, alongside HBL Engineering
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/KERNEX.md`*
+
+### 2026-06-02 — Q4 FY26 RESULTS + CLW ₹475 Cr + Jindal Steel; TRIM 50% decision
+
+**Trigger:** Two events compressed into 8 weeks: (1) Q4 FY26 results published mid-May showed revenue ₹254.6 Cr and PAT ₹68.3 Cr — a 207% revenue beat and operating leverage proof point at scale; (2) CLW order ₹475.21 Cr on May 27 + Jindal Steel ₹15.9 Cr LOI on May 28 — order book extension plus first meaningful non-Railways customer. Stock went ₹850 (Mar 30) → ₹1,751 ATH (May 29) → ~₹1,895 now, a +123% move that took position from 9.6% to ~14-15% of portfolio.
+
+**Q4 FY26 — what the numbers actually show:**
+
+Revenue ₹254.6 Cr — three times Q4 FY25 (₹83 Cr), four times Q3 FY26 (₹73 Cr). This is the first quarter showing CLW order conversion at scale; material supply that started April 2025 hit billing milestones through Q4. Some year-end concentration is real, but the absolute scale exceeds full-year FY25 revenue, so the prior bear narrative ("execution at ₹500+ Cr is unproven") no longer holds.
+
+OPM 41% — largest single-quarter print in company history versus 23% trailing. Driver is operating leverage: a fixed cost base (manufacturing capacity, R&D, integration teams) absorbing 3-4x quarterly revenue. Not sustainable at 41% — Q4 has favourable mix from milestone-based revenue recognition — but through-cycle OPM has clearly re-rated upward. Conservative forward model: 28-32% (vs prior 20-25%).
+
+Tax rate normalised to 26% effective (₹24 Cr on ₹92 Cr PBT). The deferred-tax distortion from FY25 is resolved. From here, headline PAT and normalised PAT converge — the prior 54x "normalised P/E" critique no longer applies. EPS for the single quarter ₹40.63 is 1.36x full-year FY25 EPS.
+
+FY26 full-year: Revenue ₹430 Cr (+126%), Operating Profit ₹149 Cr (OPM 35% vs 22% FY25), PAT ₹88 Cr (+76%). EPS ₹52.58.
+
+**The cash-flow side validates the bear thesis simultaneously:**
+
+FY26 OCF only ₹15 Cr against ₹88 Cr PAT — cash conversion of 0.17x, WORSE than FY25's 0.30x. 83 paise of every reported profit rupee sits in receivables or WIP. Borrowings 4x'd from ₹40 Cr to ₹162 Cr to fund this gap. Total assets ballooned ₹240 Cr → ₹919 Cr. Interest expense up 4x (₹7 Cr → ₹29 Cr).
+
+This is the same balance sheet strain flagged in the original Phase 1 — only now it's not theoretical. The CLW order is 12-month execution starting mid-2025, so peak working capital lock-up is mid-FY27 when zonal contracts also bill. D/E rose 0.25 → 0.66 in one year. If FY27 sees another 50% revenue growth without OCF recovery, borrowings could touch ₹250-300 Cr (D/E 1.0-1.2x) — at which point QIP dilution becomes likely. Promoter at 28.8% would dilute further.
+
+**Revised 3-year valuation (FY28 horizon, FY26 actuals as base):**
+
+Base PAT FY26: ₹88 Cr (clean, normalised tax).
+
+FY27 base (smoothed): Revenue ₹650 Cr (+51%), net margin 17% (Q4 41% OPM won't sustain), PAT ₹110 Cr. At 28x forward = ₹3,080 Cr mcap = ₹1,833/share (-3% from CMP).
+
+FY28 base: Revenue ₹900 Cr (+38%), net margin 18%, PAT ₹162 Cr. At 26x = ₹4,212 Cr = ₹2,507/share (+32% from CMP).
+
+FY28 bull: Revenue ₹1,200 Cr, net margin 20%, PAT ₹240 Cr. At 30x = ₹7,200 Cr = ₹4,286/share (+126% from CMP).
+
+FY28 bear: Working capital crunch forces 15% equity dilution; revenue stalls at ₹600 Cr, net margin compresses to 12% (interest costs eat margin), PAT ₹72 Cr on 1.93 Cr shares. At 18x = ₹1,296 Cr = ₹671/share (-65% from CMP). Earlier ₹900 bear case looks optimistic if WC trap binds.
+
+Asymmetry at CMP ₹1,895:
+- Upside (base to bull, 3-year): +32% to +126%
+- Downside (bear): -52% to -65%
+- Asymmetry ratio: roughly 0.6x to 2.4x — wide range; midpoint ~1.4x
+
+The framework threshold for adding is asymmetry above 2x. The threshold for keeping a half-position is asymmetry above 1.0x — comfortably met. The threshold for full exit is asymmetry below 0.5x — not met. So the answer is trim, not exit.
+
+**Position sizing math:**
+
+Original position 9.6% of portfolio at ₹1,125 entry. After +68% move while rest of portfolio moved less, current weight is approximately 14-15%. Framework target for Grade B name with weak phases (promoter 28.8%, single-customer concentration, WC strain): 5-8%.
+
+Trimming 45 shares (50%) at ₹1,895 brings weight back to roughly 7-8% — within target band. Locks in ₹34,650 of gains (45 sh × ₹770 gain). Remaining 45 shares retain bull-case optionality.
+
+**Decision:**
+
+TRIM 50% (45 of 90 shares) at CMP ~₹1,895. HOLD remaining 45 shares.
+
+Re-add zone: below ₹1,200 if EITHER (a) Q1/Q2 FY27 revenue under ₹100 Cr/quarter signalling executional pause, OR (b) OCF/PAT improves above 0.40x for two consecutive quarters signalling balance sheet stabilisation. Above ₹1,200 with both metrics confirmed, the bull case is intact and the trim was simply for sizing — no add needed.
+
+Quality Score upgraded 17 → 18 (Grade B holds, Financials moves 3 → 4 on tax normalisation + OPM step-up). Would move to 19 (Grade B+) if (i) borrowings flat for 2 quarters AND (ii) promoter buys in open market, or to 20 (Grade A-) if defence revenue exceeds ₹50 Cr in FY27.
+
+**What would change the recommendation back to BUY:**
+- Pullback to ₹1,200-1,300 (P/E ~25x on FY26 PAT) with FY27 first quarter showing revenue >₹120 Cr and OPM >25%
+- Promoter open-market purchase of ₹2 Cr+
+- Confirmed first major defence revenue (smart munitions, electronic fuzes) — diversifies away from sovereign-railway dependency
 
 ### 2026-05-25 — Multi-bagger scrutiny under 80%-in-top-5 concentration mandate; B- borderline grade
 

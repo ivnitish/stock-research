@@ -1,8 +1,8 @@
 # Thrive Future Habitats Limited (THRIVE / BSE: 523120) — Investment Thesis
 
-**Status:** WATCHLIST (Speculative)
+**Status:** OWNED (815 shares, ~7.9% of portfolio, -8.6% P&L). **Recommendation: EXIT — see 2026-06-02 log entry.**
 **Quality Score:** 10/25 (Grade C–)
-**Last Updated:** 2026-03-20
+**Last Updated:** 2026-06-02 (Q4 FY26 / FY26 results — exit recommendation)
 
 ---
 
@@ -340,6 +340,71 @@ Thrive (THRIVE) occupies the very bottom of the India personal care contract man
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/THRIVE.md`*
+
+### 2026-06-02 — Q4 FY26 / FY26 results: EXIT RECOMMENDATION
+
+**Verdict: EXIT NOW. The promoter-takeover thesis has had three quarters to deliver any revenue or asset injection signal. It has delivered none. The Q4 print confirms the negative trajectory the bear case warned about.**
+
+#### Q4 FY26 (Mar 2026) and FY26 full-year print
+
+| Metric | Q4 FY26 (Mar 2026) | Q4 FY25 (Mar 2025) | YoY |
+|--------|--------------------|--------------------|-----|
+| Revenue (₹ Cr) | 0.47 | 0.66 | -29% |
+| Operating Profit (₹ Cr) | -0.93 | -0.15 | Loss widened 6x |
+| OPM | -198% | -23% | Collapsed |
+| PAT (₹ Cr) | -0.65 | -0.33 | Loss doubled |
+| EPS (₹) | -0.57 | -0.71 | — |
+
+| FY metric | FY26 | FY25 | Change |
+|-----------|------|------|--------|
+| Revenue (₹ Cr) | 1.23 | 2.18 | -43.6% |
+| OPM | -141% | -19% | Severe deterioration |
+| PAT (₹ Cr) | -0.97 | -0.64 | Loss widened |
+
+CMP ₹100 | Mcap ₹113 Cr | Book ₹40.4 | ROE -4.06% | ROCE -3.53% | 5y rev CAGR -41%
+
+#### What the print says vs the original thesis
+
+The March 2026 thesis upgrade rested on one premise: the promoter takeover by Pasricha + Vinay Kumar Singh + Sandeep Ahuja would result in either an asset injection or a first credible revenue contract within "the next 1-2 quarters." The trigger to upgrade was explicit in the file: "Land acquisition announcement, first project launch, or wellness revenue crossing ₹5 Cr run-rate."
+
+None of those happened. Three quarters after the EGM that gave them 72.5% control:
+
+- Wellness revenue is going backwards, not forwards. Quarterly run-rate has collapsed from ₹0.66 Cr (Mar'25) to ₹0.47 Cr (Mar'26) — a -29% YoY decline in the supposedly-pivoting personal care vertical.
+- Operating losses have widened, not narrowed. Q4 OPM of -198% is the worst in 6 quarters of available data.
+- Full-year revenue (₹1.23 Cr) is below even the bear-case projection (₹1.0 Cr was bear, ₹2.0 Cr was base). The base case is dead.
+- No "blue zone" real estate project announcement. No named D2C client. No land acquisition filing. No revenue from "Thrive Future Habitats" the segment.
+
+The bear-case exit trigger embedded in the file ("FY26 annual revenue comes in below ₹1.5 Cr — no recovery, accelerating decline") has fired. FY26 revenue is ₹1.23 Cr. The exit trigger is unambiguous.
+
+#### The May 2026 "1908 E-Ventures" announcement
+
+Screener shows a 26 May 2026 BSE filing about acquisition of a 30.31% stake in "1908 E-Ventures" via 7,57,578 shares credited, with an amount stated as "Rs. 18,249.07" (units unclear in the Screener-parsed feed — almost certainly NOT ₹18,249 Cr given the company's ₹113 Cr market cap; likely ₹18,249.07 lakh ≈ ₹182 Cr, or a per-share figure, or even ₹18,249.07 in rupees as a token cap-table entry).
+
+This may or may not be the long-awaited asset injection. But three points matter:
+
+1. **The market is not pricing it as transformative.** Stock is at ₹100 — below the ₹107 from March 2026. If an ₹18,000 Cr acquisition were real, the stock would not be flat.
+2. **The Q4 financials do NOT yet reflect any new business.** Q4 ended 31 March 2026; the announcement is from late May. Whatever 1908 E-Ventures is, it has zero presence in the reported numbers.
+3. **Even if asset injection materialises, the share count just got bigger.** 7.58 lakh new shares credited represents meaningful dilution on top of the Feb 2026 preferential issue. Public shareholders' interest has been further diluted.
+
+I am NOT willing to hold the position waiting to find out whether 1908 E-Ventures is real. The pattern across three quarters is that nothing the new management says translates into reported numbers. That is the disqualifier.
+
+#### Exit math
+
+Position: 815 shares at ~₹108 average entry (P&L -8.6% per portfolio model). Current value ~₹81.5K. 7.9% of portfolio is the second-largest mis-sized position in the book — a Grade C- speculative bet at 7.9% violates the framework's own position-sizing rule (Grade C speculative = 1% maximum hard cap).
+
+The position was sized as if it were a thesis bet; it is in fact a lottery ticket. Three quarters of zero progress is the data point that converts "speculative option" into "dead money." Capital trapped in a shell that's losing 7% of equity per year (operating loss ₹0.97 Cr on ₹113 Cr mcap = -0.86% drag annually before counting the further dilution risk).
+
+The reverse argument — "but what if 1908 E-Ventures is the trigger?" — fails on two grounds. First, if the asset injection were real and material, the stock would be moving on it now; it isn't. Second, even if it does materialise, the entry size is already wrong; the right way to play that scenario is to exit, watch for an actual BSE filing with confirmed financial impact, and re-enter at a sized 0.5-1% if the announcement is credible. Selling now and re-entering later is the dominant strategy over holding.
+
+**Recommendation: EXIT 815 shares at market over the next 5 trading days.** Given the low free float (4,526 shareholders, 72.5% promoter), use limit orders near CMP rather than market — avoid being the seller who breaks the bid. Realise the loss (~₹7K), redeploy to SAKSOFT or hold as cash for the next sized position.
+
+#### Update to Quality Score and Exit Triggers
+
+- **Quality score: downgrade to 8/25 (Grade D).** Revenue trajectory has confirmed deterioration; "Growth Runway" drops from 2 to 1, "Management" drops from 3 to 2 (the team had three quarters to show ANY execution signal and produced none).
+- **Exit trigger fired:** "FY26 annual revenue below ₹1.5 Cr" — confirmed at ₹1.23 Cr.
+- **Action table change:** From WATCHLIST to **SELL** at CMP. Re-entry only on a confirmed BSE filing showing (a) a named land acquisition with rupee value, OR (b) a named CDMO client with disclosed annual contract value above ₹5 Cr, OR (c) a fully audited acquisition of a real revenue-generating business.
+
+---
 
 ### 2026-03-20 — New Management Discovery (same day update)
 

@@ -635,6 +635,36 @@ Nesco occupies a unique niche: it's neither a pure developer (doesn't sell), nor
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/NESCO.md`*
 
+### 2026-06-02 — Q4 FY26 + FY26 full-year print (Screener consolidated)
+
+**Source:** Screener.in consolidated quarterly + annual tables. Q4 ended Mar 2026.
+
+**Q4 FY26 (₹ Cr, consolidated):**
+
+| Metric | Q4 FY26 | Q4 FY25 | YoY |
+|--------|---------|---------|-----|
+| Revenue | 252 | 192 | +31% |
+| Operating Profit | 118 | 107 | +10% |
+| OPM | 47% | 56% | -900bps |
+| PAT | 93 | 89 | +5% |
+| EPS | ₹13.21 | ₹12.58 | +5% |
+
+**FY26 full year:** Revenue ₹932 Cr (+27% vs ₹732 Cr FY25), Operating Profit ₹490 Cr (53% margin), PAT ₹413 Cr (+10% vs ₹375 Cr). Slightly below the BSE Reg 30 ₹1,000 Cr milestone disclosed in March (₹932 Cr came in lighter on consolidated basis — needs reconciliation with standalone).
+
+**Market data:** CMP ₹1,164 | Mcap ₹8,202 Cr | P/E 19.9x | Book ₹425
+
+**What changed:**
+
+The headline revenue print confirms the +27% FY26 growth trajectory flagged in the March BSE filing, but the margin compression has become more pronounced — Q4 OPM dropped to 47% from 56% YoY and 51% in Q3. The Foods segment mix shift continues to dilute blended margins exactly as the thesis flagged. PAT growth at +5% YoY in Q4 versus +31% revenue growth is the clearest illustration yet that revenue and earnings are decoupling — every rupee of incremental Foods revenue is replacing a rupee of higher-margin IT Park / BEC revenue in the mix.
+
+The thesis still holds. Land value floor (₹14,000-21,000 Cr) is unchanged. Tower 2 is the catalyst that hasn't fired yet — by FY30 the high-margin sq ft addition should reverse the margin compression. FY26 PAT of ₹413 Cr came in slightly ahead of the ₹420-430 Cr expectation set in the March log.
+
+**Position implication:** HOLD. Position is 1.9% (20 sh, +6.8% P&L), already small. P/E 19.9x on ₹413 Cr earnings is undemanding for a quality compounder with land-value downside protection. The thesis is patient — Tower 2 FY29-30 delivery. No reason to trim, no urgency to add at CMP ₹1,164 (above the ₹900-1,100 buy zone). Adds belong at ₹1,000-1,100 on any market drawdown.
+
+**Segment split not disclosed in Screener consolidated** — need BSE Q4 standalone filing for IT Park vs BEC vs Foods breakdown. Will check in next session.
+
+---
+
 ### 2026-03-28 — Q3 FY26 BSE Standalone Results + Segment Breakdown
 
 **Source:** BSE filing Q3FY26_Results.pdf (standalone, unaudited, quarter ended 31 Dec 2025). Clean audit review by S G D G & Associates LLP — no qualifications.

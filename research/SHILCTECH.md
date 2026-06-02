@@ -341,6 +341,51 @@ Shilchar has the **best OPM (30% vs 15% industry), best ROCE (53%), best growth 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/SHILCTECH.md`*
 
+### 2026-06-02 — Q4 FY26 print — MAJOR MISS, capacity-anchored DCF base case in serious doubt
+
+**Source:** Screener.in standalone quarterly + annual tables.
+
+**Q4 FY26 (quarter ended Mar 2026, ₹ Cr):**
+
+| Metric | Q4 FY26 | Q3 FY26 | Q4 FY25 | YoY | QoQ |
+|--------|---------|---------|---------|-----|-----|
+| Revenue | 152 | 170 | 232 | **-34%** | -11% |
+| Operating Profit | 32 | 52 | 71 | -55% | -38% |
+| OPM | **21%** | 31% | 31% | **-1000bps** | -1000bps |
+| PAT | 28 | 42 | 55 | **-49%** | -33% |
+| EPS | ₹24.82 | ₹37.01 | ₹48.56 | -49% | -33% |
+
+**FY26 full year (₹ Cr):** Revenue ₹652 (+4.7% vs FY25 ₹623), PAT ₹158 (+7.5% vs FY25 ₹147), OPM 29%. Compare to FY24→FY25 which delivered +57% revenue growth (₹397 Cr → ₹623 Cr) and PAT roughly doubled. **FY26 growth has collapsed to single digits** — exactly the bear case from the March DCF.
+
+**Market data:** CMP ₹4,030 | Mcap ₹4,611 Cr | P/E 29.2x
+
+**What changed — this is a thesis-level event:**
+
+The Q4 print is the worst quarter since the company's growth phase began. Revenue almost halved versus the year-ago quarter (₹152 Cr vs ₹232 Cr), OPM compressed 1,000bps in a single quarter, and PAT was cut in half. This is not a one-quarter blip — the deceleration was visible through FY26 (Q1 ₹159 Cr → Q2 ₹171 → Q3 ₹170 → Q4 ₹152), suggesting demand softness compounded by the OPM collapse in Q4.
+
+The March 2026 capacity-anchored DCF assumed FY26 base case revenue of ₹870 Cr (+18%) and PAT of ₹218 Cr at 25% PAT margin. Actual: revenue ₹652 Cr (-25% versus base case), PAT ₹158 Cr (-28% versus base case). The bear case (₹811 Cr revenue, ₹195 Cr PAT) also missed — by ~₹160 Cr on revenue and ~₹37 Cr on PAT. **FY26 missed even the bear case.**
+
+The capacity-anchored DCF rested on the order book at ₹750-800 Cr (>1x annual revenue) plus the 7,500→14,000 MVA capacity doubling implying physical growth was inevitable. The Q4 print suggests either (a) the order book was lumpier than implied, (b) US tariff deferrals translated into actual order cancellations not just delays, or (c) execution slipped because of capacity transition. All three are bad, but (b) and (c) are the worst — they imply the FY27 capacity ramp may not generate revenue at the expected rate either.
+
+**Does this support the portfolio model's -11.3% 3y CAGR target — or argue for exit?**
+
+The portfolio model's -11.3% 3y CAGR is a price-trajectory expectation based on the prior DCF saying SHILCTECH was overvalued. The March 2026 capacity-anchored DCF revision overrode that view by raising the base case to ₹4,670 — but that revision is now broken. FY26 came in below even the bear case (which projected ₹2,800 per share).
+
+Re-running the bear case with FY26 actuals as the new starting point:
+- FY26 base: ₹158 Cr PAT (vs ₹195 Cr assumed in March bear case)
+- If FY27-30 still tracks the March bear case growth rates (15%, 18%, 12%, 8%), FY30 PAT = ₹158 × 1.15 × 1.18 × 1.12 × 1.08 = ₹260 Cr (versus the March bear case's ₹320 Cr)
+- Implied per-share fair value scales down proportionally: ₹2,800 × (260/320) ≈ ₹2,275
+
+CMP ₹4,030 is now 77% above the recalibrated bear case fair value of ~₹2,275. The capacity-anchored base case requires FY27 to deliver +25% revenue growth on top of a FY26 that just printed +4.7%. That is not a small ask — it requires US tariff resolution AND new plant ramp AND order book conversion to actually accelerate simultaneously.
+
+**Position implication: TRIM or EXIT-on-strength candidate.** The position is 2.5% (6 sh, +13.2% P&L). The thesis has materially weakened. The March 2026 framework had a clear exit trigger: "revenue misses FY28 capacity-implied ceiling by >25%" — but FY26 missed the FY26 base case revenue by 25% already. Quality (zero debt, 29% OPM at company level even after the print, 64% promoter) is still high, so this isn't a Grade-B-to-D collapse. But the asymmetry has flipped: CMP ₹4,030 vs recalibrated bear case ₹2,275 means downside ~44% if the trajectory doesn't improve, against an upside that now requires the March bull case to play out from a much weaker base.
+
+Recommendation: trim half on next rally above ₹4,200, hold the rest pending the May 2026 concall transcript review and Q1 FY27 print. Hard exit trigger: another quarter of revenue YoY decline AND OPM below 25%. Quality score should be reviewed down to 16/25 (Financials 5 → 4, Growth Runway 4 → 3) pending concall context on whether the miss is tariff-related (transient) or demand-related (structural).
+
+**Open question — needs concall read:** Was the OPM compression in Q4 from raw-material spike, export forex unwind, or product mix? Was the revenue miss order book conversion timing or actual demand softness? Without this, the path forward (trim now vs hold for Q1 FY27 clarity) is harder to call.
+
+---
+
 ### 2026-03-17 — Updated from YouTube research (Girish Gupta channel)
 
 **Data corrections:**
