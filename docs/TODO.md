@@ -3,6 +3,17 @@
 
 ---
 
+## ✅ Completed — 2026-06-02 (NESCO / ICICIAMC / SHILCTECH Q4 FY26 review)
+
+- **Three small-position Q4 FY26 reviews logged.** All three files received a 2026-06-02 entry at the top of their Research Log section. Source: Screener.in consolidated (NESCO, SHILCTECH) and standalone (ICICIAMC) — May 2026 concall transcripts referenced but not yet read; flagged for follow-up.
+- **NESCO Q4 FY26:** Revenue ₹252 Cr (+31% YoY), OPM 47% (down from 56% YoY — Foods mix dilution continues), PAT ₹93 Cr (+5%). FY26 full year ₹932 Cr revenue (+27%), PAT ₹413 Cr (+10%). CMP ₹1,164 / P/E 19.9x. **Verdict: HOLD** — thesis intact, position 1.9% appropriate, adds belong at ₹900-1,100. Segment-level IT Park vs BEC vs Foods split not in consolidated Screener data — needs BSE standalone Q4 filing.
+- **ICICIAMC Q4 FY26:** Revenue ₹1,517 Cr (+20% YoY, flat QoQ), EBITDA margin 76% (operating leverage continues), PAT ₹763 Cr (+10% YoY but **-17% QoQ** — likely treasury MTM, needs concall confirmation). FY26 ₹5,765 Cr revenue (+16%), PAT ₹3,298 Cr (+24%). CMP ₹3,354 / P/E 50.3x. **Verdict: HOLD** — toll-booth working, +52% P&L doing its job, no trim. Add zone ₹2,200-2,400 only.
+- **SHILCTECH Q4 FY26 — MAJOR MISS, thesis-level event.** Revenue ₹152 Cr (-34% YoY vs ₹232 Cr Q4 FY25), OPM compressed to **21%** from 31%, PAT ₹28 Cr (-49% YoY). FY26 full year ₹652 Cr revenue (+4.7%) and PAT ₹158 Cr (+7.5%) — **missed even the March DCF bear case** (which projected ₹811 Cr / ₹195 Cr). CMP ₹4,030. Recalibrated bear case fair value ~₹2,275 — implies CMP is 77% above recalibrated downside. **Verdict: TRIM half on rally above ₹4,200, monitor Q1 FY27 + read May 2026 concall** before deciding on remaining position. Hard exit trigger: another YoY revenue decline AND OPM <25%. Quality score should drop to ~16/25 pending concall context (is the miss US-tariff-driven and transient, or demand-driven and structural?). The portfolio model's -11.3% 3y CAGR target for SHILCTECH now looks RIGHT — the capacity-anchored DCF upgrade from March 2026 is broken.
+- **Open follow-ups for next session:** (1) Read SHILCTECH May 2026 concall transcript for revenue miss cause + order book FY27 visibility — decide trim vs exit; (2) Read ICICIAMC May 2026 concall for the QoQ PAT dip cause (treasury vs operating); (3) Pull NESCO Q4 BSE standalone for segment-level IT Park / BEC / Foods split.
+- HTML re-rendered via `python3 src/render_all.py`.
+
+---
+
 ## ✅ Completed — 2026-06-02 (Q4 FY26 refresh for ARTEMISMED / GRSE / ANANTRAJ)
 
 - **ARTEMISMED** — Added 2026-06-02 log entry to `research/ARTEMISMED.md`. Screener refresh (CMP ₹269, mcap ₹4,258 Cr, P/E 40.2). Material new datapoint: board has called June 4 postal ballot to **raise up to ₹700 Cr** (~16% potential dilution at CMP). Reverses the 2026-06-01 "pause the trim" stance — **proceed with TRIM to 2-3% of portfolio** ahead of the dilution overhang. Quality score 15/25 Grade C reconciliation confirmed; no dimension upgrade. ROE still 12% (below 13% used in P/B-ROE model).
