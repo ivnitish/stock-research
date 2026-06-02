@@ -67,8 +67,8 @@ Otherwise, run in **full mode**: produce the brief, create the GitHub issue, sen
 6. **If dry-run**, print the brief to stdout and exit here.
 
 7. **If full mode:**
-   a. Open a GitHub issue in the current repo titled `Morning News YYYY-MM-DD` with the brief as the body. GitHub emails the user automatically (no SMTP setup needed).
-   b. POST a Telegram message to chat ID **1679797853** using the bot token from the `TELEGRAM_BOT_TOKEN` env var. Message body: `Morning News ready: <issue URL>`.
+   a. Open a GitHub issue in the current repo titled `Morning News YYYY-MM-DD` with the brief as the body. GitHub emails the user automatically (no SMTP setup needed). This is the primary notification — must succeed.
+   b. **Telegram ping is optional.** If the `TELEGRAM_BOT_TOKEN` env var is set, POST a message to chat ID **1679797853** with body `Morning News ready: <issue URL>`. If the env var is missing or empty, skip silently — do not fail the routine. The local bridge already handles ad-hoc Telegram interaction; the cloud routine doesn't depend on Telegram.
 
 ## Notes
 
