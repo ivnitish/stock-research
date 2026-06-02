@@ -506,6 +506,7 @@ GRSE occupies the mid-tier of India's naval shipbuilding hierarchy: it builds fr
 | Valuation de-rating if growth decelerates below 20% | High | High | At 38x P/E, any miss compresses multiple sharply; margin of safety is thin |
 | Capacity ceiling hit without berth expansion | Medium | High | Revenue stalls at ₹8,000-9,000 Cr/yr; growth thesis breaks |
 | FY28 revenue gap (P-17A ends, NGC starts late) | Medium | Medium | 2-3 quarter growth plateau; market may de-rate temporarily. Spares + other deliveries partially cushion (per Q3 FY26 earnings call) |
+| Governance / board-composition compliance lapses | Medium | Low-Medium | BSE ₹9.55L fine 29-May-2026 for missing independent directors / committees Q4 FY26; FY26 secretarial report flagged "multiple NSE/BSE fines." Continued non-compliance would downgrade Management score from 3/5 to 2/5 (per 2026-06-02 research log) |
 
 ---
 
@@ -540,6 +541,29 @@ GRSE occupies the mid-tier of India's naval shipbuilding hierarchy: it builds fr
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/GRSE.md`*
+
+### 2026-06-02 — Governance flags + leadership transition update (post Q4 FY26)
+
+**Source:** BSE corporate announcements May 22-29, 2026; Screener.in page check (financials behind login wall this fetch — Q4 FY26 numbers already captured in 2026-05-10 update).
+
+**Governance lapses surfaced.** Three datapoints in late May, all directionally negative on the Management 3/5 score:
+
+1. **BSE penalty ₹9,55,800 (29-May-2026):** Fine imposed for "missing independent directors and committees in Q4 FY26." For a PSU operating under MoD oversight, board composition non-compliance is unusual and suggests the MoD-driven appointment process is lagging — a known PSU governance constraint now showing up financially.
+2. **FY26 secretarial compliance report (22-May-2026)** explicitly notes "board-composition lapses and multiple NSE/BSE fines." This is the auditor flagging the same issue at FY26 closing — not a one-off.
+3. **Two new senior technical appointments (26-27 May):** Cmde A Vinith (Retd.) as Executive Director (Technical) and Cmde Sreekumar Srinivasan as CGM (Technical). Senior leadership refresh is a continuation of the April 2026 superannuation transition. Technical bench is being rebuilt; execution-side risk depends on how quickly the new ED-Technical lands operationally on the P-17A delivery push.
+
+**Thesis read.** None of this changes the order book or the negative working capital model — the structural compounding mechanism is intact. But the Management dimension was already the weakest at 3/5, and these are real points against it. No score change yet (single-quarter governance noise on a PSU should not flip a dimension), but **two consecutive quarters of compliance fines would warrant downgrade to 2/5 and the overall score to 16/25.** The MoD-appointed CMD slot is also worth tracking — any vacancy or interim arrangement reduces strategic autonomy further.
+
+**No change to the HOLD-with-trim-above-₹3,000 recommendation.** NGC contract signing remains the binary upside catalyst; governance lapses are a slow-burn negative, not a thesis-breaker. But these datapoints reinforce the "trim half above ₹3,000 if NGC unsigned" trigger — governance overhang gives less benefit of the doubt to extended waits.
+
+**Risk table update.** Adding governance compliance as an explicit Medium-probability / Low-impact risk (see Section 7).
+
+**Watch items for next 4 weeks:**
+- NGC contract signing (was expected March 2026; now 60+ days late — every additional month is a yellow flag)
+- Q1 FY27 results timing and any restatement around board composition
+- Whether the technical leadership refresh is followed by an independent director appointment slate
+
+---
 
 ### 2026-03-28 — Q3 FY26 Earnings Call Deep Dive (12 Feb 2026)
 

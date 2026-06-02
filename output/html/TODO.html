@@ -37,7 +37,31 @@ strong{color:#111827;}
 </style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
 <details id="toc" class="no-print"><summary>Jump to section</summary></details>
 <h1 id="research-system-todo">Research System — TODO</h1>
-<p><em>Last updated: 2026-06-01</em></p>
+<p><em>Last updated: 2026-06-02</em></p>
+
+<hr>
+
+<h2 id="completed-2026-06-02-venusrem-q4-fy26-review">✅ Completed — 2026-06-02 (VENUSREM Q4 FY26 review)</h2>
+
+<ul>
+<li><strong>VENUSREM Q4 FY26 + FY26 results review.</strong> <code>research/VENUSREM.md</code> updated with 2026-06-02 Research Log entry (top of section 11), Q4 row added to Quarterly Trend table, 2026-05-26 result bullet added to Recent Developments, Update History row added, header refreshed (CMP ₹1,414, market cap ₹1,890 Cr). Numbers from Screener consolidated 2026-06-02 fetch: Q4 revenue ₹259 Cr (+33% YoY, largest quarter ever), OPM 24%, PAT ₹48 Cr (+129%); FY26 revenue ₹770 Cr, OPM 19%, PAT ₹103 Cr (+129%), EPS ₹76.90; <strong>₹10/share dividend declared — first in 12+ years</strong>; borrowings ₹12 Cr; reserves ₹650 Cr; AGM 2026-08-20. <strong>OPM-sustain test passed comfortably</strong> (Q3 21% + Q4 24%; FY26 19% vs the 18% upgrade-condition bar). VRP-034 status not disclosed in the result release — flagged as open follow-up. <strong>Recommendation held, not changed:</strong> existing 3-4% holders HOLD (do not trim on price alone — upgrade condition met but stock ran ahead of confirmation); new money WAIT for ₹950-₹1,100 pullback OR Phase 2 catalyst; aggressive add zone moves to <₹950 from <₹780. TRIM trigger at ₹1,400 not fired because failure condition (no FY27 OPM ≥17%) not observable yet and trajectory supportive. Multi-bagger math + Action Table formal refresh queued for v1.2 (FY26 PAT ₹103 Cr already above v1.1 FY27E base case of ₹100 Cr — pulled forward ~1 year). HTML re-rendered via <code>python3 src/render_all.py</code>.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-06-02-telegram-bridge-morning-news-skill">✅ Completed — 2026-06-02 (Telegram bridge + morning-news skill)</h2>
+
+<ul>
+<li><strong>Telegram bridge built</strong> — <code>scripts/telegram_bridge.py</code> forwards messages from @niti_agent_bot to <code>claude -p</code> running in this repo. Whitelists chat ID 1679797853 only. Uses <code>--dangerously-skip-permissions</code> (unattended), <code>--continue</code> after the first message of each chat session, <code>/new</code> command resets, <code>/whoami</code> debugs auth. Replies "thinking..." immediately so user sees the message landed. Logs to <code>scripts/telegram_bridge.log</code> (gitignored) with 10s spawn timeout and 600s run timeout. Long replies chunked at 4000 chars. Bot token + chat ID live in <code>.env</code> (gitignored); <code>.env.example</code> shipped. Run: <code>caffeinate -dims python3 -u scripts/telegram_bridge.py</code> from venv.</li>
+</ul>
+
+<ul>
+<li><strong>morning-news skill</strong> — <code>.claude/skills/morning-news/SKILL.md</code> is the single source of truth for the daily brief. Reads <code>data/portfolio.csv</code> (no Groww/Kite calls), ranks holdings by cost basis (qty × avg_buy_price), web-searches last-24h material news for each (results / regulatory / management / orders / ratings — skip price moves and noise), plus top-5 India + top-3 US macro. Writes <code>docs/MORNING_BRIEF.md</code>. Behaviour switch: <code>MORNING_NEWS_DRY_RUN=1</code> stops after writing the file; otherwise opens a GitHub issue (GitHub emails the user) and POSTs the issue URL to Telegram via <code>TELEGRAM_BOT_TOKEN</code>. Local runner <code>scripts/morning_news.py</code> invokes the skill with the dry-run flag by default; <code>--full</code> flips to production mode.</li>
+</ul>
+
+<ul>
+<li><strong>Open loops</strong> — (1) cloud <code>/schedule</code> routine still to be created at claude.ai/code/routines pointing at the morning-news skill (8:45 IST daily); (2) bridge dies whenever the laptop sleeps — Oracle Cloud ARM free tier is the durable fix.</li>
+</ul>
 
 <hr>
 

@@ -3,6 +3,24 @@
 
 ---
 
+## ✅ Completed — 2026-06-02 (Q4 FY26 refresh for ARTEMISMED / GRSE / ANANTRAJ)
+
+- **ARTEMISMED** — Added 2026-06-02 log entry to `research/ARTEMISMED.md`. Screener refresh (CMP ₹269, mcap ₹4,258 Cr, P/E 40.2). Material new datapoint: board has called June 4 postal ballot to **raise up to ₹700 Cr** (~16% potential dilution at CMP). Reverses the 2026-06-01 "pause the trim" stance — **proceed with TRIM to 2-3% of portfolio** ahead of the dilution overhang. Quality score 15/25 Grade C reconciliation confirmed; no dimension upgrade. ROE still 12% (below 13% used in P/B-ROE model).
+
+- **GRSE** — Added 2026-06-02 log entry to `research/GRSE.md`. Q4 FY26 numbers already captured in 2026-05-10 update; this entry focuses on **governance flags**: BSE ₹9.55L fine 29-May-2026 for missing independent directors / committees Q4 FY26; FY26 secretarial report flagged "multiple NSE/BSE fines"; two new senior technical appointments late May. Added governance compliance risk row to Section 7 risks table. No score change yet — but two consecutive quarters of fines would downgrade Management 3/5 → 2/5 and overall 17/25 → 16/25. HOLD-with-trim-above-₹3,000 unchanged; NGC binary catalyst still primary swing factor.
+
+- **ANANTRAJ** — Added 2026-06-02 log entry to `research/ANANTRAJ.md`. Q4 FY26 is genuinely new and clean: **Revenue ₹647 Cr, PAT ₹149 Cr (+25% YoY per Screener), OPM 26%**. FY26 full year ₹2,512 Cr / ₹557 Cr (revenue +22%, PAT +31%, OPM +200 bps — operating leverage in the literal sense). Updated header (CMP ₹549, mcap ₹19,752 Cr, P&L +19.1%), FY26 row in financials table, Q4 FY26 row in quarterly trend (with note on Q4 FY25 discrepancy between Screener fetch and original file figure). **Material catalyst:** 01-Jun-2026 MoU with Haryana government for ₹25,000 Cr data centre & cloud services investment — data centre pivot has moved from optionality to in-motion. HOLD-and-let-it-run; raised informal buy zone to ₹450-500 (no chasing above CMP). 17/25 Grade B retained.
+
+- HTML re-render kicked off via `python3 src/render_all.py` (background).
+
+---
+
+## ✅ Completed — 2026-06-02 (VENUSREM Q4 FY26 review)
+
+- **VENUSREM Q4 FY26 + FY26 results review.** `research/VENUSREM.md` updated with 2026-06-02 Research Log entry (top of section 11), Q4 row added to Quarterly Trend table, 2026-05-26 result bullet added to Recent Developments, Update History row added, header refreshed (CMP ₹1,414, market cap ₹1,890 Cr). Numbers from Screener consolidated 2026-06-02 fetch: Q4 revenue ₹259 Cr (+33% YoY, largest quarter ever), OPM 24%, PAT ₹48 Cr (+129%); FY26 revenue ₹770 Cr, OPM 19%, PAT ₹103 Cr (+129%), EPS ₹76.90; **₹10/share dividend declared — first in 12+ years**; borrowings ₹12 Cr; reserves ₹650 Cr; AGM 2026-08-20. **OPM-sustain test passed comfortably** (Q3 21% + Q4 24%; FY26 19% vs the 18% upgrade-condition bar). VRP-034 status not disclosed in the result release — flagged as open follow-up. **Recommendation held, not changed:** existing 3-4% holders HOLD (do not trim on price alone — upgrade condition met but stock ran ahead of confirmation); new money WAIT for ₹950-₹1,100 pullback OR Phase 2 catalyst; aggressive add zone moves to <₹950 from <₹780. TRIM trigger at ₹1,400 not fired because failure condition (no FY27 OPM ≥17%) not observable yet and trajectory supportive. Multi-bagger math + Action Table formal refresh queued for v1.2 (FY26 PAT ₹103 Cr already above v1.1 FY27E base case of ₹100 Cr — pulled forward ~1 year). HTML re-rendered via `python3 src/render_all.py`.
+
+---
+
 ## ✅ Completed — 2026-06-02 (Telegram bridge + morning-news skill)
 
 - **Telegram bridge built** — `scripts/telegram_bridge.py` forwards messages from @niti_agent_bot to `claude -p` running in this repo. Whitelists chat ID 1679797853 only. Uses `--dangerously-skip-permissions` (unattended), `--continue` after the first message of each chat session, `/new` command resets, `/whoami` debugs auth. Replies "thinking..." immediately so user sees the message landed. Logs to `scripts/telegram_bridge.log` (gitignored) with 10s spawn timeout and 600s run timeout. Long replies chunked at 4000 chars. Bot token + chat ID live in `.env` (gitignored); `.env.example` shipped. Run: `caffeinate -dims python3 -u scripts/telegram_bridge.py` from venv.

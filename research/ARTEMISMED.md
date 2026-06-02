@@ -182,6 +182,28 @@ Both models agree: ARTEMIS is significantly overvalued at current price unless R
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/ARTEMIS.md`*
 
+### 2026-06-02 — Post-print cross-check + ₹700 Cr fundraise flagged
+
+**Source:** Screener.in consolidated page refresh (2026-06-02) + BSE corporate announcements.
+
+**Valuation refresh.** Screener now shows CMP ₹269, mcap ₹4,258 Cr, P/E 40.2x, ROCE 14.6%, ROE 12.0%. Up modestly from the 2026-06-01 entry's ₹267 / ₹4,208 Cr / 39.7x — market continues to digest the Q4 print but no major rerating. ROE 12% remains below the 13% used in the P/B-ROE model; nothing in the valuation framework changes.
+
+**New: ₹700 Cr fundraise authorization.** Board has called a postal ballot for June 4, 2026 to approve raising up to ₹700 Cr. This is material — current mcap is ₹4,258 Cr, so a ₹700 Cr raise (if done at CMP) is ~16% dilution. Two scenarios for what this funds:
+
+1. **VIMHANS capex acceleration.** The ₹500-520 Cr VIMHANS project was previously assumed to be phased through FY29 from internal accruals. A ₹700 Cr equity raise would front-load this and possibly add a third location. Thesis-positive on capacity but adds dilution risk.
+2. **Acquisition or debt paydown.** Less likely given D/E of only 0.35, but not ruled out. Concall after June 4 will clarify.
+
+**Position-size implication.** This argues *for* the original TRIM plan, not against it. A 16% dilution at CMP ₹269 is a real overhang — the stock typically de-rates 5-10% on announcements of this size in mid-cap hospitals until end use is clarified. Combined with already-stretched P/E 40x and ROE still at 12%, trimming 200-260 sh from the 362-share position before the June 4 postal ballot outcome is the cleaner call than waiting for Q1 FY27 Raipur traction. The 2026-06-01 entry recommended pausing the trim; the dilution announcement reverses that — **proceed with TRIM to 2-3% of portfolio.**
+
+**Quality score reconciliation.** Confirmed via cross-check: file shows 15/25 Grade C, no conflict with index. The user-flagged "C 15/25 vs B 16/25" mismatch is resolved — both surfaces now agree on 15/25 Grade C. No dimension upgrade warranted; the ₹700 Cr fundraise is governance-neutral (board-approved capital plan, not a red flag) but does not strengthen any quality dimension either.
+
+**Watch items for next 4 weeks:**
+- June 4 postal ballot outcome and stated use of funds
+- Pricing of the issuance (QIP vs preferential vs rights) — preferential to insiders would be a positive signal
+- Q1 FY27 results (expected late-July 2026): Raipur revenue contribution and VIMHANS construction milestones
+
+---
+
 ### 2026-06-01 — Q4 FY26 + FY26 results print; Raipur live in Q1 FY27
 
 **Source:** Screener.in consolidated quarterly + earnings call transcript dated 15-May-2026; secretarial compliance filed 25-May-2026.
