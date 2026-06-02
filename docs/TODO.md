@@ -1,5 +1,15 @@
 # Research System — TODO
-*Last updated: 2026-06-01*
+*Last updated: 2026-06-02*
+
+---
+
+## ✅ Completed — 2026-06-02 (Telegram bridge + morning-news skill)
+
+- **Telegram bridge built** — `scripts/telegram_bridge.py` forwards messages from @niti_agent_bot to `claude -p` running in this repo. Whitelists chat ID 1679797853 only. Uses `--dangerously-skip-permissions` (unattended), `--continue` after the first message of each chat session, `/new` command resets, `/whoami` debugs auth. Replies "thinking..." immediately so user sees the message landed. Logs to `scripts/telegram_bridge.log` (gitignored) with 10s spawn timeout and 600s run timeout. Long replies chunked at 4000 chars. Bot token + chat ID live in `.env` (gitignored); `.env.example` shipped. Run: `caffeinate -dims python3 -u scripts/telegram_bridge.py` from venv.
+
+- **morning-news skill** — `.claude/skills/morning-news/SKILL.md` is the single source of truth for the daily brief. Reads `data/portfolio.csv` (no Groww/Kite calls), ranks holdings by cost basis (qty × avg_buy_price), web-searches last-24h material news for each (results / regulatory / management / orders / ratings — skip price moves and noise), plus top-5 India + top-3 US macro. Writes `docs/MORNING_BRIEF.md`. Behaviour switch: `MORNING_NEWS_DRY_RUN=1` stops after writing the file; otherwise opens a GitHub issue (GitHub emails the user) and POSTs the issue URL to Telegram via `TELEGRAM_BOT_TOKEN`. Local runner `scripts/morning_news.py` invokes the skill with the dry-run flag by default; `--full` flips to production mode.
+
+- **Open loops** — (1) cloud `/schedule` routine still to be created at claude.ai/code/routines pointing at the morning-news skill (8:45 IST daily); (2) bridge dies whenever the laptop sleeps — Oracle Cloud ARM free tier is the durable fix.
 
 ---
 

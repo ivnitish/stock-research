@@ -3,3 +3,7 @@ pandas>=2.0.0
 yfinance>=0.2.36
 matplotlib>=3.7.0
 openpyxl>=3.1.0
+
+# Telegram bridge (scripts/telegram_bridge.py)
+python-telegram-bot>=21.0
+python-dotenv>=1.0.0

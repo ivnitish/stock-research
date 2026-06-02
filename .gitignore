@@ -43,3 +43,6 @@ data/transcripts/**/*.md
 # Transcript HTML previews (local only)
 data/transcripts/**/*.html
 output/pdf/
+
+# Telegram bridge log
+scripts/telegram_bridge.log
