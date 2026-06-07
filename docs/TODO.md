@@ -1,5 +1,29 @@
 # Research System — TODO
-*Last updated: 2026-06-02*
+*Last updated: 2026-06-07*
+
+---
+
+## ✅ Completed — 2026-06-07 (STLTECH rally decode + VINDHYATEL new initiation)
+
+- **STLTECH rally decode + verdict update.** `research/STLTECH.md` rewritten with June 2026 update at top, original March note preserved below divider. Stock moved from ₹187 (Mar 13) → ₹619 (Jun 6) = +231% in 3 months; from Jan 27 low of ₹84.65 = +631% / 7.4x. Four catalysts mapped: (1) $1.11 bn US hyperscaler order through Mar 2029 — single largest driver; (2) DGTR anti-dumping duty on Chinese/Korean/Indonesian OFC effective Aug 2025, 5-year duration; (3) AI-data-center thematic re-rating (10-36x more fiber per MW vs cloud DC); (4) India DC capacity 1.4 GW → 8 GW by 2030. Grade upgraded C·11 → B·14 (business genuinely inflecting), but verdict held at WATCHLIST because asymmetry from ₹619 is 1.27x — below 2x threshold. Multi-Bagger Math: Bull ₹1,150 (+86%) / Base ₹620 (0%) / Bear ₹195 (-68%). Buy zone ₹420-450 or proof of second hyperscaler order. Framework lesson logged: a stock with specific catalysts identified in a watchlist note should default to 1-2% tracking position, not 0% — the March note's serial-conditions approach cost the 7x.
+
+- **VINDHYATEL new initiation — BUY REDUCED 3-4% at ₹1,993.** `research/VINDHYATEL.md` created. Grade B · 16/25. Deep-value mirror trade to STLTECH: same anti-dumping tailwind (group's Birla Furukawa was the petitioner), same India DC + 5G + government infra tailwind, but at P/B 0.56x (vs STLTECH 13.3x) and on positive earnings (₹220 Cr TTM PAT vs STLTECH ₹56 Cr). Three structural value drivers: (a) trades at half book value; (b) 8.29% stake in listed Birla Corporation worth ~₹800-1,200 Cr — 35-50% of own mcap, marked at cost on BS; (c) Birla Cable merger (10:115 swap, NCLT pending) consolidates group OFC under one listed entity. Q4 FY26 PAT ₹103 Cr (47% of full-year) confirms anti-dumping flow-through has begun. Order book ₹5,812 Cr = 1.6 years revenue visibility. Multi-Bagger Math: Bull ₹4,200 (+110%) / Base ₹3,000 (+50%) / Bear ₹1,400 (-30%). Asymmetry 1.7x base / 3.7x bull. MOS 33.6%. Funding source flagged: STLNETWORK (currently -40%) is the natural recycle candidate. Five Kamayaka triggers firing (regulatory + margin expansion + turnaround + capacity expansion + consolidation).
+
+- **Anti-dumping concept explained** to user (CFA Level 1 background) using the OFC case as the concrete example — DGTR process, dumping margin calculation, 5-year duration, petitioner-benefits-most principle, EU boomerang risk.
+
+- **`output/html/index.html` updated:** STLTECH row upgraded to Grade B · 14/25 with "Watch · Buy <₹450" action and ₹619 CMP / ₹420-450 buy zone shown. VINDHYATEL added as new row in watchlist section: Grade B · 16/25, "Buy Reduced · 3-4%" action, ₹1,993 CMP / ₹3,000 base target.
+
+- **HTML rendered** via venv python (`/Users/nitish/stocks automation/venv/bin/python3 /tmp/render_md.py`) for both files; opened in Chrome for review.
+
+- **Feedback saved to memory:** `feedback_groww_mcp_on_demand.md` — Groww MCP is on-demand only, not auto. MEMORY.md updated accordingly.
+
+### Open follow-ups for next session
+
+- **Watch STLTECH Q1 FY27 print** (Aug 2026) — PAT >₹150 Cr would confirm run-rate ₹600 Cr+ and pull forward earnings; below ₹100 Cr = order delivery slipping
+- **Watch VINDHYATEL Q1 FY27 print** (Aug 2026) — OPM must stay ≥6% to confirm Q4 FY26 margin step-up was anti-dumping flow-through and not project-mix one-off
+- **Track Birla Cable merger NCLT progress** (Q2-Q3 FY27 expected closure)
+- **Consider STLNETWORK exit** to fund VINDHYATEL initiation — separate decision but flagged as natural recycle
+- **Adjacent candidates to evaluate:** HFCL (Grade B inflection at P/B 5.86x), KRN Heat Exchanger (DC cooling, wait <₹950)
 
 ---
 
