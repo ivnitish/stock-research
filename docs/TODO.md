@@ -1,5 +1,19 @@
 # Research System — TODO
-*Last updated: 2026-06-07*
+*Last updated: 2026-07-02*
+
+---
+
+## ✅ Completed — 2026-07-02 (TRIVENI initial research — demerger arbitrage)
+
+- **TRIVENI new initiation — WATCHLIST / TRACKING 1-2% at ₹446.90.** `research/TRIVENI.md` created. Grade B · 15/25. Fair-value special situation, not a compounder. Consolidated PAT ₹269 Cr FY26, ROCE 9%, P/E 36x. The bet is the NCLT-approved demerger of the Power Transmission Business into TPTL (record date 3 Jun 2026, listing ~Aug 2026). PT segment does 34% PBIT margin on ₹370 Cr FY25 revenue (~5% of revenue, ~31% of pre-tax profit). Combined SOTP ₹320-428 vs CMP ₹446.90 → 0-10% base case upside, no margin of safety. Bull ₹625 (+40%) on TPTL at 30x + sugar MSP revision; Bear ₹280 (-37%) on soft TPTL listing + frozen MSP. Asymmetry ~1.2x — below the 2x BUY REDUCED threshold. Correct call is TRACKING (1-2%) into pre-listing window with option to build on stub if it overshoots below ₹380 post-listing.
+- **Framework flag noted:** the "hidden gem" framing was tested against numbers — consolidated ROCE 21%→9% in 3Y, PAT CAGR 3Y −19%, FCF negative 4 of 5 years — pushed back against the marketing narrative. Advisor call before drafting caught this. PT segment moat is real but it's a small slice of the consolidated business.
+- **HTML rendered** via `venv/bin/python3 src/render_all.py TRIVENI --no-pdf`. Index updated with TRIVENI row in watchlist section: Grade B · 15/25, Tracking 1-2%, SOTP ₹410 vs CMP ₹446.90.
+
+### Open follow-ups for TRIVENI
+
+- **Watch TPTL listing (August 2026 expected)** — first-10-day close and mcap. Below ₹1,900 Cr = re-rating trade fails, exit tracker. Above ₹2,400 Cr = build to 2%.
+- **Watch sugar stub print post-listing** — if TRIVENI stub trades below ₹300 without proportional TPTL uplift, buy sugar+ethanol at 10-12x forward PAT.
+- **Data gap:** FY25/FY26 segment-level PBIT for Sugar, Alcohol, Water is estimated from management commentary. Update when FY26 annual report drops (Aug-Sep 2026). H1 FY26 PDF could not be parsed; direct AR download needed for segment capital employed.
 
 ---
 
