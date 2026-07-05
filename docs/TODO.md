@@ -14,6 +14,12 @@
 - **Kite portfolio refresh attempted, blocked on auth.** Kite MCP session expired — needs interactive browser login (Zerodha tokens expire daily; this is why the digest uses bhavcopy, not broker MCPs). portfolio.csv unchanged.
 - **Data drift confirmed:** portfolio.csv (23 holdings incl. SWIGGY, BHEL, ZENTEC, SOUTHWEST) no longer matches HANDOVER.md active-portfolio table (still lists KAYNES, which is absent from the CSV). Propagation fix pending — see follow-up below.
 
+- **News brief switched weekly → daily (user request):** `scripts/daily_news_cron.sh` + `com.nitish.stocks.daily-news`, weekdays 08:42 IST. morning-news full-run (Telegram + GitHub issue) + watchlist entry-zone check. Weekly job removed.
+- **SKILL.md v2 re-integration proposal drafted:** `docs/proposals/SKILL_stock-research_v2.md` (rendered + opened in Chrome). Merges PROMOTED ACTIVE appendix into main flow, Step 6 checklist split into A (always) / B (BUY-TRACKING) / C (premium compounder). Awaiting user approval before touching the live skill.
+- **Stale worktrees cleaned:** 27 agent worktrees removed via `git worktree remove` (106MB freed); stale gitlink entries also removed from tracking. `claude/*` branches left intact (refs only, may hold unmerged work — prune separately after checking).
+- **Pending research committed:** BANCOINDIA/GRSE/KCP/KERNEX/PPAP/RAYMOND/VISL updates + their HTMLs, RAIN note (Grade C 11/25, WATCHLIST) + index.html row, 4 weekly red-flag journals, TRIVENI mirror-demerger correction (re-rendered).
+- **Kite account update (user):** Kite now holds only BAJFINANCE (~₹2L). portfolio.csv is the Groww book; BAJFINANCE needs adding once exact qty/avg known (Kite login pending — never estimate cost basis).
+
 ### Open follow-ups
 
 - **Portfolio-sync propagation:** decide + build the mechanism (likely a `portfolio-sync` skill wrapping existing `src/sync_holdings_from_csv.py` / `rebuild_held_block.py`) so a portfolio.csv refresh propagates to HANDOVER.md table, index.html held block, and research file Status headers. User suggested building it with skill-creator.
