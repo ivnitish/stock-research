@@ -3,6 +3,13 @@
 
 ---
 
+## ✅ Completed — 2026-07-05 (SPARC short note — FY profit-swing explanation)
+
+- **SPARC (Sun Pharma Advanced Research) — AVOID / SPECULATIVE, Grade D · 6/25.** `research/SPARC.md` created. User asked why the financial-year profit changed. Answer: FY26 swung from a ₹345 Cr loss to a ~₹1,552 Cr profit entirely on a single non-recurring item — sale of a USFDA Priority Review Voucher for USD 195M (~₹1,840 Cr), voucher granted 03-Feb-2026, sold 30-Apr-2026, booked as other operating revenue. All four operating quarters of the year were losses of ₹50-81 Cr; the R&D core is unchanged and still burning cash. The ~5x P/E, 281% ROE, 165% ROCE are artifacts of the one-off and revert negative once it drops out; P/B 5.8x is the only honest valuation signal. No ROIC/compounding engine — fails the framework's central test. Verdict: AVOID as a value/fundamental holding; at most 1% speculative pipeline optionality given strong Sun Pharma promoter (~65.7%). Indexed + rendered + opened in Chrome.
+- Note: no recent concall / quarterly result available for PPAP as of this session (user flagged).
+
+---
+
 ## ✅ Completed — 2026-07-05 (5-stock research batch: SETL, VISL, SELECTRIC, PPAP + TRIVENI update)
 
 Batch run via parallel subagents. All five are WATCHLIST/AVOID — no new positions. Common thread: quality-ish businesses (or freshly-listed special situations) at prices that already discount perfect execution.
