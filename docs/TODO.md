@@ -10,8 +10,13 @@
   - `weekly-news` — Mondays 08:42 IST, headless `claude -p` run: morning-news skill in weekly mode (7-day lookback) + watchlist entry-zone check against docs/HANDOVER.md, CMPs from Tickertape/Google Finance (broker MCPs deliberately excluded — Groww MCP unreliable headless; fallback rule applies). First live run: Mon 2026-07-06. Not yet test-fired (costs tokens).
 - README updated with a Scheduled Jobs section (manage/trigger/disable commands).
 
+- **Daily portfolio Telegram digest added (same session).** `scripts/daily_portfolio_telegram.py` + launchd job `daily-digest`, weekdays 19:23 IST. EOD close from official NSE/BSE udiff bhavcopies (the legacy endpoints in `src/nse_bhavcopy.py` and `src/indian_stock_api.py` are dead upstream — both 404 now; flagged for repair/retirement). Computes day change + P&L per holding and portfolio totals, sends via the telegram_bridge bot creds in `.env`. Skips market holidays. Dry-run verified against Fri 03-Jul data (23 holdings, all priced); test ping delivered.
+- **Kite portfolio refresh attempted, blocked on auth.** Kite MCP session expired — needs interactive browser login (Zerodha tokens expire daily; this is why the digest uses bhavcopy, not broker MCPs). portfolio.csv unchanged.
+- **Data drift confirmed:** portfolio.csv (23 holdings incl. SWIGGY, BHEL, ZENTEC, SOUTHWEST) no longer matches HANDOVER.md active-portfolio table (still lists KAYNES, which is absent from the CSV). Propagation fix pending — see follow-up below.
+
 ### Open follow-ups
 
+- **Portfolio-sync propagation:** decide + build the mechanism (likely a `portfolio-sync` skill wrapping existing `src/sync_holdings_from_csv.py` / `rebuild_held_block.py`) so a portfolio.csv refresh propagates to HANDOVER.md table, index.html held block, and research file Status headers. User suggested building it with skill-creator.
 - Verify Monday's first weekly-news run output (`docs/MORNING_BRIEF.md` + `data/logs/weekly_news.log`); tune the prompt if the brief is too long/short.
 - Stock-research SKILL.md re-integration proposal pending user review: merge "PROMOTED ACTIVE" appendix (Steps 2.5/2.6 + checklist additions) into the main step flow; split Step 6 checklist into always-run vs pattern-conditional blocks.
 - Clean up ~106MB of stale agent worktrees under `data/.claude/worktrees/` (gitignored, local disk only).
