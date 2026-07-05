@@ -355,6 +355,89 @@ Per share = 16,041 / 14.3 = ₹1,122
 
 ## 8. Research Log
 
+### 2026-06-02 — Q4 FY26 and FY26 results: partial refresh, full rewrite still pending
+
+**Verdict: HOLD. Position has moved from -6% to +4.9% as the stock re-rated from ₹554 to ₹647. The FY26 full-year print is strong on revenue and PAT growth; the Q4 print is weak on margins. Both matter, and they pull the thesis in opposite directions.**
+
+A note on this update: the user flagged BANCOINDIA for a fuller refresh given that the existing file is shallow on segment economics, EV thermal management traction, NRF Europe contribution, and the recent debt build-up. This log entry incorporates the Q4 FY26 + FY26 print and adds a "Business & Customer Context" section below, but it is NOT a full framework rewrite. That work — segment-level revenue split, NRF standalone financials, the Lloyd Coils Europe integration story, named EV OEM contracts, and a refreshed Compounding Engine Q&A — still needs to be done. Flagging this here so it doesn't slip.
+
+#### Q4 FY26 (Mar 2026) and FY26 full-year print
+
+| Metric | Q4 FY26 | Q4 FY25 | YoY |
+|--------|---------|---------|-----|
+| Revenue (₹ Cr) | 1,099 | 875 | +25.6% |
+| Operating Profit (₹ Cr) | 225 | 214 | +5.1% |
+| OPM | 20% | 24% | -400 bps |
+| PAT (₹ Cr) | 147 | 154 | -4.5% |
+| EPS (₹) | 10.31 | 10.73 | -3.9% |
+
+| FY metric | FY26 | FY25 | YoY |
+|-----------|------|------|-----|
+| Revenue (₹ Cr) | 3,896 | 3,213 | +21.3% |
+| OPM | 17% | 19% | -200 bps |
+| PAT (₹ Cr) | 482 | 392 | +23.0% |
+| EPS (₹) | 33.68 | 27.39 | +23.0% |
+
+CMP ₹647 | Mcap ₹9,251 Cr | P/E 19.8x | ROE 31.2% | ROCE 30.9% | Book ₹118 | Div Yield 2.35%
+
+5y revenue CAGR 21% | 5y profit CAGR 33%
+
+#### What the print says
+
+The full-year line is exactly what the FY26 thesis was underwriting: revenue +21% (vs 18% 3-year CAGR), PAT +23%, ROCE held at 31% even as the balance sheet grew. The compounding engine continues to work.
+
+The Q4 line is more interesting. Revenue grew 26% YoY but operating profit grew only 5%, and PAT was actually down 4.5%. OPM compressed 400 bps YoY (24% → 20%). This is the same pattern Dec'24 showed (OPM 9% then) and Dec'25 showed (OPM ~11%) — margin compression in seasonally weak quarters. The fact that it has now spread into the Mar quarter (historically the strongest quarter) is a new datapoint that warrants attention.
+
+Two readings of the Q4 margin print:
+
+1. **Benign:** Aluminium / copper prices spiked late in FY26 and OEM pass-through lags by one to two quarters. FY27 H1 margins should recover as pass-through catches up. This is consistent with the file's existing "OEM contracts allow quarterly or semi-annual price adjustments — hence the lag" framing.
+2. **Less benign:** NRF Europe (which is now ~25-30% of consolidated revenue) is structurally lower-margin than the Indian OEM business, and as NRF's share grows, blended margins drift down toward the European aftermarket norm. This would mean the FY24-FY25 margin profile (19%) is the peak, not the new normal.
+
+The data doesn't yet distinguish these. The €6.56M subsidiary warehouse fire claim disclosed on 28 May 2026 (see below) doesn't help — it suggests NRF had inventory loss in FY26 that is being recovered from insurers, but the exact P&L treatment isn't disclosed.
+
+#### Valuation context — CMP ₹647 vs base case ₹611
+
+In March 2026, the file's DCF base case fair value was ₹611 and CMP was ₹554, so the stock was at -10% margin of safety against base. CMP ₹647 is now slightly ABOVE base case fair value (+6%) and well above bear case ₹340. Bull case ₹1,122 still leaves 73% upside.
+
+The reverse-DCF question — "what growth is the market pricing in?" — has shifted. At ₹647 / EPS ₹33.68 = trailing P/E 19.2x. For this to be fair value at 13% discount rate, the market is implying ~15-16% sustained growth for 10 years at 15x terminal. That matches the historical 18% revenue CAGR with margin headwind built in. So the stock is no longer cheap, but it's not stretched either.
+
+The action triggers in the existing file say "Add ₹450-500 only if OCF improves." CMP ₹647 is comfortably above the add zone. **The right action at +4.9% P&L is HOLD, not add. Trim only if D/E crosses 0.75x or Q1 FY27 margin compression continues at the Q4 FY26 rate.**
+
+#### 28 May 2026 announcements
+
+- **Board approved FY26 results.**
+- **Final dividend 400%** — at ₹2 FV, that's ₹8/share final dividend. Combined with interim, total FY26 dividend ~₹18-20/share (vs ₹15 FY25). Yield steady around 2.3-2.5%.
+- **Subsidiary warehouse fire — claim of €6.56 million filed.** This is at NRF (Europe). Inventory and/or facility loss. Insurance recovery is in progress; net financial impact will depend on settlement vs book loss. Track Q1 FY27 disclosure for resolution.
+- **Sachinkumar Dalwadi appointed Company Secretary** — routine.
+
+#### Business & Customer Context (partial refresh per user request)
+
+A working summary of what BANCOINDIA actually does and why the moat exists, written for someone returning to this file cold. This is a holding section pending the full refresh.
+
+**What they make.** Roughly 80% of revenue comes from heat exchangers — radiators, oil coolers, intercoolers, charge-air coolers, AC condensers — for vehicles. The rest is gaskets (engine sealing) and the European aftermarket distribution business (NRF). The physical product is straightforward: aluminium-and-copper assemblies that move heat away from engines or batteries. The business is hard not because the product is hard, but because each radiator has to be specifically engineered to fit a specific engine and certified through that OEM's quality program — IATF 16949 plus the OEM's own qualification process — which takes 3 to 5 years from first engineering sample to series production. Once you're in the OEM's bill of materials, you're hard to displace because re-qualifying a new vendor for one component to save a small per-unit cost is rarely worth the engineering bandwidth at the OEM. This is the moat.
+
+**Indian OEM customer base.** Tata Motors (commercial vehicles + passenger vehicles), Mahindra & Mahindra (UVs + tractors), Ashok Leyland (CVs), Maruti Suzuki (PVs), Bajaj Auto (2W/3W), Eicher (CVs/Royal Enfield), Cummins India (engines/gensets), Volkswagen India, John Deere (tractors). No single customer above ~10% of consolidated revenue. The Mahindra and Tata relationships are decades old. The diversification across vehicle segments — heavy CVs, LCVs, PVs, tractors, gensets — means a single segment cycle (e.g., CV down-cycle) hurts but doesn't kill the business.
+
+**NRF / Lloyd Coils Europe.** NRF is the European aftermarket subsidiary acquired in 2010 (Netherlands HQ). The "Lloyd Coils Europe" line referenced in the user's flag is a related European cooling business; this needs clarification in the full refresh — is it a separate subsidiary, a brand within NRF, or a recent bolt-on acquisition? The existing file doesn't distinguish clearly. What is clear: NRF operates 8 plants and 19 warehouses across 80+ countries, focused on aftermarket replacement parts. This is structurally lower-margin (aftermarket distribution) than OEM supply, but it provides geographic diversification, USD/EUR revenue, and a moat — no other Indian auto-components company has a comparable European distribution footprint. **Open question for full refresh:** what is NRF's standalone revenue and EBIT margin? At ~25-30% of consolidated revenue, NRF would be ₹1,000-1,200 Cr business — material enough that not having its standalone P&L is a real data gap.
+
+**Banco New Energy Cooling Systems — the EV optionality.** A 100% subsidiary set up to supply battery thermal management products (cooling plates, liquid cooling loops) to EV makers. Per the existing file, "supply commenced in FY25" but no named customers, no revenue disclosure. The thesis case for this segment is that EV thermal content per vehicle is 2-3x ICE thermal content (₹15-25K per EV vs ₹5-8K per ICE), so even modest volume share in EVs gives a step-change in revenue. The bear case is that the EV battery cooling market is being targeted by every global thermal player (Mahle, Denso, Valeo, Modine) and Banco's edge is not yet visible. **Open question for full refresh:** any named EV OEM contracts? Tata Motors EV, M&M EV, Ola Electric, Ather, Hero MotoCorp — which of these are Banco supplying?
+
+#### What the full refresh still needs
+
+Logging these as explicit data gaps so the next refresh has a clear scope:
+
+1. NRF Europe standalone revenue and EBIT margin — to test the "NRF mix shift" hypothesis on Q4 margin compression.
+2. Banco New Energy Cooling Systems — named EV OEM contracts, FY26 revenue contribution if any, capex deployed.
+3. Clarification of "Lloyd Coils Europe" — separate subsidiary, NRF division, or new acquisition? Impact on consolidated numbers.
+4. FY26 cash flow statement — OCF, capex, OCF/PAT ratio. The 0.42x FY25 ratio was the file's biggest flag; FY26 cash conversion is the most important update.
+5. FY26 borrowings — D/E trajectory. FY25 was 0.44x (₹573 Cr borrowings). If FY26 D/E is above 0.5x, the debt build-up warrants its own section.
+6. Segment-level FY26 P&L if available in annual report — Cooling vs Gaskets vs NRF.
+7. Full FY26 annual report (when filed, typically July-August) — MD&A on capex plans, EV strategy, NRF aftermarket commentary.
+
+Schedule full refresh for: when FY26 annual report is filed (estimated July-August 2026), OR earlier if Q1 FY27 results show continued margin compression.
+
+---
+
 ### 2026-03-22 — Full framework rewrite (new template)
 - **Key corrections from old thesis:**
   - D/E is 0.44, NOT zero — borrowings ₹573 Cr (tripled from FY22)

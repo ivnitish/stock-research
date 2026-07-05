@@ -283,12 +283,18 @@ The gap is being funded by borrowings (+₹122 Cr in FY26). This works as long a
 
 ### Key Ratios
 
-| Ratio | FY22 | FY23 | FY24 | FY25 |
-|-------|------|------|------|------|
-| ROCE % | -13% | -23% | -21% | 24% |
-| Debtor Days | 596 | 0 | 94 | 45 |
-| Cash Conversion Cycle | 1,385 | 2,098 | 1,731 | 177 |
-| Working Capital Days | 226 | 1,219 | 1,161 | 152 |
+| Ratio | FY22 | FY23 | FY24 | FY25 | FY26 |
+|-------|------|------|------|------|------|
+| ROCE % | -13% | -23% | -21% | 24% | 48% |
+| Debtor Days | 596 | 0 | 94 | 45 | **268** |
+| Inventory Days | — | — | — | — | **787** |
+| Payable Days | — | — | — | — | **938** |
+| Cash Conversion Cycle | 1,385 | 2,098 | 1,731 | 177 | ~117 (net) |
+| Working Capital Days | 226 | 1,219 | 1,161 | 152 | 150 |
+
+**WC narrative correction (added 2026-06-02):** The FY25 "working capital efficiency improved dramatically" framing was a snapshot of one quarter — FY26 data invalidates it. Debtor days expanded back from 45 to 268 (a 6x deterioration) as the CLW order ramped up and government billing milestones lengthened. Inventory days at 787 reflects WIP on long-execution contracts. The headline "Working Capital Days 150" looks benign only because payable days at 938 — vendors are effectively financing 2.5+ years of inventory. This is not a virtuous WC cycle; it is supplier credit substituting for bank financing while OCF/PAT collapsed from 0.30x to 0.17x. The original Phase 1 thesis warning about WC strain has empirically materialised. Source: Screener.in consolidated ratios, Mar 2026.
+
+*(Prior FY25 commentary retained below for archival continuity — but the conclusion was wrong in hindsight.)*
 
 **Working capital efficiency improved dramatically in FY25** — cash conversion cycle collapsed from 1,731 to 177 days. Debtor days dropped to 45. This is a genuine positive signal that the company is managing receivables better as it scales. If this holds, the OCF concern mitigates significantly.
 
@@ -332,6 +338,35 @@ This is the simultaneous validation of bull and bear: the P&L thesis (operating 
 ---
 
 ## 4b. Outlook — Base Estimate + Sensitivity
+
+### National Kavach rollout — ground-truth update (added 2026-06-02)
+
+The 1,500 km deployment figure in the existing thesis is now stale. Latest Ministry of Railways disclosures (Feb 2026, per DD News and PIB):
+
+| Metric | Value | Source |
+|---|---|---|
+| Kavach 4.0 commissioned | **1,452 route km** on Delhi-Mumbai + Delhi-Howrah corridors (Palwal-Mathura-Nagda 633 km + Howrah-Bardhaman 105 km confirmed) | PIB, Feb 2026 |
+| Trackside equipment deployed | **6,776 route km** (deployment in progress; not yet commissioned) | DD News, Feb 2026 |
+| Trackside work-in-progress | **24,427 route km** (Golden Quadrilateral + Golden Diagonal + high-density network) | DD News, Feb 2026 |
+| Optical fibre laid | 8,570 km | DD News |
+| Telecom towers installed | 1,100 | DD News |
+| Station data centres | 767 | DD News |
+| Locomotives equipped | **4,154** out of target | DD News |
+| Locomotives in installation queue | **8,979** + 1,200 EMU/MEMU | DD News |
+| Loco pilots trained | 47,500 | DD News |
+| Cumulative spend on Kavach to Feb 2026 | **₹2,763.9 Cr** | DD News |
+| FY26 allocation | ₹1,673 Cr | DD News |
+| Budget 2026-27 safety allocation (Feb 1, 2026) | **₹1.20 lakh Cr** (corrected from prior ₹1.3 lakh Cr citation) | Budget speech |
+| Total Railways capex FY27 | ₹2.78-2.93 lakh Cr (record) | Budget |
+| New tender wave (FY27) | 20,000 locomotives tender to be issued this year + ₹5,000 Cr / 10,000 km network tender | Swarajya, June 2026 |
+
+**What this means for Kernex:**
+- 1,452 km commissioned + 6,776 km deployed + 24,427 km WIP = ~33,000 km in Kavach's execution funnel. The 85,000 km full-network ambition over 7-9 years remains, but execution is finally moving — Kavach went from <1,500 km commissioned (FY25 end) to ~1,500 km commissioned (Feb 2026) but with 6,776 km of trackside deployed in parallel. The pipeline behind the commissioned number is now 22x larger than the deployed number. Conversion of "deployed" to "commissioned" should accelerate sharply through FY27.
+- 4,154 locos equipped (across all OEMs) against an 18,429 → 12,129 revised target. Kernex + HBL have ~₹6,000 Cr of combined loco-Kavach order book to deliver against the remaining 8,000-9,000 locos. Kernex's 3,024-loco CLW share + 505-loco BLW share = 3,529 locos = ~30% of remaining demand.
+- The 20,000-loco tender wave referenced for FY27 is incremental to existing books and is the next major share-determination event. If Kernex wins 25-30% (consistent with FY26 share), incremental order book = ₹3,000-4,500 Cr.
+- The pace caveat remains real — "Kavach Countdown Extended" stories (Whalesbook, 2026) note Railways missed yet another deployment deadline on Mumbai-Delhi. Don't model the 85,000 km headline; model 12,000-15,000 km commissioned over FY27-FY29 as the realistic pace.
+
+---
 
 **Horizon:** FY28 — 3-year forward (enough to see execution at scale)
 
@@ -506,6 +541,45 @@ Per share = 2,679 / 1.68 = ₹1,595
 
 ## 6. Competitive Landscape
 
+### Deep dive — competitive moat by share, capacity and win-rate (added 2026-06-02)
+
+**The 3-OEM market is real but Kernex is gaining share, not losing it.** Most secondary commentary frames Kernex as the "smallest of three" — true on revenue, misleading on win-rate. The single most important competitive data point from the last 12 months is CLW's 6,300-unit loco tender (Apr 2025): HBL Engineering, the larger and better-capitalised peer, publicly disclosed it did not win the order because Kernex bid more competitively. Kernex took the ₹2,465 Cr / 3,024-set CLW contract that anchors current order book. A May 2026 follow-on of ₹475 Cr (Chittaranjan, additional loco scope) extended that lead. This is the first empirical evidence that the moat is not just "Kernex is one of three" — it is "Kernex can underprice HBL on Kavach loco kits and still deliver."
+
+HBL's response was to guide hard on station/wayside Kavach instead: FY27 outlook of ₹1,000 Cr from loco units + ₹900 Cr from station units = ₹1,900 Cr Kavach revenue. Kernex's likely FY27 revenue band (₹650-1,000 Cr) sits below HBL's Kavach-only number — but Kernex is 100% Kavach-pure-play vs HBL's diversified mix (batteries, defence electronics, other railway signalling). The two are not converging; they are specialising.
+
+**Production capacity reconciled:**
+
+| OEM | Kavach Capacity | Source | Notes |
+|---|---|---|---|
+| Kernex | 450 units/month (5,400/year) | March 2025 investor presentation | Confirmed in BSE filings |
+| HBL Engineering | Not publicly disclosed in units; targets ₹1,300-1,500 Cr Kavach revenue p.a. FY26-28 | CARE Ratings press release Feb 2026; HBL guidance | Capacity implicit from revenue guidance, not unit-count |
+| Medha Servo (unlisted) | Not disclosed | — | FY25 revenue ₹4,380 Cr (largest of three) |
+| Quadrant Future Tek | N/A — not yet approved | NSE disclosure Mar 12, 2026 | CARE's Q4 FY26 monitoring report flagged "pending KAVACH approval" as a major procedural observation; field trials in final stage but RDSO certification not yet issued |
+
+**Bid win-rate evidence (12 months ending May 2026):**
+- CLW 3,024-set loco Kavach (Apr 2025): **Won by Kernex** at ₹2,465 Cr
+- CLW additional loco scope (May 27, 2026): **Won by Kernex** at ₹475 Cr
+- CLW 2,500-loco onboard equipment: **Won by Kernex** at ₹2,041 Cr (per Metro Rail News)
+- BLW 505-unit onboard (FY26): **Won by Kernex** at ₹411 Cr
+- BLW 179.79 Cr loco Kavach (Q4 FY26): **Won by HBL Engineering**
+- CLW 1,714 Cr loco Kavach contract: **Won by HBL Engineering**
+- Patiala LW 83.81 Cr loco Kavach (Q4 FY26): **Won by HBL Engineering**
+- ICF 575 Cr Kavach contract (FY26): **Won by HBL Engineering**
+
+The pattern: Kernex dominates Chittaranjan (its anchor relationship — 17 sheds, 7 zones) and Banaras Loco Works; HBL won Patiala, ICF, and parts of BLW. The Kavach-loco market is now a 2-player duopoly with zonal specialisation, not a 3-player price war. Medha appears focused on station/wayside (the older Kavach v3.2 SCR deployment was largely Medha).
+
+**Quadrant Future Tek — 4th entrant status as of May 2026:**
+
+Final passenger field trials in progress on a dedicated Indian Railways track. Interim ISA report received satisfactorily. CARE Ratings' Q4 FY26 IPO fund-utilisation monitoring report explicitly flagged pending RDSO approval as a major observation, noting that while IR has assigned trial infrastructure, final certification remains outstanding. Order book: ₹898 Cr (pre-approval — these are conditional on certification). Realistic timeline: H2 FY27 for RDSO clearance, FY28 for first revenue. The 4th OEM entry is real but slower than the existing thesis implied. Importantly, Quadrant's pricing as a fresh entrant trying to win first orders is the main competitive pressure on Kernex's margin profile, not capacity.
+
+**What this means for Kernex's competitive position:**
+- Moat is empirically wider on Chittaranjan/Banaras anchor relationships than the "1 of 3 OEMs" framing implied
+- Quadrant approval coming, but FY28+ before competitive impact
+- HBL is the most dangerous competitor — well-capitalised, diversified, ₹3,000 Cr FY26 guidance — but they have implicitly conceded the Chittaranjan loco vertical
+- Medha is unlisted and not publicly bidding aggressively on loco-onboard tenders — appears focused on station/wayside
+
+---
+
 ### Market Position
 
 Kernex is one of three RDSO-approved Kavach v4.0 OEMs, alongside HBL Engineering (listed) and Medha Servo Drives (unlisted). A fourth entrant, Quadrant Future Tek, is in final passenger field trials for Kavach v4.0 and expected to receive RDSO approval soon. Kernex is the smallest of the three approved OEMs by revenue but was the original inventor of the ACD/TCAS technology that became Kavach. Production capacity: 450 Kavach units/month + 10 Level Crossing Gates/month (scalable to 25). The addressable market is massive: 85,000 km of Indian Railways network (full network; initial HDN/HUN target was 44,000 km) at ₹5-8 Cr per route-km = ₹4.25-6.8 lakh Cr TAM, with only ~1.8% deployed. Near-term routes: HDN 11,000 km (7 routes) + HUN 24,230 km (11 routes) = 35,230 km.
@@ -518,21 +592,26 @@ Kernex is one of three RDSO-approved Kavach v4.0 OEMs, alongside HBL Engineering
 
 3. **Asset-light model:** Fixed assets only ₹34 Cr (Sep 2025) supporting ₹259 Cr TTM revenue = asset turnover 7.6x. Production capacity of 450 Kavach units/month (5,400/year) means manufacturing is NOT the bottleneck. Capital primarily goes to working capital (receivables), not fixed investment — allowing faster scaling if working capital is funded.
 
-### Peer Comparison
+### Peer Comparison (updated 2026-06-02 with FY26 actuals where available)
 
-| Metric | **KERNEX** | HBL Engineering | Medha Servo (unlisted) | Quadrant Future Tek |
-|--------|-----------|----------------|----------------------|-------------------|
-| Revenue (₹ Cr) | 190 (FY25) | 1,967 (FY25) | 4,380 (FY25) | 155 (TTM) |
-| Revenue CAGR 3yr | NM (loss→profit) | 17% | ~30% est. | NM |
-| OPM % | 22% | 20% | ~18% est. | Negative |
-| Net Margin % | 26% (inflated) | 14% | ~10% est. | Negative |
-| ROCE % | 24% | 27% | ~15% est. | Negative |
-| D/E | 0.25 (FY25) | 0.05 | N/A | N/A |
-| P/E | 30.7x | 22.4x | Unlisted | Negative |
-| Market Cap (₹ Cr) | 1,616 | 18,281 | Unlisted | 1,162 |
-| Promoter % | 28.89% | 59.11% | Private | ~50% est. |
-| Order Book (₹ Cr) | 3,268 | ~4,000 | ~5,000 est. | 898 |
-| Kavach v4.0 approved? | Yes | Yes | Yes | Final trials |
+| Metric | **KERNEX** | HBL Engineering | Medha Servo (unlisted) | Quadrant Future Tek | Bharat Electronics (BEL) |
+|--------|-----------|----------------|----------------------|-------------------|--------------------------|
+| Revenue (₹ Cr) FY26 | **430** | ~3,000 (guidance) | ~5,000+ est. | ~200 (TTM) | ~24,000+ est. |
+| Revenue FY25 | 190 | 1,967 | 4,380 | 155 | 19,322 |
+| Revenue CAGR 3yr | Loss→profit | 17% | ~30% est. | NM | 12% |
+| OPM % (latest) | **35% (FY26)** | ~22% est. | ~18% est. | Negative | ~25% |
+| Net Margin % | 20% (FY26, normalised tax) | ~14% | ~10% est. | Negative | ~19% |
+| ROCE % | 48% (FY26) | 30%+ est. | ~15% est. | Negative | 25%+ |
+| D/E | 0.66 (FY26) | 0.05 | N/A | N/A | Negative net debt |
+| P/E | 36.0x (FY26 PAT) | 28x est. | Unlisted | Loss-making | 35-40x |
+| Market Cap (₹ Cr) | ~3,036 | ~20,000+ | Unlisted | ~1,200 | ₹3 lakh Cr+ |
+| Promoter % | **28.85%** | 59% | Private | ~50% est. | Govt of India |
+| Order Book (₹ Cr) | **2,704** (May 2026) | 2,999 (Dec 2025) | ~5,000 est. | 898 | ~95,000+ |
+| Kavach v4.0 approved? | Yes (RDSO) | Yes (RDSO) | Yes (RDSO) | Final trials — RDSO pending | No (not OEM) |
+| Kavach pure-play | ~95% | ~50% (also batteries, defence, signalling) | ~70% est. | 100% (when approved) | No (defence pure-play) |
+| FY27 Kavach revenue guidance | Not disclosed (est ₹650-1,000 Cr) | ₹1,900 Cr (1,000 loco + 900 station) | Not disclosed | Pending approval | N/A |
+
+**Why HBL is the closest direct comp, not Salasar Techno:** Salasar is a galvanised steel / telecom tower business — different competitive dynamic. HBL is the only listed pure railway-safety-overlap. BEL is interesting as a defence comparison (if Kernex defence story materialises), but it is 100x Kernex's size and is a different business model. The HBL comparison shows that even at 7x Kernex's revenue and 50% promoter holding, HBL trades at a P/E (28x) only marginally lower than Kernex (36x) — meaning the market is paying for Kavach pure-play premium. If Kernex's Kavach concentration is the reason for the multiple, then any defence/industrial diversification (Jindal Steel-type) would dilute the multiple, not enhance it. This is counter-intuitive — pure-play premium cuts both ways.
 
 ### Why Multiples Differ + Re-rating Thesis
 
@@ -553,6 +632,30 @@ Kernex is one of three RDSO-approved Kavach v4.0 OEMs, alongside HBL Engineering
 ---
 
 ## 7. Customer & Supplier Analysis
+
+### Order book composition + execution timeline (added 2026-06-02)
+
+The ₹2,704 Cr order book disclosed in the May 2026 round (which dropped from ₹3,268 Cr Dec 2025 as Q4 FY26 ₹254 Cr revenue was billed against it) breaks down approximately as follows:
+
+| Order | Customer | Value (₹ Cr) | Scope | Execution timeline | Status |
+|---|---|---|---|---|---|
+| CLW loco Kavach v4.0 | Chittaranjan LW | 2,465 | 3,024 onboard sets across 17 sheds (SER 8, SECR 3, CR 3, ECR 2, NCR 1, PLW 1, MELP 1) | 12 months from May 2025 → completion target mid-FY27 | Material supply ongoing; Q4 FY26 billed ~₹254 Cr against this contract |
+| CLW additional | Chittaranjan LW | 475 | Additional loco Kavach onboard | 12 months from May 27, 2026 → completion target Q1 FY28 | Just awarded |
+| BLW loco Kavach | Banaras LW | 411 | 505 onboard units | 12-18 months | Execution started |
+| CLW 2,500-loco onboard | Chittaranjan LW | 2,041 | Older 2,500-set CLW contract | Largely executed FY26 | Significant portion already revenue-recognised |
+| DFCCIL Eastern DFC | DFCCIL | 210 | Survey, design, supply, install for Kavach on Eastern Dedicated Freight Corridor | 18-24 months | Execution started |
+| NCR ABS | North Central Railway | ~80 (est.) | Chipyana Buzurg-Kanpur and Kanpur-DDU ABS | 12 months | Disclosed but not separately quantified |
+| SCR ABS | South Central Railway | ~50 (est.) | Vemulapadu-Muddanuru ABS | 12 months | Disclosed but not separately quantified |
+| Other zonal + LCG | Multiple zones | Balance | Level Crossing Gates + small contracts | 6-18 months | Recurring |
+| Jindal Steel yard automation (NEW) | JSL — private industrial | 15.9 | First non-railway, first private — Yard Safety + Loco Tracking | 12 months from May 28, 2026 | Just awarded |
+
+**The geography is concentrated on Eastern India:** Chittaranjan (West Bengal) + Banaras (UP) + Eastern DFC + NCR. South Eastern Railway holds 8 of 17 CLW sheds. If any one zonal railway pauses Kavach work, ~50% of execution slows. This is a real concentration risk not captured by the headline "100% Indian Railways" framing — the customer risk is not just sovereign-dependence, it is also zonal-railway-execution dependence.
+
+**Cancellation/repricing risk on multi-year contracts:** CLW Kavach orders are fixed-price, fixed-scope, with milestone-based payment. There is no indexation clause for input cost inflation (semiconductor pricing, copper for cabling). If CPU/PCB prices rise materially over 12-24 months, margin compression on locked-in contracts is real. The 41% Q4 FY26 OPM was on initial milestones — later milestones (installation, commissioning) carry lower margins. Through-cycle OPM of 28-32% accounts for this; 35%+ does not.
+
+**The Jindal Steel order matters more than its size suggests.** ₹15.9 Cr is small versus the ₹3,000 Cr Kavach book — but it is the first proof point that Kernex's "Torpedo & Loco Tracking" technology, an outgrowth of Kavach core, is saleable to non-railway industrial customers. Steel plants, mining facilities, ports — these all have internal locomotives that could benefit from collision avoidance. If this becomes a category (₹100 Cr+ p.a. over 2-3 years), it materially de-risks the "90% Indian Railways" framing and changes the multiple Kernex deserves.
+
+---
 
 ### Customers
 
@@ -577,6 +680,34 @@ Kernex is one of three RDSO-approved Kavach v4.0 OEMs, alongside HBL Engineering
 | RDSO (certification body) | Regulatory approval | Low — already v4.0 approved |
 
 **Supplier risk is low.** No named supplier concentration disclosed. Primary risk is imported semiconductor components — global chip shortages could delay production. But Kernex's value-add is IP/integration, not hardware manufacturing.
+
+---
+
+## 7a. Optionality — defence, JV, exports, governance (added 2026-06-02)
+
+### Defence optionality — empirically zero today
+
+Multiple searches across DRDO, BEL, MoD press releases, and Kernex BSE filings through May 2026 turn up no defence order awarded to Kernex. The "smart munitions, electronic fuzes" framing on the company's website and the original thesis was forward-looking product capability, not booked revenue. As of 2026-06-02 the honest verdict: zero defence revenue, zero confirmed defence pipeline, no DRDO/BEL/DPSU LOI disclosed. The product expansion (NMS, Pulse Generators, Radio Modems, Drones) is real engineering work — these were given specific milestone dates in the March 2025 investor presentation — but none has translated into a customer order yet. Treat defence as vapour optionality for valuation purposes; do not assign FY28 PAT contribution to it. Data Gap #4 should be re-labelled from "pipeline details" to "no defence order yet — verify quarterly."
+
+### Moving Block System JV with Bharat Heavy Engineering — formal date confirmed
+
+The JV was formally signed on **March 7, 2026**. Structure: 51% Kernex / 49% Bharat Heavy Engineering Private Limited. Scope: develop a Moving Block System integrated with Automatic Train Supervision (ATS), Automatic Train Operation (ATO), and Centralised Traffic Control (CTC) — on top of the Kavach platform. Note: Bharat Heavy Engineering Private Limited is a different entity from BHEL (Bharat Heavy Electricals); this is a private engineering firm with manufacturing depth in railway signalling. A second related JV — "Kernex VRRC JV" — was disclosed via BSE in February 2026 (separate filing). No revenue yet, no incorporation status publicly confirmed beyond the signing.
+
+The strategic logic: Kavach v4.0 is fixed-block signalling (trains operate within defined block sections). Moving Block tracks each train continuously via GPS/radio — it is what European ETCS Level 3 attempts. Capacity uplift on existing track: 30-40%. The Indian Railways modernisation runway extends beyond Kavach v4.0 to Moving Block in the 2030-2035 horizon. If Kernex captures the platform via this JV, it locks in the next decade after Kavach deployment matures. But this is 5-7 year optionality, not 2-3 year — should be ignored for FY28 base case modelling.
+
+### Geographic / metro / export optionality
+
+- **Metro rail integration:** No active Bangalore/Delhi/Chennai metro deployment of Kavach. Most metros use Communications-Based Train Control (CBTC, typically supplied by Siemens/Alstom/Hitachi). Kernex has no announced metro programme. Practical reality: metro retrofitting is technically feasible but requires Kavach to be made CBTC-compatible — that work has not been disclosed.
+- **Export potential:** Railway Minister Vaishnaw publicly stated (per India Shipping News, 2026) that India can export Kavach in a 5-year horizon, positioning it as a better alternative to European ETCS for emerging markets. Research underway to make Kavach 4G-LTE compatible (existing Kavach uses 2.4 GHz radio band per ITU). Practical impact for Kernex: zero in next 3 years; possible 5-7 year optionality if Africa / Southeast Asia adopts the standard.
+- **Industrial diversification:** Jindal Steel ₹15.9 Cr LOI (May 28, 2026) is the first non-railway, non-government order. Yard automation + Torpedo & Loco Tracking. If this becomes a category — captive industrial locomotives at steel plants, mines, ports — it could be ₹100-200 Cr p.a. by FY29. Steel sector alone has ~500 captive locos that could benefit. Watch for second/third such order in next 2 quarters as the demand-validation signal.
+
+### Promoter, family and governance — the 28.8% holding explained
+
+Multi-family fragmented promoter structure, not a low-conviction single promoter. The top individual holding is **Dr. Anji Raju Manthena (14.84%)** — a US-based anaesthesiologist with 25+ years at Anesthesia Associates, Inc., serving as Non-Executive Non-Independent Director since 2005. The operating role is held by **Sitarama Raju Manthena** (Whole-Time Director) with two decades of experience in international business development and operations. Multiple Manthena family members appear in the promoter group (Sree Lakshmi Manthena, etc.), with the residual spread across promoter relatives — explaining why no single name dominates and why the aggregate looks "low for an Indian small-cap promoter."
+
+Read this as governance colour, not new risk. The dilution from 34.52% (Mar 2022) to 28.85% (Mar 2026) was largely through preferential issues and rights as the company raised capital to scale through the loss-making years FY22-FY24. There is no pledged stake disclosed. No insider sells flagged in 2026 calendar year. The risk that remains: at 28.85%, the family group cannot block a special resolution alone (needs 75% against) and lacks the skin-in-the-game alignment that 50%+ founders provide. If working capital strain forces another QIP in FY27, holding could touch 25% — at which point governance risk becomes binding.
+
+Importantly, the operating depth is not founder-replaceable in the usual sense — Kernex's IP advantage rests on a 30-year accumulated relationship with RDSO and the zonal railways, not on a single founder's vision. Founder loss would be painful but not existential the way it might be at, say, a brand-led consumer business.
 
 ---
 
@@ -626,6 +757,44 @@ Kernex is one of three RDSO-approved Kavach v4.0 OEMs, alongside HBL Engineering
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/KERNEX.md`*
+
+### 2026-06-02 — Deep-research pass: 10 gap-fills + WC narrative correction
+
+**Trigger:** Same-day depth pass after the TRIM decision was made. The TRIM logic referenced earlier in this log entry remains correct; this work fills gaps the file had where research had been thin or stale.
+
+**Gaps closed and key findings:**
+
+**1. Working capital — the headline correction.** The single biggest data discovery: FY26 debtor days expanded from 45 (FY25) to **268** (Mar 2026). The earlier framing of "WC efficiency improved dramatically" was a snapshot of one transitional quarter, not a structural improvement. With inventory days at 787 and payables at 938, the company is effectively financing its receivables by stretching vendors 2.5+ years. The headline WC days (150) looks acceptable only because of this payables stretching; underlying customer-to-cash is severely strained. OCF/PAT collapsed from 0.30x to 0.17x. Section 4 Key Ratios table updated with FY26 column. *Source: Screener.in consolidated ratios.*
+
+**2. Competitive moat is actually wider, not narrower.** HBL Engineering publicly disclosed it lost the CLW 6,300-unit loco Kavach tender to Kernex on pricing. Kernex won three major Chittaranjan contracts (₹2,465 Cr + ₹2,041 Cr + ₹475 Cr) plus Banaras Loco Works (₹411 Cr). HBL pivoted to focus on Patiala, ICF, and station/wayside Kavach. The market has effectively split into zonal specialisation: Kernex anchors CLW/BLW, HBL anchors ICF/PLW + station. Medha is unlisted and not aggressively bidding loco-onboard. *Source: HBL Engineering disclosures, BSE filings.*
+
+**3. Quadrant Future Tek RDSO approval — still pending.** CARE Ratings' Q4 FY26 IPO fund-utilisation monitoring report flagged "pending KAVACH approval" as a major procedural observation. Field trials in final stage on dedicated track. Realistic timeline: H2 FY27 for RDSO certification, FY28 for first revenue. The 4th-OEM threat is real but moves slower than the file previously implied. *Source: NSE archives, March 2026 disclosures.*
+
+**4. National Kavach rollout — real numbers as of Feb 2026.** 1,452 route km commissioned + 6,776 route km trackside deployed (not yet commissioned) + 24,427 route km work in progress = ~33,000 km in the execution funnel. 4,154 locos equipped against revised target of 12,129. Cumulative spend to Feb 2026: ₹2,763.9 Cr. FY26 allocation: ₹1,673 Cr. Budget 2026-27 safety allocation: ₹1.20 lakh Cr (corrected from ₹1.3 lakh Cr previously cited). 20,000-locomotive new tender to be issued FY27. *Source: PIB, DD News, Indian Infrastructure, Budget 2026-27 speech.*
+
+**5. Order book composition — execution map laid out.** Built explicit table breaking ₹2,704 Cr book by counterparty + execution timeline. Eastern India concentration confirmed: Chittaranjan (West Bengal, 8 of 17 SER sheds) + Banaras (UP) + Eastern DFC. ~50% execution exposure to South Eastern Railway. Contracts are fixed-price, fixed-scope with milestone payments — no input cost indexation clause means semiconductor/copper inflation hits margin directly. *Source: Reconstructed from BSE filings + investor presentation.*
+
+**6. Defence optionality = vapour.** No defence order found in any search (DRDO, BEL, MoD). The "smart munitions, electronic fuzes" framing is product capability with zero booked revenue or disclosed pipeline. Data Gap #4 re-labelled to "no defence order yet." Assign zero defence contribution to FY28 base case until first LOI lands. *Source: Multiple targeted searches; absence of evidence.*
+
+**7. BHEL JV — formal date confirmed.** Signed March 7, 2026. 51:49 split. Counterparty is Bharat Heavy Engineering Private Limited (NOT BHEL — Bharat Heavy Electricals). Scope: Moving Block System + ATS + ATO + CTC on Kavach platform. Separate "Kernex VRRC JV" disclosed February 2026. No revenue yet; no incorporation status confirmed. 5-7 year optionality, not 2-3 year. *Source: Business Standard, March 9, 2026.*
+
+**8. Promoter governance — fragmented multi-family explained.** Aggregate 28.85% is split across multiple Manthena family members. Top individual holder: Dr. Anji Raju Manthena (14.84%), US-based anaesthesiologist, Non-Executive Director since 2005. Operating role: Sitarama Raju Manthena, Whole-Time Director. Dilution from 34.52% (Mar 2022) to 28.85% (Mar 2026) came through preferential issues raising capital during FY22-FY24 loss years. No pledge. No 2026 insider sells. Read as governance colour, not new risk — but if FY27 forces another QIP, holding could touch 25% which would become binding. *Source: Bloomberg, MarketScreener, Kernex.in.*
+
+**9. Peer comparison expanded with FY26 actuals.** Added Bharat Electronics as defence comp; updated HBL with FY26 ₹3,000 Cr guidance + ₹1,900 Cr Kavach FY27 outlook. Important observation: HBL trades at P/E ~28x vs Kernex 36x despite being 7x larger with 59% promoter holding. The premium is for Kavach pure-play. This means industrial/defence diversification (Jindal Steel-type) would dilute the multiple, not enhance it. Pure-play premium cuts both ways.
+
+**10. Export / metro / industrial — quantified.** No metro deployment of Kavach anywhere (metros use CBTC). Export is a 5-year horizon per Vaishnaw; Kavach being made 4G-LTE compatible. Jindal Steel ₹15.9 Cr (May 28, 2026) is the first non-railway, non-government order — potentially seeds a ₹100-200 Cr p.a. industrial yard automation category by FY29 if a second/third order follows. *Source: India Shipping News; SteelOrbis.*
+
+**Thesis-changing findings:** None individually. The WC deterioration sharpens the bear case but doesn't invalidate the TRIM-50% decision made earlier in the same session — that decision was already based on OCF/PAT 0.17x and ₹162 Cr borrowings. The competitive moat being wider than expected (Kernex out-pricing HBL on Chittaranjan) is a positive surprise that supports the HOLD-half logic, but is not enough to flip back to BUY at CMP ₹1,895. Quality score holds at 18 (Grade B); no upgrade triggered.
+
+**What this round confirms:** The current TRIM 50% / HOLD 50% recommendation is well-anchored on both sides. Bull thesis (operating leverage on contracted backlog, competitive moat empirically widening) and bear thesis (WC strain materialising on the balance sheet) are both real and running in parallel. The asymmetry math at CMP ₹1,895 stays in the 1.0-1.6x band — keep half, don't add, re-add below ₹1,200 only with confirming signals.
+
+**Open data gaps remaining:**
+- HBL/Medha exact monthly Kavach production capacity (Kernex's 450/month known; peers undisclosed)
+- Exact zonal revenue split (still inferred from sheds, not disclosed in segments)
+- FY26 full annual report (expected Aug 2026) — for confirmed receivables ageing detail
+- Quadrant Future Tek RDSO approval date — primary catalyst to watch for competitive intensity
+
+---
 
 ### 2026-06-02 — Q4 FY26 RESULTS + CLW ₹475 Cr + Jindal Steel; TRIM 50% decision
 

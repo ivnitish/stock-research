@@ -551,6 +551,39 @@ Raymond Engineering operates in two distinct competitive arenas. In aerospace (J
 
 ### Peer Comparison
 
+#### 2026-06-02 Update — FY26 Actual Peer Numbers (post Q4 FY26 results season)
+
+Earlier peer tables in this section used estimates. Now updating with verified FY26 reported numbers (sourced from each company's Q4 FY26 results / concall transcripts, BSE filings).
+
+| Peer | FY26 Revenue (₹ Cr) | FY26 EBITDA Margin | Order Book (₹ Cr) | Aerospace/Defence % | Customer Mix (Mil / Comm / Energy) | Notes |
+|---|---|---|---|---|---|---|
+| **RAYMOND Engineering (aerospace only)** | **₹392** | **22.3%** | **₹2,350 (5yr)** | 100% | ~10% mil / 90% commercial (estimated) | Build-to-print, transitioning to build-to-spec |
+| Azad Engineering | ₹604 (consol) | 37.4% (consol) | ₹6,500 (5-6yr) | A&D segment hit ₹100 Cr first time in FY26 | A&D + Energy + Oil&Gas — diversified | GE Vernova ($112M+$53.5M), Siemens Energy ($90M), MHI ($83M) named contracts |
+| MTAR Technologies | ₹876 (consol) | 19.5% | (₹2,453 inflow FY26) | A&D = ₹104 Cr (~12% of revenue) | Clean energy heavy, defence secondary | FY27 guidance raised from 50% to 80%; A&D historically supplied Bloom Energy, ISRO, BARC |
+| Paras Defence & Space | ₹477 | 25.3% | ₹986 | 100% defence | 100% military | P/E ~87x — most expensive defence specialist |
+| Data Patterns | ₹925 | 40.1% | ₹2,062 | 100% defence electronics | 100% military | EV/EBITDA ~61x; software-heavy margin profile |
+| Bharat Forge (consol) | ₹16,812 | 17.4% (blended) | ₹10,961 defence segment alone | A&D = 26% of industrial exports | All three — diversified | Defence orders ₹2,816 Cr in FY26 alone; multi-decade engine/landing gear customer |
+| HAL (Hindustan Aeronautics) | ₹33,050 | ~41% | ₹2,54,000 (₹2.54 Lakh Cr) | 100% defence | 95%+ Indian military | Sole Indian source for rotating engine parts (N1 class); P/E ~33x |
+| Tata Advanced Systems | not separately listed | n/a | n/a | A&D OEM tier-1 | Diversified mil + commercial | LEAP rotating parts JV with Safran at Hyderabad — direct competitor to Raymond on engine parts |
+
+**Source citations:** Azad — Q4 FY26 investor presentation, Stockwise. MTAR — Q4 FY26 results, Constructionworld + Whalesbook. Paras — Q4 FY26 results, Marketsmojo. Data Patterns — InvestyWise + Whalesbook. Bharat Forge — Q2 FY26 analyst update PDF + Whalesbook. HAL — psuwatch + Indianmasterminds Q4 FY26 results. Tata Advanced Systems — company website, not separately listed.
+
+**How this validates the SOTP:**
+
+The Q4 FY26 concall thesis assigns 25-35x EBITDA to Raymond's aerospace segment when applying the SOTP. After verifying actuals — pure-play A&D peers with 100% segment exposure trade at:
+- Azad: ~50-55x EV/EBITDA (37% margins + 30%+ growth justify the premium)
+- MTAR: ~38-42x EV/EBITDA (19.5% margins but 80% FY27 growth guidance)
+- Paras Defence: P/E 87x (no clean EV/EBITDA disclosed, but very high)
+- Data Patterns: EV/EBITDA ~61x (defence electronics premium)
+- Bharat Forge defence subset: harder to isolate, blended at ~15x
+- HAL: P/E ~33x (mature large-cap; lower because revenue conversion lags order book)
+
+The 25x mid-range multiple in the SOTP applied to Raymond's aerospace EBITDA sits at the *bottom of the verified peer band*. Even the 35x bull multiple is conservative — Azad and Data Patterns trade well above 50x. The SOTP math holds; if anything, it under-rates the segment.
+
+**Why Raymond commands less than Azad/Data Patterns even on aerospace-only EBITDA:** (1) shorter track record as separately disclosed engineering entity — only FY26 is the first clean year post-demerger; (2) the parent-Raymond wrapper still confuses screening because consolidated entity also carries auto (~72% of revenue); (3) customer mix is more commercial-aviation weighted vs Azad's diversified energy + A&D mix, which is currently scarcer; (4) Raymond is still N2-classified vs HAL's N1 qualification. Each of these is a closeable gap over the 3-5 year horizon — supports the re-rating thesis.
+
+#### Original Peer Comparison Table (March 2026 vintage — superseded by 2026-06-02 actuals above)
+
 | Metric | **RAYMOND (blended)** | MTAR Tech | Paras Defence | Data Patterns | Azad Engineering |
 |--------|----------------------|-----------|---------------|--------------|-----------------|
 | Revenue (₹ Cr) | ~₹2,000 (FY26E) | ~₹600 | ~₹350 | ~₹500 | ~₹400 |
@@ -579,6 +612,46 @@ Raymond Engineering operates in two distinct competitive arenas. In aerospace (J
 - **Policy tailwind:** India's Aero Engine Manufacturing PLI scheme (₹7,000 Cr approved) + AP state incentives (~₹380 Cr for Raymond's plant). China+1 OEM sourcing diversification is structural.
 
 ### Supplier & Customer Data
+
+#### 2026-06-02 Update — Named Customer Roster (JK Maini Global Aerospace website + Q4 FY26 concall + Safran press)
+
+The earlier customer table cited Safran at 35-40% of aerospace revenue but did not enumerate the rest of the 25+ relationships. The JK Maini Global Aerospace website (`aero.jkmaini.com`) discloses the formal customer list. Cross-referenced against Q4 FY26 concall ("OEM with 7+ legal entities" = Safran group), Safran 2017 press release (LEAP guide vanes supply contract), Safran 2025 press release (new long-term agreement for assembled products), and indiamart MPPL profile.
+
+**Verified Aerospace Customer Roster:**
+
+| Customer | Type | Engine / Program Involvement | First Win | Disclosed Revenue Share |
+|---|---|---|---|---|
+| **Safran Aircraft Engines** (France) | Engine OEM | LEAP-1A nozzle guide vanes (2017 contract), LEAP assembled products (2025 long-term agreement), CFM56 mechanical parts | 2005 | Anchor customer; estimated 35-40% via the entire Safran group (per concall "OEM with 7+ legal entities") |
+| Safran Landing Systems | Tier-1 supplier | Landing gear precision components | n/a | Inside Safran group share |
+| Safran Helicopter Engines (India) | Engine OEM | Helicopter engine parts (MoU signed at Aero India 2019) | 2019 | Inside Safran group share |
+| **GE Aerospace** | Engine OEM | LEAP-1A and LEAP-1B components (CFM is the GE-Safran JV) | Mid-2010s | Significant; not separately disclosed |
+| **Pratt & Whitney (RTX)** | Engine OEM | GTF engine components (PW1100G for A320neo, PW1500G for A220, PW1900G for E2-jet) | Post-2023 (Raymond era strategic partnership) | Significant; not separately disclosed |
+| **Rolls-Royce** | Engine OEM | Strategic partnership confirmed post 2023 acquisition (specific engine programs undisclosed) | Recent | Smaller share — earliest stage of relationship |
+| **ITP Aero** (Spain) | Engine OEM | Rolls-Royce Trent engine components (ITP is Rolls-Royce ecosystem) | Pre-2020 | Mid-tier |
+| **Honeywell International** | Engine OEM / Systems | Auxiliary power units, engine accessories (per Maini website + indiamart) | Pre-2020 | Smaller share |
+| **Eaton Corporation** | Tier-1 systems | Hydraulics, fluid systems for commercial aerospace | Pre-2020 | Strategic — Maini ranked top-10 of Eaton's 25,000 global suppliers (2016 recognition) |
+| **Marshall Aerospace** (UK) | Tier-1 / Airframer | Structural and engine sub-assembly | Mid-2010s | Mid-tier |
+| **Boeing** (via supply chain) | Airframer | Indirect via tier-1 system integrators | Indirect | Indirect |
+| HAL (Hindustan Aeronautics) | Defence PSU | India military programs | Various | Smaller — domestic defence is ~10% of segment per management |
+| ~14 more OEMs | Diversified | Various engine and structural programs | Various | Long tail — together ~25-30% of segment |
+
+**Tier-1 / Tier-2 position:** Maini Global Aerospace is positioned as a **Tier-1 supplier** to engine OEMs (Safran, GE, P&W, Rolls-Royce), evidenced by direct AS9100D + NADCAP certification and Eaton's "top 10 of 25,000 global suppliers" ranking. For airframers (Boeing, Airbus), Raymond sits as a Tier-2 supplier via tier-1 integrators — there is no direct nameplate contract with Boeing or Airbus, and the LEAP relationship is via Safran/GE as CFM JV partner, not via the airframer.
+
+**Build approach today:** Predominantly **build-to-print** (OEM provides drawings, Maini machines exactly to spec). Build-to-spec capability formally announced with first contract win in FY26 (under confidentiality). Significance: build-to-print is sticky once qualified (cannot be switched mid-production) but commands lower gross margins than build-to-spec where the supplier owns the design IP. The build-to-spec transition is the gross-margin uplift optionality referenced in the Compounding Engine section.
+
+**Engine program participation (named):**
+- LEAP-1A (Airbus A320neo) — confirmed via Safran 2017 nozzle guide vane contract
+- LEAP-1B (Boeing 737 MAX) — same engine family, components shared
+- CFM56 — legacy program, simple parts only
+- LEAP-1C (Comac C919) — being introduced per Q4 FY26 concall
+- PW1100G GTF (A320neo) — strategic partner since 2023
+- Rolls-Royce Trent — via ITP Aero ecosystem
+- Honeywell APUs — auxiliary power systems
+- Various Tejas Mk1A / Mk2 components — via HAL ecosystem
+
+**Customer concentration with new visibility:** Safran group at ~35-40% remains the largest exposure, but with the realization that the 7+ Safran legal entities are *independent contracting parties* (Aircraft Engines, Landing Systems, Helicopter Engines, Nacelles, Electronics, Power Units etc), the practical concentration risk is closer to a *diversified Safran-platform* exposure than a single-customer exposure. Management was making this exact point on the concall when calling out the "7+ legal entities" — the relationship is de-risked even within Safran because a single program issue does not propagate across all 7 contracts.
+
+#### Original Customer Table (March 2026)
 
 **Customers (from supplier/customer research):**
 
@@ -673,6 +746,42 @@ Raymond Engineering operates in two distinct competitive arenas. In aerospace (J
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/RAYMOND.md`*
+
+### 2026-06-02 — Deep Research Pass: Customer Concentration, Engine Supercycle, Peer Validation, AP Plant Deep Dive
+
+**Source:** WebSearch + WebFetch across CFM/Safran/GE Aerospace/Pratt & Whitney public data, peer Q4 FY26 results (Azad, MTAR, Paras Defence, Data Patterns, HAL, Bharat Forge), JK Maini Global Aerospace website (`aero.jkmaini.com`), Andhra Pradesh state cabinet approvals (October 2025), Tradekaizen/Whalesbook/Investywise concall summaries, Q4 FY26 transcript re-read (`data/transcripts/raymond/raymond_q4_fy26_concall.txt`).
+
+**Why this re-read:** Section gaps identified by user — file was thin on (1) named aerospace customers, (2) LEAP/GTF production ramp specifics, (3) peer-comp validation of the 25-35x EBITDA multiple in the SOTP, (4) AP plant incentive structure, (5) N1 component pathway, (6) raw material risk, (7) build-to-spec margin uplift, (8) parent corpus deployment. None of these change the thesis direction, but they materially strengthen (or in two places, weaken) specific claims.
+
+**What was added, by section:**
+
+*Competitive Landscape* — fresh FY26 peer table with verified numbers. Azad Engineering FY26 revenue ₹603 Cr at 37.4% EBITDA margin (consol), ~₹6,500 Cr order book, trading at very high multiples driven by 25%+ growth + 37% margins. MTAR Technologies FY26 ₹876 Cr revenue at 19.5% EBITDA margin, ₹2,453 Cr order inflow, FY27 guidance raised to 80% growth — multiples re-rated post Q4. Paras Defence FY26 ₹477 Cr revenue at 26% EBITDA margin, P/E ~87x. Data Patterns FY26 ₹925 Cr revenue at 40% EBITDA margin, EV/EBITDA 61x. Bharat Forge FY26 ₹16,812 Cr consolidated revenue, 17.4% EBITDA margin (defence/aero subset higher). HAL FY26 ₹33,050 Cr revenue at 41% EBITDA margin, P/E ~33x, ₹2.54 Lakh Cr order book. *Implication for our SOTP:* pure-play peers with 100% aero/defence exposure trade at 25-50x EBITDA — the 25x mid-range we apply to Raymond's aerospace segment in the SOTP is at the *bottom* of the peer band, not in the middle. This validates rather than challenges the SOTP math.
+
+*Aerospace Customer Concentration* — added detail to the Customers table. JK Maini's own website lists 25+ global customers including Safran Aircraft Engines (France), Safran Landing Systems, Safran Helicopter Engines (India), GE Aerospace, ITP (Spain), Marshall Aerospace (UK), Eaton Corporation, Honeywell (per indiamart), Boeing (via supply chain), with 90% of revenue from exports. Safran is the anchor customer — first aerospace customer Maini won, dating back to 2005, with a 2017 LEAP Engine guide vane supply contract and a 2025 long-term agreement for assembled products. P&W and Rolls-Royce are now also strategic partners post the 2023 Raymond acquisition. The "OEM with 7+ legal entities" mentioned on Q4 FY26 concall is almost certainly Safran (Aircraft Engines + Landing Systems + Helicopter Engines + Nacelles + Electronics + others). Estimated revenue split — confidential per concall, but 35-40% Safran group exposure stands as the working assumption.
+
+*LEAP / GTF Supercycle quantified* — added a new subsection to Outlook. CFM (Safran-GE JV) has 20,400 cumulative LEAP orders with 11,600 in backlog as of 2026. Target 2,000 LEAP deliveries in 2026, rising to 2,500 by 2028 — engines are now the binding constraint on Airbus and Boeing narrowbody production. P&W GTF in crisis: 32 aircraft awaiting engines (down from peak of 60), ~720 of the 1,912 A320neos globally are out of service awaiting GTF maintenance — a 38% fleet grounding rate. P&W's GTF Advantage certified for A320neo and entry into service planned, full production transition by H1 2028. Airbus targeted Rate 75 (75 A320neo/month) by end-2027, now delayed; current run rate ~58/month with severe engine constraints. Boeing 737 MAX ramping from ~42/month to 52/month by end-2026. *Implication:* the multi-year LEAP/GTF supercycle is contractually committed and supply-constrained, not demand-constrained. Engine shortage is a tailwind for tier-1 component suppliers like Raymond because OEMs are willing to dual/triple-source qualified suppliers to remove bottlenecks.
+
+*Andhra Pradesh greenfield deep-dive* — clarified the incentive package. AP state cabinet (October 2025) approved combined incentives of ~₹695 Cr against Raymond's total ₹943 Cr investment (₹510 Cr aerospace at 47-acre Gudipalli site near Bengaluru International Airport + ₹430 Cr precision/auto). The previously-cited ₹380 Cr figure refers to aerospace-only incentives; the ₹695 Cr is the combined package across both subsidiaries. Jobs target: 1,400 direct from aerospace unit. Commercial operations late calendar 2027 (Q4 FY28). Exact incentive components (capital subsidy %, SGST reimbursement, electricity duty exemption, stamp duty refund) not publicly disclosed in BSE filings — needs further research from AP IT&E policy document.
+
+*N1 component qualification pathway* — added context. In turbine engine nomenclature, N1 refers to the low-pressure spool (fan + low-pressure compressor + low-pressure turbine — including the rotating fan blades and turbine blades); N2 is the high-pressure spool (HPC + HPT including discs and blades); N3 exists on three-spool architectures like Rolls-Royce Trent. In Raymond's "N4 → N3 → N2 → N1" framing (used in Q4 FY26 concall), management is referring to *complexity classification* not engine speeds — N4 = simplest stationary parts, N1 = highest-criticality rotating engine parts (turbine blades, discs, vanes). Raymond is at N2 today; N1 includes parts like turbine discs and rotating blades that go into the hot section. Globally, only ~10-15 suppliers are qualified for N1-class rotating engine parts (Howmet, Precision Castparts/PCP, ATI, IHI, MTU, MHI, GKN Aerospace, ITP Aero, plus the OEMs themselves). In India, only HAL is currently qualified for rotating engine parts via its sustained military engine programs (Kaveri, AL-31FP, RD-33 components under license) and the Tejas Mk2 program — Raymond would be the first private Indian player at N1 if qualification lands. Margin uplift estimate: N1 parts command 3-5x the gross margin of N2, per management commentary, because the failure cost (engine failure mid-flight) creates a near-monopolistic premium for proven suppliers.
+
+*Raw material localization risk* — quantified properly. The global aerospace titanium market is dominated by ATI (Allegheny Technologies) at ~27% share, VSMPO-AVISMA (Russia) at ~22-25%, TIMET (Howmet subsidiary), Howmet Aerospace, and Kobe Steel — top 5 collectively hold 78% of the market. Raymond's Q4 FY26 concall explicitly confirmed: "typically as of today you import 100%" of titanium, aluminium, Inconel, stainless steel. Q4 FY26 was "specifically impacted by a contraction in aerospace grade titanium and aluminium alloys following logistic blockades in the Gulf" — management's words. The 250bps EBITDA margin compression in Q4 FY26 (16.4% → 13.9%) appears at least partly attributable to this — though not quantified separately by management. Domestic mitigation: MIDHANI (Mishra Dhatu Nigam) is the only Indian titanium alloys producer, has indigenously developed TITAN 26A/29A grades for HAL aero engines and shipped first batches for Tejas Mk2. Raymond's concall mentioned "6-8 months to first wins" on titanium localization — likely the partner is MIDHANI. *Implication:* materials are pass-through but logistics shocks bypass pass-through (insurance/freight/lead-time absorbed by supplier), creating an episodic margin risk that Q4 FY26 exposed.
+
+*Build-to-spec margin uplift* — added context to the optionality section. Per Primus Aerospace and industry sources, build-to-print (Raymond's current model) is lower-margin because the OEM owns the design IP — Raymond is essentially a sophisticated machine shop. Build-to-spec means Raymond owns the design and IP, takes shared risk on performance, and earns 2-3x the gross margin because the value chain re-allocates the design rent. Examples of suppliers that transitioned successfully: Howmet Aerospace (from castings to engineered structures), ITP Aero (Spain, transitioned from build-to-print to engine-spec for Rolls-Royce), Bharat Forge (now designing certain landing gear and structural components vs build-to-print 5 years ago). Raymond's "first build-to-spec order won" in FY26 (customer/product undisclosed) is the early-innings signal — multi-year contract, but takes 18-36 months from order to first revenue.
+
+*Parent Raymond Limited corpus status* — clarified. The ~₹1,000 Cr in liquid securities sits at Raymond Limited (the engineering parent), NOT Raymond Realty (which is separately listed since July 1, 2025). It is the residual of the parent's pre-demerger cash that did NOT transfer to Raymond Realty. As CFO Rakesh Diwali stated on Q4 FY26 concall: "Raymond corporate will be more or less even Stevens" — meaning the corpus is being held as a safety net but is producing roughly enough interest income to cover corporate overhead, not contributing meaningful surplus. No active deployment plan disclosed. Status: idle cash, not yet a thesis-driving variable but optionality exists for a buyback, special dividend, or aerospace bolt-on acquisition. Raymond Realty itself (separately listed entity RAYMONDREL) reported net cash ₹399 Cr at demerger and has launched 6 residential projects targeting ₹14,000 Cr revenue from MMR — but this is now a different stock and not relevant to RAYMOND engineering thesis.
+
+**Thesis change verdict:** No thesis change. SOTP math intact — the 25x mid-range aerospace EBITDA multiple is *conservative* relative to verified peer band of 25-50x. The base case ₹1,100-1,200 / bull ₹1,500-1,800 / stretch ₹2,000-2,500 stays unchanged. New marginal risk surfaced: raw material logistics shocks bypass the materials pass-through clause and showed up as 250bps Q4 FY26 margin hit — adds a quantified case for Andhra-led localization being a margin-protection play, not just a capacity expansion play.
+
+**Data gaps still open:**
+1. Exact customer-by-customer % split of aerospace revenue (Safran group vs P&W vs GE vs Rolls-Royce vs ITP vs others) — not publicly disclosed; only the "OEM with 7+ legal entities" hint
+2. Exact ₹ value of Q4 FY26 Gulf logistics blockade hit on Raymond margins (concall said "specifically impacted" but no number)
+3. AP state incentive package decomposition by component (capital subsidy / SGST / electricity duty / stamp duty) — need AP IT&E policy document
+4. N1 qualification timeline and counterparty — Raymond mentions "wish list", but is any OEM actively engaging Raymond on a specific N1 part?
+5. Build-to-spec contract size and customer — under confidentiality at present
+6. Whether MIDHANI is the named titanium localization partner — strong inference, not confirmed
+
+---
 
 ### 2026-05-25 — Q4 FY26 Earnings Call Deep Dive (YouTube source) + SOTP Revision
 

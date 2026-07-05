@@ -240,6 +240,21 @@ GRSE's ROIC is driven by two structural mechanisms: (1) cost-plus contracts prov
 | Working Capital Days | ~-500 | -546 | -276 | -169 | ~-150 |
 | Shipbuilding Revenue % | ~89% | ~89% | ~89% | ~89% | ~89% |
 
+**Order Book — Q4 FY26 close (31 Mar 2026, per Q4 FY26 concall):**
+
+Order book has compressed further to **₹15,324 Cr** — below ₹20,000 Cr for the first time in 5 years. Against FY26 revenue of ₹7,002 Cr, **book/revenue is now 2.19x** — well below the 4-5x historical range and below the file's own Key Monitorable #2 threshold of 3x. Management framed this as evidence of faster execution rather than demand weakness — supported by 8 vessel deliveries in FY26 including a triple-delivery day on 20-Mar-2026 (P-17A frigate + Survey Vessel Large + ASW SWC). NGC signing is no longer "upside optionality"; it is now load-bearing for the visibility thesis. If NGC slips past Q2 FY27, the book mechanically drops further as deliveries continue to outpace new awards (per 2026-06-02 deep-research log).
+
+**Vessel-class breakdown (deliveries through FY26 + remaining):**
+
+| Programme | Total ships | Delivered through FY26 | Status of remaining |
+|-----------|------------|------------------------|---------------------|
+| P-17A Nilgiri-class frigates | 3 (GRSE share) | 2 (INS Himgiri commissioned; 2nd delivered) | 3rd in advanced stages of delivery FY27 |
+| Survey Vessel Large (SVL) | 4 | 4 (including Sanshodhak final delivery FY26) | Complete |
+| ASW SWC (Arnala-class) | 8 (GRSE total) | 4 (INS Arnala, Androth, Anjadip commissioned + 1 more delivered) | 4 remaining FY27-FY28; last launched July 2025 |
+| Next-Gen OPV (NGOPV) | 4 | 0 (Sanghmitra launched FY26; 4th keel laid Apr 2025) | Deliveries FY27-FY28 |
+
+*Source: Indian Defence Research Wing, GRSE press releases, FY26 annual review aggregator notes.*
+
 **Order Book Breakdown (31 Dec 2025, ₹18,482 Cr — per Q3 FY26 earnings call, 12 Feb 2026):**
 
 | Segment | Value (Cr) | % |
@@ -249,7 +264,7 @@ GRSE's ROIC is driven by two structural mechanisms: (1) cost-plus contracts prov
 | Export (Bangladesh dredger, German MPVs) | 1,481 | 8% |
 | Other (DEP, naval guns, ship repair, bridges) | ~1,828 | 10% |
 
-*Order book declined from ₹22,000-25,000 Cr due to strong execution drawdown, not demand weakness. NGC contract (~₹33,000 Cr) expected to lift FY26-end book to ~₹50,000 Cr. Negative working capital = customer advances exceed receivables + inventory net of payables, a structural advantage.*
+*Order book declined from ₹22,000-25,000 Cr due to strong execution drawdown, not demand weakness. NGC contract (~₹25,000 Cr for 5 of 8 ships at L1 status) expected to lift FY26-end book to ~₹40,000 Cr (revised from earlier ₹50,000 Cr estimate after 8-ship split). Negative working capital = customer advances exceed receivables + inventory net of payables, a structural advantage.*
 
 ### CAGRs
 
@@ -262,6 +277,7 @@ GRSE's ROIC is driven by two structural mechanisms: (1) cost-plus contracts prov
 
 | Quarter | Revenue (Cr) | OPM % | Net Profit (Cr) | Key comment |
 |---------|-------------|-------|----------------|-------------|
+| Q4 FY26 (Mar 2026) | 2,119 | 16.8% | 303 | +29% YoY rev / +24% YoY PAT / +331 bps OPM YoY; absorbed ₹52 Cr revenue + ₹46 Cr cost true-up from P-17A/ASWSWC/NGOPV completion (per Antique 29-Apr-2026); triple-delivery day 20-Mar-2026 (P-17A frigate + SVL + ASW SWC) |
 | Q3 FY26 (Dec 2025) | 1,896 | 9% | 171 | +49% YoY; 9M FY26 ₹4,883 Cr nearly matching full FY25 ₹5,076 Cr (per Q3 earnings call) |
 | Q2 FY26 (Sep 2025) | 1,677 | 9% | 154 | 45% YoY growth; margin stable |
 | Q1 FY26 (Jun 2025) | 1,310 | 9% | 120 | 14% YoY; seasonal softness in Q1 typical |
@@ -299,20 +315,26 @@ GRSE's ROIC is driven by two structural mechanisms: (1) cost-plus contracts prov
 
 **Risk/reward:** Downside 43% / Upside 83% → Asymmetric upside — but only if export catalyst materialises; base case is priced in at CMP
 
-**Upcoming Pipeline (AON accorded, RFPs expected 12-18 months — per Q3 FY26 earnings call):**
+**NGC (Next-Gen Corvette) — June 2026 status, the binary catalyst.** Price negotiations completed (confirmed at Q4 FY26 concall, 12-May-2026). Pending Cabinet Committee on Security (CCS) clearance. Originally expected March 2026; now ~70 days late. Indian Defence News (12-May-2026): contract "set for signing this quarter" (Q1 FY27). The DAC approved the programme in June 2022. Structure: 8 corvettes total, **₹36,000 Cr programme size**. GRSE is L1 on 5 ships at ~₹25,000 Cr (revised down from the earlier ₹33,000 Cr headline once the split to 8 ships emerged); the other 3 ships go to L2 (likely MDL) at the same unit cost. **Revenue recognition only starts H2 FY28, scales FY29** — so the contract is order-book optics + multiple re-rating, not near-term earnings (per Indian Defence News, Whalesbook).
+
+**P-17B (Project 17 Bravo) — less binary than originally framed.** DAC approval July 2024. Programme size **₹70,000 Cr for 8 follow-on stealth frigates** (not 7 as originally noted). The split is **1:1 between MDL and GRSE — 4 ships each**. L1 wins ~₹40,000 Cr; L2 wins ~₹30,000 Cr at the same per-ship cost. **Even L2 status delivers ~₹30,000 Cr — a step-change order regardless of L1/L2 outcome.** RFP selection expected mid-2026. Comparison with P-17A: GRSE built 3 P-17A frigates (2 commissioned FY26, 3rd in advanced delivery); MDL built 4 P-17A frigates (all commissioned through FY24-26). Both yards are P-17A-experienced — GRSE is not the underdog (per Wikipedia Project 17B; Naval Technology; idrw.org).
+
+**Upcoming Pipeline (AON accorded, RFPs expected 12-18 months — per Q3 FY26 earnings call + Q4 FY26 update):**
 
 | Project | Est. Value (Cr) | GRSE Probability |
 |---------|----------------|-----------------|
-| P-17 Bravo (7 frigates) | ~70,000 | High — CMD's #1 KRA; design + OEM knowledge from P-17A |
+| NGC (5 of 8 corvettes, L1 status) | ~25,000 | Very High — L1 confirmed; pending CCS clearance only |
+| P-17 Bravo (8 frigates, 1:1 split with MDL) | 30,000-40,000 (L2/L1) | High — both outcomes deliver a step-change order |
 | LPD (Landing Platform Dock) | ~35,000 | Medium — MOU with HSL, needs design partner |
 | Mine Counter Measure Vessels (12 ships) | ~32,000 | Medium — competitive bid |
 | Non-defence (PSVs, MR tankers, VLGCs) | ~1,00,000+ | Low (15% win rate) |
 
-**Capacity Expansion Roadmap (per Q3 FY26 earnings call):**
-- Platform capacity: 24 → 28 (current) → 32 (end CY2026) → 35-36 (brownfield max)
-- Gujarat greenfield (Kandla + Bhavnagar): DPR stage, consultant engaged. Target: 12 large vessels (300m class) in 3-5 years
+**Capacity Expansion Roadmap (per Q3 FY26 earnings call + Q4 FY26 update):**
+- Platform capacity: 24 → 28 (current) → 32 (end CY2026) → 35-36 (brownfield max at Kolkata Hooghly site)
+- **Kandla (Gujarat) greenfield — JV with DPA being finalised (per India Seatrade News, May 2026):** ₹4,500 Cr capex, 120 acres reclaimed waterfront land between cargo and oil jetties in Kandla creek, VLCC-compliant dry dock (300m+ class — single largest cost component), initial capacity ~3 large vessels/year (or 2 VLCCs, or 6 Handymax equivalents). Once operational, becomes Gujarat's 11th shipyard taking state DWT capacity to ~5.4 lakh DWT. **This is the largest capacity step for GRSE in decades** — moves them into commercial large-vessel territory the Kolkata Hooghly draft cannot accommodate. JV structure / equity stake / GRSE capex contribution NOT yet disclosed (data gap).
 - PPP model: 5 of 7 platforms successfully outsourced to private yards; being scaled for further capacity augmentation
 - Hiring 150 executives from top institutions — execution scaling signal
+- Current capacity utilisation: not formally disclosed; with 28 platforms in concurrent construction against 36-platform brownfield max, infrastructure utilisation is ~78%. The constraint is order book replenishment, not physical capacity, for the next 12-18 months.
 
 **FY28 revenue gap risk (per Q3 FY26 earnings call):** Management flagged FY27 as a "peak year" (P-17A final deliveries). NGC revenue starts Q4 FY28, creating a potential 2-3 quarter growth plateau in FY28. Spares revenue (10-15% of project cost post-delivery) and other deliveries expected to cushion but not fully fill the gap.
 
@@ -451,23 +473,28 @@ GRSE occupies the mid-tier of India's naval shipbuilding hierarchy: it builds fr
 
 4. **Export warship precedent:** Only GRSE and Mazagon Dock have delivered warships to foreign navies under government-to-government deals. This track record is a prerequisite for future export bids under "Make in India, Make for the World" defence policy → First-mover advantage in nascent but growing export market.
 
-### Peer Comparison
+### Peer Comparison — Defence PSU Shipyards (June 2026 deep-rebench)
 
-| Metric | **GRSE** | Mazagon Dock | Cochin Shipyard | L&T (Defence div.) | Fincantieri (global) |
-|--------|---------|--------------|-----------------|---------------------|-----------------------|
-| Revenue (Cr) | 5,076 | 11,432 | 4,528 | Part of conglomerate | ~₹50,000 Cr equiv. |
-| Revenue CAGR 3yr | 42% | 26% | 12% | N/A | ~5% |
-| Profit CAGR 3yr | 41% | 57% | 13% | N/A | ~10% |
-| OPM % | 8% | 18% | 20% | ~10% (est.) | ~8% |
-| Net Margin % | 10% | 20% | 19% | N/A | ~4% |
-| ROCE % | 37% | 49% | 20% | N/A | ~12% |
-| ROE % | 28% | 37% | 16% | N/A | ~10% |
-| D/E | 0.005x | ~0.01x | ~0.09x | High (conglomerate) | ~1.5x |
-| P/E | 38x | 41x | 50x | N/A | ~15x |
-| P/B | 11.5x | 11.8x | 6.2x | N/A | ~1.5x |
-| Market Cap (Cr) | 26,299 | 95,274 | 35,813 | N/A | N/A |
-| Promoter % | 74.5% | 81.2% | 67.9% | Listed entity | Listed abroad |
-| Order Book / Rev (x) | ~4.5-5x | ~5x (est.) | ~3x (est.) | N/A | ~3x |
+Numbers below reflect FY26 actual / Q4 FY26 close where available, supplemented by Q3 FY26 disclosures. Sources: Whalesbook (MDL Q3 FY26, MDL FY26 guidance, Colombo Dockyard acquisition); Angel One CSL Q1 FY26; ScanX, Tradebrains, Goodreturns peer comparisons; Screener.in aggregator snapshots May-Jun 2026. P/E across aggregators ranges ±5x for the same name — single-source-cited per company below.
+
+| Metric | **GRSE** | Mazagon Dock (MDL) | Cochin Shipyard (CSL) | Goa Shipyard (GSL) |
+|--------|---------|---------------------|------------------------|----------------------|
+| FY26 Revenue (Cr) | 7,002 (+38%) | ~13,006 (guidance) | ~5,200 (15% growth guidance) | Unlisted (~₹1,800 est.) |
+| FY26 PAT (Cr) | 748 (+42%) | ~2,578 (guidance) | ~780 (~15% margin guidance) | N/A (unlisted) |
+| OPM % FY26 | 16.8% Q4 / 10-12% blended FY26 | ~22-24% (subs-heavy mix) | ~18-20% | N/A |
+| ROCE % | 28.4% (Screener Jun-26) | 43.8% (Goodreturns May-26) | 20.0% (Screener) | N/A |
+| ROE % | ~30% (est. on FY26 PAT) | ~37% | ~16-18% | N/A |
+| D/E | 0.005x | ~0.01x | ~0.09x | N/A |
+| P/E (TTM) | 41-47x (source range) | 37-40x (Goodreturns/Yahoo) | 44-46x (Screener) | N/A |
+| EV/EBITDA | ~28x (est. from P/E) | 25.3x (Yahoo) | ~30x (est.) | N/A |
+| Mcap (Cr, late-May/Jun-26) | 30,000-31,000 | 95,000-99,000 | 38,000-39,000 | Unlisted |
+| Order Book (Cr) | 15,324 (Mar-26) | 23,758 (Dec-25) + ₹99k Cr Project 75(I) pending | 22,500 + ₹2.85L Cr pipeline | N/A |
+| Order Book / Rev (x) | **2.2x (lowest in set)** | ~1.8x (excluding Project 75(I)) | ~4.3x | N/A |
+| Dividend Yield | ~0.7% (₹19.80 interim + ₹6.70 final FY26) | ~0.75% | ~0.7-0.9% | N/A |
+| Promoter (GoI) % | 74.50% | 81.20% | 67.91% | 100% |
+| Recent strategic move | Kandla greenfield JV ₹4,500 Cr (DPR/JV finalisation stage) | **Acquired 51% Colombo Dockyard PLC for ₹237 Cr (first Indian yard with overseas yard acquisition)** | Vadinar ship repair JV with DPA ₹1,570 Cr approved May-26 | — |
+
+**Read of the peer rebench.** GRSE now trades at a P/E in line with or slightly above MDL despite three structural disadvantages: (1) MDL's submarine mix delivers ~22-24% OPM versus GRSE's blended 10-12%; (2) MDL just opened the regional export-acquisition front by buying Colombo Dockyard — GRSE has nothing comparable; (3) MDL has the ₹99k Cr Project 75(I) submarine programme pending CCS clearance, an absolute monopoly position no other Indian yard can replicate. GRSE's only relative-value argument is the highest revenue and PAT growth rate in the set (+38% / +42% FY26 vs MDL's projected +~25% / +~30%) — but the order book / revenue gap (2.2x at GRSE vs 4.3x at CSL) cuts against that growth narrative. CSL trades at the highest P/E in the set with the worst ROCE — unsustainable premium that may compress.
 
 ### Why Multiples Differ + Re-rating Thesis
 
@@ -541,6 +568,46 @@ GRSE occupies the mid-tier of India's naval shipbuilding hierarchy: it builds fr
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/GRSE.md`*
+
+### 2026-06-02 — Deep-research pass: NGC clock, order book drawdown, P-17B framing, peer rebench
+
+**Sources (this pass):** Q4 FY26 results aggregators (Univest, InvestyWise, ScanX); Q4 FY26 concall summary (GuruFocus/Investing.com); Antique post-Q4 note (Business Today 29-Apr-2026); Indian Defence News 12-May-2026; Whalesbook NGC update; theprint.in DAC P-17B approval; Naval Technology P-17B; Wikipedia Project 17B-class frigate; PSU Connect 29-May-2026 BSE fine note; India Seatrade News on Kandla; Maritime Executive on export ramp; Goodreturns peer P/E snapshots; Business Today PSU defence target prices; Trade Brains "shipbuilding stocks at discount".
+
+**The one number that matters this quarter — order book is now at 2.2x revenue, breaching our own monitorable.** Q4 FY26 close order book ₹15,324 Cr against FY26 revenue ₹7,002 Cr = 2.19x. The file's Key Monitorable #2 explicitly says "below 3x triggers concern." We are now below it. Management framed the drawdown as evidence of faster execution, not weaker demand — that framing is internally consistent with eight vessels delivered in FY26 (including the triple-delivery day on 20-Mar-2026: P-17A frigate + Survey Vessel Large + ASW SWC). But the visibility cushion is genuinely thinner than at any point since FY22. NGC signing is no longer "upside optionality" — it is now load-bearing for the base case. Without NGC + P-17B in FY27, the order book continues to compress mechanically as deliveries outpace new awards.
+
+**NGC status — June 2026.** Price negotiations completed (confirmed at 12-May-2026 concall). Contract pending Cabinet Committee on Security (CCS) clearance. Indian Defence News (12-May-2026) reported "set for signing this quarter" — referring to Q1 FY27 (Jun quarter). Original CCS approval framework from June 2022 (DAC clearance). Originally expected March 2026; now ~70 days late. GRSE has L1 status for 5 of 8 corvettes at ~₹25,000 Cr (corrected from headline ₹33,000 Cr — that figure was 5 ships before the 8-ship split). The other 3 go to L2 (likely MDL) at same unit cost. Revenue recognition starts only H2 FY28, scales FY29 — so even on signing, the FY27 P&L impact is zero. The catalyst is order-book optics + multiple re-rating, not near-term earnings.
+
+**P-17B — less binary than originally framed.** The DAC approved Project 17 Bravo in July 2024 at ₹70,000 Cr for 8 (not 7) follow-on stealth frigates. The split is 1:1 between MDL and GRSE — 4 ships each. L1 wins ~₹40,000 Cr, L2 wins ~₹30,000 Cr (same per-ship cost). RFP selection of L1/L2 expected mid-2026. This materially changes the bear-case framing: even if GRSE comes in as L2, it still wins ~₹30,000 Cr — large enough to be a step-change order. The risk isn't "lose to MDL" — it's "L1 vs L2 differential of ~₹10,000 Cr." CMD called P-17B his #1 KRA at Q3 FY26 concall. (Original file framing — "losing it to MDL materially changes trajectory" — is too binary; the structural floor is ~₹30,000 Cr either way.) Comparison: GRSE built 3 P-17A frigates (under construction, 2 delivered FY26); MDL built 4 P-17A frigates (commissioned through FY24-26). Both yards are P-17A-experienced — GRSE is not the underdog here.
+
+**Q4 FY26 quarterly print — verified.** Q4 FY26 revenue ₹2,119 Cr (+29% YoY); PAT ₹303.19 Cr (+24% YoY); EBITDA margin 16.8% (+331 bps YoY). Full FY26: revenue ₹7,002 Cr (+38%), PAT ₹748 Cr (+42%) — matches file. Note Antique's qualifier: Q4 absorbed an upward revenue revision of ₹52 Cr and cost revision of ₹46 Cr from project cost-to-completion true-ups (P-17A/ASWSWC/NGOPV nearing delivery). The ₹520 Cr/₹63 Cr true-up disclosed in the file is the full-year aggregate of these. Final dividend ₹6.70/sh declared, taking FY26 total payout to ₹32.50/sh (₹19.80 interim + ₹6.70 final + adjustments) — payout ratio ~50%, higher than my 30% assumption.
+
+**Peer rebench — defence PSU shipyards.** Pulled from screener / aggregator snapshots as of late-May / Jun-2026:
+
+- **MDL (Mazagon Dock):** Mcap ₹95-99k Cr; FY26 revenue projected ₹13,006 Cr; FY26 PAT projected ₹2,578 Cr (concall guidance); 9M FY26 PAT ₹880 Cr/qtr run-rate. Order book ₹23,758 Cr (Dec 2025). P/E ~37-40x. ROCE 43.77%. Recent move: acquired 51% of Colombo Dockyard PLC (Sri Lanka's largest yard) for ₹237 Cr — first Indian defence yard to make an overseas yard acquisition. This is structurally significant: MDL has now leapfrogged GRSE on regional export footprint.
+- **CSL (Cochin Shipyard):** Mcap ₹38-39k Cr; FY26 revenue guidance 14-15% growth; PAT margin guidance ~15%. Order book ₹22,500 Cr; project pipeline disclosure ₹2.85 lakh Cr (Q1 FY26). P/E 44-46x. ROCE ~20%. Diversified into commercial + commercial repair (Vadinar ship repair JV with DPA approved May 2026, ₹1,570 Cr).
+- **GRSE:** Mcap ₹30-31k Cr; FY26 revenue ₹7,002 Cr (+38%); FY26 PAT ₹748 Cr (+42%); P/E 41-47x depending on source. Order book ₹15,324 Cr — lowest book/revenue ratio in the trio at 2.2x. ROCE 28.42%.
+- **Goa Shipyard (GSL):** Unlisted (100% GoI). Not in the public comp set; smaller scale; competes on OPVs and patrol craft. Not material to GRSE valuation.
+
+**Key takeaway from the peer rebench.** GRSE trades at a similar P/E to MDL (40x) despite (a) MDL has a submarine programme with ~25% OPM versus GRSE's 8-10% OPM, (b) MDL's order book at ₹23,758 Cr is 1.8x FY26 revenue projection — but on a larger absolute base, (c) MDL just opened the export-acquisition front by buying Colombo Dockyard. GRSE's P/E parity with MDL on these fundamentals looks rich on relative comparison. CSL trades higher than both, justified neither by ROCE (20%) nor by growth (14-15% vs GRSE's 38%) — likely a function of commercial diversification narrative.
+
+**Capacity — Gujarat greenfield update.** DPA Kandla shipyard JV with GRSE: ~₹4,500 Cr capex, 120 acres reclaimed land, VLCC-compliant dry dock. Capacity ~3 vessels/year initially (or 2 VLCCs, or 6 Handymax equivalents). Currently fast-tracked through Deendayal Port Authority; JV structure being finalised. Not yet on balance sheet. This is the largest capacity step for GRSE in decades — moves them into commercial large-vessel territory (300m+ class) that the Kolkata yard cannot accommodate (Hooghly draft limits). DPR stage as of Q3 FY26; JV signing reported as "imminent" per India Seatrade News.
+
+**Export potential — beyond the German MPV order.** GRSE delivered the Bangladesh dredger in FY26 and is finalising fast patrol boat designs for Vietnam. Philippines frigate bid (₹2,000 Cr for 2 frigates) — GRSE was L1 in 2016 but the deal stalled at the inter-governmental stage; status unclear in 2026 post-MDL Colombo acquisition. Mauritius/Sri Lanka relationship preserved through ongoing maintenance + delivered vessels. The realistic export TAM for GRSE in next 5 years is Bangladesh + Vietnam + Mauritius + smaller ASEAN — likely ₹3,000-6,000 Cr cumulative, not transformative. The narrative that GRSE re-rates from "PSU utility" to "defence export platform" requires either (a) a Philippines / Vietnam G-to-G frigate deal, or (b) an MDL-style overseas yard acquisition — neither imminent.
+
+**Modi indigenization context.** Union Budget FY26 (Feb 2026): 75% of defence capital procurement reserved for domestic industry. Government target of ₹3 lakh Cr defence manufacturing by FY29. For naval shipbuilding specifically, the ₹69,725 Cr 3-scheme package (Shipbuilding Financial Assistance, Maritime Development Fund, Maritime Cluster Development) is already disbursing — directly benefits the Gujarat greenfield. Defence Capital Budget FY26 ₹1.72 lakh Cr, with naval capex rising fastest of the three services as India pursues 175-vessel navy by 2035.
+
+**Governance — BSE fine root cause now confirmed.** GRSE's response (filed 29-May-2026): the missing independent directors arise from delays in Presidential Orders from the Ministry of Defence appointing them. As a CPSE under MoD, board appointments are made by GoI, not the board itself — GRSE has formally requested waiver of the ₹9.55L penalty on the basis that the non-compliance was beyond management's control. This is not a Wirecard-style governance crisis — it is the standard PSU appointment lag — but it is the kind of thing that recurs (multiple PSUs got the same Q4 FY26 fine: IRFC, RVNL, MSTC, IRCTC, RCF, Balmer Lawrie). Adds friction; not thesis-breaking. The risk is that the same lapse continues into Q1 / Q2 FY27 — then the management dimension warrants a downgrade.
+
+**Recommendation — unchanged at HOLD, but the case for trim is stronger.** CMP has come off from ₹2,930 (May 10) to ~₹2,570-₹2,640 range (early June 2026, per web aggregator snapshots — needs Groww MCP verification at session end). The ₹3,000 trim trigger has NOT fired. But the order book ratio at 2.2x has breached the file's own monitorable. If NGC slips past July 2026 (>120 days late), I would tighten the trim to ₹2,800 and consider trimming 8-10 shares regardless of NGC status — order book visibility now justifies less benefit-of-the-doubt waiting. **No score change this pass** (still 17/25, Grade B), but the asymmetry has narrowed: upside ₹3,500+ requires NGC signing AND P-17B L1 (a compound bet), downside ₹1,800-2,000 requires only continued NGC delay + 6 more months of order book drawdown.
+
+**Open data gaps after this pass:**
+1. Live CMP — web aggregators show ₹2,570-2,650 range; need Groww MCP confirmation.
+2. Historical defence PSU multiples 2015-2020 — searches returned 2024-2026 only; cannot anchor "is 38-44x cyclical or structural" with hard data. The 2018-2020 PSU defence P/E range (when sentiment was poor) was likely 12-20x but I cannot source-verify.
+3. Whether the GRSE-Kandla JV has been formally signed (Q4 FY26 / Q1 FY27 timing) and what equity stake / capex commitment GRSE carries.
+4. P-17A construction milestone for ships 5-7 (after the 4 delivered) — needed for FY27 revenue plateau modelling.
+5. MDL's Colombo Dockyard acquisition impact on GRSE's regional export competitive position — too new to size.
+
+---
 
 ### 2026-06-02 — Governance flags + leadership transition update (post Q4 FY26)
 

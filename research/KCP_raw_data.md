@@ -1,4 +1,4 @@
-# KCP Limited - Raw Data for Investment Thesis
+  # KCP Limited - Raw Data for Investment Thesis
 **Data gathered: 25 March 2026**
 
 ---

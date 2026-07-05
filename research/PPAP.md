@@ -208,7 +208,7 @@ Against the recently-written names in the book, PPAP is the weakest business on 
 
 - **2026-05-12:** FY26 results — revenue ₹567 Cr (+2.4%), reported PAT ₹43.19 Cr (+517%) but driven by ₹49.79 Cr one-time JV-sale gain; core operating profit ₹0.20 Cr. Q4 revenue ₹174.6 Cr (+18.6% YoY) on backlog conversion, OPM 9.7%. Thesis impact: neutral-to-negative — confirms revenue arriving, margins not.
 - **2026-02-13:** Divested 50% stake in PPAP Tokai India Rubber JV to partner Tokai Kogyo for ₹100 Cr (₹49.79 Cr gain), citing strategy misalignment and poor returns on ₹48.5 Cr invested capital; proceeds used to cut net debt to ₹66.1 Cr. Thesis impact: strengthens — sheds a value-destroying business, cleans the balance sheet.
-- **2026 (announced):** Technology partnership with Hutchinson for body sealing systems, effective April 1, 2026, at PPAP's existing facilities — replaces the sealing know-how lost with the Tokai exit. Thesis impact: strengthens if it restores margin, unproven.
+- **2026-06-10:** India-exclusive technology licence with Hutchinson for body-sealing systems, effective April 1, 2026, produced at PPAP's own facilities (PPAP keeps 100% of the economics) — replaces the sealing know-how lost with the Tokai exit. It is a margin/content lever on the same domestic OEM platforms, not a new market or export channel. Thesis impact: strengthens if it restores margin, unproven.
 - **H1 FY26:** ₹707 Cr of lifetime orders won, backlog to ₹4,171 Cr, including ₹460 Cr Tata Motors extrusion order; new programs on Tata Altroz, Maruti Victoris, VinFast VF6. Thesis impact: strengthens revenue visibility, not margin.
 - **2026 (in progress):** Group restructuring under "Ajay Group" identity — tooling to be carved into Meraki Precision Tool Engineering (Q2 FY27), Avinya Batteries to merge into parent (Q4 FY27). Thesis impact: neutral — capital-allocation reshuffle; execution unproven.
 
@@ -589,6 +589,22 @@ The table is unflattering. On every returns metric — ROCE, ROE, net margin —
 
 ## 11. Research Log
 
+### 2026-07-05 — Follow-up: what the Hutchinson deal is, and whether the old multi-bagger run can repeat
+
+Two questions came up after the initial note.
+
+**What the Hutchinson deal actually is.** The tie-up with Hutchinson is a technology licence, not a joint venture or an acquisition. The June 10, 2026 filing gives PPAP an exclusive licence to make and sell certain body-sealing products in India using Hutchinson's technology and designs, built in PPAP's own plants, from April 1, 2026. Hutchinson supplies the know-how and engineering; PPAP keeps all of the revenue and profit.
+
+That structure is why the deal helps margins but not the top line. It is the reverse of the Tokai exit. Tokai was a 50-50 JV, so selling it took revenue and profit off PPAP's books. Hutchinson does the opposite — PPAP now makes in its own plants what its Japanese partner used to supply, so if anything it adds a little revenue rather than removing it. But it does not open a new market. The licence is for India only. It does not hand PPAP Hutchinson's global customers or its export business. It lets PPAP put better sealing technology on the same Maruti, Toyota and Honda platforms it already serves, so the size of the business is still set by how many cars India builds and how much sealing content goes on each one. Better technology can win slightly richer content and a better margin; it cannot on its own make the business much bigger. A real jump in revenue would need something the filing does not mention — export orders, new carmakers, or EV-specific sealing content that raises the rupees earned per vehicle. None of that is visible today.
+
+**Whether the old multi-bagger run can repeat.** PPAP was a genuine multi-bagger once. The stock went from a low around ₹24.70 in August 2013 to a high of ₹723 in January 2018, close to 29 times — though that low was a thin, illiquid print, so a more realistic entry of ₹50-80 still gives roughly 9 to 14 times over about four years. That run lines up with FY15 to FY18, when profit climbed ₹12 → 15 → 25 → 37 Cr and operating margin rose to its 21% peak.
+
+It worked then because everything moved in its favour at once: the stock was cheap and small, the 2014-2018 car market was booming, PPAP was winning new platforms, its margin was rising to 21%, and the market was willing to pay a higher multiple on rising profit. Since then the opposite has happened. Margin fell from 21% to about 10% and stuck there, return on capital dropped to 3.5-5%, and there were three loss-making years. The cause is not the cycle turning down for a while — it is a lasting loss of pricing power. With 42-45% of sales going to Maruti and its captive supplier, and products the carmaker designs and can buy elsewhere, the OEM sets the price and takes back most of any saving.
+
+So the fact that PPAP was a multi-bagger does not mean it can be one again. Repeating that kind of run would need the same combination — a cheap starting price, margins widening from a low base, an upcycle, and new platform wins all together — and the piece that carried it last time, the widening margin, is exactly what the loss of pricing power now blocks. What is realistically on offer is the smaller 2-3x recovery already in the base case: if the restructuring lifts margin back toward 11-14%, normalised profit and the multiple recover and the stock re-rates toward ₹350-700. That is a one-time repricing on margin coming back, not a return to compounding, and even it reverses a six-year trend at roughly even-to-40% odds.
+
+Two things stay unverified: the exact investable entry price in 2013-14 (the ₹24.70 low is a thin print), and the size of the revenue and margin uplift from Hutchinson (no figures disclosed in the filing).
+
 ### 2026-07-05 — Initial thesis
 
 **Setup**
@@ -626,6 +642,7 @@ Grade C (11/25). The bull argument is a ₹4,171 Cr backlog and 1.06x book on a 
 | Date | Update |
 |------|--------|
 | 2026-07-05 | Initial research note. Grade C (11/25). WATCHLIST at ₹256; buy alert ₹200-210 near book. Deep-value turnaround — asset floor real, but FY26 profit was a one-time JV-sale gain and core operating profit was ₹0.20 Cr; thesis hinges entirely on margin recovery to 12%+ with no recent precedent. |
+| 2026-07-05 | Follow-up log entry. Confirmed Hutchinson is an India-exclusive technology licence (not a JV/acquisition), produced at PPAP's own plants — a margin/content lever, not a revenue step-change. Verified the historical multi-bagger run (~₹24.70 Aug-2013 → ₹723 Jan-2018, ~9-14x on a realistic base) was driven by margin expansion to 21% from a cheap base in an upcycle — conditions the current loss of pricing power blocks. Verdict unchanged: a 2-3x margin-recovery re-rating is possible, a repeat 10x is not. |
 
 ---
 

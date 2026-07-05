@@ -60,18 +60,32 @@ def get_channel_videos(channel_url, n=20):
 
 
 def _fetch_via_ytdlp(video_id):
-    """Use yt-dlp to download English VTT subtitle and return list of text strings."""
-    import tempfile, glob
+    """Use yt-dlp to download the English VTT subtitle (including YouTube's own
+    auto-translated English track for non-English videos) and return text strings."""
+    import tempfile, glob, time
     with tempfile.TemporaryDirectory() as tmpdir:
         cmd = [
-            "yt-dlp", "--write-auto-subs", "--skip-download",
+            "yt-dlp", "--no-update", "--write-auto-subs", "--skip-download",
             "--sub-lang", "en", "--sub-format", "vtt",
             "-o", f"{tmpdir}/sub",
             f"https://www.youtube.com/watch?v={video_id}",
         ]
-        result = subprocess.run(cmd, capture_output=True, text=True)
-        vtt_files = glob.glob(f"{tmpdir}/*.vtt")
+        # YouTube rate-limits subtitle downloads (HTTP 429). Retry with backoff.
+        vtt_files = []
+        for attempt in range(3):
+            result = subprocess.run(cmd, capture_output=True, text=True)
+            vtt_files = glob.glob(f"{tmpdir}/*.vtt")
+            if vtt_files:
+                break
+            if "429" in (result.stderr or "") and attempt < 2:
+                wait = 20 * (attempt + 1)
+                print(f"  ℹ yt-dlp hit HTTP 429 (rate limited) — retrying in {wait}s...")
+                time.sleep(wait)
+                continue
+            break
         if not vtt_files:
+            if "429" in (result.stderr or ""):
+                print("  ⚠ Still rate-limited by YouTube (429) after retries — try again later.")
             return None
         raw = Path(vtt_files[0]).read_text(encoding="utf-8")
 
@@ -108,15 +122,27 @@ def fetch_transcript(video_id, title="", date="NA", channel_slug="channel"):
             source = f"{'manual' if not chosen.is_generated else 'auto-generated'} ({chosen.language_code})"
             entries = chosen.fetch()
         else:
-            # youtube-transcript-api may miss English auto-captions that yt-dlp can find
-            # Fall back to yt-dlp to download English VTT
-            print(f"  ℹ youtube-transcript-api found no English — trying yt-dlp fallback...")
-            entries = _fetch_via_ytdlp(video_id)
+            # No native English track — e.g. a Telugu/Hindi video. Translate an
+            # available transcript to English via the API's built-in translation.
+            entries, source = None, None
+            for t in transcripts:
+                if getattr(t, 'is_translatable', False):
+                    try:
+                        entries = t.translate('en').fetch()
+                        source = f"auto-translated to en from {t.language_code}"
+                        print(f"  ℹ No English track — translated {t.language_code}→en.")
+                        break
+                    except Exception as e:
+                        print(f"  ℹ translate({t.language_code}→en) failed: {e}")
             if entries is None:
-                langs = [t.language_code for t in transcripts]
-                print(f"  ⚠ No English transcript — available: {langs}. Skipping.")
-                return None
-            source = "auto-generated (en, via yt-dlp)"
+                # Fall back to yt-dlp, which can pull YouTube's own en auto-translation
+                print(f"  ℹ API translation unavailable — trying yt-dlp fallback...")
+                entries = _fetch_via_ytdlp(video_id)
+                if entries is None:
+                    langs = [t.language_code for t in transcripts]
+                    print(f"  ⚠ No English or translatable transcript — available: {langs}. Skipping.")
+                    return None
+                source = "auto-translated to en (via yt-dlp)"
 
     except TranscriptsDisabled:
         print(f"  ✗ Transcripts disabled for {video_id}")
