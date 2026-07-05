@@ -205,6 +205,7 @@ Against the current portfolio the honest comparison is not against any single ho
 
 - **2026-05-30:** FY26 results — revenue ₹6,290 Cr (+10.6%), PAT ₹269 Cr (+12.8%), Q4 PAT ₹167 Cr (−10.5% YoY). PT order book ₹485 Cr (+25% YoY). Distillery revenue ₹1,550 Cr with highest-ever volumes. Thesis impact: neutral — confirms the split-personality profile.
 - **2026-06-03:** Record date for TPTL demerger entitlement. Every 3 TRIVENI shares → 1 TPTL share (face value ₹2). Thesis impact: this is now the load-bearing event on the calendar.
+- **2026-07 (corporate-action note, user-provided):** Per-share value estimates on the split now circulating — TPTL (Power Transmission) implied at **₹275-350 per PT share** (₹2 face value), and the residual sugar+ethanol stub at **₹200-250 per TRIVENI share**. Translating the 1:3 ratio to a per-TRIVENI basis: PT entitlement is worth ₹92-117 per TRIVENI share (one-third of ₹275-350), so the combined package sits at roughly **₹292-367** against CMP ₹446.90. Thesis impact: **weakens the buy case** — this independent estimate lands *below* the subagent's ₹315-360 sugar-stub read and well under the ₹410-495 SOTP top end. If these numbers are right, the market is paying a ~20-35% premium to the sum of parts today, which turns the "fair value special situation" read into a mild-overvaluation read pre-listing. Treat as one data point (source not independently verified); the actual TPTL listing print is the arbiter.
 - **2026-08 (expected):** TPTL listing on BSE and NSE. Thesis impact: strengthens if TPTL trades above ₹2,400 Cr mcap; weakens if below ₹1,900 Cr.
 - **2026 (in progress):** PT defence facility commissioned Dec 2025, GE Aerospace 10-year agreement, Rolls Royce MOU for marine gas turbine generators. Thesis impact: strengthens the TPTL side of the SOTP, not the TRIVENI stub.
 - **FY25/FY26 ongoing:** Sugar MSP unchanged at ₹31/kg since 2019 vs cane cost rising ~8%/year. Thesis impact: structural drag on the sugar stub; the industry is lobbying for MSP revision to ₹37-38.
@@ -601,6 +602,12 @@ At ₹446.90 combined SOTP sits at ₹320-428 (my range), so CMP is at or above 
 - TPTL first-10-day trading price is the load-bearing input for the entire thesis. All other assumptions can be revised once that print exists.
 - H1 FY26 PDF (₹5.2 MB) could not be parsed by WebFetch; direct annual report download is needed for segment capital employed.
 
+### 2026-07-05 — Corporate-action SOTP per-share estimates (user-provided)
+
+Independent per-share value estimates on the demerger surfaced: TPTL (Power Transmission) at ₹275-350 per PT share (₹2 FV), residual sugar+ethanol stub at ₹200-250 per TRIVENI share. On the 1:3 ratio, PT entitlement = ₹92-117 per TRIVENI share, so the combined package = ~₹292-367 vs CMP ₹446.90.
+
+This sits *below* my initial ₹315-360 sugar-stub estimate and below the ₹410-495 SOTP top end — implying the market pays a ~20-35% premium to sum-of-parts pre-listing. Sharpens the read from "fair value special situation" toward "mildly overvalued into the listing." Not independently verified; flagged as one data point. The TPTL first-fortnight print remains the arbiter. No change to the WATCHLIST/TRACKING (1-2%) call, but the buy-the-stub level looks better justified — wait for the ex-demerger stub to fall toward ₹250-300 rather than chasing at ₹446.90.
+
 ---
 
 ## Update History
@@ -608,6 +615,7 @@ At ₹446.90 combined SOTP sits at ₹320-428 (my range), so CMP is at or above 
 | Date | Update |
 |------|--------|
 | 2026-07-02 | Initial research note. Grade B (15/25). WATCHLIST/TRACKING call at ₹446.90 with 1-2% max size pre-listing. Framed as demerger arbitrage rather than compounder. |
+| 2026-07-05 | Added corporate-action SOTP per-share estimates (PT ₹275-350, sugar stub ₹200-250; combined ~₹292-367 vs CMP ₹446.90). Reinforces mild-overvaluation read pre-listing; no rating change. |
 
 ---
 

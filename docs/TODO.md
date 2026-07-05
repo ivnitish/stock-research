@@ -1,5 +1,26 @@
 # Research System — TODO
-*Last updated: 2026-07-02*
+*Last updated: 2026-07-05*
+
+---
+
+## ✅ Completed — 2026-07-05 (5-stock research batch: SETL, VISL, SELECTRIC, PPAP + TRIVENI update)
+
+Batch run via parallel subagents. All five are WATCHLIST/AVOID — no new positions. Common thread: quality-ish businesses (or freshly-listed special situations) at prices that already discount perfect execution.
+
+- **SETL (Standard Glass Lining) — WATCHLIST, Grade B · 15/25.** `research/SETL.md` created. India's largest glass-lined reactor maker for pharma/specialty-chem (Dr Reddy's since 2014, Aurobindo, Cadila, Laurus). CMP ₹277.75 → ~72x trailing, the most expensive glass-lined stock in India (GMM Pfaudler 46x, Anup 41x, HLE 50x). FCF negative 5 straight years; ROCE collapsed 43%→15% post-IPO as capital came in. ~₹1,000 Cr order book (1.3x book-to-bill). GScale Energy data-centre acquisition (₹487 Cr planned) flagged as venture-grade diversification outside core competence. Buy alert ₹180-200. **Note: file title reads "Standard Engineering Technology" — likely a naming slip; business is unambiguously Standard Glass Lining Technology. Needs header correction.**
+- **VISL (Vedanta Iron & Steel) — AVOID, Grade C · 11/25.** `research/VISL.md` created + updated same day from demerger deck. Newly-listed (Jun 2026) iron-ore + ESL steel + Liberia demerger entity. CMP ₹42.6, up ~110% since listing on thin-float momentum while 1H FY26 segment EBITDA collapsed ~55% YoY. Trades ~12x FY25 / ~26x 1H-FY26-annualised EV/EBITDA vs NMDC 5x, Tata 8x, JSW 10x. Governance overhang (Vedanta Resources UK ~$5bn debt, history of upstreaming listco dividends; Viceroy flagged ESL's ₹2,000 Cr NCD may route to parent). Management demerger deck targets 4x EBITDA ($133M→$526M by FY29) — haircut 60-70% for execution/cycle risk it's worth ~₹22-31/share, inside the existing base range, so no rating change. Watch below ₹28.
+- **SELECTRIC (Schneider Electric President Systems, BSE 544786) — WATCHLIST, Grade B- · 14/25.** `research/SELECTRIC.md` created. Schneider (~74%) subsidiary making 19-inch server-rack/telecom enclosures, direct-listed 12 Jun 2026. CMP ₹1,518 → 48x on FY26 PAT that FELL 19% (revenue −16%) — FY25 may have been a data-centre pull-forward. Trade-for-trade, ~288-share daily volume, thin-float melt-up. India DC rack market ~19% CAGR is the structural tailwind. Buy zone below ₹950.
+- **PPAP Automotive — WATCHLIST, Grade C · 11/25.** `research/PPAP.md` created. Auto-ancillary (sealing systems + injection-moulded parts) for Maruti/Honda/Toyota. CMP ₹256 vs book ₹242 — trades slightly ABOVE conservative fair value, no MOS today. FY26 headline PAT ₹43 Cr is a mirage: ~₹49.8 Cr one-time gain from selling the Tokai rubber JV stake; core operating profit ~₹0.2 Cr. Margin collapse 21%→10% OPM is structural (top-2 customers 68%, no pricing power). Products EV-agnostic (protects volume not margin). ₹4,171 Cr order book secures volume not margin. Buy alert ₹200-210 (near book).
+- **TRIVENI — updated (corporate-action SOTP per-share estimates).** Merged user-provided demerger value split: TPTL ₹275-350/PT share, sugar stub ₹200-250/TRIVENI share. On the 1:3 ratio, combined package ≈ ₹292-367 vs CMP ₹446.90 → market paying ~20-35% premium to sum-of-parts pre-listing. Sharpens read toward mild overvaluation; no rating change (still WATCHLIST/TRACKING 1-2%). Best entry is buying the ex-demerger sugar stub at ₹250-300 post-listing.
+
+All five rendered to HTML + PDF; index.html updated with all rows in the watchlist section.
+
+### Open follow-ups from this batch
+
+- **SETL:** correct the file header company name (Standard Engineering Technology → Standard Glass Lining Technology); verify exact registered name and NSE symbol. Watch FY27 FCF turn and whether GScale acquisition dilutes returns.
+- **VISL:** first standalone quarterly print is the load-bearing validation. Watch ESL 5 MTPA commissioning timeline and whether $1.3Bn capex funding breaks the <2x Net Debt/EBITDA promise (only ~$266M debt capacity on FY26 EBITDA — chicken-and-egg).
+- **SELECTRIC:** watch whether FY27 H1 revenue re-accelerates (real growth) or FY25 was a one-off pull-forward. CFO exit flagged in unlisted commentary — verify governance.
+- **PPAP:** needs FY26 segment-level P&L and capacity utilisation (not in Screener public view). Whole thesis = does core OPM recover to 12%+ over FY27-28.
 
 ---
 
