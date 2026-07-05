@@ -76,8 +76,8 @@ The math below is for holding **before the demerger completes** — so it captur
 | Scenario | Assumption | FY28E Combined PAT (₹ Cr) | Blended Multiple | Target combined value (₹ Cr) | Per TRIVENI share (₹) | Return | CAGR |
 |----------|-----------|---------------------------|------------------|------------------------------|-----------------------|--------|------|
 | Bear | Sugar cycle turns, MSP unchanged; PT revenue stuck at ₹400 Cr; TPTL lists at 18x; consolidated PAT stagnates at ₹250 Cr, TPTL at ₹95 Cr | 250 + 95 | 18x sugar / 18x PT | 4,500 + 1,700 = 6,200 | ₹280 | −37% | −22% CAGR |
-| Base | PT scales to ₹600 Cr rev + ₹135 Cr PAT by FY28; TPTL lists at 25x; sugar cycle mid-cycle, consolidated ex-PT PAT ~₹280 Cr at 14x | 280 + 135 | 14x sugar / 25x PT | 3,920 + 3,375 = 7,295 (+ ₹1,000 Cr holding-co & water) | ₹455 | +2% | +1% CAGR |
-| Bull | PT scales to ₹700 Cr rev + ₹150 Cr PAT; TPTL re-rates to 32x on defence/export inflows; sugar MSP raised to ₹37+; consolidated ex-PT PAT ~₹360 Cr at 16x | 360 + 150 | 16x sugar / 32x PT | 5,760 + 4,800 = 10,560 (+ ₹1,500 Cr holding-co, water, TPTL parent stake) | ₹625 | +40% | +18% CAGR |
+| Base | PT scales to ₹600 Cr rev + ₹135 Cr PAT by FY28; TPTL lists at 25x; sugar cycle mid-cycle, consolidated ex-PT PAT ~₹280 Cr at 14x | 280 + 135 | 14x sugar / 25x PT | 3,920 + 3,375 = 7,295 (+ ₹1,000 Cr water & other; no parent-held TPTL stake — mirror demerger) | ₹455 | +2% | +1% CAGR |
+| Bull | PT scales to ₹700 Cr rev + ₹150 Cr PAT; TPTL re-rates to 32x on defence/export inflows; sugar MSP raised to ₹37+; consolidated ex-PT PAT ~₹360 Cr at 16x | 360 + 150 | 16x sugar / 32x PT | 5,760 + 4,800 = 10,560 (+ ₹1,500 Cr water & other; no parent-held TPTL stake — mirror demerger) | ₹625 | +40% | +18% CAGR |
 
 **Probability-weighted expected return:** Bear 25% × ₹280 + Base 55% × ₹455 + Bull 20% × ₹625 = ₹445 → roughly flat vs CMP over 2-3 years.
 **Odds of base case or better:** 65-70%.
@@ -204,6 +204,7 @@ Against the current portfolio the honest comparison is not against any single ho
 ### Recent Developments
 
 - **2026-05-30:** FY26 results — revenue ₹6,290 Cr (+10.6%), PAT ₹269 Cr (+12.8%), Q4 PAT ₹167 Cr (−10.5% YoY). PT order book ₹485 Cr (+25% YoY). Distillery revenue ₹1,550 Cr with highest-ever volumes. Thesis impact: neutral — confirms the split-personality profile.
+- **2026-07-05:** How-to-play review + factual correction. (a) *Correction:* this is a **mirror demerger** — TPTL shares go directly to shareholders (1 for 3) and the residual sugar company retains **no** stake in TPTL; the earlier "TRIVENI holds 30% of TPTL / holdco discount" framing was wrong and has been removed throughout. Net effect: the sugar stub must be valued purely on its own cash flows, and there is no parent-held TPTL value to add to the SOTP. (b) *Price:* CMP has drifted to ~₹459 (mcap ~₹10,100 Cr). (c) *How to play:* at ₹459 the combined value sits at or above the sum of parts — there is **no SOTP discount left to capture** (record date already passed 3 June, so no entitlement arb either). The clean route is to **wait for the TPTL listing (~end-August) and buy TPTL directly** if it lists at a sane multiple; treat the sugar stub as a separate, optional buy only if it overshoots below ~₹300 post-listing. Don't chase the combined name at ₹459. *Thesis impact: sharpens the call toward "buy the spun-off TPTL, not the pre-demerger combined"; TRACKING/WATCHLIST on the combined unchanged.*
 - **2026-06-03:** Record date for TPTL demerger entitlement. Every 3 TRIVENI shares → 1 TPTL share (face value ₹2). Thesis impact: this is now the load-bearing event on the calendar.
 - **2026-07 (corporate-action note, user-provided):** Per-share value estimates on the split now circulating — TPTL (Power Transmission) implied at **₹275-350 per PT share** (₹2 face value), and the residual sugar+ethanol stub at **₹200-250 per TRIVENI share**. Translating the 1:3 ratio to a per-TRIVENI basis: PT entitlement is worth ₹92-117 per TRIVENI share (one-third of ₹275-350), so the combined package sits at roughly **₹292-367** against CMP ₹446.90. Thesis impact: **weakens the buy case** — this independent estimate lands *below* the subagent's ₹315-360 sugar-stub read and well under the ₹410-495 SOTP top end. If these numbers are right, the market is paying a ~20-35% premium to the sum of parts today, which turns the "fair value special situation" read into a mild-overvaluation read pre-listing. Treat as one data point (source not independently verified); the actual TPTL listing print is the arbiter.
 - **2026-08 (expected):** TPTL listing on BSE and NSE. Thesis impact: strengthens if TPTL trades above ₹2,400 Cr mcap; weakens if below ₹1,900 Cr.
@@ -356,7 +357,7 @@ Sugar+Alcohol segment PBIT numbers are estimates because segment disclosures agg
 
 **Primary driver:** SOTP re-rating (special situation), not underlying growth.
 
-Combined enterprise value should re-price toward the sum of segment fair values once TPTL trades separately. Sugar+alcohol block at cycle-mid multiples (12-16x forward PAT) implies ~₹4,000-5,500 Cr. PT at capital-goods multiples (20-30x FY25 PAT of ~₹95-100 Cr) implies ₹1,900-2,850 Cr. Water at ~₹300-400 Cr. Combined ₹6,200-8,750 Cr for the direct-value pool, plus TRIVENI's 30% TPTL residual at ~₹570-855 Cr gross but ~₹230-430 Cr net of holding-company discount.
+Combined enterprise value should re-price toward the sum of segment fair values once TPTL trades separately. Sugar+alcohol block at cycle-mid multiples (12-16x forward PAT) implies ~₹4,000-5,500 Cr. PT at capital-goods multiples (20-30x FY25 PAT of ~₹95-100 Cr) implies ₹1,900-2,850 Cr. Water at ~₹300-400 Cr. Combined ₹6,200-8,750 Cr for the whole pool — and there is no additional parent-held TPTL stake to add, because this is a mirror demerger: shareholders hold the TPTL value directly through their 1:3 entitlement, not via a residual stake inside TRIVENI. *(The earlier "30% TPTL residual" line double-counted and has been removed.)*
 
 | Input | Observable Data | FY28 Implied |
 |-------|----------------|--------------|
@@ -550,7 +551,7 @@ The peer table shows the trap. Triveni at 36x is priced closer to Elecon (34x) a
 | Sugar MSP frozen through FY28 | High | Medium (−15% on stub) | Diversification into ethanol + PT partially offsets |
 | Sugar cycle turns down (UP cane price hike + soft prices) | Medium | High (−25% on stub) | Balance sheet can absorb 1 bad year; 2+ bad years is a problem |
 | Ethanol margin compression (maize dilution, transfer pricing) | High | Medium | Distillery volume growth partly offsets margin drag |
-| Holding-company discount on TPTL residual stake | High | Low-Medium | Structural — cannot be mitigated at parent level |
+| Holdco discount on TPTL residual stake | N/A | — | Not applicable — mirror demerger, residual sugar company retains no TPTL stake, so shareholders hold TPTL directly and no holdco discount applies |
 | Working capital blow-out in sugar (cane arrears) | Low-Medium | Medium | Historical pattern; balance sheet has capacity |
 
 ---
@@ -616,6 +617,7 @@ This sits *below* my initial ₹315-360 sugar-stub estimate and below the ₹410
 |------|--------|
 | 2026-07-02 | Initial research note. Grade B (15/25). WATCHLIST/TRACKING call at ₹446.90 with 1-2% max size pre-listing. Framed as demerger arbitrage rather than compounder. |
 | 2026-07-05 | Added corporate-action SOTP per-share estimates (PT ₹275-350, sugar stub ₹200-250; combined ~₹292-367 vs CMP ₹446.90). Reinforces mild-overvaluation read pre-listing; no rating change. |
+| 2026-07-05 | Corrected the mirror-demerger error: residual sugar company retains NO stake in TPTL (removed all "TRIVENI holds 30% of TPTL / holdco discount" references). Refreshed CMP to ₹459. Added how-to-play note: no SOTP discount at ₹459, record date passed — wait for the ~August TPTL listing and buy TPTL directly rather than the pre-demerger combined. No rating change. |
 
 ---
 
