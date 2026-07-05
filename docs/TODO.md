@@ -3,6 +3,21 @@
 
 ---
 
+## ✅ Completed — 2026-07-05 (scheduled automation: nightly filings + weekly news brief)
+
+- **Two launchd jobs installed** (macOS-native scheduler; runs missed jobs on wake, unlike cron — crontab was blocked by macOS privacy controls anyway). Plists in `~/Library/LaunchAgents/`, scripts in `scripts/`, logs in `data/logs/` (gitignored).
+  - `nightly-filings` — weekdays 21:12 IST, `fetch_bse_filings.py ALL` for the whole portfolio. Zero Claude tokens. Test-fired successfully this session (some 404s on old BSE attachment URLs — expected, BSE purges old links).
+  - `weekly-news` — Mondays 08:42 IST, headless `claude -p` run: morning-news skill in weekly mode (7-day lookback) + watchlist entry-zone check against docs/HANDOVER.md, CMPs from Tickertape/Google Finance (broker MCPs deliberately excluded — Groww MCP unreliable headless; fallback rule applies). First live run: Mon 2026-07-06. Not yet test-fired (costs tokens).
+- README updated with a Scheduled Jobs section (manage/trigger/disable commands).
+
+### Open follow-ups
+
+- Verify Monday's first weekly-news run output (`docs/MORNING_BRIEF.md` + `data/logs/weekly_news.log`); tune the prompt if the brief is too long/short.
+- Stock-research SKILL.md re-integration proposal pending user review: merge "PROMOTED ACTIVE" appendix (Steps 2.5/2.6 + checklist additions) into the main step flow; split Step 6 checklist into always-run vs pattern-conditional blocks.
+- Clean up ~106MB of stale agent worktrees under `data/.claude/worktrees/` (gitignored, local disk only).
+
+---
+
 ## ✅ Completed — 2026-07-05 (SPARC short note — FY profit-swing explanation)
 
 - **SPARC (Sun Pharma Advanced Research) — AVOID / SPECULATIVE, Grade D · 6/25.** `research/SPARC.md` created. User asked why the financial-year profit changed. Answer: FY26 swung from a ₹345 Cr loss to a ~₹1,552 Cr profit entirely on a single non-recurring item — sale of a USFDA Priority Review Voucher for USD 195M (~₹1,840 Cr), voucher granted 03-Feb-2026, sold 30-Apr-2026, booked as other operating revenue. All four operating quarters of the year were losses of ₹50-81 Cr; the R&D core is unchanged and still burning cash. The ~5x P/E, 281% ROE, 165% ROCE are artifacts of the one-off and revert negative once it drops out; P/B 5.8x is the only honest valuation signal. No ROIC/compounding engine — fails the framework's central test. Verdict: AVOID as a value/fundamental holding; at most 1% speculative pipeline optionality given strong Sun Pharma promoter (~65.7%). Indexed + rendered + opened in Chrome.

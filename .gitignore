@@ -9,6 +9,9 @@ __pycache__/
 dist/
 build/
 
+# Cron/launchd job logs
+data/logs/
+
 # Generated portfolio CSVs/PNGs (daily noise)
 output/*.csv
 output/*.png

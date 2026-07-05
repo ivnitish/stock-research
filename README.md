@@ -39,6 +39,13 @@ Notes:
 - Weekly red flag monitor (promoter pledging, ROCE decline)
 - Obsolete scripts archived under `src/archive/`: `portfolio_overview.py`, `portfolio_update.py`, `portfolio_review.py`
 
+### Scheduled Jobs (launchd, added Jul 2026)
+Two macOS launchd agents (plists in `~/Library/LaunchAgents/`, scripts in `scripts/`). launchd runs missed jobs on wake, unlike cron.
+- `com.nitish.stocks.nightly-filings` → `scripts/nightly_filings_cron.sh` — weekdays 21:12 IST, fetches BSE filings for all portfolio companies (zero Claude tokens). Log: `data/logs/nightly_filings.log`
+- `com.nitish.stocks.weekly-news` → `scripts/weekly_news_cron.sh` — Mondays 08:42 IST, headless Claude run: weekly news brief for holdings + watchlist entry-zone check (web-sourced CMPs, no broker MCPs). Log: `data/logs/weekly_news.log`
+
+Manage: `launchctl list | grep nitish.stocks` · trigger now: `launchctl kickstart gui/$(id -u)/<label>` · disable: `launchctl bootout gui/$(id -u)/~/Library/LaunchAgents/<label>.plist`
+
 ### BSE Filing Fetcher (`scripts/fetch_bse_filings.py`)
 On-demand downloader for quarterly results, concall transcripts, annual reports, investor presentations from BSE.
 ```bash
