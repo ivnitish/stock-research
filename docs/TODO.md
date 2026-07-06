@@ -3,6 +3,13 @@
 
 ---
 
+## ✅ Completed — 2026-07-06 (morning news full-run)
+
+- **Morning News 2026-07-06 delivered (full mode):** 23 holdings scanned (weekend window Jul 3-6), 9 with material news — RAYMOND (CEO-Defence appointment, Everblue amalgamation), KERNEX (Kavach 4.0 commissioned on 207 km NCR section), NEWGEN (CEO/CGO restructuring effective Aug 1 + Philippines order), SWIGGY (Instamart CBO churn), ICICIAMC (Q1 board meet Jul 13), ZENTEC (HyperStrike unveiling), ATHERENERG ($200M QIP plan), BHEL (Chinese equipment makers allowed in govt tenders — sector-wide hit), SOUTHWEST (warrant conversion allotment Jul 10). Brief at docs/MORNING_BRIEF.md; GitHub issue #1 created. Telegram skipped — TELEGRAM_BOT_TOKEN not set in this session's env.
+- **Macro flag:** India-US trade deal phase 1 expected mid-July (tariff on Indian goods down to 18%); govt opening power tenders to Chinese equipment makers is a direct negative watch item for BHEL and transformer names (SHILCTECH sentiment).
+
+---
+
 ## ✅ Completed — 2026-07-06 (framework v2 applied + telegram jobs finalized)
 
 - **SKILL.md v2 APPLIED (user approved "apply all"):** appendix re-integrated into main flow (Steps 2.5/2.6, checklist blocks A/B/C), changelog added.
