@@ -1,0 +1,15 @@
+Work in /Users/nitish/stocks automation/ (the sole working copy — never clone the repo). Run a full stock research note on BANCOINDIA (Banco Products India, NSE: BANCOINDIA) — the first note under the just-applied v2 framework.
+
+Framework (all LIVE, no proposals):
+1. .claude/skills/stock-research/SKILL.md — follow the step sequence exactly: Step 1 CMP fetch rules (never Screener.in/Yahoo for CMP — Tickertape/Google Finance card via web search), Step 2 fetches, Step 2.5 segment & insider depth pull (mandatory), Step 2.6 only if thesis is forward-driven, Steps 3-5, full Step 6 checklist blocks A + B (+ C if premium-compounder pattern applies). Include the completed checklist at the bottom of the research log entry.
+2. CLAUDE.md multi-bagger framework Phases 0-5 — note Phase 5.3 is the NEW matrix: no TRACKING POSITION, no WATCHLIST. The user holds BANCOINDIA (100 @ ₹589.50 — check data/portfolio.csv first; existing positions get HOLD/ADD/TRIM/EXIT). The recommendation block must give the full price ladder: add-below price, hold band, trim/sell target tied to base-case fair value, thesis-break exit condition. If quality warrants scaling, state the add-path toward a 15-20% core (5-8 position concentrated book, cores >15% — only Grade A/B with verified Phase 1 compounding engine qualifies).
+3. research/_TEMPLATE.md — the NEW consolidated template: the note LEADS with the Recommendation block + price ladder (the user explicitly rejected score-table-first summaries and hedges like "Multi-Bagger Probability: Medium" — decisions with prices, always); single Multi-Bagger Math scenario table; reverse DCF only in 5.2; no duplicate quarterly tables; "When do I sell?" is the only exit list; single Research Log with "Changed:" lines; Strengths must include the pre-existing-capability bullet.
+4. All .claude/rules/ — especially writing-quality.md (voice pass), no-fabricated-data.md, index-always.md.
+
+Process:
+- Archive research/BANCOINDIA.md to research/archive/BANCOINDIA_v1.md BEFORE rewriting; preserve its Decision History and Research Log content in the new file.
+- Fetch filings: venv/bin/python3 src/fetch_bse_filings.py BANCOINDIA; read latest concall/results PDFs in data/filings/BANCOINDIA/.
+- Write research/BANCOINDIA.md, render: venv/bin/python3 src/render_all.py BANCOINDIA
+- Update output/html/index.html per .claude/rules/index-always.md (BANCOINDIA row exists in a held section).
+- Open the result in Chrome: open output/html/BANCOINDIA.html
+- Commit and push. If push is rejected, git pull --rebase then push again. Do NOT touch CLAUDE.md, SKILL.md, _TEMPLATE.md.

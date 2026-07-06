@@ -1,0 +1,16 @@
+Work in "/Users/nitish/stocks automation/". Design a replacement for output/html/index.html, which is cluttered (15-column table + card gallery + status dashboard in one, hand-maintained). Build 2 static HTML mockup VARIANTS at output/html/index_v2_a.html and output/html/index_v2_b.html — do NOT touch index.html.
+
+Both use REAL current data — never fabricate: holdings (symbol, qty, avg price) from data/portfolio.csv; grades, status, and price ladders parsed from research/*.md headers (the "**Status:**", "**Quality Score:**", "**CMP:**" lines) and their Action tables. Where a value is not parseable, show "—".
+
+Structure (matches how the user now decides — no watchlist concept, no tracking positions):
+- Section 1 OWNED: ticker, grade, avg price, add-below price, trim-above price, P&L% (if CMP available)
+- Section 2 BUY-AT ALERTS: ticker, grade, trigger price, last known CMP, % distance to trigger
+- Section 3 ARCHIVE (avoid/exit/reference): collapsed by default (details/summary element)
+
+Max 6 columns per table, generous whitespace, mobile-friendly, row click → SYMBOL.html. Keep the current site font/colour language (inspect current index.html CSS first).
+- Variant A: minimal clean tables only.
+- Variant B: same data plus a compact summary strip on top (total holdings count, number of buy-at alerts within 10% of trigger, portfolio invested value from portfolio.csv).
+
+When done: open output/html/index_v2_a.html and open output/html/index_v2_b.html (Chrome). Commit both mockups and push; if push rejected, git pull --rebase then push. Do NOT touch index.html, CLAUDE.md, SKILL.md, _TEMPLATE.md, or any research/*.md.
+
+At the end, append a short report to docs/proposals/DASHBOARD_NOTES.md: (1) one-line description of each variant, (2) which fields parsed cleanly from research files vs missing/inconsistent (this drives the future src/build_dashboard.py generator), (3) research files whose headers deviate from the template format.
