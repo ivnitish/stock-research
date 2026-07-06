@@ -1,6 +1,6 @@
 # {COMPANY_NAME} ({SYMBOL}) — Investment Thesis
 
-**Status:** OWNED / WATCHLIST / EXITED
+**Status:** OWNED / BUY-AT ALERT / EXITED
 **Quality Score:** X/25 (Grade X)
 **Classification:** [Multi-Bagger Candidate / Quality Compounder / Fairly Valued / Overvalued / Exit]
 **Last Updated:** YYYY-MM-DD | **CMP:** ₹ | **Entry:** ₹ | **P&L:** %
@@ -97,10 +97,13 @@ CLASSIFICATION SYSTEM — Two independent axes:
 ═══════════════════════════════════════════════════════════════════════════
 -->
 
-> **Recommendation:** [BUY / HOLD / ADD / TRIM / EXIT] at ₹[CMP].
+> **Recommendation:** [BUY (5-8%) / BUY REDUCED (3-5%) / BUY AT ₹X / HOLD / TRIM at ₹Y / EXIT / SPECULATIVE (1% max) / AVOID]
 > [2-4 lines: What is the core bet in plain language. What's the expected return
-> and timeline. What's the one thing to watch. Written so someone reading only
-> this block can make a decision.]
+> and timeline. What's the one thing to watch.]
+> **Price ladder:** Buy/Add below ₹__ · Hold ₹__–₹__ · Trim/Sell above ₹__ · Exit if [thesis-break condition].
+> <!-- TRACKING POSITION does not exist. If the price isn't right, the recommendation
+> is BUY AT ₹X — the exact level where asymmetry ≥2x and the grade's MOS threshold
+> are met. Every recommendation states all four ladder levels that apply. -->
 
 ---
 
@@ -110,7 +113,8 @@ CLASSIFICATION SYSTEM — Two independent axes:
 
   This is the 1-2 page executive summary of the entire analysis below.
   A reader should be able to make a decision from the Summary Verdict alone.
-  The Detailed Analysis sections (1-11) provide the supporting evidence.
+  The Detailed Analysis sections provide the supporting evidence.
+  Each number is derived ONCE in Detailed Analysis and only RESTATED here.
 
   READABILITY: Expand all abbreviations on first use in the Summary Verdict.
   E.g. PEB (Pre-Engineered Building), ROCE (Return on Capital Employed),
@@ -149,10 +153,23 @@ does the market not fully appreciate it yet?
 3-5 bullet points. What's working. Be specific — not "good management" but
 "promoter at 65%, no pledge, funded expansion on track, 25-year industry experience."
 Each point should be a concrete, verifiable fact that supports the thesis.
+
+REQUIRED: one bullet must name the PRE-EXISTING CAPABILITY — the specific physical
+thing already built that the thesis depends on. The test is whether the bullet
+survives without abstractions:
+  "Strong management" — fails
+  "Sanjay Gupta with 27 years in steel and proven M&A integration of Apollo
+   Metalex 2007 and Shri Lakshmi 2008" — passes
+  "Large addressable market" — fails
+  "1.3 MTPA installed capacity with DFT lines across 5 plants and 600+ dealer
+   network" — passes
+If the thesis-critical capability cannot be stated concretely — if the bet is on
+capability management still has to build — flag the position as venture-grade
+(SPECULATIVE, 1% max) regardless of how strong the rest of the framework reads.
 -->
 
 - [Strength 1 — specific, with numbers]
-- [Strength 2]
+- [Pre-existing capability — the physical thing already built]
 - [Strength 3]
 
 ### Concerns
@@ -161,71 +178,52 @@ Each point should be a concrete, verifiable fact that supports the thesis.
 2-4 bullet points. What's not working or needs monitoring. Be specific.
 Not "competitive risk" but "Interarch has near-zero debt and 25% ROCE vs EPACK's
 0.64 D/E — if Interarch prices aggressively, EPACK's thin 10% OPM has no buffer."
-If there are disqualifying concerns (fraud, governance crisis), say so clearly
-and make the Recommendation above say EXIT.
+These are the highlights; the full risk table with bear-case values lives in
+Section 7. If there are disqualifying concerns (fraud, governance crisis), say so
+clearly and make the Recommendation above say EXIT.
 If no material concerns: "No material concerns identified."
 -->
 
 - [Concern 1 — specific mechanism and why it matters]
 - [Concern 2]
 
-### How does this actually compound? (one-line summary; full breakdown in Section 3 below)
+### How does this actually compound? (one-line summary; full breakdown in Section 3)
 
 <!--
-Keep this to 2-3 sentences MAX. The reader gets the gist; the full Q1 walk-through
-with worked example lives in Section 3 of Detailed Analysis. Resist the urge to
-write three paragraphs here — that's editorial filler the reader will skip past.
-
-What belongs in these 2-3 sentences:
-- The single most important driver of EPS growth (operating leverage / mix shift / capacity ramp / pricing)
-- Why headline ROIC may or may not match the underlying incremental return
-- A pointer to Section 3 for the full math
+2-3 sentences MAX: the single most important driver of EPS growth, why headline
+ROIC may or may not match incremental returns, pointer to Section 3 for the math.
 -->
 
-[2-3 sentences: where profit growth comes from, why incremental returns differ from headline, pointer to Section 3.]
+[2-3 sentences.]
 
 ### What does the market think — and where do I disagree?
 
 <!--
-Reverse DCF: at current PE, what growth rate is priced in?
-Compare to your estimate from the Compounding Equation above.
-The disagreement IS the edge — if the market agrees with you, there's no alpha.
-
-Answer specifically:
-  - What growth rate does the current price imply?
-  - What do I estimate the actual growth rate to be?
-  - Why is the market wrong? What is it over-weighting or ignoring?
-
-1 paragraph. Quantify the disagreement in percentage points.
+ONE paragraph, conclusion only — the reverse DCF math lives in Section 5.2, don't
+repeat it here. State: implied growth at current price, our estimated growth, why
+the market is wrong (what it over-weights or ignores). Quantify the gap in
+percentage points — the gap IS the edge.
 -->
 
-[Write here — implied vs estimated growth, and why the gap exists]
+[Implied X% vs our Y% — and why the gap exists]
 
 ### Second-Order Stress Test
 
 <!--
-Two questions the standard analysis tends to skip — both kept short, no padding.
-
-(1) FIVE-WHYS on the ROIC engine. Most investors stop at the first level of
-explanation ("ROIC is 30% because asset-light"). Drill five layers down to find
-the systemic cause. If the fifth answer is something the company controls, the
-moat is fragile. If it's something structural about the industry or geography,
-the moat is durable.
-
-(2) WORLD-STATE under the base case. If the thesis plays out as expected, what
-does this company look like in 2 years and 5 years? What new problems does
-success itself create? Most position losses come from theses that were correct
-on direction but failed to account for what success triggered — new competitors,
-regulatory attention, margin compression from scale, capital allocation mistakes
-when the cash starts flowing.
-
+(1) FIVE-WHYS on the ROIC engine — drill to the systemic cause. Fifth answer
+    controlled by the company = fragile moat; structural to industry/geography
+    = durable moat.
+(2) WORLD-STATE under the base case at 2 and 5 years — what success itself
+    triggers: new competitors, regulatory attention, capital allocation pressure.
+(3) MARKET LABEL vs REALITY — universal table, every note. Pure growth stories
+    may legitimately answer "n/a" or "consensus aligned" in some rows.
 Write 3-5 sentences per question. Cut anything that reads like an aphorism.
 -->
 
 **5-Whys on the ROIC engine:**
 
 > Why does this business earn high returns on capital today?
-> 1. [first-order answer — usually a financial fact: asset-light, pricing power, etc.]
+> 1. [first-order answer — usually a financial fact]
 > 2. Why is that true? → [...]
 > 3. Why is that true? → [...]
 > 4. Why is that true? → [...]
@@ -233,48 +231,33 @@ Write 3-5 sentences per question. Cut anything that reads like an aphorism.
 
 **The world in 2 years if base case plays out:**
 
-[3-4 sentences. What does revenue look like, what does margin profile look like, what is management's agenda, what's the next thing they have to do that they haven't done before. Be specific to this company.]
+[3-4 sentences. Revenue, margin profile, management's agenda — the next thing they must do that they haven't done before.]
 
 **What success itself triggers:**
 
-[2-3 sentences on new risks created by the thesis working — new competition, regulatory attention, capital allocation pressure once cash starts flowing, valuation re-rating expectations becoming the new bar.]
+[2-3 sentences on new risks created by the thesis working.]
 
-**[For turnaround / inflection theses only] — What was true at the bottom:**
-
-<!--
-If this is a stock where the thesis involves a prior crisis, a capex cycle, or a narrative
-about past failure that the market is still pricing, fill this table. It forces you to
-distinguish between what the market is pricing (the crisis) and what the business data
-shows (the direction). Sourced from multi-bagger pattern study — appears in 4 of 5 cases.
-Skip for pure growth stories with no prior undervaluation narrative.
--->
+**Market label vs business reality:**
 
 | Question | Answer |
 |---|---|
-| What is the market pricing this stock on? | [the headline metric: flat PAT, 12% NPAs, failed segment] |
-| What does segment / operating data actually show? | [the hidden direction: growing disbursements, segment +29%, volumes up] |
-| What was the root cause of the prior failure/crisis? | [specific mechanism: 18-carat product error, indiscriminate auto-finance, cash NPA cycle] |
-| Is that root cause still present in today's business model? | [Yes / No — and explain specifically why] |
-| What is the pending regulatory or structural equalizer? | [GST, BIS hallmarking, RERA, FSSAI standard, or "none identified"] |
+| What is the market currently pricing this stock on? | [The headline metric or narrative consensus is anchored to] |
+| What does segment / operating data actually show? | [The hidden direction visible in segment, volume, disbursement, or unit-level data] |
+| What is the bear narrative? | [The dominant negative case — not a strawman, the actual one being voiced] |
+| Is the bear narrative root cause still active in today's business? | [Yes / No — explain specifically. If yes, the bear case is fighting today's war, not yesterday's] |
+| What is the regulatory or structural equalizer in motion? | [Named change with implementation timeline; or "none identified"] |
+| What is the label-change catalyst? | [Specific event that flips consensus; or "n/a — quality compounder bet, no re-rating expected"] |
 
 ### Multi-Bagger Math
 
 <!--
-The scenario table. This is the most important table in the document.
-Front and centre — not buried in Section 5.
+THE single scenario table for the whole document — Sections 4/5 derive the inputs
+(primary driver, growth rates, multiples); this table displays the result. Do not
+build parallel scenario tables elsewhere.
 
-For each scenario, the growth rate MUST be justified with a specific reason
-(capacity utilisation, market share, industry CAGR, order book conversion).
-Do not use arbitrary round numbers — anchor to observable data.
-
-EPS CAGR = the earnings growth rate (from ROIC × reinvestment, adjusted for
-  dilution, debt changes, margin trajectory)
-PE trajectory = will the market pay more, less, or the same?
-  Bear: PE compresses (growth disappoints, sentiment turns)
-  Base: PE holds or modest expansion (execution confirms thesis)
-  Bull: PE expands (re-rating catalyst — new orders, margin expansion, sector tailwind)
-
-Total return = EPS growth × PE change = price target
+For each scenario the growth rate MUST be anchored to observable data (capacity
+utilisation, market share, industry CAGR, order book conversion) — no arbitrary
+round numbers.
 -->
 
 | Scenario | EPS CAGR | Why this rate | FY[XX]E EPS (₹) | FY[XX]E PE | Target (₹) | Return | CAGR |
@@ -284,23 +267,17 @@ Total return = EPS growth × PE change = price target
 | Bull     |          | [anchored to specific data] | | | | | |
 
 **Probability-weighted expected return:** [Bear X% × ₹A + Base Y% × ₹B + Bull Z% × ₹C = ₹D → Nx in N years]
-**Odds of base case or better:** X%
+**Margin of safety:** (Base ₹__ − CMP ₹__) / Base = __% | **Asymmetry:** upside __% / downside __% = __x
 
-[1-2 sentences interpreting the table. What does the asymmetry look like?
-Is the risk/reward skewed in your favour? How much do you lose in the bear
-case vs how much you gain in the bull?]
+[1-2 sentences interpreting the shape of the asymmetry.]
 
 ### Key Metrics & Trends
 
 <!--
-This is the numbers section that anchors everything above. Reader needs to see
-the actual P&L, balance sheet, cash flow, quarterly trend, and shareholding
-right here in Summary Verdict — the narrative does not land without them.
-
-Keep tables tight. Include the longest history that's available (typically 5-10
-years), the last 6-9 quarters, and one snapshot ratios table. Sector-specific
-operating metrics (order book, capacity utilisation, AUM, etc.) belong in
-Section 4 of Detailed Analysis, not here. This section is the universal core.
+The numbers section that anchors everything above. This is the ONLY home for the
+core financial tables — quarterly trend, P&L history, balance sheet, cash flow,
+shareholding, snapshot ratios. Section 4 holds sector-specific metrics only and
+must not repeat these.
 -->
 
 #### N-year P&L (₹ Cr)
@@ -308,12 +285,10 @@ Section 4 of Detailed Analysis, not here. This section is the universal core.
 | FY | Revenue | OPM% | PAT | EPS (₹) |
 |----|---------|------|-----|---------|
 | FY[N-9] | | | | |
-| FY[N-8] | | | | |
 | ... | | | | |
 | FY[N] | | | | |
-| 9M FY[N+1] (if available) | | | | |
 
-[1-2 lines: revenue CAGR, key inflection point, PAT trajectory direction.]
+[1-2 lines: revenue CAGR, key inflection point, PAT trajectory.]
 
 #### Balance sheet evolution (₹ Cr) — selected years
 
@@ -323,37 +298,33 @@ Section 4 of Detailed Analysis, not here. This section is the universal core.
 | FY[mid] | | | | | |
 | FY[end] | | | | | |
 
-[1 line on what the balance sheet trend shows — deleveraging, capex cycle, dilution.]
+[1 line: deleveraging / capex cycle / dilution.]
 
 #### Cash flow (₹ Cr)
 
 | FY | OCF | Capex | FCF |
 |----|-----|-------|-----|
 | FY[N-4] | | | |
-| FY[N-3] | | | |
-| FY[N-2] | | | |
-| FY[N-1] | | | |
+| ... | | | |
 | FY[N] | | | |
 
 [1 line: OCF/PAT ratio over the period, capex cycle status.]
 
 #### Quarterly trend (last 6-9 quarters, ₹ Cr)
 
-| Quarter | Revenue | OPM | PAT | EPS |
-|---------|---------|-----|-----|-----|
-| [Quarter 1] | | | | |
-| ... | | | | |
-| [Latest quarter] | | | | |
+| Quarter | Revenue | OPM | PAT | EPS | Key comment |
+|---------|---------|-----|-----|-----|-------------|
+| [Latest quarter] | | | | | |
+| ... | | | | | |
 
-[1 line: trajectory, any lumpiness, recent inflection.]
+[1 line: trajectory, lumpiness, recent inflection.]
 
 #### Shareholding (latest quarter)
 
 - Promoter: **X%** (stable / rising / declining; pledge status)
 - FII: X% (trend vs prior 4 quarters)
 - DII: X% (trend vs prior 4 quarters)
-- Public: X%
-- Total shareholders: X
+- Public: X% | Total shareholders: X
 
 [1 line: what the institutional flow signals.]
 
@@ -362,12 +333,10 @@ Section 4 of Detailed Analysis, not here. This section is the universal core.
 | Metric | Value | Read |
 |--------|-------|------|
 | CMP | ₹ | distance from 52w high/low |
-| Market cap | ₹X Cr | mid/small/large cap classification |
-| P/E (trailing) | x | vs sector / peer set |
-| P/E (forward FY[N+1]E) | x | |
+| Market cap | ₹X Cr | |
+| P/E (trailing / forward) | x / x | vs sector |
 | P/B | x | |
-| ROCE | % | |
-| ROE | % | |
+| ROCE / ROE | % / % | |
 | D/E | x | |
 | Dividend yield | % | |
 | Working capital days | | sector context |
@@ -375,97 +344,82 @@ Section 4 of Detailed Analysis, not here. This section is the universal core.
 ### Downside Framework — What Protects Capital?
 
 <!--
-Value investors measure downside through multiple independent lenses.
-Where they converge is the real floor — not the DCF bear case alone.
-
-Four methods:
-1. Asset-based floor (Graham): P/B < 1x = buying below book. Floor = 0.5x book in extreme distress.
-2. Balance sheet survival: Net cash / (annual cash burn) = years of survival. Zero-debt companies
-   have no bankruptcy risk — time is on your side.
-3. Normalized earnings floor: Bad year EBITDA × distress sector multiple. What does the market
-   pay for a similar business in genuine distress?
-4. Strategic/replacement value: What would a rational acquirer pay? Certifications, IP, customer
-   relationships have floors that pure DCF misses.
-
-Risk/Reward summary: state downside %, upside %, and the scenario required for each.
-The bear case should require multiple things to go wrong simultaneously — if it only requires
-one thing, re-examine whether the position is sized correctly.
+Four independent floors; where they converge is the real floor.
+1. Asset-based (Graham): 0.5x book in extreme distress
+2. Balance sheet survival: net cash ÷ burn = years; zero debt = no bankruptcy risk
+3. Normalized earnings: bad-year EBITDA × distress multiple
+4. Strategic/replacement value: what a rational acquirer pays for certifications,
+   IP, customer relationships
+The bear case should require multiple things to go wrong simultaneously.
 -->
 
 | Downside method | Calculation | Floor |
 |----------------|-------------|-------|
-| Asset-based (P/B) | Book value per share × 0.5x (extreme distress) | ₹ |
-| Balance sheet survival | Net cash ₹X Cr · [zero/net] debt · X years runway | [No existential risk / X years] |
+| Asset-based (P/B) | Book ₹__ × 0.5x | ₹ |
+| Balance sheet survival | Net cash ₹X Cr · [zero/net] debt | [No existential risk / X yrs] |
 | Normalized earnings | Bad year EBITDA ₹X Cr × Xx EV/EBITDA | ₹ |
-| Strategic value | IP / certifications / customer relationships floor | ₹ |
+| Strategic value | [IP / certifications / relationships] | ₹ |
 
-**Three methods converge at ₹[X–Y].** Bear case requires [describe multi-factor scenario]. Risk/Reward at ₹[CMP]: downside **-X%** (₹[floor]), upside **+Y%** (₹[base]).
+**Methods converge at ₹[X–Y].** Bear case requires [multi-factor scenario]. At ₹[CMP]: downside **-X%**, upside **+Y%**.
 
 ### When do I sell?
 
 <!--
-Not a generic risk list. 2-3 specific, falsifiable exit triggers.
-Each one follows the structure:
-  IF [observable, measurable event] → BECAUSE [mechanism that breaks thesis] → I EXIT.
-Written so you can check these quarterly against actual data.
-These are NOT price targets — they are fundamental conditions.
+The ONLY exit-trigger list in the document. 2-3 specific, falsifiable conditions:
+IF [observable event] → BECAUSE [mechanism that breaks thesis] → EXIT.
+Fundamental conditions, checked quarterly — the price levels live in Action below.
 -->
 
-1. **[Observable condition]** — because [mechanism that breaks the compounding thesis]. *Source: [where to check quarterly].*
+1. **[Observable condition]** — because [mechanism]. *Source: [where to check quarterly].*
 2. **[Observable condition]** — because [mechanism]. *Source: [where to check].*
 3. **[Observable condition]** — because [mechanism]. *Source: [where to check].*
 
 ### Where does this rank?
 
 <!--
-Portfolio context. Compare risk/reward vs 2-3 alternatives — other holdings
-or watchlist names. This forces intellectual honesty — a stock can be "good"
-but still not worth holding if something else is better.
-
-Answer: "Is this the best use of the next ₹1L of capital?"
-Force the relative comparison. This prevents holding mediocre positions
-out of inertia.
+Compare risk/reward vs 2-3 portfolio alternatives. "Is this the best use of the
+next ₹1L of capital?" Prevents holding mediocre positions out of inertia.
 -->
 
-[Write here — how this compares to alternatives in the portfolio]
+[Write here]
 
 ### Growth Trigger Scan
 
 <!--
 Kamayaka framework: a stock without a visible near-term trigger is speculation.
-Check all 6. Mark which are active. Entry with 2+ triggers = much higher conviction.
+Entry with 2+ triggers = much higher conviction.
 -->
 
 | Trigger | Active? | Evidence |
 |---------|---------|----------|
 | Capacity Expansion (CWIP rising, new plant in 1-2Q) | Yes / No / Watch | |
 | Operating Leverage (margins growing faster than sales) | Yes / No / Watch | |
-| Margin Expansion (sustained improvement 3+ quarters, R&D >5%) | Yes / No / Watch | |
-| Promoter Buying (repeated accumulation ₹1-2 Cr+ over weeks) | Yes / No / Watch | |
+| Margin Expansion (sustained 3+ quarters, R&D >5%) | Yes / No / Watch | |
+| Promoter Buying (repeated accumulation ₹1-2 Cr+) | Yes / No / Watch | |
 | Regulatory/Government Tailwind (PLI, anti-dumping, import ban) | Yes / No / Watch | |
 | Turnaround (debt reduction, new CEO, shedding loss divisions) | Yes / No / Watch | |
 
-**Active triggers:** [list which ones] | **Entry timing:** [1-2Q before trigger fully visible to market]
+**Active triggers:** [list] | **Entry timing:** [1-2Q before trigger fully visible to market]
 
 ### Recent Developments
 
 <!--
-Updated each time new research is done — earnings, concalls, industry news,
-competitor moves, management changes, regulatory shifts.
-Keep to 3-5 bullet points, most recent first. Oldest items rotate out.
-Each bullet: date, what happened, and whether it strengthens/weakens the thesis.
+3-5 bullets, most recent first, oldest rotate out.
+Each: date, what happened, thesis impact (strengthens / weakens / neutral).
 -->
 
-- **[YYYY-MM-DD]:** [What happened — 1-2 lines. Thesis impact: strengthens / weakens / neutral]
-- **[YYYY-MM-DD]:** [...]
+- **[YYYY-MM-DD]:** [What happened. Thesis impact: strengthens / weakens / neutral]
 
 ### Action
 
+<!-- The price ladder — the operational version of the Recommendation block. -->
+
 | Level | Price | Condition |
 |-------|-------|-----------|
-| Buy / Add | ₹ | [Specific trigger — not just "dip" but "Q4 revenue > ₹X AND margin > Y%"] |
-| Hold | ₹ – ₹ | [What needs to play out — specific catalyst or time period] |
-| Trim / Exit | ₹ or condition | [Specific thesis break from "When do I sell?" above] |
+| Buy / Add | below ₹ | [Specific trigger — not "dip" but "Q4 revenue > ₹X AND margin > Y%"] |
+| Hold | ₹ – ₹ | [What needs to play out] |
+| Trim / Sell | above ₹ | [Base-case fair value or bull-case overshoot] |
+| Exit | condition | [Thesis break from "When do I sell?"] |
 
 ---
 
@@ -473,28 +427,18 @@ Each bullet: date, what happened, and whether it strengthens/weakens the thesis.
 ═══════════════════════════════════════════════════════════════════════════
   DETAILED ANALYSIS
 
-  Everything below supports and substantiates the Summary Verdict above.
-  Read the Detailed Analysis when you need to verify assumptions, check
-  data, or update the thesis after new information.
+  Everything below derives and substantiates the Summary Verdict. Each number
+  is computed exactly once here.
 
-  GENERAL ANALYSIS INSTRUCTIONS (apply throughout):
-  1. Always show your math — but weave it into explanations, don't dump
-     formulas without context.
-  2. Be specific with numbers. Not "margins are healthy" — say "EBITDA
-     margin 18.5%, up from 14.2% three years ago, driven by operating
-     leverage on 38% revenue CAGR."
-  3. Distinguish facts from inferences — label opinions as such.
-  4. For earnings calls: extract KEY numbers and management claims first,
-     then evaluate through the multi-bagger lens.
-  5. Be skeptical of management narratives. Cross-reference against
-     financials. If management says "gaining market share" but revenue
-     growth is below industry growth, flag the contradiction.
-  6. For Indian small/mid caps: pay extra attention to promoter quality,
-     related party transactions, and cash flow vs reported profits — the
-     most common failure points.
-  7. Do not default to positive conclusions. Base rate for any stock
-     becoming a multi-bagger is low. Find reasons to REJECT, not believe.
-     If a company survives skepticism, that is a meaningful signal.
+  GENERAL ANALYSIS INSTRUCTIONS:
+  1. Always show your math — woven into explanations, not formula dumps.
+  2. Be specific with numbers.
+  3. Distinguish facts from inferences.
+  4. For earnings calls: extract KEY numbers and claims first, then evaluate.
+  5. Be skeptical of management narratives; cross-reference against financials.
+  6. Indian small/mid caps: promoter quality, related party transactions,
+     cash flow vs reported profits.
+  7. Do not default to positive conclusions — find reasons to REJECT.
 ═══════════════════════════════════════════════════════════════════════════
 -->
 
@@ -505,40 +449,23 @@ Each bullet: date, what happened, and whether it strengthens/weakens the thesis.
 ## Deep Dives
 
 <!--
-This section is for the 1-4 specific questions that need dedicated walk-throughs
-in this stock's story. They live at the START of Detailed Analysis (not buried
-deeper) because they're often the most interesting reading once the reader has
-absorbed the Summary Verdict.
-
-Examples of what belongs here:
-- Plain-English primer on a technical product or technology the company sells
-- Scenario math for an extreme outcome the reader asked about (e.g. "can this 10x?")
-- Market sizing breakdown for a specific opportunity
-- Deep-dive on a regulatory event or catalyst that's load-bearing for the thesis
-- Comparative breakdown vs a specific peer the reader asked to be benchmarked against
-
-Each deep dive should be self-contained — written so it can be read without
-context from the rest of the file. Use letter labels (A, B, C, D) rather than
-numbers to keep them visually distinct from the standard 1-12 sections below.
-
-Skip this section entirely if there are no deep dives — don't leave placeholder
-text in the published file.
+1-4 self-contained walk-throughs specific to this stock's story: a plain-English
+primer on the product/technology, scenario math for an extreme outcome, market
+sizing, a load-bearing regulatory event, a requested peer benchmark.
+Letter labels (A, B, C) to distinguish from numbered sections.
+Skip the section entirely if there are none — no placeholder text.
 -->
 
 ### A. [Question or topic title]
 
 [Self-contained walk-through. Plain English. No scaffolding labels.]
 
-### B. [Question or topic title]
-
-[Self-contained walk-through.]
-
 ---
 
 ## 1. Business Summary
 
-<!-- 3-4 sentences: what does this company do, who are its customers, what's
-its competitive position, what changed recently. Keep factual. -->
+<!-- 3-4 sentences: what the company does, customers, competitive position,
+what changed recently. Factual. -->
 
 
 ---
@@ -546,21 +473,17 @@ its competitive position, what changed recently. Keep factual. -->
 ## 2. Quality Score
 
 <!--
-THRESHOLD CHECKS — Run these first. If any are concerning, flag in the
-Concerns section of Summary Verdict. If multiple are severe, recommend EXIT.
-
-  ✗ Negative FCF for 3+ consecutive years with no clear path to positive
-  ✗ Promoter pledging > 50% of holding OR consistent stake reduction without explanation
-  ✗ Auditor qualification or CARO issues in last 2 financial years
-  ✗ Revenue growth < inflation rate (real decline) while management claims growth
-  ✗ Related party transactions > 10% of revenue with unclear commercial purpose
-  ✗ Cash flow from operations consistently < reported PAT (earnings quality issue)
-
-These are not pass/fail gates — they are concern signals. Multiple flags =
-higher required margin of safety. Severe flags = EXIT recommendation.
+THRESHOLD CHECKS — run first; flag concerns in Summary Concerns. Multiple severe
+flags = EXIT recommendation.
+  ✗ Negative FCF 3+ consecutive years, no clear path to positive
+  ✗ Promoter pledging > 50% OR unexplained consistent stake reduction
+  ✗ Auditor qualification or CARO issues in last 2 FYs
+  ✗ Revenue growth < inflation while management claims growth
+  ✗ Related party transactions > 10% of revenue, unclear purpose
+  ✗ OCF consistently < reported PAT
 -->
 
-**Threshold Checks:** [All clear / Flags noted — list which ones]
+**Threshold Checks:** [All clear / Flags noted — list]
 
 | Dimension | Score (1-5) | Notes |
 |-----------|-------------|-------|
@@ -576,132 +499,57 @@ higher required margin of safety. Severe flags = EXIT recommendation.
 ## 3. Compounding Engine — Q&A
 
 <!--
-NOT a catalyst list. Multi-baggers are driven by ROIC × Reinvestment Rate × Holding Duration.
-
-WRITING STYLE: Each answer should read as a narrative explanation with numbers embedded —
-not a formula dump. The goal is that someone reading Q1-Q5 understands the investment thesis
-as clearly as reading an analyst note. Show the math, but EXPLAIN why the numbers matter.
-
-Good: "EPACK deploys capital at 27% incremental ROIC into India's PEB market where penetration
-is 15% vs 70% globally — meaning the addressable opportunity grows as India industrializes,
-and EPACK captures disproportionate share by being the only player with MNC OEM relationships."
-
-Bad: "ROIC = NOPAT/IC = ₹85/₹315 = 27%. TAM = ₹50,000 Cr. Penetration = 15%."
-
-Both have the same numbers. The first explains WHY they matter.
+Multi-baggers are driven by ROIC × Reinvestment Rate × Holding Duration.
+Each answer reads as narrative with numbers embedded — the reader should
+understand the thesis from Q1-Q5 as clearly as from an analyst note.
 -->
 
 ### Q0. Operating Leverage Test — does growth create margin leverage?
 
-<!--
-Kamayaka: "Operating leverage means margins grow faster than sales — that's the signal."
-If revenue grows 20% but margins are flat, it's volume growth without leverage — weaker business.
-If revenue grows 20% and EBITDA margin expands 200-300bps, the fixed cost base is being leveraged.
-Also check: capacity utilization %. 90%+ = constrained, new capex imminent. 50-60% = room to expand margins without capex.
--->
-
 - Revenue growth (TTM vs 3yr avg): [X]%
 - EBITDA margin now vs 3 years ago: [X]% → [Y]% ([+/-Z bps])
-- **Operating leverage present?** [Yes — margins expanding faster than revenue / No — flat margins on volume growth]
-- Capacity utilization (if manufacturing): [X]% → [constrained / room to grow / expanding]
-- CWIP trend (Fixed Assets + CWIP, last 4 quarters): [rising / flat / declining] → [capex cycle starting/peaking/ending]
+- **Operating leverage present?** [Yes / No]
+- Capacity utilization (if manufacturing): [X]% → [constrained / room to grow]
+- CWIP trend (last 4 quarters): [rising / flat / declining] → [capex cycle phase]
 
----
+### Q1. Is incremental ROIC genuinely high (>20%) — and structural, not cyclical?
 
-### Q1. Is incremental ROIC genuinely high (>20%) — and is it structural, not cyclical?
+[2-3 sentences on WHY this business earns high returns — the structural mechanism.
+Then the math: NOPAT, Invested Capital, incremental ROIC over 2-3 years.
+End with what would break it.]
 
-<!--
-The engine. Without this, nothing compounds. Start with WHY this business earns
-high returns, then show the ROIC math to prove it. Don't lead with the formula —
-lead with the explanation.
+### Q2. How much capital can be redeployed at these returns — the reinvestment runway?
 
-Example flow: "Banco earns 30%+ ROIC because gasket manufacturing is an asset-light
-business where 60% of revenue is replacement demand (non-discretionary) and raw material
-(cork, rubber) is <40% of cost. The math: NOPAT ₹294 Cr on invested capital of ₹953 Cr
-= 30.8% incremental ROIC."
--->
-
-[Start with 2-3 sentences explaining WHY this business earns high returns — the structural mechanism.
-Then show the math: NOPAT calculation, Invested Capital, Incremental ROIC over 2-3 years.
-End with what would break this — the honest check.]
-
----
-
-### Q2. How much capital can be redeployed at these returns — what's the reinvestment runway?
-
-<!--
-The fuel. TAM is a crude proxy. The real question: how much capital can this
-business absorb at high returns before diminishing returns kick in?
-
-Write as narrative: "India's PEB penetration is 15% vs 70%+ globally, meaning the market
-itself grows as India industrializes. EPACK retains 85% of earnings and deploys ₹200 Cr/year
-into capacity expansion..."
--->
-
-[Explain the reinvestment opportunity as a story — what is the market size, where is penetration
-today, how much room exists, and how fast can this company deploy capital into that opportunity.
-Include: reinvestment rate, capital deployment numbers, and runway estimate with the binding constraint.]
-
----
+[Narrative: market size, penetration today, how much capital the business can
+absorb at high returns, reinvestment rate, runway estimate with the binding constraint.]
 
 ### Q3. What's the implied compounding math?
 
-<!--
-Sanity check. Does the math produce a realistic multi-bagger timeline?
-Write as: "If EPACK retains 85% of earnings and earns 27% on that capital, intrinsic value
-compounds at ~23% per year. Over 5 years that's a 2.8x — and if the market re-rates from
-18x to 22x as execution proves out, total return approaches 3.5x."
--->
-
-[Connect reinvestment rate × ROIC → implied growth. Then extend to multi-bagger math:
-how many years, what entry/exit multiple assumption, and what total return that implies.
-End with smell test — is this growth rate sustainable given industry/capacity constraints?]
-- Entry multiple [X]x → exit multiple [X]x (re-rating / de-rating assumption) → **total return [N]x**
-
-**Smell test:** [Yes/No and why. If implied growth >30% for >5 years, what specifically sustains it?]
-
----
+[Reinvestment rate × ROIC → implied growth → multi-bagger math: years, entry/exit
+multiple, total return. Smell test: if implied growth >30% for >5 years, what
+specifically sustains it? These growth rates feed the Multi-Bagger Math table.]
 
 ### Q4. What breaks the thesis?
 
-<!--
-Honesty check. NOT a generic risk list — identify the ONE thing that would cause
-ROIC to permanently decline below cost of capital. Specific and falsifiable.
--->
-
-**The compounding breaks if:** [1 sentence — specific, falsifiable. E.g. "SEBI caps distribution commissions below 50bps, collapsing AMC unit economics" or "Boeing halts 737 MAX production for >6 months, removing 40% of aerospace revenue"]
-
-**Leading indicator I'd see before the stock price tells me:** [specific metric — order book decline rate, quarterly ROIC trend, customer concentration shift, management capital allocation change]
-
----
+**The compounding breaks if:** [1 sentence — specific, falsifiable.]
+**Leading indicator I'd see before the stock price tells me:** [specific metric.]
 
 ### Q5. Can I hold through a 40% drawdown? What's my conviction anchor?
 
-<!--
-The human variable. A stock that 20-bags over 15 years will have 3-5 gut-wrenching
-30-50% drawdowns. Your anchor must be rooted in economics (Q1-Q3), not price action.
-Write the sentence you'd re-read when the stock is -40% and Twitter says "thesis broken."
--->
-
 **My conviction anchor (the sentence I re-read at -40%):**
-> [1 sentence grounded in ROIC × runway math. E.g. "KERNEX has ₹3,268 Cr of signed orders at 35%+ ROIC — the revenue is contractually committed regardless of price action."]
+> [1 sentence grounded in ROIC × runway math.]
 
-**What I will NOT do in a drawdown:** [buy more / sell / hold — state max position size and why]
+**What I will NOT do in a drawdown:** [buy more / sell / hold — max size and why]
 
 ---
 
-## 4. Operating Metrics & Sector-Specific Detail
+## 4. Sector-Specific Operating Detail
 
 <!--
-Note: Core financial metrics (10-yr P&L, balance sheet, cash flow, quarterly
-trend, shareholding, snapshot ratios) live in Summary Verdict → Key Metrics
-& Trends. Section 4 here is for supplementary / sector-specific detail that
-doesn't fit there.
-
-Examples: order book composition, capacity utilisation by plant, AUM split,
-geographic mix, walk-the-talk track record, segment-level P&L breakdowns.
-
-Skip this section entirely if all relevant metrics are already in Summary Verdict.
+ONLY metrics not already in Summary Key Metrics: order book composition, capacity
+utilisation by plant, AUM split, geographic mix, segment-level P&L. Do NOT repeat
+the quarterly trend, P&L history, or ratio tables. Skip the section if nothing
+sector-specific applies.
 -->
 
 ### Key Operating Metrics (sector-specific)
@@ -711,7 +559,6 @@ Skip this section entirely if all relevant metrics are already in Summary Verdic
 | [e.g. Order Book (Cr)] | | | | | |
 | **Capacity Utilization %** | | | | | |
 | **Fixed Assets + CWIP (Cr)** | | | | | |
-| [e.g. Working Capital Days] | | | | | |
 | [e.g. Exports % / Domestic %] | | | | | |
 
 ### Promoter Activity (last 8 quarters)
@@ -720,9 +567,8 @@ Skip this section entirely if all relevant metrics are already in Summary Verdic
 |---------|-----------|--------|--------------------------|--------|
 | Q[N] | | | | |
 | Q[N-1] | | | | |
-| Q[N-2] | | | | |
 
-**Assessment:** [Accumulating / Stable / Reducing — and interpretation]
+**Assessment:** [Accumulating / Stable / Reducing — interpretation]
 
 ### Walk the Talk — Guidance vs Actuals
 
@@ -730,69 +576,8 @@ Skip this section entirely if all relevant metrics are already in Summary Verdic
 |---------|------------------------|------------------------|----------|
 | Q[N-1] | | | |
 | Q[N-2] | | | |
-| Q[N-3] | | | |
 
 **Management credibility score:** [Strong / Moderate / Weak] — [1 sentence]
-
-### CAGRs
-
-| Period | Revenue CAGR | PAT CAGR | EPS CAGR |
-|--------|-------------|---------|---------|
-| 3-Year | | | |
-| 5-Year | | | |
-
-### Quarterly Trend (last 6 quarters)
-<!-- 6 quarters = 1.5 years of trend — enough to spot margin direction and seasonality -->
-
-| Quarter | Revenue (Cr) | EBITDA Margin % | Net Profit (Cr) | Key comment |
-|---------|-------------|-----------------|----------------|-------------|
-| Q[N] FY[Y] | | | | |
-| Q[N-1] | | | | |
-| Q[N-2] | | | | |
-| Q[N-3] | | | | |
-| Q[N-4] | | | | |
-| Q[N-5] | | | | |
-
----
-
-## 4b. Outlook — Base Estimate + Sensitivity
-
-<!--
-PURPOSE: Derive the most plausible outcome from HARD DATA, then show what changes the answer.
-NOT three invented scenarios. ONE data-derived base + sensitivity on 1-2 key variables.
-
-PRIMARY DRIVER — pick the ONE metric that determines revenue:
-  - Order-book business  → backlog ÷ execution rate = revenue timeline
-  - Capacity-constrained → capacity × utilisation × ASP = revenue ceiling
-  - Scheme/TAM           → disbursement pace × market share = revenue floor
-  - Market penetration   → industry CAGR × market share trajectory
-  - Recurring/annuity    → installed base × ARPU growth
--->
-
-**Horizon:** FY[XX] — [reason]
-
-**Primary driver:** [ORDER BOOK / CAPACITY / TAM / INSTALLED BASE]
-
-[2-3 sentences: what is the hard number, what does it mathematically imply for the target year. Every claim must cite a source — concall, BSE filing, industry report.]
-
-| Input | Observable Data | Target Year Implied |
-|-------|----------------|---------------------|
-| [e.g. Order book] | [₹X Cr] | Revenue ₹___ Cr |
-| [e.g. Execution rate] | [₹X Cr/quarter trailing avg] | Revenue CAGR ___% |
-| [e.g. OPM trajectory] | [Z% now → W% target] | PAT ₹___ Cr |
-
-**Base Fair Value:** ₹___ (P/E [X]x on ₹[Y] PAT) → **[+/-__% vs CMP]**
-
-### Key Sensitivities
-
-| Variable | If worse → Fair Value | If better → Fair Value | What to watch |
-|----------|-----------------------|------------------------|---------------|
-| [e.g. Execution pace] | ₹___ (-__%) | ₹___ (+__%) | [Quarterly delivery data] |
-| [e.g. OPM / margins] | ₹___ (-__%) | ₹___ (+__%) | [Concall OPM guidance] |
-
-**Risk/reward:** Downside __% / Upside __%  → [asymmetric upside / symmetric / unfavourable]
-
-**The one thing that makes the base case wrong:** [1 sentence]
 
 ---
 
@@ -802,95 +587,77 @@ PRIMARY DRIVER — pick the ONE metric that determines revenue:
 - **Owner Earnings (PAT + D&A − maintenance capex, TTM):** ₹ Cr
 - **Current earnings (PAT TTM):** ₹ Cr — Source: Screener.in → P&L
 
+### 5.1 — Primary Driver & Parameters
+
 <!--
-STEP 1 — Pick method from Quality Score (Section 2):
-  Grade A (20-25): Owner Earnings multiple — skip DCF, go straight to justified multiple
-  Grade B (15-19): Quality-adjusted DCF — use dimension scores to set parameters
-  Grade C (10-14): Graham floor — require 40% margin of safety, no growth credit
-  Grade D (<10):   Asset / NAV value only — do not credit future earnings
+Derive the base estimate from HARD DATA — one primary driver, not invented scenarios:
+  Order-book business  → backlog ÷ execution rate
+  Capacity-constrained → capacity × utilisation × ASP
+  Scheme/TAM           → disbursement pace × market share
+  Market penetration   → industry CAGR × share trajectory
+  Recurring/annuity    → installed base × ARPU growth
+Every claim cites a source (concall, BSE filing, industry report).
 
-STEP 2 — Set parameters from dimension scores (Grade B/A):
-  r (discount rate):   Financials 5→11% / 4→12% / 3→13% / 2→14% / 1→15%
-  Terminal growth (g): Sector default ± MOAT score (5→+2%, 4→+1%, 3→0, 2→-1%, 1→-2%)
-  FCF/PAT %:           Management 5→90% / 4→82% / 3→75% / 2→65% / 1→55%
-  Projection years (n): Growth Runway 5→8yr / 4→6yr / 3→5yr / 2→4yr / 1→3yr
-
-STEP 3 — Use Section 4b growth rates. Do not invent new ones here.
+Then set model parameters from the Quality Score:
+  Method by grade: A → Owner Earnings multiple | B → Quality-adjusted DCF |
+                   C → Graham floor (40% MOS, no growth credit) | D → Asset/NAV only
+  r: Financials 5→11% / 4→12% / 3→13% / 2→14% / 1→15%
+  Terminal g: sector default ± MOAT score (5→+2% … 1→-2%)
+  FCF/PAT: Management 5→90% / 4→82% / 3→75% / 2→65% / 1→55%
+  n: Growth Runway 5→8yr / 4→6yr / 3→5yr / 2→4yr / 1→3yr
+Growth rates come from Q3 — do not invent new ones here.
 -->
 
-### 5.1 — Valuation Parameters
+**Primary driver:** [ORDER BOOK / CAPACITY / TAM / INSTALLED BASE]
+
+| Input | Observable Data | Target Year Implied |
+|-------|----------------|---------------------|
+| [e.g. Order book] | [₹X Cr] | Revenue ₹___ Cr |
+| [e.g. Execution rate] | [₹X Cr/qtr trailing] | Revenue CAGR ___% |
+| [e.g. OPM trajectory] | [Z% → W%] | PAT ₹___ Cr |
 
 **Method:** [Owner Earnings multiple / Quality-adjusted DCF / Graham floor / Asset NAV] — Grade [X]
 
 | Parameter | Value | Derivation |
 |-----------|-------|------------|
-| **g** (sustainable earnings growth) | [X]% | Reinvestment Rate [X]% × ROIC [X]% = [X]% (from Q3 Compounding Engine) |
-| **n** (runway duration) | [X] years | From Q2 Compounding Engine — [specific constraint] |
-| **r** (required return) | [X]% | Financials score [X/5] → [X]%; typical range 12-15% for Indian equities |
-| **Terminal Multiple** | [X]x P/E | [15-20x if business still growing at end of runway; 10-12x if mature/commodity] |
-| **FCF/PAT conversion** | [X]% | Management score [X/5] |
+| **g** | [X]% | Reinvestment [X]% × ROIC [X]% (from Q3) |
+| **n** | [X] yrs | From Q2 — [binding constraint] |
+| **r** | [X]% | Financials score [X/5] |
+| **Terminal Multiple** | [X]x | [growing at end of runway → 15-20x; mature → 10-12x] |
+| **FCF/PAT** | [X]% | Management score [X/5] |
 
-**Quick reverse DCF (implied growth at current price):**
-```
-At current P/E = X, r = X%, n = X years, Terminal Multiple = Xx:
-  Implied g ≈ X%
-  Shortcut: if P/E < Terminal Multiple → market implies g < r (low growth priced in)
-```
+### 5.2 — Reverse DCF & Margin of Safety
 
----
+<!-- The ONLY home for the reverse-DCF math. Summary restates the conclusion. -->
 
-### 5.2 — Margin of Safety Assessment
-
-**Reverse DCF — what growth rate is the market implying at current price?**
-- Market Cap: ₹[X] Cr | TTM PAT: ₹[X] Cr | Current P/E: [X]x
-- At r=[X]%, n=[X] years, Terminal Multiple=[X]x → **Implied g = [X]%**
-- Is this reasonable? [Yes/No — compare to Section 3 Q3 compounding math]
-- Gap between implied growth ([X]%) and estimated actual growth ([X]%) = **[X]pp. This is the margin of safety.**
-
-**What could go wrong (top 2-3 risks):**
-
-| Risk | Mechanism | Impact on earnings | Bear case value |
-|------|-----------|-------------------|-----------------|
-| [Risk 1] | [How it breaks ROIC] | PAT drops to ₹X Cr | ₹Y/share ([Z]% drawdown) |
-| [Risk 2] | [Mechanism] | | |
-| [Risk 3] | [Mechanism] | | |
-
-**If the biggest risk materialises:** [1 sentence describing worst single-risk scenario and its implied price]
-
----
+- Market Cap ₹[X] Cr | TTM PAT ₹[X] Cr | Current P/E [X]x
+- At r=[X]%, n=[X] yrs, Terminal Multiple=[X]x → **Implied g = [X]%**
+- Our estimate (Q3): [Y]% → **gap = [X]pp — this is the margin of safety.**
+- Reasonable? [Yes/No — vs Q3 compounding math]
 
 ### 5.3 — Position Sizing
 
 <!--
-Score each phase to arrive at overall conviction.
-Phase 1 = Threshold Checks (Section 2)
-Phase 2 = Compounding Engine — ROIC + Runway (Section 3, Q1-Q3)
-Phase 3 = Management + Financials (Section 3 Q4-Q5 + Section 4)
-Phase 4 = Competitive Landscape (Section 6)
-
-  All 4 phases strong → High conviction → 5-10% position
-  1 phase weak        → Moderate conviction → 2-5% position
-  2+ phases weak      → Speculative → 1-2% position or watchlist only
+Phase 1 = Threshold Checks | Phase 2 = Compounding Engine (Q1-Q3)
+Phase 3 = Management + Financials (Q4-Q5, Section 4) | Phase 4 = Competitive (Section 6)
+All 4 strong → 5-10% | 1 weak → 2-5% | 2+ weak → SPECULATIVE 1% or AVOID
 -->
 
 | Phase | Assessment | Strong / Moderate / Weak |
 |-------|-----------|--------------------------|
-| Threshold Checks | [Clear/Flagged + note] | |
-| Compounding Engine (ROIC + Runway) | [Strong ROIC / Weak runway / etc.] | |
-| Management + Financials | [Cash flow quality / Promoter / Earnings clarity] | |
-| Competitive Landscape | [Widening moat / Stable / Narrowing] | |
+| Threshold Checks | | |
+| Compounding Engine | | |
+| Management + Financials | | |
+| Competitive Landscape | | |
 
-- **Conviction level:** High / Moderate / Speculative
-- **Recommended position size:** [X-Y]%
-- **Current position:** [X]%
-- **Action:** [At sizing; Add on dips below ₹X; Trim above ₹Y; Exit if Z]
-
----
+- **Conviction:** High / Moderate / Speculative
+- **Recommended size:** [X-Y]% | **Current position:** [X]%
+- **Prices:** see the Action ladder in Summary Verdict — do not restate here.
 
 ### 5.4 — Valuation Models
 
 #### Model 1: DCF / Owner Earnings Multiple
-*Parameters from 5.1 | Growth rates from Section 4b*
+*Parameters from 5.1 | Growth rates from Q3*
 
 | Scenario | PAT Growth (Y1→Yn) | Terminal Multiple | Fair Value | vs CMP |
 |----------|--------------------|-------------------|------------|--------|
@@ -898,7 +665,7 @@ Phase 4 = Competitive Landscape (Section 6)
 | Base | | [X]x | ₹ | % |
 | Bull | | [X]x | ₹ | % |
 
-#### Model 2: P/B-ROE *(for capital-light, stable-ROE businesses)*
+#### Model 2: P/B-ROE *(capital-light, stable-ROE businesses)*
 *Book Value: ₹ | CoE: [X]% | g: [X]%*
 
 | Scenario | Sustainable ROE | Justified P/B | Fair Value | vs CMP |
@@ -907,7 +674,7 @@ Phase 4 = Competitive Landscape (Section 6)
 | Base | % | x | ₹ | % |
 | Bull | % | x | ₹ | % |
 
-#### Synthesis
+#### Synthesis & Sensitivity
 
 | | DCF / OE | P/B-ROE | Weight | Rationale |
 |---|---|---|---|---|
@@ -915,14 +682,17 @@ Phase 4 = Competitive Landscape (Section 6)
 | Base | ₹ | ₹ | | |
 | Bull | ₹ | ₹ | | |
 
-**Verdict:** [Undervalued / Fair / Expensive] — [1 sentence: which model drives it and why]
+| Variable | If worse → FV | If better → FV | What to watch |
+|----------|---------------|----------------|---------------|
+| [e.g. Execution pace] | ₹___ (-__%) | ₹___ (+__%) | [Quarterly delivery data] |
+| [e.g. OPM] | ₹___ (-__%) | ₹___ (+__%) | [Concall guidance] |
+
+**Verdict:** [Undervalued / Fair / Expensive] — [1 sentence: which model drives it]
+**The one thing that makes the base case wrong:** [1 sentence]
 
 **"What needs to be true for 5x in [N] years?"**
-- FY[XX] PAT target: ₹ Cr (at ____% CAGR)
-- Exit multiple: [X]x P/E — justification: [still growing / mature / peers at X]
+- FY[XX] PAT target: ₹ Cr (at ____% CAGR) | Exit multiple: [X]x — [justification]
 - Probability: [Low / Medium / High] because ____
-
----
 
 ### 5.5 — Additional Valuation Checks
 
@@ -930,39 +700,36 @@ Phase 4 = Competitive Landscape (Section 6)
 ```
 PEG = P/E ÷ Forward EPS Growth %
 Current P/E: [X]x | Forward growth: [Y]% | PEG = [Z]x
-PEG <1.0 = undervalued vs growth | 1-2 = fair | >2.0 = fully priced
+<1.0 undervalued vs growth | 1-2 fair | >2.0 fully priced
 ```
-**Assessment:** [Undervalued / Fair / Fully priced] — [1 sentence]
+**Assessment:** [1 sentence]
 
-**P/S Sanity Check** (especially useful for thin-margin or pre-profit companies):
+**P/S Sanity Check** (thin-margin or pre-profit companies):
 
 | EBITDA Margin | Fair P/S | Current P/S | Assessment |
 |---------------|----------|-------------|------------|
-| [X]% (current) | [Y]x | [Z]x | [Cheap / Fair / Expensive] |
+| [X]% | [Y]x | [Z]x | [Cheap / Fair / Expensive] |
 
-*Reference: 1-10% margin → 0.5-1x P/S; 15-20% → 2-4x; 25-30% → 8-10x; 30%+ → 10x+*
-
-**If P/S exceeds the band for current margins**, the stock is pricing in a margin improvement — state explicitly: "Market is pricing in margin expansion to [X]% — what's the evidence this happens?"
+*Reference: 1-10% margin → 0.5-1x; 15-20% → 2-4x; 25-30% → 8-10x; 30%+ → 10x+*
+If P/S exceeds the band, the market is pricing in margin expansion — state the evidence.
 
 ---
 
 ## 6. Competitive Landscape
 
 ### Market Position
-<!-- 3-5 sentences: which specific segment, who are direct competitors (not adjacent),
-addressable market size + this company's share, price/quality/niche positioning, geographic scope -->
+<!-- 3-5 sentences: segment, direct competitors, addressable market + share,
+positioning, geographic scope -->
 
 
 ### Structural Advantages vs Peers
 
-<!-- For each advantage: WHAT it is → WHY competitors can't replicate it →
-QUANTIFIED EFFECT on margins/ROCE/working capital.
-"Strong brand" is not an advantage. "Brand commands 15% price premium vs peers,
-evidenced by OPM 30% vs industry 15%" is. -->
+<!-- WHAT → WHY competitors can't replicate → QUANTIFIED effect on margins/ROCE/WC.
+"Strong brand" is not an advantage; "brand commands 15% price premium, OPM 30% vs
+industry 15%" is. -->
 
-1. **[Advantage]:** [What] → [Replication barrier] → [Quantified: OPM delta, ROCE delta, WC days, pricing evidence]
+1. **[Advantage]:** [What] → [Replication barrier] → [Quantified effect]
 2. **[Advantage]:** ...
-3. **[Advantage]:** ...
 
 ### Peer Comparison
 
@@ -971,7 +738,6 @@ evidenced by OPM 30% vs industry 15%" is. -->
 | Revenue (Cr) | | | | | |
 | Revenue CAGR 3yr | | | | | |
 | OPM % | | | | | |
-| Net Margin % | | | | | |
 | ROCE % | | | | | |
 | D/E | | | | | |
 | P/E | | | | | |
@@ -981,43 +747,41 @@ evidenced by OPM 30% vs industry 15%" is. -->
 
 ### Why Multiples Differ + Re-rating Thesis
 
-**{This stock} at [X]x vs {Peer} at [Y]x:**
-- [Specific reason — mechanism, not generic statement]
-- [Specific reason]
+**{This stock} at [X]x vs {Peer} at [Y]x:** [specific mechanisms]
 
-**Re-rating thesis:** If [specific condition], multiple expands from [X]x → [Y]x. At current earnings that alone = [Z]% price upside. Combined with [A]% PAT CAGR → total return [X+A]% over [N] years.
+**Re-rating thesis:** If [condition], multiple expands [X]x → [Y]x = [Z]% upside on flat earnings. Combined with [A]% PAT CAGR → total return over [N] years.
 
 ### Competitive Dynamics
 
-- **Market share trend:** Gaining / Losing / Stable — evidence: [revenue CAGR vs industry CAGR / order book growth]
-- **Primary competitive threat:** [Specific company or technology] because [mechanism]. Probability: [Low/Medium/High].
-- **Key vulnerability:** [1-2 specific weaknesses — customer concentration, import dependency, regulatory exposure]
+- **Market share trend:** Gaining / Losing / Stable — evidence: [revenue CAGR vs industry]
+- **Primary threat:** [Company or technology] because [mechanism]. Probability: [L/M/H].
+- **Key vulnerability:** [customer concentration, import dependency, regulatory exposure]
 - **Policy tailwind/headwind:** [PLI, anti-dumping, mandates, price caps]
 
 ---
 
 ## 7. Risks
 
-| Risk | Probability | Impact | Mitigation |
-|------|-------------|--------|------------|
-| | | | |
-| | | | |
+<!--
+The single full risk table for the document (Summary Concerns holds the highlights).
+Each risk: the mechanism by which it breaks earnings, and the bear-case value it implies.
+-->
+
+| Risk | Probability | Mechanism (how it breaks ROIC/earnings) | Impact on PAT | Bear value ₹/share |
+|------|-------------|------------------------------------------|---------------|--------------------|
+| | | | | |
+| | | | | |
+
+**If the biggest risk materialises:** [1 sentence — worst single-risk scenario and implied price]
 
 ---
 
-## 8. Exit Triggers
-<!-- Each trigger must be specific and measurable — not "thesis weakens" -->
-
-- [ ] [Specific, measurable — e.g. "Revenue growth falls below 15% for 2 consecutive quarters"]
-- [ ] [Specific trigger]
-- [ ] [Specific trigger]
-
-## 9. Review Schedule
+## 8. Review Schedule
 
 - **Next quarterly check:** YYYY-MM-DD
 - **Key events to watch:**
 
-## 10. Decision History
+## 9. Decision History
 
 | Date | Action | Price | Quantity | Reasoning |
 |------|--------|-------|----------|-----------|
@@ -1025,88 +789,40 @@ evidenced by OPM 30% vs industry 15%" is. -->
 
 ---
 
-## 11. Research Log
-
-*New learnings, commentary, and thesis updates — most recent first.*
-*Full edit history: `git log research/{SYMBOL}.md`*
-
-### YYYY-MM-DD — Initial thesis
--
--
-
-### YYYY-MM-DD — {Event / Quarterly results / New insight}
--
-
----
-
-## Update History
+## 10. Research Log
 
 <!--
-Single chronological log. No v1.0 / v1.1 / v2 framing — there is one living thesis,
-edited in place over time. Each entry: date + 1-2 lines on what changed and why.
-
-Only meaningful changes go here (recommendation change, score change, major data
-update from quarterly results, thesis pivot). Cosmetic edits do not.
-
-For major rewrites, archive the prior file to `research/archive/{SYMBOL}_{YYYY-MM-DD}.md`
-and add a line here pointing to it.
+Single chronological log, most recent first — merges the old Research Log and
+Update History. Every entry is dated; entries that change the call carry an
+explicit "Changed:" line (grade, recommendation, price ladder). Keep ALL entries —
+never condense or delete (see .claude/rules/research-log-format.md); merge findings
+into the relevant main sections with source refs as well.
+For major rewrites, archive the prior file to research/archive/{SYMBOL}_{DATE}.md
+and note it here.
 -->
 
-| Date | Update |
-|------|--------|
-| YYYY-MM-DD | Initial research note. Grade X (Y/25). [Recommendation + position size + key call]. [Optional: link to archive if this replaces a prior version.] |
+### YYYY-MM-DD — Initial thesis
+- [Findings]
+- **Changed:** Initial — Grade X (Y/25), [recommendation + price ladder]
+
+### YYYY-MM-DD — {Event / Quarterly results / New insight}
+- [Findings, with sources]
+- **Changed:** [grade / recommendation / ladder change — or "no change"]
 
 ---
 
 ## Glossary — Key Industry Terms
 
 <!--
-Add plain-English explanations for every industry-specific term used in this research.
-No assumed knowledge. Write as if the reader has never encountered this industry before.
-Rule: if a term appears in the thesis, it must be explained here.
-
-Examples of what belongs here:
-- Industry-specific products (what is a "casting", a "wagon", a "CDMO", a "PEB")
-- Certifications and regulatory bodies (what is RDSO, G-105, CDSCO, BIS)
-- Business model terms specific to this sector (what is "job-work", "EXIM", "working capital days")
-- Technical processes the moat depends on (what is "fluorination", "backward integration")
-
-Do NOT define generic finance terms here (P/E, ROIC, EBITDA) — those belong in the analysis
-itself, explained in context, per Instruction 10.
+Plain-English explanation for every industry-specific term used in this research —
+products, certifications, regulatory bodies, sector business-model terms, technical
+processes the moat depends on. If a term appears in the thesis, it must be here.
+Do NOT define generic finance terms (P/E, ROIC, EBITDA) — those are explained in
+context per Instruction 10.
 -->
 
 **[Term 1]**
-[Plain-English explanation — what it is physically, why it matters for this company, in 2-4 sentences]
+[What it is physically, why it matters for this company — 2-4 sentences]
 
 **[Term 2]**
 [Plain-English explanation]
-
----
-
-## TEMPLATE ADDITIONS — PROMOTED ACTIVE (last reviewed 2026-05-10)
-
-**Status:** The market-label-vs-reality table is binding for all research notes (validated on NCDEX, MSEI, ADOR). Physical re-integration into the main template body is scheduled but cosmetic; content here is active.
-
-### Market label vs business reality (universal)
-
-The "what was true at the bottom" table inside the Stress Test currently triggers only for turnarounds. The universal version applies to every note — pure growth stories included, where some rows may legitimately read "n/a" or "consensus aligned."
-
-| Question | Answer |
-|---|---|
-| What is the market currently pricing this stock on? | [The headline metric or narrative consensus is anchored to] |
-| What does segment / operating data actually show? | [The hidden direction visible in segment, volume, disbursement, or unit-level data] |
-| What is the bear narrative? | [The dominant negative case — not a strawman, the actual one being voiced] |
-| Is the bear narrative root cause still active in today's business? | [Yes / No — explain specifically. If yes, the bear case is fighting today's war, not yesterday's] |
-| What is the regulatory or structural equalizer in motion? | [Named change with implementation timeline; or "none identified"] |
-| What is the label-change catalyst? | [Specific event that flips consensus; or "n/a — quality compounder bet, no re-rating expected"] |
-
-### Pre-existing capability (required bullet in Strengths)
-
-In the Strengths block above, one bullet must name the specific physical thing already built that the thesis depends on. The test is whether the bullet survives without abstractions:
-
-- "Strong management" — fails
-- "Sanjay Gupta with 27 years in steel and proven M&A integration of Apollo Metalex 2007 and Shri Lakshmi 2008" — passes
-- "Large addressable market" — fails
-- "1.3 MTPA installed capacity with DFT lines across 5 plants and 600+ dealer network" — passes
-
-If the thesis-critical capability cannot be stated concretely — if the bet is on capability that management still has to build — flag the position as venture-grade and cap size accordingly.

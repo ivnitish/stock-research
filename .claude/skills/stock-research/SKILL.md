@@ -30,6 +30,7 @@ Institutional-quality, Munger-philosophy research for stocks. Combines:
 4. **Every number must carry an inline source tag** `[Source: URL, date]`.
 5. If a number cannot be sourced after 2 attempts, write "data unavailable" — never estimate.
 6. **Writing quality:** Bull/bear/compounding sections must read as analyst narratives — weave numbers into cause-effect explanations, not formulaic template-filling.
+7. **Recommendations carry prices, never "tracking".** The allowed set is BUY / BUY REDUCED / BUY AT ₹X / HOLD / TRIM / EXIT / SPECULATIVE / AVOID (see CLAUDE.md Phase 5.3). TRACKING POSITION and bare WATCHLIST are not recommendations.
 
 ---
 
@@ -73,6 +74,34 @@ Institutional-quality, Munger-philosophy research for stocks. Combines:
 | News (last 90 days) | ET Markets, Mint, Business Standard | CNBCTV18, Moneycontrol |
 | Peer comparison (≥3 peers) | `trendlyne.com/equity/[TICKER]/` peers section | Screener.in |
 | Analyst consensus target | Trendlyne analyst section | `web_search` |
+
+### Step 2.5 — Segment & Insider Depth Pull (always)
+
+Three additional fetches, produced as artifacts BEFORE analysis begins. The framework requires computing segment ROIC, checking insider activity, and watching promoter movement — these get skipped when there's no explicit fetch step producing them first.
+
+1. **Segment data, 3 years.** Annual report segment note — segment revenue and segment PBIT broken out separately. Often at the back of the AR under "Segment Reporting." The consolidated P&L is not a substitute.
+2. **Insider trading disclosures, 12 months.** BSE corporate filings → Insider Trading Disclosure section. Pull all transactions, classify as ESOP / open-market buy / open-market sell / pledge change / off-market transfer.
+3. **Promoter shareholding, 8 quarters.** BSE shareholding pattern history. Track the trajectory and reconcile any quarter-on-quarter movement above 2% to a stated reason.
+
+### Step 2.6 — Distribution / Capability Density Pull (conditional)
+
+**Run when the thesis is forward-driven** — capex absorbing margin, mix shift in early innings, distribution still building — i.e., any candidate for the CLAUDE.md Phase 0.6 trigger. Skip otherwise.
+
+Three additional fetches:
+
+1. **Investor presentations, latest 4 quarters.** Look specifically for:
+   - Dealer / distributor / outlet count (Astral, Cera, KEI report this)
+   - Geographic territory or store count (Varun Beverages bottling lines, retail businesses)
+   - Capacity utilization percentage and CWIP details
+2. **Segment mix percentage, 5 years.** From AR segment notes — specialty/commodity, premium/standard, retail/institutional, export/domestic. Compute year-over-year change in basis points.
+3. **Capex commissioning timeline.** From concall transcripts — when does CWIP convert to operating capacity, and what is the expected ROIC on the deployed capital based on prior cycles.
+
+Compute three rates:
+- Distribution density growth rate (YoY % change)
+- Mix-shift rate (bps per year for last 3 years)
+- Capacity utilization trajectory (rising / plateaued / declining)
+
+Record in the research log. If any rate is below the Phase 4.5.5 kill signal threshold, flag immediately.
 
 ### Step 3 — Analysis
 
@@ -166,6 +195,8 @@ Save to `research/[TICKER].md` using `research/_TEMPLATE.md` as structural guide
 
 ### Step 6 — Quality Checklist (mandatory before delivering)
 
+#### A. Every research note, always
+
 - [ ] CMP is real ₹ number with date — NOT from Screener.in or Yahoo Finance
 - [ ] Every figure has `[Source: URL, date]` tag
 - [ ] Quality scorecard has notes for every dimension
@@ -176,13 +207,30 @@ Save to `research/[TICKER].md` using `research/_TEMPLATE.md` as structural guide
 - [ ] Research log entry with today's date added
 - [ ] Bull/bear sections read as narratives, not formula-filling
 - [ ] Second-order stress test completed (5-Whys + world-state at 2 and 5 years)
-- [ ] **Multi-Bagger Pattern checklist** (from multibagger_patterns.md — run for any BUY or TRACKING POSITION candidate):
-  - [ ] Organized market share in sub-segment computed (not just total market share)
-  - [ ] Pending regulatory equalizer identified (GST-type, BIS, FSSAI, licensing) or confirmed absent
-  - [ ] Segment-level revenue CAGR computed separately from consolidated headline
-  - [ ] Bear case root cause verified: does it apply to the *current* business model or a prior one?
-  - [ ] For capex-heavy businesses: prior capex cycle ROIC verified before treating flat PAT as structural
-  - [ ] Operator prior domain experience checked (not just current company tenure)
+- [ ] 3-year segment revenue CAGR computed separately from consolidated headline (Pattern 6)
+- [ ] 5-year promoter holding trajectory reviewed; movements >2% reconciled with stated reason
+- [ ] 5-year ROIC trend pulled (not just current)
+- [ ] 3-year operating margin trend pulled — to detect permanent compression vs capex absorption vs one-time recovery
+- [ ] Pre-existing capability named: the specific physical thing (plant, license, certification, code, brand) already built that the thesis depends on
+- [ ] Market label written explicitly: what consensus calls this, what we call it, what flips the label
+- [ ] Kill signals checked (insider distribution, structural margin compression, active bear-case root cause, prior capex sub-10% ROIC, single-customer >40%, pledge >50%, audit qualification)
+- [ ] Recommendation is one of BUY / BUY REDUCED / BUY AT ₹X / HOLD / TRIM / EXIT / SPECULATIVE / AVOID, with explicit price levels (entry, add-below, trim/sell target, thesis-break exit). No TRACKING POSITION, no bare WATCHLIST, no "interesting, worth watching"
+
+#### B. Any BUY or BUY AT ₹X candidate (Multi-Bagger Pattern checklist, from multibagger_patterns.md)
+
+- [ ] Organized market share in sub-segment computed (not just total market share)
+- [ ] Pending regulatory equalizer identified (GST-type, BIS, FSSAI, licensing) or confirmed absent
+- [ ] Bear case root cause verified: does it apply to the *current* business model or a prior one?
+- [ ] For capex-heavy businesses: prior capex cycle ROIC verified before treating flat PAT as structural
+- [ ] Operator prior domain experience checked (not just current company tenure)
+
+#### C. Premium-quality compounder pattern only (Phase 0.6 entries — requires Step 2.6 done)
+
+- [ ] Distribution density growth rate computed (>20% / 15-20% / <15% / declining)
+- [ ] Mix-shift rate computed in basis points per year (>200bps / 100-200bps / <100bps / flat or reversing)
+- [ ] Capacity utilization current % + CWIP trajectory noted
+- [ ] If trailing P/E uninformative, forward PEG computed with defended forward EPS CAGR
+- [ ] Phase 4.5.5 kill signals checked
 
 ---
 
@@ -220,59 +268,6 @@ Save to `research/[TICKER].md` using `research/_TEMPLATE.md` as structural guide
 
 ---
 
-## SKILL ADDITIONS — PROMOTED ACTIVE (last reviewed 2026-05-10)
+## CHANGELOG
 
-**Status:** Validated through NCDEX, MSEI, ADOR. These steps are now binding for all research notes. Physical re-integration into the main step list is scheduled but cosmetic; content here is active framework.
-
-**Promoted from 2026-05-05:** Step 2.5, Step 6 checklist additions
-**New (added 2026-05-10):** Step 2.6, Step 6 checklist for premium-quality compounder pattern
-
-### Step 2.5 — Segment & insider depth pull
-
-Between Step 2 (data fetch) and Step 3 (analysis). Three additional fetches the current workflow doesn't require:
-
-1. **Segment data, 3 years.** Annual report segment note — segment revenue and segment PBIT broken out separately. Often at the back of the AR under "Segment Reporting." The consolidated P&L is not a substitute.
-2. **Insider trading disclosures, 12 months.** BSE corporate filings → Insider Trading Disclosure section. Pull all transactions, classify as ESOP / open-market buy / open-market sell / pledge change / off-market transfer.
-3. **Promoter shareholding, 8 quarters.** BSE shareholding pattern history. Track the trajectory and reconcile any quarter-on-quarter movement above 2% to a stated reason.
-
-The framework already says to compute segment ROIC, check insider activity, and watch promoter movement. These get skipped because there's no explicit fetch step producing them as artifacts before analysis begins.
-
-### Step 6 checklist — additions
-
-Add to the existing checklist:
-
-- [ ] 3-year segment revenue CAGR computed separately from consolidated headline (Pattern 6)
-- [ ] 5-year promoter holding trajectory reviewed; movements >2% reconciled with stated reason
-- [ ] 5-year ROIC trend pulled (not just current)
-- [ ] 3-year operating margin trend pulled — to detect permanent compression vs capex absorption vs one-time recovery
-- [ ] Pre-existing capability named: the specific physical thing (plant, license, certification, code, brand) already built that the thesis depends on
-- [ ] Market label written explicitly: what consensus calls this, what we call it, what flips the label
-- [ ] Kill signals checked (insider distribution, structural margin compression, active bear-case root cause, prior capex sub-10% ROIC, single-customer >40%, pledge >50%, audit qualification)
-
-### Step 2.6 — Distribution / capability density pull (added 2026-05-10)
-
-Required for any business where the thesis is forward-driven (capex absorbing margin, mix shift in early innings, distribution still building) — i.e., any candidate for the Phase 0.6 trigger.
-
-Three additional fetches:
-
-1. **Investor presentations, latest 4 quarters.** Look specifically for:
-   - Dealer / distributor / outlet count (Astral, Cera, KEI report this)
-   - Geographic territory or store count (Varun Beverages bottling lines, retail businesses)
-   - Capacity utilization percentage and CWIP details
-2. **Segment mix percentage, 5 years.** From AR segment notes — specialty/commodity, premium/standard, retail/institutional, export/domestic. Compute year-over-year change in basis points.
-3. **Capex commissioning timeline.** From concall transcripts — when does CWIP convert to operating capacity, and what is the expected ROIC on the deployed capital based on prior cycles.
-
-Compute three rates:
-- Distribution density growth rate (YoY % change)
-- Mix-shift rate (bps per year for last 3 years)
-- Capacity utilization trajectory (rising / plateaued / declining)
-
-Record in the research log. If any rate is below the Phase 4.5.5 kill signal threshold, flag immediately.
-
-### Step 6 checklist — additions for premium-quality compounder pattern
-
-- [ ] Distribution density growth rate computed (>20% / 15-20% / <15% / declining)
-- [ ] Mix-shift rate computed in basis points per year (>200bps / 100-200bps / <100bps / flat or reversing)
-- [ ] Capacity utilization current % + CWIP trajectory noted
-- [ ] If trailing P/E uninformative, forward PEG computed with defended forward EPS CAGR
-- [ ] Phase 4.5.5 kill signals checked
+- **2026-07-06:** Applied v2 (user-approved): re-integrated the 2026-05-05/2026-05-10 "PROMOTED ACTIVE" additions into the main flow (Steps 2.5/2.6, Step 6 blocks A-C; one duplicate item merged). TRACKING POSITION removed from the recommendation set — replaced by BUY AT ₹X price alerts and mandatory price ladders (pre-flight rule 7, Step 6-A final item). See docs/proposals/SKILL_stock-research_v2.md.

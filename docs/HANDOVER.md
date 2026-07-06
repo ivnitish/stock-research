@@ -69,8 +69,7 @@ These were added to `CLAUDE.md` and `research/_TEMPLATE.md` — every new resear
 3. **Recommendation Decision Matrix — fixes "no buy" bias:**
    - BUY (5-8%): Grade A/B + asymmetry >3x + MOS >20%
    - BUY REDUCED (3-5%): Grade A/B + asymmetry 2-3x
-   - TRACKING POSITION (1-2%): Grade A/B + strong thesis + asymmetry 1.5-2x
-   - WATCHLIST: price too high, asymmetry <1.5x
+   - BUY AT ₹X (0% now, standing price alert): price too high — name the exact level where asymmetry ≥2x + MOS threshold met. TRACKING POSITION and bare WATCHLIST were removed 2026-07-05 (user directive)
    - AVOID: Grade C/D
    - "Interesting, worth watching" is NOT a recommendation — must give specific action + size
 
@@ -213,7 +212,7 @@ Portfolio data is visible in browser, hidden in PDFs — safe to share with anyo
 
 ---
 
-## Watchlist — entry conditions
+## Buy-at alerts — entry prices (formerly "watchlist")
 
 | Stock | Grade | CMP (Apr 26) | Entry Zone | Key condition |
 |-------|-------|-------------|-----------|---------------|
@@ -300,7 +299,7 @@ Portfolio data is visible in browser, hidden in PDFs — safe to share with anyo
 5. **Over-relying on P/E** — for capital-light businesses (exchanges, software), P/E understates quality; check ROCE and FCF yield
 6. **Ignoring working capital deterioration** — expanding debtor days on a growing business can signal collection problems
 7. **Promoter stake decline** — always check if secondary sale (bad), ESOP (neutral), or family restructuring (clarify)
-8. **Defaulting to WATCHLIST** — if a business is Grade B and asymmetry is 2x+, give it a TRACKING POSITION at minimum
+8. **Defaulting to "add to watchlist"** — not a recommendation (2026-07-05 directive). Grade B + asymmetry 2x+ = BUY REDUCED with a size; price too high = BUY AT ₹X with the exact trigger level. Every note ends in prices: entry, add-below, trim-above, exit condition
 
 ---
 

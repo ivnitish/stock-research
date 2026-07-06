@@ -1,5 +1,15 @@
 # Research System — TODO
-*Last updated: 2026-07-05*
+*Last updated: 2026-07-06*
+
+---
+
+## ✅ Completed — 2026-07-06 (framework v2 applied + telegram jobs finalized)
+
+- **SKILL.md v2 APPLIED (user approved "apply all"):** appendix re-integrated into main flow (Steps 2.5/2.6, checklist blocks A/B/C), changelog added.
+- **No tracking positions / no watchlist recos — applied everywhere:** CLAUDE.md Phase 5.3 matrix replaced (BUY / BUY REDUCED / BUY AT ₹X / HOLD / TRIM / EXIT / SPECULATIVE / AVOID, four price levels required), OUTPUT FORMAT + Instruction 8 updated, SKILL.md pre-flight rule 7 + checklist item added, HANDOVER matrix bullet + pitfall 8 updated, watchlist section renamed "Buy-at alerts". User's directive: "either build conviction around buying, or when to enter and when to exit" — every note now ends in explicit prices.
+- **_TEMPLATE.md consolidated (Addendum B applied):** scenario math 4→1 table (Multi-Bagger Math), reverse DCF 3→1 (5.2), quarterly-trend and CAGRs duplicates deleted, Exit Triggers section deleted (Summary "When do I sell?" is the single home), risks 4→2 (Concerns + Section 7 table with bear values), market-label tables 2→1 universal, Research Log + Update History merged, Action table is now the price ladder, template appendix deleted. ~30-35% shorter reports.
+- **Telegram: daily NEWS only (user preference).** Evening price-digest launchd job removed (script kept for on-demand). Remaining jobs: nightly-filings 21:12, daily-news 08:42 (morning-news full-run + buy-at alert check).
+- **FY25-26 booked profit reconciled: ₹56,623** (GROWW +₹1.50L, NETFSILVER −₹59K, SUZLON −₹26K). IRR pending: account predates Apr-2024 order export — need order history from inception + Apr-Jul 2026 data (Groww MCP fetch scheduled post limit-reset).
 
 ---
 

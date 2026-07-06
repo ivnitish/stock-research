@@ -283,20 +283,21 @@ Asymmetry ratio < 1x: do not buy regardless of margin of safety number
 
 ### 5.3 — Recommendation Decision Matrix
 
-This is where analysis becomes action. The recommendation must be specific and actionable — not "interesting" or "worth watching." The output of every research note is one of these five actions, with a position size:
+This is where analysis becomes action. The recommendation must be specific and actionable — not "interesting" or "worth watching." Every recommendation carries explicit price levels: what to pay now, where to add, where to trim or sell, and the condition that breaks the thesis. There are no tracking positions (removed 2026-07-05, user directive): either buy at a defensible price, or name the exact price at which you would.
 
-| Situation | Recommendation | Position Size | Logic |
-|-----------|---------------|---------------|-------|
-| Grade A/B + asymmetry ratio >3x + MOS >20% | **BUY** | 5-8% of portfolio | Best possible situation — price, quality, and asymmetry all aligned |
-| Grade A/B + asymmetry ratio 2-3x + MOS 10-20% | **BUY (reduced)** | 3-5% | Good situation — quality business at fair to slightly cheap price |
-| Grade A/B + asymmetry ratio 1.5-2x + strong thesis | **TRACKING POSITION** | 1-2% | Thesis is strong, price is above ideal, but don't miss the business entirely |
-| Grade A/B + asymmetry ratio <1.5x | **WATCHLIST** | 0% — set price alert | Too expensive; wait for either a better price or earnings growth to close the gap |
-| Grade C + MOS >40% | **SPECULATIVE** | 1% maximum, hard exit rules | Known flaws compensated by price; treat as trading position |
-| Grade C/D + any price | **AVOID** | 0% | Business quality cannot be fixed by price |
+| Situation | Recommendation | Required price levels |
+|-----------|---------------|----------------------|
+| Grade A/B + asymmetry ratio >3x + MOS >20% | **BUY** (5-8% of portfolio) | Entry at ≤CMP; add-below price; trim/sell target at base-case fair value; thesis-break exit condition |
+| Grade A/B + asymmetry ratio 2-3x + MOS 10-20% | **BUY REDUCED** (3-5%) | Same four levels |
+| Grade A/B, price too high (asymmetry <2x) | **BUY AT ₹X** (0% now — standing price alert) | The specific price where asymmetry ≥2x AND the grade's MOS threshold are met; recompute after each quarterly print |
+| Held position, thesis intact | **HOLD** | Add-below price; trim-above price (base-case fair value); exit condition |
+| Held position, price ≥ bull case or thesis degraded | **TRIM / EXIT at ₹Y** | Specific level or observable condition |
+| Grade C + MOS >40% | **SPECULATIVE** (1% max, hard exit rules) | Entry, stop, target |
+| Grade C/D otherwise | **AVOID** (0%) | Business quality cannot be fixed by price |
 
-**The tracking position is not a compromise — it is a deliberate decision.** When a Grade A or B business is above ideal entry but the thesis is clear and asymmetry is still 1.5x+, refusing to own any of it is a mistake. A 1-2% position gives you skin in the game, forces you to follow it closely, and allows you to build to full size on dips. "Watchlist only" means you will never buy — because by the time it reaches your target price, you'll find a new reason to wait.
+**BUY AT ₹X is a standing order, not a euphemism for "watching".** The old argument for tracking positions was that watchlists never convert — by the time the price arrives, you find a new reason to wait. The fix is precision, not a token 1-2% position: BUY AT ₹X commits to a specific level, computed from the same asymmetry and margin-of-safety math as a live BUY, recorded in the index and watchlist tables where the daily and weekly loops check it. When the price prints, the decision is already made; the only question at that point is whether a quarterly result has changed the math.
 
-**The critical rebalance to Instruction 8:** Instruction 8 says "do not default to positive conclusions." That is correct. But the equal and opposite error is defaulting to WATCHLIST or AVOID as a safe middle ground. That is paralysis wearing the costume of discipline. If a business is genuinely good and the price gives reasonable asymmetry, the recommendation must say BUY or TRACKING POSITION with a specific size. A research note that concludes "interesting, worth watching" has told you nothing actionable.
+**The critical rebalance to Instruction 8:** Instruction 8 says "do not default to positive conclusions." That is correct. But the equal and opposite error is defaulting to AVOID or a vague "wait for a better price" as a safe middle ground. That is paralysis wearing the costume of discipline. If a business is genuinely good, the recommendation must say BUY with a size, or BUY AT ₹X with the exact trigger price. A research note that concludes "interesting, worth watching" has told you nothing actionable.
 
 ### 5.4 — Additional Valuation Checks (Kamayaka Framework)
 
@@ -357,9 +358,9 @@ Always use `research/_TEMPLATE.md` as the structural guide. The output has two l
 
 ### Layer 1: Summary Verdict (~1-2 pages, read this first)
 
-- **Recommendation block** (required — must be one of: BUY / BUY REDUCED / TRACKING POSITION / WATCHLIST / SPECULATIVE / AVOID):
-  - State the action, position size (%), core bet in plain English, expected return and timeline, and the one condition that would change the recommendation.
-  - Do not write "interesting at lower levels" or "worth watching" — these are not recommendations.
+- **Recommendation block** (required — must be one of: BUY / BUY REDUCED / BUY AT ₹X / HOLD / TRIM / EXIT / SPECULATIVE / AVOID):
+  - State the action, position size (%), core bet in plain English, expected return and timeline, and the full price ladder: entry (or the BUY AT trigger price), add-below, trim/sell target, thesis-break exit condition.
+  - Do not write "interesting at lower levels" or "worth watching" — these are not recommendations. TRACKING POSITION does not exist.
 
 - **Classification**: Multi-Bagger Candidate / Quality Compounder / Fairly Valued / Overvalued / Exit
   - Classification = Quality Score (A/B/C/D) × Return Potential (from Multi-Bagger Math table)
@@ -423,7 +424,7 @@ Decision History, Research Log, Version History.
 
    The base rate for any stock becoming a multi-bagger is low. Your job is to find reasons to reject, not believe. If a company survives hard scrutiny, that is a meaningful signal — and you should say so clearly with a specific buy recommendation and position size.
 
-   The equal and opposite error is refusing to commit. "Interesting, worth watching" is not a conclusion — it is analytical paralysis wearing the costume of discipline. If a business is genuinely good and the price gives reasonable asymmetry (upside 2x the downside), the recommendation must be BUY or TRACKING POSITION with a specific size.
+   The equal and opposite error is refusing to commit. "Interesting, worth watching" is not a conclusion — it is analytical paralysis wearing the costume of discipline. If a business is genuinely good and the price gives reasonable asymmetry (upside 2x the downside), the recommendation must be BUY with a specific size — or, if the price isn't there yet, BUY AT ₹X with the exact trigger level.
 
    A good investor is decisive in both directions: willing to say AVOID clearly when quality is poor, and willing to say BUY clearly when quality and price align. The goal is not to avoid being wrong — it is to make well-reasoned bets where the asymmetry is in your favour. Being wrong on a well-reasoned bet is acceptable. Refusing to make any bet is not investing.
 
