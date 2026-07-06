@@ -14,6 +14,8 @@ Zero new framework content. This is a reorganization of existing, already-valida
 
 Approve → I copy the content below over the live SKILL.md and commit. Reject/edit → tell me what to change.
 
+**Addenda (added 2026-07-06, also awaiting approval):** Addendum A (kill TRACKING POSITION, price-ladder recommendations) and Addendum B (template consolidation — the "junk reduction") at the bottom of this document.
+
 ---
 
 # PROPOSED SKILL.md CONTENT
@@ -291,3 +293,51 @@ Save to `research/[TICKER].md` using `research/_TEMPLATE.md` as structural guide
 ## CHANGELOG
 
 - **2026-07-05:** Re-integrated the 2026-05-05/2026-05-10 "PROMOTED ACTIVE" additions (validated via NCDEX, MSEI, ADOR) into the main flow: Steps 2.5/2.6 into the India workflow, checklist additions into Step 6 blocks A-C. No content changes; one duplicate checklist item merged.
+
+---
+
+# ADDENDUM A — Recommendation format: no tracking positions (user directive 2026-07-05)
+
+Applies to CLAUDE.md Phase 5.3, the _TEMPLATE.md Recommendation block, and Step 6 of this skill.
+
+**TRACKING POSITION is removed as an allowed recommendation.** The user's direction: every note ends in a decision with explicit prices — either buy now, or name the price at which to buy; for held positions, name the price at which to add and the price/condition at which to sell. No 1-2% toehold positions.
+
+**New recommendation set (replaces the Phase 5.3 matrix rows):**
+
+| Situation | Recommendation | Required price levels |
+|-----------|---------------|----------------------|
+| Grade A/B + asymmetry >3x + MOS >20% | **BUY** (5-8%) | Entry now at ≤₹CMP; add-below price; sell/trim target at base-case fair value; thesis-break exit condition |
+| Grade A/B + asymmetry 2-3x + MOS 10-20% | **BUY REDUCED** (3-5%) | Same four levels |
+| Grade A/B, price too high (asymmetry <2x) | **BUY AT ₹X** (0% now, price alert) | The specific price where asymmetry ≥2x + MOS threshold is met; recompute after each quarterly print |
+| Held position, thesis intact | **HOLD** | Add-below price; trim-above price (base-case fair value); exit condition |
+| Held position, price ≥ bull case or thesis degraded | **TRIM / EXIT at ₹Y** | Specific level or condition |
+| Grade C + MOS >40% | **SPECULATIVE** (1% max, hard exit rules) | Entry, stop, target |
+| Grade C/D otherwise | **AVOID** | — |
+
+The old matrix's argument for tracking positions ("watchlist means you'll never buy") is answered by BUY AT ₹X being a standing order with a concrete trigger, not a vague "wait for a better price" — every BUY AT ₹X must appear in the index and the watchlist table with its price, and the daily/weekly loops check it.
+
+Related memory updates: `feedback_no_default_tracking` becomes "no tracking positions at all — BUY / BUY AT price / HOLD with targets / TRIM / EXIT / AVOID only."
+
+---
+
+# ADDENDUM B — Template consolidation ("junk reduction"), for _TEMPLATE.md
+
+The template has grown to ~1,100 lines and reports duplicate the same content in 3-4 places. Proposed merges — no analytical content lost, each fact stated once:
+
+**1. Scenario/valuation math: 4 places → 2.** Multi-Bagger Math (Summary) stays as the single scenario table. Section 4b (Outlook base + sensitivity) MERGES into Section 5 — its "primary driver" derivation becomes the input to 5.4's models instead of a parallel scenario exercise. The 5.4 Synthesis table absorbs 4b's sensitivity rows. One derivation chain: driver → models → scenario table.
+
+**2. Reverse DCF: 3 places → 1.** Currently in Summary ("What does the market think"), 5.1 ("Quick reverse DCF"), and 5.2. Keep the math once in 5.2; Summary keeps only the one-paragraph conclusion (implied X% vs our Y%, the gap is the edge).
+
+**3. Quarterly trend table: 2 places → 1.** Exact duplicate in Summary Key Metrics AND Section 4. Delete the Section 4 copy. Section 4's "CAGRs" table also derivable from the Summary P&L table — delete.
+
+**4. Exit conditions: 2 places → 1.** Summary "When do I sell?" and Section 8 "Exit Triggers" are the same list twice. Keep Summary; Section 8 deleted.
+
+**5. Risks: 4 places → 2.** Concerns (Summary) + Q4 "what breaks the thesis" + 5.2 risk table + Section 7 risk table. Keep Concerns (summary highlights) and ONE risk table (Section 7, absorbing 5.2's bear-case-value column). Q4 stays but as a single sentence + leading indicator (it already is).
+
+**6. Market-label tables: 2 → 1.** The appendix "universal" label table supersedes the turnaround-only "What was true at the bottom" table (same rows plus two). Keep the universal one inside the Stress Test; delete the turnaround variant and the template appendix (same treatment as the SKILL appendix).
+
+**7. Logs: 3 → 2.** Decision History (trades) stays. Research Log and Update History merge into one dated Research Log — each entry can carry a "changed: grade/reco/price" line where relevant.
+
+**8. Action table gains the price ladder.** The Summary Action table becomes the Addendum A ladder (add-below / hold band / trim-above / exit condition) — and 5.3's duplicate "Action" line is deleted, pointing there instead.
+
+**Net effect:** ~30-35% shorter reports, every number stated once, Summary Verdict remains the decision layer and Detailed Analysis the evidence layer. Sections kept as-is: Deep Dives, Compounding Q&A (Q0-Q5), Downside Framework, Growth Trigger Scan, Competitive Landscape, Glossary.
