@@ -42,7 +42,7 @@ Notes:
 ### Scheduled Jobs (launchd, added Jul 2026)
 Two macOS launchd agents (plists in `~/Library/LaunchAgents/`, scripts in `scripts/`). launchd runs missed jobs on wake, unlike cron.
 - `com.nitish.stocks.nightly-filings` → `scripts/nightly_filings_cron.sh` — weekdays 21:12 IST, fetches BSE filings for all portfolio companies (zero Claude tokens). Log: `data/logs/nightly_filings.log`
-- `com.nitish.stocks.daily-news` → `scripts/daily_news_cron.sh` — weekdays 08:42 IST, headless Claude run: morning news brief for holdings (Telegram ping + GitHub issue in full-run mode) + watchlist entry-zone check (web-sourced CMPs, no broker MCPs). Log: `data/logs/daily_news.log`
+- `com.nitish.stocks.daily-news` → `scripts/daily_news_cron.sh` — weekdays 08:42 IST with retry slots at 11:42/14:42/17:42/20:42 (each run no-ops once the day's brief succeeds — stamp file `data/logs/daily_news_last_success`; lock dir prevents overlap). Headless Claude run: morning news brief for holdings (Telegram ping + GitHub issue) + buy-at alert check (web-sourced CMPs, no broker MCPs). Log: `data/logs/daily_news.log`
 - (removed 2026-07-06, user preference: news over price movements) `scripts/daily_portfolio_telegram.py` still works on demand — `venv/bin/python3 scripts/daily_portfolio_telegram.py` sends a portfolio EOD digest to Telegram from official NSE/BSE bhavcopy closes, zero Claude tokens
 
 Manage: `launchctl list | grep nitish.stocks` · trigger now: `launchctl kickstart gui/$(id -u)/<label>` · disable: `launchctl bootout gui/$(id -u)/~/Library/LaunchAgents/<label>.plist`

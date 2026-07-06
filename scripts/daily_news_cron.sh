@@ -1,6 +1,8 @@
 #!/bin/zsh
-# Daily portfolio news brief — runs Claude Code headlessly via launchd.
-# Schedule: weekdays 08:42 IST. Mac must be awake (launchd runs missed jobs on wake).
+# Daily portfolio news brief — headless Claude via launchd, with retry-until-success.
+# Schedule: weekdays 08:42, then retry slots 11:42 / 14:42 / 17:42 / 20:42 IST.
+# Each run no-ops if today's brief already succeeded (stamp file), so the brief
+# is delivered exactly once per day even if early runs die on the session limit.
 #
 # Permission note: bypassPermissions is required for unattended runs (WebSearch,
 # file writes, gh issue, Telegram ping all need it). Scope of damage is limited
@@ -8,24 +10,45 @@
 
 REPO="/Users/nitish/stocks automation"
 LOG_DIR="$REPO/data/logs"
+STAMP="$LOG_DIR/daily_news_last_success"
+LOCK="$LOG_DIR/daily_news.lock"
 mkdir -p "$LOG_DIR"
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+
+TODAY=$(date '+%Y-%m-%d')
+
+# Already delivered today → nothing to do.
+if [[ -f "$STAMP" && "$(cat "$STAMP")" == "$TODAY" ]]; then
+  exit 0
+fi
+
+# Another instance still running (e.g. overlapping retry slot) → skip.
+if ! mkdir "$LOCK" 2>/dev/null; then
+  echo "$(date '+%Y-%m-%d %H:%M:%S') skipped: another run in progress" >> "$LOG_DIR/daily_news.log"
+  exit 0
+fi
+trap 'rmdir "$LOCK" 2>/dev/null' EXIT
 
 PROMPT='Run the morning-news skill in full-run mode (last-24h news per holding;
 on Mondays cover the weekend too).
 
-Then add a "Watchlist Entry Zones" section to docs/MORNING_BRIEF.md: read the
-watchlist table in docs/HANDOVER.md, fetch current CMP for each watchlist stock
-from Tickertape or the Google Finance card via web search (do NOT use Groww MCP
+Then add a "Buy-at Alerts" section to docs/MORNING_BRIEF.md: read the buy-at
+alerts table in docs/HANDOVER.md, fetch current CMP for each stock from
+Tickertape or the Google Finance card via web search (do NOT use Groww MCP
 or Kite MCP — they are on-demand only and unreliable headless; never use
 Screener.in or Yahoo Finance for CMP), and flag any stock trading inside its
-entry zone.
+buy zone.
 
 Follow all repo rules in CLAUDE.md and .claude/rules/. Never fabricate prices —
 if a CMP cannot be fetched, write "data unavailable".'
 
 {
-  echo "===== $(date '+%Y-%m-%d %H:%M:%S') daily news brief ====="
+  echo "===== $(date '+%Y-%m-%d %H:%M:%S') daily news brief (attempt) ====="
   cd "$REPO" && claude -p "$PROMPT" --permission-mode bypassPermissions
-  echo "===== done: exit $? ====="
+  RC=$?
+  echo "===== done: exit $RC ====="
+  if [[ $RC -eq 0 ]]; then
+    echo "$TODAY" > "$STAMP"
+    echo "===== stamped success for $TODAY ====="
+  fi
 } >> "$LOG_DIR/daily_news.log" 2>&1
