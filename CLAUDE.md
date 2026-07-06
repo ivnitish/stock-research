@@ -287,13 +287,15 @@ This is where analysis becomes action. The recommendation must be specific and a
 
 | Situation | Recommendation | Required price levels |
 |-----------|---------------|----------------------|
-| Grade A/B + asymmetry ratio >3x + MOS >20% | **BUY** (5-8% of portfolio) | Entry at ≤CMP; add-below price; trim/sell target at base-case fair value; thesis-break exit condition |
-| Grade A/B + asymmetry ratio 2-3x + MOS 10-20% | **BUY REDUCED** (3-5%) | Same four levels |
+| Grade A/B + asymmetry ratio >3x + MOS >20% | **BUY** (initiate 5-8%, build to 15-20% core) | Entry at ≤CMP; add-below price(s) on the path to core weight; trim/sell target at base-case fair value; thesis-break exit condition |
+| Grade A/B + asymmetry ratio 2-3x + MOS 10-20% | **BUY REDUCED** (3-5%, build to 8-10%) | Same four levels |
 | Grade A/B, price too high (asymmetry <2x) | **BUY AT ₹X** (0% now — standing price alert) | The specific price where asymmetry ≥2x AND the grade's MOS threshold are met; recompute after each quarterly print |
 | Held position, thesis intact | **HOLD** | Add-below price; trim-above price (base-case fair value); exit condition |
 | Held position, price ≥ bull case or thesis degraded | **TRIM / EXIT at ₹Y** | Specific level or observable condition |
 | Grade C + MOS >40% | **SPECULATIVE** (1% max, hard exit rules) | Entry, stop, target |
 | Grade C/D otherwise | **AVOID** (0%) | Business quality cannot be fixed by price |
+
+**Core positions above 15% are the goal, not the exception (user directive 2026-07-06).** The book targets 5-8 positions with the highest-conviction names above 15% each — a 35% portfolio CAGR is not produced by twenty 3% positions. The table's entry sizes are starting points, not ceilings: every BUY must name its add-path to core weight — the specific prices or confirming events (a quarterly print validating the thesis, an order-book conversion, a margin inflection) at which the position scales from 5-8% toward 15-20%. Two guardrails: only Grade A/B businesses with a verified compounding engine (Phase 1 math shown, not asserted) qualify for >15%, and SPECULATIVE positions never scale regardless of how well they perform — they exit or get re-underwritten as a fresh BUY.
 
 **BUY AT ₹X is a standing order, not a euphemism for "watching".** The old argument for tracking positions was that watchlists never convert — by the time the price arrives, you find a new reason to wait. The fix is precision, not a token 1-2% position: BUY AT ₹X commits to a specific level, computed from the same asymmetry and margin-of-safety math as a live BUY, recorded in the index and watchlist tables where the daily and weekly loops check it. When the price prints, the decision is already made; the only question at that point is whether a quarterly result has changed the math.
 

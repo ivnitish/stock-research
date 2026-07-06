@@ -97,7 +97,7 @@ CLASSIFICATION SYSTEM — Two independent axes:
 ═══════════════════════════════════════════════════════════════════════════
 -->
 
-> **Recommendation:** [BUY (5-8%) / BUY REDUCED (3-5%) / BUY AT ₹X / HOLD / TRIM at ₹Y / EXIT / SPECULATIVE (1% max) / AVOID]
+> **Recommendation:** [BUY (initiate 5-8% → build to 15-20% core) / BUY REDUCED (3-5% → 8-10%) / BUY AT ₹X / HOLD / TRIM at ₹Y / EXIT / SPECULATIVE (1% max, never scales) / AVOID]
 > [2-4 lines: What is the core bet in plain language. What's the expected return
 > and timeline. What's the one thing to watch.]
 > **Price ladder:** Buy/Add below ₹__ · Hold ₹__–₹__ · Trim/Sell above ₹__ · Exit if [thesis-break condition].

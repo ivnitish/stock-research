@@ -67,8 +67,8 @@ These were added to `CLAUDE.md` and `research/_TEMPLATE.md` — every new resear
 2. **Margin of Safety — explicit required calculation:** MOS = (Base Case − CMP) / Base Case. Asymmetry ratio = upside% / downside%. Ratio >2x = good bet. Required in every Summary Verdict.
 
 3. **Recommendation Decision Matrix — fixes "no buy" bias:**
-   - BUY (5-8%): Grade A/B + asymmetry >3x + MOS >20%
-   - BUY REDUCED (3-5%): Grade A/B + asymmetry 2-3x
+   - BUY (initiate 5-8%, build to 15-20% core via named add-path): Grade A/B + asymmetry >3x + MOS >20%. Cores >15% are the goal — 5-8 positions total (2026-07-06 directive)
+   - BUY REDUCED (3-5%, build to 8-10%): Grade A/B + asymmetry 2-3x
    - BUY AT ₹X (0% now, standing price alert): price too high — name the exact level where asymmetry ≥2x + MOS threshold met. TRACKING POSITION and bare WATCHLIST were removed 2026-07-05 (user directive)
    - AVOID: Grade C/D
    - "Interesting, worth watching" is NOT a recommendation — must give specific action + size
