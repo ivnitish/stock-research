@@ -22,6 +22,17 @@ if [[ -f "$STAMP" && "$(cat "$STAMP")" == "$TODAY" ]]; then
   exit 0
 fi
 
+# Cloud routine may have already delivered today's brief (full-mode
+# morning-news opens a GitHub issue "Morning News YYYY-MM-DD"). If the issue
+# exists, stamp and stand down — local slots are only the fallback.
+CLOUD_ISSUE=$(gh issue list --repo ivnitish/stock-research \
+  --search "Morning News $TODAY in:title" --state all --json number --jq 'length' 2>/dev/null)
+if [[ "$CLOUD_ISSUE" == <-> && "$CLOUD_ISSUE" -ge 1 ]]; then
+  echo "$TODAY" > "$STAMP"
+  echo "$(date '+%Y-%m-%d %H:%M:%S') cloud brief already delivered today (issue found) — standing down" >> "$LOG_DIR/daily_news.log"
+  exit 0
+fi
+
 # Another instance still running (e.g. overlapping retry slot) → skip.
 if ! mkdir "$LOCK" 2>/dev/null; then
   echo "$(date '+%Y-%m-%d %H:%M:%S') skipped: another run in progress" >> "$LOG_DIR/daily_news.log"
