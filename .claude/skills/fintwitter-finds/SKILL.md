@@ -119,18 +119,11 @@ PDF attached with full metrics per pick.
 | `output/pdf/FINTWITTER_FINDS_YYYY-MM-DD.pdf` | Telegram attachment |
 | `data/logs/fintwitter_finds.log` | Cron log |
 
-## Scheduler
+## Scheduler (this Mac only)
 
-LaunchAgent: `~/Library/LaunchAgents/com.nitish.stocks.fintwitter-finds.plist`
-- Runs **every day** 09:15 IST
-- Retries 18:15 IST if morning run failed
-- Stamp file prevents duplicate sends: `data/logs/fintwitter_finds_last_success`
-
-Reload after edits:
-```bash
-launchctl unload ~/Library/LaunchAgents/com.nitish.stocks.fintwitter-finds.plist
-launchctl load   ~/Library/LaunchAgents/com.nitish.stocks.fintwitter-finds.plist
-```
+`~/Library/LaunchAgents/com.nitish.stocks.fintwitter-finds.plist` → `scripts/daily_fintwitter_cron.sh`
+- Every day 09:15 IST; retries 18:15 if morning failed
+- Stamp: `data/logs/fintwitter_finds_last_success`
 
 ## Rules
 
