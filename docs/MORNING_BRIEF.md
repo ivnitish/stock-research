@@ -36,6 +36,18 @@
 
 Silent (no material news last 24h): EPACKPEB, RAYMOND (AGM Jul 14 procedural), THRIVE, ARTEMISMED (AGM Jul 31; BRSR filed Jul 7 — procedural), GRSE, BANCOINDIA, SAKSOFT (₹0.55 dividend, ex-date Jul 30 — previously announced), ETERNAL, SHILCTECH, NESCO, NWIL, ZENTEC (results Jul 27), DREDGECORP, PATELSAI, STLNETWORK.
 
+## Buy-at Alerts
+(from docs/HANDOVER.md buy-at table; CMP as of Jul 8, 2026 — Tickertape / Google Finance / Business Today)
+
+| Stock | Grade | Entry Zone | CMP (Jul 8) | Status |
+|-------|-------|-----------|-------------|--------|
+| IEX | B (18/25) | <₹120 | ₹121.4 | **Near zone** — 1.2% above trigger; a weak session puts it in the buy zone |
+| KALYANICASTTECH | B- (15/25) | <₹450 | ₹748.75 | Above zone (66% above trigger) — stock has re-rated well past the Apr 26 CMP of ~₹665 |
+| REDINGTON | C (10/25) | <₹180 | ₹268.60 | Above zone |
+| MVGJL | C (11/25) | <₹150 + OCF positive 2Q | ₹152.63 | Above zone — price is 1.8% from trigger but the OCF condition is unverified; price alone doesn't fire this alert |
+
+No stock is inside its buy zone today. IEX is the one to watch — ₹121.4 vs the ₹120 trigger (52-week low ₹114.6, so the zone is realistic). Note the HANDOVER entry zones still reference "tracking" levels for IEX (<₹130) and KALYANICASTTECH (<₹550) — tracking positions were removed per the 2026-07-05 directive, so only the full-entry levels are shown here.
+
 ## Macro
 
 ### India
