@@ -1,5 +1,28 @@
 # Research System — TODO
-*Last updated: 2026-07-06*
+*Last updated: 2026-07-08*
+
+---
+
+## ✅ Completed — 2026-07-08 (morning news full-run)
+
+- **Morning News 2026-07-08 delivered (full mode):** 23 holdings scanned (last-24h window), 8 with material news — KERNEX (Kavach v4.0 Tundla–Panki commissioning follow-through + 1,200 ESOP shares listed Jul 7), ANANTRAJ (Nomura PT cut on data-centre bottlenecks; dividend RD Jul 31), NEWGEN (CEO/CGO restructuring eff. Aug 1 — carried; $1.71M Philippines LOA; AGM Jul 24 + ₹6 div RD Jul 17), SWIGGY (foreign shareholding below 50% at 49.76% — IOCC/Instamart inventory path reopens, stock +6%; AoA amendment still short of 75% approval), ICICIAMC (Q1 FY27 board meet Jul 13), ATHERENERG ($200M QIP via HSBC/Axis/Nomura as early as next week; exchange clarification sought Jul 8), BHEL (SCA with thyssenkrupp nucera India for alkaline electrolysers, Jul 7), SOUTHWEST (₹166.8 Cr RIL CBM contract extension Jul 7 + warrant-conversion allotment Jul 10). Brief at docs/MORNING_BRIEF.md; GitHub issue #3 created. Telegram skipped — TELEGRAM_BOT_TOKEN not set in this session's env.
+- **Macro flags:** rupee soft on renewed Middle East hostilities lifting crude; FPIs net buyers 4th straight session, VIX ~11.8; Trent −12% on soft Q1 revenue — market punishing growth misses (watch for richly-valued holdings); US: chip-sector profit-taking after Samsung print, Dow >53,000 first time, June FOMC minutes due.
+
+---
+
+## ✅ Completed — 2026-07-07 (fintwitter daily Telegram job)
+
+- **Fintwitter finds automation installed:** skill at `.claude/skills/fintwitter-finds/SKILL.md`, watchlist at `docs/FINTWITTER_WATCHLIST.md`, output at `docs/FINTWITTER_FINDS.md`, sender `scripts/send_telegram_digest.py` (plain-text `## Telegram summary` block, no markdown tables).
+- **launchd job `com.nitish.stocks.fintwitter-finds`:** weekdays 09:15 + 18:15 IST retry; stamp `data/logs/fintwitter_finds_last_success`; log `data/logs/fintwitter_finds.log`. Uses headless Claude + Telegram ping (same `.env` bot creds as portfolio digest).
+- **Test ping sent** via `venv/bin/python3 scripts/send_telegram_digest.py docs/FINTWITTER_FINDS.md` — check Telegram for seed brief.
+- **On-demand:** `python3 scripts/fintwitter_finds.py` (dry-run) · `python3 scripts/fintwitter_finds.py --full` · trigger now: `launchctl kickstart gui/$(id -u)/com.nitish.stocks.fintwitter-finds`
+
+---
+
+## ✅ Completed — 2026-07-07 (morning news full-run)
+
+- **Morning News 2026-07-07 delivered (full mode):** 23 holdings scanned (last-24h window), 7 with material news — RAYMOND (CEO-Defence appointment Jul 6, AGM Jul 14), KERNEX (Kavach commissioning NCR — carried, still operative), NEWGEN (CEO/CGO restructuring eff. Aug 1, $1.71M Philippines LOA, AGM Jul 24 + ₹6 div), ARTEMISMED (₹700 Cr fundraise postal ballot till Jul 18 — dilution watch; ₹0.45 div RD Jul 10), ICICIAMC (Q1 FY27 board meet Jul 13), ATHERENERG ($200M institutional share sale plan, Jul 6 Bloomberg), SOUTHWEST (Alara Resources rights-issue commitment Jul 6 + warrant-conversion allotment Jul 10, 22.7L shares to promoters). Brief at docs/MORNING_BRIEF.md; GitHub issue #2 created. Telegram skipped — TELEGRAM_BOT_TOKEN not set in this session's env.
+- **Macro flags:** RBI cut FY27 GDP to 6.6%, raised inflation forecast to 5.1% (5.9% H2) — near-term rate cuts off the table; FPI outflows $8.7B; US FOMC minutes Jul 8 with dot plot showing 9 officials expecting a HIKE by end-2026; US CPI 4.2% y/y highest since Apr 2023; Section 122 tariff litigation unresolved.
 
 ---
 
@@ -39,6 +62,7 @@
 
 ### Open follow-ups
 
+- **IndianAPI.in testing (user reminder):** We scaffolded full client in `src/indianapi_client.py` + config + integration in `fundamental_valuation.py`. User: "we will test indian api later then - remember". When ready, set `export INDIANAPI_KEY=...`, run tests on theme stocks (SOLEX, ASM, Bondada, MTAR, Syrma, etc.), inspect news + financials/ratios/shareholding payloads, then wire deeper (PDF generator, morning brief, batch theme pulls). The tab was kept open.
 - **Portfolio-sync propagation:** decide + build the mechanism (likely a `portfolio-sync` skill wrapping existing `src/sync_holdings_from_csv.py` / `rebuild_held_block.py`) so a portfolio.csv refresh propagates to HANDOVER.md table, index.html held block, and research file Status headers. User suggested building it with skill-creator.
 - Verify Monday's first weekly-news run output (`docs/MORNING_BRIEF.md` + `data/logs/weekly_news.log`); tune the prompt if the brief is too long/short.
 - Stock-research SKILL.md re-integration proposal pending user review: merge "PROMOTED ACTIVE" appendix (Steps 2.5/2.6 + checklist additions) into the main step flow; split Step 6 checklist into always-run vs pattern-conditional blocks.
