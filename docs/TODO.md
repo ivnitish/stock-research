@@ -3,6 +3,12 @@
 
 ---
 
+## ✅ Completed — 2026-07-08 (fintwitter finds daily scan)
+
+- **Fintwitter Finds 2026-07-08 written:** `docs/FINTWITTER_FINDS.md` + `data/fintwitter_finds_metrics.json` (17 picks, 2 new / 2 removed). Added: MODERN INSULATORS (BSE 515008 — largest porcelain insulator maker, 12-24mo global lead times, Q3 rev +60% / OPM 17.8%; risk: ~60% re-rate since May thread + ₹118 Cr unprovided tax pending Modern Denim merger) and KALYANI CAST-TECH (BSE 544023 — containers + wagon plant optionality, ROCE 31%, near debt-free; risk: TTM sales +8%, P/E 30). Removed: Carborundum Universal (MF crowding, P/E 82) and Shivalic Power (thesis broken — ROCE 4.6%, profit −27%). X handles all stale since late June — ValuePickr was the only live source; flagged for handle rotation if it persists. Python pipeline (screener fetch → telegram summary → PDF → send) runs after this session per skill design.
+
+---
+
 ## ✅ Completed — 2026-07-08 (morning news full-run)
 
 - **Morning News 2026-07-08 delivered (full mode):** 23 holdings scanned (last-24h window), 8 with material news — KERNEX (Kavach v4.0 Tundla–Panki commissioning follow-through + 1,200 ESOP shares listed Jul 7), ANANTRAJ (Nomura PT cut on data-centre bottlenecks; dividend RD Jul 31), NEWGEN (CEO/CGO restructuring eff. Aug 1 — carried; $1.71M Philippines LOA; AGM Jul 24 + ₹6 div RD Jul 17), SWIGGY (foreign shareholding below 50% at 49.76% — IOCC/Instamart inventory path reopens, stock +6%; AoA amendment still short of 75% approval), ICICIAMC (Q1 FY27 board meet Jul 13), ATHERENERG ($200M QIP via HSBC/Axis/Nomura as early as next week; exchange clarification sought Jul 8), BHEL (SCA with thyssenkrupp nucera India for alkaline electrolysers, Jul 7), SOUTHWEST (₹166.8 Cr RIL CBM contract extension Jul 7 + warrant-conversion allotment Jul 10). Brief at docs/MORNING_BRIEF.md; GitHub issue #3 created. Telegram skipped — TELEGRAM_BOT_TOKEN not set in this session's env.
