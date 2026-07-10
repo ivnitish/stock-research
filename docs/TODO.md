@@ -1,5 +1,12 @@
 # Research System — TODO
-*Last updated: 2026-07-08*
+*Last updated: 2026-07-10*
+
+---
+
+## ✅ Completed — 2026-07-10 (morning news full-run)
+
+- **Morning News 2026-07-10 delivered (full mode):** 23 holdings scanned (last-24h window), 8 with material news — RAYMOND (CEO–Defense Business appointed eff. Jul 6), ARTEMISMED (₹0.45 div record date Jul 10; BRSR filed Jul 7 — Mauritius 110-bed facility, Raipur/South Delhi projects), ETERNAL (Motilal Oswal PT to ₹380; $20 bn B2C NOV by FY28 target), SWIGGY (foreign investment 49.76% — IOCC path, stock +6%), ICICIAMC (Q1 FY27 call Jul 13), ZENTEC (Vector Technics 300k propulsion-units capacity), ATHERENERG ($200M QIP imminent — dilution watch; 52-week high), SOUTHWEST (₹166.8 Cr RIL CBM extension; 28.2 lakh share allotment Jul 10). Brief at docs/MORNING_BRIEF.md; GitHub issue #4 created. Telegram skipped — TELEGRAM_BOT_TOKEN not set.
+- **Macro flags:** Nifty −2.1%, rupee ~95.1 (lowest since Jun 11) on resumed US-Iran strikes, Brent >$76; India seeking safe passage for 9 laden tankers in Persian Gulf; weak monsoon = FY27 inflation risk. US: Fed June minutes show several members favoured a HIKE (CPI 4.2% YoY, funds rate 3.50-3.75%); Trump says Iran ceasefire "over"; Section 122 tariff surcharge under appeal + Brazil 25% tariff hearing before Jul 15.
 
 ---
 
