@@ -17,6 +17,9 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 JSON_PATH = REPO / "data" / "fintwitter_finds_metrics.json"
 
+# Alias overrides for picks whose Screener path differs from their JSON symbol.
+# The pick list itself lives in data/fintwitter_finds_metrics.json — this dict
+# is ONLY consulted for names present there; it must never re-add removed picks.
 # name -> list of (symbol, use_consolidated)
 SYMBOL_ALIASES: dict[str, list[tuple[str, bool]]] = {
     "B.R. Goyal Infra": [("544335", True)],
@@ -289,9 +292,23 @@ def fetch_one(symbol: str, consolidated: bool = True) -> dict[str, str]:
     return {}
 
 
+def aliases_for(name: str, row: dict) -> list[tuple[str, bool]]:
+    """Aliases for a pick: explicit override if present, else its JSON symbol."""
+    if name in SYMBOL_ALIASES:
+        return SYMBOL_ALIASES[name]
+    sym = str(row.get("symbol", "")).strip()
+    if not sym:
+        return []
+    return [(sym, True), (sym, False)]
+
+
 def main() -> int:
     existing = json.loads(JSON_PATH.read_text())
-    for name, aliases in SYMBOL_ALIASES.items():
+    for name, row in existing.items():
+        aliases = aliases_for(name, row)
+        if not aliases:
+            print(f"skipping {name} — no symbol in JSON")
+            continue
         print(f"fetching {name}...")
         fetched: dict[str, str] = {}
         for symbol, consolidated in aliases:
@@ -307,7 +324,6 @@ def main() -> int:
         if not is_valid(fetched):
             print(f"  SKIP — no valid data (keeping existing)")
             continue
-        row = existing.setdefault(name, {})
         for k, v in fetched.items():
             if k not in row or not row[k]:
                 row[k] = v

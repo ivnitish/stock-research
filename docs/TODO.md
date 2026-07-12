@@ -1,5 +1,13 @@
 # Research System — TODO
-*Last updated: 2026-07-10*
+*Last updated: 2026-07-12*
+
+---
+
+## ✅ Completed — 2026-07-12 (fintwitter finds daily scan)
+
+- **Fintwitter Finds 2026-07-12 delivered (full pipeline):** `docs/FINTWITTER_FINDS.md` + `data/fintwitter_finds_metrics.json` (17 picks, 4 new / 4 removed + 2 removal re-confirms). Added: SOUTHWEST PINNACLE (DIG DEEPER — drilling services on critical-mineral block auctions, OB ₹581 Cr vs FY26 rev ₹243 Cr, P/E 20.5; risk: Alara rights-issue commitment + warrant conversions at ₹132), FILATEX (DIG DEEPER — 15x P/E yarn maker, Ecosis textile-recycling plant commissioning Sep 2026, FY26 PAT +37%), BHAGYANGR (WATCH — copper demerger into Tieramet, but ~2.4x since March), GOODLUCK (WATCH — artillery-shell capex at 29x with core sales +4%). Removed: Canarys (liquidity floor), Eleganz (sales spike faded), Timken (58x on −10% profit), Veto (no trigger, HPL covers theme). Re-confirmed removals: Shivalic + Carborundum — auto-fetcher had silently re-added them.
+- **Fetcher bug fixed (`scripts/fetch_fintwitter_screener.py`):** it iterated hardcoded `SYMBOL_ALIASES` and `setdefault`-ed picks back into the JSON, which is how removed picks kept resurrecting. Now iterates the JSON pick list itself; alias dict is override-only for names present in the JSON.
+- **Pipeline run inline:** forked scan session's background fetcher died with the fork, so fetch → telegram summary (4,598 chars) → PDF (`output/pdf/FINTWITTER_FINDS_2026-07-12.pdf`, 646 KB) → Telegram send (2 chunks + PDF) all executed in-session. All 17 picks enriched OK on re-run.
 
 ---
 
