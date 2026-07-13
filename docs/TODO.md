@@ -1,5 +1,12 @@
 # Research System — TODO
-*Last updated: 2026-07-12*
+*Last updated: 2026-07-13*
+
+---
+
+## ✅ Completed — 2026-07-13 (morning news full-run)
+
+- **Morning News 2026-07-13 delivered (full mode):** 23 holdings scanned (last-24h window), 6 with material news — KERNEX (sharp -8% reversal Jul 7 after all-time high Jul 1, no fundamental trigger found; Kavach 4.0 live on Tundla-Panki, NCR coverage now 652 km), ANANTRAJ (dividend record date Jul 31, AGM Aug 7; rating upgraded Sell→Hold), ICICIAMC (Q1 FY27 results + call today — brokerages expect PAT +31% YoY on record ₹11 lakh Cr AUM; 34.4 Cr shares out of IPO lock-in since Jun 19), SAKSOFT (rating downgraded Hold→Sell despite strong fundamentals — ROCE 30.4%, net-debt-free; unusually volatile month with no clear fundamental cause), SWIGGY (foreign stake dipped to 49.76%, resident ownership >50% for first time, but IOCC AoA amendment failed at AGM — only 72.36% approval vs 75% needed), ATHERENERG (board meets Jul 15 to approve QIP/convertible raise up to ₹2,500 Cr envelope — dilution watch on single-share position; June retail sales +95% YoY). Corrected a ticker-mapping trap during research: BANCOINDIA.NS = Banco Products (India) Ltd (auto radiators), not Bannari Amman Sugars/Spinning Mills — verified against existing research/BANCOINDIA.md before searching. Brief at docs/MORNING_BRIEF.md; GitHub issue #5 created. Telegram skipped — TELEGRAM_BOT_TOKEN not set.
+- **Macro flags:** Markets gap-down open expected today on US-Iran escalation + Strait of Hormuz oil-disruption fears, despite Friday's strong close (Sensex +1.08%, Nifty +1.02%). Q1 FY27 earnings season accelerating — HCL Tech, Reliance, HDFC Bank, ~143 companies this week. US: Fed Chair Warsh gives first Congressional testimony this week amid internal "family fight" over rate path; futures up on cooling global inflation but Iran-driven oil spike is a live cross-current.
 
 ---
 

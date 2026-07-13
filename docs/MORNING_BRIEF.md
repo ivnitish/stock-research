@@ -1,45 +1,38 @@
-# Morning Brief — 2026-07-10
+# Morning Brief — 2026-07-13
 
 ## Holdings news
 (cost-basis order; holdings with no material news in the last 24h are omitted)
 
-### RAYMOND
-- Bhanu Prakash Srivastava appointed CEO–Defense Business and SMP, effective July 6, 2026 (Reg 30 disclosure) — IIFL Capital / exchange filing
+### KERNEX
+- Stock reversed sharply on July 7 — intraday low ₹2,242.95, down 8.08% on the day — just days after touching an all-time high of ₹2,229.85 on July 1. No company-specific negative news found; reads as profit-booking after the run-up, not a fundamental shift — MarketsMojo
+- Kavach 4.0 deployment completed on the 207 km Tundla-Panki stretch, taking North Central Railway coverage to 652 km — incremental execution proof on the existing order book — Sahi
 
-### ARTEMISMED
-- Final dividend of ₹0.45/share — record date today, July 10 — Whalesbook / ScanX
-- Filed BRSR for FY2025-26 (July 7); highlights: third tower operational, new 110-bed Mauritius facility, upcoming Raipur and South Delhi projects; AGM July 31 — ScanX
-
-### ETERNAL
-- Motilal Oswal raised Buy target to ₹380 (July 6); management targeting B2C NOV of $20 bn by FY28 and $1 bn adjusted EBITDA by FY29 across Blinkit, District, Zomato — Trendlyne / Kotak Neo
-
-### SWIGGY
-- Aggregate foreign investment reported at 49.76% of paid-up equity as of July 6 — a step toward qualifying as an Indian Owned and Controlled Company (IOCC), which would let Instamart hold inventory directly; control requirements still pending, ownership alone doesn't confer IOCC; stock rose ~6% on the disclosure — Business Standard / Reuters via TradingView
+### ANANTRAJ
+- Board fixed July 31 as record date for FY26 dividend; 41st AGM set for August 7 — TipRanks
+- Rating upgraded Sell → Hold on improved technicals (July 9); stock closed ₹569.35 on July 10, up 4.57% — MarketsMojo
 
 ### ICICIAMC
-- Q1 FY27 earnings call scheduled July 13 (analyst call 6:15 PM IST); follows record ₹11 lakh crore AUM milestone — ScanX / Sahi
+- Q1 FY27 results and earnings call today (analyst call 6:15 PM IST). Brokerages expect strong beats — Equirus estimates revenue +19.7% YoY to ₹1,572 Cr, PAT +31% YoY to ₹1,025 Cr — on AUM crossing ₹11 lakh Cr (largest active MF manager in India). 34.4 Cr shares released from IPO lock-in on June 19 — watch for any post-lock-in overhang in the stock reaction — BusinessToday
 
-### ZENTEC
-- Subsidiary Vector Technics reached 300,000 annual propulsion-units capacity (July 6) — Whalesbook
+### SAKSOFT
+- Rating downgraded Hold → Sell (July 2) on technical weakness despite solid fundamentals — ROCE 30.4%, ROE 17.6%, net-debt-free, H1 PAT +20.35% YoY to ₹68.66 Cr — MarketsMojo
+- Unusually volatile month: down ~10% (Jul 1), down ~7% (Jul 2), upper circuit +5.28% (Jul 7), down ~8% (Jul 8) — no fundamental trigger found for the swings, looks technical/momentum-driven
+- ₹0.55/share dividend declared, ex-date July 30
+
+### SWIGGY
+- Foreign investment stake dipped to 49.76% as of July 6, pushing resident Indian ownership above 50% for the first time — a step toward Indian Owned and Controlled Company (IOCC) status. Stock jumped on the news (₹264.2 intraday high July 7, ₹274.8 on July 9). But the AGM resolution to amend the Articles of Association for the formal IOCC transition got only 72.36% shareholder approval — short of the 75% threshold — so the ownership mix improved but the legal transition is stalled — Business Standard
 
 ### ATHERENERG
-- Planning ~$200 mn QIP; HSBC, Axis Capital, Nomura appointed; could launch as early as next week — dilution watch — Bloomberg / Business Standard / Outlook Business
-- Stock hit 52-week high July 9 on the fundraise news — Business Standard
-
-### SOUTHWEST
-- Won ₹166.82 Cr CBM contract extension from Reliance Industries (July 7); stock gained on the award — Business Standard / TradingView
-- Board to allot 28.2 lakh shares on July 10 (dilution event) — Whalesbook
+- Board meets July 15 to approve a fresh capital raise (equity/FCCB/convertibles) under a previously approved ₹2,500 Cr envelope, including up to ₹1,500 Cr QIP — dilution watch for the single-share position. Stock hit a 52-week high of ₹1,242 on July 9 after clarifying the fundraise plans. June retail sales nearly doubled YoY to 31,230 units (+95%) — Bloomberg, Business Standard
 
 ## Macro
 
 ### India
-- Nifty 50 fell 2.1% Wednesday and the rupee slid to ~95.1/USD (lowest since June 11) as US-Iran strikes resumed and Brent crossed $76 — Bloomberg
-- India weighing talks with Iran to secure safe passage for at least nine laden crude tankers waiting in the Persian Gulf; import bill and inflation risk rising — Bloomberg
-- Weak monsoon progress raising FY27 inflation concerns — rural demand, fiscal balance and RBI policy could face pressure — Yadnya market update
-- RBI released draft second amendment to Commercial Banks Governance Directions; comment window closed July 9 — RBI / bankingfinance.in
-- April 2026 current account surplus of $4.7 bn (vs $4.8 bn deficit a year ago) despite a wider $27.9 bn merchandise trade deficit — Trading Economics
+- Markets set for a gap-down open today on fresh US-Iran war escalation and Strait of Hormuz oil-supply disruption fears, despite Friday's strong close (Sensex +1.08% to 77,569; Nifty +1.02% to 24,207) — Republic World
+- Q1 FY27 earnings season accelerates this week — HCL Tech, Reliance Industries, HDFC Bank and roughly 143 companies reporting; aggregate growth projected near 10% — Kotak
+- Gift Nifty indicated +0.55% pre-open even against the negative overnight cues, with European markets (FTSE, DAX, CAC) trading positive
 
 ### US
-- Fed June minutes: several FOMC members favoured a rate HIKE on Iran-war energy inflation; funds rate held at 3.50-3.75%; Chair Warsh has dropped forward guidance for pure data dependence; CPI running 4.2% YoY — CNBC / Schwab / Federal Reserve
-- Trump declared the Iran ceasefire "over"; tit-for-tat strikes around the Strait of Hormuz sent crude and Treasury yields surging — defensive tone in equities — TheStreet / CNBC
-- Tariff legal risk persists: Court of International Trade ruled the Section 122 surcharge exceeded authority (under appeal); separate hearing on proposed 25% Brazil tariff ahead of July 15 deadline — Investing.com / GO Markets
+- US equity futures higher (E-mini S&P +0.4%) on cooling global inflation prints, but Middle East escalation is a live cross-current for energy prices
+- Fed Chair Kevin Warsh gives his first Congressional testimony on monetary policy this week, amid an internal Fed "family fight" over the rate path — markets pricing a possible quarter-point hike as soon as September — Schwab
+- Softer inflation in France (1.8%) and weak industrial output in Italy/Turkey point to easing global cost pressures even as US markets stay cautious into the Iran-driven oil spike
