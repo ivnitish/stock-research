@@ -25,7 +25,18 @@
 ### ATHERENERG
 - Board meets July 15 to approve a fresh capital raise (equity/FCCB/convertibles) under a previously approved ₹2,500 Cr envelope, including up to ₹1,500 Cr QIP — dilution watch for the single-share position. Stock hit a 52-week high of ₹1,242 on July 9 after clarifying the fundraise plans. June retail sales nearly doubled YoY to 31,230 units (+95%) — Bloomberg, Business Standard
 
-## Macro
+## Buy-at Alerts
+
+CMPs fetched July 13, 2026 (Google Finance / Tickertape). Buy zones per `docs/HANDOVER.md`.
+
+| Stock | Grade | CMP | Entry Zone | Status |
+|-------|-------|-----|-----------|--------|
+| IEX | B (18/25) | ₹118.29 | <₹120 (full), <₹130 (tracking) | **INSIDE buy zone** — trading below the ₹120 full-entry level |
+| KALYANICASTTECH | B- (15/25) | ₹735.00 | <₹450 (full), <₹550 (tracking) | Outside — 34% above the tracking-entry ceiling |
+| REDINGTON | C (10/25) | ₹281.80 | <₹180 | Outside — well above entry |
+| MVGJL | C (11/25) | ₹162.09 | <₹150 + OCF positive 2Q | Outside — price above trigger; OCF condition unverified |
+
+**IEX is trading inside its buy zone today** (₹118.29 vs <₹120 full-entry trigger from the Apr 24 Q4 FY26 concall thesis).
 
 ### India
 - Markets set for a gap-down open today on fresh US-Iran war escalation and Strait of Hormuz oil-supply disruption fears, despite Friday's strong close (Sensex +1.08% to 77,569; Nifty +1.02% to 24,207) — Republic World
