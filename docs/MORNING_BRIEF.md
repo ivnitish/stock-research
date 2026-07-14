@@ -6,6 +6,19 @@
 ### ICICIAMC
 - Q1 FY27 (June quarter) results out: net profit up 23% YoY to ₹964.63 Cr; PBT up 20.6% YoY to ₹1,280.65 Cr; operating revenue ₹1,564 Cr, up 17.6% YoY. Quarterly average AUM at ₹11.17 lakh Cr, market share 13.4% — still India's second-largest AMC. Unique customer base grew to 17.3 million from 15.1 million a year earlier — Business Standard, Investing.com
 
+## Buy-at Alerts
+
+CMPs fetched July 14, 2026 (Tickertape). Buy zones per `docs/HANDOVER.md`.
+
+| Stock | Grade | CMP | Entry Zone | Status |
+|-------|-------|-----|-----------|--------|
+| IEX | B (18/25) | ₹117.14 | <₹120 (full), <₹130 (tracking) | **INSIDE buy zone** — trading below the ₹120 full-entry level |
+| KALYANICASTTECH | B- (15/25) | ₹745.00 | <₹450 (full), <₹550 (tracking) | Outside — 35% above the tracking-entry ceiling |
+| REDINGTON | C (10/25) | ₹281.40 | <₹180 | Outside — well above entry |
+| MVGJL | C (11/25) | ₹167.57 | <₹150 + OCF positive 2Q | Outside — price above trigger; OCF condition unverified |
+
+**IEX is trading inside its buy zone today** (₹117.14 vs <₹120 full-entry trigger from the Apr 24 Q4 FY26 concall thesis).
+
 ## Macro
 
 ### India
