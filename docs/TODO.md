@@ -1,5 +1,13 @@
 # Research System — TODO
-*Last updated: 2026-07-13*
+*Last updated: 2026-07-14*
+
+---
+
+## ✅ Completed — 2026-07-14 (morning news full-run)
+
+- **Morning News 2026-07-14 delivered (full mode):** 23 holdings scanned (last-24h window), 1 with material news — ICICIAMC (Q1 FY27 / June-quarter results out: PAT +23% YoY to ₹964.63 Cr, PBT +20.6% to ₹1,280.65 Cr, operating revenue +17.6% to ₹1,564 Cr; QAAUM ₹11.17 lakh Cr, market share 13.4%, unique customers up to 17.3M from 15.1M YoY). All other 22 holdings quiet in the last 24h (checked EPACKPEB, RAYMOND, THRIVE, KERNEX, ANANTRAJ, NEWGEN, ARTEMISMED, GRSE, BANCOINDIA, SAKSOFT, ETERNAL, SWIGGY, SHILCTECH, NESCO, NWIL, ZENTEC, DREDGECORP, ATHERENERG, PATELSAI, BHEL, SOUTHWEST, STLNETWORK — nothing newer than a few days). Brief at docs/MORNING_BRIEF.md; GitHub issue #6 created. Telegram skipped — TELEGRAM_BOT_TOKEN not set in this session's env.
+- **Macro flags:** Sensex/Nifty closed only marginally higher after recovering from ~1% intraday losses; rupee at a 6-week low (~95.95-96/USD) and crude up ~4.6% as Iran expanded Gulf strikes and threatened to close the Strait of Hormuz — a live current-account/inflation risk for India. Q1 FY27 earnings season in full swing (HCL Tech, Reliance, HDFC Bank, ~140 companies this week). US: Fed Chair Kevin Warsh's congressional testimony debut today amid June CPI print; markets pricing ~70% odds of a hike before September.
+- **Buy-at Alerts section omitted today:** left out of docs/MORNING_BRIEF.md — the skill spec forbids live price/broker-API lookups in this routine, and no verified CMP source was available without risking fabricated numbers (no-fabricated-data rule). Yesterday's addition (2026-07-13) fetched CMPs via web search as a one-off enhancement outside the core skill; worth deciding whether to formalize this as a documented skill step with an approved price source, or keep it ad hoc.
 
 ---
 
