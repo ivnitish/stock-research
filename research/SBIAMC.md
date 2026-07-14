@@ -130,6 +130,51 @@ PAT CAGR FY23→FY26 ≈ 24%. EPS (basic) ~₹15.08 → P/E ~38x at ₹574 on FY
 
 SBI manages ₹2.4 lakh cr *more* AUM than ICICI yet earns *less* profit. The reason is fee mix. Active equity funds charge ~1% (SBI and ICICI both run large active books), but passive index funds/ETFs charge only a few basis points and compete purely on price. SBI's ₹4 lakh cr of passive money (29.6% of the national passive pool) is huge in size but thin in fees. So its blended revenue yield (~40 bps on AUM) sits below ICICI's active-heavy ~55 bps. Passive is the future in *volume* but a fee war in *economics* — SBI leads the segment that grows fastest and pays least. That is the central tension in the valuation and the reason the market rationally pays SBI a lower multiple than its scale alone would suggest.
 
+### E. Relative Valuation — every field explained
+
+**Table 1 — Valuation multiples (all five AMCs)**
+
+| Metric | **SBI AMC** (IPO ₹574) | ICICI Pru (₹3,210) | HDFC AMC (₹2,737) | Nippon (₹1,162) | UTI |
+|---|---|---|---|---|---|
+| Market cap | ~₹1.17 L cr | ~₹1.58 L cr | ~₹1.19 L cr | ~₹74,000 cr | smaller |
+| **P/E** | **~38x** (FY26) | ~47x | ~40x | ~48x | ~32x |
+| RoNW (ROE) | 43% | 86% | 33% | 35% | 11% |
+| EPS (FY25) | ~₹12.5 | ₹66.7 | ₹66.8 | ₹24.1 | ₹31.5 |
+| P/B | ~20x | ~84x | ~12x | — | — |
+
+**Table 2 — SBI vs ICICI, the business behind the multiple**
+
+| Metric | **SBI AMC** | ICICI Pru AMC |
+|---|---|---|
+| QAAUM (money managed) | ₹12.5 L cr — **#1** | ₹10.15 L cr |
+| Industry market share | 15.4% | 13.2% |
+| Fee yield on AUM | ~40 bps | ~55 bps |
+| Profit (latest FY) | ₹3,067 Cr | ~₹3,800 Cr (annualised) |
+| Profit growth | ~24% CAGR (3-yr) | +23% (latest qtr YoY) |
+| Passive/ETF share | 29.6% — **#1** | much smaller |
+
+**What each field means, and which direction is "good":**
+
+- **Market cap** — the whole company's price tag (share price × shares). Not good/bad by itself; it sizes what you're buying. SBI (₹1.17 L cr) is valued *below* ICICI (₹1.58 L cr) despite managing more money — the first hint SBI is cheaper relative to scale.
+
+- **P/E (Price-to-Earnings) — the main one.** The price paid for ₹1 of annual profit; 38x means ₹38 for every ₹1 earned per year. **Lower = cheaper = good for a buyer — provided the business grows and is high-quality.** *Example:* two identical shops each earn ₹1 lakh/year; Shop A priced ₹38 lakh (38x), Shop B ₹47 lakh (47x) — same profit, you'd rather pay ₹38 lakh. That's SBI vs ICICI. Caveat: cheap only helps if earnings grow — UTI is cheapest (32x) but weakest, so cheap-for-a-reason. SBI is the sweet spot: biggest + fastest-growing at the second-lowest multiple.
+
+- **RoNW / ROE** — profit earned on each ₹100 of shareholder equity. **Higher = more capital-efficient = good**, but distorted by dividend policy for asset-light AMCs (ICICI's 86% is flattered by keeping almost no equity). SBI's 43% is genuinely strong — second-best, above HDFC/Nippon. Only UTI's 11% is actually weak.
+
+- **EPS (Earnings Per Share)** — profit ÷ number of shares. **A bigger EPS is NOT "better"** — it depends purely on share count. *Example:* SBI earns ₹3,067 Cr over ~204 cr shares → EPS ~₹15; ICICI earns less profit over far fewer shares → EPS ₹67. ICICI's higher EPS doesn't make it better — just fewer, pricier shares. EPS is only useful once you divide price by it (which gives P/E). Use P/E, ignore raw EPS for comparison.
+
+- **P/B (Price-to-Book)** — price vs net worth. For most firms lower looks cheaper, **but for AMCs ignore P/B — it's misleading.** AMCs need almost no capital, so "book" is tiny and semi-arbitrary, making P/B look absurdly high (ICICI 84x) without meaning the stock is expensive. P/B works for banks/factories, not asset-light fee businesses.
+
+- **QAAUM** — the pool of investor money managed. **Bigger = better** — it's the base the fee is charged on, and scale is a moat. SBI is #1 at ₹12.5 L cr.
+
+- **Fee yield on AUM** — paise of revenue earned per ₹100 managed (in basis points; 100 bps = 1%). **Higher = more profitable per rupee = good.** *Example:* on ₹100 managed, ICICI collects ~55 paise, SBI ~40 paise — which is why SBI manages more money but earns less profit. The cause is mix: SBI is huge in passive (near-zero fee), ICICI heavier in active (~1% fee). This single number explains most of the valuation gap.
+
+- **Profit growth** — how fast earnings rise. **Higher = better** — a fast grower deserves a higher multiple. SBI's ~24% 3-yr CAGR is *why* paying 38x is reasonable versus a slow grower like UTI.
+
+- **Passive/ETF share** — leadership in index funds/ETFs. Double-edged: SBI dominates (29.6%), where industry *volume* growth is going, but passive is a low-fee price war — grows AUM more than profit.
+
+**What the table says overall:** SBI is the biggest and fastest-growing AMC, offered at the second-lowest P/E, with a strong 43% RoNW. The one honest mark against it is the lower fee yield (40 vs 55 bps) from its passive-heavy mix — which is why it trades ~20% below ICICI and why that discount is *partly* but not *fully* deserved. You are not buying a worse business cheaply (that's UTI); you are buying the **market leader at a discount to a peer the market has already re-rated** — paying 38x for #1 versus 47x for #2.
+
 ---
 
 ## Research Log
