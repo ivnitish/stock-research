@@ -3,6 +3,18 @@
 
 ---
 
+## ✅ Completed — 2026-07-14 (SBI AMC IPO note + valuation vs ICICI AMC)
+
+- **SBIAMC (SBI Funds Management) IPO — APPLY 1 lot, Grade B+ · 18/25.** `research/SBIAMC.md` created, rendered, indexed, PDF + Chrome opened. User asked: valuation vs ICICI Pru AMC + should I apply. Findings: India's #1 AMC (₹12.5 L cr QAAUM, 15.4% share, passive leader 29.6%). IPO ₹545–574, 100% OFS ₹9,795 Cr (SBI + Amundi selling), implied m-cap ~₹1.17 L cr, ~38x FY26 PAT (₹3,067 Cr, ~24% 3-yr CAGR). Vs ICICI Pru AMC now ₹3,210 / ~47x (listed Dec-25 +20%, +48% since). SBI ~20% cheaper than peer despite being larger, BUT earns lower fee yield (~40 vs ~55 bps) due to passive-heavy mix → biggest ≠ most profitable, partly justifies discount. GMP ₹93–106 (~16–18%). Lot 26 sh / ₹14,924. Verdict: APPLY 1 lot — relative value + positive listing signal + tiny retail ticket; fair-value compounder not deep-value multibagger; main risk = market-linked earnings bought near index highs + structural fee compression. IPO closes 16 Jul, lists 21 Jul.
+
+---
+
+## ✅ Completed — 2026-07-14 (SPARC short note — FY profit swing via one-off PRV sale)
+
+- **SPARC (Sun Pharma Advanced Research) — AVOID / SPECULATIVE, Grade D · 6/25.** `research/SPARC.md`. FY26 swung from ₹345 Cr loss to ~₹1,552 Cr profit entirely on a one-off USFDA Priority Review Voucher sale for USD 195M (~₹1,840 Cr). Operating quarters all losses ₹50-81 Cr. ~5x P/E / 281% ROE / 165% ROCE are artifacts; P/B 5.8x is the honest signal. No ROIC engine. Indexed + rendered + PDF opened.
+
+---
+
 ## ✅ Completed — 2026-07-14 (morning news full-run)
 
 - **Morning News 2026-07-14 delivered (full mode):** 23 holdings scanned (last-24h window), 1 with material news — ICICIAMC (Q1 FY27 / June-quarter results out: PAT +23% YoY to ₹964.63 Cr, PBT +20.6% to ₹1,280.65 Cr, operating revenue +17.6% to ₹1,564 Cr; QAAUM ₹11.17 lakh Cr, market share 13.4%, unique customers up to 17.3M from 15.1M YoY). All other 22 holdings quiet in the last 24h (checked EPACKPEB, RAYMOND, THRIVE, KERNEX, ANANTRAJ, NEWGEN, ARTEMISMED, GRSE, BANCOINDIA, SAKSOFT, ETERNAL, SWIGGY, SHILCTECH, NESCO, NWIL, ZENTEC, DREDGECORP, ATHERENERG, PATELSAI, BHEL, SOUTHWEST, STLNETWORK — nothing newer than a few days). Brief at docs/MORNING_BRIEF.md; GitHub issue #6 created. Telegram skipped — TELEGRAM_BOT_TOKEN not set in this session's env.
