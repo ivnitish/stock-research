@@ -37,7 +37,181 @@ strong{color:#111827;}
 </style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
 <details id="toc" class="no-print"><summary>Jump to section</summary></details>
 <h1 id="research-system-todo">Research System — TODO</h1>
-<p><em>Last updated: 2026-07-05</em></p>
+<p><em>Last updated: 2026-07-17</em></p>
+
+<hr>
+
+<h2 id="completed-2026-07-17-working-tree-cleanup-7-commits-all-pending-work-committed">✅ Completed — 2026-07-17 (working-tree cleanup: 7 commits, all pending work committed)</h2>
+
+<ul>
+<li><strong>Committed everything left uncommitted since Jul 14</strong> in logical groups: (1) IndianAPI.in client + fundamental_valuation wiring — <strong>still untested, needs INDIANAPI_KEY</strong>; (2) SOLEX research note (Grade B 19/25, BUY AT ₹900-950) — <strong>index.html entry added</strong> (was missing, index-always rule); (3) BANCOINDIA full refresh (FY26 audited, OCF flag cleared, HOLD at ₹680); (4) PPAP BUY-AT ₹200-210 conversion + stale HTML render catch-ups (_TEMPLATE price ladder, TODO, VISL); (5) 2026 themes screener-links doc + opener script; (6) SKILL v2 proposal HTML render (md was already committed); (7) housekeeping — README fintwitter job docs, W28/W29 red-flag journals, send_session_takeaways.py, fintwitter metrics.</li>
+<li><strong><code>harish/</code> added to .gitignore</strong> — third-party holdings PDF stays local; repo is public via GitHub Pages.</li>
+</ul>
+
+<h2 id="open-refactoring-thread-picked-up-2026-07-17">⏳ Open — refactoring thread (picked up 2026-07-17)</h2>
+
+<ul>
+<li><strong>stock-research SKILL v2 proposal awaiting user approval</strong> — <code>docs/proposals/SKILL_stock-research_v2.md</code> (re-integration + Addendum A price-ladder recos + Addendum B template consolidation). Live SKILL.md untouched until approved.</li>
+<li><strong>IndianAPI.in integration untested</strong> — user to sign up at indianapi.in, set INDIANAPI_KEY; then run test_connection(), verify fundamentals/news payloads on theme stocks (SOLEX, ASM, MTAR), then extend (PDF tables, morning brief, 2026-themes batch).</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-14-sbi-amc-ipo-note-valuation-vs-icici-amc">✅ Completed — 2026-07-14 (SBI AMC IPO note + valuation vs ICICI AMC)</h2>
+
+<ul>
+<li><strong>SBIAMC (SBI Funds Management) IPO — APPLY 1 lot, Grade B+ · 18/25.</strong> <code>research/SBIAMC.md</code> created, rendered, indexed, PDF + Chrome opened. User asked: valuation vs ICICI Pru AMC + should I apply. Findings: India's #1 AMC (₹12.5 L cr QAAUM, 15.4% share, passive leader 29.6%). IPO ₹545–574, 100% OFS ₹9,795 Cr (SBI + Amundi selling), implied m-cap ~₹1.17 L cr, ~38x FY26 PAT (₹3,067 Cr, ~24% 3-yr CAGR). Vs ICICI Pru AMC now ₹3,210 / ~47x (listed Dec-25 +20%, +48% since). SBI ~20% cheaper than peer despite being larger, BUT earns lower fee yield (~40 vs ~55 bps) due to passive-heavy mix → biggest ≠ most profitable, partly justifies discount. GMP ₹93–106 (~16–18%). Lot 26 sh / ₹14,924. Verdict: APPLY 1 lot — relative value + positive listing signal + tiny retail ticket; fair-value compounder not deep-value multibagger; main risk = market-linked earnings bought near index highs + structural fee compression. IPO closes 16 Jul, lists 21 Jul.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-14-sparc-short-note-fy-profit-swing-via-one-off-prv-sale">✅ Completed — 2026-07-14 (SPARC short note — FY profit swing via one-off PRV sale)</h2>
+
+<ul>
+<li><strong>SPARC (Sun Pharma Advanced Research) — AVOID / SPECULATIVE, Grade D · 6/25.</strong> <code>research/SPARC.md</code>. FY26 swung from ₹345 Cr loss to ~₹1,552 Cr profit entirely on a one-off USFDA Priority Review Voucher sale for USD 195M (~₹1,840 Cr). Operating quarters all losses ₹50-81 Cr. ~5x P/E / 281% ROE / 165% ROCE are artifacts; P/B 5.8x is the honest signal. No ROIC engine. Indexed + rendered + PDF opened.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-14-morning-news-full-run">✅ Completed — 2026-07-14 (morning news full-run)</h2>
+
+<ul>
+<li><strong>Morning News 2026-07-14 delivered (full mode):</strong> 23 holdings scanned (last-24h window), 1 with material news — ICICIAMC (Q1 FY27 / June-quarter results out: PAT +23% YoY to ₹964.63 Cr, PBT +20.6% to ₹1,280.65 Cr, operating revenue +17.6% to ₹1,564 Cr; QAAUM ₹11.17 lakh Cr, market share 13.4%, unique customers up to 17.3M from 15.1M YoY). All other 22 holdings quiet in the last 24h (checked EPACKPEB, RAYMOND, THRIVE, KERNEX, ANANTRAJ, NEWGEN, ARTEMISMED, GRSE, BANCOINDIA, SAKSOFT, ETERNAL, SWIGGY, SHILCTECH, NESCO, NWIL, ZENTEC, DREDGECORP, ATHERENERG, PATELSAI, BHEL, SOUTHWEST, STLNETWORK — nothing newer than a few days). Brief at docs/MORNING_BRIEF.md; GitHub issue #6 created. Telegram skipped — TELEGRAM_BOT_TOKEN not set in this session's env.</li>
+<li><strong>Macro flags:</strong> Sensex/Nifty closed only marginally higher after recovering from ~1% intraday losses; rupee at a 6-week low (~95.95-96/USD) and crude up ~4.6% as Iran expanded Gulf strikes and threatened to close the Strait of Hormuz — a live current-account/inflation risk for India. Q1 FY27 earnings season in full swing (HCL Tech, Reliance, HDFC Bank, ~140 companies this week). US: Fed Chair Kevin Warsh's congressional testimony debut today amid June CPI print; markets pricing ~70% odds of a hike before September.</li>
+<li><strong>Buy-at Alerts section added post-run:</strong> the morning-news skill itself still omits live price lookups (per its spec), but per explicit user request this session, added a "Buy-at Alerts" section to docs/MORNING_BRIEF.md as a separate step — read the 4-stock table from docs/HANDOVER.md, fetched CMPs via Tickertape (WebFetch, not Groww/Kite MCP or Screener/Yahoo) for IEX (₹117.14), KALYANICASTTECH (₹745.00), REDINGTON (₹281.40), MVGJL (₹167.57), all dated July 14, 2026. <strong>IEX is inside its buy zone</strong> (<₹120 full-entry trigger). Still worth deciding whether to formalize this as a documented skill step.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-13-morning-news-full-run">✅ Completed — 2026-07-13 (morning news full-run)</h2>
+
+<ul>
+<li><strong>Morning News 2026-07-13 delivered (full mode):</strong> 23 holdings scanned (last-24h window), 6 with material news — KERNEX (sharp -8% reversal Jul 7 after all-time high Jul 1, no fundamental trigger found; Kavach 4.0 live on Tundla-Panki, NCR coverage now 652 km), ANANTRAJ (dividend record date Jul 31, AGM Aug 7; rating upgraded Sell→Hold), ICICIAMC (Q1 FY27 results + call today — brokerages expect PAT +31% YoY on record ₹11 lakh Cr AUM; 34.4 Cr shares out of IPO lock-in since Jun 19), SAKSOFT (rating downgraded Hold→Sell despite strong fundamentals — ROCE 30.4%, net-debt-free; unusually volatile month with no clear fundamental cause), SWIGGY (foreign stake dipped to 49.76%, resident ownership >50% for first time, but IOCC AoA amendment failed at AGM — only 72.36% approval vs 75% needed), ATHERENERG (board meets Jul 15 to approve QIP/convertible raise up to ₹2,500 Cr envelope — dilution watch on single-share position; June retail sales +95% YoY). Corrected a ticker-mapping trap during research: BANCOINDIA.NS = Banco Products (India) Ltd (auto radiators), not Bannari Amman Sugars/Spinning Mills — verified against existing research/BANCOINDIA.md before searching. Brief at docs/MORNING_BRIEF.md; GitHub issue #5 created. Telegram skipped — TELEGRAM_BOT_TOKEN not set.</li>
+<li><strong>Macro flags:</strong> Markets gap-down open expected today on US-Iran escalation + Strait of Hormuz oil-disruption fears, despite Friday's strong close (Sensex +1.08%, Nifty +1.02%). Q1 FY27 earnings season accelerating — HCL Tech, Reliance, HDFC Bank, ~143 companies this week. US: Fed Chair Warsh gives first Congressional testimony this week amid internal "family fight" over rate path; futures up on cooling global inflation but Iran-driven oil spike is a live cross-current.</li>
+<li><strong>Buy-at Alerts section added to <code>docs/MORNING_BRIEF.md</code>:</strong> fetched fresh CMPs (Google Finance/Tickertape, July 13) for the 4 standing buy-at triggers in <code>docs/HANDOVER.md</code>. <strong>IEX is inside its buy zone</strong> — ₹118.29 vs <₹120 full-entry trigger from the Apr 24 Q4 FY26 concall thesis. KALYANICASTTECH (₹735 vs <₹550 tracking), REDINGTON (₹281.80 vs <₹180), and MVGJL (₹162.09 vs <₹150 + OCF positive) all remain outside their entry zones.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-12-fintwitter-finds-daily-scan">✅ Completed — 2026-07-12 (fintwitter finds daily scan)</h2>
+
+<ul>
+<li><strong>Fintwitter Finds 2026-07-12 delivered (full pipeline):</strong> <code>docs/FINTWITTER_FINDS.md</code> + <code>data/fintwitter_finds_metrics.json</code> (17 picks, 4 new / 4 removed + 2 removal re-confirms). Added: SOUTHWEST PINNACLE (DIG DEEPER — drilling services on critical-mineral block auctions, OB ₹581 Cr vs FY26 rev ₹243 Cr, P/E 20.5; risk: Alara rights-issue commitment + warrant conversions at ₹132), FILATEX (DIG DEEPER — 15x P/E yarn maker, Ecosis textile-recycling plant commissioning Sep 2026, FY26 PAT +37%), BHAGYANGR (WATCH — copper demerger into Tieramet, but ~2.4x since March), GOODLUCK (WATCH — artillery-shell capex at 29x with core sales +4%). Removed: Canarys (liquidity floor), Eleganz (sales spike faded), Timken (58x on −10% profit), Veto (no trigger, HPL covers theme). Re-confirmed removals: Shivalic + Carborundum — auto-fetcher had silently re-added them.</li>
+<li><strong>Fetcher bug fixed (<code>scripts/fetch_fintwitter_screener.py</code>):</strong> it iterated hardcoded <code>SYMBOL_ALIASES</code> and <code>setdefault</code>-ed picks back into the JSON, which is how removed picks kept resurrecting. Now iterates the JSON pick list itself; alias dict is override-only for names present in the JSON.</li>
+<li><strong>Pipeline run inline:</strong> forked scan session's background fetcher died with the fork, so fetch → telegram summary (4,598 chars) → PDF (<code>output/pdf/FINTWITTER_FINDS_2026-07-12.pdf</code>, 646 KB) → Telegram send (2 chunks + PDF) all executed in-session. All 17 picks enriched OK on re-run.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-10-morning-news-full-run">✅ Completed — 2026-07-10 (morning news full-run)</h2>
+
+<ul>
+<li><strong>Morning News 2026-07-10 delivered (full mode):</strong> 23 holdings scanned (last-24h window), 8 with material news — RAYMOND (CEO–Defense Business appointed eff. Jul 6), ARTEMISMED (₹0.45 div record date Jul 10; BRSR filed Jul 7 — Mauritius 110-bed facility, Raipur/South Delhi projects), ETERNAL (Motilal Oswal PT to ₹380; $20 bn B2C NOV by FY28 target), SWIGGY (foreign investment 49.76% — IOCC path, stock +6%), ICICIAMC (Q1 FY27 call Jul 13), ZENTEC (Vector Technics 300k propulsion-units capacity), ATHERENERG ($200M QIP imminent — dilution watch; 52-week high), SOUTHWEST (₹166.8 Cr RIL CBM extension; 28.2 lakh share allotment Jul 10). Brief at docs/MORNING_BRIEF.md; GitHub issue #4 created. Telegram skipped — TELEGRAM_BOT_TOKEN not set.</li>
+<li><strong>Macro flags:</strong> Nifty −2.1%, rupee ~95.1 (lowest since Jun 11) on resumed US-Iran strikes, Brent >$76; India seeking safe passage for 9 laden tankers in Persian Gulf; weak monsoon = FY27 inflation risk. US: Fed June minutes show several members favoured a HIKE (CPI 4.2% YoY, funds rate 3.50-3.75%); Trump says Iran ceasefire "over"; Section 122 tariff surcharge under appeal + Brazil 25% tariff hearing before Jul 15.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-08-fintwitter-finds-daily-scan">✅ Completed — 2026-07-08 (fintwitter finds daily scan)</h2>
+
+<ul>
+<li><strong>Fintwitter Finds 2026-07-08 written:</strong> <code>docs/FINTWITTER_FINDS.md</code> + <code>data/fintwitter_finds_metrics.json</code> (17 picks, 2 new / 2 removed). Added: MODERN INSULATORS (BSE 515008 — largest porcelain insulator maker, 12-24mo global lead times, Q3 rev +60% / OPM 17.8%; risk: ~60% re-rate since May thread + ₹118 Cr unprovided tax pending Modern Denim merger) and KALYANI CAST-TECH (BSE 544023 — containers + wagon plant optionality, ROCE 31%, near debt-free; risk: TTM sales +8%, P/E 30). Removed: Carborundum Universal (MF crowding, P/E 82) and Shivalic Power (thesis broken — ROCE 4.6%, profit −27%). X handles all stale since late June — ValuePickr was the only live source; flagged for handle rotation if it persists. Python pipeline (screener fetch → telegram summary → PDF → send) runs after this session per skill design.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-08-morning-news-full-run">✅ Completed — 2026-07-08 (morning news full-run)</h2>
+
+<ul>
+<li><strong>Morning News 2026-07-08 delivered (full mode):</strong> 23 holdings scanned (last-24h window), 8 with material news — KERNEX (Kavach v4.0 Tundla–Panki commissioning follow-through + 1,200 ESOP shares listed Jul 7), ANANTRAJ (Nomura PT cut on data-centre bottlenecks; dividend RD Jul 31), NEWGEN (CEO/CGO restructuring eff. Aug 1 — carried; $1.71M Philippines LOA; AGM Jul 24 + ₹6 div RD Jul 17), SWIGGY (foreign shareholding below 50% at 49.76% — IOCC/Instamart inventory path reopens, stock +6%; AoA amendment still short of 75% approval), ICICIAMC (Q1 FY27 board meet Jul 13), ATHERENERG ($200M QIP via HSBC/Axis/Nomura as early as next week; exchange clarification sought Jul 8), BHEL (SCA with thyssenkrupp nucera India for alkaline electrolysers, Jul 7), SOUTHWEST (₹166.8 Cr RIL CBM contract extension Jul 7 + warrant-conversion allotment Jul 10). Brief at docs/MORNING_BRIEF.md; GitHub issue #3 created. Telegram skipped — TELEGRAM_BOT_TOKEN not set in this session's env.</li>
+<li><strong>Macro flags:</strong> rupee soft on renewed Middle East hostilities lifting crude; FPIs net buyers 4th straight session, VIX ~11.8; Trent −12% on soft Q1 revenue — market punishing growth misses (watch for richly-valued holdings); US: chip-sector profit-taking after Samsung print, Dow >53,000 first time, June FOMC minutes due.</li>
+<li><strong>Buy-at Alerts section added to MORNING_BRIEF.md:</strong> all 4 HANDOVER.md buy-at stocks priced Jul 8 (Tickertape/Google Finance/Business Today; no Groww/Kite MCP) — IEX ₹121.4 vs <₹120 trigger (<strong>near zone</strong>, 1.2% above; 52w low ₹114.6), KALYANICASTTECH ₹748.75 vs <₹450 (re-rated far past Apr's ~₹665), REDINGTON ₹268.60 vs <₹180, MVGJL ₹152.63 vs <₹150 + OCF-positive condition (price near but condition unverified). None inside zone today. Noted: HANDOVER entry zones still carry pre-2026-07-05 "tracking" levels — worth refreshing that table.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-07-fintwitter-daily-telegram-job">✅ Completed — 2026-07-07 (fintwitter daily Telegram job)</h2>
+
+<ul>
+<li><strong>Fintwitter finds automation installed:</strong> skill at <code>.claude/skills/fintwitter-finds/SKILL.md</code>, watchlist at <code>docs/FINTWITTER_WATCHLIST.md</code>, output at <code>docs/FINTWITTER_FINDS.md</code>, sender <code>scripts/send_telegram_digest.py</code> (plain-text <code>## Telegram summary</code> block, no markdown tables).</li>
+<li><strong>launchd job <code>com.nitish.stocks.fintwitter-finds</code>:</strong> weekdays 09:15 + 18:15 IST retry; stamp <code>data/logs/fintwitter_finds_last_success</code>; log <code>data/logs/fintwitter_finds.log</code>. Uses headless Claude + Telegram ping (same <code>.env</code> bot creds as portfolio digest).</li>
+<li><strong>Test ping sent</strong> via <code>venv/bin/python3 scripts/send_telegram_digest.py docs/FINTWITTER_FINDS.md</code> — check Telegram for seed brief.</li>
+<li><strong>On-demand:</strong> <code>python3 scripts/fintwitter_finds.py</code> (dry-run) · <code>python3 scripts/fintwitter_finds.py --full</code> · trigger now: <code>launchctl kickstart gui/$(id -u)/com.nitish.stocks.fintwitter-finds</code></li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-07-morning-news-full-run">✅ Completed — 2026-07-07 (morning news full-run)</h2>
+
+<ul>
+<li><strong>Morning News 2026-07-07 delivered (full mode):</strong> 23 holdings scanned (last-24h window), 7 with material news — RAYMOND (CEO-Defence appointment Jul 6, AGM Jul 14), KERNEX (Kavach commissioning NCR — carried, still operative), NEWGEN (CEO/CGO restructuring eff. Aug 1, $1.71M Philippines LOA, AGM Jul 24 + ₹6 div), ARTEMISMED (₹700 Cr fundraise postal ballot till Jul 18 — dilution watch; ₹0.45 div RD Jul 10), ICICIAMC (Q1 FY27 board meet Jul 13), ATHERENERG ($200M institutional share sale plan, Jul 6 Bloomberg), SOUTHWEST (Alara Resources rights-issue commitment Jul 6 + warrant-conversion allotment Jul 10, 22.7L shares to promoters). Brief at docs/MORNING_BRIEF.md; GitHub issue #2 created. Telegram skipped — TELEGRAM_BOT_TOKEN not set in this session's env.</li>
+<li><strong>Macro flags:</strong> RBI cut FY27 GDP to 6.6%, raised inflation forecast to 5.1% (5.9% H2) — near-term rate cuts off the table; FPI outflows $8.7B; US FOMC minutes Jul 8 with dot plot showing 9 officials expecting a HIKE by end-2026; US CPI 4.2% y/y highest since Apr 2023; Section 122 tariff litigation unresolved.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-06-morning-news-full-run">✅ Completed — 2026-07-06 (morning news full-run)</h2>
+
+<ul>
+<li><strong>Morning News 2026-07-06 delivered (full mode):</strong> 23 holdings scanned (weekend window Jul 3-6), 9 with material news — RAYMOND (CEO-Defence appointment, Everblue amalgamation), KERNEX (Kavach 4.0 commissioned on 207 km NCR section), NEWGEN (CEO/CGO restructuring effective Aug 1 + Philippines order), SWIGGY (Instamart CBO churn), ICICIAMC (Q1 board meet Jul 13), ZENTEC (HyperStrike unveiling), ATHERENERG ($200M QIP plan), BHEL (Chinese equipment makers allowed in govt tenders — sector-wide hit), SOUTHWEST (warrant conversion allotment Jul 10). Brief at docs/MORNING_BRIEF.md; GitHub issue #1 created. Telegram skipped — TELEGRAM_BOT_TOKEN not set in this session's env.</li>
+<li><strong>Macro flag:</strong> India-US trade deal phase 1 expected mid-July (tariff on Indian goods down to 18%); govt opening power tenders to Chinese equipment makers is a direct negative watch item for BHEL and transformer names (SHILCTECH sentiment).</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-06-framework-v2-applied-telegram-jobs-finalized">✅ Completed — 2026-07-06 (framework v2 applied + telegram jobs finalized)</h2>
+
+<ul>
+<li><strong>SKILL.md v2 APPLIED (user approved "apply all"):</strong> appendix re-integrated into main flow (Steps 2.5/2.6, checklist blocks A/B/C), changelog added.</li>
+<li><strong>No tracking positions / no watchlist recos — applied everywhere:</strong> CLAUDE.md Phase 5.3 matrix replaced (BUY / BUY REDUCED / BUY AT ₹X / HOLD / TRIM / EXIT / SPECULATIVE / AVOID, four price levels required), OUTPUT FORMAT + Instruction 8 updated, SKILL.md pre-flight rule 7 + checklist item added, HANDOVER matrix bullet + pitfall 8 updated, watchlist section renamed "Buy-at alerts". User's directive: "either build conviction around buying, or when to enter and when to exit" — every note now ends in explicit prices.</li>
+<li><strong>_TEMPLATE.md consolidated (Addendum B applied):</strong> scenario math 4→1 table (Multi-Bagger Math), reverse DCF 3→1 (5.2), quarterly-trend and CAGRs duplicates deleted, Exit Triggers section deleted (Summary "When do I sell?" is the single home), risks 4→2 (Concerns + Section 7 table with bear values), market-label tables 2→1 universal, Research Log + Update History merged, Action table is now the price ladder, template appendix deleted. ~30-35% shorter reports.</li>
+<li><strong>Telegram: daily NEWS only (user preference).</strong> Evening price-digest launchd job removed (script kept for on-demand). Remaining jobs: nightly-filings 21:12, daily-news 08:42 (morning-news full-run + buy-at alert check).</li>
+<li><strong>FY25-26 booked profit reconciled: ₹56,623</strong> (GROWW +₹1.50L, NETFSILVER −₹59K, SUZLON −₹26K). IRR pending: account predates Apr-2024 order export — need order history from inception + Apr-Jul 2026 data (Groww MCP fetch scheduled post limit-reset).</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-05-scheduled-automation-nightly-filings-weekly-news-brief">✅ Completed — 2026-07-05 (scheduled automation: nightly filings + weekly news brief)</h2>
+
+<ul>
+<li><strong>Two launchd jobs installed</strong> (macOS-native scheduler; runs missed jobs on wake, unlike cron — crontab was blocked by macOS privacy controls anyway). Plists in <code>~/Library/LaunchAgents/</code>, scripts in <code>scripts/</code>, logs in <code>data/logs/</code> (gitignored).</li>
+<li style="margin-left:20px"><code>nightly-filings</code> — weekdays 21:12 IST, <code>fetch_bse_filings.py ALL</code> for the whole portfolio. Zero Claude tokens. Test-fired successfully this session (some 404s on old BSE attachment URLs — expected, BSE purges old links).</li>
+<li style="margin-left:20px"><code>weekly-news</code> — Mondays 08:42 IST, headless <code>claude -p</code> run: morning-news skill in weekly mode (7-day lookback) + watchlist entry-zone check against docs/HANDOVER.md, CMPs from Tickertape/Google Finance (broker MCPs deliberately excluded — Groww MCP unreliable headless; fallback rule applies). First live run: Mon 2026-07-06. Not yet test-fired (costs tokens).</li>
+<li>README updated with a Scheduled Jobs section (manage/trigger/disable commands).</li>
+</ul>
+
+<ul>
+<li><strong>Daily portfolio Telegram digest added (same session).</strong> <code>scripts/daily_portfolio_telegram.py</code> + launchd job <code>daily-digest</code>, weekdays 19:23 IST. EOD close from official NSE/BSE udiff bhavcopies (the legacy endpoints in <code>src/nse_bhavcopy.py</code> and <code>src/indian_stock_api.py</code> are dead upstream — both 404 now; flagged for repair/retirement). Computes day change + P&L per holding and portfolio totals, sends via the telegram_bridge bot creds in <code>.env</code>. Skips market holidays. Dry-run verified against Fri 03-Jul data (23 holdings, all priced); test ping delivered.</li>
+<li><strong>Kite portfolio refresh attempted, blocked on auth.</strong> Kite MCP session expired — needs interactive browser login (Zerodha tokens expire daily; this is why the digest uses bhavcopy, not broker MCPs). portfolio.csv unchanged.</li>
+<li><strong>Data drift confirmed:</strong> portfolio.csv (23 holdings incl. SWIGGY, BHEL, ZENTEC, SOUTHWEST) no longer matches HANDOVER.md active-portfolio table (still lists KAYNES, which is absent from the CSV). Propagation fix pending — see follow-up below.</li>
+</ul>
+
+<ul>
+<li><strong>News brief switched weekly → daily (user request):</strong> <code>scripts/daily_news_cron.sh</code> + <code>com.nitish.stocks.daily-news</code>, weekdays 08:42 IST. morning-news full-run (Telegram + GitHub issue) + watchlist entry-zone check. Weekly job removed.</li>
+<li><strong>SKILL.md v2 re-integration proposal drafted:</strong> <code>docs/proposals/SKILL_stock-research_v2.md</code> (rendered + opened in Chrome). Merges PROMOTED ACTIVE appendix into main flow, Step 6 checklist split into A (always) / B (BUY-TRACKING) / C (premium compounder). Awaiting user approval before touching the live skill.</li>
+<li><strong>Stale worktrees cleaned:</strong> 27 agent worktrees removed via <code>git worktree remove</code> (106MB freed); stale gitlink entries also removed from tracking. <code>claude/*</code> branches left intact (refs only, may hold unmerged work — prune separately after checking).</li>
+<li><strong>Pending research committed:</strong> BANCOINDIA/GRSE/KCP/KERNEX/PPAP/RAYMOND/VISL updates + their HTMLs, RAIN note (Grade C 11/25, WATCHLIST) + index.html row, 4 weekly red-flag journals, TRIVENI mirror-demerger correction (re-rendered).</li>
+<li><strong>Kite account update (user):</strong> Kite now holds only BAJFINANCE (~₹2L). portfolio.csv is the Groww book; BAJFINANCE needs adding once exact qty/avg known (Kite login pending — never estimate cost basis).</li>
+</ul>
+
+<h3 id="open-follow-ups">Open follow-ups</h3>
+
+<ul>
+<li><strong>IndianAPI.in testing (user reminder):</strong> We scaffolded full client in <code>src/indianapi_client.py</code> + config + integration in <code>fundamental_valuation.py</code>. User: "we will test indian api later then - remember". When ready, set <code>export INDIANAPI_KEY=...</code>, run tests on theme stocks (SOLEX, ASM, Bondada, MTAR, Syrma, etc.), inspect news + financials/ratios/shareholding payloads, then wire deeper (PDF generator, morning brief, batch theme pulls). The tab was kept open.</li>
+<li><strong>Portfolio-sync propagation:</strong> decide + build the mechanism (likely a <code>portfolio-sync</code> skill wrapping existing <code>src/sync_holdings_from_csv.py</code> / <code>rebuild_held_block.py</code>) so a portfolio.csv refresh propagates to HANDOVER.md table, index.html held block, and research file Status headers. User suggested building it with skill-creator.</li>
+<li>Verify Monday's first weekly-news run output (<code>docs/MORNING_BRIEF.md</code> + <code>data/logs/weekly_news.log</code>); tune the prompt if the brief is too long/short.</li>
+<li>Stock-research SKILL.md re-integration proposal pending user review: merge "PROMOTED ACTIVE" appendix (Steps 2.5/2.6 + checklist additions) into the main step flow; split Step 6 checklist into always-run vs pattern-conditional blocks.</li>
+<li>Clean up ~106MB of stale agent worktrees under <code>data/.claude/worktrees/</code> (gitignored, local disk only).</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-05-sparc-short-note-fy-profit-swing-explanation">✅ Completed — 2026-07-05 (SPARC short note — FY profit-swing explanation)</h2>
+
+<ul>
+<li><strong>SPARC (Sun Pharma Advanced Research) — AVOID / SPECULATIVE, Grade D · 6/25.</strong> <code>research/SPARC.md</code> created. User asked why the financial-year profit changed. Answer: FY26 swung from a ₹345 Cr loss to a ~₹1,552 Cr profit entirely on a single non-recurring item — sale of a USFDA Priority Review Voucher for USD 195M (~₹1,840 Cr), voucher granted 03-Feb-2026, sold 30-Apr-2026, booked as other operating revenue. All four operating quarters of the year were losses of ₹50-81 Cr; the R&D core is unchanged and still burning cash. The ~5x P/E, 281% ROE, 165% ROCE are artifacts of the one-off and revert negative once it drops out; P/B 5.8x is the only honest valuation signal. No ROIC/compounding engine — fails the framework's central test. Verdict: AVOID as a value/fundamental holding; at most 1% speculative pipeline optionality given strong Sun Pharma promoter (~65.7%). Indexed + rendered + opened in Chrome.</li>
+<li>Note: no recent concall / quarterly result available for PPAP as of this session (user flagged).</li>
+</ul>
 
 <hr>
 
