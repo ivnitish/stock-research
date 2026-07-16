@@ -21,6 +21,17 @@ BHAV_COPY_DIR = os.path.join(BASE_DIR, "data", "bhav")
 if SRC_DIR not in sys.path:
     sys.path.insert(0, SRC_DIR)
 
+# Load repo .env into os.environ (existing env vars win) so API keys work
+# in every entry point — interactive, cron/launchd, and one-off scripts.
+_ENV_PATH = os.path.join(BASE_DIR, ".env")
+if os.path.exists(_ENV_PATH):
+    with open(_ENV_PATH) as _f:
+        for _line in _f:
+            _line = _line.strip()
+            if _line and not _line.startswith("#") and "=" in _line:
+                _k, _v = _line.split("=", 1)
+                os.environ.setdefault(_k.strip(), _v.strip().strip('"').strip("'"))
+
 # Default exchange suffix for symbols without one
 DEFAULT_EXCHANGE = "NS"  # NSE; use "BO" for BSE
 

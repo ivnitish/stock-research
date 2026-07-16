@@ -3,273 +3,329 @@ Client for IndianAPI.in Stock Market API (https://indianapi.in).
 
 This is the paid marketplace API (distinct from the free GitHub indian_stock_api.py).
 
-Capabilities (based on docs):
-- News: /news , company-specific news, AI-curated insights
-- Stock details + financials: quarterly/yearly P&L, balance sheets, cash flows,
-  ratios (P/E, ROCE, ROE etc.), shareholding patterns, key metrics, analyst views.
+QUOTA — 500 requests/month on the current plan (user directive 2026-07-17:
+use judiciously). Two protections built in:
+  1. Every response is disk-cached under data/cache/indianapi/ (default TTL:
+     3 days for /stock, 1 hour for /news). Repeat lookups cost nothing.
+  2. Every real network hit increments data/cache/indianapi/usage_YYYY-MM.json.
+     A stderr warning fires at 450+. Check remaining budget with get_usage().
 
-Setup:
-1. Sign up at https://indianapi.in/
-2. Subscribe to the Stock / Indian Stock Exchange API (sandbox at /sandbox/indian-stock-market)
-3. Export INDIANAPI_KEY=your_key
-4. Optionally override INDIANAPI_BASE_URL (default https://stock.indianapi.in)
+Verified endpoints (live-tested 2026-07-17):
+  GET /stock?name=X        — the workhorse. Accepts company name ("Solex Energy")
+                             OR ticker symbol ("SOLEX") as `name`. One call returns:
+                             profile, live NSE/BSE price, 8yr annual + quarterly
+                             statements (INC/BAL/CAS), keyMetrics (ROE, ROI, margins,
+                             D/E, P/E, P/B, PEG, growth rates), shareholding history
+                             (promoter/FII/DII), analystView, recentNews, technicals.
+  GET /news                — market news list.
+  GET /trending            — top gainers/losers.
+  GET /historical_data?stock_name=&period=&filter=   (filter is REQUIRED)
+  GET /historical_stats?stock_name=&stats=            (e.g. stats=quarter_results)
+  Documented but untested: /industry_search, /mutual_fund_search, /price_shockers,
+  /commodities, /stock_target_price, /stock_forecasts, /NSE_most_active,
+  /BSE_most_active, /fetch_52_week_high_low_data, /mutual_funds.
 
-Usage examples:
-    from indianapi_client import get_news, get_stock, get_company_news, get_fundamentals
+Endpoints that DO NOT exist (404 "Endpoint not allowed", removed 2026-07-17):
+  /company_news, /ai_news, /stock/list, /financials, /ratios, /shareholding —
+  all of that data is embedded in the single /stock response.
 
-    news = get_news(limit=10)
-    stock = get_stock("SOLEX")
-    fundamentals = get_fundamentals("SOLEX.NS")
+Auth: header `x-api-key`. Base https://stock.indianapi.in (INDIANAPI_BASE_URL to override).
+Key lives in repo .env as INDIANAPI_KEY (config.py loads .env automatically).
 
-TODO (user reminder 2026-07-07): Test this later. User said "we will test indian api later then - remember".
-When ready: set INDIANAPI_KEY, run test_connection(), get_fundamentals on theme stocks (SOLEX, ASM, Bondada, MTAR, etc.), verify news + financials payloads, then enhance further (PDF tables, morning brief, batch for 2026 themes).
-Current integration: already wired into src/fundamental_valuation.py as richer source when key present.
+UNITS QUIRK in /stock payload (verified against SOLEX Screener numbers):
+  - statement maps (INC/BAL/CAS values) and priceandVolume.marketCap: ₹ Cr
+  - money fields in other keyMetrics sections (incomeStatement etc.): ₹ millions
+    (divide by 10 for ₹ Cr)
+  - ratios, percentages, per-share data: unitless / as labelled
+Also: keyMetrics key names are dirty (trailing ")", embedded spaces, typos like
+"returnOnAverageAssetsMostRecenFiscalYear") — always look up via _km() which
+normalizes keys, never by exact string.
+
+Current integration: wired into src/fundamental_valuation.py as richer source
+when the key is present.
 """
 
 from __future__ import annotations
 
+import hashlib
+import json
 import os
+import re
+import sys
+import time
 import urllib.parse
 import urllib.request
-import json
+from datetime import datetime
+from pathlib import Path
 from typing import Any
 
-from config import INDIANAPI_KEY, INDIANAPI_BASE_URL
-from stock_input import StockInput, to_ticker, normalize_stock_input, normalize_stock_inputs
+from config import BASE_DIR, INDIANAPI_KEY, INDIANAPI_BASE_URL
+from stock_input import StockInput, normalize_stock_input
 
 _TIMEOUT = 20
-_DEFAULT_LIMIT = 20
+_CACHE_DIR = Path(BASE_DIR) / "data" / "cache" / "indianapi"
+_STOCK_TTL = 3 * 86400   # fundamentals: 3 days is fresh enough for research
+_NEWS_TTL = 3600         # news: 1 hour
+_USAGE_WARN_AT = 450     # of the 500/month plan
 
 
-def _headers() -> dict[str, str]:
+# ---------------------------------------------------------------- plumbing
+
+def is_configured() -> bool:
+    return bool(INDIANAPI_KEY)
+
+
+def _cache_path(path: str, params: dict | None) -> Path:
+    raw = path + "?" + urllib.parse.urlencode(sorted((params or {}).items()))
+    h = hashlib.md5(raw.encode()).hexdigest()[:16]
+    slug = re.sub(r"[^A-Za-z0-9]+", "_", raw).strip("_")[:60]
+    return _CACHE_DIR / f"{slug}_{h}.json"
+
+
+def _usage_path() -> Path:
+    return _CACHE_DIR / f"usage_{datetime.now():%Y-%m}.json"
+
+
+def get_usage() -> int:
+    """Requests consumed this calendar month (network hits only, cache hits free)."""
+    try:
+        return json.loads(_usage_path().read_text())["count"]
+    except Exception:
+        return 0
+
+
+def _count_usage() -> int:
+    _CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    n = get_usage() + 1
+    _usage_path().write_text(json.dumps({"count": n}))
+    if n >= _USAGE_WARN_AT:
+        print(f"WARNING: IndianAPI usage {n}/500 this month — nearly exhausted",
+              file=sys.stderr)
+    return n
+
+
+def _get(path: str, params: dict | None = None, ttl: int | None = _STOCK_TTL,
+         base: str | None = None) -> dict | list:
+    """GET with disk cache. ttl=None forces a network hit (still counted)."""
     if not INDIANAPI_KEY:
-        return {}
-    # Docs use both 'x-api-key' and 'X-API-Key'. We use lowercase as primary.
-    return {"x-api-key": INDIANAPI_KEY}
+        return {"error": "INDIANAPI_KEY not set. Get one from https://indianapi.in/ "
+                         "and put it in the repo .env."}
 
-
-def _get(path: str, params: dict | None = None, base: str | None = None) -> dict | list:
-    """
-    Internal GET helper. Returns parsed JSON or error dict.
-    """
-    if not INDIANAPI_KEY:
-        return {"error": "INDIANAPI_KEY not set. Get one from https://indianapi.in/ and export it."}
+    cp = _cache_path(path, params)
+    if ttl and cp.exists() and (time.time() - cp.stat().st_mtime) < ttl:
+        try:
+            return json.loads(cp.read_text())
+        except Exception:
+            pass  # corrupt cache — refetch
 
     base_url = (base or INDIANAPI_BASE_URL).rstrip("/")
     url = f"{base_url}{path}"
     if params:
-        url += "?" + urllib.parse.urlencode({k: v for k, v in params.items() if v is not None})
+        url += "?" + urllib.parse.urlencode(
+            {k: v for k, v in params.items() if v is not None})
 
     req = urllib.request.Request(url, method="GET")
-    for k, v in _headers().items():
-        req.add_header(k, v)
+    req.add_header("x-api-key", INDIANAPI_KEY)
 
     try:
         with urllib.request.urlopen(req, timeout=_TIMEOUT) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-            return data
     except urllib.error.HTTPError as e:
         try:
             err_body = e.read().decode("utf-8")
         except Exception:
             err_body = str(e)
+        _count_usage()  # failed calls still count against the quota
         return {"error": f"HTTP {e.code}", "body": err_body}
     except Exception as e:
         return {"error": str(e)}
 
-
-def is_configured() -> bool:
-    """Quick check if the API key is present."""
-    return bool(INDIANAPI_KEY)
-
-
-def get_news(limit: int = _DEFAULT_LIMIT, category: str | None = None) -> list[dict]:
-    """
-    Fetch latest stock market / general news.
-    """
-    params = {"limit": limit}
-    if category:
-        params["category"] = category
-    data = _get("/news", params)
-    if isinstance(data, dict) and "error" in data:
-        return []
-    if isinstance(data, list):
-        return data
-    # Common response shapes
-    return data.get("news", data.get("data", data.get("results", []))) or []
-
-
-def get_company_news(symbol_or_details: StockInput, limit: int = 10) -> list[dict]:
-    """
-    Company-specific news.
-    """
-    n = normalize_stock_input(symbol_or_details)
-    symbol = n["symbol"]
-    data = _get("/company_news", {"symbol": symbol, "limit": limit})
-    if isinstance(data, dict) and "error" in data:
-        return []
-    if isinstance(data, list):
-        return data
-    return data.get("news", data.get("data", [])) or []
-
-
-def get_ai_news(limit: int = 10, topic: str | None = None) -> list[dict]:
-    """AI-curated financial insights/news (if the endpoint exists)."""
-    params = {"limit": limit}
-    if topic:
-        params["topic"] = topic
-    data = _get("/ai_news", params)
-    if isinstance(data, dict) and "error" in data:
-        return []
-    return data.get("news", data.get("data", [])) or [] if not isinstance(data, list) else data
-
-
-def get_stock(symbol_or_details: StockInput, **extra_params) -> dict | None:
-    """
-    Get detailed stock information. Often includes price, profile, key metrics,
-    and in richer responses: financial statements or links to them.
-    """
-    n = normalize_stock_input(symbol_or_details)
-    symbol = n["symbol"]
-    params = {"symbol": symbol, **extra_params}
-    data = _get("/stock", params)
-    if isinstance(data, dict) and "error" in data:
-        return None
-    if isinstance(data, dict):
-        return data.get("data", data)
+    _count_usage()
+    try:
+        _CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        cp.write_text(json.dumps(data))
+    except Exception:
+        pass
     return data
 
 
-def get_stock_list(symbols: list[StockInput]) -> list[dict]:
-    """Batch stock details if the endpoint supports comma-separated symbols."""
-    if not symbols:
-        return []
-    tickers = [normalize_stock_input(s)["symbol"] for s in symbols]
-    data = _get("/stock/list", {"symbols": ",".join(tickers)})
-    if isinstance(data, dict) and "error" in data:
-        return []
-    return data.get("stocks", data.get("data", [])) or []
+def _num(x) -> float | None:
+    try:
+        return float(str(x).replace(",", ""))
+    except (TypeError, ValueError):
+        return None
 
 
-def get_financials(symbol_or_details: StockInput, period: str = "quarterly") -> dict | None:
+def _norm_key(k: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", (k or "").lower())
+
+
+def _km(stock: dict, section: str, *key_candidates: str) -> float | None:
+    """Look up a keyMetrics value with normalized keys; first candidate that hits wins."""
+    items = (stock.get("keyMetrics") or {}).get(section) or []
+    table = {_norm_key(i.get("key", "")): i.get("value") for i in items
+             if isinstance(i, dict)}
+    for cand in key_candidates:
+        v = table.get(_norm_key(cand))
+        if v is not None:
+            return _num(v)
+    return None
+
+
+# ---------------------------------------------------------------- endpoints
+
+def get_news(limit: int = 20) -> list[dict]:
+    """Latest market news (1h cache)."""
+    data = _get("/news", None, ttl=_NEWS_TTL)
+    if isinstance(data, list):
+        return data[:limit]
+    return []
+
+
+def get_trending() -> dict | None:
+    """Top gainers/losers snapshot (1h cache)."""
+    data = _get("/trending", None, ttl=_NEWS_TTL)
+    return None if isinstance(data, dict) and "error" in data else data
+
+
+def get_stock(symbol_or_details: StockInput, ttl: int = _STOCK_TTL) -> dict | None:
     """
-    Attempt to fetch detailed financials (P&L, balance sheet, cash flow).
-    The exact path may vary — common candidates: /financials, /results, /statements.
-    Returns raw response so you can inspect structure.
+    Full stock payload from GET /stock?name=. Accepts ticker ("SOLEX", "SOLEX.NS")
+    or company name ("Solex Energy"). This is ONE quota request (or free on cache hit).
     """
     n = normalize_stock_input(symbol_or_details)
-    symbol = n["symbol"]
-    # Try the most likely paths
-    for path in ["/financials", "/results", "/statements", f"/financials/{symbol}"]:
-        data = _get(path, {"symbol": symbol, "period": period})
-        if isinstance(data, dict) and "error" not in data and data:
-            return data
-    # Fallback: sometimes financials are embedded in /stock
+    name = n["symbol"]  # bare symbol works as name; strip .NS/.BO handled upstream
+    data = _get("/stock", {"name": name}, ttl=ttl)
+    if isinstance(data, dict) and "error" not in data and data.get("companyName"):
+        return data
+    return None
+
+
+def get_company_news(symbol_or_details: StockInput) -> list[dict]:
+    """Company news embedded in the /stock payload (no separate endpoint exists)."""
     stock = get_stock(symbol_or_details)
-    if stock and any(k in str(stock).lower() for k in ["profit", "balance", "cashflow", "pl", "pnl"]):
-        return {"embedded_in_stock": True, "stock_data": stock}
-    return None
+    if not stock:
+        return []
+    return [x for x in (stock.get("recentNews") or []) if x]
 
 
-def get_ratios(symbol_or_details: StockInput) -> dict | None:
-    """Key ratios if separate endpoint exists."""
-    n = normalize_stock_input(symbol_or_details)
-    symbol = n["symbol"]
-    for path in ["/ratios", "/key_ratios"]:
-        data = _get(path, {"symbol": symbol})
-        if isinstance(data, dict) and "error" not in data and data:
-            return data
-    return None
+def get_historical_data(stock_name: str, period: str = "1yr",
+                        filter: str = "price") -> dict | None:
+    """GET /historical_data — `filter` is required by the API (e.g. price, pe, sm)."""
+    data = _get("/historical_data",
+                {"stock_name": stock_name, "period": period, "filter": filter})
+    return None if isinstance(data, dict) and "error" in data else data
 
 
-def get_shareholding(symbol_or_details: StockInput) -> dict | None:
-    """Shareholding pattern (promoter %, FII, DII, etc.)."""
-    n = normalize_stock_input(symbol_or_details)
-    symbol = n["symbol"]
-    for path in ["/shareholding", "/shareholding_pattern", "/holdings"]:
-        data = _get(path, {"symbol": symbol})
-        if isinstance(data, dict) and "error" not in data and data:
-            return data
-    return None
+def get_historical_stats(stock_name: str, stats: str = "quarter_results") -> dict | None:
+    """GET /historical_stats — e.g. stats=quarter_results for quarterly table."""
+    data = _get("/historical_stats", {"stock_name": stock_name, "stats": stats})
+    return None if isinstance(data, dict) and "error" in data else data
 
+
+# ---------------------------------------------------------------- fundamentals
 
 def get_fundamentals(symbol_or_details: StockInput) -> dict:
     """
-    Best-effort Screener-like snapshot.
-    Tries to combine stock details + financials + ratios + shareholding.
-    Returns a normalized dict + raw sections for full inspection.
+    Screener-like snapshot parsed from a SINGLE /stock call.
+
+    Returns normalized fields (None when absent) plus raw sections. Field notes:
+    - roce is actually Refinitiv-style Return on Investment (closest available proxy)
+    - market_cap in ₹ Cr; revenue_ttm/pat_ttm converted from millions to ₹ Cr
+    - promoter_holding = latest quarter %, promoter_trend = full history
     """
     n = normalize_stock_input(symbol_or_details)
-    symbol = n["symbol"]
-    ticker = n["ticker"]
-
-    out = {
-        "symbol": symbol,
-        "ticker": ticker,
-        "source": "indianapi.in",
-        "error": None,
+    out: dict[str, Any] = {
+        "symbol": n["symbol"], "ticker": n["ticker"],
+        "source": "indianapi.in", "error": None,
     }
 
-    stock = get_stock(symbol)
-    if stock:
-        out["stock_raw"] = stock
-        # Try common field names
-        out["name"] = stock.get("company_name") or stock.get("name") or stock.get("longName")
-        out["current_price"] = stock.get("last_price") or stock.get("price") or stock.get("close")
-        out["market_cap"] = stock.get("market_cap") or stock.get("marketCap")
-        out["pe_ratio"] = stock.get("pe") or stock.get("pe_ratio") or stock.get("trailingPE")
-        out["sector"] = stock.get("sector") or stock.get("industry")
+    stock = get_stock(symbol_or_details)
+    if not stock:
+        out["error"] = "no /stock data returned"
+        return out
 
-    # Enrich with separate calls if available
-    fin = get_financials(symbol)
-    if fin:
-        out["financials_raw"] = fin
+    out["name"] = stock.get("companyName")
+    out["sector"] = stock.get("industry")
 
-    ratios = get_ratios(symbol)
-    if ratios:
-        out["ratios_raw"] = ratios
-        # Try to pull common ratios
-        out["roe"] = ratios.get("roe") or ratios.get("return_on_equity")
-        out["roce"] = ratios.get("roce") or ratios.get("return_on_capital_employed")
-        out["debt_to_equity"] = ratios.get("debt_to_equity")
+    cp = stock.get("currentPrice") or {}
+    out["current_price"] = _num(cp.get("NSE")) or _num(cp.get("BSE"))
+    out["year_high"] = _num(stock.get("yearHigh"))
+    out["year_low"] = _num(stock.get("yearLow"))
 
-    sh = get_shareholding(symbol)
-    if sh:
-        out["shareholding_raw"] = sh
-        out["promoter_holding"] = sh.get("promoter") or sh.get("promoters")
+    out["market_cap"] = _km(stock, "priceandVolume", "marketCap")          # ₹ Cr
+    out["beta"] = _km(stock, "priceandVolume", "beta")
 
-    if not any(k in out for k in ["market_cap", "pe_ratio", "financials_raw"]):
-        out["error"] = "Limited data returned. Check exact endpoints in the sandbox for this symbol."
+    out["pe_ratio"] = _km(stock, "valuation",
+                          "pPerEBasicExcludingExtraordinaryItemsTTM",
+                          "pPerEIncludingExtraordinaryItemsTTM",
+                          "pPerEExcludingExtraordinaryItemsMostRecentFiscalYear")
+    out["pb_ratio"] = _km(stock, "valuation",
+                          "priceToBookMostRecentQuarter",
+                          "priceToBookMostRecentFiscalYear")
+    out["peg_ratio"] = _km(stock, "valuation", "pegRatio")
 
+    out["roe"] = _km(stock, "mgmtEffectiveness",
+                     "returnOnAverageEquityMostRecentFiscalYear)",
+                     "returnOnAverageEquityTrailing12Month",
+                     "returnOnAverageEquity5YearAverage")
+    out["roce"] = _km(stock, "mgmtEffectiveness",   # ROI = closest proxy to ROCE here
+                      "returnOnInvestmentMostRecentFiscalYear",
+                      "returnOnInvestmentTrailing12Month")
+    out["debt_to_equity"] = _km(stock, "financialstrength",
+                                "totalDebtPerTotalEquityMostRecentQuarter",
+                                "totalDebtPerTotalEquityMostRecentFiscalYear")
+    out["interest_coverage"] = _km(stock, "financialstrength",
+                                   "netInterestCoverageMostRecentFiscalYear")
+    out["opm_ttm"] = _km(stock, "margins", "operatingMarginTrailing12Month")
+    out["npm_ttm"] = _km(stock, "margins", "netProfitMarginPercentTrailing12Month")
+
+    rev_m = _km(stock, "incomeStatement", "revenueTrailing12Month)")
+    pat_m = _km(stock, "incomeStatement", "netIncomeAvailableToCommonTrailing12Months")
+    out["revenue_ttm"] = round(rev_m / 10, 2) if rev_m else None           # ₹ Cr
+    out["pat_ttm"] = round(pat_m / 10, 2) if pat_m else None               # ₹ Cr
+
+    out["revenue_growth_3y"] = _km(stock, "growth", "growthRatePercentRevenue3Year")
+    out["eps_growth_3y"] = _km(stock, "growth", "growthRatePercentEPS3year")
+
+    # Shareholding: latest promoter % + full trend
+    promoter_trend = []
+    for grp in stock.get("shareholding") or []:
+        if "promoter" in (grp.get("categoryName") or "").lower():
+            promoter_trend = sorted(
+                [(c.get("holdingDate"), _num(c.get("percentage")))
+                 for c in grp.get("categories") or []])
+    out["promoter_trend"] = promoter_trend
+    out["promoter_holding"] = promoter_trend[-1][1] if promoter_trend else None
+
+    # Raw sections for deep use (names kept for fundamental_valuation.py compat)
+    out["financials_raw"] = stock.get("financials")        # 8yr INC/BAL/CAS, ₹ Cr
+    out["ratios_raw"] = stock.get("keyMetrics")
+    out["shareholding_raw"] = stock.get("shareholding")
+    out["analyst_view"] = stock.get("analystView")
+    out["recent_news"] = [x for x in (stock.get("recentNews") or []) if x]
     return out
 
 
 def test_connection() -> dict:
-    """Quick health check + sample news."""
+    """Cheap health check — at most ONE quota request (cached news)."""
     if not is_configured():
         return {"status": "not_configured", "message": "Set INDIANAPI_KEY env var"}
-
-    news = get_news(limit=3)
-    sample_stock = get_stock("RELIANCE")
+    news = get_news(limit=1)
     return {
-        "status": "ok" if news or sample_stock else "partial",
-        "news_sample_count": len(news),
-        "sample_stock_keys": list(sample_stock.keys()) if isinstance(sample_stock, dict) else None,
+        "status": "ok" if news else "failed",
         "base_url": INDIANAPI_BASE_URL,
+        "usage_this_month": get_usage(),
+        "quota": 500,
     }
 
 
 if __name__ == "__main__":
-    print("IndianAPI client test")
-    print("Configured:", is_configured())
-    print("Connection test:", test_connection())
-
-    if is_configured():
-        print("\n--- Sample news ---")
-        print(get_news(limit=5)[:2])
-
-        print("\n--- Sample stock (RELIANCE) ---")
-        print(get_stock("RELIANCE"))
-
-        print("\n--- Fundamentals for a theme stock (try SOLEX or your pick) ---")
-        print(get_fundamentals("SOLEX"))
+    print("IndianAPI client — configured:", is_configured())
+    print(test_connection())
+    if len(sys.argv) > 1:
+        f = get_fundamentals(sys.argv[1])
+        print(json.dumps({k: v for k, v in f.items()
+                          if not k.endswith("_raw") and k != "recent_news"},
+                         indent=2, default=str))
+        print("usage this month:", get_usage())

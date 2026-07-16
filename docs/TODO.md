@@ -11,7 +11,7 @@
 ## ⏳ Open — refactoring thread (picked up 2026-07-17)
 
 - ~~stock-research SKILL v2 proposal awaiting user approval~~ — **RESOLVED 2026-07-17:** already applied 2026-07-06 (commit `65ff3ca`, user-approved; changelog in live SKILL.md). Proposal doc's stale "DRAFT — not applied" header corrected to APPLIED.
-- **IndianAPI.in integration untested** — user to sign up at indianapi.in, set INDIANAPI_KEY; then run test_connection(), verify fundamentals/news payloads on theme stocks (SOLEX, ASM, MTAR), then extend (PDF tables, morning brief, 2026-themes batch).
+- ~~IndianAPI.in integration untested~~ — **DONE 2026-07-17:** user signed up, key in `.env` (config.py now auto-loads .env). Live-tested: `/stock?name=` is the workhorse (ticker works as name; one call = profile + live price + 8yr statements + ratios + shareholding + analyst view). Client rewritten — old version burned ~10 requests per fundamentals call probing non-existent endpoints (/company_news, /ai_news, /stock/list, /financials, /ratios, /shareholding all 404). **QUOTA: 500 req/month (user directive: use judiciously)** — added disk cache (data/cache/indianapi/, 3-day TTL) + monthly usage counter (16 used in testing). Small-cap coverage OK (SOLEX, KAYNES; KERNEX keyMetrics empty). Units quirk documented: statements ₹ Cr, keyMetrics money ₹ millions. Next (optional): use in morning brief / 2026-themes batch — mind the quota.
 
 ---
 

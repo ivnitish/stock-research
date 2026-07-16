@@ -58,3 +58,6 @@ data/logs/fintwitter_finds.lock
 
 # Third-party holdings PDFs (personal, never publish)
 harish/
+
+# IndianAPI response cache + usage counter (regenerable)
+data/cache/
