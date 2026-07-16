@@ -1,0 +1,428 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>SKILL_stock-research_v2.md</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:960px;margin:40px auto;padding:0 24px;color:#1f2937;line-height:1.7;}
+h1{font-size:2em;border-bottom:3px solid #1d4ed8;padding-bottom:8px;color:#1e3a5f;}
+h2{font-size:1.4em;border-bottom:1px solid #e5e7eb;padding-bottom:6px;color:#1d4ed8;margin-top:32px;}
+h3{font-size:1.1em;color:#374151;margin-top:24px;}
+table{border-collapse:collapse;width:100%;margin:16px 0;font-size:13.5px;}
+th{background:#1e3a5f;color:#fff;padding:8px 12px;text-align:left;}
+td{padding:7px 12px;border-bottom:1px solid #f3f4f6;}
+tr:nth-child(even){background:#f9fafb;}
+code{background:#f3f4f6;padding:1px 6px;border-radius:4px;font-size:13px;color:#7c3aed;}
+hr{border:none;border-top:2px solid #e5e7eb;margin:24px 0;}
+ul{padding-left:20px;} li{margin:4px 0;}
+strong{color:#111827;}
+/* Private blocks: visible in browser, hidden in print/PDF */
+.sr-private{border-left:3px solid #fbbf24;padding-left:8px;background:#fffbeb;}
+#toc{position:fixed;top:80px;right:16px;width:200px;background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px;font-size:12px;max-height:70vh;overflow-y:auto;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:100;}
+#toc summary{font-weight:600;cursor:pointer;color:#1d4ed8;margin-bottom:6px;}
+#toc a{display:block;color:#374151;text-decoration:none;padding:2px 0;line-height:1.4;}
+#toc a:hover{color:#1d4ed8;}
+@media(max-width:1200px){#toc{display:none;}}
+@media print{
+  .no-print{display:none!important;}
+  .sr-private{display:none!important;}
+  body{max-width:100%;margin:0;padding:12px;color:#000;}
+  h1{color:#000;border-bottom:2px solid #000;font-size:1.6em;}
+  h2{color:#000;border-bottom:1px solid #666;font-size:1.2em;}
+  h3{color:#222;}
+  th{background:#333!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  td{border-bottom:1px solid #ccc;}
+  tr:nth-child(even){background:#f5f5f5!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  code{background:#eee;color:#333;}
+  a{color:#000;text-decoration:none;}
+  table{page-break-inside:avoid;font-size:11px;}
+  h2,h3{page-break-after:avoid;}
+}
+</style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
+<details id="toc" class="no-print"><summary>Jump to section</summary></details>
+<h1 id="proposal-stock-research-skill-md-v2-re-integration">PROPOSAL — stock-research SKILL.md v2 (re-integration)</h1>
+
+<p><strong>Status: DRAFT for review — not applied.</strong> The live skill at <code>.claude/skills/stock-research/SKILL.md</code> is untouched until you approve.</p>
+
+<h2 id="what-this-changes-and-what-it-doesn-t">What this changes (and what it doesn't)</h2>
+
+<p>Zero new framework content. This is a reorganization of existing, already-validated content so a fresh forked skill context executes every step in order, instead of having to discover binding steps in an appendix after the step list ends.</p>
+
+<p>1. <strong>Step 2.5 (segment & insider depth pull) moves into the main flow</strong> between Step 2 and Step 3 — verbatim content from the appendix.</p>
+<p>2. <strong>Step 2.6 (distribution/capability density pull) moves in right after it</strong>, with its conditional trigger stated at the top.</p>
+<p>3. <strong>Step 6 checklist restructured into three blocks:</strong> (A) every note, always; (B) any BUY or TRACKING candidate; (C) premium-quality compounder pattern only (Phase 0.6 entries). Same items, grouped by when they actually apply.</p>
+<p>4. <strong>The "SKILL ADDITIONS — PROMOTED ACTIVE" appendix is deleted</strong> — everything in it now lives in the flow. A one-line changelog replaces it.</p>
+<p>5. <strong>One dedupe:</strong> "segment revenue CAGR computed separately from consolidated headline" appeared twice (base pattern checklist + appendix additions). Kept once, in block A, with the 3-year specificity. No other item removed.</p>
+
+<p>Approve → I copy the content below over the live SKILL.md and commit. Reject/edit → tell me what to change.</p>
+
+<p><strong>Addenda (added 2026-07-06, also awaiting approval):</strong> Addendum A (kill TRACKING POSITION, price-ladder recommendations) and Addendum B (template consolidation — the "junk reduction") at the bottom of this document.</p>
+
+<hr>
+
+<h1 id="proposed-skill-md-content">PROPOSED SKILL.md CONTENT</h1>
+
+<p><code>`</code></p>
+<hr>
+<p>name: stock-research</p>
+<p>description: ></p>
+<p>  Use whenever analysing any stock for investment — Indian (NSE/BSE) or US.</p>
+<p>  Triggers on: "analyse [stock]", "thesis for [stock]", "should I buy/sell/hold [stock]",</p>
+<p>  "quality score for [stock]", "research [stock]", or any stock analysis request.</p>
+<p>  Also triggers when user names a ticker and asks "what do you think?"</p>
+<p>  Merges data sourcing discipline (Tickertape CMP, Screener.in financials,</p>
+<p>  anti-hallucination rules) with Munger 5-dimension quality scorecard,</p>
+<p>  P/B-ROE justified valuation, reverse DCF, and single-file research log format.</p>
+<p>context: fork</p>
+<hr>
+<p><code>`</code></p>
+
+<h1 id="stock-research-full-framework">Stock Research — Full Framework</h1>
+
+<p>Institutional-quality, Munger-philosophy research for stocks. Combines:</p>
+<ul>
+<li><strong>Data discipline</strong> (source verification, anti-hallucination, CMP fetching)</li>
+<li><strong>Munger quality scorecard</strong> (5-dimension, 1-5 each, /25 total)</li>
+<li><strong>P/B-ROE justified valuation</strong> (not just P/E)</li>
+<li><strong>Reverse DCF</strong> ("what growth is the market pricing in?")</li>
+<li><strong>Single-file research log</strong> with dated entries</li>
+</ul>
+
+<hr>
+
+<h2 id="mandatory-pre-flight-rules">MANDATORY PRE-FLIGHT RULES</h2>
+
+<p>1. <strong>Never hallucinate figures.</strong> Every number must come from a fetched source.</p>
+<p>2. <strong>Never use Screener.in for CMP.</strong> It shows stale cached prices — use Tickertape or Google Finance.</p>
+<p>3. <strong>Never use Yahoo Finance for Indian CMP.</strong> It shows US-session delayed prices, off by 10-15%.</p>
+<p>4. <strong>Every number must carry an inline source tag</strong> <code>[Source: URL, date]</code>.</p>
+<p>5. If a number cannot be sourced after 2 attempts, write "data unavailable" — never estimate.</p>
+<p>6. <strong>Writing quality:</strong> Bull/bear/compounding sections must read as analyst narratives — weave numbers into cause-effect explanations, not formulaic template-filling.</p>
+
+<hr>
+
+<h2 id="market-detection">MARKET DETECTION</h2>
+
+<ul>
+<li><strong>Indian stocks:</strong> No suffix, or ends in .NS/.BO/.BSE → use India workflow (Screener.in + BSE)</li>
+<li><strong>US stocks:</strong> Standard US tickers (NVDA, GOOGL, etc.) → use US workflow (Alpha Vantage MCP + SEC)</li>
+<li>If ambiguous, ask the user.</li>
+</ul>
+
+<hr>
+
+<h2 id="india-workflow">INDIA WORKFLOW</h2>
+
+<h3 id="step-0-identify-and-resolve">Step 0 — Identify and Resolve</h3>
+<ul>
+<li>Resolve company name → NSE ticker (e.g., KAYNES, GROWW, NESCO)</li>
+<li>NSE preferred, BSE fallback (prefix <code>BSE:</code>)</li>
+</ul>
+
+<h3 id="step-1-fetch-live-cmp-mandatory-first">Step 1 — Fetch Live CMP (MANDATORY FIRST)</h3>
+
+<blockquote>
+<p>Screener.in and Yahoo Finance are BLOCKED for CMP. Both show stale/wrong prices.</p>
+</blockquote>
+
+<p><strong>CMP fetch procedure:</strong></p>
+<p>1. <code>web_search: "[TICKER] NSE share price [MONTH YEAR]"</code> — read price from Google Finance card</p>
+<p>2. If unclear → <code>web_fetch: https://www.tickertape.in/stocks/[company-slug]-[TICKER]</code></p>
+<p>3. Fallback → <code>web_fetch: https://www.5paisa.com/stocks/[company-name]-share-price</code></p>
+<p>4. Record as: <code>CMP: ₹[X.XX] [Source: Tickertape/Google Finance, DD-Mon-YYYY]</code></p>
+<p>5. Must be from most recent trading day. If >3 days old, flag explicitly.</p>
+
+<p><strong>Do not proceed until you have a real ₹ number with a date.</strong></p>
+
+<h3 id="step-2-fetch-all-data">Step 2 — Fetch All Data</h3>
+
+<table>
+<tr><th>Data</th><th>Primary Source</th><th>Fallback</th></tr>
+<tr><td>Historical financials (P&L, BS, CF)</td><td><code>screener.in/company/[TICKER]/consolidated/</code></td><td>Tickertape</td></tr>
+<tr><td>Key ratios (P/E, P/B, ROE, ROCE, D/E)</td><td>Screener.in (same page)</td><td>Trendlyne</td></tr>
+<tr><td>Promoter & institutional shareholding</td><td>Screener.in shareholding tab</td><td>BSE filings</td></tr>
+<tr><td>Quarterly results + commentary</td><td><code>bseindia.com</code> corporate filings</td><td>NSE</td></tr>
+<tr><td>Concall transcripts</td><td>Screener.in concall tab</td><td><code>web_search</code></td></tr>
+<tr><td>BSE filings (concalls, results PDFs)</td><td><code>python3 src/fetch_bse_filings.py [TICKER]</code></td><td>—</td></tr>
+<tr><td>News (last 90 days)</td><td>ET Markets, Mint, Business Standard</td><td>CNBCTV18, Moneycontrol</td></tr>
+<tr><td>Peer comparison (≥3 peers)</td><td><code>trendlyne.com/equity/[TICKER]/</code> peers section</td><td>Screener.in</td></tr>
+<tr><td>Analyst consensus target</td><td>Trendlyne analyst section</td><td><code>web_search</code></td></tr>
+</table>
+
+<h3 id="step-2-5-segment-insider-depth-pull-always">Step 2.5 — Segment & Insider Depth Pull (always)</h3>
+
+<p>Three additional fetches, produced as artifacts BEFORE analysis begins. The framework requires computing segment ROIC, checking insider activity, and watching promoter movement — these get skipped when there's no explicit fetch step producing them first.</p>
+
+<p>1. <strong>Segment data, 3 years.</strong> Annual report segment note — segment revenue and segment PBIT broken out separately. Often at the back of the AR under "Segment Reporting." The consolidated P&L is not a substitute.</p>
+<p>2. <strong>Insider trading disclosures, 12 months.</strong> BSE corporate filings → Insider Trading Disclosure section. Pull all transactions, classify as ESOP / open-market buy / open-market sell / pledge change / off-market transfer.</p>
+<p>3. <strong>Promoter shareholding, 8 quarters.</strong> BSE shareholding pattern history. Track the trajectory and reconcile any quarter-on-quarter movement above 2% to a stated reason.</p>
+
+<h3 id="step-2-6-distribution-capability-density-pull-conditional">Step 2.6 — Distribution / Capability Density Pull (conditional)</h3>
+
+<p><strong>Run when the thesis is forward-driven</strong> — capex absorbing margin, mix shift in early innings, distribution still building — i.e., any candidate for the CLAUDE.md Phase 0.6 trigger. Skip otherwise.</p>
+
+<p>Three additional fetches:</p>
+
+<p>1. <strong>Investor presentations, latest 4 quarters.</strong> Look specifically for:</p>
+<p>   - Dealer / distributor / outlet count (Astral, Cera, KEI report this)</p>
+<p>   - Geographic territory or store count (Varun Beverages bottling lines, retail businesses)</p>
+<p>   - Capacity utilization percentage and CWIP details</p>
+<p>2. <strong>Segment mix percentage, 5 years.</strong> From AR segment notes — specialty/commodity, premium/standard, retail/institutional, export/domestic. Compute year-over-year change in basis points.</p>
+<p>3. <strong>Capex commissioning timeline.</strong> From concall transcripts — when does CWIP convert to operating capacity, and what is the expected ROIC on the deployed capital based on prior cycles.</p>
+
+<p>Compute three rates:</p>
+<ul>
+<li>Distribution density growth rate (YoY % change)</li>
+<li>Mix-shift rate (bps per year for last 3 years)</li>
+<li>Capacity utilization trajectory (rising / plateaued / declining)</li>
+</ul>
+
+<p>Record in the research log. If any rate is below the Phase 4.5.5 kill signal threshold, flag immediately.</p>
+
+<h3 id="step-3-analysis">Step 3 — Analysis</h3>
+
+<p>#### 3A. MUNGER QUALITY SCORECARD</p>
+
+<p>Rate each dimension 1-5. Calculate total /25. Assign grade.</p>
+
+<table>
+<tr><th>Dimension</th><th>Score (1-5)</th><th>Notes</th></tr>
+<tr><td>MOAT</td><td></td><td>Type: cost/switching/network/intangible. Width/durability.</td></tr>
+<tr><td>Management</td><td></td><td>Promoter holding %, skin in game, capital allocation, pledging, governance</td></tr>
+<tr><td>Financials</td><td></td><td>ROCE%, ROE%, margins, debt, CFO/PAT ratio, FCF</td></tr>
+<tr><td>Growth Runway</td><td></td><td>TAM size, penetration, 3-5Y revenue CAGR potential, sector tailwinds</td></tr>
+<tr><td>Valuation</td><td></td><td>P/E vs growth (PEG), P/B vs ROE (justified P/B), DCF, vs peers</td></tr>
+<tr><td><strong>Total</strong></td><td><strong>/25</strong></td><td></td></tr>
+</table>
+
+<p><strong>Grade:</strong> A (20-25) = High Conviction | B (15-19) = Moderate | C (10-14) = Watch | D (<10) = Avoid</p>
+
+<p><strong>Scoring guides:</strong> See <code>gotchas.md</code> for detailed 1-5 criteria per dimension.</p>
+
+<p>#### 3B. DUPONT ROE DECOMPOSITION</p>
+
+<p><code>`</code></p>
+<p>ROE = Net Profit Margin × Asset Turnover × Equity Multiplier</p>
+<p><code>`</code></p>
+
+<table>
+<tr><th>Component</th><th>FY[T-2]</th><th>FY[T-1]</th><th>FY[T]</th><th>Trend</th><th>Interpretation</th></tr>
+<tr><td>Net Profit Margin (%)</td><td></td><td></td><td></td><td>↑/↓</td><td>Pricing power / cost efficiency</td></tr>
+<tr><td>Asset Turnover (x)</td><td></td><td></td><td></td><td>↑/↓</td><td>Capital efficiency</td></tr>
+<tr><td>Equity Multiplier (x)</td><td></td><td></td><td></td><td>↑/↓</td><td>Leverage (watch if rising)</td></tr>
+<tr><td><strong>ROE (%)</strong></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
+
+<ul>
+<li>ROE rising from margins = quality (sustainable)</li>
+<li>ROE rising from leverage = risk (don't pay premium)</li>
+<li>ROE rising from asset turnover = efficiency (good, check utilization limits)</li>
+</ul>
+
+<p>#### 3C. MULTI-BAGGER FRAMEWORK (Phases 0-4)</p>
+
+<p>Run the full framework from CLAUDE.md:</p>
+<ul>
+<li><strong>Phase 0:</strong> Threshold checks (accounting, capital structure, business viability)</li>
+<li><strong>Phase 1:</strong> Compounding engine (incremental ROIC, unit economics, source of high ROIC)</li>
+<li><strong>Phase 2:</strong> Reinvestment runway (TAM, reinvestment rate, capital allocation, runway duration)</li>
+<li><strong>Phase 3:</strong> Competitive position (market share trend, widening vs narrowing advantage)</li>
+<li><strong>Phase 4:</strong> Management quality (skin in game, communication, capital allocation philosophy)</li>
+</ul>
+
+<p>#### 3D. SECOND-ORDER STRESS TEST</p>
+
+<p>The standard framework answers "is this business good and is it cheap?" The stress test answers "what does the world look like if I'm right, and what could I be missing?" Two short drills — fill the corresponding subsection in <code>_TEMPLATE.md</code>.</p>
+
+<p><strong>5-Whys on the ROIC engine.</strong> Drill five layers from the first-order explanation ("ROIC is high because X") down to the systemic cause. If the fifth answer is something the company controls, the moat is fragile. If it's something structural about the industry or geography, it's durable.</p>
+
+<p><strong>Base-case world-state at 2 years and 5 years.</strong> If the thesis plays out, what does the company look like, what new things does management have to execute, and what new risks does success itself create? Most large losses come from theses that were correct on direction but missed what success triggered — new competitors, regulatory attention, margin compression from scale, capital allocation mistakes when cash starts flowing.</p>
+
+<h3 id="step-4-valuation-use-all-3-methods">Step 4 — Valuation (use all 3 methods)</h3>
+
+<p>#### Method 1: P/E Re-rating</p>
+<ul>
+<li>TTM EPS + forward EPS</li>
+<li>Target P/E = 5-year median or peer median (justify)</li>
+<li>Bull/Base/Bear scenarios with sensitivity table</li>
+</ul>
+
+<p>#### Method 2: P/B-ROE (Justified Price-to-Book)</p>
+<p><code>`</code></p>
+<p>Justified P/B = (Sustainable ROE - g) / (Ke - g)</p>
+<p>where: Ke = 10Y G-Sec + Beta × ERP (6%), g = 5-6% for India</p>
+<p><code>`</code></p>
+<p>Run 3 scenarios. Key question: What ROE does the current P/B imply?</p>
+
+<p>#### Method 3: Reverse DCF</p>
+<p><code>`</code></p>
+<p>Back-solve FCF growth rate that justifies current market cap</p>
+<p>at 12% discount rate and 5% terminal growth.</p>
+<p><code>`</code></p>
+<p>State: "At current price, market is pricing in [X]% FCF CAGR for 5 years."</p>
+
+<p>#### Valuation Summary Table (mandatory)</p>
+
+<table>
+<tr><th>Model</th><th>Bear</th><th>Base</th><th>Bull</th><th>vs CMP</th></tr>
+<tr><td>P/E Re-rating</td><td>₹X</td><td>₹X</td><td>₹X</td><td></td></tr>
+<tr><td>P/B-ROE Justified</td><td>₹X</td><td>₹X</td><td>₹X</td><td></td></tr>
+<tr><td>Reverse DCF implies:</td><td>X% CAGR</td><td></td><td></td><td></td></tr>
+<tr><td>Analyst consensus</td><td>₹X</td><td></td><td></td><td>[Source]</td></tr>
+<tr><td><strong>Our verdict</strong></td><td></td><td>₹X</td><td></td><td></td></tr>
+</table>
+
+<h3 id="step-5-write-research-file">Step 5 — Write Research File</h3>
+
+<p>Save to <code>research/[TICKER].md</code> using <code>research/_TEMPLATE.md</code> as structural guide.</p>
+
+<p><strong>Required sections:</strong> Business Summary, Quality Score, Why This Could Be a Multi-Bagger, Key Metrics, Valuation (all methods + summary table), Risks, Exit Triggers, Review Schedule, Decision History, Research Log.</p>
+
+<h3 id="step-6-quality-checklist-mandatory-before-delivering">Step 6 — Quality Checklist (mandatory before delivering)</h3>
+
+<p>#### A. Every research note, always</p>
+
+<ul>
+<li>[ ] CMP is real ₹ number with date — NOT from Screener.in or Yahoo Finance</li>
+<li>[ ] Every figure has <code>[Source: URL, date]</code> tag</li>
+<li>[ ] Quality scorecard has notes for every dimension</li>
+<li>[ ] DuPont decomposition run and interpreted</li>
+<li>[ ] At least 2 of 3 valuation methods used</li>
+<li>[ ] Reverse DCF: "market prices in X% growth"</li>
+<li>[ ] Bull/Base/Bear scenarios present</li>
+<li>[ ] Research log entry with today's date added</li>
+<li>[ ] Bull/bear sections read as narratives, not formula-filling</li>
+<li>[ ] Second-order stress test completed (5-Whys + world-state at 2 and 5 years)</li>
+<li>[ ] 3-year segment revenue CAGR computed separately from consolidated headline (Pattern 6)</li>
+<li>[ ] 5-year promoter holding trajectory reviewed; movements >2% reconciled with stated reason</li>
+<li>[ ] 5-year ROIC trend pulled (not just current)</li>
+<li>[ ] 3-year operating margin trend pulled — to detect permanent compression vs capex absorption vs one-time recovery</li>
+<li>[ ] Pre-existing capability named: the specific physical thing (plant, license, certification, code, brand) already built that the thesis depends on</li>
+<li>[ ] Market label written explicitly: what consensus calls this, what we call it, what flips the label</li>
+<li>[ ] Kill signals checked (insider distribution, structural margin compression, active bear-case root cause, prior capex sub-10% ROIC, single-customer >40%, pledge >50%, audit qualification)</li>
+</ul>
+
+<p>#### B. Any BUY or TRACKING POSITION candidate (Multi-Bagger Pattern checklist, from multibagger_patterns.md)</p>
+
+<ul>
+<li>[ ] Organized market share in sub-segment computed (not just total market share)</li>
+<li>[ ] Pending regulatory equalizer identified (GST-type, BIS, FSSAI, licensing) or confirmed absent</li>
+<li>[ ] Bear case root cause verified: does it apply to the <em>current</em> business model or a prior one?</li>
+<li>[ ] For capex-heavy businesses: prior capex cycle ROIC verified before treating flat PAT as structural</li>
+<li>[ ] Operator prior domain experience checked (not just current company tenure)</li>
+</ul>
+
+<p>#### C. Premium-quality compounder pattern only (Phase 0.6 entries — requires Step 2.6 done)</p>
+
+<ul>
+<li>[ ] Distribution density growth rate computed (>20% / 15-20% / <15% / declining)</li>
+<li>[ ] Mix-shift rate computed in basis points per year (>200bps / 100-200bps / <100bps / flat or reversing)</li>
+<li>[ ] Capacity utilization current % + CWIP trajectory noted</li>
+<li>[ ] If trailing P/E uninformative, forward PEG computed with defended forward EPS CAGR</li>
+<li>[ ] Phase 4.5.5 kill signals checked</li>
+</ul>
+
+<hr>
+
+<h2 id="us-workflow">US WORKFLOW</h2>
+
+<h3 id="step-1-fetch-data">Step 1 — Fetch Data</h3>
+<ul>
+<li>Use Alpha Vantage MCP for: fundamentals, earnings, income statement, balance sheet, cash flow</li>
+<li><code>web_search</code> for: SEC filings (10-K, 10-Q), analyst consensus, competitive landscape</li>
+<li>CMP: Alpha Vantage MCP <code>get_ltp</code> or <code>web_search: "[TICKER] stock price"</code></li>
+</ul>
+
+<h3 id="step-2-analysis">Step 2 — Analysis</h3>
+<ul>
+<li>Same quality scorecard (adjust governance for US context — institutional ownership, insider buying)</li>
+<li>Same DuPont decomposition</li>
+<li>Same multi-bagger framework</li>
+</ul>
+
+<h3 id="step-3-valuation">Step 3 — Valuation</h3>
+<ul>
+<li>DCF with US WACC (risk-free = 10Y Treasury, ERP = 5%, Beta from Alpha Vantage)</li>
+<li>P/E re-rating with US peer medians</li>
+<li>Reverse DCF</li>
+</ul>
+
+<h3 id="step-4-write-to-research-us-ticker-md">Step 4 — Write to <code>research/us/[TICKER].md</code></h3>
+
+<hr>
+
+<h2 id="general-instructions">GENERAL INSTRUCTIONS</h2>
+
+<p>1. <strong>Always show your math.</strong> ROIC = show numerator + denominator. Runway = show TAM + penetration numbers.</p>
+<p>2. <strong>Be specific with numbers.</strong> Not "margins are healthy" — "EBITDA margin 18.5%, up from 14.2% three years ago, driven by operating leverage on 38% revenue CAGR."</p>
+<p>3. <strong>Distinguish facts from inferences.</strong> Label opinions explicitly.</p>
+<p>4. <strong>For earnings call transcripts:</strong> Extract KEY numbers and management claims first, then evaluate through the multi-bagger lens.</p>
+<p>5. <strong>When data is insufficient</strong>, say so and state exactly what additional data would help.</p>
+<p>6. <strong>Be skeptical of management narratives.</strong> Cross-reference against financials.</p>
+<p>7. <strong>For Indian small/mid caps:</strong> Pay extra attention to promoter quality, related party transactions, and cash flow vs reported profits.</p>
+<p>8. <strong>Do not default to positive conclusions.</strong> Base rate for multi-baggers is low. Your job is to find reasons to REJECT.</p>
+
+<hr>
+
+<h2 id="changelog">CHANGELOG</h2>
+
+<ul>
+<li><strong>2026-07-05:</strong> Re-integrated the 2026-05-05/2026-05-10 "PROMOTED ACTIVE" additions (validated via NCDEX, MSEI, ADOR) into the main flow: Steps 2.5/2.6 into the India workflow, checklist additions into Step 6 blocks A-C. No content changes; one duplicate checklist item merged.</li>
+</ul>
+
+<hr>
+
+<h1 id="addendum-a-recommendation-format-no-tracking-positions-user-directive-2026-07-05">ADDENDUM A — Recommendation format: no tracking positions (user directive 2026-07-05)</h1>
+
+<p>Applies to CLAUDE.md Phase 5.3, the _TEMPLATE.md Recommendation block, and Step 6 of this skill.</p>
+
+<p><strong>TRACKING POSITION is removed as an allowed recommendation.</strong> The user's direction: every note ends in a decision with explicit prices — either buy now, or name the price at which to buy; for held positions, name the price at which to add and the price/condition at which to sell. No 1-2% toehold positions.</p>
+
+<p><strong>New recommendation set (replaces the Phase 5.3 matrix rows):</strong></p>
+
+<table>
+<tr><th>Situation</th><th>Recommendation</th><th>Required price levels</th></tr>
+<tr><td>Grade A/B + asymmetry >3x + MOS >20%</td><td><strong>BUY</strong> (5-8%)</td><td>Entry now at ≤₹CMP; add-below price; sell/trim target at base-case fair value; thesis-break exit condition</td></tr>
+<tr><td>Grade A/B + asymmetry 2-3x + MOS 10-20%</td><td><strong>BUY REDUCED</strong> (3-5%)</td><td>Same four levels</td></tr>
+<tr><td>Grade A/B, price too high (asymmetry <2x)</td><td><strong>BUY AT ₹X</strong> (0% now, price alert)</td><td>The specific price where asymmetry ≥2x + MOS threshold is met; recompute after each quarterly print</td></tr>
+<tr><td>Held position, thesis intact</td><td><strong>HOLD</strong></td><td>Add-below price; trim-above price (base-case fair value); exit condition</td></tr>
+<tr><td>Held position, price ≥ bull case or thesis degraded</td><td><strong>TRIM / EXIT at ₹Y</strong></td><td>Specific level or condition</td></tr>
+<tr><td>Grade C + MOS >40%</td><td><strong>SPECULATIVE</strong> (1% max, hard exit rules)</td><td>Entry, stop, target</td></tr>
+<tr><td>Grade C/D otherwise</td><td><strong>AVOID</strong></td><td>—</td></tr>
+</table>
+
+<p>The old matrix's argument for tracking positions ("watchlist means you'll never buy") is answered by BUY AT ₹X being a standing order with a concrete trigger, not a vague "wait for a better price" — every BUY AT ₹X must appear in the index and the watchlist table with its price, and the daily/weekly loops check it.</p>
+
+<p>Related memory updates: <code>feedback_no_default_tracking</code> becomes "no tracking positions at all — BUY / BUY AT price / HOLD with targets / TRIM / EXIT / AVOID only."</p>
+
+<hr>
+
+<h1 id="addendum-b-template-consolidation-junk-reduction-for-template-md">ADDENDUM B — Template consolidation ("junk reduction"), for _TEMPLATE.md</h1>
+
+<p>The template has grown to ~1,100 lines and reports duplicate the same content in 3-4 places. Proposed merges — no analytical content lost, each fact stated once:</p>
+
+<p><strong>1. Scenario/valuation math: 4 places → 2.</strong> Multi-Bagger Math (Summary) stays as the single scenario table. Section 4b (Outlook base + sensitivity) MERGES into Section 5 — its "primary driver" derivation becomes the input to 5.4's models instead of a parallel scenario exercise. The 5.4 Synthesis table absorbs 4b's sensitivity rows. One derivation chain: driver → models → scenario table.</p>
+
+<p><strong>2. Reverse DCF: 3 places → 1.</strong> Currently in Summary ("What does the market think"), 5.1 ("Quick reverse DCF"), and 5.2. Keep the math once in 5.2; Summary keeps only the one-paragraph conclusion (implied X% vs our Y%, the gap is the edge).</p>
+
+<p><strong>3. Quarterly trend table: 2 places → 1.</strong> Exact duplicate in Summary Key Metrics AND Section 4. Delete the Section 4 copy. Section 4's "CAGRs" table also derivable from the Summary P&L table — delete.</p>
+
+<p><strong>4. Exit conditions: 2 places → 1.</strong> Summary "When do I sell?" and Section 8 "Exit Triggers" are the same list twice. Keep Summary; Section 8 deleted.</p>
+
+<p><strong>5. Risks: 4 places → 2.</strong> Concerns (Summary) + Q4 "what breaks the thesis" + 5.2 risk table + Section 7 risk table. Keep Concerns (summary highlights) and ONE risk table (Section 7, absorbing 5.2's bear-case-value column). Q4 stays but as a single sentence + leading indicator (it already is).</p>
+
+<p><strong>6. Market-label tables: 2 → 1.</strong> The appendix "universal" label table supersedes the turnaround-only "What was true at the bottom" table (same rows plus two). Keep the universal one inside the Stress Test; delete the turnaround variant and the template appendix (same treatment as the SKILL appendix).</p>
+
+<p><strong>7. Logs: 3 → 2.</strong> Decision History (trades) stays. Research Log and Update History merge into one dated Research Log — each entry can carry a "changed: grade/reco/price" line where relevant.</p>
+
+<p><strong>8. Action table gains the price ladder.</strong> The Summary Action table becomes the Addendum A ladder (add-below / hold band / trim-above / exit condition) — and 5.3's duplicate "Action" line is deleted, pointing there instead.</p>
+
+<p><strong>Net effect:</strong> ~30-35% shorter reports, every number stated once, Summary Verdict remains the decision layer and Detailed Analysis the evidence layer. Sections kept as-is: Deep Dives, Compounding Q&A (Q0-Q5), Downside Framework, Growth Trigger Scan, Competitive Landscape, Glossary.</p>
+
+<script src="notes.js"></script>
+<script>
+var toc=document.getElementById('toc');
+document.querySelectorAll('h2').forEach(function(h){
+  var a=document.createElement('a');
+  a.href='#'+h.id; a.textContent=h.textContent;
+  toc.appendChild(a);
+});
+if(toc.querySelectorAll('a').length===0)toc.style.display='none';
+</script>
+</body></html>
