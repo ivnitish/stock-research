@@ -1,6 +1,6 @@
 # PROPOSAL — stock-research SKILL.md v2 (re-integration)
 
-**Status: DRAFT for review — not applied.** The live skill at `.claude/skills/stock-research/SKILL.md` is untouched until you approve.
+**Status: APPLIED 2026-07-06 (user-approved, commit `65ff3ca`).** This document is kept as the historical record of the change. The live skill at `.claude/skills/stock-research/SKILL.md` now contains this content plus Addendum A (price-ladder recommendations); Addendum B (template consolidation) went into `research/_TEMPLATE.md` in the same commit.
 
 ## What this changes (and what it doesn't)
 
