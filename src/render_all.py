@@ -22,7 +22,8 @@ DOCS     = BASE / "docs"
 
 # Also render docs that have HTML output
 DOCS_FILES = ["TODO.md", "DECISION_LOG.md", "VALUATION_FRAMEWORK.md",
-              "MULTIBAGGER_ANALYSIS_APPROACH.md", "AUTORESEARCH_APPROACH.md"]
+              "MULTIBAGGER_ANALYSIS_APPROACH.md", "AUTORESEARCH_APPROACH.md",
+              "2026_THEMES_SCREENER_LINKS.md"]
 
 def render(md_path: Path, out_dir: Path):
     result = subprocess.run(
