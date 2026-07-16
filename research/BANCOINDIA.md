@@ -37,10 +37,10 @@ Working capital management is genuinely concerning — OCF was negative in FY23 
 
 ## Data Gaps
 - No concall transcripts available (Banco doesn't hold investor calls — this is unusual and a governance concern)
-- Segment-wise P&L (Cooling vs Gaskets vs NRF) not disclosed separately on Screener
-- NRF standalone financials needed to assess European contribution
-- Capex plan details — where is the ₹573 Cr debt going?
-- EV order pipeline: management claims EV supply commenced but zero numbers disclosed
+- Segment-wise P&L (Cooling vs Gaskets vs NRF) not disclosed separately on Screener — **RESOLVED as far as possible (2026-07-07):** company formally reports only ONE segment ("Automobile Ancillary", Note 3 to FY26 audited results), so segment P&L will never appear. The standalone-vs-consolidated split is the workable proxy — see Research Log 2026-07-07.
+- NRF standalone financials needed to assess European contribution — **PARTIALLY RESOLVED (2026-07-07):** subsidiaries ≈ ₹2,641 Cr revenue (68% of consolidated) and roughly two-thirds of PAT; upstreamed ₹264.7 Cr dividends in FY26. NRF entity-level P&L still not public.
+- Capex plan details — where is the ₹573 Cr debt going? — **RESOLVED (2026-07-07):** it isn't capex debt. It is short-term working capital funding (NRF inventory) plus Ind AS 116 lease liabilities. CARE: "no major debt-funded capex plans", WC utilization 16%.
+- EV order pipeline: management claims EV supply commenced but zero numbers disclosed — **STILL OPEN:** no named customers, no revenue disclosure as of FY26 results. Treat EV as free optionality, not a thesis leg.
 
 ---
 
@@ -49,16 +49,17 @@ Working capital management is genuinely concerning — OCF was negative in FY23 
 **One-line thesis:** India's #1 radiator maker with 21% market share, 32% ROCE, locked-in OEM relationships, and an EV thermal management optionality — but working capital discipline and rising debt need watching.
 
 **Status:** OWNED (100 shares, ~4.9% of portfolio)
-**Entry:** ₹589 avg | **CMP:** ₹647 | **P&L:** +4.9%
-**Last Updated:** 2026-06-02 (Q4 FY26 partial refresh — full refresh still pending) | **Sources:** Screener.in (consolidated), CARE Ratings Jul 2025, BSE filings
+**Entry:** ₹589 avg | **CMP:** ₹680.15 [Source: Tickertape, 07-Jul-2026] | **P&L:** +15.5%
+**Last Updated:** 2026-07-07 (FULL REFRESH — FY26 audited results, standalone/consolidated split, NRF cash economics, CARE AA detail; see Research Log 2026-07-07) | **Sources:** Screener.in (consolidated), FY26 audited results (BSE filing 28-May-2026), CARE Ratings Jul 2025, Tickertape
 
-**Action:** HOLD — monitor OCF
+**Action:** HOLD — no margin of safety at ₹680; OCF flag has cleared (FY26 OCF/PAT 0.79x)
 
 | Level | Price | Trigger |
 |-------|-------|---------|
-| Add | ₹450–₹500 | Only if OCF improves to >0.7x PAT for 2 quarters |
-| Hold | ₹500–₹650 | Current zone; thesis intact but not strong enough to add at fair value |
-| Exit | Below ₹350 or thesis break | OCF/PAT <0.5x for 2 more years, or D/E crosses 1.0x, or ROE <20% sustained |
+| Add | Below ₹490 | ≥15% MOS vs base fair value ₹575–600; OCF condition (>0.7x) now met in FY26 — price is the only gate |
+| Hold | ₹490–₹800 | Current zone; compounding engine verified, cash conversion validated, but CMP is 13–18% above base fair value |
+| Trim | Above ₹800 | >20x FY27 base-case EPS (₹38.7) without an earnings upgrade — price running ahead of the engine |
+| Exit | Thesis break | OCF/PAT <0.5x for 2 consecutive years, or D/E (ex-lease) crosses 1.0x, or ROE <20% sustained |
 
 ---
 
@@ -75,6 +76,8 @@ Three business lines under one listed entity:
 
 **Exports:** ~28% of FY25 revenue (₹900 Cr est.)
 
+**FY26 split verified from audited standalone vs consolidated results (2026-07-07):** the India parent (standalone) is ₹1,226 Cr of gross sales — 32% of consolidated ₹3,867 Cr. Subsidiaries (NRF Europe + Banco Gaskets + others) are ₹2,641 Cr, 68%, and grew ~25% YoY vs the parent's 12.7%. The company formally reports only ONE segment ("Automobile Ancillary" — Note 3, FY26 results), so this standalone/consolidated derivation is the permanent proxy for segment economics. CARE (Jul 2025) end-market mix: automobiles ~35% of sales, industrial ~30%, rest aftermarket/exports.
+
 ---
 
 ## 2. Kill Filter
@@ -89,6 +92,8 @@ Three business lines under one listed entity:
 | 6 | Revenue/earnings growing? | ✅ PASS | Revenue 18% CAGR, PAT 37% CAGR (FY22-FY25) |
 
 **Kill Filter Verdict: PASS with OCF flag.** Cash conversion is the weakest link. OCF/PAT ratios: FY22 0.37x, FY23 -0.17x, FY24 1.69x, FY25 0.42x. Average over 4 years: ~0.58x. This is below the 0.7x+ comfort zone. Reason is likely working capital intensity (OEM receivable cycles) and NRF inventory buildup. Monitor.
+
+**FY26 update (2026-07-07): flag substantially cleared.** FY26 OCF ₹380 Cr / PAT ₹482 Cr = 0.79x, above the 0.7x threshold. Subsidiary dividends of ₹264.7 Cr remitted to the parent in cash corroborate earnings quality. FY26 audit opinion unmodified (standalone and consolidated). One more year ≥0.7x fully retires the flag. See Research Log 2026-07-07.
 
 ---
 
@@ -176,30 +181,35 @@ Cross-check: actual 3-year PAT CAGR (FY22→FY25) = 37%. Revenue CAGR = 18%. The
 | Jun 2025 (Q1 FY26) | 970 | 19% | 110 | 7.66 |
 | Sep 2025 (Q2 FY26) | 1,038 | 14% | 139 | 9.71 |
 | Dec 2025 (Q3 FY26) | 789 | est. 11% | 86 | 6.01 |
+| Mar 2026 (Q4 FY26) | 1,099 | 20% | 147 | 10.31 (10.07 ex-exceptional) |
 
 **Dec quarter is structurally weak.** Both Dec 2024 (OPM 9%) and Dec 2025 (PAT -38% QoQ) show seasonal softness. European aftermarket (NRF) likely slows in Dec quarter. FY26 9M PAT ₹334 Cr (+40% YoY) — full year on track for ₹450-500 Cr.
 
 ### 4c. Balance Sheet Snapshot
 
-| Metric | FY22 | FY23 | FY24 | FY25 |
-|--------|------|------|------|------|
-| Total Equity (₹ Cr) | 981 | 1,001 | 1,051 | 1,303 |
-| Borrowings (₹ Cr) | 115 | 418 | 423 | 573 |
-| D/E | 0.12 | 0.42 | 0.40 | 0.44 |
-| Fixed Assets (₹ Cr) | 297 | 359 | 454 | 516 |
-| Total Assets (₹ Cr) | 1,502 | 1,855 | 1,982 | 2,744 |
+| Metric | FY22 | FY23 | FY24 | FY25 | FY26 |
+|--------|------|------|------|------|------|
+| Total Equity (₹ Cr) | 981 | 1,001 | 1,051 | 1,303 | 1,684 |
+| Borrowings (₹ Cr) | 115 | 418 | 423 | 573 | 614 |
+| D/E | 0.12 | 0.42 | 0.40 | 0.44 | 0.36 |
+| Fixed Assets (₹ Cr) | 297 | 359 | 454 | 516 | 472 |
+| Total Assets (₹ Cr) | 1,502 | 1,855 | 1,982 | 2,744 | 3,058 |
 
 **⚠️ Debt tripled FY22→FY25.** Borrowings went from ₹115 Cr to ₹573 Cr. This coincides with the NRF expansion and increased working capital needs. Not alarming at D/E 0.44, but the TREND is concerning — old thesis incorrectly stated "zero debt."
 
+**FY26 update — the debt picture is better than the headline (per FY26 audited balance sheet, BSE 28-May-2026).** The ₹614 Cr Screener "borrowings" figure for FY26 is actually ₹428 Cr of bank borrowings (₹22 Cr long-term + ₹406 Cr short-term working capital) plus ₹186 Cr of lease liabilities — mostly NRF's European warehouse leases capitalized under Ind AS 116. Ex-lease D/E is 0.25x; including leases 0.36x, down from 0.44x. The standalone (India parent) balance sheet is now completely debt-free — the ₹7.1 Cr residual borrowing was repaid in FY26. All bank debt sits at subsidiary level funding NRF's inventory-heavy aftermarket distribution. CARE (Jul 2025) reports fund-based working capital utilization at just 16% and interest coverage of 24x.
+
 ### 4d. Cash Flow
 
-| Metric | FY22 | FY23 | FY24 | FY25 |
-|--------|------|------|------|------|
-| Operating CF (₹ Cr) | 57 | -41 | 458 | 164 |
-| Capex (₹ Cr) | -104 | -23 | -114 | -73 |
-| OCF/PAT | 0.37x | -0.17x | 1.69x | 0.42x |
+| Metric | FY22 | FY23 | FY24 | FY25 | FY26 |
+|--------|------|------|------|------|------|
+| Operating CF (₹ Cr) | 57 | -41 | 458 | 164 | 380 |
+| Capex (₹ Cr) | -104 | -23 | -114 | -73 | -139 |
+| OCF/PAT | 0.37x | -0.17x | 1.69x | 0.42x | 0.79x |
 
 **Cash conversion is the Achilles' heel.** 4-year average OCF/PAT = 0.58x. FY23 was negative. FY25 at 0.42x despite record profits. Working capital is absorbing cash — likely OEM receivable cycles (60-90 day terms) + NRF inventory buildup.
+
+**FY26 update — the flag has substantially cleared (per FY26 audited consolidated cash flow, BSE 28-May-2026).** FY26 OCF of ₹380 Cr against PAT of ₹482 Cr = 0.79x, above the 0.7x threshold the thesis demanded. Working capital still absorbed ₹359 Cr (receivables +₹129 Cr, inventories +₹117 Cr on a business growing 21%), but the business generated enough gross operating cash (₹903 Cr before WC) to fund it and still convert. Free cash flow ₹241 Cr after ₹139 Cr capex. Separately, subsidiaries upstreamed ₹264.7 Cr of dividends to the parent in FY26 (vs ₹130.8 Cr FY25) — European profits are converting to Indian cash, which is the strongest possible answer to the "is NRF's profit real?" question. One more year at ≥0.7x makes the pattern (weak year, strong year alternating) officially broken.
 
 ---
 
@@ -210,6 +220,7 @@ Cross-check: actual 3-year PAT CAGR (FY22→FY25) = 37%. Revenue CAGR = 18%. The
 - No promoter pledge reported
 - Consistent dividend: 2.71% yield (₹15/share FY25)
 - Family-run: Bansali family, Mehul Bansali (MD)
+- **CORRECTION (2026-07-07):** The promoter family is **Patel**, not Bansali. Per CARE Ratings (Jul 2025): Mehul K. Patel is the main promoter with 40+ years in auto ancillaries; son Sharan Patel supervises BPIL operations (Whole Time Director — he signs the results filings), son Shivam Patel runs Banco Gaskets. Board of 7 includes 4 independent directors. Promoter holding confirmed 67.88% as of Mar 2026 (flat across FY26 quarters, no pledge) [Source: Screener.in shareholding, Jul 2026].
 
 ### Communication Quality
 - **No concall transcripts available.** Banco does not hold regular investor calls. This is unusual for a ₹7,900 Cr market cap company and limits investor visibility.
@@ -355,6 +366,109 @@ Per share = 16,041 / 14.3 = ₹1,122
 
 ## 8. Research Log
 
+### 2026-07-07 — FULL REFRESH: FY26 audited results, standalone/consolidated split, NRF cash economics, debt anatomy, valuation reset
+
+**Verdict: HOLD at CMP ₹680.15 [Source: Tickertape, 07-Jul-2026]. The two biggest concerns in this file — cash conversion and the debt build-up — both resolved in the company's favour with the FY26 audited numbers. What replaced them is a valuation problem: the stock now trades 13–18% above base-case fair value, so the position is worth keeping but not worth adding to. Add below ₹490, trim above ₹800.**
+
+This is the full refresh flagged as pending in the 2026-06-02 entry. Sources: FY26 audited standalone + consolidated results and balance sheets (BSE filing, 28-May-2026, read page by page from the PDF), CARE Ratings press release (01-Jul-2025), Screener.in consolidated (Jul 2026), Tickertape (07-Jul-2026), Trendlyne (07-Jul-2026).
+
+#### The headline numbers (FY26 audited, consolidated)
+
+| Metric | FY26 | FY25 | YoY |
+|--------|------|------|-----|
+| Gross sales (₹ Cr) | 3,867 | 3,187 | +21.3% |
+| Total income (₹ Cr) | 3,995 | 3,256 | +22.7% |
+| PBT before exceptional (₹ Cr) | 622.7 | 534.2 | +16.6% |
+| Exceptional items (₹ Cr) | +21.5 | — | fire insurance accrual |
+| PAT (₹ Cr) | 481.7 | 391.8 | +23.0% |
+| EPS reported (₹) | 33.68 | 27.39 | +23.0% |
+| **EPS ex-exceptional (₹)** | **32.17** | 27.39 | **+17.5%** |
+| OCF (₹ Cr) | 380 | 164 | OCF/PAT 0.79x vs 0.42x |
+
+The reported 23% PAT growth includes a ₹21.5 Cr exceptional gain from the NRF France insurance claim (below). Clean earnings growth is +17.5% — still solid, but every valuation number in this entry uses the ex-exceptional ₹460 Cr PAT, not the reported ₹482 Cr.
+
+#### Finding 1 — the India parent is only a third of this company
+
+The audited standalone results finally let us size what Screener never shows. Standalone (the India radiator parent) gross sales were ₹1,226 Cr in FY26 against consolidated ₹3,867 Cr — the parent is 32% of revenue. Subsidiaries — NRF Europe, Banco Gaskets, and the smaller entities — are ₹2,641 Cr, 68%, and they grew ~25% YoY against the parent's 12.7%. On profit: standalone PAT was ₹419 Cr, but that includes ₹264.7 Cr of dividends received from subsidiaries; strip that out and the parent's operating PAT is roughly ₹155–190 Cr, meaning subsidiaries produce about two-thirds of consolidated earnings too. The mental model of "Indian radiator maker with a European side business" is backwards — this is a European-plus-subsidiaries earnings engine with an Indian parent attached, and the FY26 numbers say the engine grew faster than the parent.
+
+The margin-mix worry from the 2026-06-02 entry (NRF dilution dragging blended OPM down toward European aftermarket norms) now has a partial answer. If two-thirds of PAT comes from the subsidiary cluster on 68% of revenue, the subsidiaries' net margin is roughly in line with the parent's operating margin — NRF is not the low-margin drag the old bear case assumed. What compressed FY26 OPM (19%→17%) looks more like raw-material pass-through lag plus the fire disruption than structural mix rot. Not fully proven — NRF entity-level P&L still isn't public — but the dividend evidence points the same way.
+
+#### Finding 2 — NRF's profits convert to actual cash in Vadodara
+
+Subsidiaries paid the parent ₹264.7 Cr in dividends in FY26, double the ₹130.8 Cr of FY25 (Note 5, FY26 results). Of that, ₹96.7 Cr (€9M) was declared by NRF Holding B.V. and unpaid at year-end. A subsidiary can fake profits on consolidation; it cannot fake a dividend remittance. This is the single strongest datapoint in the refresh: the European business generates enough free cash to send a quarter of the group's PAT home in cash, and the parent used it to pay ₹214.6 Cr of dividends to shareholders while going debt-free.
+
+#### Finding 3 — the "tripled debt" was never capex debt
+
+The FY26 consolidated balance sheet decomposes the scary Screener borrowings line. Of ₹614 Cr: ₹406 Cr is short-term bank borrowing (working capital for NRF's inventory-heavy distribution — consolidated inventories are ₹1,498 Cr, 263 inventory days, because an aftermarket distributor holds 80 countries' worth of SKUs and Banco bulk-imports aluminium strip), ₹22 Cr is long-term debt, and ₹186 Cr is Ind AS 116 lease liabilities on NRF's 19 European warehouses. Ex-lease D/E is 0.25x; interest coverage is 24x (CARE). The standalone parent repaid its last ₹7.1 Cr and is now zero-debt. CARE assigned CARE AA; Stable / CARE A1+ (01-Jul-2025) citing 16% fund-based working-capital utilization and "no major debt-funded capex plans." The kill condition "D/E crosses 1.0x" is nowhere in sight; the FY26 direction is down.
+
+#### Finding 4 — NRF France warehouse fire: quantified and mostly closed
+
+Note 4 of the FY26 results: fire at the NRF France S.A.S. warehouse; preliminary insurance claim €6.56M (₹70.5 Cr); ₹21.5 Cr recognized in FY26 P&L as exceptional income on accrual (₹3.4 Cr of it in Q4); interim claim of €2.96M already received in cash; final settlement pending. Watch Q1/Q2 FY27 for the closing true-up, but the financial exposure is bounded and insured.
+
+#### Corrections to this file
+
+1. **Promoter family is Patel, not Bansali.** Mehul K. Patel (40+ years in the industry), sons Sharan Patel (BPIL operations, Whole Time Director) and Shivam Patel (Banco Gaskets). Corrected in Section 5. Promoter holding 67.88%, flat through FY26, no pledge.
+2. **"Lloyd Coils Europe" is not a Banco entity — flag closed.** Lloyd Coils Europe s.r.o. (Radotín, Czech Republic) belongs to LEEL Electricals (formerly Lloyd Electric & Engineering), renamed LEEL Coils Europe after the Lloyd brand went to Havells. It has never been part of the Banco group. CARE's Annexure-6 lists the full consolidation set: Banco Gaskets, Banco New Energy Cooling Systems, NRF B.V. and its nine country subsidiaries (Thermal Engineering BV/Skopimax, France, Thermal Poland, Deutschland, España, Poland, Italia, Switzerland, NRF IND BV). The 2026-06-02 open question is resolved: there is no Lloyd Coils in this story.
+3. **Only one reportable segment, by design.** Note 3 of the audited results: "primarily engaged in Automobile Ancillary business and therefore there is only one reportable segment." Segment-level PBIT will never be disclosed; standalone-vs-consolidated is the permanent workaround.
+
+#### DuPont (consolidated, year-end balances)
+
+| Component | FY24 | FY25 | FY26 | Read |
+|---|---|---|---|---|
+| Net margin | 9.8% | 12.2% | 12.4% | steady |
+| Asset turnover | 1.40x | 1.17x | 1.27x | recovering |
+| Equity multiplier | 1.89x | 2.11x | 1.82x | deleveraging |
+| **ROE** | **25.9%** | **30.1%** | **28.6%** | quality mix improved |
+
+ROE eased ~150bps but the composition got healthier: FY26 ROE leans on margin and turnover, not leverage. Incremental ROIC (FY23→FY26): ΔPAT ex-exceptional ₹225 Cr ÷ ΔCapital Employed ₹879 Cr (CE: ₹1,419 Cr → ₹2,298 Cr) = **25.6%** — down from the 30.8% computed over FY22-FY25 but still comfortably above the 20% bar. The compounding engine is intact and now cash-verified.
+
+#### Valuation reset (clean PAT ₹460 Cr, 14.305 Cr shares)
+
+Same framework parameters as the 2026-03-22 rewrite, rebased to FY26 ex-exceptional earnings:
+
+| Scenario | g | n | Terminal PE | Year-n PAT | PV (₹ Cr) | Fair value/share |
+|----------|---|---|-------------|-----------|-----------|------------------|
+| Bear | 10% | 7 | 12x | 896 | 4,572 | **₹320** |
+| Base | 15% | 10 | 15x | 1,861 | 8,223 | **₹575** |
+| Bull | 20% | 10 | 18x | 2,848 | 15,103 | **₹1,056** |
+
+(Base on reported PAT ₹482 Cr would be ₹602 — treat ₹575–600 as the base band.)
+
+Margin of safety at CMP ₹680.15: (575 − 680) / 575 = **−18%. Negative.** Downside to bear: (680 − 320) / 680 = 53%. Upside to bull: 55%. Asymmetry ratio ~1.0x — a coin flip at this price, which fails the ≥2x test for fresh money.
+
+Reverse DCF: at ₹9,730 Cr market cap, the price implies ~**17% PAT CAGR for 10 years** at a 15x exit (solve: 460 × (1+g)^10 × 15 / 1.13^10 = 9,730 Cr → g = 17.0%). The company just delivered 17.5% clean PAT growth, so the market is pricing exact continuation with zero slippage — for a business whose OPM just compressed 200bps and whose Q4 clean PAT was down ~6% YoY. That is full pricing, not crazy pricing.
+
+Trailing P/E on clean EPS: 680 / 32.17 = 21.1x. PEG on a defensible 15% forward EPS CAGR = 1.4x — fair-to-full.
+
+#### Technical snapshot [Source: Trendlyne, 07-Jul-2026]
+
+RSI 57.6, MFI 48.4 — both mid-range, no overbought signal. Price ₹680 above both SMA 50 (₹643) and SMA 200 (₹669) — uptrend structure intact, though the stock only recently reclaimed the 200-day. 52-week range ₹502–880; the stock is 35% off the low and 23% below the high. Nothing in the technicals argues for urgency in either direction.
+
+#### Market label vs ours
+
+Consensus label: "quality mid-cap auto-ancillary, fully priced after a 54% 5-year price CAGR." Our label: "Europe-led cash compounder wearing an Indian radiator costume — quality is better than the label, but the price already knows." The labels now broadly agree on quality and roughly agree on price, which per Phase 4.5.4 means this is a compounding-return bet from here, not a re-rating bet. Expected return from ₹680 ≈ earnings growth (15-17%) minus multiple drift — call it low-to-mid teens annually. Fine for a held position; not compelling for new capital.
+
+#### Kill signals check (Phase 4.5.5 / Step 6 list)
+
+None firing: audit opinion unmodified (PSCA & Co, standalone and consolidated), promoter 67.88% flat with no pledge, no insider distribution visible in shareholding trajectory, interest coverage 24x, prior capital deployment converting at 25.6% incremental ROIC, no single customer >10% (top 10 = 37% of standalone sales — JCB, M&M, Cummins, John Deere per CARE), cash conversion restored. The one structural oddity that remains: no concalls, no investor presentations — governance-adequate but communication-poor, which caps the multiple the market will pay and is arguably why the stock is only at 21x.
+
+#### Recommendation (Phase 5.3)
+
+**HOLD.** Held position, thesis intact, CMP above base fair value.
+- **Add below ₹490** — that is ≥15% MOS against the ₹575–600 base band; the OCF precondition attached to the old add-zone is now satisfied, so price is the only remaining gate.
+- **Trim above ₹800** — >20x FY27 base-case EPS (482 × 1.15 = ₹554 Cr → EPS ₹38.7), i.e., the market pre-paying two years of the base case.
+- **Exit conditions unchanged:** OCF/PAT <0.5x for 2 consecutive years, ex-lease D/E >1.0x, or ROE <20% sustained.
+- Grade stays **19/25 (B+)**. Financials arguments for an upgrade (cash conversion, deleveraging, AA rating) are offset by the valuation dimension weakening at 21x clean trailing.
+
+#### Still open for next review (Q1 FY27 results, ~Aug 2026 / FY26 annual report, ~Jul-Aug 2026)
+
+1. FY26 annual report subsidiary schedule — NRF entity-level revenue/PAT to replace the derived split with disclosed numbers.
+2. Q1 FY27 OPM — did pass-through catch up (benign reading) or is 17% the new normal (mix reading)?
+3. NRF France fire final insurance settlement true-up.
+4. Banco New Energy — any first disclosure of customers or revenue. Until then it stays a free option valued at zero.
+
+---
+
 ### 2026-06-02 — Q4 FY26 and FY26 results: partial refresh, full rewrite still pending
 
 **Verdict: HOLD. Position has moved from -6% to +4.9% as the stock re-rated from ₹554 to ₹647. The FY26 full-year print is strong on revenue and PAT growth; the Q4 print is weak on margins. Both matter, and they pull the thesis in opposite directions.**
@@ -460,5 +574,6 @@ Schedule full refresh for: when FY26 annual report is filed (estimated July-Augu
 
 | Version | Date | Description | Link |
 |---------|------|-------------|------|
-| v2 (current) | 2026-03-22 | Full framework rewrite — new template with Summary Verdict, Kill Filter, Compounding Engine Q&A, DCF math | This file |
+| v2.1 (current) | 2026-07-07 | Full refresh on FY26 audited results: standalone/consolidated split (parent = 32% of revenue), NRF dividend upstreaming ₹264.7 Cr, debt anatomy (ex-lease D/E 0.25x, standalone debt-free), OCF flag cleared (0.79x), Patel promoter correction, Lloyd Coils flag closed, valuation rebased to clean PAT ₹460 Cr | This file |
+| v2 | 2026-03-22 | Full framework rewrite — new template with Summary Verdict, Kill Filter, Compounding Engine Q&A, DCF math | This file |
 | v1 | Pre-2026-03-22 | Original thesis | [archive/BANCOINDIA_v1.md](archive/BANCOINDIA_v1.md) |
