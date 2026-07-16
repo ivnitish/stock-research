@@ -1,11 +1,11 @@
 # PPAP Automotive (PPAP) — Investment Thesis
 
-**Status:** WATCHLIST
+**Status:** BUY AT ₹200–210 (standing order — no position at CMP ₹256)
 **Quality Score:** 11/25 (Grade C)
 **Classification:** Deep-Value Turnaround — earnings-quality trap at CMP, asset floor near book
-**Last Updated:** 2026-07-05 | **CMP:** ₹256 | **Entry:** — | **P&L:** —
+**Last Updated:** 2026-07-06 | **CMP:** ₹256 | **Entry:** — | **P&L:** —
 
-> **Recommendation:** WATCHLIST at ₹256 — no position yet; set a buy alert at ₹200–210 (near book value of ₹242 after adjusting for the restructuring noise).
+> **Recommendation:** BUY AT ₹200–210 (standing order) — no position at CMP ₹256. Trigger price is near book value (₹242) where the asset floor bounds downside and the ₹4,171 Cr order book becomes a cheap option. Add-above: only after two consecutive quarters of core operating margin >12%. Thesis-break/abandon: debtor days past 80 with OCF <₹25 Cr and rising debt. Not a tracking position — either it prints ₹200–210 (or a 12%+ core-OPM quarter that re-rates the trigger up), or you don't own it.
 > What you're being asked to buy is a ₹363 Cr auto-parts maker with a ₹4,171 Cr lifetime order backlog, sitting at 1.06x book, that earned essentially zero operating profit last year and whose entire ₹43 Cr FY26 profit was a one-time gain from selling its rubber-sealing joint venture to its Japanese partner. The order book and asset floor say cheap; the near-zero core margin and 42-45% Maruti dependence say the market is right to doubt this converts to earnings. The one thing to watch: whether the restructuring (Tokai JV exit, Hutchinson sealing tie-up, tooling carve-out) actually lifts operating margin back above 12% over FY27-28. Until a clean quarter of double-digit core PAT shows up, the cheapness alone is not a reason to own it.
 
 ---
@@ -206,9 +206,10 @@ Against the recently-written names in the book, PPAP is the weakest business on 
 
 ### Recent Developments
 
+- **2026-07-06:** Reviewed Q4 FY26 concall guidance (fills the prior data gap). Management gave **no FY27 revenue or EBITDA guidance**, citing a "dynamic and volatile" environment. Q4 operating margin *contracted* 48 bps to **9.70%**; only **~50% of raw-material cost increases** have been passed to customers (the rest keeps compressing margin). ~**₹840 Cr of new business** won in FY26 across EV + ICE; core capacity utilisation ~78%; aftermarket +36%, battery revenue 1.28x. Note: the "full recovery in FY27 / 100% utilisation" comment refers to the **battery (Avinya) unit, not the core sealing business**. Thesis impact: reinforces the core concern — management will not quantify or commit to a margin-recovery roadmap, and margins are still contracting even as volume/utilisation rise (negative operating leverage). The re-rating case hinges on a 12%+ core OPM management themselves won't guide to. Grade C / BUY AT ₹200–210 unchanged.
 - **2026-05-12:** FY26 results — revenue ₹567 Cr (+2.4%), reported PAT ₹43.19 Cr (+517%) but driven by ₹49.79 Cr one-time JV-sale gain; core operating profit ₹0.20 Cr. Q4 revenue ₹174.6 Cr (+18.6% YoY) on backlog conversion, OPM 9.7%. Thesis impact: neutral-to-negative — confirms revenue arriving, margins not.
 - **2026-02-13:** Divested 50% stake in PPAP Tokai India Rubber JV to partner Tokai Kogyo for ₹100 Cr (₹49.79 Cr gain), citing strategy misalignment and poor returns on ₹48.5 Cr invested capital; proceeds used to cut net debt to ₹66.1 Cr. Thesis impact: strengthens — sheds a value-destroying business, cleans the balance sheet.
-- **2026-06-10:** India-exclusive technology licence with Hutchinson for body-sealing systems, effective April 1, 2026, produced at PPAP's own facilities (PPAP keeps 100% of the economics) — replaces the sealing know-how lost with the Tokai exit. It is a margin/content lever on the same domestic OEM platforms, not a new market or export channel. Thesis impact: strengthens if it restores margin, unproven.
+- **2026-06-10/11:** India-exclusive technology licence with Hutchinson for body-sealing systems, effective April 1, 2026, produced at PPAP's own facilities — replaces the sealing know-how lost with the Tokai exit. PPAP consolidates 100% of the revenue but **pays Hutchinson an upfront technical know-how/technology fee plus an ongoing royalty** on the licensed IP (confirmed in the exchange filing / wire coverage) — an ongoing cost that partially offsets the margin benefit. It is a margin/content lever on the same domestic OEM platforms ("global and domestic OEMs operating in India"), not a new market or export channel; no revenue or margin quantum disclosed. Stock rose ~12-18% on the announcement (Jun 11). Thesis impact: mildly strengthens the margin-recovery case but the royalty drag and absence of disclosed numbers keep it unproven — net neutral to the Grade C / WATCHLIST call.
 - **H1 FY26:** ₹707 Cr of lifetime orders won, backlog to ₹4,171 Cr, including ₹460 Cr Tata Motors extrusion order; new programs on Tata Altroz, Maruti Victoris, VinFast VF6. Thesis impact: strengthens revenue visibility, not margin.
 - **2026 (in progress):** Group restructuring under "Ajay Group" identity — tooling to be carved into Meraki Precision Tool Engineering (Q2 FY27), Avinya Batteries to merge into parent (Q4 FY27). Thesis impact: neutral — capital-allocation reshuffle; execution unproven.
 
@@ -643,6 +644,7 @@ Grade C (11/25). The bull argument is a ₹4,171 Cr backlog and 1.06x book on a 
 |------|--------|
 | 2026-07-05 | Initial research note. Grade C (11/25). WATCHLIST at ₹256; buy alert ₹200-210 near book. Deep-value turnaround — asset floor real, but FY26 profit was a one-time JV-sale gain and core operating profit was ₹0.20 Cr; thesis hinges entirely on margin recovery to 12%+ with no recent precedent. |
 | 2026-07-05 | Follow-up log entry. Confirmed Hutchinson is an India-exclusive technology licence (not a JV/acquisition), produced at PPAP's own plants — a margin/content lever, not a revenue step-change. Verified the historical multi-bagger run (~₹24.70 Aug-2013 → ₹723 Jan-2018, ~9-14x on a realistic base) was driven by margin expansion to 21% from a cheap base in an upcycle — conditions the current loss of pricing power blocks. Verdict unchanged: a 2-3x margin-recovery re-rating is possible, a repeat 10x is not. |
+| 2026-07-06 | Added Hutchinson royalty/know-how-fee detail (ongoing margin cost). Logged Q4 FY26 concall guidance: no FY27 rev/EBITDA guidance, Q4 OPM contracted 48bps to 9.70%, only ~50% RM pass-through, ~₹840 Cr new business FY26, utilisation ~78%. Converted recommendation to new framework: **BUY AT ₹200–210** standing order (tracking-position label retired per CLAUDE.md update). No change to Grade C / entry level. |
 
 ---
 
