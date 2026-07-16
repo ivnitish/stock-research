@@ -33,7 +33,11 @@ def _num(x, default=None):
 
 
 def get_fundamentals(ticker: str) -> dict:
-    """Fetch fundamentals from yfinance (and optionally Indian-Stock-Market-API)."""
+    """Fetch fundamentals from yfinance (and optionally Indian-Stock-Market-API + indianapi.in).
+
+    When INDIANAPI_KEY is set, we also pull richer data (financial statements, ratios,
+    shareholding/promoter %, ROCE etc.) from the IndianAPI marketplace.
+    """
     t = yf.Ticker(ticker)
     info = t.info
     out = {
@@ -70,6 +74,27 @@ def get_fundamentals(ticker: str) -> dict:
                     out["pe_ratio"] = _num(api.get("pe_ratio"))
                 if out.get("name") is None:
                     out["name"] = api.get("company_name")
+        except Exception:
+            pass
+
+    # Richer source when available: indianapi.in (P&L/BS/CF, ratios, shareholding, promoter %)
+    if ticker.endswith((".NS", ".BO")):
+        try:
+            from indianapi_client import get_fundamentals as indianapi_fundamentals, is_configured
+            if is_configured():
+                ia = indianapi_fundamentals(ticker)
+                if ia and not ia.get("error"):
+                    # Fill in gaps with better data when yfinance is sparse
+                    for k in ("market_cap", "pe_ratio", "roe", "roce", "debt_to_equity", "promoter_holding", "name", "current_price"):
+                        if ia.get(k) is not None and out.get(k) in (None, 0, ""):
+                            out[k] = ia.get(k)
+                    # Keep the full raw response for deep use (quarterly results, full statements, etc.)
+                    out["indianapi"] = {
+                        "raw": ia,
+                        "financials_raw": ia.get("financials_raw"),
+                        "ratios_raw": ia.get("ratios_raw"),
+                        "shareholding_raw": ia.get("shareholding_raw"),
+                    }
         except Exception:
             pass
     return out

@@ -29,3 +29,12 @@ INDIAN_STOCK_API_BASE_URL = os.environ.get(
     "INDIAN_STOCK_API_BASE_URL",
     "https://military-jobye-haiqstudios-14f59639.koyeb.app",
 ).rstrip("/")
+
+# IndianAPI.in Stock Market API (marketplace at https://indianapi.in/indian-stock-market)
+# Richer data: news, company profiles, financials (P&L/BS/CF), ratios, shareholding patterns, etc.
+# Requires signup + API key (set INDIANAPI_KEY). Base can be overridden.
+# See https://indianapi.in/sandbox/indian-stock-market and analyst.indianapi.in for endpoints.
+INDIANAPI_KEY = os.environ.get("INDIANAPI_KEY")
+INDIANAPI_BASE_URL = os.environ.get(
+    "INDIANAPI_BASE_URL", "https://stock.indianapi.in"
+).rstrip("/")
