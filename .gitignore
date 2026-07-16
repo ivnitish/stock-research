@@ -55,3 +55,6 @@ docs/FINTWITTER_FINDS.md
 output/html/FINTWITTER_FINDS.html
 data/logs/fintwitter_finds_last_success
 data/logs/fintwitter_finds.lock
+
+# Third-party holdings PDFs (personal, never publish)
+harish/
