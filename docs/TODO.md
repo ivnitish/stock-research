@@ -1,5 +1,17 @@
 # Research System — TODO
-*Last updated: 2026-07-14*
+*Last updated: 2026-07-17*
+
+---
+
+## ✅ Completed — 2026-07-17 (working-tree cleanup: 7 commits, all pending work committed)
+
+- **Committed everything left uncommitted since Jul 14** in logical groups: (1) IndianAPI.in client + fundamental_valuation wiring — **still untested, needs INDIANAPI_KEY**; (2) SOLEX research note (Grade B 19/25, BUY AT ₹900-950) — **index.html entry added** (was missing, index-always rule); (3) BANCOINDIA full refresh (FY26 audited, OCF flag cleared, HOLD at ₹680); (4) PPAP BUY-AT ₹200-210 conversion + stale HTML render catch-ups (_TEMPLATE price ladder, TODO, VISL); (5) 2026 themes screener-links doc + opener script; (6) SKILL v2 proposal HTML render (md was already committed); (7) housekeeping — README fintwitter job docs, W28/W29 red-flag journals, send_session_takeaways.py, fintwitter metrics.
+- **`harish/` added to .gitignore** — third-party holdings PDF stays local; repo is public via GitHub Pages.
+
+## ⏳ Open — refactoring thread (picked up 2026-07-17)
+
+- **stock-research SKILL v2 proposal awaiting user approval** — `docs/proposals/SKILL_stock-research_v2.md` (re-integration + Addendum A price-ladder recos + Addendum B template consolidation). Live SKILL.md untouched until approved.
+- **IndianAPI.in integration untested** — user to sign up at indianapi.in, set INDIANAPI_KEY; then run test_connection(), verify fundamentals/news payloads on theme stocks (SOLEX, ASM, MTAR), then extend (PDF tables, morning brief, 2026-themes batch).
 
 ---
 
