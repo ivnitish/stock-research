@@ -64,11 +64,24 @@ Otherwise, run in **full mode**: produce the brief, create the GitHub issue, sen
 
    If no holding has material news AND macro is quiet, write the whole body as: `Markets quiet — no material news today.` Don't pad.
 
-6. **If dry-run**, print the brief to stdout and exit here.
+6. **Buy-at alerts** — read the buy-at table from `docs/HANDOVER.md`, fetch each CMP from Tickertape via WebFetch (never Screener/Yahoo for CMP; no broker MCPs). Add a `## Buy-at Alerts` section to the brief listing each stock, CMP, trigger level, and whether it is INSIDE or outside its zone. (Formalized 2026-07-18 — this was previously an ad-hoc post-run step.)
 
-7. **If full mode:**
+7. **If dry-run**, print the brief to stdout and exit here.
+
+8. **If full mode:**
    a. Open a GitHub issue in the current repo titled `Morning News YYYY-MM-DD` with the brief as the body. GitHub emails the user automatically (no SMTP setup needed). This is the primary notification — must succeed.
-   b. **Telegram ping is optional.** If the `TELEGRAM_BOT_TOKEN` env var is set, POST a message to chat ID **1679797853** with body `Morning News ready: <issue URL>`. If the env var is missing or empty, skip silently — do not fail the routine. The local bridge already handles ad-hoc Telegram interaction; the cloud routine doesn't depend on Telegram.
+   b. **Telegram daily theme digest (optional, single message).** If the `TELEGRAM_BOT_TOKEN` env var is set, POST ONE plain-text message to chat ID **1679797853**. This is the user's only daily Telegram touchpoint — it must be short (under ~900 chars, readable on a lock screen) and must NOT duplicate the brief. Format:
+
+      ```
+      Themes YYYY-MM-DD
+      • <theme line 1 — the single most portfolio-relevant macro/market thread today>
+      • <theme line 2>
+      • <theme line 3 — optional; 2-4 theme lines total>
+      Alerts: <SYMBOL ₹CMP INSIDE zone (<trigger)> | "none in zone"
+      Full brief: <issue URL>
+      ```
+
+      Theme lines are synthesized from the macro scan + holdings news — general threads (rates, crude/rupee, earnings season, sector rotations), not per-stock headlines, unless a holding has genuinely material news (results, big order, dilution) — then it earns one line. No metrics blocks, no PDFs, no multi-part messages. If the env var is missing or empty, skip silently — do not fail the routine.
 
 ## Notes
 

@@ -4,11 +4,11 @@ Use this verbatim for `claude -p` / cron / `scripts/fintwitter_finds.py --full`.
 
 ---
 
-You are running the **fintwitter-finds** daily scan for an Indian equity investor.
+You are running the **fintwitter-finds** WEEKLY scan for an Indian equity investor (Saturdays; converted from daily 2026-07-18).
 
 ## Mission
 
-Find **less-discovered, thesis-backed** Indian stock ideas from the last 24 hours (on Mondays, include the weekend). Deliver a Telegram digest + PDF with **per-pick thesis and Screener metrics**.
+Find **less-discovered, thesis-backed** Indian stock ideas from the last 7 days. The full report (per-pick thesis + Screener metrics) is delivered as a GitHub issue; Telegram gets ONE short ping — no PDF, no digest chunks.
 
 This is **idea sourcing, not buy advice**. No fabricated numbers. No price targets unless sourced.
 
@@ -81,7 +81,7 @@ Structure:
 ## Telegram summary
 (leave placeholder — Python rebuilds this section)
 
-## New mentions (last 24h)
+## New mentions (this week)
 ### Company
 - Source: ...
 - Thesis: ...
@@ -103,8 +103,8 @@ The cron pipeline runs after you finish:
 ```
 venv/bin/python3 scripts/fetch_fintwitter_screener.py
 venv/bin/python3 scripts/build_telegram_summary.py
-venv/bin/python3 scripts/build_fintwitter_finds_pdf.py
-venv/bin/python3 scripts/send_telegram_digest.py docs/FINTWITTER_FINDS.md --pdf output/pdf/FINTWITTER_FINDS_YYYY-MM-DD.pdf
+gh issue create --title "Fintwitter Weekly YYYY-MM-DD" --body-file docs/FINTWITTER_FINDS.md
+venv/bin/python3 scripts/build_fintwitter_weekly_ping.py ISSUE_URL | venv/bin/python3 scripts/send_session_takeaways.py --stdin
 ```
 
 ## Anti-hallucination

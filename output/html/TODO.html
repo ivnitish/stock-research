@@ -37,7 +37,19 @@ strong{color:#111827;}
 </style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
 <details id="toc" class="no-print"><summary>Jump to section</summary></details>
 <h1 id="research-system-todo">Research System — TODO</h1>
-<p><em>Last updated: 2026-07-17</em></p>
+<p><em>Last updated: 2026-07-18</em></p>
+
+<hr>
+
+<h2 id="completed-2026-07-18-telegram-consolidation-one-daily-theme-digest-fintwitter-weekly">✅ Completed — 2026-07-18 (Telegram consolidation: one daily theme digest, fintwitter weekly)</h2>
+
+<ul>
+<li><strong>JTBD (user-defined):</strong> Telegram = glanceable only. ONE short daily message — general themes + in-zone buy-at alerts + GitHub link. Detail lives on GitHub. No PDFs, no multi-chunk digests.</li>
+<li><strong>Morning-news skill:</strong> Buy-at Alerts formalized as step 6 (was ad-hoc post-run); Telegram step now sends a 3-6 line theme digest (<900 chars) instead of the bare "ready: URL" ping. Root cause found: <code>daily_news_cron.sh</code> never loaded <code>.env</code>, so the morning Telegram ping had NEVER fired locally — fixed (set -a source). Prompt simplified — skill covers alerts + digest now.</li>
+<li><strong>Fintwitter → weekly (Saturdays 10:00 IST, retry 18:15):</strong> scripts renamed (<code>run_fintwitter_weekly.sh</code>, <code>weekly_fintwitter_cron.sh</code>), plist reloaded. Full report now posts as GitHub issue <code>Fintwitter Weekly YYYY-MM-DD</code> (FINTWITTER_FINDS.md is gitignored, so the issue is how it reaches GitHub); Telegram reduced to one short ping via new <code>scripts/build_fintwitter_weekly_ping.py</code> piped to <code>send_session_takeaways.py</code>. PDF removed from scheduled run (on-demand only). SCAN_PROMPT window: 24h → 7 days. Note: the 18:32 run TODAY was the last old-style chunked+PDF digest (fired before the switch).</li>
+<li><strong>Removed broken launchd job</strong> <code>com.nitish.portfolio-update</code> (pointed at archived <code>src/portfolio_update.py</code>, failing silently daily).</li>
+<li><strong>Verified with real sends:</strong> sample theme digest delivered (msg 104, format approved format from 2026-07-17 brief + issue #7 link); weekly ping composer tested against live data (17 picks, new-adds extraction fixed for <code>### Name (NSE SYMBOL)</code> headings). <strong>Live confirmation points: Monday 08:42 IST daily digest; next Saturday 10:00 fintwitter weekly.</strong></li>
+</ul>
 
 <hr>
 

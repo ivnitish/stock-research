@@ -1,6 +1,6 @@
 #!/bin/zsh
-# Daily fintwitter finds — launchd entry point.
-# Runs full pipeline once per day; retries evening if morning failed.
+# Weekly fintwitter finds — launchd entry point (Saturdays; converted from daily 2026-07-18).
+# Runs full pipeline once per Saturday; retries evening slot if morning failed.
 
 REPO="/Users/nitish/stocks automation"
 LOG_DIR="$REPO/data/logs"
@@ -22,8 +22,8 @@ fi
 trap 'rmdir "$LOCK" 2>/dev/null' EXIT
 
 {
-  echo "===== $(date '+%Y-%m-%d %H:%M:%S') fintwitter daily cron ====="
-  "$REPO/scripts/run_fintwitter_daily.sh"
+  echo "===== $(date '+%Y-%m-%d %H:%M:%S') fintwitter weekly cron ====="
+  "$REPO/scripts/run_fintwitter_weekly.sh"
   RC=$?
   if [[ $RC -eq 0 ]]; then
     echo "$TODAY" > "$STAMP"

@@ -1,33 +1,31 @@
-# Morning Brief — 2026-07-14
+# Morning Brief — 2026-07-17
 
 ## Holdings news
-(cost-basis order; holdings with no material news in the last 24h are omitted)
 
-### ICICIAMC
-- Q1 FY27 (June quarter) results out: net profit up 23% YoY to ₹964.63 Cr; PBT up 20.6% YoY to ₹1,280.65 Cr; operating revenue ₹1,564 Cr, up 17.6% YoY. Quarterly average AUM at ₹11.17 lakh Cr, market share 13.4% — still India's second-largest AMC. Unique customer base grew to 17.3 million from 15.1 million a year earlier — Business Standard, Investing.com
+### NEWGEN
+- Q1 FY27 results (announced July 17): revenue ₹357 cr, up 11% YoY from ₹321 cr; PAT ₹63 cr, up 26% YoY; PAT margin 17.6%. SaaS + license subscription revenue up 40% YoY to ₹60 cr. 10 new customer logos added. Notable win: UK enterprise ECM deal worth GBP 1.13 mn (~₹14.5 cr). — Business Standard / ANI / Manila Times
 
-## Buy-at Alerts
+### KERNEX
+- Follow-through on the ₹100.53 cr Integral Coach Factory order (booked July 14) — supply and installation of on-board Kavach equipment, delivery window through March 2028. Extends the run of order wins after the July 2 commissioning of Kavach 4.0 on the 207 km Tundla–Panki Dham NCR stretch (KERNEX executed 572 of the 652 total NCR Kavach 4.0 route-km). — Whalesbook / Business Standard
 
-CMPs fetched July 14, 2026 (Tickertape). Buy zones per `docs/HANDOVER.md`.
+### SWIGGY
+- Ongoing FSSAI regulatory action on Instamart — nine notices for supply of expired / rotten / contaminated products dropped July 11-13. Stock had fallen 2.6% on the news; no fresh update in the last 24h but this is the live overhang until Swiggy responds formally. — Bloomberg / Upstox
 
-| Stock | Grade | CMP | Entry Zone | Status |
-|-------|-------|-----|-----------|--------|
-| IEX | B (18/25) | ₹117.14 | <₹120 (full), <₹130 (tracking) | **INSIDE buy zone** — trading below the ₹120 full-entry level |
-| KALYANICASTTECH | B- (15/25) | ₹745.00 | <₹450 (full), <₹550 (tracking) | Outside — 35% above the tracking-entry ceiling |
-| REDINGTON | C (10/25) | ₹281.40 | <₹180 | Outside — well above entry |
-| MVGJL | C (11/25) | ₹167.57 | <₹150 + OCF positive 2Q | Outside — price above trigger; OCF condition unverified |
+### NESCO
+- Ex-dividend Monday: record date for ₹7 final FY26 dividend is July 20, 2026 (AGM July 27). Board declared 10% YoY consolidated PAT growth to ₹412.74 cr on revenue ₹932 cr. — Whalesbook / InvestyWise
 
-**IEX is trading inside its buy zone today** (₹117.14 vs <₹120 full-entry trigger from the Apr 24 Q4 FY26 concall thesis).
+### ETERNAL, RAYMOND, ANANTRAJ, GRSE, ARTEMIS, EPACKPEB, BANCOINDIA, SAKSOFT, SHILCTECH, ICICIAMC
+- No fresh material event in the last 24h. Prior-week items already reflected: Raymond warrant allotment (July 9), Anant Raj Haryana MoU (June), Artemis dividend record date passed July 10, ICICI AMC Q1 FY27 already reported (PAT +23%).
 
 ## Macro
 
 ### India
-- Sensex and Nifty recovered from ~1% intraday losses to close only marginally higher, led by IT stocks; broader market breadth stayed bearish.
-- Rupee under renewed pressure, touching a six-week low near 95.95-96/USD as Iran expanded strikes on Gulf states following US attacks — reviving oil-import and current-account risk.
-- Crude oil (MCX) up ~4.6% on fears Iran closes the Strait of Hormuz (~20% of global energy flows) "until further notice" — a direct headwind for India's inflation and trade balance.
-- Q1 FY27 earnings season is in full swing this week (HCL Tech, Reliance, HDFC Bank and ~140 more companies reporting) — watch for read-through to portfolio IT/financials names.
+- CPI print for June came in at 4.38% (released July 13) — first breach of the RBI's 4% target in 17 months, driven by food (+5.32%) and transport (+4.31%). Sets a hawkish backdrop for the next RBI review; RBI has already raised its FY27 average CPI forecast by 50 bps to 5.1%.
+- IMD's July forecast is below-normal rainfall (<94% of LPA) for most of the country, with above-normal temperatures — pressure on kharif output and rural demand narrative.
+- Sensex closed roughly flat at ~77,187 on July 17; Nifty around 24,075. FIIs net sold ~₹740 cr on July 15, DIIs absorbed with ~₹2,928 cr of buying — the tug-of-war pattern of the last month continues.
+- FII positioning in derivatives skewed bearish — 2.62 lakh contracts net short in index futures, combined with short calls + long puts. Standard protective hedge, but the size is worth watching.
 
 ### US
-- US equity futures slipped on Iran-Israel/Gulf tension, a heavy start to earnings season, and today's June CPI print.
-- Fed Chair Kevin Warsh made his congressional testimony debut today (House Financial Services Committee) — covering inflation, oil-driven price risk, and the rate path. Markets are pricing roughly 70% odds of a hike before September; Warsh has avoided forward guidance since taking office.
-- June CPI closely watched after May's headline/core prints of 4.2%/2.9%, both well above the Fed's 2% target.
+- Fed policy meeting July 28-29. Consensus expects no move; CME FedWatch puts a July hike probability at ~25-30%. Chair Warsh, testifying July 14, called inflation "too high" but did not pre-commit — market is pricing the next hike in September.
+- June US CPI came in at 3.5%, down from 4.2% in May — softening print but Warsh's "not mission accomplished" framing kept the hawkish tone.
+- Dollar-strength / higher-for-longer regime remains the base case, which is a mild headwind for EM flows (see FII selling above).

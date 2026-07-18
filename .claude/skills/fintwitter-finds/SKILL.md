@@ -1,30 +1,34 @@
 ---
 name: fintwitter-finds
 description: >
-  Daily scan of Indian fintwitter / ValuePickr / ThreadReader for actionable stock
+  Weekly scan of Indian fintwitter / ValuePickr / ThreadReader for actionable stock
   ideas with thesis + Screener metrics. Triggers on: "fintwitter finds", "x thread scan",
-  "what's fintwitter saying", "run fintwitter", "daily stock ideas telegram".
+  "what's fintwitter saying", "run fintwitter", "weekly stock ideas".
   Writes docs/FINTWITTER_FINDS.md, updates data/fintwitter_finds_metrics.json,
-  builds PDF, sends rich per-pick digest to Telegram. Scheduled daily via launchd.
+  posts the full report as a GitHub issue, sends ONE short Telegram ping (no PDF).
+  Scheduled Saturdays via launchd. (Converted from daily 2026-07-18, user directive.)
 context: fork
 ---
 
-# Fintwitter Finds — Daily Idea Scan + Telegram
+# Fintwitter Finds — Weekly Idea Scan
 
-## What this produces
+## What this produces (weekly, Saturdays)
 
-Every run delivers to Telegram:
-1. **Text digest** — 3 lines per pick (verdict, thesis, metrics, source)
-2. **PDF attachment** — full report with Screener.in data per stock
+1. **GitHub issue** — `Fintwitter Weekly YYYY-MM-DD` with the full per-pick report
+   (thesis, verdict, Screener metrics). This is the primary delivery; GitHub emails
+   the user automatically.
+2. **Telegram ping** — ONE short message (<900 chars): pick count, new adds,
+   Tier-1 symbols, issue link. **No PDF. No multi-chunk digest.** (User directive
+   2026-07-18: Telegram is for glanceable updates only; detail lives on GitHub.)
 
 ## Invocation
 
 | Trigger | Command |
 |---------|---------|
-| Manual dry-run | `venv/bin/python3 scripts/fintwitter_finds.py` |
-| Manual full run | `venv/bin/python3 scripts/fintwitter_finds.py --full` |
-| Pipeline only (no Claude) | `scripts/run_fintwitter_daily.sh --skip-claude` |
-| Scheduled (launchd) | `scripts/daily_fintwitter_cron.sh` — daily 09:15 IST, retry 18:15 |
+| Manual dry-run | `FINTWITTER_DRY_RUN=1 scripts/run_fintwitter_weekly.sh` |
+| Manual full run | `scripts/run_fintwitter_weekly.sh` |
+| Pipeline only (no Claude) | `scripts/run_fintwitter_weekly.sh --skip-claude` |
+| Scheduled (launchd) | `scripts/weekly_fintwitter_cron.sh` — Saturdays 10:00 IST, retry 18:15 |
 
 Read the full headless prompt: `references/SCAN_PROMPT.md`
 
@@ -32,24 +36,32 @@ Read the full headless prompt: `references/SCAN_PROMPT.md`
 
 | Mode | Env var | Behaviour |
 |------|---------|-----------|
-| Dry-run | `FINTWITTER_DRY_RUN=1` | Claude scan + write files. No Telegram. |
-| Full | unset | Claude scan → Python pipeline → Telegram text + PDF |
+| Dry-run | `FINTWITTER_DRY_RUN=1` | Claude scan + write files. No issue, no Telegram. |
+| Full | unset | Claude scan → Python pipeline → GitHub issue → short Telegram ping |
 
 ## Pipeline (full mode — run in this order)
 
 ```bash
-# Step 1: Claude discovery (updates JSON + markdown)
+# Step 1: Claude discovery (updates JSON + markdown; last-7-days window)
 claude -p "$(cat .claude/skills/fintwitter-finds/references/SCAN_PROMPT.md)" --permission-mode bypassPermissions
 
 # Step 2: Python automation (deterministic — always runs after Claude)
 venv/bin/python3 scripts/fetch_fintwitter_screener.py   # live Screener metrics
-venv/bin/python3 scripts/build_telegram_summary.py      # rich 3-line blocks
-venv/bin/python3 scripts/build_fintwitter_finds_pdf.py  # HTML + PDF
-venv/bin/python3 scripts/send_telegram_digest.py docs/FINTWITTER_FINDS.md \
-  --pdf output/pdf/FINTWITTER_FINDS_$(date +%Y-%m-%d).pdf
+venv/bin/python3 scripts/build_telegram_summary.py      # report body (goes into the issue)
+
+# Step 3: GitHub issue (primary delivery)
+gh issue create --repo ivnitish/stock-research \
+  --title "Fintwitter Weekly $(date +%Y-%m-%d)" --body-file docs/FINTWITTER_FINDS.md
+
+# Step 4: short Telegram ping
+venv/bin/python3 scripts/build_fintwitter_weekly_ping.py ISSUE_URL \
+  | venv/bin/python3 scripts/send_session_takeaways.py --stdin
 ```
 
-Or use the wrapper: `scripts/run_fintwitter_daily.sh`
+Or use the wrapper: `scripts/run_fintwitter_weekly.sh`
+
+PDF is on-demand only (not part of the scheduled run):
+`venv/bin/python3 scripts/build_fintwitter_finds_pdf.py`
 
 ## Contrarian lens (always apply)
 
@@ -66,10 +78,10 @@ See `docs/FINTWITTER_WATCHLIST.md` for themes and prior picks.
 ## Claude steps (discovery)
 
 1. Read `docs/FINTWITTER_WATCHLIST.md`
-2. Scan last 24h sources (see `references/SCAN_PROMPT.md`)
+2. Scan last 7 days of sources (see `references/SCAN_PROMPT.md`)
 3. Update `data/fintwitter_finds_metrics.json` — thesis, bucket, verdict, symbol, source (no fabricated numbers)
 4. Write `docs/FINTWITTER_FINDS.md` — new mentions, themes, crowded list, sources checked
-5. Stop — Python handles metrics fetch, Telegram, PDF
+5. Stop — Python handles metrics fetch, issue, Telegram ping
 
 ## JSON entry schema
 
@@ -85,28 +97,17 @@ See `docs/FINTWITTER_WATCHLIST.md` for themes and prior picks.
 }
 ```
 
-Max 17 active picks. Max 5 new per day. MCap floor ₹100 Cr unless exceptional liquidity.
+Max 17 active picks. Max 5 new per weekly run. MCap floor ₹100 Cr unless exceptional liquidity.
 
-## Telegram format (generated by Python — do not hand-write)
+## Telegram ping format (generated by build_fintwitter_weekly_ping.py — do not hand-write)
 
-Plain text only. No markdown tables. No asterisk bold.
+Plain text, single message, capped ~900 chars:
 
 ```
-Fintwitter Finds — DD Mon YYYY
-
-TIER 1 / NEW TODAY
-TRANSRAILL — TIER 1
-Thesis: Power T&D EPC + tower mfg, OB 2.4x sales, P/E 16 vs Hitachi 140x
-Metrics: MCap 6867 Cr / CMP 512 / P/E 16.5 / P/B 3.0 / ROE 20% / sales +30% / NPM 11%
-Source: ValuePickr Capt_Cool
-
-RECURRING WATCH
-...
-
-CROWDED SKIP
-INDOTECH KAYNES ZENTEC MTAR — do not chase
-
-PDF attached with full metrics per pick.
+Fintwitter Weekly — DD Mon YYYY
+17 active picks, new: MODINSULATOR, KALYANICAST
+Tier-1: TRANSRAILL, HPL, SOUTHWEST
+Full report: https://github.com/ivnitish/stock-research/issues/NN
 ```
 
 ## Files touched each run
@@ -114,15 +115,13 @@ PDF attached with full metrics per pick.
 | File | Purpose |
 |------|---------|
 | `data/fintwitter_finds_metrics.json` | Master pick list + thesis (Claude writes, Python enriches) |
-| `docs/FINTWITTER_FINDS.md` | Daily brief + Telegram section |
-| `output/html/FINTWITTER_FINDS.html` | PDF source |
-| `output/pdf/FINTWITTER_FINDS_YYYY-MM-DD.pdf` | Telegram attachment |
+| `docs/FINTWITTER_FINDS.md` | Weekly report → GitHub issue body |
 | `data/logs/fintwitter_finds.log` | Cron log |
 
 ## Scheduler (this Mac only)
 
-`~/Library/LaunchAgents/com.nitish.stocks.fintwitter-finds.plist` → `scripts/daily_fintwitter_cron.sh`
-- Every day 09:15 IST; retries 18:15 if morning failed
+`~/Library/LaunchAgents/com.nitish.stocks.fintwitter-finds.plist` → `scripts/weekly_fintwitter_cron.sh`
+- Saturdays 10:00 IST; retries 18:15 if morning failed
 - Stamp: `data/logs/fintwitter_finds_last_success`
 
 ## Rules
@@ -131,3 +130,9 @@ PDF attached with full metrics per pick.
 - Never fabricate Screener numbers — Python fetcher is source of truth for metrics
 - Idea sourcing only — not buy/sell advice
 - Requires `.env`: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_ALLOWED_CHAT_ID`
+
+## Changelog
+
+- **2026-07-18:** Daily → weekly (Saturdays). Full report now delivered as a GitHub
+  issue; Telegram reduced to one short ping, PDF removed from the scheduled run
+  (user directive: only glanceable updates on Telegram, detail on GitHub).

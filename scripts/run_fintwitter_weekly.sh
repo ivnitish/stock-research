@@ -1,10 +1,12 @@
 #!/bin/zsh
-# Full fintwitter daily pipeline: Claude scan → Screener fetch → Telegram + PDF
+# Fintwitter WEEKLY pipeline: Claude scan → Screener fetch → GitHub issue → short Telegram ping
+# (Converted from daily 2026-07-18, user directive: weekly cadence, report lives
+#  on GitHub, Telegram gets ONE short message, no PDF.)
 #
 # Usage:
-#   scripts/run_fintwitter_daily.sh              # full (Claude + Python)
-#   scripts/run_fintwitter_daily.sh --skip-claude  # refresh metrics/PDF/Telegram only
-#   FINTWITTER_DRY_RUN=1 scripts/run_fintwitter_daily.sh  # no Telegram
+#   scripts/run_fintwitter_weekly.sh               # full (Claude + Python)
+#   scripts/run_fintwitter_weekly.sh --skip-claude # refresh metrics/issue/ping only
+#   FINTWITTER_DRY_RUN=1 scripts/run_fintwitter_weekly.sh  # no GitHub issue, no Telegram
 
 set -euo pipefail
 
@@ -15,7 +17,7 @@ VENV="$REPO/venv/bin/python3"
 TODAY=$(date '+%Y-%m-%d')
 
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
-mkdir -p "$LOG_DIR" "$REPO/output/pdf"
+mkdir -p "$LOG_DIR"
 
 log() { echo "$(date '+%Y-%m-%d %H:%M:%S') $*" | tee -a "$LOG_DIR/fintwitter_finds.log"; }
 
@@ -53,33 +55,29 @@ fi
 log "fetching Screener metrics..."
 "$VENV" scripts/fetch_fintwitter_screener.py >> "$LOG_DIR/fintwitter_finds.log" 2>&1
 
-log "building Telegram summary..."
+log "building report summary..."
 "$VENV" scripts/build_telegram_summary.py >> "$LOG_DIR/fintwitter_finds.log" 2>&1
 
-log "building PDF..."
-"$VENV" scripts/build_fintwitter_finds_pdf.py >> "$LOG_DIR/fintwitter_finds.log" 2>&1
-
-PDF="$REPO/output/pdf/FINTWITTER_FINDS_${TODAY}.pdf"
-if [[ ! -f "$PDF" ]]; then
-  # fallback: latest pdf in dir
-  PDF=$(ls -t "$REPO/output/pdf"/FINTWITTER_FINDS_*.pdf 2>/dev/null | head -1)
-fi
-
-# --- Step 3: Telegram ---
 if [[ "${FINTWITTER_DRY_RUN:-}" == "1" ]]; then
-  log "dry-run — skipping Telegram"
-  "$VENV" scripts/send_telegram_digest.py docs/FINTWITTER_FINDS.md --dry-run
+  log "dry-run — skipping GitHub issue and Telegram"
+  "$VENV" scripts/build_fintwitter_weekly_ping.py
   exit 0
 fi
 
-if [[ -z "${PDF:-}" || ! -f "$PDF" ]]; then
-  log "ERROR: PDF not found"
-  exit 1
+# --- Step 3: GitHub issue (primary delivery — full report, emails the user) ---
+log "creating GitHub issue..."
+ISSUE_URL=$(gh issue create --repo ivnitish/stock-research \
+  --title "Fintwitter Weekly $TODAY" \
+  --body-file docs/FINTWITTER_FINDS.md 2>>"$LOG_DIR/fintwitter_finds.log" || true)
+if [[ -z "$ISSUE_URL" ]]; then
+  log "WARNING: GitHub issue creation failed — ping will go without a link"
 fi
 
-log "sending Telegram (text + PDF)..."
-"$VENV" scripts/send_telegram_digest.py docs/FINTWITTER_FINDS.md --pdf "$PDF" \
+# --- Step 4: short Telegram ping (ONE message, no PDF) ---
+log "sending Telegram weekly ping..."
+"$VENV" scripts/build_fintwitter_weekly_ping.py "$ISSUE_URL" \
+  | "$VENV" scripts/send_session_takeaways.py --stdin \
   >> "$LOG_DIR/fintwitter_finds.log" 2>&1
 
-log "pipeline complete"
+log "weekly pipeline complete"
 exit 0

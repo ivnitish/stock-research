@@ -15,6 +15,12 @@ LOCK="$LOG_DIR/daily_news.lock"
 mkdir -p "$LOG_DIR"
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
+# Load .env so TELEGRAM_BOT_TOKEN reaches the headless Claude run.
+# (Missing before 2026-07-18 — the Telegram digest silently never sent.)
+if [[ -f "$REPO/.env" ]]; then
+  set -a; source "$REPO/.env"; set +a
+fi
+
 TODAY=$(date '+%Y-%m-%d')
 
 # Already delivered today → nothing to do.
@@ -41,14 +47,9 @@ fi
 trap 'rmdir "$LOCK" 2>/dev/null' EXIT
 
 PROMPT='Run the morning-news skill in full-run mode (last-24h news per holding;
-on Mondays cover the weekend too).
-
-Then add a "Buy-at Alerts" section to docs/MORNING_BRIEF.md: read the buy-at
-alerts table in docs/HANDOVER.md, fetch current CMP for each stock from
-Tickertape or the Google Finance card via web search (do NOT use Groww MCP
-or Kite MCP — they are on-demand only and unreliable headless; never use
-Screener.in or Yahoo Finance for CMP), and flag any stock trading inside its
-buy zone.
+on Mondays cover the weekend too). The skill itself covers the Buy-at Alerts
+section and the single Telegram theme digest — follow its steps exactly:
+exactly ONE short Telegram message, never more.
 
 Follow all repo rules in CLAUDE.md and .claude/rules/. Never fabricate prices —
 if a CMP cannot be fetched, write "data unavailable".'

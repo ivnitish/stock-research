@@ -1,5 +1,15 @@
 # Research System — TODO
-*Last updated: 2026-07-17*
+*Last updated: 2026-07-18*
+
+---
+
+## ✅ Completed — 2026-07-18 (Telegram consolidation: one daily theme digest, fintwitter weekly)
+
+- **JTBD (user-defined):** Telegram = glanceable only. ONE short daily message — general themes + in-zone buy-at alerts + GitHub link. Detail lives on GitHub. No PDFs, no multi-chunk digests.
+- **Morning-news skill:** Buy-at Alerts formalized as step 6 (was ad-hoc post-run); Telegram step now sends a 3-6 line theme digest (<900 chars) instead of the bare "ready: URL" ping. Root cause found: `daily_news_cron.sh` never loaded `.env`, so the morning Telegram ping had NEVER fired locally — fixed (set -a source). Prompt simplified — skill covers alerts + digest now.
+- **Fintwitter → weekly (Saturdays 10:00 IST, retry 18:15):** scripts renamed (`run_fintwitter_weekly.sh`, `weekly_fintwitter_cron.sh`), plist reloaded. Full report now posts as GitHub issue `Fintwitter Weekly YYYY-MM-DD` (FINTWITTER_FINDS.md is gitignored, so the issue is how it reaches GitHub); Telegram reduced to one short ping via new `scripts/build_fintwitter_weekly_ping.py` piped to `send_session_takeaways.py`. PDF removed from scheduled run (on-demand only). SCAN_PROMPT window: 24h → 7 days. Note: the 18:32 run TODAY was the last old-style chunked+PDF digest (fired before the switch).
+- **Removed broken launchd job** `com.nitish.portfolio-update` (pointed at archived `src/portfolio_update.py`, failing silently daily).
+- **Verified with real sends:** sample theme digest delivered (msg 104, format approved format from 2026-07-17 brief + issue #7 link); weekly ping composer tested against live data (17 picks, new-adds extraction fixed for `### Name (NSE SYMBOL)` headings). **Live confirmation points: Monday 08:42 IST daily digest; next Saturday 10:00 fintwitter weekly.**
 
 ---
 
