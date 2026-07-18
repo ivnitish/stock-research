@@ -72,18 +72,22 @@ Otherwise, run in **full mode**: produce the brief, create the GitHub issue, sen
 
 8. **If full mode:**
    a. Open a GitHub issue in the current repo titled `Morning News YYYY-MM-DD` with the brief as the body. GitHub emails the user automatically (no SMTP setup needed). This is the primary notification — must succeed.
-   b. **Telegram daily message — one thread, taught (format decided 2026-07-18).** If the `TELEGRAM_BOT_TOKEN` env var is set, POST ONE plain-text message to chat ID **1679797853**. Pick the single most portfolio-relevant macro thread of the day and *teach* it — Feynman rule: every causal link spelled out in plain language, no jargon without explanation, ending in what it means for the user's holdings. Everything else compresses to 1-2 side lines. Under ~1,400 chars. Format:
+   b. **Telegram daily message — threads, taught (format decided 2026-07-18, depth rule relaxed same day).** If the `TELEGRAM_BOT_TOKEN` env var is set, POST ONE plain-text message to chat ID **1679797853**. Teach every macro thread that *genuinely matters* to the portfolio that day — 1 on quiet days, 2-3 on busy days — each with the full Feynman treatment: every causal link spelled out in plain language, no jargon without explanation, ending in what it means for the user's holdings. **Depth is non-negotiable, count is flexible:** never compress a thread into a headline to fit more in — if it earns a slot it gets the full chain; if not, it goes in the side notes. Budget: up to ~3,800 chars, but always ONE message — never chunk. Format:
 
       ```
-      <Thread title> — YYYY-MM-DD
+      <Thread 1 title> — YYYY-MM-DD
 
-      <3-5 short paragraphs teaching ONE thread:
+      <3-5 short paragraphs teaching the thread:
        the fact → the mechanism, step by step, in
        plain words → the portfolio consequence.
        A reader with zero context must be able to
        follow every link in the chain.>
 
-      Also today: <1-2 one-line side notes on other threads>
+      <Thread 2 title>                (only if the day earns it)
+
+      <same treatment>
+
+      Also today: <1-2 one-line side notes on remaining threads>
 
       Alerts: <SYMBOL ₹CMP INSIDE zone (<trigger)> | "none in zone"
       Full brief: <issue URL>
