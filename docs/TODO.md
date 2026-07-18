@@ -3,6 +3,16 @@
 
 ---
 
+## ✅ Completed — 2026-07-18 evening (Telegram quality iteration: "one thread, taught" + stock snapshots)
+
+- **User feedback:** the theme digest still read like compressed headlines — "what am I learning here?" Wanted Feynman-style teaching + per-stock updates like the @StockResearchReport channel's Investment Snapshots (example: Jyoti CNC), triggered by our own research/news.
+- **Daily digest format decided (3 live samples, user picked A):** "one thread, taught" — each day teaches ONE macro thread end-to-end (fact → mechanism in plain words → portfolio consequence), 1-2 side lines for the rest, <1,400 chars. Approved reference: oil→rupee→CPI→RBI→smallcap-multiples chain (msg 107). Morning-news Step 8b rewritten.
+- **Macro continuity:** new `docs/MACRO_THREAD.md` — running dated narrative, newest first; skill reads last 2-3 entries before writing themes (continuing/reversing/new), prepends today's. Seeded with real 2026-07-17 + 2026-07-18 entries. Continuing threads teach the next layer, never re-explain verbatim.
+- **New `stock-snapshot` skill:** per-stock Telegram Investment Snapshot composed from `research/SYMBOL.md` (verdict + price ladder, why, financials, drivers, risks, takeaway, link to rendered note). Fires on: new research, material research update, hard news on a covered stock, or "snapshot SYMBOL". Sample sent: SBIAMC (msg 105). Morning-news 8c: max 2 news-triggered snapshots/day; quiet day = digest only. Cron prompt updated to match.
+- **Live confirmation: Monday 2026-07-20 08:42 IST** — first organic "one thread, taught" digest; also SBIAMC listing day (snapshot candidate if listing is material).
+
+---
+
 ## ✅ Completed — 2026-07-18 (Telegram consolidation: one daily theme digest, fintwitter weekly)
 
 - **JTBD (user-defined):** Telegram = glanceable only. ONE short daily message — general themes + in-zone buy-at alerts + GitHub link. Detail lives on GitHub. No PDFs, no multi-chunk digests.

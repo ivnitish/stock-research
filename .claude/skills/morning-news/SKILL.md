@@ -43,6 +43,8 @@ Otherwise, run in **full mode**: produce the brief, create the GitHub issue, sen
 
 4. **Macro scan** — top 5 India and top 3 US macro headlines from the last 24 hours. Skip noise; keep only items that could move the user's holdings or change positioning.
 
+   **Continuity (added 2026-07-18):** before writing themes, read the last 2-3 dated entries in `docs/MACRO_THREAD.md`. Today's themes must connect to that running narrative — say whether a thread is continuing, strengthening, reversing, or new ("crude's third down day — rupee pressure easing", not a context-free headline). After the brief is written, prepend today's dated entry (3-5 theme lines) to `docs/MACRO_THREAD.md`, newest first. This file is the persistent macro narrative the Telegram digest is a window into.
+
 5. **Write `docs/MORNING_BRIEF.md`** (overwrite each run). Use this structure:
 
    ```
@@ -70,18 +72,26 @@ Otherwise, run in **full mode**: produce the brief, create the GitHub issue, sen
 
 8. **If full mode:**
    a. Open a GitHub issue in the current repo titled `Morning News YYYY-MM-DD` with the brief as the body. GitHub emails the user automatically (no SMTP setup needed). This is the primary notification — must succeed.
-   b. **Telegram daily theme digest (optional, single message).** If the `TELEGRAM_BOT_TOKEN` env var is set, POST ONE plain-text message to chat ID **1679797853**. This is the user's only daily Telegram touchpoint — it must be short (under ~900 chars, readable on a lock screen) and must NOT duplicate the brief. Format:
+   b. **Telegram daily message — one thread, taught (format decided 2026-07-18).** If the `TELEGRAM_BOT_TOKEN` env var is set, POST ONE plain-text message to chat ID **1679797853**. Pick the single most portfolio-relevant macro thread of the day and *teach* it — Feynman rule: every causal link spelled out in plain language, no jargon without explanation, ending in what it means for the user's holdings. Everything else compresses to 1-2 side lines. Under ~1,400 chars. Format:
 
       ```
-      Themes YYYY-MM-DD
-      • <theme line 1 — the single most portfolio-relevant macro/market thread today>
-      • <theme line 2>
-      • <theme line 3 — optional; 2-4 theme lines total>
+      <Thread title> — YYYY-MM-DD
+
+      <3-5 short paragraphs teaching ONE thread:
+       the fact → the mechanism, step by step, in
+       plain words → the portfolio consequence.
+       A reader with zero context must be able to
+       follow every link in the chain.>
+
+      Also today: <1-2 one-line side notes on other threads>
+
       Alerts: <SYMBOL ₹CMP INSIDE zone (<trigger)> | "none in zone"
       Full brief: <issue URL>
       ```
 
-      Theme lines are synthesized from the macro scan + holdings news — general threads (rates, crude/rupee, earnings season, sector rotations), not per-stock headlines, unless a holding has genuinely material news (results, big order, dilution) — then it earns one line. No metrics blocks, no PDFs, no multi-part messages. If the env var is missing or empty, skip silently — do not fail the routine.
+      Thread selection uses `docs/MACRO_THREAD.md` continuity (Step 4): a continuing thread teaches the *next layer* or *what changed* — never re-explain yesterday's mechanism verbatim; a new thread gets taught from scratch. Reference example (user-approved 2026-07-18): oil past $80 → India imports ~85% of crude → more dollars needed → rupee falls → imports pricier → feeds CPI already above 4% → RBI can't cut → higher rates compress smallcap P/Es → "that's our real exposure — not oil stocks, the multiple on everything we hold." No metrics blocks, no PDFs, no multi-part digests. If the env var is missing or empty, skip silently — do not fail the routine.
+
+   c. **Per-stock news snapshots (event-driven, added 2026-07-18).** If any *covered* holding (has a `research/SYMBOL.md`) had genuinely hard news today — quarterly results, large order/contract, regulatory action, management change, dilution/fundraise — run the `stock-snapshot` skill for it: a structured Investment Snapshot (verdict, financials, drivers, risks, takeaway) sent as its own Telegram message, news event as the lead line. **Max 2 snapshots per day**, hardest news first; everything else stays a line in the theme digest. Days without hard news send the theme digest alone — the "one daily message" baseline still holds; snapshots fire only on real events.
 
 ## Notes
 

@@ -48,8 +48,10 @@ trap 'rmdir "$LOCK" 2>/dev/null' EXIT
 
 PROMPT='Run the morning-news skill in full-run mode (last-24h news per holding;
 on Mondays cover the weekend too). The skill itself covers the Buy-at Alerts
-section and the single Telegram theme digest — follow its steps exactly:
-exactly ONE short Telegram message, never more.
+section, the single Telegram theme digest (with macro-thread continuity), and
+event-driven per-stock snapshots — follow its steps exactly: ONE theme digest,
+plus at most 2 stock-snapshot messages and only when a covered holding has hard
+news (results, large order, regulatory action, dilution). Quiet day = digest only.
 
 Follow all repo rules in CLAUDE.md and .claude/rules/. Never fabricate prices —
 if a CMP cannot be fetched, write "data unavailable".'
