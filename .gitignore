@@ -61,3 +61,6 @@ harish/
 
 # IndianAPI response cache + usage counter (regenerable)
 data/cache/
+
+# Daily pre-collected inputs (regenerated every morning)
+data/daily_inputs/

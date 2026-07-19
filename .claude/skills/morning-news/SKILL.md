@@ -30,7 +30,7 @@ Otherwise, run in **full mode**: produce the brief, create the GitHub issue, sen
 
 2. **Rank by cost basis** — compute `quantity × avg_buy_price` for each row, sort descending. No live price lookups required.
 
-3. **For each holding**, web-search the last 24 hours for **material** news. Material means:
+3. **For each holding**, find **material** news from the last 24 hours. **Check `data/daily_inputs/YYYY-MM-DD.md` first (added 2026-07-19):** if today's pre-collected inputs file exists (written by `scripts/collect_daily_inputs.py` — per-holding headlines, macro headlines, precomputed buy-at alerts, macro-thread context), work from it and spend at most 3 targeted WebFetch/WebSearch calls on items that are material but unclear from the headline (the file flags its own gaps). Only fall back to full per-holding web searches when the file is missing. Material means:
    - Quarterly / annual results
    - Regulatory action, orders, approvals, penalties
    - Management changes, board changes

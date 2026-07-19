@@ -46,15 +46,28 @@ if ! mkdir "$LOCK" 2>/dev/null; then
 fi
 trap 'rmdir "$LOCK" 2>/dev/null' EXIT
 
-PROMPT='Run the morning-news skill in full-run mode (last-24h news per holding;
+# Pre-collect deterministic inputs (headlines, buy-at alerts, macro-thread
+# context) so the Claude run only analyzes — zero-token data gathering.
+INPUTS_FILE="$REPO/data/daily_inputs/$TODAY.md"
+"$REPO/venv/bin/python3" "$REPO/scripts/collect_daily_inputs.py" \
+  >> "$LOG_DIR/daily_news.log" 2>&1 || true
+
+PROMPT="Run the morning-news skill in full-run mode (last-24h news per holding;
 on Mondays cover the weekend too). The skill itself covers the Buy-at Alerts
 section, the single Telegram theme digest (with macro-thread continuity), and
 event-driven per-stock snapshots — follow its steps exactly: ONE theme digest,
 plus at most 2 stock-snapshot messages and only when a covered holding has hard
 news (results, large order, regulatory action, dilution). Quiet day = digest only.
 
+Pre-collected inputs: read $INPUTS_FILE FIRST if it exists — it has per-holding
+headlines, macro headlines, precomputed buy-at alerts, and macro-thread context.
+Work from it instead of broad web searches; use at most 3 targeted
+WebFetch/WebSearch calls for items that are material but unclear from headlines
+(the file flags its own gaps). If the file is missing, fall back to the skill's
+normal search steps.
+
 Follow all repo rules in CLAUDE.md and .claude/rules/. Never fabricate prices —
-if a CMP cannot be fetched, write "data unavailable".'
+if a CMP cannot be fetched, write \"data unavailable\"."
 
 {
   echo "===== $(date '+%Y-%m-%d %H:%M:%S') daily news brief (attempt) ====="
