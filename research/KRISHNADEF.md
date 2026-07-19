@@ -122,9 +122,17 @@ Four triggers active. Combined with capacity headroom to ₹400-500 Cr, that's t
 
 **Constraints:** Domestic-only sales (steel products classified, no exports permitted). Raw material inflation acknowledged (fuel, steel, conversion cost) but impact "not substantial."
 
-## Peer valuation check (added 2026-07-20)
+## Peer valuation check (added 2026-07-20, expanded with 3-lens framing)
 
-Same-MCap defence cohort (₹1,000-3,000 Cr) — the true peer set, not the ₹300K Cr behemoths:
+**Which peer set?** A defence-sector list of 31 companies mixes ₹3 lakh Cr behemoths (HAL, BEL) with ₹500 Cr micro-caps and business models ranging from foundry to aerospace electronics to shipyards. Comparing Krishna's P/E to that pooled median is not informative — size, liquidity, index inclusion, and business mix each move the multiple independently. Use three separate lenses instead:
+
+1. **Same-MCap peers (primary)** — controls for size and liquidity. This is the lens that answers "is Krishna fairly priced *for what it is*?"
+2. **Same-business-model peers (context)** — controls for business type (defence indigenization + regulatory moat). Answers "what does the market pay for this business model when it scales?"
+3. **Sector-wide median (temperature)** — controls for nothing but tells you if the whole sector is elevated. Useful for spotting sector froth.
+
+The primary decision is driven by lens 1 because ₹1,900 Cr and ₹22,000 Cr are different animals — investor base, index eligibility, liquidity discount, cost of capital all differ. Lens 2 is context for the migration path (if Krishna scales past ~₹5,000 Cr MCap, its multiple should rate toward the defence-tech peer group).
+
+### Lens 1 — Same-MCap defence cohort (₹1,000-3,000 Cr) — PRIMARY
 
 | Peer | MCap | P/E | NPM | Trailing PGr |
 |---|---|---|---|---|
@@ -134,7 +142,35 @@ Same-MCap defence cohort (₹1,000-3,000 Cr) — the true peer set, not the ₹3
 | **Krishna Defence** | **1,915** | **50** | **16%** | **73%** |
 | **Median** | | **53** | **17%** | **58%** |
 
-Krishna is fair on trailing multiples. But management's forward guidance is 30% (deceleration from 73%), and reverse DCF at CMP shows the market has already priced this in:
+Krishna is fair on trailing multiples within its true cohort. Slight discount to median (50 vs 53) but higher trailing growth (73% vs 58%) — parity.
+
+### Lens 2 — Same-business-model peers (defence-tech, all MCaps) — CONTEXT
+
+| Peer | MCap (Cr) | P/E | ROCE | OPM | 3Y Sales CAGR | 3Y PAT CAGR |
+|---|---|---|---|---|---|---|
+| Zen Tech | 15,979 | 110 | 11% | 32% | 38% | 59% |
+| Data Patterns | 22,874 | 93 | 22% | 40% | 27% | 26% |
+| Astra Microwave | 16,338 | 92 | 19% | 28% | 13% | 32% |
+| Paras Defence | 9,479 | 114 | 17% | 26% | 25% | 32% |
+| **Krishna Defence** | **1,915** | **50** | **31%** | **22%** | **57%** | **93%** |
+| **Median (peers only)** | 16,159 | **101** | 18% | 30% | 26% | 32% |
+
+Krishna trades at a ~50% P/E discount to the defence-tech peer group. Two forces explain the gap:
+
+- **Size / liquidity discount:** Krishna is 8-12x smaller than these peers. Small-caps trade at illiquidity discounts and cannot access institutional capital at the same terms. This is real and permanent unless MCap moves toward ₹10,000 Cr+.
+- **Business-mix discount:** These peers are aerospace electronics with 26-40% OPM. Krishna is steel/foundry with 22% OPM. Different economics — higher-tech, lower-materials-intensity businesses structurally deserve richer multiples.
+
+But Krishna outperforms on **capital productivity and growth**: ROCE 31% vs median 18%, 3Y sales CAGR 57% vs 26%, PAT CAGR 93% vs 32%. This is the migration case: if Krishna sustains 30%+ growth and the product mix continues shifting toward armour + weld consumables (higher margin), by FY28 it looks more like a defence-tech peer than a foundry — and the multiple gap should compress from 50% to 20-30%.
+
+### Lens 3 — Sector-wide (all 31 defence names) — TEMPERATURE CHECK
+
+Sector median P/E ~62 (per user's 31-company table). Krishna at 50 is below sector median but this is a pooled number that includes HAL/BEL at 30-40 and small-caps at 80-100 — informationally weak. Read only as: sector is elevated but not extreme; no sector-wide correction risk baked into the base case beyond normal small-cap volatility.
+
+### Conclusion from three lenses
+
+The primary decision doesn't change: **Krishna is fairly priced within its true peer cohort** (lens 1). The defence-tech lens (2) shows the ceiling if the business scales into that MCap band, but that's an FY28+ story, not an FY27 valuation input. The reverse DCF below is the actual valuation math — the peer tables are sanity checks that confirm CMP is not obviously mispriced either way.
+
+Reverse DCF at CMP shows the market has priced in management's forward guidance:
 
 | Terminal P/E in 2 yrs | Required PAT CAGR to justify CMP ₹1,281 |
 |---|---|
@@ -178,7 +214,7 @@ Krishna is a "priced-for-perfection" name at CMP ₹1,281. The right entry is a 
 1. **Read Q4 FY26 concall transcript in full** (path: `/Users/nitish/Downloads/KRISHNA_27052026160020_Transcript.pdf`) — check for management commentary on next capacity round timeline, aerospace revenue conversion, and Waveoptix/Taharabadkar milestones
 2. **Investigate promoter holding decline in detail** — was Mar-May 2024 drop (68.3% → 62.3%) from a specific preferential allotment / QIP / warrants? Check BSE disclosures for corporate actions in that period. If preferential to promoter-aligned entities at market, it's a soft dilution; if to unrelated parties, it's harder to explain.
 3. **AGM disclosures (July 15, 2026)** — 12.5% final dividend approved (Rs 1.25/share), 17 resolutions passed. Check the AGM notice for any RPT approvals or director-related transactions.
-4. **Compare to Zen Technologies + Data Patterns + Astra Microwave** — the closer defence-tech peer set (not HAL/BEL which are behemoths). Krishna at 50x P/E vs Zen 83x, Data Patterns 93x, Astra 85x — cheapest of the cohort but also smallest.
+4. ~~Compare to Zen Technologies + Data Patterns + Astra Microwave~~ — **DONE (2026-07-20).** See Lens 2 in Peer valuation check. Krishna at P/E 50 vs Zen 110 / Data Patterns 93 / Astra 92 / Paras 114 — 50% discount to defence-tech median 101, but explained by size (8-12x smaller MCap) and business mix (steel/foundry OPM 22% vs aerospace-electronics 26-40%). Migration path is real if FY28 delivery happens.
 
 ## Sources
 
@@ -192,3 +228,4 @@ Krishna is a "priced-for-perfection" name at CMP ₹1,281. The right entry is a 
 |---|---|
 | 2026-07-19 | Initial file. BUY (initiate 4-6%, add path to 10-12% core). Munger 17/25 (B). New addition to the 10x shortlist (was not in original 10 — user surfaced from Screener). Sourced from Q4/FY26 concall summary + Screener page. Full transcript at `/Users/nitish/Downloads/KRISHNA_27052026160020_Transcript.pdf` — reference for deeper reading. |
 | 2026-07-20 | Verdict recalibrated after user challenged valuation. Peer-set analysis (same ₹1,000-3,000 Cr MCap defence names) confirms trailing-multiple parity but reverse DCF shows CMP already prices mgmt-guided 30% growth + PE derate to 30. Asymmetry ratio at CMP is 1.67x, below framework's 2x threshold. Downgraded to **BUY AT ₹1,050-1,150** (primary) with optional 2-3% starter at CMP. Business quality and thesis unchanged; only entry discipline tightened. Munger score unchanged at 17/25. |
+| 2026-07-20 (rev 2) | Peer valuation check expanded to three lenses in response to methodology question: same-MCap (primary — controls for size/liquidity), same-business-model defence-tech (context — Zen/DP/Astra/Paras median P/E 101; Krishna's 50% discount explained by size + business mix), and sector-wide (temperature). Primary conclusion unchanged — CMP fairly priced in true peer cohort; BUY AT ₹1,050-1,150 stands. Fresh Screener data fetched for lens 2 (Zen 110, DP 93, Astra 92, Paras 114). |

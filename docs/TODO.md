@@ -1,5 +1,17 @@
 # Research System — TODO
-*Last updated: 2026-07-19*
+*Last updated: 2026-07-20*
+
+---
+
+## ✅ Completed — 2026-07-20 (rev 2) — KRISHNADEF peer-set framing expanded to 3 lenses
+
+- User challenged methodology: "should Krishna be compared with only similar market cap?" Answered by expanding the Peer valuation check section into an explicit 3-lens framework:
+  - **Lens 1 — Same-MCap (₹1,000-3,000 Cr defence)** = PRIMARY. Controls for size/liquidity. Krishna P/E 50 vs median 53 → fair. Kept from prior version.
+  - **Lens 2 — Same-business-model defence-tech** = CONTEXT. Fresh Screener data pulled for Zen Tech (P/E 110), Data Patterns (93), Astra Microwave (92), Paras Defence (114). Krishna at 50 trades at 50% discount to defence-tech median 101 — explained by (a) 8-12x smaller MCap → real illiquidity discount, (b) steel/foundry OPM 22% vs aerospace-electronics 26-40% → mix discount. Migration path: if Krishna sustains 30%+ growth and armour/weld consumables mix rises, by FY28 the multiple gap should compress toward 20-30%.
+  - **Lens 3 — Sector-wide (all 31 defence names)** = TEMPERATURE. Median ~62; Krishna at 50 below sector median but this pooled number is informationally weak. Read only as: sector elevated but not extreme.
+- Verdict unchanged: **BUY AT ₹1,050-1,150** stands (primary), 2-3% starter allowed at CMP. The primary decision is driven by lens 1; lens 2 is upside optionality if migration happens.
+- Also crossed off item 4 of "What to verify" (Zen/DP/Astra comparison) since it's now in the report body.
+- Committed and pushed.
 
 ---
 
