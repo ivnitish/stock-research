@@ -3,6 +3,18 @@
 
 ---
 
+## ✅ Completed — 2026-07-19 (Screener 10x shortlist + first two full deep-dives)
+
+- **Screener query analysis:** ran two screens — Base (420 names) + Base+PE<Industry PE (254 names). Excel workbook at `~/Downloads/screen_analysis.xlsx` with 20+ tabs: return stats, compare, market-cap buckets, industry medians, PE-gap AT ENTRY (rewound) vs snapshot, PB quartiles, 10x candidates ranked. Full write-up at `research/screener_10x_shortlist_2026-07-19.md`.
+- **Key methodological finding:** current-PE vs current-Industry-PE comparison is a snapshot tautology — winners look expensive, losers look cheap. Proper test requires rewound entry-point PE. Rewound quartiles show low-PE-at-entry beat high-PE-at-entry by ~12pts on 6m median; but PE-*relative-to-industry* at entry did NOT work cleanly. Practical answer: value discipline as per-name check on Screener 10y PE chart, not universe filter.
+- **Portfolio check:** none of 10 shortlist candidates overlap with existing 23-position book. Book still needs consolidation to 5-8 concentrated positions per standing rule.
+- **Deep-dive on SAHANA (Sahana System, SME):** wrote `research/SAHANA.md`. Verdict **AVOID (D · 8/25)**. Initial light-touch pass framed it as DEEP-DIVE candidate; full skill flipped verdict — governance flags (promoter abandoned Sharanam Infraproject 2021), business scope drift (IT + hardware trading + defence + agri), OPM compression from 40% → 30% as revenue went 14x (anti-operating-leverage), FCF −₹61 Cr / −₹6 Cr FY25/26, 1:5 bonus + main-board migration + promoter dilution 62.9% → 57.3% = classic SME pump signature. 106 employees generating ₹167 Cr = ₹1.57 Cr/employee is impossible for real IT services (trading pass-through). PDF at `output/pdf/SAHANA_2026-07-19.pdf`.
+- **Deep-dive on NEETUYOSHI (Neetu Yoshi, BSE SME 544434):** wrote `research/NEETUYOSHI.md`. Verdict **BUY small tranched (B− · 16/25)**. User's hypothesis "negative FCF is capex, not receivables" verified — 70% correct. FCF −₹49 Cr FY26 decomposes to ₹53 Cr fixed-asset capex (capacity doubled 4,493 → 8,087 MTPA) funded by ₹68 Cr equity warrants while debt actively falling 17 → 4 Cr. But CFO only ₹4 Cr vs PAT ₹25 Cr — the gap is working capital ballooning (debtor days 54 → 118, WC days 55 → 133) as they diversified from West Bengal-only. Real RDSO moat (27 certified products, 51 pipeline, RCF Kapurthala CCA valid to 2030, high-speed train bogies/couplers approval). Entry ₹150-165, initial 3-5% of book, add on FY27 Q1 result if debtor days <90 AND capacity utilization ≥80%. Kill if CFO <30% of PAT for two consecutive quarters. PDF at `output/pdf/NEETUYOSHI_2026-07-19.pdf`.
+- **Index updated:** NEETUYOSHI added to Grade B section (`data-action="buy"`), SAHANA added to Grade C section (`data-action="exit"`) per `.claude/rules/index-always.md`. Buy-candidates block refreshed.
+- **Still queued:** deep-dive on Ganesh Green Bharat (GGBL). Same shape concern as Sahana/Yoshi (rapid growth + margin compression + newly listed) but ₹2,210 Cr order book is a very different signal — worth running the full skill before dismissing.
+
+---
+
 ## ✅ Completed — 2026-07-19 (Telegram consolidation verified + collector wired)
 
 - **Fintwitter Weekly delivered properly for the first time:** GitHub issue #8 (full 17-pick report) + ONE short Telegram ping (4 lines: 17 picks, 4 new, Tier-1, issue link — no PDF, no chunks). Yesterday's noisy 2-chunk+PDF send at 18:32 was the OLD daily job racing the conversion (launchd 18:15 slot fired before the new plist landed) — last gasp, now impossible: old daily scripts deleted, plist is Saturday-only.
