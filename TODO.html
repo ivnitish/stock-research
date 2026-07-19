@@ -37,7 +37,29 @@ strong{color:#111827;}
 </style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
 <details id="toc" class="no-print"><summary>Jump to section</summary></details>
 <h1 id="research-system-todo">Research System — TODO</h1>
-<p><em>Last updated: 2026-07-18</em></p>
+<p><em>Last updated: 2026-07-19</em></p>
+
+<hr>
+
+<h2 id="completed-2026-07-19-telegram-consolidation-verified-collector-wired">✅ Completed — 2026-07-19 (Telegram consolidation verified + collector wired)</h2>
+
+<ul>
+<li><strong>Fintwitter Weekly delivered properly for the first time:</strong> GitHub issue #8 (full 17-pick report) + ONE short Telegram ping (4 lines: 17 picks, 4 new, Tier-1, issue link — no PDF, no chunks). Yesterday's noisy 2-chunk+PDF send at 18:32 was the OLD daily job racing the conversion (launchd 18:15 slot fired before the new plist landed) — last gasp, now impossible: old daily scripts deleted, plist is Saturday-only.</li>
+<li><strong>Zero-token input collector wired in:</strong> <code>scripts/collect_daily_inputs.py</code> (built 07-18, was left unwired) now runs in <code>daily_news_cron.sh</code> before the Claude step; cron prompt + skill Step 3 point at <code>data/daily_inputs/YYYY-MM-DD.md</code> with a max-3-fetch escape hatch. Buy-at alerts precomputed from bhavcopy (KALYANICASTTECH has no NSE bhav symbol — BSE SME; collector flags it, escape hatch covers it).</li>
+<li><strong>Remaining verification:</strong> Monday 08:42 organic daily-news run — first live "threads, taught" digest via the fixed .env-loading cron with pre-collected inputs. Digest format itself was already user-approved via real sends 07-18.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-18-evening-telegram-quality-iteration-one-thread-taught-stock-snapshots">✅ Completed — 2026-07-18 evening (Telegram quality iteration: "one thread, taught" + stock snapshots)</h2>
+
+<ul>
+<li><strong>User feedback:</strong> the theme digest still read like compressed headlines — "what am I learning here?" Wanted Feynman-style teaching + per-stock updates like the @StockResearchReport channel's Investment Snapshots (example: Jyoti CNC), triggered by our own research/news.</li>
+<li><strong>Daily digest format decided (3 live samples, user picked A):</strong> "one thread, taught" — each day teaches ONE macro thread end-to-end (fact → mechanism in plain words → portfolio consequence), 1-2 side lines for the rest, <1,400 chars. Approved reference: oil→rupee→CPI→RBI→smallcap-multiples chain (msg 107). Morning-news Step 8b rewritten.</li>
+<li><strong>Macro continuity:</strong> new <code>docs/MACRO_THREAD.md</code> — running dated narrative, newest first; skill reads last 2-3 entries before writing themes (continuing/reversing/new), prepends today's. Seeded with real 2026-07-17 + 2026-07-18 entries. Continuing threads teach the next layer, never re-explain verbatim.</li>
+<li><strong>New <code>stock-snapshot</code> skill:</strong> per-stock Telegram Investment Snapshot composed from <code>research/SYMBOL.md</code> (verdict + price ladder, why, financials, drivers, risks, takeaway, link to rendered note). Fires on: new research, material research update, hard news on a covered stock, or "snapshot SYMBOL". Sample sent: SBIAMC (msg 105). Morning-news 8c: max 2 news-triggered snapshots/day; quiet day = digest only. Cron prompt updated to match.</li>
+<li><strong>Live confirmation: Monday 2026-07-20 08:42 IST</strong> — first organic "one thread, taught" digest; also SBIAMC listing day (snapshot candidate if listing is material).</li>
+</ul>
 
 <hr>
 
