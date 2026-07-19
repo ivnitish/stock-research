@@ -1,21 +1,37 @@
 # NEETUYOSHI — Neetu Yoshi Ltd (BSE SME: 544434)
 
-**Verdict: BUY (small initial, tranched)** | **Date: 2026-07-19** | **CMP: ₹161** | **MCap: ₹624 Cr** | **PE: 25.0**
+**Verdict: BUY (initiate 5-7%, add path to 12-15% core)** | **Date: 2026-07-19** | **CMP: ₹161** | **MCap: ₹624 Cr** | **PE: 25.0**
 
-Real capex + real regulatory moat in railway castings. Stock at 52-week high, working capital hasn't normalized yet — enter small, add on delivery.
+Real capex commissioning + explicit FY27 guidance ₹210-220 Cr revenue at 25% PAT margin (₹52-55 Cr PAT) + RDSO approval for new plant expected July 2026. Jun 2026 concall closed most of the working-capital concern that held back the initial verdict. Upgraded from small-initial to standard BUY.
 
 ## Summary Verdict
 
-Railway foundry with RDSO certification for 27 products (51 more in pipeline). Doubled installed capacity in FY26 (4,493 → 8,087 MTPA), funded by ₹68 Cr equity raise while actively paying down debt (17 → 4 Cr). OPM 30-31% real manufacturing margin. The negative FCF of −₹49 Cr in FY26 is largely explained by ₹53 Cr fixed-asset capex — not a Sahana-style receivables mirage. But debtor days doubled (54 → 118) and WC days doubled (55 → 133) as they diversified away from West Bengal — that piece needs to normalize by FY27 Q2 or the growth eats cash.
+Railway foundry with 25-27 RDSO-certified products (15-20 more in pipeline). Doubled installed capacity in FY26 (4,493 → 8,087 MTPA); new plant COMMISSIONED and first invoices in Jun 2026. Old plant (products <100 kg) runs at ~₹110 Cr revenue capacity, new plant (up to 1 ton) at ~₹200 Cr peak. Management guides FY27 ₹210-220 Cr revenue (114% growth) at 25% PAT margin. FY28 target ₹350 Cr including track business (200 new + 110 old + 60-70 track).
 
-## Multi-Bagger Math
+The FY26 FCF of −₹49 Cr was 70% real capex (funded by ₹68 Cr equity warrants) and 30% Railway-payment-cycle receivables (Feb-Mar budget exhaustion at customer). By 15 April, half the Mar-31 receivables were collected — debtors down from ~₹32 Cr to ~₹20 Cr. That's the piece the initial verdict couldn't confirm.
 
-- Current MCap: ₹624 Cr | Sales: ₹98 Cr | PAT: ₹25 Cr | EPS: ₹6.45
-- Installed capacity now 8,087 MTPA at 70% utilization — headroom to grow sales ~40% at same asset base before new capex
-- New Kanpur plant (₹51 Cr raise, RDSO-approved for high-speed train bogies + couplers) targets 250 Cr/year turnover once commissioned
-- **Base case (FY28-29): Revenue ₹250-300 Cr, PAT ₹60-75 Cr at 25% margin. At PE 25 → MCap ₹1,500-1,875 Cr = 2.4-3x from here.**
-- **Bull case: Kanpur delivers at 30% OPM + Vande Bharat/high-speed rail orders scale, sales ₹400-500 Cr by FY30, PAT ₹100-125 Cr. PE re-rate to 30-35 → MCap ₹3,000-4,000 Cr = 5-6x.**
-- **10x case (~₹6,000 Cr MCap) requires:** sales to reach ₹700-800 Cr and market to award 30x PE — plausible only if Vande Bharat program scales to multiple orders and Yoshi becomes a duopoly supplier for bogies/couplers. Low probability but non-zero.
+Two additional moats confirmed in the Jun concall: (1) 15%+2.5% cess tax rate is a **lifetime scheme with no sunset clause** — a permanent 7.5-percentage-point earnings advantage vs peers; (2) Railway pricing has a Price Variation Clause (PVC) that passes raw material inflation through, protecting margins on that channel.
+
+The remaining watch item is the ₹29 Cr warrants raise for track-business working capital — track business has "huge margins" but needs 2 months of ~₹65-70/kg rail inventory (vs ₹37-39/kg scrap for components). Track scales ₹20 Cr → ₹60-70 Cr over 2 years. This is the reason FY27 WC ratios will remain elevated even as receivables normalize — priced-in, not a surprise.
+
+## Multi-Bagger Math (revised post Jun 2026 concall)
+
+Management now gives explicit FY27 guidance and a rough FY28 target. Ground the math there.
+
+- **Current:** MCap ₹624 Cr | FY26 sales ₹101 Cr | PAT ₹25 Cr | EPS ₹6.45
+- **FY27 guided (mgmt):** Revenue ₹210-220 Cr (~115% growth), PAT margin 25% → PAT ₹52-55 Cr
+- **FY28 target (mgmt):** Revenue ~₹350 Cr (₹200 new plant + ₹110 old + ₹60-70 track), PAT ~₹85-90 Cr at 25%
+
+| Scenario | Timeline | Revenue | PAT | PE | MCap | Return |
+|---|---|---|---|---|---|---|
+| Bear (guidance halved, WC flare) | FY28 | ₹200 Cr | ₹35 Cr @18% | 18 | ₹630 Cr | flat |
+| Base (guidance delivered) | FY28 | ₹350 Cr | ₹85 Cr @25% | 25 | ₹2,125 Cr | **3.4x** |
+| Bull (guidance + track scales + wagon cycle turns) | FY30 | ₹500 Cr | ₹125 Cr @25% | 30 | ₹3,750 Cr | **6x** |
+| **10x case** | FY32 | ₹800-1,000 Cr | ₹200-250 Cr | 30 | ₹6,000-7,500 Cr | **10x** |
+
+**What the 10x case requires:** Kanpur plant utilizing at 90%+ with new capex funded from CFO not warrants, track business hitting ₹150+ Cr (vs ₹60-70 Cr guided FY28), and Neetu Yoshi becoming a top-3 named supplier when the 1 lakh wagon order rolls (currently at mgmt-cited "3 years down the line" — target 200 wagons/year by FY29). Bogie pricing recovery from ₹2.70-2.80 lakh back toward ₹3.25 lakh as wagon cycle normalizes. Low probability but math is clean.
+
+Ground the buy on **base case 3.4x in 18-24 months**, not the 10x moonshot.
 
 ## Key Metrics
 
@@ -92,17 +108,19 @@ Specific bear triggers:
 - Warrants converted below FMV
 - Delay in Kanpur commissioning beyond H2 FY27
 
-## Entry / Add / Trim / Kill
+## Entry / Add / Trim / Kill (revised post Jun 2026 concall)
 
-Current price ₹161, at 52-week high (down 0.25% from high, up 126% from 52w low).
+Current ₹161, at 52-week high. Guidance ₹210-220 Cr FY27 = market cap will re-rate on delivery. Concall closed the "receivables mirage" concern that held back the original small entry.
 
 | Action | Price / Trigger | Size |
 |---|---|---|
-| **Initial BUY** | ₹150-165 (current range) | 3-5% of book |
-| **Add tranche 1** | FY27 Q1 result (Aug-Sep 2026) if debtor days <90 AND capacity utilization ≥80% | Take to 8-10% |
-| **Add to core** | FY27 H1 (Nov 2026) showing OPM ≥28% on ₹150+ Cr H1 revenue with WC normalized | Take to 15% |
-| **Trim** | Debtor days >130 on FY27 Q1, OR OPM <25%, OR RPT with promoter entities disclosed | Cut to 5% |
-| **Kill** | CFO <30% of PAT for two consecutive quarters, OR promoter dilution below 65%, OR governance flag | Full exit |
+| **Initial BUY** | ₹150-175 (current range) | **5-7% of book** (upgraded from 3-5%) |
+| **Add tranche 1** | FY27 Q1 (Aug 2026) result showing revenue ≥₹40 Cr AND RDSO approval for new plant received (mgmt expects July 2026) | Take to 10-12% |
+| **Add to core** | FY27 H1 (Nov 2026) showing revenue ≥₹90 Cr on the guided ₹210-220 Cr FY run-rate AND PAT margin ≥22% | Take to **15%** |
+| **Trim** | Bogie pricing falls below ₹2.50 lakh (further wagon-cycle weakness), OR OPM <22% for two quarters, OR RPT with promoter entities disclosed | Cut to 5% |
+| **Kill** | FY27 revenue tracking below ₹150 Cr by H1, OR promoter dilution below 65%, OR any governance flag, OR track business cash burn exceeds ₹40 Cr with no receivables offset | Full exit |
+
+**Position sizing rationale for upgrade:** Original 3-5% reflected uncertainty about whether the FCF gap was capex or receivables — mgmt has now decomposed it cleanly. FY27 guidance is explicit and management staked personal reputation ("committed to our investors") on it. Real PAT margin 25% is protected by the 17.5% tax rate (permanent) + PVC on Railway sales. This is a live BUY, not a "prove it" entry.
 
 ## What to verify before entering
 
@@ -133,8 +151,45 @@ Current price ₹161, at 52-week high (down 0.25% from high, up 126% from 52w lo
 - [₹27.48 Cr fundraise + wagon order — ANI](https://aninews.in/news/business/neetu-yoshi-raises-83772748-cr-for-expansion-secures-83771476-cr-wagon-manufacturing-order20260508170416/)
 - [Rail Coach Factory Kapurthala CCA approval — EquityBulls](https://www.equitybulls.com/category.php?id=371756)
 
+## Research Log
+
+### 2026-06-XX Concall (management call, post-FY26 results)
+
+**FY26 audited numbers (Jun concall reconfirms):** Total income ₹101 Cr (+44% YoY), PAT ₹25 Cr (+53% YoY), cash flows "positive". Management: "committed to our investors" — treated as a personal reputation commitment on delivery.
+
+**FY27 guidance (explicit):** Revenue ₹210-220 Cr, PAT margin 25%. That's ~115% revenue growth and PAT roughly doubling from ₹25 Cr to ₹52-55 Cr. Mix expected ~₹110 Cr from old plant + ~₹100 Cr from new plant. H2-weighted because plant just started in Jun 2026 ("we lost two to three months").
+
+**New plant commissioned Jun 2026** — commercial commencement and first invoices in June. Old plant handles products <100 kg; new plant handles up to 1 ton. Two different revenue ceilings: old ₹130-140 Cr peak, new ₹200 Cr peak. FY28 peak potential ₹350 Cr (200 new + 110 old + 60-70 track). This is the physical capacity story — capex is done, revenue converts on utilization.
+
+**RDSO approval for new plant expected July 2026.** "In process" per management, expected within a month of the call. Until approval, plant can still run for "other various lines" but Railway direct-supply and tender bidding unlocks "additional margins" after approval. This is the near-term hard catalyst.
+
+**Bogie facility operational June 2026.** RDSO approval for bogies expected imminently. Wagon manufacturing pushed out to 3 years ("we will be able to do 200 wagon in 3 years down the line"). Big cycle catalyst being tracked: the 1 lakh wagon Railway order (repeated multiple times in the call).
+
+**Track business scaling:** current ₹20 Cr → target ₹60-70 Cr in 2 years (peak ₹70-80 Cr). Track uses rail input at ₹65-70/kg with 2 months inventory vs component business scrap input at ₹37-39/kg — that's why it's working-capital intensive. But "huge margins" per management. This is what the ₹29 Cr warrants raise funded.
+
+**Warrants raise ₹29 Cr for track WC:** This is the flag from earlier reading — mgmt earlier suggested no fund-raise, then issued warrants. Rationale given: keeping debt-free BS to hold cost of capital down. "Main target is to reduce the cost." Promoters participated to avoid promoter dilution (minority dilution was acknowledged). Utilization horizon 1.5-2 years. Not ideal messaging but the operational rationale (WC-heavy track segment funded by equity to preserve debt-free BS) is coherent.
+
+**Receivables story fully explained.** Debtor days spike from 54 → 118 was Railway payment cycle (Feb-Mar budget exhaustion → April refresh). By 15 April, half the March receivables were collected. Debtors ₹32 Cr Mar-31 → ~₹20 Cr in June. Not a structural receivables blowup. This closes the biggest concern in the original file — the kill trigger on "CFO <30% of PAT for two quarters" needs to be re-underwritten because the pattern is cyclical, not degradation.
+
+**Tax rate 15% + 2.5% cess = 17.5% for lifetime, no sunset clause.** Central government scheme for qualifying incorporations/production start. This is a permanent structural advantage — competitors at 25% mean Neetu Yoshi carries a 7.5 percentage-point pre-tax cost advantage forever. Real moat that Screener/CSV missed.
+
+**Order book ₹140-150 Cr** (vs Screener's ₹105 Cr — updated during call). Execution largely within FY27. Mix: Track 20-30%, Coach ~40%, Wagon balance (bogies + components). Sales channel: 40% direct government, 60% via wagon/rail ecosystem — customers named include Jupiter Wagons, Titagarh.
+
+**Pricing mechanics.** Railway pricing has a PVC (Price Variation Clause) — raw material inflation passes through in revised bills. Private customer pricing passes via chain understanding. Bogie pricing has softened ₹3.25 lakh → ₹2.70-2.80 lakh due to wagon-cycle weakness; recovery expected on the 1 lakh wagon order.
+
+**Approval pipeline as moat.** 15-20 more products in RDSO pipeline (upgradations included). Applying to ICF, MCF, RCF beyond wagons — now targeting locomotives, coaches, track. Competitors named: Frontera, Roys Steel, Atul Engineering (all unlisted). Only "4-5 to 7 active clients" (qualified suppliers) per product — approval process is a real bottleneck for new entrants.
+
+**Exports:** currently cannot meet US/UK quality bars. Targeting FY28 start. Not a near-term thesis driver.
+
+**Next capex themes:** building toward complete Railway assembly line — spring plant, rubber plant, broader integration. Funded via internal accruals. This is post-FY28.
+
+### Kill-trigger revision (post concall)
+
+The original file had "CFO <30% of PAT for two consecutive quarters" as a kill trigger. The Feb-Mar Railway receivables cycle means this triggers every FY end unless you look through the seasonality. Revised kill triggers in the Entry/Add/Trim table above focus on structural signals: revenue tracking materially below guidance, promoter action, or track business cash burn without a receivables offset.
+
 ## Update History
 
 | Date | Change |
 |---|---|
-| 2026-07-19 | Initial file. BUY (small initial, tranched). Munger 16/25 (C+/B-). Verified user's capex hypothesis (correct on FCF, but WC deterioration is a separate signal to watch). |
+| 2026-07-19 (initial) | Initial file. BUY (small initial, 3-5%). Munger 16/25. Verified user's capex hypothesis (correct on FCF, but WC deterioration was flagged as separate signal to watch). |
+| 2026-07-19 (revised) | Upgraded to BUY (5-7% initial, add path to 15% core) after reading Jun 2026 concall. Receivables cycle explained (Railway seasonality, half collected by April), FY27 guidance ₹210-220 Cr made explicit, new plant commissioned, 17.5% lifetime tax rate confirmed as permanent moat. Kill triggers rewritten to focus on structural signals. |

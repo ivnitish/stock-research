@@ -3,6 +3,23 @@
 
 ---
 
+## ✅ Completed — 2026-07-19 (evening add-on: KRISHNADEF deep-dive + NEETUYOSHI concall upgrade)
+
+- **KRISHNADEF (new file):** Krishna Defence & Allied Industries — naval indigenization play (bulb bars, weld consumables, armour steel, ballast bricks) with regulatory moat (Naval Approved Source, AS9100D aerospace, IRS commercial shipbuilding). FY26 print strong: revenue +29%, PAT +86%, OPM 22% up from 15% FY24, FCF flipped +₹66 Cr from -₹23 Cr FY25, WC days halved 110→53. Verdict **BUY 4-6% initial, add to 10-12% core**; Munger **17/25 = B**. P/E 50 rich absolute but forward P/E ~30 on FY28 base case, ~20% discount to defence peer median (62). Base case +46% in 18-24 months, bull 3x by FY29, 10x case 6-7 years. Main concern: promoter dilution 73.4% → 60.0% over 3 years (bulk in Mar-May 2024 during buildout). Kill trigger set at promoter <55%. PDF at `output/pdf/KRISHNADEF_2026-07-19.pdf`. Concall PDF at `~/Downloads/KRISHNA_27052026160020_Transcript.pdf`.
+- **NEETUYOSHI upgraded** from BUY small (3-5%) to **BUY 5-7% initial, add path to 15% core** after reading Jun 2026 concall. Key updates:
+  - FY27 guidance **explicit**: ₹210-220 Cr revenue (~115% growth) @ 25% PAT margin
+  - FY28 target ₹350 Cr (200 new + 110 old + 60-70 track)
+  - New plant commissioned Jun 2026; RDSO approval for new plant expected July 2026 (imminent hard catalyst)
+  - **17.5% lifetime tax rate confirmed** (15% + 2.5% cess, "no sunset clause") — permanent 7.5pp structural earnings advantage over 25% peers
+  - Receivables spike Feb-Mar 2026 was Railway budget cycle — half collected by 15 April, debtors ₹32 Cr → ~₹20 Cr by June
+  - ₹29 Cr warrants raise explained (track WC-intensive, promoters participated to avoid dilution)
+  - Order book updated ₹140-150 Cr (vs Screener's ₹105 Cr)
+  - Kill triggers rewritten to remove seasonal CFO-based trigger; now focused on structural signals (revenue tracking to guidance, promoter action, track cash-burn without receivables offset)
+- **Index updated:** KRISHNADEF added to Grade B section, NEETUYOSHI row updated with concall-informed action tag. Buy-candidates block refreshed.
+- **Still queued:** Ganesh Green Bharat deep-dive.
+
+---
+
 ## ✅ Completed — 2026-07-19 (Screener 10x shortlist + first two full deep-dives)
 
 - **Screener query analysis:** ran two screens — Base (420 names) + Base+PE<Industry PE (254 names). Excel workbook at `~/Downloads/screen_analysis.xlsx` with 20+ tabs: return stats, compare, market-cap buckets, industry medians, PE-gap AT ENTRY (rewound) vs snapshot, PB quartiles, 10x candidates ranked. Full write-up at `research/screener_10x_shortlist_2026-07-19.md`.
