@@ -1,8 +1,12 @@
 # KRISHNADEF — Krishna Defence & Allied Industries Ltd
 
-**Verdict: BUY (initiate 4-6%, add path to 10-12%)** | **Date: 2026-07-19** | **CMP: ₹1,281** | **MCap: ₹1,915 Cr** | **PE: 50.3**
+**Verdict: BUY AT ₹1,050-1,150 (standing price alert); optional 2-3% starter at CMP** | **Date: 2026-07-20 (revised)** | **CMP: ₹1,281** | **MCap: ₹1,915 Cr** | **PE: 50.3**
 
-Real defence-indigenization moat (Naval-approved source, Russia-derived certifications for weld consumables, AS9100D aerospace, IRS commercial shipbuilding) with bulb bar capacity doubled Apr 2025 and margins already inflecting (OPM 14% → 22% over FY24-26). Management guides 30%+ growth with three-year visibility, explicitly stating that guidance does NOT depend on developmental programs (AUV/smart weapons). Not cheap on P/E 50 but forward P/E ~30 on FY28 base case, and the P/B 10 is defensible against Data Patterns (13), Bharat Dynamics (11), Astra Microwave (12).
+Real defence-indigenization moat (Naval-approved source, Russia-derived certifications, AS9100D aerospace, IRS commercial shipbuilding) with bulb bar capacity doubled Apr 2025 and margins already inflecting (OPM 14% → 22% over FY24-26). Management guides 30%+ growth with three-year visibility, explicitly stating guidance does NOT depend on developmental programs (AUV/smart weapons). **But at CMP ₹1,281 the market has already priced in both the 30% growth AND a P/E derate to 30 — the asymmetry ratio is only 1.67x, below the 2x framework threshold. The right price for a full initial position is ₹1,050-1,150 where the ratio clears 4-7x. See "Peer valuation check" section for the math.**
+
+## Revision note (2026-07-20)
+
+Initial verdict (2026-07-19) was BUY 4-6% at CMP. Peer table review the next day showed same-MCap defence cohort at median P/E 53 with 58% median trailing growth — Krishna at P/E 50 with 73% growth is fair, not cheap. Reverse-DCF check confirmed the market is pricing exactly the mgmt-guided 30% CAGR + PE derate to 30. Framework requires 2x asymmetry for a live BUY; at ₹1,281 the ratio is 1.67x. Downgraded to BUY AT ₹1,050-1,150 (primary) with a 2-3% starter allowed at CMP for those needing theme exposure. Analysis and conviction on the business are unchanged; the recalibration is entry-discipline only.
 
 ## Summary Verdict
 
@@ -118,20 +122,56 @@ Four triggers active. Combined with capacity headroom to ₹400-500 Cr, that's t
 
 **Constraints:** Domestic-only sales (steel products classified, no exports permitted). Raw material inflation acknowledged (fuel, steel, conversion cost) but impact "not substantial."
 
-## Entry / Add / Trim / Kill
+## Peer valuation check (added 2026-07-20)
 
-Current ₹1,281, down 8.5% from 52w high ₹1,400. This is not a "stock at low" entry — it's a "quality growth compounder priced fairly on forward earnings" entry.
+Same-MCap defence cohort (₹1,000-3,000 Cr) — the true peer set, not the ₹300K Cr behemoths:
+
+| Peer | MCap | P/E | NPM | Trailing PGr |
+|---|---|---|---|---|
+| Sika Interplant | 2,392 | 66 | 17% | 46% |
+| CFF Fluid | 1,925 | 49 | 19% | 65% |
+| Shree Refrigerat | 1,229 | 57 | 14% | 58% |
+| **Krishna Defence** | **1,915** | **50** | **16%** | **73%** |
+| **Median** | | **53** | **17%** | **58%** |
+
+Krishna is fair on trailing multiples. But management's forward guidance is 30% (deceleration from 73%), and reverse DCF at CMP shows the market has already priced this in:
+
+| Terminal P/E in 2 yrs | Required PAT CAGR to justify CMP ₹1,281 |
+|---|---|
+| 30 (fully derated) | **29.5%** — matches mgmt guidance exactly |
+| 35 | 19.9% |
+| 40 | 12.1% |
+
+Fair-value grid on 2-year-forward FY28 PAT:
+
+| Growth case | FY28 PAT | @ PE 30 | @ PE 40 | @ PE 50 |
+|---|---|---|---|---|
+| 15% (bear) | ₹50 Cr | ₹1,013 | ₹1,351 | ₹1,688 |
+| 20% (mild) | ₹55 Cr | ₹1,103 | ₹1,471 | ₹1,838 |
+| **30% (mgmt base)** | **₹64 Cr** | **₹1,294** | **₹1,726** | **₹2,157** |
+| 40% (bull) | ₹75 Cr | ₹1,501 | ₹2,002 | ₹2,502 |
+
+**Asymmetry at CMP ₹1,281:** upside if right (30% growth, PE 40 held) +35%; downside if wrong (15% growth, PE 30) -21%; ratio **1.67x**. Framework requires >2x for a live BUY. Fails.
+
+**Asymmetry at ₹1,100:** upside +57%, downside -8%, ratio **7x**. Clean BUY.
+**Asymmetry at ₹1,150:** upside +50%, downside -12%, ratio **4x**. Clean BUY.
+
+## Entry / Add / Trim / Kill (revised 2026-07-20)
+
+Krishna is a "priced-for-perfection" name at CMP ₹1,281. The right entry is a standing price alert at ₹1,050-1,150 where the asymmetry math actually works. Optional starter at CMP allowed only for those needing immediate theme exposure.
 
 | Action | Price / Trigger | Size |
 |---|---|---|
-| **Initial BUY** | ₹1,200-1,320 (current range) | **4-6% of book** |
-| **Add tranche 1** | Q1 FY27 result (Aug 2026) showing revenue ≥₹60 Cr AND OPM ≥22% AND tender pipeline conversion visible in order book | Take to 8-10% |
-| **Add to core** | H1 FY27 tracking to ₹150 Cr+ revenue at 22%+ OPM — validates FY27 ₹400-450 Cr trajectory | Take to **10-12%** (not 15% — valuation ceiling on B-graded name) |
-| **Add on dip** | ₹1,050-1,150 on broader market volatility with fundamentals intact | Additional 2-3% |
-| **Trim** | Above ₹1,700 (bull case entry point) OR promoter holding falls below 57% | Cut to 5% |
-| **Kill** | Promoter holding <55%, OR OPM drops below 18% for 2 consecutive quarters, OR RPT with promoter entities disclosed, OR any of the strategic stake affiliates (Conceptia, Waveoptix, VABO, Taharabadkar) reports material governance issue | Full exit |
+| **Optional starter** | ₹1,200-1,320 (current) — only if book has no defence exposure yet | Max 2-3% |
+| **PRIMARY BUY (standing alert)** | **₹1,050-1,150** | Take to 5-7% initial |
+| **Add tranche 1** | Q1 FY27 result (Aug 2026) showing revenue ≥₹60 Cr AND OPM ≥22% AND tender pipeline conversion visible in order book AT PRICE ≤₹1,300 | Take to 8-10% |
+| **Add to core** | H1 FY27 tracking to ₹150 Cr+ revenue at 22%+ OPM AT PRICE ≤₹1,500 | Take to **10-12%** |
+| **Trim** | Above ₹1,750 (bull-case fair value) OR promoter holding <57% | Cut to 4-5% |
+| **Kill** | Promoter holding <55%, OR OPM drops below 18% for 2 consecutive quarters, OR RPT with promoter entities disclosed, OR strategic stake affiliate reports material governance issue | Full exit |
 
-**Rationale for smaller position vs Neetu Yoshi** despite better financials: Krishna is at richer valuation (P/E 50 vs Yoshi 25), so downside if growth pauses is deeper. Yoshi's 17.5% lifetime tax rate is a permanent structural moat that Krishna doesn't have. Both belong in the book but Yoshi carries more conviction weight.
+**Why price-conditional adds:** the biggest error on a "priced-for-perfection" B-name is chasing on delivery. If Q1 FY27 delivers and the stock is already at ₹1,600 before you add, the asymmetry is worse than not adding. Only add on delivery *and* price staying below the trigger.
+
+**Rationale for smaller position vs Neetu Yoshi** despite better financials: Krishna at CMP is at richer valuation with thinner MoS, so the initial position size is 2-3% starter (with primary buy pending price). Yoshi's 17.5% lifetime tax rate is a permanent structural moat that Krishna doesn't have — Yoshi keeps the 15% core status even after this recalibration. Both belong in the book but Yoshi is the higher-conviction near-term bet.
 
 ## What to verify before entering
 
@@ -151,3 +191,4 @@ Current ₹1,281, down 8.5% from 52w high ₹1,400. This is not a "stock at low"
 | Date | Change |
 |---|---|
 | 2026-07-19 | Initial file. BUY (initiate 4-6%, add path to 10-12% core). Munger 17/25 (B). New addition to the 10x shortlist (was not in original 10 — user surfaced from Screener). Sourced from Q4/FY26 concall summary + Screener page. Full transcript at `/Users/nitish/Downloads/KRISHNA_27052026160020_Transcript.pdf` — reference for deeper reading. |
+| 2026-07-20 | Verdict recalibrated after user challenged valuation. Peer-set analysis (same ₹1,000-3,000 Cr MCap defence names) confirms trailing-multiple parity but reverse DCF shows CMP already prices mgmt-guided 30% growth + PE derate to 30. Asymmetry ratio at CMP is 1.67x, below framework's 2x threshold. Downgraded to **BUY AT ₹1,050-1,150** (primary) with optional 2-3% starter at CMP. Business quality and thesis unchanged; only entry discipline tightened. Munger score unchanged at 17/25. |

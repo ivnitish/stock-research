@@ -3,6 +3,14 @@
 
 ---
 
+## ✅ Completed — 2026-07-20 (KRISHNADEF valuation recalibration + NEETU vs KALYANI comparison)
+
+- **KRISHNADEF verdict recalibrated** after user challenged valuation. Peer-set table (same ₹1,000-3,000 Cr MCap defence names — Sika Interplant, CFF Fluid, Shree Refrigerat, Krishna) shows trailing-multiple parity (median P/E 53, Krishna 50 with slightly better growth). But **reverse DCF** at CMP ₹1,281 shows market already prices in mgmt-guided 30% growth + PE derate to 30 (implied CAGR = 29.5% vs mgmt 30%). Fair-value grid: at 30% growth × PE 40 → FY28 target ₹1,726 (+35%); at 15% growth × PE 30 → ₹1,013 (-21%). **Asymmetry ratio 1.67x**, below framework 2x threshold. Downgraded from "BUY 4-6%" to **"BUY AT ₹1,050-1,150"** (primary) with optional 2-3% starter at CMP for theme exposure. Business quality and thesis unchanged; recalibration is entry-discipline only. Index row action tag changed to "watch" with buy-at price. See `research/KRISHNADEF.md` "Peer valuation check" section for the math.
+- **COMPARE_NEETUYOSHI_vs_KALYANICASTTECH.md** written. Both are BSE SME railway-theme names but opposite risk profiles: Yoshi = pure-play foundry with 25% PAT margin (17.5% lifetime tax), FY27 guide explicit ₹210-220 Cr, capex done. Kalyani = vertically integrated logistics vision (containers + wagons + terminal + foundry), 10-12% structural OPM, ₹4,000 Cr in 7-8 years, wagon capex ₹170-200 Cr still under construction. **Recommend: deploy in Yoshi at CMP ₹161; wait for Kalyani at ₹430-450** (Apr 2026 file was ₹642 — needs price re-verification). Portfolio concentration flag: KERNEX + Yoshi + Kalyani = 25-30% railway theme; combined BSE SME <15% for liquidity budget.
+- **Still queued:** Ganesh Green Bharat deep-dive.
+
+---
+
 ## ✅ Completed — 2026-07-19 (evening add-on: KRISHNADEF deep-dive + NEETUYOSHI concall upgrade)
 
 - **KRISHNADEF (new file):** Krishna Defence & Allied Industries — naval indigenization play (bulb bars, weld consumables, armour steel, ballast bricks) with regulatory moat (Naval Approved Source, AS9100D aerospace, IRS commercial shipbuilding). FY26 print strong: revenue +29%, PAT +86%, OPM 22% up from 15% FY24, FCF flipped +₹66 Cr from -₹23 Cr FY25, WC days halved 110→53. Verdict **BUY 4-6% initial, add to 10-12% core**; Munger **17/25 = B**. P/E 50 rich absolute but forward P/E ~30 on FY28 base case, ~20% discount to defence peer median (62). Base case +46% in 18-24 months, bull 3x by FY29, 10x case 6-7 years. Main concern: promoter dilution 73.4% → 60.0% over 3 years (bulk in Mar-May 2024 during buildout). Kill trigger set at promoter <55%. PDF at `output/pdf/KRISHNADEF_2026-07-19.pdf`. Concall PDF at `~/Downloads/KRISHNA_27052026160020_Transcript.pdf`.
