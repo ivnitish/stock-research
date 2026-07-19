@@ -1,5 +1,13 @@
 # Research System — TODO
-*Last updated: 2026-07-18*
+*Last updated: 2026-07-19*
+
+---
+
+## ✅ Completed — 2026-07-19 (Telegram consolidation verified + collector wired)
+
+- **Fintwitter Weekly delivered properly for the first time:** GitHub issue #8 (full 17-pick report) + ONE short Telegram ping (4 lines: 17 picks, 4 new, Tier-1, issue link — no PDF, no chunks). Yesterday's noisy 2-chunk+PDF send at 18:32 was the OLD daily job racing the conversion (launchd 18:15 slot fired before the new plist landed) — last gasp, now impossible: old daily scripts deleted, plist is Saturday-only.
+- **Zero-token input collector wired in:** `scripts/collect_daily_inputs.py` (built 07-18, was left unwired) now runs in `daily_news_cron.sh` before the Claude step; cron prompt + skill Step 3 point at `data/daily_inputs/YYYY-MM-DD.md` with a max-3-fetch escape hatch. Buy-at alerts precomputed from bhavcopy (KALYANICASTTECH has no NSE bhav symbol — BSE SME; collector flags it, escape hatch covers it).
+- **Remaining verification:** Monday 08:42 organic daily-news run — first live "threads, taught" digest via the fixed .env-loading cron with pre-collected inputs. Digest format itself was already user-approved via real sends 07-18.
 
 ---
 
