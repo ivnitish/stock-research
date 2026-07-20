@@ -110,15 +110,15 @@ def build() -> str:
         name = html_mod.escape(h["symbol"])
         tr.append(f"""      <tr onclick="location.href='{name}.html'">
         <td data-s="{name}"><b>{name}</b></td>
-        <td class="num" data-s="{h['qty']}">{h['qty']:,.0f}</td>
-        <td class="num" data-s="{h['avg']}">₹{h['avg']:,.2f}</td>
-        <td class="num" data-s="{h['cmp'] or -1}" style="font-weight:600">{cmp_s}</td>
-        <td class="num" data-s="{h['invested']}">{fmt_k(h['invested'])}</td>
-        <td class="num" data-s="{h['current'] or -1}" style="font-weight:600">{cur_s}</td>
-        <td class="num" data-s="{h['pnl'] if h['pnl'] is not None else -1e12}" style="font-weight:600;color:{pcol}">{pnl_s}</td>
-        <td class="num" data-s="{pnlp if pnlp is not None else -1e9}" style="font-weight:600;color:{pcol}">{pnlp_s}</td>
-        <td class="num" data-s="{wt}">{wt:.1f}%</td>
-        <td data-s="{h['action']}" style="font-weight:700;color:{h['acolor']}">{h['action']}</td>
+        <td class="num" data-label="Qty" data-s="{h['qty']}">{h['qty']:,.0f}</td>
+        <td class="num" data-label="Avg" data-s="{h['avg']}">₹{h['avg']:,.2f}</td>
+        <td class="num" data-label="CMP" data-s="{h['cmp'] or -1}" style="font-weight:600">{cmp_s}</td>
+        <td class="num" data-label="Invested" data-s="{h['invested']}">{fmt_k(h['invested'])}</td>
+        <td class="num" data-label="Current" data-s="{h['current'] or -1}" style="font-weight:600">{cur_s}</td>
+        <td class="num" data-label="P&amp;L" data-s="{h['pnl'] if h['pnl'] is not None else -1e12}" style="font-weight:600;color:{pcol}">{pnl_s}</td>
+        <td class="num" data-label="P&amp;L %" data-s="{pnlp if pnlp is not None else -1e9}" style="font-weight:600;color:{pcol}">{pnlp_s}</td>
+        <td class="num" data-label="Weight" data-s="{wt}">{wt:.1f}%</td>
+        <td data-label="Action" data-s="{h['action']}" style="font-weight:700;color:{h['acolor']}">{h['action']}</td>
       </tr>""")
     rows_html = "\n".join(tr)
 
@@ -158,6 +158,27 @@ def build() -> str:
   tbody tr:hover {{ background: #f8fafc; }}
   .table-wrap {{ overflow-x: auto; }}
   .footer {{ color: #94a3b8; font-size: 0.74rem; margin: 22px 0; line-height: 1.6; }}
+  @media (max-width: 640px) {{
+    header {{ padding: 14px 16px; }}
+    header h1 {{ font-size: 1.2rem; }}
+    .container {{ margin: 16px auto; padding: 0 12px; }}
+    .snapshot {{ padding: 16px; }}
+    .snap-grid {{ grid-template-columns: 1fr 1fr; gap: 14px; }}
+    .table-wrap {{ overflow: visible; }}
+    table {{ box-shadow: none; border-radius: 0; }}
+    thead {{ display: none; }}
+    table, tbody, tr, td {{ display: block; width: 100%; }}
+    tbody tr {{ background: #fff; border: 1px solid #e2e8f0; border-radius: 12px;
+                margin-bottom: 10px; padding: 12px 14px; }}
+    tbody tr:hover {{ background: #fff; }}
+    td {{ display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+          padding: 5px 0; border: none; text-align: right; }}
+    td::before {{ content: attr(data-label); font-weight: 600; color: #64748b; font-size: 0.68rem;
+                 text-transform: uppercase; letter-spacing: 0.4px; text-align: left; white-space: nowrap; }}
+    td:first-child {{ display: flex; justify-content: space-between; align-items: baseline;
+                     padding-bottom: 8px; margin-bottom: 6px; border-bottom: 1px solid #f1f5f9; font-size: 1rem; }}
+    td:first-child::before {{ content: none; }}
+  }}
 </style>
 </head>
 <body>

@@ -243,6 +243,27 @@ PAGE = """<!DOCTYPE html>
   .grade {{ font-weight: 700; font-size: 0.78rem; }}
   .empty {{ padding: 40px; text-align: center; color: #99a; font-size: 0.85rem; }}
   footer {{ max-width: 1200px; margin: 0 auto; padding: 0 12px 40px; color: #99a; font-size: 0.72rem; line-height: 1.5; }}
+  @media (max-width: 640px) {{
+    header {{ padding: 14px 16px 12px; }}
+    header h1 {{ font-size: 1.15rem; }}
+    .controls {{ padding: 12px 12px 4px; gap: 8px; }}
+    .container {{ padding: 8px 10px 40px; }}
+    .table-wrap {{ border: none; background: transparent; overflow: visible; }}
+    table {{ min-width: 0; }}
+    thead {{ display: none; }}
+    table, tbody, tr, td {{ display: block; width: 100%; }}
+    tbody tr {{ background: #fff; border: 1px solid #e8e8e8; border-radius: 12px; margin-bottom: 10px; padding: 12px 14px; }}
+    tbody tr:hover {{ background: #fff; }}
+    td {{ display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 4px 0; text-align: right; }}
+    td::before {{ content: attr(data-label); font-weight: 600; color: #8890a0; font-size: 0.68rem;
+                 text-transform: uppercase; letter-spacing: 0.4px; text-align: left; white-space: nowrap; }}
+    td:first-child {{ display: block; text-align: left; padding-bottom: 8px; margin-bottom: 6px; border-bottom: 1px solid #f0f0f4; }}
+    td:first-child::before {{ content: none; }}
+    td.vcell {{ display: block; text-align: left; }}
+    td.vcell::before {{ display: block; margin-bottom: 4px; }}
+    td.vcell .verdict {{ margin-top: 4px; }}
+    td.num {{ text-align: right; }}
+  }}
 </style>
 </head>
 <body>
@@ -331,11 +352,11 @@ function render() {{
   tb.innerHTML = rows.map(r => `
     <tr onclick="location.href='${{r.symbol}}.html'">
       <td><span class="sym">${{r.symbol}}</span>${{r.owned?'<span class="owned">OWNED</span>':''}}<div class="nm">${{r.name}}</div></td>
-      <td><span class="grade">${{r.grade||'—'}}</span></td>
-      <td><span class="badge b-${{r.bucket}}">${{r.label}}</span>${{r.verdict?`<div class="verdict">${{r.verdict}}</div>`:''}}</td>
-      <td class="num">${{r.cmp!=null?r.cmp.toLocaleString('en-IN'):'—'}}</td>
-      <td class="num">${{r.score!=null?r.score+'/25':'—'}}</td>
-      <td>${{r.date||'—'}}</td>
+      <td data-label="Grade"><span class="grade">${{r.grade||'—'}}</span></td>
+      <td class="vcell" data-label="Verdict"><span class="badge b-${{r.bucket}}">${{r.label}}</span>${{r.verdict?`<div class="verdict">${{r.verdict}}</div>`:''}}</td>
+      <td class="num" data-label="CMP ₹">${{r.cmp!=null?r.cmp.toLocaleString('en-IN'):'—'}}</td>
+      <td class="num" data-label="Score">${{r.score!=null?r.score+'/25':'—'}}</td>
+      <td data-label="Updated">${{r.date||'—'}}</td>
     </tr>`).join('');
   empty.style.display = rows.length ? 'none' : 'block';
 }}
