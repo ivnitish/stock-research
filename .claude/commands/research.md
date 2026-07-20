@@ -31,8 +31,11 @@ Run the complete multi-bagger research framework on `$ARGUMENTS`.
    - Render the markdown to HTML using the standard renderer
    - Open in Chrome for the user to review
 
-6. **Update index if needed:**
-   - If this is a new stock (not an update), add it to `output/html/index.html` stock list
+6. **Regenerate the index (do NOT hand-edit it):**
+   - `index.html` is auto-generated. After writing `research/SYMBOL.md` (with a
+     `**Verdict:**`/`**Status:**` header so it parses), run:
+     `venv/bin/python3 scripts/build_site_index.py`
+   - The new note appears automatically. See `.claude/rules/index-always.md`.
 
 ## Quality gates (do not skip)
 - Every number must have a source — no fabricated data

@@ -23,6 +23,15 @@ fi
 
 TODAY=$(date '+%Y-%m-%d')
 
+# Rebuild the research index + portfolio page from research/*.md and
+# portfolio.csv with fresh bhavcopy closes. Zero Claude tokens; runs every slot
+# so the site never goes stale and new notes appear without hand-editing.
+# Non-fatal on failure.
+"$REPO/venv/bin/python3" "$REPO/scripts/build_site_index.py" \
+  >> "$LOG_DIR/daily_news.log" 2>&1 || true
+"$REPO/venv/bin/python3" "$REPO/scripts/build_portfolio_page.py" \
+  >> "$LOG_DIR/daily_news.log" 2>&1 || true
+
 # Already delivered today → nothing to do.
 if [[ -f "$STAMP" && "$(cat "$STAMP")" == "$TODAY" ]]; then
   exit 0

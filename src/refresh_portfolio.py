@@ -639,21 +639,21 @@ def main():
         holdings=per_stock,
     )
 
+    # HTML generation retired 2026-07-20. index.html and portfolio.html are now
+    # auto-generated from research/*.md and portfolio.csv with fresh bhavcopy
+    # closes by scripts/build_site_index.py and scripts/build_portfolio_page.py
+    # (wired into the daily cron). This script no longer writes either file — it
+    # would overwrite them with stale broker-export prices. Kept as a read-only
+    # broker-reconciliation reporter: the console snapshot above compares the
+    # broker export to your positions. _ = (new_html, portfolio_html)
+    _ = (new_html, portfolio_html)
     if args.write:
-        wrote_any = False
-        if new_html != html:
-            HTML_PATH.write_text(new_html)
-            print(f"✓ Wrote {HTML_PATH.relative_to(ROOT)} (snapshot block)")
-            wrote_any = True
-        existing_pf = PORTFOLIO_HTML_PATH.read_text() if PORTFOLIO_HTML_PATH.exists() else ""
-        if portfolio_html != existing_pf:
-            PORTFOLIO_HTML_PATH.write_text(portfolio_html)
-            print(f"✓ Wrote {PORTFOLIO_HTML_PATH.relative_to(ROOT)} (full portfolio view)")
-            wrote_any = True
-        if not wrote_any:
-            print("No HTML changes to write.")
+        print("\n⚠ --write is retired. The site pages are auto-generated now:")
+        print("    venv/bin/python3 scripts/build_site_index.py      # research index")
+        print("    venv/bin/python3 scripts/build_portfolio_page.py  # portfolio page")
+        print("  This script is now a read-only broker-reconciliation reporter.")
     else:
-        print("\n(dry-run; pass --write to apply)")
+        print("\n(read-only reporter; the site pages are built by the two scripts above)")
 
 
 if __name__ == "__main__":

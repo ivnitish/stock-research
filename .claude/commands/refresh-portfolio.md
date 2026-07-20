@@ -1,68 +1,55 @@
-# Refresh Portfolio — One-Command Snapshot
+# Refresh Portfolio — rebuild the site pages with fresh closes
 
-Refreshes the portfolio snapshot in `output/html/index.html` (and `output/html/portfolio.html` once that exists) from the latest broker holdings export.
+**Changed 2026-07-20.** The portfolio page and research index are auto-generated
+with fresh **bhavcopy** closes. This command just reruns the generators (the
+daily cron already does this every morning). The old broker-xlsx →
+`refresh_portfolio.py --write` flow is retired for HTML output.
 
 ## What it does
 
-1. Reads the most-recent xlsx file under `data/broker-exports/` (broker holdings statement from Groww/Kite).
-2. Joins it with `data/portfolio.csv` (qty, avg buy price).
-3. Updates each held row in `index.html`:
-   - CMP cell from broker close
-   - Δ/share, current value, P&L abs, P&L %
-4. Computes weighted expected 3-yr CAGR from each row's base-case target cell.
-5. Inserts/updates the **Portfolio Snapshot** block at the top of index.html (invested · current · P&L · expected CAGR · holdings count · snapshot date).
-6. Flags stale `research/SYMBOL.md` `Status:` headers — held positions where the file still says EXITED/WATCHLIST.
+1. `scripts/build_site_index.py` → rewrites `output/html/index.html` from
+   `research/*.md` with fresh bhavcopy CMP and auto verdict buckets.
+2. `scripts/build_portfolio_page.py` → rewrites `output/html/portfolio.html`
+   from `data/portfolio.csv` (qty, avg) + fresh bhavcopy CMP + each note's action.
 
-Idempotent. Re-running with no new data is a no-op.
+Both are zero-token and idempotent. Prices are always the latest exchange close;
+holdings are only as current as `data/portfolio.csv`.
 
 ## How to invoke
 
-User says `/refresh-portfolio` (optionally followed by an integer for the CAGR horizon, default 3 years).
+User says `/refresh-portfolio`.
 
 ## Steps
 
-1. **Run the script (dry-run first to show diff):**
+1. **Run both generators:**
    ```bash
    cd "/Users/nitish/stocks automation"
-   python3 src/refresh_portfolio.py
+   venv/bin/python3 scripts/build_site_index.py
+   venv/bin/python3 scripts/build_portfolio_page.py
    ```
-   Show the user the snapshot table + per-stock CAGR breakdown + any stale-research warnings.
+   Report the printed stats (holdings count, invested/current/P&L, any unpriced names).
 
-2. **If the user confirms (or says they want it pushed), apply:**
+2. **If the user has traded recently**, remind them `data/portfolio.csv` is the
+   holdings source and must be updated by hand (or reconciled against a broker
+   export) for the P&L to be exact — that is the one step needing a broker pull.
+   `src/refresh_portfolio.py` (no `--write`) still prints a broker-vs-CSV
+   reconciliation report if a fresh xlsx is in `data/broker-exports/`.
+
+3. **Commit + push** if there are changes:
    ```bash
-   python3 src/refresh_portfolio.py --write
-   ```
-   Optionally with `--horizon N` if they passed an integer arg (e.g. `/refresh-portfolio 5` → `--horizon 5`).
-
-3. **Re-render any affected research HTML if research file headers changed** (rare on a refresh, but check git status).
-
-4. **Commit + push** if there are changes:
-   ```bash
-   git add output/html/index.html data/broker-exports/ src/refresh_portfolio.py
-   git commit -m "Refresh portfolio snapshot from broker export <DATE>"
+   git add output/html/index.html output/html/portfolio.html
+   git commit -m "Rebuild site pages with fresh bhavcopy closes <DATE>"
    git push origin main
    ```
-   Use a message that names the broker export date and key deltas (e.g., "P&L moved from +₹X to +₹Y").
 
 ## When to use it
 
-- After dropping a new broker xlsx into `data/broker-exports/`
-- At the start of any session where you want current P&L
-- Before making buy/sell decisions (you want fresh CMPs)
-- Weekly cadence as a session-end ritual
+- After writing/updating a research note (to surface it in the index immediately).
+- At the start of a session where you want current P&L without waiting for cron.
+- Before buy/sell decisions (fresh CMPs).
 
-## When NOT to use
+## Notes
 
-- If `data/broker-exports/` has no new file since last run, the dry-run will show "0 rows would change" — no point pushing a no-op commit.
-- If the broker export's ISIN isn't in the script's `ISIN_TO_SYMBOL` map, the script will print a warning. Add the ISIN to the map in `src/refresh_portfolio.py` before re-running.
-
-## Output to user
-
-Always print:
-- Snapshot date + holdings count
-- Invested / Current / P&L (₹ + %)
-- Weighted expected CAGR + coverage %
-- Top-3 contributors and bottom-3 by CAGR
-- Any stale research files flagged
-
-Skip the per-row diff dump unless they ask for it.
+- Do NOT hand-edit `index.html` / `portfolio.html` — changes are lost on rebuild.
+- CMP is blank for names with no matched exchange ticker (US, some BSE-SME).
+  That is correct — never fill it with a guessed number.

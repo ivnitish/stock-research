@@ -3,6 +3,24 @@
 
 ---
 
+## ✅ Completed — 2026-07-20 (rev 3) — Site pages auto-generated; index de-cluttered
+
+User: the homepage was cluttered and hand-maintained (1,950-line index, went stale). Rebuilt so the site generates itself from research files with fresh prices — no more hand-editing.
+
+- **New `scripts/build_site_index.py`** — regenerates `output/html/index.html` from all 96 `research/*.md`. Parses each note's header for verdict → auto filter bucket (Buy / Buy-at / Hold / Watchlist / Holdings / Trim / Exit / Avoid / Notes), grade, date. Fetches **fresh bhavcopy CMP** at build time (73/96 matched; unmatched show blank, never a guess). Filter chips + search + sortable columns. Only 3 notes stay "Unclassified" (verdict is in prose: BANCOINDIA, MANUGRAPH, PROTEAN) — none dropped. Underscore-named files (MACRO_NOTES, screens, comparisons) auto-route to Notes. Index shrank ~1,950 → ~350 lines.
+- **New `scripts/build_portfolio_page.py`** — regenerates `output/html/portfolio.html` from `data/portfolio.csv` + fresh bhavcopy CMP. Action label read from each stock's research note. Dual date stamp (holdings as-of CSV mtime; prices as-of bhavcopy). All 23 holdings priced; invested ₹11.62L → current ₹14.66L (+26.1%).
+- **Both wired into `scripts/daily_news_cron.sh`** — rebuild every morning, zero Claude tokens.
+- **Retired the hand-maintenance path:** `src/refresh_portfolio.py --write` (HTML output disabled → now a read-only broker-reconciliation reporter) and `src/sort_index_by_amount.py` (guarded) — both would have clobbered the auto-pages with stale broker prices. `src/valuation_dashboard.py` writes an unused `valuation_data.js` — left alone (no conflict).
+- **Rewrote `.claude/rules/index-always.md`** → "index is auto-generated, never hand-edit; add a parseable header to the note instead." Updated command docs (`research.md`, `refresh-portfolio.md`, `portfolio-check.md`), the `portfolio-reviewer` agent, and `README.md` to match.
+- Old pages archived: `index_legacy_2026-07-20.html`, `portfolio_legacy_2026-07-20.html`.
+- **Earlier same session:** fixed KALYANICASTTECH buy-at lookup (`KALYANI.BO`, BSE SME — was `KALYANICAST.NS`, silently failing). All 4 buy-at alerts now compute (committed 34de7bd).
+
+Backlog / follow-ups:
+- Re-source per-stock **target price** (dropped from both pages — its old source was the hand-index; parsing free-text targets from research files is the deferred piece the framework's no-fabrication rule made me hold off on).
+- Tune a few noisy per-symbol RSS queries in `data/company_names.csv` (e.g. BANCOINDIA matched an unrelated article).
+
+---
+
 ## ✅ Completed — 2026-07-20 (rev 2) — KRISHNADEF peer-set framing expanded to 3 lenses
 
 - User challenged methodology: "should Krishna be compared with only similar market cap?" Answered by expanding the Peer valuation check section into an explicit 3-lens framework:
