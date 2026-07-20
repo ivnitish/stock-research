@@ -4,6 +4,24 @@
 
 ---
 
+## ⏭ PENDING — picked up 2026-07-21: refresh holdings from live Groww/Kite MCP
+
+**Do this first if the user says "fetch holdings" (or similar).**
+
+Context: the site pages now auto-generate from research files + fresh bhavcopy closes (committed `760a479`). `output/html/index.html` and `output/html/portfolio.html` are built by `scripts/build_site_index.py` and `scripts/build_portfolio_page.py` — **never hand-edit them**. The one stale input is `data/portfolio.csv` (holdings last edited 4 May 2026); the user wants it refreshed from the **live broker MCP** (chose this over a broker-xlsx export; declined a third-party trading-capable MCP on security grounds).
+
+Blocker in the prior session: `growwmcp` + `kite` are **project-scoped** in `.mcp.json` and weren't approved, so their tools never loaded. `claude mcp reset-project-choices` was run, so a fresh session should prompt to approve them. The user needs to approve growwmcp + kite and complete the browser OAuth login.
+
+**Steps once the MCP tools are available (check `/mcp`):**
+1. Call the holdings tool — Kite `get_holdings` or Groww's equivalent (read-only; never place/modify orders).
+2. Reconcile against `data/portfolio.csv`: update `quantity` + `avg_buy_price` per symbol, add new positions, flag exits. Map broker trading symbols → `SYMBOL.NS`/`.BO` (ISIN map in `src/refresh_portfolio.py`'s `ISIN_TO_SYMBOL`). **Show the user the diff before writing.**
+3. Rewrite `data/portfolio.csv`, then rebuild: `venv/bin/python3 scripts/build_portfolio_page.py`. Keep **CMP from the bhavcopy** at build time — do NOT overwrite it with broker prices.
+4. Commit + push; update this section (mark done).
+
+If the tools still don't appear after approving, check the `.mcp.json` entry and the mcp-remote OAuth. Full detail in memory: `project_groww_reconcile_pending.md`.
+
+---
+
 ## What this system is
 
 A personal equity research pipeline built for Munger-style fundamental analysis. Research notes are written in Markdown, rendered to HTML (live on GitHub Pages), and exported as PDFs with portfolio data hidden (safe to share). The goal is finding multi-baggers — businesses that can compound intrinsic value at 20%+ CAGR for 7-15 years.
