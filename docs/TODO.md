@@ -3,6 +3,18 @@
 
 ---
 
+## ✅ Completed — 2026-07-21 — Morning news brief (full run)
+
+Ran the morning-news skill in full mode from `data/daily_inputs/2026-07-21.md` (pre-collected headlines, 3 targeted web searches used for Artemis fundraise size and South West Pinnacle's exact Q1 numbers).
+
+- **Material holdings news** (cost-basis order): ANANTRAJ (₹74.86 Cr into Ashok Cloud data-centre subsidiary, acquisition completed), ARTEMISMED (shareholders approved up to ₹700 Cr fundraise headroom, not yet executed), ETERNAL (MSCI rejig — largest passive inflow among changes, ~$648 mn), ATHERENERG (₹1,300 Cr QIP at ₹1,202/share, stock -3%), SOUTHWEST (Q1 FY27 PAT +288% YoY to ₹9.34 Cr, revenue +53.4%, stock +8-9%). Wrote `docs/MORNING_BRIEF.md`, opened [issue #10](https://github.com/ivnitish/stock-research/issues/10).
+- **Macro thread** — prepended a 2026-07-21 entry to `docs/MACRO_THREAD.md`: crude/rupee reversing for a session (oil eased on US-Iran mediation hopes) with a new layer (RBI's forex window has drawn $20.7bn in 5 weeks — reserve-building, not just rupee-smoothing); US soft-CPI narrative facing contrarian pushback ("inflation not really slowing" pieces, Fed-independence pressure story).
+- **Telegram digest** — sent the two-thread Feynman-style theme message (oil/rupee/RBI-reserves; US-CPI-contested) plus side notes and buy-at alerts (none in zone).
+- **Stock snapshots** (max 2, hardest news first) — ATHERENERG (QIP, monitor-stub verdict unchanged) and SOUTHWEST (Q1 beat, monitor-stub verdict unchanged) sent as separate Telegram Investment Snapshots. Both are 1-share monitor stubs, not full research notes — no thesis files changed.
+- Buy-at alerts: IEX, KALYANICASTTECH, REDINGTON, MVGJL all still outside their trigger zones (copied precomputed table as-is per skill instructions).
+
+---
+
 ## ✅ Completed — 2026-07-21 — Mobile layout, index re-designed around a JTBD, site-wide nav fix
 
 Refreshed prices to the 2026-07-20 bhavcopy close, then three UX fixes the user flagged: mobile view was unusable, the index felt cluttered, and satellite pages couldn't get back to the index.
