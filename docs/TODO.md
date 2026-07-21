@@ -1,5 +1,25 @@
 # Research System — TODO
-*Last updated: 2026-07-20*
+*Last updated: 2026-07-21*
+
+---
+
+## ✅ Completed — 2026-07-21 — Mobile layout, index re-designed around a JTBD, site-wide nav fix
+
+Refreshed prices to the 2026-07-20 bhavcopy close, then three UX fixes the user flagged: mobile view was unusable, the index felt cluttered, and satellite pages couldn't get back to the index.
+
+- **Mobile (both pages):** index + portfolio were multi-column tables that only offered horizontal scroll on a phone. Added a `max-width:640px` media query to each generator that collapses every row into a labeled card (`data-label` + `td::before`), hides the header row, and drops the `min-width` so nothing scrolls sideways. Verified headlessly (render runs, cards emit) — screen-recording perm was off so no screenshot.
+- **Index re-designed around its job-to-be-done** (user defined it: *primary = deploy capital; secondary = recall/reread; mobile first*):
+  - Default view is now **Actionable** (Buy + Buy-at, 13 names) instead of dumping all 96. Holdings / Watchlist / Trim-Exit / Avoid / Notes / All are chips.
+  - Dropped the wordy free-text verdict sentence under each badge and the redundant **Score** column — the two biggest sources of per-row noise. (Verdict text is still searchable; it's just not displayed.)
+  - New **Entry / trigger** column: Buy → "at CMP"; Buy-at → the stated band (e.g. `₹200–210`) with **IN ZONE** / `+N% away` computed vs live CMP. Levels are read from the note's own `BUY AT ₹X` verdict (`parse_buy_level`) or `buyat_alerts.csv` — never inferred. Standing alerts (IEX ≤₹120, KALYANICASTTECH ≤₹450, MVGJL ≤₹150, REDINGTON ≤₹180) now surface on their watch/exit/avoid rows too.
+  - Removed the owned-only toggle (Holdings chip covers it).
+- **Navigation fix:** FOCUS / PLAYBOOK / DECISION_LOG had a single back-button `href="index.html"` mislabeled "← Portfolio" and no other links. Replaced it in `src/render_plan.py` with a real wrapping nav bar (Research / Portfolio / Focus / Playbook / Decisions / Library, current page highlighted) — so every rendered page reaches the index. Added Library to the portfolio nav for parity. Re-rendered the 3 satellite pages; the 96 research pages pick up the new nav on the next `render_all`.
+
+Backlog / follow-ups:
+- Target-price column: **partially resolved** — buy-at entry levels now render for Buy-at names via the verdict parser. A general per-stock fair-value/target column for Buy/Hold names is still open.
+- Propagate the new nav to all 96 research `SYMBOL.html` (runs on next `render_all --no-pdf` / daily cron).
+- Tune a few noisy per-symbol RSS queries in `data/company_names.csv` (e.g. BANCOINDIA matched an unrelated article).
+- Pending (separate session): reconcile `data/portfolio.csv` from live Groww/Kite MCP (holdings stale since 4 May) — see HANDOVER.md.
 
 ---
 

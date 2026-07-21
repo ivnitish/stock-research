@@ -193,6 +193,7 @@ def build() -> str:
       <a href="FOCUS.html">🎯 Focus</a>
       <a href="INVESTING_PLAYBOOK.html">📖 Playbook</a>
       <a href="DECISION_LOG.html">📋 Decisions</a>
+      <a href="library.html">📚 Library</a>
     </div>
   </div>
 </header>

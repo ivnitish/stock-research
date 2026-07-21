@@ -62,6 +62,48 @@ def owned_symbols() -> set[str]:
         return {base_symbol(r["symbol"]) for r in csv.DictReader(f)}
 
 
+def buyat_triggers() -> dict[str, float]:
+    """research symbol -> buy-below trigger price, from buyat_alerts.csv.
+    Sourced levels only — never inferred — so the index can show how far CMP
+    is from the standing entry without fabricating a number."""
+    out: dict[str, float] = {}
+    ba = REPO / "data" / "buyat_alerts.csv"
+    if ba.exists():
+        with open(ba) as f:
+            for row in csv.DictReader(f):
+                try:
+                    out[base_symbol(row["symbol"].strip())] = float(row["trigger"])
+                except (ValueError, KeyError):
+                    continue
+    return out
+
+
+def _num(v: float) -> str:
+    return f"{v:,.0f}" if float(v).is_integer() else f"{v:,.2f}"
+
+
+# Pull the stated entry level out of a "BUY AT/BELOW ₹X" (or $X, or a ₹X–Y band)
+# verdict. This reads the note's own words — it never invents a price. Returns
+# None when the verdict doesn't spell out a numeric level.
+BUY_LEVEL = re.compile(
+    r"BUY\s+(?:AT|BELOW|@)\s*([₹$])?\s*([\d,]+(?:\.\d+)?)"
+    r"(?:\s*[–-]\s*[₹$]?\s*([\d,]+(?:\.\d+)?))?",
+    re.I,
+)
+
+
+def parse_buy_level(verdict: str) -> dict | None:
+    if not verdict:
+        return None
+    m = BUY_LEVEL.search(verdict)
+    if not m:
+        return None
+    cur = m.group(1) or "₹"
+    lo = float(m.group(2).replace(",", ""))
+    hi = float(m.group(3).replace(",", "")) if m.group(3) else lo
+    return {"cur": cur, "lo": min(lo, hi), "hi": max(lo, hi)}
+
+
 def classify(verdict: str) -> tuple[str, str]:
     """(bucket key, display label) from the raw verdict/status string.
 
@@ -156,6 +198,7 @@ def parse_note(path: Path) -> dict:
 def build_rows() -> tuple[list[dict], str, dict]:
     overrides = price_overrides()
     owned = owned_symbols()
+    triggers = buyat_triggers()
     try:
         trade_date, nse, bse = last_trading_bhav()
         pm = build_price_map(nse, bse)
@@ -172,6 +215,28 @@ def build_rows() -> tuple[list[dict], str, dict]:
             key = sym + ".NS" if sym + ".NS" in pm else (sym + ".BO" if sym + ".BO" in pm else None)
         r["cmp"] = round(pm[key][0], 1) if key in pm else None
         r["owned"] = base_symbol(sym) in owned
+        # Entry trigger: a sourced standing-alert level (buyat_alerts.csv) wins;
+        # otherwise the level stated in the note's own BUY-AT verdict. Both are
+        # read, never inferred — a name with no stated level shows nothing.
+        trig_hi = triggers.get(base_symbol(sym))
+        trig_txt = f"≤ ₹{_num(trig_hi)}" if trig_hi is not None else None
+        if trig_hi is None and r["bucket"] == "buyat":
+            lvl = parse_buy_level(r["verdict"])
+            if lvl:
+                trig_txt = (f"{lvl['cur']}{_num(lvl['lo'])}" if lvl["lo"] == lvl["hi"]
+                            else f"{lvl['cur']}{_num(lvl['lo'])}–{_num(lvl['hi'])}")
+                if lvl["cur"] == "₹":
+                    trig_hi = lvl["hi"]
+        r["trigger_txt"] = trig_txt
+        r["trigger_hi"] = trig_hi
+        # in_zone: actionable at today's price? buy = yes by definition; a
+        # trigger name only once CMP has fallen to/through the (upper) level.
+        if r["bucket"] == "buy":
+            r["in_zone"] = True
+        elif trig_hi is not None and r["cmp"] is not None:
+            r["in_zone"] = r["cmp"] <= trig_hi
+        else:
+            r["in_zone"] = None
         rows.append(r)
 
     order = {"buy": 0, "buyat": 1, "hold": 2, "watch": 3, "owned": 4,
@@ -179,6 +244,7 @@ def build_rows() -> tuple[list[dict], str, dict]:
     rows.sort(key=lambda r: (order.get(r["bucket"], 9), -(r["score"] or 0), r["symbol"]))
     stats = {
         "total": len(rows),
+        "actionable": sum(1 for r in rows if r["bucket"] in ("buy", "buyat")),
         "priced": sum(1 for r in rows if r["cmp"] is not None),
         "graded": sum(1 for r in rows if r["grade"]),
         "unclassified": sum(1 for r in rows if r["bucket"] == "unclassified"),
@@ -241,6 +307,11 @@ PAGE = """<!DOCTYPE html>
   .b-note {{ background: #f1f5f9; color: #64748b; }}
   .b-unclassified {{ background: #f1f5f9; color: #64748b; }}
   .grade {{ font-weight: 700; font-size: 0.78rem; }}
+  .zone {{ display: inline-block; font-size: 0.62rem; font-weight: 700; border-radius: 5px; padding: 2px 7px; white-space: nowrap; }}
+  .zone.in {{ background: #dcfce7; color: #166534; }}
+  .zone.now {{ background: #ecfccb; color: #3f6212; }}
+  .zone.off {{ background: #eef1f5; color: #7a828f; }}
+  .muted {{ color: #c4c8d0; }}
   .empty {{ padding: 40px; text-align: center; color: #99a; font-size: 0.85rem; }}
   footer {{ max-width: 1200px; margin: 0 auto; padding: 0 12px 40px; color: #99a; font-size: 0.72rem; line-height: 1.5; }}
   @media (max-width: 640px) {{
@@ -259,9 +330,6 @@ PAGE = """<!DOCTYPE html>
                  text-transform: uppercase; letter-spacing: 0.4px; text-align: left; white-space: nowrap; }}
     td:first-child {{ display: block; text-align: left; padding-bottom: 8px; margin-bottom: 6px; border-bottom: 1px solid #f0f0f4; }}
     td:first-child::before {{ content: none; }}
-    td.vcell {{ display: block; text-align: left; }}
-    td.vcell::before {{ display: block; margin-bottom: 4px; }}
-    td.vcell .verdict {{ margin-top: 4px; }}
     td.num {{ text-align: right; }}
   }}
 </style>
@@ -271,7 +339,7 @@ PAGE = """<!DOCTYPE html>
   <div class="header-top">
     <div>
       <h1>Stock Research</h1>
-      <div class="sub">{count} research notes · {cmp_note} · built {built}</div>
+      <div class="sub">{actionable} actionable now · {count} notes · {cmp_note}</div>
     </div>
   </div>
   <div class="nav">
@@ -286,17 +354,16 @@ PAGE = """<!DOCTYPE html>
 <div class="controls">
   <input id="search" type="search" placeholder="Search symbol, company, or verdict…" autocomplete="off">
   <div class="chips" id="chips">
-    <button class="chip active" data-b="all">All</button>
+    <button class="chip active" data-b="actionable">Actionable</button>
     <button class="chip" data-b="buy">Buy</button>
     <button class="chip" data-b="buyat">Buy at price</button>
-    <button class="chip" data-b="hold">Hold</button>
-    <button class="chip" data-b="watch">Watchlist</button>
     <button class="chip" data-b="owned">Holdings</button>
+    <button class="chip" data-b="watch">Watchlist</button>
     <button class="chip" data-b="trim">Trim/Exit</button>
     <button class="chip" data-b="avoid">Avoid</button>
     <button class="chip" data-b="note">Notes</button>
+    <button class="chip" data-b="all">All</button>
   </div>
-  <label class="toggle"><input type="checkbox" id="ownedOnly"> Owned only</label>
 </div>
 
 <div class="container">
@@ -307,7 +374,7 @@ PAGE = """<!DOCTYPE html>
         <th data-k="grade">Grade <span class="arrow">↕</span></th>
         <th data-k="label">Verdict <span class="arrow">↕</span></th>
         <th class="num" data-k="cmp">CMP ₹ <span class="arrow">↕</span></th>
-        <th class="num" data-k="score">Score <span class="arrow">↕</span></th>
+        <th data-k="trigger_hi">Entry / trigger <span class="arrow">↕</span></th>
         <th data-k="date">Updated <span class="arrow">↕</span></th>
       </tr></thead>
       <tbody id="tb"></tbody>
@@ -327,15 +394,28 @@ PAGE = """<!DOCTYPE html>
 <script type="application/json" id="data">{data}</script>
 <script>
 const ROWS = JSON.parse(document.getElementById('data').textContent);
-let bucket = 'all', ownedOnly = false, sortK = null, sortAsc = true;
+let bucket = 'actionable', sortK = null, sortAsc = true;
 const tb = document.getElementById('tb'), empty = document.getElementById('empty');
 const gradeRank = {{ 'A+':9,'A':8,'A-':7,'B+':6,'B':5,'B-':4,'C+':3,'C':2,'C-':1,'D':0 }};
+
+function trigCell(r) {{
+  if (r.bucket === 'buy') return '<span class="zone now">at CMP</span>';
+  if (r.trigger_txt) {{
+    if (r.in_zone === true) return r.trigger_txt + ' <span class="zone in">IN ZONE</span>';
+    if (r.cmp != null && r.trigger_hi != null && r.cmp > r.trigger_hi) {{
+      const gap = Math.round((r.cmp - r.trigger_hi) / r.trigger_hi * 100);
+      return r.trigger_txt + ' <span class="zone off">+' + gap + '% away</span>';
+    }}
+    return r.trigger_txt;
+  }}
+  return '<span class="muted">—</span>';
+}}
 
 function render() {{
   const q = document.getElementById('search').value.trim().toLowerCase();
   let rows = ROWS.filter(r => {{
-    if (bucket !== 'all' && !(bucket === 'trim' ? (r.bucket==='trim'||r.bucket==='exit') : r.bucket === bucket)) return false;
-    if (ownedOnly && !r.owned) return false;
+    if (bucket === 'actionable') {{ if (r.bucket !== 'buy' && r.bucket !== 'buyat') return false; }}
+    else if (bucket !== 'all' && !(bucket === 'trim' ? (r.bucket==='trim'||r.bucket==='exit') : r.bucket === bucket)) return false;
     if (q && !((r.symbol+' '+r.name+' '+r.verdict).toLowerCase().includes(q))) return false;
     return true;
   }});
@@ -343,7 +423,7 @@ function render() {{
     rows.sort((a,b) => {{
       let x = a[sortK], y = b[sortK];
       if (sortK === 'grade') {{ x = gradeRank[x] ?? -1; y = gradeRank[y] ?? -1; }}
-      if (sortK === 'cmp' || sortK === 'score') {{ x = x ?? -1; y = y ?? -1; }}
+      if (sortK === 'cmp' || sortK === 'trigger_hi') {{ x = x ?? -1; y = y ?? -1; }}
       if (x < y) return sortAsc ? -1 : 1;
       if (x > y) return sortAsc ? 1 : -1;
       return 0;
@@ -353,16 +433,15 @@ function render() {{
     <tr onclick="location.href='${{r.symbol}}.html'">
       <td><span class="sym">${{r.symbol}}</span>${{r.owned?'<span class="owned">OWNED</span>':''}}<div class="nm">${{r.name}}</div></td>
       <td data-label="Grade"><span class="grade">${{r.grade||'—'}}</span></td>
-      <td class="vcell" data-label="Verdict"><span class="badge b-${{r.bucket}}">${{r.label}}</span>${{r.verdict?`<div class="verdict">${{r.verdict}}</div>`:''}}</td>
-      <td class="num" data-label="CMP ₹">${{r.cmp!=null?r.cmp.toLocaleString('en-IN'):'—'}}</td>
-      <td class="num" data-label="Score">${{r.score!=null?r.score+'/25':'—'}}</td>
+      <td data-label="Verdict"><span class="badge b-${{r.bucket}}">${{r.label}}</span></td>
+      <td class="num" data-label="CMP ₹">${{r.cmp!=null?'₹'+r.cmp.toLocaleString('en-IN'):'—'}}</td>
+      <td data-label="Entry">${{trigCell(r)}}</td>
       <td data-label="Updated">${{r.date||'—'}}</td>
     </tr>`).join('');
   empty.style.display = rows.length ? 'none' : 'block';
 }}
 
 document.getElementById('search').addEventListener('input', render);
-document.getElementById('ownedOnly').addEventListener('change', e => {{ ownedOnly = e.target.checked; render(); }});
 document.querySelectorAll('.chip').forEach(c => c.addEventListener('click', () => {{
   document.querySelectorAll('.chip').forEach(x => x.classList.remove('active'));
   c.classList.add('active'); bucket = c.dataset.b; render();
@@ -384,8 +463,8 @@ def main() -> int:
     data = json.dumps(rows, ensure_ascii=False, separators=(",", ":"))
     page = PAGE.format(
         count=stats["total"],
+        actionable=stats["actionable"],
         cmp_note=cmp_note,
-        built=date.today().isoformat(),
         data=data,
     )
     if "--stdout" in sys.argv:

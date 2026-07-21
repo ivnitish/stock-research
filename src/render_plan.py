@@ -190,10 +190,28 @@ body   = md_to_html(md)
 body   = wrap_decision_history(body)
 title  = os.path.basename(path)
 
-back_btn = '<a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>'
+current = os.path.basename(path).replace('.md', '.html')
+_nav_items = [
+    ("index.html", "🔍 Research"),
+    ("portfolio.html", "📊 Portfolio"),
+    ("FOCUS.html", "🎯 Focus"),
+    ("INVESTING_PLAYBOOK.html", "📖 Playbook"),
+    ("DECISION_LOG.html", "📋 Decisions"),
+    ("library.html", "📚 Library"),
+]
+_links = "".join(
+    f'<a href="{href}" style="display:inline-block;padding:6px 12px;border:1px solid #d5d8e0;'
+    f'border-radius:6px;text-decoration:none;font-size:0.8rem;font-weight:600;'
+    + ("background:#1a1a2e;color:#fff;" if href == current else "background:#fff;color:#334455;")
+    + f'">{label}</a>'
+    for href, label in _nav_items
+)
+nav = ('<nav class="no-print" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;">'
+       + _links + '</nav>')
 
 page = f"""<!DOCTYPE html><html><head><meta charset="utf-8"><title>{title}</title>
-<style>{CSS}</style></head><body>{back_btn}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>{CSS}</style></head><body>{nav}
 <details id="toc" class="no-print"><summary>Jump to section</summary></details>
 {body}
 <script src="notes.js"></script>
