@@ -86,5 +86,9 @@ if a CMP cannot be fetched, write \"data unavailable\"."
   if [[ $RC -eq 0 ]]; then
     echo "$TODAY" > "$STAMP"
     echo "===== stamped success for $TODAY ====="
+    # Deterministic Telegram delivery: the headless run above can't see
+    # TELEGRAM_BOT_TOKEN, so it skips its own send. Post today's macro-thread
+    # digest here, loading the token from .env (--require-today guards stale).
+    "$REPO/venv/bin/python3" "$REPO/scripts/send_macro_digest.py" --require-today || true
   fi
 } >> "$LOG_DIR/daily_news.log" 2>&1
