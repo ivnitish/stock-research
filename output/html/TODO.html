@@ -1,4 +1,5 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><title>TODO.md</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:960px;margin:40px auto;padding:0 24px;color:#1f2937;line-height:1.7;}
 h1{font-size:2em;border-bottom:3px solid #1d4ed8;padding-bottom:8px;color:#1e3a5f;}
@@ -34,10 +35,113 @@ strong{color:#111827;}
   table{page-break-inside:avoid;font-size:11px;}
   h2,h3{page-break-after:avoid;}
 }
-</style></head><body><a href="index.html" class="no-print" style="display:inline-block;margin-bottom:20px;padding:6px 14px;background:#1a1a2e;color:#fff;border-radius:6px;text-decoration:none;font-size:0.85rem;font-weight:500">← Portfolio</a>
+</style></head><body><nav class="no-print" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;"><a href="index.html" style="display:inline-block;padding:6px 12px;border:1px solid #d5d8e0;border-radius:6px;text-decoration:none;font-size:0.8rem;font-weight:600;background:#fff;color:#334455;">🔍 Research</a><a href="portfolio.html" style="display:inline-block;padding:6px 12px;border:1px solid #d5d8e0;border-radius:6px;text-decoration:none;font-size:0.8rem;font-weight:600;background:#fff;color:#334455;">📊 Portfolio</a><a href="FOCUS.html" style="display:inline-block;padding:6px 12px;border:1px solid #d5d8e0;border-radius:6px;text-decoration:none;font-size:0.8rem;font-weight:600;background:#fff;color:#334455;">🎯 Focus</a><a href="INVESTING_PLAYBOOK.html" style="display:inline-block;padding:6px 12px;border:1px solid #d5d8e0;border-radius:6px;text-decoration:none;font-size:0.8rem;font-weight:600;background:#fff;color:#334455;">📖 Playbook</a><a href="DECISION_LOG.html" style="display:inline-block;padding:6px 12px;border:1px solid #d5d8e0;border-radius:6px;text-decoration:none;font-size:0.8rem;font-weight:600;background:#fff;color:#334455;">📋 Decisions</a><a href="library.html" style="display:inline-block;padding:6px 12px;border:1px solid #d5d8e0;border-radius:6px;text-decoration:none;font-size:0.8rem;font-weight:600;background:#fff;color:#334455;">📚 Library</a></nav>
 <details id="toc" class="no-print"><summary>Jump to section</summary></details>
 <h1 id="research-system-todo">Research System — TODO</h1>
-<p><em>Last updated: 2026-07-19</em></p>
+<p><em>Last updated: 2026-07-21</em></p>
+
+<hr>
+
+<h2 id="completed-2026-07-21-mobile-layout-index-re-designed-around-a-jtbd-site-wide-nav-fix">✅ Completed — 2026-07-21 — Mobile layout, index re-designed around a JTBD, site-wide nav fix</h2>
+
+<p>Refreshed prices to the 2026-07-20 bhavcopy close, then three UX fixes the user flagged: mobile view was unusable, the index felt cluttered, and satellite pages couldn't get back to the index.</p>
+
+<ul>
+<li><strong>Mobile (both pages):</strong> index + portfolio were multi-column tables that only offered horizontal scroll on a phone. Added a <code>max-width:640px</code> media query to each generator that collapses every row into a labeled card (<code>data-label</code> + <code>td::before</code>), hides the header row, and drops the <code>min-width</code> so nothing scrolls sideways. Verified headlessly (render runs, cards emit) — screen-recording perm was off so no screenshot.</li>
+<li><strong>Index re-designed around its job-to-be-done</strong> (user defined it: <em>primary = deploy capital; secondary = recall/reread; mobile first</em>):</li>
+<li style="margin-left:20px">Default view is now <strong>Actionable</strong> (Buy + Buy-at, 13 names) instead of dumping all 96. Holdings / Watchlist / Trim-Exit / Avoid / Notes / All are chips.</li>
+<li style="margin-left:20px">Dropped the wordy free-text verdict sentence under each badge and the redundant <strong>Score</strong> column — the two biggest sources of per-row noise. (Verdict text is still searchable; it's just not displayed.)</li>
+<li style="margin-left:20px">New <strong>Entry / trigger</strong> column: Buy → "at CMP"; Buy-at → the stated band (e.g. <code>₹200–210</code>) with <strong>IN ZONE</strong> / <code>+N% away</code> computed vs live CMP. Levels are read from the note's own <code>BUY AT ₹X</code> verdict (<code>parse_buy_level</code>) or <code>buyat_alerts.csv</code> — never inferred. Standing alerts (IEX ≤₹120, KALYANICASTTECH ≤₹450, MVGJL ≤₹150, REDINGTON ≤₹180) now surface on their watch/exit/avoid rows too.</li>
+<li style="margin-left:20px">Removed the owned-only toggle (Holdings chip covers it).</li>
+<li><strong>Navigation fix:</strong> FOCUS / PLAYBOOK / DECISION_LOG had a single back-button <code>href="index.html"</code> mislabeled "← Portfolio" and no other links. Replaced it in <code>src/render_plan.py</code> with a real wrapping nav bar (Research / Portfolio / Focus / Playbook / Decisions / Library, current page highlighted) — so every rendered page reaches the index. Added Library to the portfolio nav for parity. Re-rendered the 3 satellite pages; the 96 research pages pick up the new nav on the next <code>render_all</code>.</li>
+</ul>
+
+<p>Backlog / follow-ups:</p>
+<ul>
+<li>Target-price column: <strong>partially resolved</strong> — buy-at entry levels now render for Buy-at names via the verdict parser. A general per-stock fair-value/target column for Buy/Hold names is still open.</li>
+<li>Propagate the new nav to all 96 research <code>SYMBOL.html</code> (runs on next <code>render_all --no-pdf</code> / daily cron).</li>
+<li>Tune a few noisy per-symbol RSS queries in <code>data/company_names.csv</code> (e.g. BANCOINDIA matched an unrelated article).</li>
+<li>Pending (separate session): reconcile <code>data/portfolio.csv</code> from live Groww/Kite MCP (holdings stale since 4 May) — see HANDOVER.md.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-20-rev-3-site-pages-auto-generated-index-de-cluttered">✅ Completed — 2026-07-20 (rev 3) — Site pages auto-generated; index de-cluttered</h2>
+
+<p>User: the homepage was cluttered and hand-maintained (1,950-line index, went stale). Rebuilt so the site generates itself from research files with fresh prices — no more hand-editing.</p>
+
+<ul>
+<li><strong>New <code>scripts/build_site_index.py</code></strong> — regenerates <code>output/html/index.html</code> from all 96 <code>research/*.md</code>. Parses each note's header for verdict → auto filter bucket (Buy / Buy-at / Hold / Watchlist / Holdings / Trim / Exit / Avoid / Notes), grade, date. Fetches <strong>fresh bhavcopy CMP</strong> at build time (73/96 matched; unmatched show blank, never a guess). Filter chips + search + sortable columns. Only 3 notes stay "Unclassified" (verdict is in prose: BANCOINDIA, MANUGRAPH, PROTEAN) — none dropped. Underscore-named files (MACRO_NOTES, screens, comparisons) auto-route to Notes. Index shrank ~1,950 → ~350 lines.</li>
+<li><strong>New <code>scripts/build_portfolio_page.py</code></strong> — regenerates <code>output/html/portfolio.html</code> from <code>data/portfolio.csv</code> + fresh bhavcopy CMP. Action label read from each stock's research note. Dual date stamp (holdings as-of CSV mtime; prices as-of bhavcopy). All 23 holdings priced; invested ₹11.62L → current ₹14.66L (+26.1%).</li>
+<li><strong>Both wired into <code>scripts/daily_news_cron.sh</code></strong> — rebuild every morning, zero Claude tokens.</li>
+<li><strong>Retired the hand-maintenance path:</strong> <code>src/refresh_portfolio.py --write</code> (HTML output disabled → now a read-only broker-reconciliation reporter) and <code>src/sort_index_by_amount.py</code> (guarded) — both would have clobbered the auto-pages with stale broker prices. <code>src/valuation_dashboard.py</code> writes an unused <code>valuation_data.js</code> — left alone (no conflict).</li>
+<li><strong>Rewrote <code>.claude/rules/index-always.md</code></strong> → "index is auto-generated, never hand-edit; add a parseable header to the note instead." Updated command docs (<code>research.md</code>, <code>refresh-portfolio.md</code>, <code>portfolio-check.md</code>), the <code>portfolio-reviewer</code> agent, and <code>README.md</code> to match.</li>
+<li>Old pages archived: <code>index_legacy_2026-07-20.html</code>, <code>portfolio_legacy_2026-07-20.html</code>.</li>
+<li><strong>Earlier same session:</strong> fixed KALYANICASTTECH buy-at lookup (<code>KALYANI.BO</code>, BSE SME — was <code>KALYANICAST.NS</code>, silently failing). All 4 buy-at alerts now compute (committed 34de7bd).</li>
+</ul>
+
+<p>Backlog / follow-ups:</p>
+<ul>
+<li>Re-source per-stock <strong>target price</strong> (dropped from both pages — its old source was the hand-index; parsing free-text targets from research files is the deferred piece the framework's no-fabrication rule made me hold off on).</li>
+<li>Tune a few noisy per-symbol RSS queries in <code>data/company_names.csv</code> (e.g. BANCOINDIA matched an unrelated article).</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-20-rev-2-krishnadef-peer-set-framing-expanded-to-3-lenses">✅ Completed — 2026-07-20 (rev 2) — KRISHNADEF peer-set framing expanded to 3 lenses</h2>
+
+<ul>
+<li>User challenged methodology: "should Krishna be compared with only similar market cap?" Answered by expanding the Peer valuation check section into an explicit 3-lens framework:</li>
+<li style="margin-left:20px"><strong>Lens 1 — Same-MCap (₹1,000-3,000 Cr defence)</strong> = PRIMARY. Controls for size/liquidity. Krishna P/E 50 vs median 53 → fair. Kept from prior version.</li>
+<li style="margin-left:20px"><strong>Lens 2 — Same-business-model defence-tech</strong> = CONTEXT. Fresh Screener data pulled for Zen Tech (P/E 110), Data Patterns (93), Astra Microwave (92), Paras Defence (114). Krishna at 50 trades at 50% discount to defence-tech median 101 — explained by (a) 8-12x smaller MCap → real illiquidity discount, (b) steel/foundry OPM 22% vs aerospace-electronics 26-40% → mix discount. Migration path: if Krishna sustains 30%+ growth and armour/weld consumables mix rises, by FY28 the multiple gap should compress toward 20-30%.</li>
+<li style="margin-left:20px"><strong>Lens 3 — Sector-wide (all 31 defence names)</strong> = TEMPERATURE. Median ~62; Krishna at 50 below sector median but this pooled number is informationally weak. Read only as: sector elevated but not extreme.</li>
+<li>Verdict unchanged: <strong>BUY AT ₹1,050-1,150</strong> stands (primary), 2-3% starter allowed at CMP. The primary decision is driven by lens 1; lens 2 is upside optionality if migration happens.</li>
+<li>Also crossed off item 4 of "What to verify" (Zen/DP/Astra comparison) since it's now in the report body.</li>
+<li>Committed and pushed.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-20-krishnadef-valuation-recalibration-neetu-vs-kalyani-comparison">✅ Completed — 2026-07-20 (KRISHNADEF valuation recalibration + NEETU vs KALYANI comparison)</h2>
+
+<ul>
+<li><strong>KRISHNADEF verdict recalibrated</strong> after user challenged valuation. Peer-set table (same ₹1,000-3,000 Cr MCap defence names — Sika Interplant, CFF Fluid, Shree Refrigerat, Krishna) shows trailing-multiple parity (median P/E 53, Krishna 50 with slightly better growth). But <strong>reverse DCF</strong> at CMP ₹1,281 shows market already prices in mgmt-guided 30% growth + PE derate to 30 (implied CAGR = 29.5% vs mgmt 30%). Fair-value grid: at 30% growth × PE 40 → FY28 target ₹1,726 (+35%); at 15% growth × PE 30 → ₹1,013 (-21%). <strong>Asymmetry ratio 1.67x</strong>, below framework 2x threshold. Downgraded from "BUY 4-6%" to <strong>"BUY AT ₹1,050-1,150"</strong> (primary) with optional 2-3% starter at CMP for theme exposure. Business quality and thesis unchanged; recalibration is entry-discipline only. Index row action tag changed to "watch" with buy-at price. See <code>research/KRISHNADEF.md</code> "Peer valuation check" section for the math.</li>
+<li><strong>COMPARE_NEETUYOSHI_vs_KALYANICASTTECH.md</strong> written. Both are BSE SME railway-theme names but opposite risk profiles: Yoshi = pure-play foundry with 25% PAT margin (17.5% lifetime tax), FY27 guide explicit ₹210-220 Cr, capex done. Kalyani = vertically integrated logistics vision (containers + wagons + terminal + foundry), 10-12% structural OPM, ₹4,000 Cr in 7-8 years, wagon capex ₹170-200 Cr still under construction. <strong>Recommend: deploy in Yoshi at CMP ₹161; wait for Kalyani at ₹430-450</strong> (Apr 2026 file was ₹642 — needs price re-verification). Portfolio concentration flag: KERNEX + Yoshi + Kalyani = 25-30% railway theme; combined BSE SME <15% for liquidity budget.</li>
+<li><strong>Still queued:</strong> Ganesh Green Bharat deep-dive.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-19-evening-add-on-krishnadef-deep-dive-neetuyoshi-concall-upgrade">✅ Completed — 2026-07-19 (evening add-on: KRISHNADEF deep-dive + NEETUYOSHI concall upgrade)</h2>
+
+<ul>
+<li><strong>KRISHNADEF (new file):</strong> Krishna Defence & Allied Industries — naval indigenization play (bulb bars, weld consumables, armour steel, ballast bricks) with regulatory moat (Naval Approved Source, AS9100D aerospace, IRS commercial shipbuilding). FY26 print strong: revenue +29%, PAT +86%, OPM 22% up from 15% FY24, FCF flipped +₹66 Cr from -₹23 Cr FY25, WC days halved 110→53. Verdict <strong>BUY 4-6% initial, add to 10-12% core</strong>; Munger <strong>17/25 = B</strong>. P/E 50 rich absolute but forward P/E ~30 on FY28 base case, ~20% discount to defence peer median (62). Base case +46% in 18-24 months, bull 3x by FY29, 10x case 6-7 years. Main concern: promoter dilution 73.4% → 60.0% over 3 years (bulk in Mar-May 2024 during buildout). Kill trigger set at promoter <55%. PDF at <code>output/pdf/KRISHNADEF_2026-07-19.pdf</code>. Concall PDF at <code>~/Downloads/KRISHNA_27052026160020_Transcript.pdf</code>.</li>
+<li><strong>NEETUYOSHI upgraded</strong> from BUY small (3-5%) to <strong>BUY 5-7% initial, add path to 15% core</strong> after reading Jun 2026 concall. Key updates:</li>
+<li style="margin-left:20px">FY27 guidance <strong>explicit</strong>: ₹210-220 Cr revenue (~115% growth) @ 25% PAT margin</li>
+<li style="margin-left:20px">FY28 target ₹350 Cr (200 new + 110 old + 60-70 track)</li>
+<li style="margin-left:20px">New plant commissioned Jun 2026; RDSO approval for new plant expected July 2026 (imminent hard catalyst)</li>
+<li style="margin-left:20px"><strong>17.5% lifetime tax rate confirmed</strong> (15% + 2.5% cess, "no sunset clause") — permanent 7.5pp structural earnings advantage over 25% peers</li>
+<li style="margin-left:20px">Receivables spike Feb-Mar 2026 was Railway budget cycle — half collected by 15 April, debtors ₹32 Cr → ~₹20 Cr by June</li>
+<li style="margin-left:20px">₹29 Cr warrants raise explained (track WC-intensive, promoters participated to avoid dilution)</li>
+<li style="margin-left:20px">Order book updated ₹140-150 Cr (vs Screener's ₹105 Cr)</li>
+<li style="margin-left:20px">Kill triggers rewritten to remove seasonal CFO-based trigger; now focused on structural signals (revenue tracking to guidance, promoter action, track cash-burn without receivables offset)</li>
+<li><strong>Index updated:</strong> KRISHNADEF added to Grade B section, NEETUYOSHI row updated with concall-informed action tag. Buy-candidates block refreshed.</li>
+<li><strong>Still queued:</strong> Ganesh Green Bharat deep-dive.</li>
+</ul>
+
+<hr>
+
+<h2 id="completed-2026-07-19-screener-10x-shortlist-first-two-full-deep-dives">✅ Completed — 2026-07-19 (Screener 10x shortlist + first two full deep-dives)</h2>
+
+<ul>
+<li><strong>Screener query analysis:</strong> ran two screens — Base (420 names) + Base+PE<Industry PE (254 names). Excel workbook at <code>~/Downloads/screen_analysis.xlsx</code> with 20+ tabs: return stats, compare, market-cap buckets, industry medians, PE-gap AT ENTRY (rewound) vs snapshot, PB quartiles, 10x candidates ranked. Full write-up at <code>research/screener_10x_shortlist_2026-07-19.md</code>.</li>
+<li><strong>Key methodological finding:</strong> current-PE vs current-Industry-PE comparison is a snapshot tautology — winners look expensive, losers look cheap. Proper test requires rewound entry-point PE. Rewound quartiles show low-PE-at-entry beat high-PE-at-entry by ~12pts on 6m median; but PE-<em>relative-to-industry</em> at entry did NOT work cleanly. Practical answer: value discipline as per-name check on Screener 10y PE chart, not universe filter.</li>
+<li><strong>Portfolio check:</strong> none of 10 shortlist candidates overlap with existing 23-position book. Book still needs consolidation to 5-8 concentrated positions per standing rule.</li>
+<li><strong>Deep-dive on SAHANA (Sahana System, SME):</strong> wrote <code>research/SAHANA.md</code>. Verdict <strong>AVOID (D · 8/25)</strong>. Initial light-touch pass framed it as DEEP-DIVE candidate; full skill flipped verdict — governance flags (promoter abandoned Sharanam Infraproject 2021), business scope drift (IT + hardware trading + defence + agri), OPM compression from 40% → 30% as revenue went 14x (anti-operating-leverage), FCF −₹61 Cr / −₹6 Cr FY25/26, 1:5 bonus + main-board migration + promoter dilution 62.9% → 57.3% = classic SME pump signature. 106 employees generating ₹167 Cr = ₹1.57 Cr/employee is impossible for real IT services (trading pass-through). PDF at <code>output/pdf/SAHANA_2026-07-19.pdf</code>.</li>
+<li><strong>Deep-dive on NEETUYOSHI (Neetu Yoshi, BSE SME 544434):</strong> wrote <code>research/NEETUYOSHI.md</code>. Verdict <strong>BUY small tranched (B− · 16/25)</strong>. User's hypothesis "negative FCF is capex, not receivables" verified — 70% correct. FCF −₹49 Cr FY26 decomposes to ₹53 Cr fixed-asset capex (capacity doubled 4,493 → 8,087 MTPA) funded by ₹68 Cr equity warrants while debt actively falling 17 → 4 Cr. But CFO only ₹4 Cr vs PAT ₹25 Cr — the gap is working capital ballooning (debtor days 54 → 118, WC days 55 → 133) as they diversified from West Bengal-only. Real RDSO moat (27 certified products, 51 pipeline, RCF Kapurthala CCA valid to 2030, high-speed train bogies/couplers approval). Entry ₹150-165, initial 3-5% of book, add on FY27 Q1 result if debtor days <90 AND capacity utilization ≥80%. Kill if CFO <30% of PAT for two consecutive quarters. PDF at <code>output/pdf/NEETUYOSHI_2026-07-19.pdf</code>.</li>
+<li><strong>Index updated:</strong> NEETUYOSHI added to Grade B section (<code>data-action="buy"</code>), SAHANA added to Grade C section (<code>data-action="exit"</code>) per <code>.claude/rules/index-always.md</code>. Buy-candidates block refreshed.</li>
+<li><strong>Still queued:</strong> deep-dive on Ganesh Green Bharat (GGBL). Same shape concern as Sahana/Yoshi (rapid growth + margin compression + newly listed) but ₹2,210 Cr order book is a very different signal — worth running the full skill before dismissing.</li>
+</ul>
 
 <hr>
 
