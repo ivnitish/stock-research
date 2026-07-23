@@ -7,6 +7,14 @@ morning-news skill (Step 4); do not hand-edit past entries.
 
 ---
 
+## 2026-07-22 (Wednesday)
+
+- Continuing (strengthening, reversal proved temporary) — crude & rupee: Tuesday's reprieve didn't hold. Crude back past $93/bbl on renewed Middle East turmoil, rupee sliding again despite $20bn+ in diaspora remittances this year and RBI's five-week, $20.7bn intervention window. Sensex/Nifty fell a third straight day (Sensex -715pts, Nifty below 24,000) — intervention is slowing the slide, not stopping it, and the reserve-burn has a limit that oil at $93 tests faster than oil at $80 did.
+- New — Trump generic-drug tariff threat: sparked a pharma-led sell-off alongside media and realty; broadens the risk beyond just oil/rupee into US trade policy hitting Indian exporters directly.
+- New (contra, unresolved) — US inflation debate still split: ING's "four reasons inflation should slow" directly countering Tuesday's "not really slowing" pushback; Fed flagging a dip in discretionary consumer spending as fuel costs bite is the first concrete data point either side can point to.
+- Continuing — Fed independence: Kevin Warsh (Fed chair contender) has "breathing space, for now" — the political-pressure storyline from Tuesday is paused, not resolved.
+- Holdings pulse: Anant Raj's board approved a 1:1 demerger of its data-centre/cloud business into a new listed entity, Ashok Cloud — splits the real-estate and digital-infrastructure bets into two stocks. Eternal's Q1 print showed the tension in the quick-commerce bet plainly: PAT +268% YoY but -47% QoQ (miss vs Street), Blinkit now 77.5% of revenue at just 0.6% adjusted EBITDA margin. Newgen (+26% PAT) and South West Pinnacle (+287% PAT, confirmed) both delivered clean beats. Zen Technologies won a ₹177.5 Cr MoD order.
+
 ## 2026-07-21 (Tuesday)
 
 - Reversing (for now) — crude & rupee: oil eased on fresh US-Iran mediation hopes and the rupee firmed off Monday's 2-month low. One session doesn't undo the trend, but the direction flipped. The structural offset: RBI's forex intervention window has drawn $20.7bn in five weeks — the central bank is quietly rebuilding reserves at the same time it's smoothing the rupee day to day.
