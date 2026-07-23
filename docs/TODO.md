@@ -1,5 +1,23 @@
 # Research System — TODO
-*Last updated: 2026-07-21*
+*Last updated: 2026-07-23*
+
+---
+
+## ✅ Completed — 2026-07-23 — Morning news brief (full run)
+
+Ran the morning-news skill in full mode from `data/daily_inputs/2026-07-23.md` (pre-collected headlines, all 3 escape-hatch web searches used: Anant Raj demerger allotment detail, Swiggy foreign-ownership cap context, ICICI Prudential AMC Q1 results — none of these three were resolvable from headline alone).
+
+- **Housekeeping note:** the working tree already had a partial/stale `docs/MORNING_BRIEF.md` draft for today (from an earlier, interrupted run using mid-day market data and missing the Swiggy/ICICIAMC stories entirely). Overwrote it with the complete version below, sourced from the later (20:56) `data/daily_inputs/2026-07-23.md` snapshot and end-of-day close figures.
+- **Material holdings news** (cost-basis order): ANANTRAJ (Motilal Oswal Buy call, ₹710 target; Ashok Cloud demerger 1:1 allotment ratio confirmed, record date still pending), ETERNAL (post-Q1 brokerage follow-through, 27 Buy calls, Blinkit turns EBITDA-profitable), SWIGGY (board approved 49.5% foreign-ownership cap to pursue IOCC status — would let Instamart move to direct inventory ownership; second attempt after a May shareholder-vote failure), ICICIAMC (Q1 FY27 PAT +23% YoY to ₹964.6 Cr, revenue +18% YoY), ATHERENERG (SBI Mutual Fund trimmed stake to 5%). Wrote `docs/MORNING_BRIEF.md`, opened [issue #12](https://github.com/ivnitish/stock-research/issues/12).
+- **Macro thread** — prepended a 2026-07-23 entry to `docs/MACRO_THREAD.md`: crude/rupee thread still strengthening (oil ~$98/bbl, 12th straight night of US strikes on Iran; rupee closed 96.73, down 20 paise despite RBI intervention; Nifty 23,869, 4th straight losing session) with a new layer — the daily point-drop is shrinking (Sensex -363 vs Tuesday's -715) even as the cumulative level keeps worsening, because repeated shocks surprise the market less each time. New escalation: TD Securities and Barclays flagged markets may be under-pricing an actual Fed hike, not just a delayed cut.
+- **Telegram digest** — sent a two-thread Feynman-style message: (1) oil/rupee — why today's smaller point-drop doesn't mean less damage, (2) Fed hike-risk resurfacing and why a hike (vs a pause) would be fresh negative news for Indian small/midcap multiples. Side notes + buy-at alerts (none in zone) included.
+- **Stock snapshots** (max 2, hardest news first) — ICICIAMC (Q1 results; flagged and dropped an internally inconsistent absolute PBT figure from the source headline per the no-fabricated-data rule, kept only the verified growth rate) and SWIGGY (IOCC foreign-ownership cap; verdict restated as EXIT per the research file's most recent top-of-file decision — flagged that `research/SWIGGY.md` has an internal inconsistency between its top status block (EXIT, Apr 9) and its lower "Quick Summary"/Decision History sections, which still read a March "Weak Hold" — left the file untouched per `.claude/rules/no-structural-changes.md`, needs a user-approved cleanup pass).
+- Buy-at alerts: IEX, KALYANICASTTECH, REDINGTON, MVGJL all still outside their trigger zones (copied precomputed table as-is from bhavcopy 2026-07-23 close).
+- `output/html/index.html` / `output/html/portfolio.html` had already been regenerated with today's bhavcopy close in an earlier pass this session — verified freshness (`prices 2026-07-23 (bhavcopy close)`) and included them in today's commit rather than re-running the build.
+
+**New backlog items found:**
+- `research/SWIGGY.md` needs a structural cleanup — top decision block (EXIT, Apr 9) is out of sync with the Quick Summary / Section 7 / Section 9 Decision History (still "Weak Hold with Short Leash," March-dated). Needs explicit user approval before editing (no-structural-changes rule).
+- `research/CPPLUS.md` (Aditya Infotech / CP Plus, Grade B 16/25, BUY AT ₹1,900-2,000) is a complete, untracked research note from 2026-07-21 that was never rendered (`output/html/CPPLUS.html` doesn't exist) or added to the site index. Out of scope for this session — left untracked. Next session: `python3 src/render_all.py CPPLUS`, verify it parses into `build_site_index.py`, commit.
 
 ---
 

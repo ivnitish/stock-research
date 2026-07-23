@@ -7,6 +7,12 @@ morning-news skill (Step 4); do not hand-edit past entries.
 
 ---
 
+## 2026-07-23 (Thursday)
+
+- Continuing (strengthening) — crude & rupee: oil pushed to ~$98/bbl on a 12th consecutive night of US strikes on Iran — the escalation is now measured in nights, not just "renewed tension." Rupee closed at 96.73 (down 20 paise) despite another round of RBI intervention — the offsetting mechanism from the last week is intact but the level keeps drifting worse. Nifty closed 23,869 on a fourth straight losing session; Sensex -363 pts, a smaller daily drop than Tuesday's -715 but a lower absolute level — the market is absorbing the same pressure with less daily shock, not less cumulative damage.
+- New (escalation) — Fed hike risk resurfacing: TD Securities and Barclays both flagged that markets may be under-pricing an actual Fed rate hike, not just a delayed cut — a step up from the "higher for longer" debate that's run all week. Combined with Warsh's hawkish-colleague pushback, the Fed-independence and rate-path threads are converging toward "more hawkish than priced."
+- Holdings pulse: ICICI Prudential AMC's Q1 FY27 print landed clean — PAT +23% YoY to ₹964.6 Cr. Swiggy's board approved capping foreign ownership at 49.5% to pursue Indian-Owned-and-Controlled-Company status — a second attempt after a May shareholder vote failed — which would let it directly own Instamart inventory rather than run pure marketplace, a real change to the quick-commerce margin model if it passes the Aug 18 AGM vote. Anant Raj's Ashok Cloud demerger (1:1 ratio, board-approved Jul 21) picked up a Motilal Oswal Buy call at ₹710; Eternal continued to rally on post-Q1 brokerage support (27 Buy calls) even as the broader market fell.
+
 ## 2026-07-22 (Wednesday)
 
 - Continuing (strengthening, reversal proved temporary) — crude & rupee: Tuesday's reprieve didn't hold. Crude back past $93/bbl on renewed Middle East turmoil, rupee sliding again despite $20bn+ in diaspora remittances this year and RBI's five-week, $20.7bn intervention window. Sensex/Nifty fell a third straight day (Sensex -715pts, Nifty below 24,000) — intervention is slowing the slide, not stopping it, and the reserve-burn has a limit that oil at $93 tests faster than oil at $80 did.

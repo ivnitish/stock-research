@@ -1,45 +1,42 @@
-# Morning Brief — 2026-07-22
+# Morning Brief — 2026-07-23
 
 ## Holdings news
 (material only, cost-basis order — silent holdings skipped)
 
 ### ANANTRAJ
-- Board approved a composite scheme to demerge the data-centre and cloud business into a new separately listed entity, Ashok Cloud. Shareholders get 1 Ashok Cloud share (face value ₹2) for every 1 Anant Raj share held — a clean 1:1 split. ARCPL (the data-centre subsidiary) is first amalgamated into Anant Raj, then the combined data-centre business is demerged out into Ashok Cloud, leaving Anant Raj as a pure real-estate/infra company and Ashok Cloud as the standalone digital-infrastructure vehicle. Approved by the board July 21, still subject to regulatory and shareholder sign-off — Business Standard / BusinessToday / ANI
-
-### NEWGEN
-- Q1 FY27: net profit up 26% YoY to ₹63 Cr, revenue up 11% YoY — a clean beat, stock had already run +35% over three sessions into the print — scanx.trade
+- Motilal Oswal reiterated a Buy call with a ₹710 target — Moneycontrol
+- More detail emerged on Tuesday's board-approved Ashok Cloud demerger: it's a composite scheme of arrangement — the data-centre subsidiary (ARCPL) is first merged into Anant Raj, then the combined data-centre/cloud business is demerged out into Ashok Cloud Pvt Ltd, leaving Anant Raj as the pure real-estate/infra entity. Allotment ratio confirmed at 1:1 (one Ashok Cloud share for every Anant Raj share held); record date not yet set — still needs NCLT/SEBI/shareholder sign-off — BW Businessworld, MSN, Inshorts
 
 ### ETERNAL
-- Q1 FY27: consolidated net profit ₹92 Cr, up 268% YoY (low base) but down ~47% quarter-on-quarter from ₹174 Cr in Q4 — this is the "miss vs Street" the headlines are flagging, even though the YoY number looks dramatic. Revenue up 182% YoY to ₹20,211 Cr, beating estimates, with Blinkit now 77.5% of operating revenue at ₹15,664 Cr. Blinkit's own profitability is still wafer-thin — about 5.2% contribution margin and only 0.6% adjusted EBITDA margin on order value. Consolidated adjusted EBITDA rose 223% YoY to ₹555 Cr. Stock fell ~4% on the print. Separately, CEO Deepinder Goyal said Bistro (Eternal's own quick-commerce format) sees limited impact from Swiggy's new "Toing" and Rapido's "Ownly" dark-store launches — Business Standard / NDTV Profit / Moneycontrol
+- Follow-through on Tuesday's Q1 FY27 print (PAT +268% YoY but -47% QoQ, Blinkit at 77.5% of revenue, 0.6% adjusted EBITDA margin): stock up ~2-3% today, top Nifty gainer even as the broader market fell on the crude spike. Brokerages stayed bullish post-results — today's coverage cites 27 'Buy' calls in aggregate and Blinkit's move into (thin) profitability as the reason; one outlet floated a 75% upside case — Moneycontrol, NDTV Profit, Business Today, TradingView, News18
 
 ### SWIGGY
-- Swiggy's new quick-commerce brand "Toing" and Rapido's "Ownly" are the two new entrants Eternal's management was asked about on the Q1 call (see ETERNAL above) — competitive read is on Eternal's side of the ledger for now, no Swiggy-specific numbers out today — Economic Times
+- Board approved capping aggregate foreign ownership at 49.5% (fully diluted) to qualify as an "Indian-Owned and Controlled Company" (IOCC) — needs a shareholder special resolution at the Aug 18 AGM. This is Swiggy's second attempt: a May bid to amend the Articles of Association for the same purpose failed to get shareholder approval. IOCC status matters because it would let Swiggy directly own and sell inventory through Instamart rather than run the current marketplace-only model — a structural change with margin implications for the quick-commerce business. Foreign holding has already drifted below 50% naturally, to 49.76% — Economic Times, Inc42, CNBC-TV18, scanx.trade
 
-### ZENTEC
-- Won a ₹177.5 Cr order from the Ministry of Defence; stock up ~4% on the news. Q1 FY27 earnings call scheduled for July 27 — scanx.trade / defence.newsd.in
+### ICICIAMC
+- Q1 FY27 results: net profit up 23% YoY to ₹964.6 Cr (vs ₹783.6 Cr in Q1 FY26), revenue from operations up 18% YoY, PBT up 22.4% QoQ to ₹12,806.5 Cr, EPS ₹19.52 vs ₹15.55 in Q4 FY26 — Upstox, Business Standard
 
-### SOUTHWEST
-- Q1 FY27 confirmed: consolidated PAT up 287% YoY to ₹9.3 Cr (₹93 Mn) — same beat flagged in yesterday's brief, now with the formal print — scanx.trade
+### ATHERENERG
+- SBI Mutual Fund trimmed its stake in Ather Energy to 5% after partial profit booking — livemint.com
+
+Note: GRSE, NEWGEN, NESCO, ZENTEC, BHEL and SOUTHWEST had only price-move or generic listicle coverage today — no hard news, not repeated here.
 
 ## Macro
 
 ### India
-- Third straight down day: Sensex fell ~715 pts, Nifty closed below 24,000 (23,996) — crude prices past $93/bbl and renewed selling in bank stocks were the two drags cited across the board. This is the crude/rupee thread from the last three days landing with full force after Tuesday's brief reprieve — rupee sliding again on Middle East turmoil even as India pulled in $20 bn+ from diaspora remittances this year. RBI's five-week, $20.7 bn intervention window has not stopped the slide, only slowed it
-- New — Trump's threat of tariffs on generic drugs triggered a pharma-led sell-off; media and realty also led losses on the day
-- RBI Bulletin: India still holding growth momentum "despite global uncertainty" — a counter-note management would cite, but it doesn't show up in today's price action
-- Temasek's Ravi Lambah: India remains the "best performing market" despite rupee depreciation — same counter-narrative, from an FII-side voice this time
+- Crude and rupee thread keeps strengthening: oil near $98/bbl on the 12th straight night of US strikes on Iran — a new escalation marker, not just "tensions" as it's been framed the last few days. Rupee closed weaker at 96.73/USD (down 20 paise) even with RBI reportedly intervening again — the central bank is offsetting, not reversing, the pressure. Nifty closed at 23,869, a fourth straight losing session; Sensex fell 363 pts — a smaller point-drop than Tuesday's -715 but a lower closing level, so the slide continues even as the daily pace eases — Reuters, ThePrint, India Infoline, BusinessLine
+- RBI Bulletin reiterated the economy is "resilient" despite monsoon and Iran-war risks — same official-confidence-vs-price-action tension as yesterday, still unresolved by today's market action — Bloomberg, Fibre2Fashion
 
 ### US
-- Fed-independence thread continues: Kevin Warsh (potential Fed chair contender) described as having "breathing space, for now" — the political-pressure-on-the-Fed storyline from Tuesday hasn't resolved either way
-- Inflation debate still contested both ways — ING published "four reasons US inflation should slow from here," directly countering Tuesday's "inflation is not really slowing" pushback. No resolution yet, just more voices on both sides
-- Fed flagging a dip in discretionary/non-essential consumer spending as fuel costs bite — the first concrete demand-side data point in this back-and-forth, consistent with the "higher-for-longer" camp
+- New this week: TD Securities and Barclays are both flagging that markets may be under-pricing a Fed rate hike, not just delaying a cut — a step beyond the "higher for longer" framing that's dominated the last few days. If this view gains traction it adds another layer on top of the oil/rupee pressure already working against Indian rate-sensitive names — FXStreet, Bloomberg
+- Kevin Warsh's "no-guidance" approach to the Fed chair race is running into resistance from more hawkish Fed colleagues — continuing the succession/independence thread from Tuesday, still unresolved — Reuters
+- WSJ's "week ahead": US inflation figures are the data point markets are waiting on before the hike-vs-hold debate gets settled — WSJ
 
 ## Buy-at Alerts
-Closes from bhavcopy of 2026-07-22
+Closes from bhavcopy of 2026-07-23
+- IEX: close ₹121.9 vs trigger <₹120 — outside (+1.6% above trigger); full entry <120, market-coupling risk remains the key condition
+- KALYANICASTTECH: close ₹727.0 vs trigger <₹450 — outside (+61.6% above trigger); full entry <450, wagon revenue ramp H2 FY27
+- REDINGTON: close ₹262.1 vs trigger <₹180 — outside (+45.6% above trigger); yield play only, not portfolio mandate
+- MVGJL: close ₹154.8 vs trigger <₹150 — outside (+3.2% above trigger); needs OCF positive for 2 quarters on top of price
 
-- **IEX** — close ₹123.5 vs trigger <₹120 — OUTSIDE (+2.9% above trigger). Full entry <120; market-coupling risk is the key condition
-- **KALYANICASTTECH** — close ₹729.2 vs trigger <₹450 — OUTSIDE (+62.1% above trigger). Full entry <450; wagon revenue H2 FY27 (BSE SME — TckrSymb KALYANI)
-- **REDINGTON** — close ₹265.9 vs trigger <₹180 — OUTSIDE (+47.7% above trigger). Yield play only; not portfolio mandate
-- **MVGJL** — close ₹156.9 vs trigger <₹150 — OUTSIDE (+4.6% above trigger). Needs OCF-positive for 2 quarters on top of price
-
-None currently INSIDE zone.
+None inside zone today.
