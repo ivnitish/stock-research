@@ -3,6 +3,21 @@
 
 ---
 
+## ✅ Completed — 2026-07-24 (later) — Morning news brief (full run) + stale-headline catch
+
+Ran the morning-news skill in full mode from `data/daily_inputs/2026-07-24.md` (3 escape-hatch web searches for the two collector-failure tickers, SWIGGY and SHILCTECH, plus verification of the Anant Raj allotment story).
+
+- **Material holdings news** (cost-basis order, final/corrected): ETERNAL and SWIGGY — Flipkart reportedly entering food delivery within ~30 days hit both same-day (Swiggy down 7%+ intraday to a ₹242.51 low, Eternal down ~3-4%); CCI separately ruled Zomato's platform fees/delivery charges are not abuse of dominance.
+- **Caught and corrected a stale-headline problem mid-run:** three items that looked like fresh "today" news in the collector file turned out to be Google News RSS resurfacing old stories with today's timestamp — RAYMOND's "99% profit plunge" (actually 2026-05-05, already analyzed in `research/RAYMOND.md`'s 2026-05-25 log), ANANTRAJ's "board clears demerger, 1:1 allotment + MOSL Buy call" (restates 07-21/07-23 news, no new information), and NEWGEN's "₹6 dividend, 6% FY26 revenue growth" (results/dividend announced 2026-04-30; today was only the AGM date, record date already passed 07-17). Verified all three against source dates via WebSearch before publishing.
+- **Sequencing:** brief and GitHub issue #13 were published once with the (incorrect) three extra items included, caught right after via the stock-snapshot skill's own source-date check on RAYMOND, then corrected in place — `docs/MORNING_BRIEF.md` rewritten, `docs/MACRO_THREAD.md`'s 2026-07-24 entry corrected, issue #13 body re-edited via `gh issue edit`, and a follow-up Telegram correction message sent (the original digest's two macro threads — oil/rupee/growth-data and Flipkart's food-delivery entry — were accurate and stand as sent).
+- **Telegram digest** — two-thread Feynman treatment: (1) crude past $100/bbl + rupee near 96.80 held by RBI intervention, now showing up in India's slowest economic-activity growth in 4+ years, not just markets; (2) Flipkart's food-delivery entry as a fresh competitive threat to both Eternal and Swiggy, mechanism explained (thin margins, quick-commerce profit still young, new well-funded entrant forces a spend-or-lose-share choice).
+- No stock-snapshots fired — the two items with genuine fresh hard news (ETERNAL/SWIGGY, Flipkart entry + CCI ruling) were already given full treatment in the theme digest; firing a duplicate structured snapshot the same day would have been redundant. RAYMOND/NEWGEN snapshots were correctly *not* sent once their staleness was caught.
+- Buy-at alerts: IEX, KALYANICASTTECH, REDINGTON, MVGJL all still outside trigger zones (bhavcopy 2026-07-24 close).
+
+**New backlog item:** `scripts/collect_daily_inputs.py` has no staleness check — Google News RSS can resurface months-old articles with a today's-date pull timestamp, and nothing in the daily_inputs file distinguishes that from genuine same-day news. Worth adding a lightweight check (e.g., flag any holdings headline whose body text contains a date more than ~5 days before the collection run, or cross-check "results" headlines against each company's last-known reporting date) so this doesn't require a manual WebSearch catch every time.
+
+---
+
 ## ✅ Completed — 2026-07-24 — WhatsApp idea-thread screen (5 names) + Telegram PDF
 
 Answered "did you generate research for this?" — the month's WhatsApp idea thread (`/Users/nitish/Downloads/_chat.txt`) surfaced five names. Wrote a research note for each, rebuilt the index, and DM'd a one-page PDF summary to Telegram.

@@ -7,6 +7,14 @@ morning-news skill (Step 4); do not hand-edit past entries.
 
 ---
 
+## 2026-07-24 (Friday)
+
+- Continuing (strengthening, now a growth-data story too) — crude & rupee: Brent crossed $100/bbl as US strikes on Iran continue night after night; RBI dollar sales are holding the rupee near 96.80 despite the pressure. The new layer today: India's economic activity growth slowed to an over 4-year low, with West Asia tensions cited directly — the mechanism that has been an FX and market-sentiment story for two weeks now has a real-economy data print attached to it. Sensex/Nifty fell for a fifth straight session (Nifty below 23,800).
+- Continuing (confirmed) — Fed hike risk: next week's July Fed meeting is now framed by FT, Investopedia and CBS as a live hike question, not just a delayed-cut debate — the escalation TD Securities/Barclays flagged yesterday has become the mainstream framing heading into the meeting itself.
+- New — Trump pharma tariff threat materializing: Abbott India, Ajanta Pharma, Alembic and peers fell up to 4% as the generic-drug tariff threat flagged Wednesday moved from headline to price action.
+- New — Flipkart enters food delivery: a reported ~30-day entry timeline hit both Eternal/Zomato and Swiggy the same day (down up to ~4% and ~7%+ respectively) — a direct new competitive threat to both portfolio holdings in the space, landing on top of Swiggy's own IOCC foreign-ownership-cap board decision from Thursday.
+- Holdings pulse: CCI cleared Zomato's platform-fee structure of abuse-of-dominance concerns, same day as the Flipkart threat above. Nifty Realty was today's best-performing sector even as the broader market fell (no new Anant Raj-specific news — today's coverage just restates the July 21-23 demerger/Buy-call story). Correction: Raymond's "99% profit plunge" and Newgen's "₹6 dividend, 6% revenue growth" headlines that surfaced today are stale — Raymond's is a 2026-05-05 print (already in research/RAYMOND.md) and Newgen's results/dividend were announced 2026-04-30 (today is just the AGM date); Google News RSS resurfaced both with today's timestamp. Neither is new information.
+
 ## 2026-07-23 (Thursday)
 
 - Continuing (strengthening) — crude & rupee: oil pushed to ~$98/bbl on a 12th consecutive night of US strikes on Iran — the escalation is now measured in nights, not just "renewed tension." Rupee closed at 96.73 (down 20 paise) despite another round of RBI intervention — the offsetting mechanism from the last week is intact but the level keeps drifting worse. Nifty closed 23,869 on a fourth straight losing session; Sensex -363 pts, a smaller daily drop than Tuesday's -715 but a lower absolute level — the market is absorbing the same pressure with less daily shock, not less cumulative damage.
