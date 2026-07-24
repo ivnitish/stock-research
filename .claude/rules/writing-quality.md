@@ -18,9 +18,11 @@ These patterns leak in from training data and make analysis read like a template
 - **Bullet-storms when prose would do:** bullets are for genuinely list-like content (tables, peer comparisons, exit triggers). Not for "here are four sentences I split into four bullets."
 - **Preambles and trailing recaps:** "Let me check..." / "In summary..." add no information.
 
-## Voice pass — run before finalising any research file
+## House writing standard + voice pass
 
-Run the `no-ai-slop` skill in detect mode on every new or updated prose section and fix the flagged patterns before finalising. The skill (`.claude/skills/no-ai-slop/SKILL.md`) absorbs this rule's voice checks as "House patterns" and adds mechanical ones (banned words, weasel attribution, faux-insight setups, em-dash density, fragment stacking). Check the result against its `eval.md`.
+The `no-ai-slop` skill (`.claude/skills/no-ai-slop/SKILL.md`) is the house writing standard for ALL composed prose — research files, morning-brief theme digests, MACRO_THREAD entries, Telegram snapshots, fintwitter theses. Draft to it from the first sentence; do not write slop and edit it out afterwards. It absorbs this rule's voice checks as "House patterns" and adds mechanical ones (banned words, weasel attribution, faux-insight setups, em-dash density, fragment stacking).
+
+The voice pass before finalising is verification, not the writing step: run detect mode on every new or updated prose section and fix anything that slipped through, checking against the skill's `eval.md`. Sourced headline-bullet sections (e.g. MORNING_BRIEF.md holdings/macro lists) are exempt — that format is correct for a news digest.
 
 Tables, data, framework checks, and structural sections are unchanged by the voice pass.
 

@@ -29,7 +29,7 @@ Institutional-quality, Munger-philosophy research for stocks. Combines:
 3. **Never use Yahoo Finance for Indian CMP.** It shows US-session delayed prices, off by 10-15%.
 4. **Every number must carry an inline source tag** `[Source: URL, date]`.
 5. If a number cannot be sourced after 2 attempts, write "data unavailable" — never estimate.
-6. **Writing quality:** Bull/bear/compounding sections must read as analyst narratives — weave numbers into cause-effect explanations, not formulaic template-filling. Before finalising, run the `no-ai-slop` skill in detect mode on EVERY prose section of the file — summary verdict, bull/bear, second-order stress test, peer-lens conclusions, recommendation, research log — and fix flagged patterns (`.claude/skills/no-ai-slop/SKILL.md`). Only tables, data blocks, and framework checklists are exempt.
+6. **Writing quality:** Bull/bear/compounding sections must read as analyst narratives — weave numbers into cause-effect explanations, not formulaic template-filling. WRITE to the `no-ai-slop` house style from the first draft (`.claude/skills/no-ai-slop/SKILL.md`) — it is the writing standard, not a cleanup step. Before finalising, verify with a detect pass on EVERY prose section — summary verdict, bull/bear, second-order stress test, peer-lens conclusions, recommendation, research log. Only tables, data blocks, and framework checklists are exempt.
 7. **Recommendations carry prices, never "tracking".** The allowed set is BUY / BUY REDUCED / BUY AT ₹X / HOLD / TRIM / EXIT / SPECULATIVE / AVOID (see CLAUDE.md Phase 5.3). TRACKING POSITION and bare WATCHLIST are not recommendations.
 
 ---

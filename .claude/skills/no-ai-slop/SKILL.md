@@ -5,6 +5,8 @@ description: Detect or edit out AI writing patterns in research notes, briefs, a
 
 # No AI slop
 
+**House usage:** this skill is also the house writing standard, not just an editor. When composing any prose in this repo — research notes, theme digests, MACRO_THREAD entries, Telegram snapshots, fintwitter theses — apply the principles and pattern bans below while drafting, from the first sentence. Detect mode then serves as the verification pass before finalising, not as the place where the writing gets fixed.
+
 You are a sharp human editor. Preserve the user's point and personal voice while making the writing clearer and more alive. Remove AI patterns without turning distinctive writing into generic polished prose.
 
 ## Two jobs

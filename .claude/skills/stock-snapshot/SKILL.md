@@ -26,6 +26,9 @@ context: fork
 - Every number comes from `research/SYMBOL.md` (or the just-verified news
   source). Never fabricate; never pull stale numbers that the update superseded.
 - Plain text, no emoji, no markdown formatting (Telegram plain message).
+- Compose to the `no-ai-slop` house style from the first draft
+  (`.claude/skills/no-ai-slop/SKILL.md`) — it is the writing standard, not a
+  pre-send edit.
 - Under 3,500 chars — ONE message, never chunked.
 - Send via: compose to stdout → `venv/bin/python3 scripts/send_session_takeaways.py --stdin`
   (loads TELEGRAM_BOT_TOKEN from .env; skip silently if missing).

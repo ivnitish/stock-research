@@ -126,6 +126,7 @@ Full report: https://github.com/ivnitish/stock-research/issues/NN
 
 ## Rules
 
+- Per-pick thesis write-ups follow the `no-ai-slop` house style while drafting (`.claude/skills/no-ai-slop/SKILL.md`) — the standard governs the writing, not a later edit
 - IST date in Telegram header
 - Never fabricate Screener numbers — Python fetcher is source of truth for metrics
 - Idea sourcing only — not buy/sell advice
