@@ -54,11 +54,18 @@ The base-vs-bear ratio (1.7x) is just below the 2x framework threshold for BUY R
 - **MOS at CMP ₹564 vs base case ₹880:** (₹880 − ₹564) / ₹880 = **36%** — clears the Grade B+ threshold (20-35%).
 - **Framework matrix: Grade B/A + asymmetry 2-3x (base/bear) or 4-5x (bull/bear) + MOS 36% → BUY REDUCED (3-5%, build to 8-10%).**
 
-### The user's own framing (from 25-Jul chat)
+### The user's own framing (from 25-Jul chat) — applies cleanly here
 
 *"Based on the latest quarterly results, it's under 40x forward P/E, and if it is hoping for exponential growth like last year, I think 40x is reasonable."*
 
-Applied to STLTECH: at ₹564 on annualised Q1 PAT ₹788 Cr, forward P/E is **35.7x** — just under the 40x band. If the business grows another 40-60% into FY28 (base case), the forward multiple on FY28 earnings drops to ~28x. So the framing works cleanly here: 35x forward on a business with 87% YoY revenue growth, 20.8% EBITDA margin (highest in 20 quarters), a validated hyperscaler contract, and net-debt-free balance sheet is defensible. Contrast with KELTECH (same framing was misapplied there because the growth was margin-cycle not volume-driven; here the growth is real revenue + margin together).
+The framing is right on the numbers. At ₹564 on annualised Q1 PAT ₹788 Cr, forward P/E is **35.7x** — comfortably under 40x. And the "grow like last year" test is the load-bearing question: FY26 revenue grew from ~₹3,900 Cr (FY25 depressed) to ₹5,750 Cr TTM (+47%), and Q1 FY27 is already running at ~₹7,600 Cr annualised (+32% on that base) — the exponential path is not hypothetical, it's printing.
+
+Two structural things make 40x-forward genuinely defensible on this business rather than aspirational:
+
+1. **The growth is volume + margin together, not one or the other.** Revenue up 87% YoY *and* EBITDA margin at 20.8% (highest in 20 quarters, up from ~10% two years ago) means the operating leverage is real — every incremental rupee of revenue is dropping at margins materially above the FY24-25 depressed base. That is the combination that supports premium multiples.
+2. **The order book gives 2.4 years of visibility.** ₹18,618 Cr against a run-rate revenue of ~₹7,600 Cr — this is not a stock priced on hope, it's priced on already-signed customer commitments through FY29. The hyperscaler PAL alone contributes ~$370M/year through FY29.
+
+If the business grows another 40-60% into FY28 (base case), forward P/E on FY28 earnings drops to ~28x. The framing works: 35x forward on a business with 87% YoY revenue growth, expanding margins, contracted order book, and net-debt-free balance sheet is defensible — arguably conservative.
 
 ### Revised entry / add / trim / kill
 

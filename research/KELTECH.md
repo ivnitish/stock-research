@@ -11,20 +11,6 @@
 
 Between the 2026-06-01 note (CMP ₹5,010, AVOID) and today (CMP ₹7,872), the stock is up **57% in eight weeks** on essentially zero new fundamental disclosure — no defence contract announcement, no capex commissioning update, no concall, no investor presentation. Q4 FY26 numbers (revenue ₹532 Cr, PAT ₹29 Cr, OPM 8%, 3Y sales CAGR -2%) are unchanged. Promoter has not accumulated at any price on the rally. This is illiquidity-driven retail momentum on the defence-energetics theme, not a fundamentally-supported re-rating.
 
-### Directly engaging the user's framing (24-Jul-2026)
-
-The user's framing when surfacing this stock: *"Based on the latest quarterly results, it's under 40x forward P/E, and if it is hoping for exponential growth like last year, I think 40x is reasonable."*
-
-The math on that framing:
-
-- **Current trailing P/E at ₹7,872:** ₹787 Cr MCap ÷ ₹29 Cr FY26 PAT = **27x trailing**, **not 40x**. Trailing multiple is not the constraint.
-- **What is 40x forward pricing?** For 40x to be reasonable, forward earnings must grow into the multiple. ₹787 Cr / 40 = ₹19.7 Cr forward PAT — the stock is already priced *below* 40x forward if FY27 PAT drops (which happens if margins normalise), so 40x forward is not a floor, it's a ceiling that current price already sits below because trailing PAT is high.
-- **"If it grows like last year":** FY26 PAT growth was ~15% (₹25 Cr → ₹29 Cr). At that rate, FY27 PAT ≈ ₹33 Cr, FY28 PAT ≈ ₹38 Cr. At CMP ₹7,872 and FY28 PAT ₹38 Cr, forward P/E is **21x** — well below the 40x reasonable-band. So on the user's own framing, the stock passes.
-- **But that framing has two structural gaps:**
-
-  1. **FY26 PAT growth of 15% was margin-cycle-driven, not volume-driven.** Revenue only grew 9% TTM; the incremental PAT came from OPM cycling to 8% from 7%. The next percentage point of margin expansion is much harder — OPM has been stuck in the 6-8% band for a decade because commodity explosives economics cap it. The 3Y sales CAGR of **−2%** is the load-bearing fact: for PAT to grow 15%+ from here, either revenue needs to break out (no visible catalyst — no defence contract disclosed, no capacity commissioning announced with output market identified) or margin needs to keep expanding (structurally hard).
-  2. **The 40x-forward test measures reasonableness only if the growth is sustainable.** A one-year margin-cycle uptick that repeats for two more years would validate the framing; a one-year uptick that reverts in FY27 makes the current 27x trailing look expensive against 30-35x forward as PAT drops to ₹22-25 Cr.
-
 ### Revised valuation math at ₹7,872 (up from ₹5,010)
 
 The June 1 note built the base case at ₹6,400 (16x on FY29E EPS ₹400). At CMP ₹7,872, we're already 23% *above* base-case fair value. The bear case remains ₹3,185 (-60% from CMP).
