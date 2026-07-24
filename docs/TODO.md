@@ -1,5 +1,26 @@
 # Research System — TODO
-*Last updated: 2026-07-23*
+*Last updated: 2026-07-24*
+
+---
+
+## ✅ Completed — 2026-07-24 — WhatsApp idea-thread screen (5 names) + Telegram PDF
+
+Answered "did you generate research for this?" — the month's WhatsApp idea thread (`/Users/nitish/Downloads/_chat.txt`) surfaced five names. Wrote a research note for each, rebuilt the index, and DM'd a one-page PDF summary to Telegram.
+
+- **`research/CPPLUS.md`** (Aditya Infotech / CP Plus) — the one real business. **BUY AT ₹1,900–2,000**, gated on two quarters of OCF/PAT > 0.5; AVOID at CMP ₹3,534. Grade B (16/25). India's #1 CCTV brand + April-2026 Chinese-camera ban, but 113x P/E and FY26 OCF ₹13 Cr vs ₹368 Cr PAT (3.5% conversion). Was the untracked backlog item from 2026-07-23 — now written up in full and in the index.
+- **`research/SHEMAROO.md`** — AVOID (Grade D). FY26 revenue ₹583 Cr (−15%), net loss ₹218 Cr, ROCE(3y) −9%. Capital-destroying media library; cheap on book but book is eroding.
+- **`research/VOGL.md`** (Vedanta Oil & Gas) — AVOID as a compounder / trade-only (Grade D). Spin-off special situation; the "₹8,900 Cr EBITDA vs ₹17,500 Cr mcap" pitch is a target not trailing (FY26 revenue ₹9,582 Cr, declining production). Fails on management (Agarwal cash-extraction) + runway (capex fights depletion). From my 03-Jul same-day fact-check.
+- **`research/AURUM.md`** (Aurum PropTech) — AVOID / watch (Grade C). Proptech roll-up just turned profitable (TTM ₹56 Cr, +44% revenue) but ROCE(3y) 1.84% — returns unproven, acquisition-led. A "prove it," not a broken one.
+- **`research/GUJAPOLLO.md`** (Gujarat Apollo) — AVOID value trap (Grade D). Cash-rich (₹118 Cr) below book (0.90x), but FY26 OPM −20%, 5-yr sales −1% CAGR, OCF −₹38.8 Cr, promoter cutting stake. The ₹6 Cr "profit" is other income on the cash pile.
+- **Index rebuilt** — `build_site_index.py` + `build_portfolio_page.py`; all 5 notes bucketed (CPPLUS → Buy-at, other four → Avoid). Stats now 101 notes.
+- **New script `scripts/send_whatsapp_screen_pdf.py`** — renders the 5-name screen to a styled A4 one-pager via Chrome `--print-to-pdf`, then posts intro message + PDF to Telegram (`sendDocument`), loading the token from `.env`. PDF at `output/pdf/WHATSAPP_SCREEN_2026-07-24.pdf`. Sent.
+
+**Also this session (earlier):** fixed the daily Telegram delivery — `send_macro_digest.py` (committed b69a3e0) now posts the macro digest deterministically after the headless brief, because the `claude -p` run can't see `TELEGRAM_BOT_TOKEN`.
+
+**Still parked (need user go-ahead):**
+- Daily `/schedule` cloud routine (morning news+alerts vs EOD digest) — design not yet chosen.
+- Groww/Kite MCP `portfolio.csv` reconcile — needs an MCP-enabled session.
+- `research/SWIGGY.md` structural cleanup (top EXIT block out of sync with lower "Weak Hold" sections) — needs explicit approval per no-structural-changes rule.
 
 ---
 

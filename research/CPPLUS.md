@@ -1,0 +1,112 @@
+# Aditya Infotech (CPPLUS / CP Plus) — Investment Thesis
+
+**Status:** BUY AT ₹1,900-2,000 (standing price alert; 0% now) — gated on cash conversion recovering
+**Quality Score:** 16/25 (Grade B — high-quality business, short listed record, cash-flow flag)
+**Classification:** Quality Compounder priced as perfection — right business, wrong price
+**Last Updated:** 2026-07-21 | **CMP:** ₹3,534 | **52w:** ₹1,015–3,787 | **Market Cap:** ₹41,654 Cr
+
+> **Recommendation:** BUY AT ₹1,900-2,000 — no position at CMP ₹3,534. Aditya Infotech owns CP Plus, India's #1 CCTV/surveillance brand (~45% share), and is the clearest listed winner from the April-2026 ban on non-certified Chinese cameras — a genuine multi-trigger setup (regulatory displacement + capacity build + backward integration). But at ₹3,534 the market pays 113x trailing earnings and 22x book for a business that, in the year it earned ₹368 Cr of profit, generated ₹13 Cr of operating cash — a 3.5% cash conversion. That gap is a hypergrowth working-capital build (debtor 121 days, inventory 134 days), not obviously worse, but it must prove it reverses before this is ownable at any premium. The entry math: forward fair value works out near ₹2,100 today, so a Grade-B margin of safety puts the buy zone at ₹1,900-2,000 — AND only once two consecutive quarters show operating cash flow catching up to profit (OCF/PAT back above 0.5). Until both conditions print, this is a watch, not a buy.
+
+---
+
+## Summary Verdict
+
+### Why this business?
+
+Aditya Infotech makes and sells the cameras, recorders and video-management software that go into India's security systems, under the CP Plus brand — the one you see on the wall of most Indian shops, offices, housing societies and government buildings. For a decade the Indian CCTV market ran on cheap Chinese hardware (Hikvision, Dahua and white-label imports held an estimated 80-95% of it). Two things changed that. First, CP Plus spent years building actual domestic manufacturing and a distribution network of tens of thousands of system integrators, so it wasn't just re-badging Chinese boxes. Second — and this is the trigger — from April 2025 the government made STQC/IoT security certification mandatory for any internet-connected camera sold in India, and from April 2026 it effectively banned non-certified Chinese cameras and Chinese semiconductors in them. Roughly 35% of the market that belonged to Chinese brands is suddenly up for grabs, and CP Plus, having already shifted its supply chain to Taiwan and the US, is the obvious taker. Its share has climbed to ~45%. That is the bet: the organized domestic leader eating a third of the market that regulation just took away from its cheapest competitors, while it deepens margins by making more of the camera itself.
+
+### Strengths
+
+- **Market leadership with a widening regulatory moat.** ~45% brand share in a market where the #2-#5 were mostly Chinese imports now being certified out. The STQC mandate is a compliance wall that favors the player who already localized — this is the Kamayaka "consolidation trigger" in its textbook form: the unorganized/Chinese cost advantage evaporates once compliance is forced.
+- **Real, accelerating growth.** FY26 revenue ₹4,221 Cr (+35.6% YoY), EBITDA ₹579 Cr (+124%), PAT ₹368 Cr (+166%). The quarterly ramp is sequential and clean: Q1 ₹740 Cr / ₹33 Cr PAT → Q2 ₹920/70 → Q3 ₹1,139/96 → Q4 ₹1,422/169. Management guides FY27 revenue to ₹6,000-6,500 Cr (~50% growth) at 8.5-9.5% PAT margin.
+- **High returns on capital.** 3-year ROCE 28%, ROE 25% — this is a business that genuinely compounds capital, not a low-return volume machine.
+- **Aligned promoter, low leverage.** Promoter holding 74.7%, no pledge flagged; borrowings ₹256 Cr against ~₹580 Cr EBITDA, interest cover ~16x.
+- **Backward integration in motion (margin runway).** New enclosures plant at Kadapa (AP, live mid-2026), a lens assembly line scaling 300k→1M units/month, an Orient Cables JV for CCTV cable (Rajasthan, H1 FY27), and a Taiwan R&D unit — each moves a bought-in component in-house, which is where the EBITDA-margin guidance to 14-15% comes from.
+
+### Concerns
+
+- **Cash conversion is the real flag.** FY26 operating cash flow was ₹13 Cr against ₹368 Cr of net profit — a 3.5% conversion. The cause is a working-capital build funding the growth: debtor days 121, inventory days 134 (payables 194 partly offset it, net working-capital 74 days, cash-conversion-cycle 61). Selling through thousands of distributors on credit while stocking ahead of the China-ban demand is a plausible, even expected, reason to tie up cash in a hypergrowth year. But "plausible" is not "proven." Profit that never becomes cash is the single most common way Indian mid-caps disappoint, and at 113x earnings there is zero room for it to be structural rather than temporary. This is the gating condition, not a footnote.
+- **Priced for flawless execution.** 113x trailing earnings, 22.5x book. Even on management's own aggressive FY27 guide (~₹580 Cr PAT) the forward multiple is ~72x. The stock has already run ~5x from its ₹675 IPO issue price (Aug 2025) — you would be paying today for two-plus years of perfect delivery.
+- **One year of listed history.** IPO'd August 2025. There is no multi-year public track record of the management delivering against guidance through a full cycle, and the WC-heavy cash profile is exactly the thing a longer record would let you judge.
+- **Hardware commoditizes.** Cameras are ultimately electronics assembly. The moat today is distribution + certification + brand, not a patent. If the certification barrier is diluted, or a domestic competitor scales certified product, the pricing power thins. The software/VMS and services layer is where durable margin has to come from over 5+ years — watch whether the mix shifts that way.
+
+### Margin of Safety
+
+- Base case fair value (today): **~₹2,100** | Bear case: **~₹1,100** | CMP: **₹3,534**
+- Margin of safety at CMP: (2,100 − 3,534) / 2,100 = **−68%** — i.e. the stock trades ~68% *above* base-case fair value. There is no margin of safety; you are paying a large premium to intrinsic value.
+- Downside if wrong (to bear): (3,534 − 1,100) / 3,534 = **−69%**
+- Asymmetry at CMP: the shape is inverted — large downside, little upside to fair value. This fails every threshold. It only becomes a good bet after a substantial de-rate.
+- **Buy zone:** ₹1,900-2,000 gives ~5-10% discount to base-case fair value (Grade B wants 20-35%, so this is the *upper* edge — justified only if the cash-conversion concern has cleared, which is why the entry is gated, not just priced).
+
+**The math, shown:** FY27 PAT ~₹580 Cr (management guide) → assume FY28 +30% ≈ ₹750 Cr. A 30%+ grower with 28% ROCE deserves ~40-45x forward *if* cash conversion is clean; at 42x, FY28E value ≈ ₹31,500 Cr ≈ ₹2,670/share on ~11.8 Cr shares. Discount back two years at 13% → **~₹2,090 today**. Bear case: growth halves to 15% and the multiple compresses to 25x on a cash-flow scare → ~₹1,100. The base case itself sits below today's price — that is the whole point.
+
+### The compounding equation
+
+ROCE ~28% on heavy reinvestment (backward-integration capex plus working capital) is a real engine — a rupee retained here earns ~28 paise. The fuel is the China-displacement share gain layered on a structurally under-penetrated market (India installs far fewer cameras per capita than China or the West, and the base keeps rising with formalization, smart-city and retail build-out). The runway is 7-10 years if CP Plus holds share and moves up the value chain into software and services. The one crack in the engine is that in FY26 the reinvestment showed up as receivables and inventory rather than plant — capital that has to convert back to cash to count as compounding rather than leakage.
+
+### What does the market think — and where do I disagree?
+
+At ₹3,534 / 113x trailing, a reverse-DCF (13% cost of equity, 30x terminal, 8-year runway) implies roughly 35%+ earnings CAGR sustained for the better part of a decade — essentially that management hits its ~50% FY27 guide and then keeps compounding in the 30s. That is not impossible given the regulatory tailwind, but it is priced as the base case with no discount for the cash-flow question or the single year of listed history. My disagreement isn't with the direction — the business is genuinely good and the trigger is real — it's with paying full price for a decade of perfection while the cash statement is flashing. The gap between "great business" and "great investment at ₹3,534" is the entire thesis.
+
+### Growth Trigger Scan
+
+Three of the six fire simultaneously, which is unusual: **Regulatory tailwind** (STQC mandate + Chinese-camera ban — the single biggest driver), **Consolidation** (organized leader absorbing ~35% Chinese share as compliance forces it out), and **Capacity expansion / backward integration** (Kadapa, lens line, cable JV → margin and supply-chain control). Operating leverage is visible too (EBITDA +124% on revenue +36%). This is the strongest trigger stack in the batch of names screened this month — which is precisely why the market has already paid for it.
+
+### When do I buy / when do I sell?
+
+- **Buy** only if BOTH: price in ₹1,900-2,000, AND two consecutive quarters with OCF/PAT recovering above 0.5 (proof the WC build was a growth artifact, not a leak).
+- **Do not buy** on the guidance beat alone — a beat at 113x changes nothing about the asymmetry.
+- Recompute the trigger after each quarterly print; if cash conversion stays broken for FY27, this moves from BUY-AT to AVOID regardless of price.
+
+### Where does this rank?
+
+Against the portfolio, this is a better *business* than most watchlist names but the worst *entry* — there is nothing to do at ₹3,534. It ranks below the current buy-at names (PPAP, Krishna Defence) purely on price: those have defined asymmetry today; this has none until it de-rates. Keep it as the highest-quality name on the watch bench, not a live use of capital.
+
+---
+
+## Detailed Analysis
+
+### 1. Business summary
+
+Aditya Infotech Ltd designs, manufactures (partly in-house, partly assembled) and distributes video-security products — cameras, NVR/DVR recorders, and video-management software — under the CP Plus brand, plus enterprise surveillance solutions and services. Revenue is overwhelmingly hardware sold through a large system-integrator/distributor channel across India, with a growing software and solutions layer. FY26 revenue ₹4,221 Cr, PAT ₹368 Cr, PAT margin 8.7%. Listed on NSE/BSE August 2025 (IPO band ₹640-675, ~100x subscribed).
+
+### 2. Quality score (16/25 — Grade B)
+
+| Dimension | Score | Note |
+|---|---|---|
+| Business model / moat | 4 | #1 brand, ~45% share, certification + distribution moat; hardware commoditization caps it |
+| Compounding engine (ROIC) | 4 | ROCE 28%, ROE 25% — genuine; docked because FY26 returns didn't convert to cash |
+| Reinvestment runway | 4 | Under-penetrated market + China displacement + value-chain climb; 7-10 yr runway |
+| Management / governance | 2.5 | Promoter 74.7% aligned, but one year listed and WC-aggressive; guidance track record unproven |
+| Financial quality | 1.5 | The OCF/PAT = 3.5% flag; low debt is the offset |
+
+### 3. The cash-conversion question (the crux)
+
+Everything about this name reduces to one number. FY26: PAT ₹368 Cr, operating cash flow ₹13 Cr. In a hypergrowth year (+36% revenue), a company that sells on 121-day credit and holds 134 days of inventory will consume cash — it is stocking ahead of the China-ban demand and financing a growing distributor book. Payables of 194 days offset a lot (net WC 74 days, CCC 61). The benign read: this is a working-capital build that reverses as growth normalizes, and cash floods in once revenue stops accelerating. The malign read: channel-stuffing or receivables that don't collect, which would show up as debtor days climbing further and eventual write-offs. You cannot tell which from one year of data. The discipline: demand two quarters of OCF/PAT > 0.5 before paying any premium. This is why the recommendation is gated, not merely price-pending.
+
+### 4. Competitive landscape
+
+CP Plus vs (a) the exiting Chinese brands (Hikvision, Dahua) whose certified/non-Chinese-semiconductor compliance is now the barrier; (b) D-Link India — the "AIL vs D-Link" comparison from the source thread — a networking/surveillance player but sub-scale in cameras; (c) domestic peers (Secureye, Prama/Hikvision-JV, CP Plus's own private-label competitors). CP Plus's edge is scale, the integrator network, and being furthest along on domestic manufacturing + non-Chinese sourcing. The risk is that the same regulation that helps it also invites other domestic players to certify and scale.
+
+### 5. Valuation
+
+Trailing: P/E 113, P/B 22.5, EV/EBITDA ~72x. Forward on management's FY27 guide (₹6,000-6,500 Cr revenue, ~9% PAT margin → ~₹580 Cr PAT): P/E ~72x. See Summary "the math, shown" for the base/bear derivation → fair value ~₹2,100 today, bear ~₹1,100, buy zone ₹1,900-2,000 gated on cash conversion.
+
+### 6. Risks / exit triggers
+
+- Cash conversion stays below 0.5 OCF/PAT for FY27 → thesis breaks; move to AVOID.
+- Debtor days rise above ~140 or a receivables write-off → structural quality problem confirmed.
+- Certification barrier diluted or a domestic competitor scales certified product → moat thins.
+- Any promoter selling beyond IPO-lock normalization, or governance/related-party surprises in the first full annual report as a listed company.
+
+### 7. Review schedule
+
+Re-run after each quarterly result (next: Q1 FY27), specifically tracking OCF/PAT, debtor/inventory days, and revenue vs the ₹6,000-6,500 Cr guide. Recompute the BUY-AT trigger each time.
+
+### Decision history
+
+- 2026-07-21 — Initiated coverage from a WhatsApp idea-thread screen (source: chat with Yash, "Aditya Infotech (AIL) vs Dlink", 02 Jul 2026). Verdict: BUY AT ₹1,900-2,000 gated on cash-conversion recovery; AVOID at CMP ₹3,534. Data from Screener.in + FY26 results/concall coverage.
+
+### Research log
+
+**2026-07-21 — Initiation.** CP Plus / Aditya Infotech surfaced in the monthly idea thread. Screener pull: CMP ₹3,534, mcap ₹41,654 Cr, P/E 113, P/B 22.5, ROCE(3y) 28%, ROE 25%, FY26 revenue ₹4,221 Cr (+35.6%), EBITDA ₹579 Cr, PAT ₹368 Cr (+166%), OPM ~13.7%, borrowings ₹256 Cr, promoter 74.7%. Quarterly FY26: 740/33, 920/70, 1,139/96, 1,422/169. WC: debtor 121d, inventory 134d, payable 194d, WC 74d, CCC 61d. **OCF ₹13 Cr vs PAT ₹368 Cr = 3.5% — the gating flag.** Tailwind: STQC/IoT certification mandate (Apr-2025) + non-certified Chinese camera / Chinese-semiconductor ban (Apr-2026); ~35% Chinese market share displaced; CP Plus share ~45%, supply chain moved to Taiwan/US. Capex: Kadapa enclosures plant (mid-2026), lens line (300k→1M/mo), Orient Cables JV (CCTV cable, Rajasthan H1 FY27), Taiwan R&D sub. FY27 guide: revenue ₹6,000-6,500 Cr, EBITDA margin 14-15%, PAT margin 8.5-9.5%. Conclusion: best business of the month's screen, strongest trigger stack, but no margin of safety at 113x and a cash-conversion flag that must clear first. BUY AT ₹1,900-2,000 gated on two quarters of OCF/PAT > 0.5.
