@@ -20,11 +20,7 @@ These patterns leak in from training data and make analysis read like a template
 
 ## Voice pass — run before finalising any research file
 
-After drafting, re-read every prose section and ask:
-1. Does any sentence exist purely for rhythm or punchline? Cut it.
-2. Do I use "bull case / bear case / the setup / the thesis is" as a label inside paragraphs? Rewrite without the scaffolding.
-3. Are there comma-strung lists pretending to be sentences? Convert to flowing argument.
-4. Could a paragraph be replaced by bullets without losing anything? If yes, the prose isn't carrying its weight — make it earn its place or convert to bullets honestly.
+Run the `no-ai-slop` skill in detect mode on every new or updated prose section and fix the flagged patterns before finalising. The skill (`.claude/skills/no-ai-slop/SKILL.md`) absorbs this rule's voice checks as "House patterns" and adds mechanical ones (banned words, weasel attribution, faux-insight setups, em-dash density, fragment stacking). Check the result against its `eval.md`.
 
 Tables, data, framework checks, and structural sections are unchanged by the voice pass.
 

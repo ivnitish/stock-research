@@ -3,6 +3,18 @@
 
 ---
 
+## ✅ Completed — 2026-07-25 — no-ai-slop skill installed + wired into research workflow
+
+User asked to test [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) for reducing AI patterns in our writing. Tested in detect mode on `research/KRSNAA.md` (freshest note, written before the skill existed) — it caught 8 real pattern classes including one unverifiable claim ("not baked into any sell-side model" — we read zero sell-side models) that had slipped past the no-fabricated-data rule. User approved full adoption.
+
+- **Installed `.claude/skills/no-ai-slop/`** (SKILL.md + eval.md, MIT, source repo cloned to /tmp). Two house adaptations marked inline: (1) edit mode on already-reviewed `research/*.md` requires user approval per no-structural-changes rule — detect mode always allowed; (2) weasel attribution is the prose-level enforcement of no-fabricated-data. Appended a "House patterns" section absorbing the five checks from `.claude/rules/writing-quality.md` that the original skill lacked: scaffolding labels in prose, mid-document editorial one-liners, lists-disguised-as-sentences, bullet-storms, narrative-over-formula.
+- **`writing-quality.md` voice pass rewritten** — the 4-question checklist replaced by "run no-ai-slop in detect mode on every new/updated prose section, check against its eval.md" (the 4 questions now live in the skill's House patterns).
+- **`stock-research/SKILL.md` wired** — rule 6 now mandates a no-ai-slop detect pass on EVERY prose section (summary verdict, bull/bear, stress test, peer-lens conclusions, recommendation, research log — user directive: not just bull/bear); only tables, data blocks, and framework checklists exempt. New checklist line added.
+- **KRSNAA.md voice pass applied (user-approved edits):** cut the unverifiable sell-side claim, two faux-insight setups ("most investors underappreciate", "most analyst notes ignore"), two aphorism kickers ("Deep value is not the same as cheap", "That gap is the alpha"), one throat-clearing opener, merged stacked fragments, thinned the header em-dash cluster, converted the bold triple ("Five triggers active, one ambiguous, zero disqualifying") to a plain sentence. Zero numbers, tables, or verdicts changed. Update History row added. HTML re-rendered, index rebuilt (104 notes).
+- **Kept borderline lines by design:** the opener "Krsnaa is not a private urban diagnostics chain; it's the largest PPP player" stays — the binary contrast IS the thesis, and the skill's own principles say keep contrasts that correct the reader's wrong assumption.
+
+---
+
 ## ✅ Completed — 2026-07-25 — KRSNAA new deep-dive + KELTECH update + STLTECH Q1 FY27 upgrade
 
 - **KRSNAA (Krsnaa Diagnostics) — new file, BUY REDUCED 3-5% at CMP ₹541.** India's largest PPP-model diagnostics chain (190 CT/MRI, 140 labs, 4,000 PCC across 18 states). Munger 15/25 (B). Price-business disconnect: stock down 39% from 52w high while FY26 EPS grew 31%. FY26 CFO ₹143 Cr vs PAT ₹101 Cr = **141% cash conversion**. OPM 27% Metropolis-tier; ROCE 12.7% depressed by ₹500 Cr FY27 capex. Trades at 65% discount to Dr Lal/Metropolis/Thyrocare (P/E 17.4 vs peer median 50). Two concerns cap position: promoter only 27.11% (borderline framework threshold) and PPP receivables at 140 debtor days (govt payment risk). Rajasthan guidance cut (₹200-250 Cr → ₹100-150 Cr) explains most of the price fall. Add path to 8-10% on Q1 FY27 delivery (revenue ≥15% YoY, OPM ≥25%, receivables ≤145 days). Not a >15% core due to promoter + PPP structural caps. PDF sent to Telegram.

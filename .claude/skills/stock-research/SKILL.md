@@ -29,7 +29,7 @@ Institutional-quality, Munger-philosophy research for stocks. Combines:
 3. **Never use Yahoo Finance for Indian CMP.** It shows US-session delayed prices, off by 10-15%.
 4. **Every number must carry an inline source tag** `[Source: URL, date]`.
 5. If a number cannot be sourced after 2 attempts, write "data unavailable" — never estimate.
-6. **Writing quality:** Bull/bear/compounding sections must read as analyst narratives — weave numbers into cause-effect explanations, not formulaic template-filling.
+6. **Writing quality:** Bull/bear/compounding sections must read as analyst narratives — weave numbers into cause-effect explanations, not formulaic template-filling. Before finalising, run the `no-ai-slop` skill in detect mode on EVERY prose section of the file — summary verdict, bull/bear, second-order stress test, peer-lens conclusions, recommendation, research log — and fix flagged patterns (`.claude/skills/no-ai-slop/SKILL.md`). Only tables, data blocks, and framework checklists are exempt.
 7. **Recommendations carry prices, never "tracking".** The allowed set is BUY / BUY REDUCED / BUY AT ₹X / HOLD / TRIM / EXIT / SPECULATIVE / AVOID (see CLAUDE.md Phase 5.3). TRACKING POSITION and bare WATCHLIST are not recommendations.
 
 ---
@@ -206,6 +206,7 @@ Save to `research/[TICKER].md` using `research/_TEMPLATE.md` as structural guide
 - [ ] Bull/Base/Bear scenarios present
 - [ ] Research log entry with today's date added
 - [ ] Bull/bear sections read as narratives, not formula-filling
+- [ ] `no-ai-slop` detect pass run on every prose section of the file (not just bull/bear), flags fixed
 - [ ] Second-order stress test completed (5-Whys + world-state at 2 and 5 years)
 - [ ] 3-year segment revenue CAGR computed separately from consolidated headline (Pattern 6)
 - [ ] 5-year promoter holding trajectory reviewed; movements >2% reconciled with stated reason
