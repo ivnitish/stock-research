@@ -18,6 +18,19 @@ Ran the morning-news skill in full mode from `data/daily_inputs/2026-07-24.md` (
 
 ---
 
+## ✅ Completed — 2026-07-24 — GMR Airports + MPS Ltd research (subagent-driven) + Telegram PDFs
+
+User asked for full research on GMRAIRPORT and MPSLTD "using subagents." Dispatched two parallel `general-purpose` research subagents (each told to invoke the stock-research skill, follow CLAUDE.md, and match the CPPLUS.md format). Both subagents *completed* full, high-quality notes but their task notifications reported "failed" — the platform session-limit API error (resets 4:50pm IST) fired on a trailing tool call after each file was already written and rendered. Verified both files, corrected them, and centralized the index/PDF/commit steps in the main session.
+
+- **`research/GMRAIRPORT.md`** — **BUY AT ₹90** (0% now); **AVOID at CMP ₹107**. Grade B (15/25). India's largest airport monopoly (Delhi/Hyderabad/Goa, ~27% of national traffic) but negative-equity balance sheet (₹38k+ Cr debt, interest ₹3.7k Cr, ROCE 6–7%), ~28–40x EV/EBITDA — an EV/EBITDA + deleveraging story, no margin of safety at CMP. Independently confirmed the checkable figures (TTM rev ₹14,807 Cr, PAT ₹472 Cr, book −₹2.35, shareholding) against Screener; added a data-verification note flagging subagent-sourced forward/event specifics (FY26 EBITDA, JM target, TDSAT order, ADP stake sale, ROCE 11.6% vs Screener's ~6–7%) to re-confirm before any live buy.
+- **`research/MPSLTD.md`** — **BUY AT ₹2,250** (aggressive add <₹2,000); **AVOID at CMP ₹2,643** after a +42% July spike. Grade B (18/25). Elite asset-light publishing-tech compounder (ROCE 39%, ROE 31%, near debt-free, ~3% yield) but growth is M&A-and-margin-led, not organic reinvestment; generative-AI on the ~60% content-production revenue is the swing risk. Every checkable fundamental matched my own Screener pull.
+- **Parser fix:** GMR first bucketed "unclassified" — its recommendation line used double-bold `**BUY AT ₹90**`, which collides with `build_site_index.py`'s `**Recommendation:**` regex (captures an empty string). Changed to single-bold; both now bucket correctly as **Buy-at** with triggers parsed (GMR ₹90, MPS ₹2,250) and both price from bhavcopy. Index now 103 notes.
+- Rendered both to HTML, generated individual PDFs (Chrome print-to-pdf), and DM'd both to Telegram with an intro + per-file captions.
+
+**Note on subagents + session limit:** parallel subagents hit the usage session cap almost immediately (they front-load reads). For token-heavy multi-agent work, either run them sequentially or during a fresh session window. The main-loop had budget, so the fallback was to verify/finish their output inline.
+
+---
+
 ## ✅ Completed — 2026-07-24 — WhatsApp idea-thread screen (5 names) + Telegram PDF
 
 Answered "did you generate research for this?" — the month's WhatsApp idea thread (`/Users/nitish/Downloads/_chat.txt`) surfaced five names. Wrote a research note for each, rebuilt the index, and DM'd a one-page PDF summary to Telegram.
