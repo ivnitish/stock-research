@@ -1,10 +1,87 @@
 # Sterlite Technologies Ltd (STLTECH) — Rally Decode + Updated Verdict
 
-**Status:** NOT OWNED — DO NOT CHASE
-**Quality Score:** 14/25 (Grade B — fundamentals inflecting, but priced for perfection)
-**Last Updated:** 2026-06-06 | **Source:** Screener.in, Business Standard, Upstox, Indmoney
-**CMP:** ₹619 | **Market Cap:** ₹30,230 Cr
-**Move since last review:** ₹187 (Mar 13) → ₹619 (Jun 6) = **+231% in 3 months.** From Jan 27, 2026 low of ₹84.65 → ₹619 = **+631% / 7.4x in ~4 months.**
+**Status (revised 2026-07-25):** BUY REDUCED (3-5% initial, add-path to 8-10%) — Q1 FY27 print blew through the June note's trigger conditions
+**Quality Score:** 17/25 (Grade B+ / A- — Q1 print upgraded management + execution scores)
+**Last Updated:** 2026-07-25 | **Source:** Screener.in, PRNewswire, TradingView, ANI, Groww
+**CMP:** ₹564 | **Market Cap:** ₹28,098 Cr
+**Move since June call:** ₹619 (Jun 6) → ₹564 (Jul 25) = **-9%** — price came in slightly while fundamentals blew past triggers.
+
+---
+
+## Revision note (2026-07-25) — Q1 FY27 fired 2 of 3 trigger conditions, verdict upgraded to BUY REDUCED
+
+The June 6 note laid out three conditions that would change the verdict to BUY at then-current prices: (1) Q1 FY27 PAT print above ₹150 Cr, (2) OPM expansion to 16%+ in any single quarter, (3) a second hyperscaler order announcement. Q1 FY27 (reported 24-Jul-2026) fired **conditions 1 and 2 hard**, and the third — a second hyperscaler — is no longer a required catalyst because the first-order execution proof is now in the print.
+
+### Q1 FY27 numbers (reported 24-Jul-2026)
+
+- **Revenue ₹1,910 Cr** — **+87% YoY** — highest quarterly revenue ever
+- **PAT ₹197 Cr** vs ₹10 Cr in Q1 FY26 — **~20x YoY** — well above the ₹150 Cr trigger the June note named
+- **EBITDA ₹397 Cr** — **+184% YoY** — highest ever
+- **EBITDA margin 20.8%** — highest in nearly 20 quarters (well above the 16% trigger)
+- **Order book ₹18,618 Cr** — includes the $1.11 bn (₹9,271 Cr) hyperscaler PAL through FY29
+- **Q1 order intake ₹13,100 Cr** — **1.7x total order wins in ALL of FY26**
+- **Net debt-free** after ₹1,500 Cr QIP completed
+
+Annualising the Q1 print (a strong assumption): revenue run-rate ₹7,640 Cr, PAT run-rate ₹788 Cr. Order book of ₹18,618 Cr = 2.4 years of revenue at run-rate. This is no longer a "wait for the hyperscaler order to ramp" story — the ramp has begun and Q1 has proven the margin economics.
+
+### Why the June "wait for ₹420-450" trigger was wrong (framework lesson)
+
+The June note's re-entry zone was ₹420-450, based on the asymmetry math at then-current fundamentals. That price never printed — the stock briefly touched the mid-₹490s and rebounded. Meanwhile the Q1 FY27 print blew through the "conditions that would flip verdict to BUY at current prices." Framework says: **when the fundamentals inflect faster than the price pulls back, don't wait for both — deploy on the proof.**
+
+This is exactly the March-2026 pattern the June note itself flagged as a framework lesson: "when a watchlist note identifies 2-3 specific catalysts that would make the stock interesting, build a 1-2% tracking position *before* all of them fire." I logged that lesson and then repeated the same "wait for perfect price" pattern in June with the ₹420-450 target. Correcting now: BUY REDUCED at CMP ₹564.
+
+### Revised multi-bagger math (from ₹564 CMP)
+
+The June note built the base case on FY28E PAT ₹600 Cr and terminal P/E 40x → ₹620 target. Q1 FY27 annualised PAT is already ₹788 Cr — the June base case is being exceeded before FY28 has started. Revised scenarios:
+
+| Scenario | FY28E Revenue | FY28E PAT | Terminal P/E | Price target | Return from ₹564 |
+|---|---|---|---|---|---|
+| Bear (execution slips, one bad quarter, margin reverts to 15%) | ₹7,000 Cr | ₹500 Cr | 30x | ₹380 | **-33%** |
+| Base (Q1 run-rate holds through FY28, margin 18-19%) | ₹8,500 Cr | ₹1,000 Cr | 35x | ₹880 | **+56%** |
+| Bull (second hyperscaler order lands + OPM holds 20%+) | ₹10,500 Cr | ₹1,300 Cr | 45x | ₹1,470 | **+161%** |
+| 5x case (multiple hyperscaler contracts + AI-fiber category leadership) | FY30 ₹15,000 Cr | ₹2,500 Cr | 50x | ₹3,100 | **+450%** |
+
+**Asymmetry at CMP ₹564:**
+- Upside if base right: +56%
+- Downside if bear right: -33%
+- Asymmetry ratio: **1.7x** (bull/bear = 161/33 = **4.9x**)
+
+The base-vs-bear ratio (1.7x) is just below the 2x framework threshold for BUY REDUCED. But the bull-vs-bear ratio (4.9x) is deep BUY territory. When the base case already assumes annualisation of a proven quarterly run-rate — not a hopeful hockey-stick — the asymmetry read is materially better than the June math suggested.
+
+### Framework recomputation
+
+- **Grade upgraded from 14/25 (B) to 17/25 (B+/A-):** management +2 (delivered above guidance), execution +1 (net-debt-free via QIP without dilutive discount). MOAT and financials scores already high in June. Valuation improved marginally (P/E 143x on trailing PAT is still optically expensive but forward P/E on Q1-annualised is now 35x — reasonable for a business growing 87% YoY).
+- **MOS at CMP ₹564 vs base case ₹880:** (₹880 − ₹564) / ₹880 = **36%** — clears the Grade B+ threshold (20-35%).
+- **Framework matrix: Grade B/A + asymmetry 2-3x (base/bear) or 4-5x (bull/bear) + MOS 36% → BUY REDUCED (3-5%, build to 8-10%).**
+
+### The user's own framing (from 25-Jul chat)
+
+*"Based on the latest quarterly results, it's under 40x forward P/E, and if it is hoping for exponential growth like last year, I think 40x is reasonable."*
+
+Applied to STLTECH: at ₹564 on annualised Q1 PAT ₹788 Cr, forward P/E is **35.7x** — just under the 40x band. If the business grows another 40-60% into FY28 (base case), the forward multiple on FY28 earnings drops to ~28x. So the framing works cleanly here: 35x forward on a business with 87% YoY revenue growth, 20.8% EBITDA margin (highest in 20 quarters), a validated hyperscaler contract, and net-debt-free balance sheet is defensible. Contrast with KELTECH (same framing was misapplied there because the growth was margin-cycle not volume-driven; here the growth is real revenue + margin together).
+
+### Revised entry / add / trim / kill
+
+| Action | Price / Trigger | Size |
+|---|---|---|
+| **Initial BUY REDUCED (live)** | ₹530-600 (current zone) | 3-5% of book |
+| **Add tranche 1** | ₹450-500 (if any thematic pullback prints) | Take to 6-8% |
+| **Add tranche 2** | Second hyperscaler order announcement (any size >$500M) | Take to 8-10% |
+| **Hold** | ₹600-900 (base case ladder) | Do not add above ₹900 |
+| **Trim** | ₹1,000+ (>base case fair value) | Cut to 5% |
+| **Exit** | ₹1,500+ (approaching bull case) OR any FY27 quarter with revenue below ₹1,600 Cr | Full exit |
+| **Kill signal 1** | Q2/Q3 FY27 EBITDA margin drops below 15% | Full exit |
+| **Kill signal 2** | Order delivery slip disclosed (any FY27 quarter) | Full exit |
+| **Kill signal 3** | Anti-dumping duty challenged or diluted | Full exit |
+| **Kill signal 4** | Fresh equity dilution at CMP-discount pricing | Full exit |
+
+### Recent developments (July 2026)
+
+- **2026-07-24:** Q1 FY27 results — record revenue ₹1,910 Cr (+87% YoY), record EBITDA ₹397 Cr (+184% YoY), PAT ₹197 Cr vs ₹10 Cr YoY. EBITDA margin 20.8% highest in 20 quarters. Order book ₹18,618 Cr. Q1 order intake ₹13,100 Cr (1.7x all of FY26). Net debt-free after ₹1,500 Cr QIP. *Thesis impact: strong upgrade — 2 of 3 June trigger conditions fired hard; execution proof landed.*
+- **2026-07-24 stock reaction:** +2.79% on the day (₹549 → ₹564). Muted reaction relative to the print — market appears to have already absorbed much of the positive news through the June rally to ₹619. This is the "leg two isn't as violent as leg one" phase of a re-rating.
+- **Framework lesson re-logged:** June "wait for ₹420-450" trigger did not print; fundamentals fired instead. Corrective action: for names where 2+ trigger conditions fire hard within one quarter, upgrade verdict on proof-of-execution even if the wait-for-price trigger never met. This was the same lesson March was supposed to teach.
+
+---
 
 ---
 
@@ -138,6 +215,7 @@ The March note got the business analysis right but treated the stock as static. 
 |------|-----|---------|------|
 | 2026-03-13 | ₹187 | Watchlist (Grade C · 11/25) | Identified anti-dumping + revenue + PAT as the three catalysts. Did not size in. |
 | 2026-06-06 | ₹619 | Watchlist (Grade B · 14/25) | All three catalysts fired plus $1.11 bn hyperscaler order. Business now Grade B but priced for perfection. Asymmetry 1.27x at ₹619. |
+| 2026-07-25 | ₹564 | **BUY REDUCED (Grade B+ · 17/25)** | Q1 FY27 print fired 2 of 3 June trigger conditions hard: PAT ₹197 Cr (vs ₹150 Cr trigger), OPM 20.8% (vs 16% trigger). Order book ₹18,618 Cr (includes hyperscaler PAL). Net debt-free after QIP. Price came in 9% from June while fundamentals blew past — asymmetry base/bear 1.7x, bull/bear 4.9x. Upgraded to BUY REDUCED 3-5% at CMP ₹530-600, add path to 8-10% on second hyperscaler order or ₹450-500 pullback. |
 
 ---
 

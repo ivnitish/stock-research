@@ -1,5 +1,19 @@
 # Research System — TODO
-*Last updated: 2026-07-24*
+*Last updated: 2026-07-25*
+
+---
+
+## ✅ Completed — 2026-07-25 — KRSNAA new deep-dive + KELTECH update + STLTECH Q1 FY27 upgrade
+
+- **KRSNAA (Krsnaa Diagnostics) — new file, BUY REDUCED 3-5% at CMP ₹541.** India's largest PPP-model diagnostics chain (190 CT/MRI, 140 labs, 4,000 PCC across 18 states). Munger 15/25 (B). Price-business disconnect: stock down 39% from 52w high while FY26 EPS grew 31%. FY26 CFO ₹143 Cr vs PAT ₹101 Cr = **141% cash conversion**. OPM 27% Metropolis-tier; ROCE 12.7% depressed by ₹500 Cr FY27 capex. Trades at 65% discount to Dr Lal/Metropolis/Thyrocare (P/E 17.4 vs peer median 50). Two concerns cap position: promoter only 27.11% (borderline framework threshold) and PPP receivables at 140 debtor days (govt payment risk). Rajasthan guidance cut (₹200-250 Cr → ₹100-150 Cr) explains most of the price fall. Add path to 8-10% on Q1 FY27 delivery (revenue ≥15% YoY, OPM ≥25%, receivables ≤145 days). Not a >15% core due to promoter + PPP structural caps. PDF sent to Telegram.
+
+- **KELTECH (Keltech Energies) — updated file, AVOID at CMP ₹7,872 (from ₹5,010 in June call — up 57% in 8 weeks).** Added revision note at top of existing 2026-06-01 note. Direct engagement with user's "40x forward P/E reasonable if it grows like last year" framing: trailing P/E is 27x not 40x; framing works only if 15% PAT growth is sustainable, but FY26 PAT growth was margin-cycle-driven (OPM 7% → 8%) on flat revenue (3Y sales CAGR **−2%**). No new fundamental disclosure since June — rally is illiquidity-driven retail momentum on defence-energetics theme, not fundamentally supported. Asymmetry at CMP: base/bear literally negative (CMP above base fair value ₹6,400); bull/bear 1.88x (still fails 2x threshold). Re-underwrite trigger: ₹5,000 or below + FY26 AR discloses defence sub-segment as material (>10% rev, >15% OPM). Otherwise indefinitely AVOID. Framework lesson logged: for names where wait-for-price trigger doesn't print, need explicit walk-away threshold — set at "P/E >25x on current disclosed business = walk away entirely." PDF sent to Telegram.
+
+- **STLTECH (Sterlite Technologies) — updated file, UPGRADED WATCHLIST → BUY REDUCED 3-5% at CMP ₹564.** Q1 FY27 (reported 24-Jul-2026) fired 2 of 3 June trigger conditions hard: PAT ₹197 Cr (vs ₹150 Cr trigger), EBITDA margin 20.8% (vs 16% trigger, highest in 20 quarters). Revenue ₹1,910 Cr +87% YoY. Order book ₹18,618 Cr (includes $1.11 bn hyperscaler PAL). Q1 order intake ₹13,100 Cr = 1.7x all of FY26. Net debt-free after ₹1,500 Cr QIP. Price came in 9% from June ₹619 → ₹564 while fundamentals blew past — asymmetry base/bear 1.7x, bull/bear 4.9x. Munger grade upgraded 14/25 → 17/25 (B+). Add path to 8-10% on second hyperscaler order OR ₹450-500 pullback. Framework lesson re-logged: when 2+ trigger conditions fire hard within one quarter, upgrade verdict on proof-of-execution even if wait-for-price target didn't hit. User's "40x forward reasonable" framing applies cleanly here (forward P/E 35.7x on Q1-annualised PAT with 87% YoY revenue growth). PDF sent to Telegram.
+
+- **Site index regenerated** via `scripts/build_site_index.py` (104 notes, 81 priced, 84 graded, 5 unclassified). All 3 files auto-appear in appropriate filter buckets.
+
+- **Framework note:** Direct engagement with user's own analytical framing ("40x forward P/E reasonable if it grows like last year") in two research files today — same framing produced OPPOSITE verdicts (STLTECH pass, KELTECH fail) because growth quality differs: STLTECH's is 87% real revenue growth with margin expansion; KELTECH's is 15% margin-cycle uptick on flat revenue. The lens is right but requires disaggregating volume-vs-margin drivers.
 
 ---
 
