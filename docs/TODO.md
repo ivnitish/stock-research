@@ -1,5 +1,18 @@
 # Research System — TODO
-*Last updated: 2026-07-25*
+*Last updated: 2026-08-01*
+
+---
+
+## ✅ Completed — 2026-08-01 — Research batch: CUMI, PROTEAN, Stovec, Triton Valves (+ KRSNAA refresh)
+
+User surfaced six names for research (Shemaroo already done → skipped). Dispatched four parallel research subagents (CUMI + PROTEAN detailed, Stovec + Triton short) with the full framework, anti-fabrication rule, and voice guide baked in; handled KRSNAA inline.
+
+- **CUMI.md (new, detailed)** — Carborundum Universal. **BUY AT ₹720 · Grade B (16/25)**, CMP ₹1,064. Quality compounder but overvalued at ~60x normalised earnings; FY26 profit collapse self-inflicted (winding up European/S.African subs + ~₹297 Cr trapped in sanctions-hit Russian VAW plant). Ceramics/SiC power-electronics runway is the growth option. Valued strictly on consolidated, normalised EPS ~₹17.
+- **PROTEAN.md (full rewrite; old note archived to `research/archive/PROTEAN_2026-08-01.md`)** — **BUY AT ₹340 · Grade C (14/25)**, CMP ₹616. Value-trap priced as turnaround; FY26 flattered by ~₹44 Cr one-time + PAN pull-forward, DIIs cut 51%→21%. Cash floor ~₹209/sh. Corrected old note's stale "3% sales CAGR" (actually 5y sales CAGR ~11%; profit CAGR ~3%).
+- **STOVEC.md (new, short)** — **AVOID · Grade D (8/25)**, CMP ₹1,700. Structural decay (OPM 20%→5%, PAT −82%) + SPGPrints parent RPT extraction; minorities voted down two parent resolutions at May-26 AGM (93.85% / 86.91% against). 59x on trough earnings, 0% institutional.
+- **TRITONVALVES.md (new, short)** — **AVOID at ₹1,033 · BUY AT ₹500 speculative · Grade C (11/25)**. 65-70% tyre-valve share but no pricing power (9% ROE); trades above base-case value at ~50x. Segment split undisclosed — flagged, not asserted.
+- **KRSNAA.md (inline refresh)** — no Q1 FY27 result yet; header refreshed (CMP ₹541→₹527, P/E 16.9, near 52w low ₹502), dated log entry added. Verdict unchanged: BUY REDUCED, Grade B (15/25). Mid-Aug Q1 print is the add trigger.
+- **Delivery:** all five rendered to HTML+PDF (`output/pdf/*_2026-08-01.pdf`), sent to Telegram, site index + portfolio page rebuilt (107 notes).
 
 ---
 

@@ -1,6 +1,6 @@
 # KRSNAA — Krsnaa Diagnostics Ltd
 
-**Verdict: BUY REDUCED (3-5% initial, add path to 8-10%)** | **Date: 2026-07-25** | **CMP: ₹541** | **MCap: ₹1,740 Cr** | **P/E: 17.4** | **Grade: B (15/25)**
+**Verdict: BUY REDUCED (3-5% initial, add path to 8-10%)** | **Date: 2026-08-01** | **CMP: ₹527** | **MCap: ₹1,711 Cr** | **P/E: 16.9** | **Grade: B (15/25)**
 
 India's largest PPP-model diagnostics chain — 190 CT/MRI centres, 140 pathology labs, 4,000+ patient collection centres, 1,500+ tele-radiology centres across 18 states, mostly run in partnership with state governments and municipal bodies rather than as private urban labs. FY26 delivered ₹773 Cr revenue (+8%), PAT ₹101 Cr (+31%), OPM 27%, and cash flow from operations of ₹143 Cr against PAT ₹101 Cr (141% cash conversion), meaning reported profits are fully backed by collected cash. The stock is down 39% from its 52-week high of ₹894 to ₹541 while EPS grew 31% — a genuine price-business disconnect that has compressed the multiple to P/E 17 for a healthcare compounder with 27% operating margins. Trades at less than half the multiple of private-lab peers (Dr Lal 45-55x, Metropolis 50-60x). Two real risks — low promoter holding (27.1%) and heavy government-receivables working capital (140 debtor days) — cap the position size and require ongoing verification.
 
@@ -203,6 +203,10 @@ Portfolio fit:
 - ICRA reaffirmation A/Stable and A1 on ₹304.15 Cr facilities (June 2026)
 
 ## Research Log
+
+**2026-08-01 — Price/data check (no new result)**
+
+Re-checked Screener consolidated. No Q1 FY27 result posted yet — most recent quarter on the page is still Q4 FY26 (Mar 2026): ₹193 Cr sales, 28% OPM, ₹42 Cr PAT, EPS ₹12.86. Shareholding unchanged from the last file (promoter 27.11%, DII 14.51%, FII 4.28% as of Jun 2026). Price has drifted from ₹541 to ₹527, now sitting just above the 52-week low of ₹502; P/E eased to 16.9. Thesis, grade, and price ladder unchanged — the load-bearing Q1 FY27 print (expected mid-Aug) is still the next decision point. **Changed:** header CMP/MCap/P/E/date only; no grade or recommendation change.
 
 **2026-07-25 — Initial deep-dive**
 
