@@ -1,5 +1,16 @@
 # Research System — TODO
-*Last updated: 2026-08-01*
+*Last updated: 2026-08-07*
+
+---
+
+## ✅ Completed — 2026-08-07 — RAIN Q2 CY2026 update
+
+Refreshed `research/RAIN.md` for the Q2 CY2026 print (board approved 6-Aug; quarter ended 30-Jun). CMP ₹197 (June) → ₹245.
+
+- **RAIN.md — WATCHLIST → BUY AT ₹170 · Grade C held (11/25)**, CMP ₹245. Q2 was the strongest of the recovery: adjusted EBITDA ₹994 Cr at 19.2% margin, adjusted PAT ₹317 Cr (+538% YoY), net-debt/EBITDA down to 2.8x. But the beat is Euro/USD + realisations, not volume — Carbon shipped 594kt vs 664kt (−10.5% YoY) — and absolute USD net debt rose ($837M→$892M), so the leverage-ratio improvement is EBITDA-driven, not paydown. Recovery leg now fully in the price: P/B re-rated 0.89x→1.10x, base FV ~₹285 (only +16%), bear floor ~₹160, MoS 14% vs 40% needed for Grade C. The ₹170 alert is where the 40% cushion, the rising 200-DMA (~₹135), and asymmetry >1.5x line up.
+- Updated every metric table (Q2 quarterly row, snapshot ratios, segment split, peer comp, valuation models, downside framework), stress-test market-label table, research log (2026-08-07 entry, June entry kept), decision history, review schedule (next check ~7-Nov Q3), update-history. Ran no-ai-slop detect pass on new prose (fixed a scaffolding label, a fragment, a duplicated aphorism).
+- Data note: BSE fetch script (`src/fetch_bse_filings.py`) has no RAIN mapping — Q2 numbers sourced from scanx.trade results release + Screener + Business Standard price. Reported (vs adjusted) Q2 PAT not separately available yet; all Q2 figures labelled adjusted.
+- Site index + portfolio page rebuilt (107 notes). *Not yet rendered to PDF / sent to Telegram — do if desired.*
 
 ---
 

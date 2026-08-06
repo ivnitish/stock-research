@@ -1,12 +1,13 @@
 # Rain Industries (RAIN) — Investment Thesis
 
-**Status:** WATCHLIST
+**Status:** BUY-AT ALERT
 **Quality Score:** 11/25 (Grade C)
-**Classification:** Cyclical Turnaround Near Peak — not a Multi-Bagger Candidate
-**Last Updated:** 2026-06-06 | **CMP:** ₹197.09 | **Entry:** Not held | **P&L:** —
+**Classification:** Cyclical Recovery, Fully Priced — not a Multi-Bagger Candidate
+**Last Updated:** 2026-08-07 | **CMP:** ₹245 | **Entry:** Not held | **P&L:** —
 
-> **Recommendation:** WATCHLIST (not a buy at ₹197).
-> Rain is a leveraged, cyclical carbon-products business (CPC and coal tar pitch for aluminium smelters) that has just had two clean quarters of recovery after a brutal three-year cycle low. The stock has already moved from ₹100 to ₹197 in three months — RSI 74.8, MFI 85.7, +45% above the 200-day moving average. The cyclical recovery is real but is now consensus, the balance sheet still carries net-debt-to-EBITDA above 3x with interest coverage of 1.5x, and the "AI/semiconductor exposure" being discussed is not a real exposure (see Deep Dive A below). Wait for either a 30%+ technical reset toward the 200-DMA at ₹136, or for the cycle thesis to break out of "recovery" into "structural rerating" via two more quarters of segment-level EBITDA holding above the 14% mark, with net-debt-to-EBITDA below 2.5x.
+> **Recommendation:** BUY AT ₹170 (0% now — standing price alert).
+> Rain is a leveraged, cyclical carbon-products business (calcined petroleum coke and coal tar pitch for aluminium smelters). The Q2 CY2026 print (released 6 Aug) was the strongest of the recovery — adjusted EBITDA ₹994 Cr at a 19% margin, adjusted PAT ₹317 Cr, net-debt-to-EBITDA down to 2.8x — but the beat was driven by a strong Euro/USD and higher realisations, not volume: Carbon shipped 594kt versus 664kt a year ago, a 10.5% volume decline. The same currency move that lifted revenue also inflated the reported rupee debt. The stock has run from ₹100 to ₹245 in seven months and sits at a fresh 52-week high, roughly 80% above its 200-day moving average — the recovery is now fully in the price. At ₹245 the margin of safety is ~14% against a base value near ₹285; a Grade C cyclical needs 40%. Wait for ₹170 — where the 40% cushion, the rising 200-DMA, and an asymmetry above 1.5x line up — or for two more quarters proving the 19% margin holds as the Euro tailwind fades. This is not, and has never been, the "AI/semiconductor" name it is sometimes marketed as (see Deep Dive A).
+> **Price ladder:** Buy/accumulate below ₹170 · Hold ₹170–₹285 · Trim/sell above ₹285 · Exit if Carbon EBITDA margin falls below 10% for two quarters or net-debt/EBITDA climbs back above 3.5x.
 
 ---
 
@@ -18,27 +19,29 @@ Rain Industries is the world's number-two producer of calcined petroleum coke (C
 
 ### Strengths
 
-- **Genuinely dominant position in a critical, irreplaceable input.** Rain Carbon is described in its own marketing as "the leading, single-point, global supplier of CPC and CTP" — and it operates 13 plants across 8 countries on 3 continents, with both CPC kilns and CTP distillation. No Indian competitor has anything close to this footprint. Closest pure-play peer Goa Carbon has ₹349 Cr market cap vs Rain's ₹6,629 Cr; closest US/global peers are private (Oxbow, Aminco).
-- **Cycle recovery is genuinely visible in the prints, not just guidance.** EBITDA margin printed 14% in Q2 2025, 14% in Q3, 12% in Q4, 15% in Q1 2026 — versus 6-10% through 2024. Q1 2026 PAT swung to +₹158 Cr from −₹115 Cr in Q1 2025. Net-debt/EBITDA fell from 3.9x to 3.2x year-on-year. India CPC plants are running at "optimum capacity following import relaxations" per Q1 2026 commentary.
-- **Promoter behaviour at this point of the cycle is constructive.** Promoter holding 41.35% as of March 2026 with **0% pledge** — a meaningful change from the historical pattern, where Jagan Mohan Reddy had at one point pledged a major portion of his stake. Promoter group entities Sujala Investments and Nivee Holdings made small open-market buys in March 2026. Not a "loading the truck" signal, but it's the right direction for a stock the market has spent three years writing off.
-- **No major debt wall until 2028.** Management has stated there are no significant term debt maturities until 2028, which removes the most acute refinancing risk in an environment where the business is still rebuilding earnings power.
+- **Genuinely dominant position in a critical, irreplaceable input.** Rain Carbon is described in its own marketing as "the leading, single-point, global supplier of CPC and CTP" — and it operates 13 plants across 8 countries on 3 continents, with both CPC kilns and CTP distillation. No Indian competitor has anything close to this footprint. Closest pure-play peer Goa Carbon has ₹349 Cr market cap vs Rain's ₹8,159 Cr; closest US/global peers are private (Oxbow, Aminco).
+- **Cycle recovery is genuinely visible in the prints, and Q2 CY2026 extended it.** Adjusted EBITDA margin printed 14% in Q2 2025, 14% in Q3, 12% in Q4, 16% in Q1 2026, and 19% in Q2 2026 (adj. EBITDA ₹994 Cr on ₹5,167 Cr revenue) — versus 6-10% through 2024. Q2 2026 adjusted PAT was ₹317 Cr, up 538% on ₹49.5 Cr a year ago. Net-debt/EBITDA fell to 2.8x from 3.21x — now under the 3x line that had defined the distress era. Interest coverage, crushed to 1.5x through the trough, has recovered toward ~3x on the trailing-twelve-month EBITDA base.
+- **The Advanced Materials segment is the quiet improvement.** Its EBITDA margin roughly doubled year-on-year (₹168 Cr EBITDA on ₹1,073 Cr revenue, ~16%, versus ~9% a year ago) — the specialty-chemicals side pulling its weight for the first time in years, which is a better-quality earnings source than the FX-and-price-driven Carbon jump.
+- **Promoter behaviour at this point of the cycle is constructive.** Promoter holding 41.35% with **0% pledge** — a meaningful change from the historical pattern, where Jagan Mohan Reddy had at one point pledged a major portion of his stake. Promoter group entities Sujala Investments and Nivee Holdings made small open-market buys in March 2026. The board declared an interim dividend of ₹1/share alongside Q2 (record date 14-Aug) — a small but real signal that cash generation is normalising.
+- **No major debt wall until 2028.** Management has stated there are no significant term debt maturities until 2028, which removes the most acute refinancing risk while the business rebuilds earnings power. Q2 liquidity was $313M ($172M cash + $141M undrawn credit).
 - **Pre-existing physical capability that the thesis depends on:** 2.4 million tonnes per annum of CPC capacity across India and the US, 1.1 million tonnes of CTP distillation in Belgium/Canada, 1.3 million tonnes of cement capacity in Andhra Pradesh, plus the CARBORES, CARBORES-P, LIONCOAT specialty chemicals know-how that drives the Advanced Materials segment. None of this depends on management building something new — it's all built and operating.
 
 ### Concerns
 
-- **The balance sheet is still the load-bearing risk.** Borrowings of ₹8,494 Cr against equity of ₹6,637 Cr (debt/equity ~1.28x), net debt/EBITDA 3.2x, interest coverage 1.5x — these are the numbers that killed the company's operating flexibility through 2022-2024. The 2025 recovery has improved them but not fixed them. If aluminium demand softens or GPC (raw material) availability tightens before debt comes down further, the same cycle dynamic repeats. The framework's Phase 0.2 capital structure threshold (D/E < 1.5x, interest coverage > 3x) explicitly fails here. Rain has been over this line for years — but it remains a live risk, not a healed one.
-- **Cycle position is no longer cheap.** The stock is up 100% from January and 38% in three months. RSI 74.8, MFI 85.7 — both well above the framework's "phase your entry" threshold of 80/70. Price is 45% above the 200-day SMA of ₹135.9. New 52-week high last week. Whatever the cycle does next, the easy money on the recovery print has been made. The market is now pricing in margin sustainability, not surprise.
+- **The Q2 beat was currency and price, not volume — and currency cuts both ways.** Carbon revenue rose 18% year-on-year while Carbon *volumes fell 10.5%* (594kt versus 664kt). The gap is a strong Euro and USD lifting the rupee value of overseas sales plus higher CPC/CTP realisations. The identical FX move inflated the rupee value of Rain Carbon's USD/EUR-denominated debt — gross borrowings on Screener show ₹9,824 Cr versus ₹8,494 Cr a year earlier, much of that increase translation rather than fresh borrowing. In USD terms net debt actually *rose* ($837M → $892M): the company did not pay debt down; the leverage ratio improved only because trailing EBITDA grew, and that reverses if the Euro or the cycle turns. The margin looks like durable earnings power but is really a currency print landing on a shrinking volume base.
+- **Cycle position is no longer cheap — the recovery is fully in the price.** The stock is up ~145% from ₹100 in January and sits at a fresh 52-week high near ₹245, roughly 80% above its 200-day moving average (~₹135, rising). It popped ~10% on the Q2 print. Whatever the cycle does next, the easy money on the recovery has been made. At ₹245 the market is pricing in margin sustainability at peak, not surprise.
+- **The balance sheet is better but still the load-bearing risk.** Net debt/EBITDA 2.8x, interest coverage recovered toward ~3x — genuine improvement, but both sit right at the framework's Phase 0.2 thresholds rather than comfortably past them, and the improvement rides on a TTM EBITDA that includes the FX-assisted Q2. If aluminium demand softens or GPC (raw material) availability tightens before debt comes down in absolute terms, the same cycle dynamic repeats. This is a healing balance sheet, not a healed one.
 - **Cyclical, commodity, single-end-market exposure.** 73% of revenue is calcined petroleum coke and coal tar pitch sold into aluminium smelters. Aluminium itself is cyclical; CPC supply is cyclical; GPC raw-material availability is cyclical. The business runs at 8% ROCE and 0.6% ROE at the bottom of its three-year window. Five-year revenue CAGR is 10%; five-year profit CAGR is **−40%**. This is not a compounder by any honest reading.
 - **The "AI/semiconductor exposure" is mostly storytelling.** The only AI/semi-adjacent angle is a $2.2 million, 24-month R&D joint development agreement with Northern Graphite (announced October 2024) for natural-graphite battery anode material — venture-stage optionality on a tiny base, no revenue today, no production commitment. Rain does not make semiconductor-grade synthetic graphite. The user is right to be cautious about this framing — see Deep Dive A below for the full debunk.
 - **Three-year track record argues against multi-bagger framing.** Net profit was −₹450 Cr in calendar 2024. ROE has been negative on a 3-year average. EPS is barely positive on TTM basis. A multi-bagger needs sustained 20%+ ROIC; Rain has earned that intermittently across cycles, but the cycle volatility is structural to the input-commodity business model.
 
 ### How does this actually compound? (one-line summary; full breakdown in Section 3 below)
 
-It doesn't compound in the classical sense — it cycles. Profit growth from here is a recovery from a depressed base to normalised mid-cycle earnings (₹600-900 Cr PAT, my estimate), not a sustained reinvestment-driven compound at 20% per year. The "math" is closer to 2-3x earnings recovery from 2024's loss, plus debt paydown, plus a possible 0.5x-to-1.0x P/B re-rating — not a 25% compounding engine. See Section 3 for the full ROIC walk-through.
+It doesn't compound in the classical sense — it cycles. Profit growth from here is a recovery from a depressed base to normalised mid-cycle earnings (₹700-850 Cr PAT, my estimate), not a sustained reinvestment-driven compound at 20% per year. The recovery leg — 2-3x earnings off 2024's loss plus a P/B re-rating from 0.9x to ~1.1x — has now largely happened in the price. What's left from ₹245 is closer to the through-cycle compound rate of ~5% plus whatever the cycle gifts on top. See Section 3 for the full ROIC walk-through.
 
 ### What does the market think — and where do I disagree?
 
-The market at ₹197 / P/E 22x is pricing in roughly 8-10% earnings growth at trough-to-peak normalised earnings of ₹450-500 Cr PAT — i.e. it has already partially priced in the recovery. My estimate is that mid-cycle earnings are closer to ₹700-800 Cr (5-6% EBITDA on ₹17,000-18,000 Cr revenue, but with the 14-15% Q1 2026 margin run-rate the upside scenario reaches ₹1,000 Cr PAT). At ₹700 Cr PAT and a 12x mature-cyclical multiple, fair value is ₹250 — only 27% above CMP. The disagreement isn't large enough to be alpha. At CMP, you're betting the cycle stays at peak margins for 18-24 months without the balance sheet wobbling — that's not a margin-of-safety setup, it's momentum extrapolation.
+At ₹245 and a trailing P/E near 13-14x (TTM adjusted PAT roughly ₹600 Cr), the market has moved from pricing a *recovery* to pricing *sustained peak margins*. The Q2 19% EBITDA margin, if it held, would put PAT near ₹1,000 Cr and make today's price look cheap; if it fades to the 14-15% mid-cycle range as the Euro tailwind normalises and volumes stay soft, PAT settles around ₹750-850 Cr and fair value is ~₹285 at a 12x mature-cyclical multiple — only ~16% above CMP. My disagreement with the market is not about direction but about durability: I don't think a 19% margin built on a strong Euro and a 10% volume decline is the right number to capitalise. The gap between the bullish read the price now embeds and the mid-cycle read the volume data supports is the reason to wait rather than chase — at ₹245 you are underwriting peak-margin persistence with a 14% cushion, which is momentum extrapolation, not margin of safety.
 
 ### Second-Order Stress Test
 
@@ -55,7 +58,7 @@ The fifth answer points to something structural (refining economics + emissions 
 
 **The world in 2 years if base case plays out:**
 
-By calendar 2027, Rain looks like a 14-15% EBITDA-margin business with ₹17,500-18,000 Cr revenue, ₹2,500-2,700 Cr EBITDA, PAT in the ₹700-900 Cr range, and net debt/EBITDA around 2.3x as cash flow chips at borrowings. The Cement segment expansion from 1.3 to 3.8 million tonnes (Q4 2027 completion target) is approaching but not yet contributing. The Northern Graphite battery-anode joint venture is exiting R&D phase, with a small revenue contribution starting. Management is talking about either a fresh capex round or a possible inorganic deal — both of which are risks in a debt-encumbered company. Stock is probably ₹230-280 in that base case.
+By calendar 2027, Rain looks like a 14-15% EBITDA-margin business with ₹18,000-19,000 Cr revenue, ₹2,600-2,800 Cr EBITDA, PAT in the ₹750-900 Cr range, and net debt/EBITDA around 2.3x — provided the Euro doesn't reverse hard and Carbon volumes stabilise rather than keep sliding. The Cement segment expansion from 1.3 to 3.8 million tonnes (Q4 2027 completion target) is approaching but not yet contributing. The Northern Graphite battery-anode joint venture is exiting R&D phase, with a small revenue contribution starting. Management is talking about either a fresh capex round or a possible inorganic deal — both of which are risks in a business whose absolute net debt is still rising in USD terms. Stock is probably ₹260-320 in that base case — which, from ₹245 today, is a modest single-digit-to-low-teens annual return, not a multi-bagger path.
 
 **What success itself triggers:**
 
@@ -65,23 +68,24 @@ Cycle peaks bring new competition. As CPC margins normalise above 12%, idle Chin
 
 | Question | Answer |
 |---|---|
-| What is the market pricing this stock on? | The Q1 2026 EBITDA margin print (15%) and turn-to-profit (PAT +₹158 Cr) — extrapolated forward |
-| What does segment / operating data actually show? | Carbon segment FY2025 EBITDA up ₹764 Cr YoY; India CPC at "optimum capacity"; Adv Materials still down (-₹217 Cr revenue); Cement +₹19 Cr EBITDA — recovery is real but uneven |
-| What was the root cause of the prior failure/crisis? | Chinese CPC overcapacity, European smelter shutdowns from energy crisis, GPC raw-material spikes, and Rain's own over-leveraged balance sheet from 2013-2018 acquisition phase |
-| Is that root cause still present in today's business model? | Partially. Debt is still too high (D/E 1.28x, IC 1.5x). Chinese capacity is dormant but extant. European smelters still structurally shrinking. The geographic shift to Indonesia/Gulf/India is the only structural change. |
-| What is the pending regulatory or structural equalizer? | India CPC import quota raised from 0.5 MT to 0.8 MT for FY25-26 — directly helpful to Rain India. No major equivalent globally. |
+| What is the market pricing this stock on? | The Q2 2026 print — 19% adjusted EBITDA margin and adjusted PAT ₹317 Cr — extrapolated forward as the new run-rate |
+| What does segment / operating data actually show? | Carbon revenue +18% YoY but *volumes −10.5%* (594kt vs 664kt) — the beat is Euro/USD strength plus realisations, not demand. Advanced Materials margin genuinely doubled (~9% → ~16%). Cement EBITDA fell YoY (₹15 Cr vs ₹25 Cr). Recovery is real but currency-assisted and volume-soft. |
+| What was the root cause of the prior failure/crisis? | Chinese CPC overcapacity, European smelter shutdowns from the energy crisis, GPC raw-material spikes, and Rain's own over-leveraged balance sheet from the 2013-2018 acquisition phase |
+| Is that root cause still present in today's business model? | Partially. Leverage has improved (net-debt/EBITDA 2.8x, IC ~3x) but absolute USD net debt is still rising. Chinese capacity is dormant but extant. European smelters still structurally shrinking. The geographic shift to Indonesia/Gulf/India is the only structural change, and Q2's falling volumes suggest that shift isn't yet outrunning European decline. |
+| What is the pending regulatory or structural equalizer? | India CPC import quota raised from 0.5 MT to 0.8 MT — directly helpful to Rain India. No major equivalent globally. |
+| What is the label-change catalyst? | Two more quarters holding ≥14% EBITDA *as the Euro tailwind fades* AND net-debt/EBITDA below 2.5x on absolute debt paydown — that would flip the label from "FX-flattered cyclical" to "durable mid-cycle earner." Absent that, no re-rating beyond the compounding of retained earnings. |
 
 ### Multi-Bagger Math
 
-| Scenario | EPS CAGR | Why this rate | FY27E EPS (₹) | FY27E P/E | Target (₹) | Return | CAGR |
+| Scenario | EPS CAGR | Why this rate | CY27E PAT (₹ Cr) | Exit P/E | Target (₹) | Return vs ₹245 | CAGR |
 |----------|----------|--------------|---------------|-----------|------------|--------|------|
-| Bear     | flat / declining | Cycle rolls over by 2027; margins back to 8-10%; debt service eats EBITDA | ₹6 | 10x | ₹60 | -70% | -45% |
-| Base     | 60% from depressed base | Mid-cycle PAT ₹700-800 Cr; debt down to 2.3x EBITDA; P/E compresses to 12x as growth normalises | ₹22 | 12x | ₹260 | +32% | +15% |
-| Bull     | 100%+ from depressed base | Sustained peak margins 14-15%; PAT ₹1,000 Cr; rerating to 15x as deleveraging accelerates | ₹30 | 15x | ₹450 | +128% | +51% |
+| Bear     | declining | Euro reverses + cycle rolls; margins back to 10-11%; Carbon volumes keep sliding; PAT ₹300-350 Cr. Floor is book-based (~0.7x × ₹221) with no maturity wall to force distress | ~325 | 0.7x P/B | ₹160 | -35% | -20% |
+| Base     | mid-cycle normalise | 14-15% EBITDA on ₹18,000 Cr; Euro tailwind fades to neutral; PAT ₹750-850 Cr; net-debt/EBITDA to 2.3x; 12x mature-cyclical multiple | ~800 | 12x | ₹285 | +16% | +8% |
+| Bull     | peak sustains | Q2's 19% margin holds two more years; Euro stays strong; PAT ₹1,000 Cr; re-rating to 14x on deleveraging | ~1,000 | 14x | ₹420 | +71% | +30% |
 
-**Asymmetry check:** Downside in the bear case is roughly -70% (back toward ₹60, which is below current book value of ₹221). Upside in the base case is +32%. Asymmetry ratio at CMP ₹197 is 32/70 = **0.46x — well below the framework's 1.5x minimum threshold for buying.** Even the bull case at +128% against a -70% bear gives a 1.8x asymmetry, which is barely adequate for a Grade C cyclical at this stage of the cycle.
+**Asymmetry check at CMP ₹245:** base upside +16% against bear downside -35% = **0.46x — well below the framework's 1.5x minimum.** Even the bull case (+71%) against the bear (-35%) is only 2.0x, and the bull leans entirely on the Euro staying strong and a 19% margin persisting on falling volumes — a lot of things breaking right. Margin of safety at ₹245 versus base ₹285 is ~14%; a Grade C cyclical requires 40%.
 
-**Interpretation:** The bear case requires *only one thing to go wrong* — the cycle rolling over — which is exactly the kind of single-factor downside that the framework warns against accepting. At ₹130-140 (near the 200-DMA), the same scenarios produce much better asymmetry (bear -55%, base +85%, bull +220% → 1.5x base/bear, 4.0x bull/bear). That's the price at which the math turns favourable.
+**Interpretation:** The recovery leg is now in the price. At ₹170, base upside becomes +68% against a -6% bear downside (the bear floor sits just below that entry), asymmetry flips above 1.5x, and the 40% Grade-C cushion is met — that is the level to accumulate. Note the base case is only ~8% CAGR even if it plays out; this is a cycle trade with a hard entry discipline, never a compounder to hold through.
 
 ### Key Metrics & Trends
 
@@ -98,8 +102,7 @@ Cycle peaks bring new competition. As CPC margins normalise above 12%, idle Chin
 | CY2022 | 19,245 | 9% | 234 | 6.96 |
 | CY2023 | 15,936 | 8% | -49 | -1.46 |
 | CY2024 | 15,374 | 8% | -450 | -16.78 |
-| CY2025 | 16,791 | 11% | ~50 | ~1.5 |
-| Q1 2026 | 4,521 | 15% | 158 | 3.61 |
+| CY2025 | 16,946 | 11% | 136 | 4.05 |
 
 Revenue 11-year CAGR: ~3% (commodity business — volume + price both cycle). PAT cycle range: ₹-450 to ₹+1,066 Cr — that range alone tells you what you own. The 2017-18 peak earnings came when CPC pricing tightened because of Chinese supply curbs; the 2022-24 trough came when GPC raw material spiked and European smelter demand collapsed. 2025-26 is the new recovery print. *Source: Screener.in consolidated P&L.*
 
@@ -129,12 +132,13 @@ OCF/PAT ratio is excellent because depreciation on the heavy asset base is large
 | Q3 2024 | 3,934 | 6% | -155 | -5.33 |
 | Q4 2024 | 3,676 | 9% | -134 | -4.80 |
 | Q1 2025 | 3,768 | 10% | -115 | -4.09 |
-| Q2 2025 | 4,401 | 14% | 83 | 1.80 |
+| Q2 2025 | 4,405 | 14% | 50* | 1.47 |
 | Q3 2025 | 4,476 | 14% | 130 | 3.15 |
 | Q4 2025 | 4,301 | 12% | 38 | 0.40 |
-| Q1 2026 | 4,521 | 15% | 158 | 3.61 |
+| Q1 2026 | 4,521 | 16% | 125* | 3.70 |
+| Q2 2026 | 5,167 | 19% | 317* | 9.4 |
 
-The inflection is at Q2 2025, when OPM jumped from 10% to 14% and PAT swung positive. The pattern over four sequential quarters (14%, 14%, 12%, 15% OPM) is the strongest evidence that the recovery is real and not a one-quarter wobble. The Q4 2025 dip to 12% deserves attention — it's the only data point that argues this isn't a clean V-shape. *Source: Screener.in quarterly.*
+*Adjusted PAT/EBITDA basis for Q2 2025, Q1 2026, Q2 2026 (excludes FX and one-off items); reported figures differ (Q1 2026 reported ₹158 Cr). The Q2 2026 print is the strongest of the recovery — but revenue rose 17% YoY while Carbon volumes *fell* 10.5% (594kt vs 664kt), so the ₹994 Cr adjusted EBITDA at a 19% margin is a currency-and-price outcome, not a volume-led one. Read the margin trajectory (14% → 14% → 12% → 16% → 19%) alongside that volume decline: the earnings power is real for now but is riding a strong Euro/USD that will not stay strong indefinitely. *Source: Screener.in quarterly + Rain Q2 CY2026 results press release (scanx.trade, 6-Aug-2026).*
 
 #### Shareholding (March 2026)
 
@@ -150,30 +154,31 @@ The pledge clearance is the single most important governance datum to update ver
 
 | Metric | Value | Read |
 |--------|-------|------|
-| CMP | ₹197.09 | New 52w high (₹207.30); 52w low ₹99.90 |
-| Market cap | ₹6,629 Cr | Small-cap |
-| P/E (trailing) | 22.0x | Distorted — earnings are at inflection from negative |
-| P/E (forward CY26E) | ~12-14x | More meaningful — assumes PAT ₹500-600 Cr |
-| P/B | 0.89x | Book value ₹221 — trading just below |
-| ROCE | 8.26% | Below cost of capital |
-| ROE | 0.60% | Trough; 3-yr average is **negative** |
-| D/E | ~1.28x | Above framework threshold |
-| Net debt/EBITDA | 3.2x | Down from 3.9x; still elevated |
-| Interest coverage | 1.5x | Below framework threshold of 3x |
-| Dividend yield | 0.51% | Token |
+| CMP | ₹245 | Fresh 52w high; 52w low ₹99.90; ~80% above 200-DMA (~₹135, rising) |
+| Market cap | ₹8,159 Cr | Small-cap; up ~23% since June note |
+| P/E (trailing) | ~13-14x | On TTM adjusted PAT ~₹600 Cr — no longer distorted as it was at 22x in June |
+| P/E (forward CY26E) | ~11-12x | On PAT ₹700-850 Cr mid-cycle |
+| P/B | 1.10x | Book value ₹221 — re-rated from 0.89x in June to just above book |
+| ROCE | ~8% | CY2025; below cost of capital, TTM improving |
+| ROE | ~1% | CY2025 trough; 3-yr average is **negative** |
+| Gross debt | ₹9,824 Cr | Up from ₹8,494 Cr — largely FX translation on USD/EUR debt |
+| Net debt (USD) | ~$892M (₹7,760 Cr) | Rose from $837M YoY — not paid down |
+| Net debt/EBITDA | 2.8x | Down from 3.21x — improvement is EBITDA-driven, not debt paydown |
+| Interest coverage | ~3x (TTM) | Recovered from 1.5x; now at framework threshold, not past it |
+| Dividend | ₹1/share interim | Record 14-Aug-2026; ~0.4% yield |
 
-*Source: Screener.in + Trendlyne, as of 5-Jun-2026.*
+*Source: Screener.in (CMP ₹243, 6-Aug-2026), Business Standard (₹245.25, 6-Aug-2026), Rain Q2 CY2026 press release. FX at ~₹87/USD.*
 
 ### Downside Framework — What Protects Capital?
 
 | Downside method | Calculation | Floor |
 |----------------|-------------|-------|
-| Asset-based (P/B) | Book value ₹221 × 0.5x extreme distress | ₹110 |
-| Balance sheet survival | ₹8,494 Cr debt, but no maturity wall till 2028 + ₹1,900+ Cr annual OCF | No imminent existential risk, but no cushion either |
-| Normalized earnings | Trough EBITDA ₹900 Cr × 6x EV/EBITDA = EV ₹5,400 Cr − Net debt ₹7,200 Cr = **negative equity value in distress** | ₹0 (theoretical) |
-| Strategic value | 13-plant global CPC/CTP footprint — would attract a strategic acquirer, conservatively ₹150-180/share | ₹150 |
+| Asset-based (P/B) | Book value ₹221 × 0.7x cyclical trough (leverage now under 3x, less distressed than June) | ₹155 |
+| Balance sheet survival | ₹9,824 Cr gross / ~$892M net debt, no maturity wall till 2028, ~₹1,900 Cr annual OCF, $313M liquidity | No imminent existential risk |
+| Normalized earnings | Mid-trough EBITDA ₹1,400 Cr × 6x EV/EBITDA = EV ₹8,400 Cr − net debt ₹7,760 Cr = equity ₹640 Cr | ~₹19/share (thin, but positive now vs negative in June) |
+| Strategic value | 13-plant global CPC/CTP footprint — would attract a strategic acquirer, conservatively ₹160-190/share | ₹165 |
 
-**Three methods converge at ₹110-150** (book-based floor and strategic-acquirer interest). The normalised-earnings method shows the structural problem — at trough EBITDA, enterprise value barely covers net debt. Bear case requires (a) the cycle rolling over by mid-2027 AND (b) GPC raw material costs spiking again — two events, both observable. Risk/Reward at ₹197: downside roughly **-30 to -45%** (₹110-140), upside in base case **+30%** (₹260). Skewed against you.
+**The floors converge at ₹155-170** — higher than June's ₹110-150 because leverage has improved (2.8x vs 3.2x) and the normalised-earnings equity value has turned positive. That improved floor is exactly why the BUY-AT level rises to ₹170. Bear case requires the Euro reversing AND the cycle rolling — two observable events. Risk/reward at ₹245: downside roughly **-35%** (₹160), upside base **+16%** (₹285). Still skewed against you at this price.
 
 ### When do I sell? (If we were owners)
 
@@ -185,7 +190,7 @@ We don't own this. But if we did, exit conditions would be:
 
 ### Where does this rank?
 
-Compared to other Carbon/CPC-adjacent ideas in the portfolio space: HEG (graphite electrodes, market cap ₹10,410 Cr, ROCE 8.3%, D/E 0.19, P/E 30.8) and Graphite India (₹13,781 Cr, ROCE 4.6%, P/E 75.9) are cleaner balance-sheet plays in adjacent carbon products but have their own cycle problems (Chinese electrode dumping, EAF steel cycle). Goa Carbon (₹349 Cr) is a closer direct comp on CPC but is too small to take seriously as an investment vehicle. None of these is more compelling than Rain at the right entry — but Rain at ₹197 is *worse* asymmetry than HEG at current levels. The honest answer: in a portfolio looking for genuine compounders, none of these belong. As a tactical cycle trade, Rain near ₹135-140 is more interesting than HEG/Graphite India at their current levels because Rain's cycle position is earlier — but that's a different game than the multi-bagger framework.
+Compared to other Carbon/CPC-adjacent ideas in the portfolio space: HEG (graphite electrodes, market cap ₹10,410 Cr, ROCE 8.3%, D/E 0.19, P/E 30.8) and Graphite India (₹13,781 Cr, ROCE 4.6%, P/E 75.9) are cleaner balance-sheet plays in adjacent carbon products but have their own cycle problems (Chinese electrode dumping, EAF steel cycle). Goa Carbon (₹349 Cr) is a closer direct comp on CPC but is too small to take seriously as an investment vehicle. None of these is more compelling than Rain at the right entry — but Rain at ₹245, having already run the recovery, is *worse* asymmetry than HEG at current levels. The honest answer: in a portfolio looking for genuine compounders, none of these belong. As a tactical cycle trade, Rain near ₹170 would be more interesting than HEG/Graphite India because Rain's leverage repair still has a leg to run — but that's a different game than the multi-bagger framework, and it needs the ₹170 entry to work.
 
 ### Growth Trigger Scan
 
@@ -196,12 +201,13 @@ Compared to other Carbon/CPC-adjacent ideas in the portfolio space: HEG (graphit
 | Margin Expansion (sustained 3+ quarters, R&D >5%) | **Yes** | Four consecutive quarters of 12-15% EBITDA margin vs 6-10% prior. Driven by CPC pricing recovery, not structural margin expansion. |
 | Promoter Buying (repeated accumulation ₹1-2 Cr+ over weeks) | Watch | Sujala Investments + Nivee Holdings made small open-market buys March 2026 (≤₹2 Cr cumulative — small, not the "loading the truck" signal but directionally positive) |
 | Regulatory/Government Tailwind | Yes | India CPC import quota raised from 0.5 MT to 0.8 MT for FY25-26 directly favours Rain's Indian operations |
-| Turnaround (debt reduction, new CEO, shedding loss divisions) | **Yes** | Net debt/EBITDA improved from 3.9x to 3.2x; PAT swung from -₹450 Cr to ~+₹50 Cr CY25; Q1 2026 PAT +₹158 Cr |
+| Turnaround (debt reduction, new CEO, shedding loss divisions) | **Yes (maturing)** | Net-debt/EBITDA improved to 2.8x from 3.21x; PAT swung from -₹450 Cr (CY24) to Q2 2026 adjusted ₹317 Cr. But absolute USD net debt rose — the turnaround is margin-led, not debt-paydown-led |
 
-**Active triggers:** 3-4 are firing (operating leverage + margin expansion + regulatory tailwind + turnaround) — the framework says 2+ is "much higher probability of near-term re-rating." That has already played out: the stock is up 100% YTD. The question now is whether the trigger fires for *another* 100%, not whether it fires at all. The framework's logic ("enter 1-2Q before trigger fully visible") cuts against entering now — the trigger is already fully visible to the market.
+**Active triggers:** 3-4 fired (operating leverage + margin expansion + regulatory tailwind + turnaround) and have now largely played out — the stock is up ~145% from January and popped ~10% on the Q2 print. The framework's logic ("enter 1-2Q before the trigger is fully visible") cuts hard against entering at ₹245: the trigger is not just visible, it is the consensus. The one trigger *not* firing is volume — Carbon shipments fell 10.5% YoY — which is the tell that the margin story is currency, not demand.
 
 ### Recent Developments
 
+- **2026-08-06:** Q2 CY2026 results (qtr ended 30-Jun) — revenue ₹5,167 Cr (+17% YoY), adjusted EBITDA ₹994 Cr (+61% YoY) at a 19% margin, adjusted PAT ₹317 Cr (+538% YoY), net-debt/EBITDA down to 2.8x. But Carbon volumes *fell* 10.5% (594kt vs 664kt) — the beat is Euro/USD strength plus realisations, not volume. Interim dividend ₹1/share. Stock ~₹245, +10% on the print. *Thesis impact: strengthens on margins/leverage, but the volume decline caps how much of the 19% margin to capitalise. Recommendation moves from WATCHLIST to BUY AT ₹170.*
 - **2026-06-02:** 50-DMA crossed above 200-DMA — "golden cross" confirmed on technicals. Stock +38% in 3 months. *Thesis impact: neutral (price action, not fundamental).*
 - **2026-05-08:** Q1 2026 results — revenue ₹4,521 Cr (+20% YoY), EBITDA ₹695 Cr (+65% YoY), PAT +₹158 Cr vs −₹138 Cr last year. India CPC at optimum capacity. *Thesis impact: strengthens (cycle recovery confirmed for 4th consecutive quarter).*
 - **2026-03-25/27:** Sujala Investments and Nivee Holdings (promoter group entities) made open-market purchases of Rain Industries shares — small (<0.02% each) but directionally positive. *Thesis impact: strengthens marginally.*
@@ -212,10 +218,10 @@ Compared to other Carbon/CPC-adjacent ideas in the portfolio space: HEG (graphit
 
 | Level | Price | Condition |
 |-------|-------|-----------|
-| Buy zone | ₹130-145 | Near 200-DMA + after a 30-35% pullback that doesn't break the cycle thesis (i.e. Q2/Q3 2026 EBITDA stays above 12%) |
-| Tracking position | ₹145-165 | Half-size (1.5%) on confirmation of 12%+ EBITDA in Q2 2026 AND net-debt/EBITDA below 2.8x |
-| Watchlist (current) | ₹165+ | Wait. Either price comes to you, or thesis breaks out of "recovery" into "structural rerating" via two more 14%+ EBITDA prints and net debt below 2.5x EBITDA |
-| Hard pass | Any price if Q2/Q3 2026 EBITDA < 10% | Cycle has rolled — wait for the next bottom |
+| Buy / accumulate | below ₹170 | 40% Grade-C margin of safety to base ₹285, near the rising 200-DMA, asymmetry turns ≥1.5x. Start 2-3% (speculative-cap), add on confirmation |
+| Hold | ₹170 – ₹285 | Carbon EBITDA margin stays ≥14% as the Euro tailwind fades AND net-debt/EBITDA keeps falling |
+| Trim / sell | above ₹285 | Base-case fair value reached; bull overshoot toward ₹400+ on sustained 19% margins |
+| Exit | any price | Carbon EBITDA margin < 10% for two quarters, OR net-debt/EBITDA back above 3.5x, OR promoter pledge reappears |
 
 ---
 
@@ -241,7 +247,7 @@ If a user wants AI/semiconductor exposure from India: HEG (some), Graphite India
 
 Rain has a 1.3 MTPA cement business in South India that contributes about 6% of revenue. Management announced a brownfield expansion to take this to 3.8 MTPA — a 2.5x volume jump — at a project cost of ₹757 Cr, with Q4 2027 completion targeted. Waste heat recovery is included, which improves power economics in a sector where fuel is the largest variable cost.
 
-The honest framing: cement at 3.8 MTPA is still a small player by Indian cement standards (the top five players have 20-100 MTPA each). It does not turn Rain into a cement company. It does, however, deploy ₹757 Cr at a moment when the balance sheet still carries 3.2x net-debt/EBITDA. The expansion is part-funded from internal accruals, but the timing is a tell — management is choosing capex over faster deleveraging, which is a small negative on the conservative-balance-sheet thesis.
+The honest framing: cement at 3.8 MTPA is still a small player by Indian cement standards (the top five players have 20-100 MTPA each). It does not turn Rain into a cement company. It does, however, deploy ₹757 Cr at a moment when the balance sheet still carries 2.8x net-debt/EBITDA and rising absolute USD debt. The expansion is part-funded from internal accruals, but the timing is a tell — management is choosing capex over faster deleveraging, which is a small negative on the conservative-balance-sheet thesis.
 
 If executed well, cement EBITDA could rise from current ~₹100 Cr to ₹250-300 Cr by 2028. That's a 5-7% incremental contribution to consolidated EBITDA — material but not transformational. It does not change the fact that this is a Carbon company first.
 
@@ -255,27 +261,28 @@ Rain Industries is the holding company for Rain Carbon Inc. (US subsidiary; the 
 
 ## 2. Quality Score
 
-**Threshold Checks:**
-- D/E 1.28x — **above** framework threshold of 1.5x (just below) but elevated
-- Interest coverage 1.5x — **fails** framework threshold of 3x
-- Cash conversion (OCF/PAT): positive throughout despite loss-making PAT — passes (driven by high D&A on the asset base)
+**Threshold Checks (updated post-Q2 CY2026):**
+- Net-debt/EBITDA 2.8x — improved below the 3x line; gross D/E still elevated (~1.4x on FX-inflated rupee debt)
+- Interest coverage ~3x on TTM EBITDA — recovered from 1.5x; now *at* the framework threshold rather than failing it
+- Cash conversion (OCF/PAT): H1 CY2026 OCF +₹188 Cr inflow vs outflow prior year; positive throughout the trough on high D&A — passes
 - Promoter pledge: 0% — **clears** historical concern
 - Auditor changes / qualifications: none flagged in recent annual reports
-- Revenue concentration: 73% in Carbon segment, but customer base is diversified globally — partial flag
-- Negative FCF for 3+ consecutive years: **no** — FCF has been positive throughout the down-cycle thanks to maintenance-only capex
+- Revenue concentration: ~73% in Carbon, customer base diversified globally — partial flag
+- Absolute USD net debt *rose* YoY ($837M → $892M) — the leverage-ratio improvement is EBITDA-driven, not debt paydown; flag
+- Negative FCF for 3+ consecutive years: **no** — FCF positive through the down-cycle on maintenance-only capex
 
-**Flags noted:** Interest coverage below threshold; debt/equity above optimal range; commodity revenue concentration. Not severe enough for AVOID, but enough to keep the position size capped at speculative levels even when conditions improve.
+**Flags noted:** leverage improving but still at threshold not past it; absolute debt not falling; commodity + single-end-market concentration; Q2 margin FX-assisted on declining volumes. Not severe enough for AVOID, but enough to keep any position capped at speculative levels and to demand the ₹170 entry.
 
 | Dimension | Score (1-5) | Notes |
 |-----------|-------------|-------|
 | MOAT | 3/5 | Real but constrained-supply moat in CPC/CTP. Global scale matters. Not pricing power in the classical sense — more a regulated-utility-like position with cyclical pricing. Erodes if China restarts capacity. |
 | Management | 2/5 | Promoter family with deep operational expertise but history of aggressive M&A leverage. Pledge clearance in 2025-26 is positive. Communication is decent but not exceptional. Past guidance has missed during down-cycles (forgivable, but noted). |
-| Financials | 2/5 | D/E 1.28x, IC 1.5x, 3-yr ROE negative. Cash flow is the redeeming feature — OCF consistently above PAT due to D&A. Working capital management is reasonable. |
+| Financials | 2/5 | Improving but still weak: net-debt/EBITDA 2.8x and IC ~3x are better than June, but absolute USD debt rose, 3-yr ROE is negative, CY25 ROE ~1%. Q2's 19% margin is FX-flattered. Cash flow is the redeeming feature — OCF above PAT on heavy D&A. Would move to 3/5 on two quarters of ≥14% margin without the Euro tailwind AND net-debt/EBITDA below 2.5x on absolute paydown. |
 | Growth Runway | 2/5 | TAM is growing (non-China aluminium capacity) but the business is a tax on aluminium production, not a participant in compounding new value creation. Cement expansion adds incremental but not transformative growth. |
-| Valuation | 2/5 | At ₹197, P/B 0.89x is the only thing keeping this from being expensive. Forward P/E ~12-14x on normalised PAT. Asymmetry ratio 0.46x at CMP — below threshold. |
+| Valuation | 2/5 | At ₹245, P/B 1.10x and trailing P/E ~13-14x — no longer cheap after the ~24% run since June. Base FV ₹285, MoS only 14%, asymmetry 0.46x — all below the Grade-C threshold. Works at ₹170. |
 | **Total** | **11/25** | **Grade C** |
 
-Grade C means: don't buy at any price unless the margin of safety is 40%+. At CMP ₹197 vs base case ₹260, MoS is ~24% — does not clear the bar.
+Grade C means: don't buy unless the margin of safety is 40%+. At CMP ₹245 vs base case ₹285, MoS is ~14% — does not clear the bar. The 40% cushion is met at ₹170, which is the BUY-AT level.
 
 ---
 
@@ -283,8 +290,8 @@ Grade C means: don't buy at any price unless the margin of safety is 40%+. At CM
 
 ### Q0. Operating Leverage Test — does growth create margin leverage?
 
-- Revenue growth (TTM vs 3yr avg): +9%
-- EBITDA margin now (Q1 2026): 15% vs 3 years ago (Q1 2023): ~9% → +600 bps
+- Revenue growth (TTM vs 3yr avg): +12%
+- EBITDA margin now (Q2 2026): 19% (adj) vs 3 years ago (~9%) → +1,000 bps, but ~half is Euro/USD FX, not structural
 - **Operating leverage present?** Yes — at the segment level, margins have expanded faster than revenue. But this is cyclical recovery from a depressed base, not structural leverage on a growing fixed-cost asset. Pre-2022 the same margins were achieved at the same revenue.
 - Capacity utilization: Indian CPC plants at "optimum capacity" per Q1 2026 commentary; global CPC/CTP estimated 80-90%
 - CWIP trend: ₹931 Cr (2020) → ₹473 Cr (2024) — **declining**. Capex cycle is at trough, not building. Cement expansion will rebuild CWIP from 2026 onwards.
@@ -318,7 +325,7 @@ If we ignore the cycle and just take through-cycle averages:
 - Through-cycle reinvestment rate: ~40% (the rest goes to debt service)
 - Implied intrinsic value compound: 12% × 40% = **4.8% per year**
 
-That's the honest answer. From a depressed base, the recovery to mid-cycle earnings can deliver one-time appreciation of 50-100% in 18-24 months — and that's what's largely already happened from ₹100 to ₹197. Beyond mid-cycle, the compound rate of intrinsic value is roughly 5% per year. No multi-bagger math works here without the explicit assumption that you're trading the cycle, not owning the compound.
+That's the honest answer. From a depressed base, the recovery to mid-cycle earnings can deliver one-time appreciation of 50-100% in 18-24 months — and that's what's largely already happened from ₹100 to ₹245. Beyond mid-cycle, the compound rate of intrinsic value is roughly 5% per year. No multi-bagger math works here without the explicit assumption that you're trading the cycle, not owning the compound.
 
 **Smell test:** This is not a 25%+ CAGR business. Anyone marketing it as one is using cherry-picked peak-cycle earnings as the baseline.
 
@@ -340,16 +347,16 @@ But honestly — for a Grade C cyclical at the top of the cycle, the answer to "
 
 ## 4. Operating Metrics & Sector-Specific Detail
 
-### Segment EBITDA breakdown (CY2025, ₹ Cr)
+### Segment breakdown — Q2 CY2026 (quarter ended 30-Jun, ₹ Cr)
 
-| Segment | Revenue | EBITDA | EBITDA% | Notes |
+| Segment | Revenue | EBITDA | EBITDA% | YoY read |
 |---------|---------|--------|---------|-------|
-| Carbon | ~12,300 | ~1,900 | ~15% | The compounding engine. 73% of group revenue. |
-| Advanced Materials | ~3,400 | ~250 | ~7% | Faced headwinds; investing in BAM R&D. |
-| Cement | ~1,100 | ~125 | ~11% | Small but stable. Expansion underway. |
-| **Total Consolidated** | **~16,800** | **~2,275** | **~13.5%** | |
+| Carbon | 3,770 | 811 | 21.5% | Revenue +18% YoY but volumes −10.5% (594kt vs 664kt) — gain is Euro/USD + realisations |
+| Advanced Materials | 1,073 | 168 | 15.7% | Margin roughly doubled from ~9% — the highest-quality part of the print |
+| Cement | 297 | 15 | 5.1% | Revenue and EBITDA down YoY (₹15 Cr vs ₹25 Cr); weakest segment |
+| **Total (adjusted)** | **5,167** | **994** | **19.2%** | Strongest EBITDA margin of the recovery, but FX-assisted |
 
-*Source: Rain Industries FY2025 management commentary + Q1 2026 results press release.*
+*Source: Rain Q2 CY2026 results press release (scanx.trade, 6-Aug-2026). Segment figures converted from reported ₹ mn.*
 
 ### CPC industry context
 
@@ -388,26 +395,27 @@ But honestly — for a Grade C cyclical at the top of the cycle, the answer to "
 
 **Primary driver:** CAPACITY UTILISATION × CPC pricing — Rain's revenue is a function of (volume × global CPC/CTP benchmark pricing × forex). With Indian plants at optimum capacity and global CPC supply structurally constrained, the swing variable is global pricing.
 
-At 14% mid-cycle consolidated EBITDA on ₹17,500 Cr revenue → EBITDA ₹2,450 Cr → PAT (after ₹800 Cr interest, ₹600 Cr D&A, 28% tax) ≈ ₹720 Cr → EPS ₹21.4.
+At 14-15% mid-cycle consolidated EBITDA on ₹18,000 Cr revenue → EBITDA ₹2,600 Cr → PAT (after ₹800 Cr interest, ₹600 Cr D&A, 28% tax) ≈ ₹800 Cr → EPS ₹23.8. The Q2 CY2026 run-rate (19% margin) would put this higher, but that margin is Euro-flattered and lands on falling volumes, so mid-cycle is modelled below it deliberately.
 
 | Input | Observable Data | CY2027 Implied |
 |-------|----------------|---------------|
-| Revenue base (CY26E) | ₹17,500 Cr at +4-5% organic | Revenue ₹18,200 Cr |
-| EBITDA margin | 14% mid-cycle assumption (Q1-Q3 2025 averaged 13%, Q1 2026 was 15%) | EBITDA ₹2,550 Cr |
-| Interest expense | ₹800 Cr trending down 5%/year | Net finance cost ₹720 Cr |
-| Effective tax | 28% blended | PAT ₹760 Cr → EPS ₹22.6 |
+| Revenue base (CY26E) | ₹18,000 Cr (H1 annualised ~₹19,400 Cr, haircut for FX normalising) | Revenue ₹18,500 Cr |
+| EBITDA margin | 14-15% mid-cycle (Q2 2026 was 19% but FX-assisted; base haircuts it) | EBITDA ₹2,650 Cr |
+| Interest expense | ₹800 Cr trending down slowly | Net finance cost ₹740 Cr |
+| Effective tax | 28% blended | PAT ₹800-850 Cr → EPS ₹24-25 |
 
-**Base Fair Value:** ₹270 (12x P/E on ₹22.6 EPS) → **+37% vs CMP ₹197.**
+**Base Fair Value:** ₹285 (12x P/E on ₹23.8 EPS) → **+16% vs CMP ₹245.**
 
 ### Key Sensitivities
 
 | Variable | If worse → Fair Value | If better → Fair Value | What to watch |
 |----------|-----------------------|------------------------|---------------|
-| EBITDA margin (14% base) | 10% → ₹120 | 16% → ₹360 | Quarterly Carbon segment margin |
-| CPC global pricing | -15% → ₹130 | +15% → ₹340 | Argus/CRU CPC benchmark monthly |
-| Net debt trajectory | Flat at 3.2x → ₹200 | Down to 2.3x → ₹290 | Quarterly debt disclosure |
+| EBITDA margin (14% base) | 10% → ₹160 | 19% sustains → ₹420 | Quarterly Carbon segment margin |
+| Euro/USD vs INR | -10% FX → ₹210 | +10% FX → ₹340 | RBI reference rates; Carbon realisations |
+| Carbon volume | keeps falling → ₹190 | stabilises/grows → ₹320 | Quarterly shipment tonnage (594kt in Q2) |
+| Net debt trajectory | Flat at 2.8x → ₹260 | Down to 2.3x on paydown → ₹310 | Quarterly USD net-debt disclosure |
 
-**Risk/reward:** Downside −40% (₹120) / Upside +37% (₹270) → **unfavourable**.
+**Risk/reward at ₹245:** Downside −35% (₹160) / Upside +16% (₹285) → **unfavourable**. Turns favourable at ₹170.
 
 **The one thing that makes the base case wrong:** CPC global pricing rolls over by mid-2027 because Chinese smelters/calciners restart capacity at the cycle peak. This is the historical pattern (2011-13, 2014-16, 2019-21).
 
@@ -415,9 +423,9 @@ At 14% mid-cycle consolidated EBITDA on ₹17,500 Cr revenue → EBITDA ₹2,450
 
 ## 5. Valuation
 
-- **Current Price:** ₹197.09 | **Market Cap:** ₹6,629 Cr | **Shares:** ~33.6 Cr
-- **Owner Earnings (PAT + D&A − maintenance capex, TTM):** ~₹500 Cr (recovering)
-- **Current earnings (PAT TTM):** ~₹200 Cr — *Source: Screener.in, Q1 2026 + last 3 quarters.*
+- **Current Price:** ₹245 | **Market Cap:** ₹8,159 Cr | **Shares:** ~33.6 Cr
+- **Owner Earnings (PAT + D&A − maintenance capex, TTM):** ~₹1,100 Cr (recovering; D&A ~₹600 Cr adds to adjusted PAT)
+- **Current earnings (adjusted PAT TTM):** ~₹600 Cr — *Source: Screener.in + Q2 CY2026 press release. Trailing P/E ~13-14x.*
 
 ### 5.1 — Valuation Parameters
 
@@ -455,45 +463,45 @@ At forward P/E ~13x on CY27E earnings:
 
 | Phase | Assessment | Strong / Moderate / Weak |
 |-------|-----------|--------------------------|
-| Threshold Checks | IC 1.5x fails, D/E 1.28x flagged | Weak |
+| Threshold Checks | IC ~3x (recovered), net-debt/EBITDA 2.8x — at threshold, not past; absolute USD debt rising | Weak-Moderate |
 | Compounding Engine | Cyclical, not structural ROIC | Weak |
 | Management + Financials | Pledge cleared, OCF positive — but leverage and through-cycle ROE are weak | Moderate |
 | Competitive Landscape | Real moat in CPC/CTP — global #2 | Moderate-Strong |
 
 - **Conviction level:** Speculative
-- **Recommended position size:** 0-1.5% (only if cycle confirmation extends and price corrects)
+- **Recommended position size:** 0% now; 2-3% only on a pullback to ₹170 with the cycle thesis intact (cap at speculative size; never scales like a compounder)
 - **Current position:** 0%
-- **Action:** Watchlist; alert at ₹140 (200-DMA zone) for tracking-position entry
+- **Action:** BUY AT ₹170 standing alert — see the Action ladder in Summary Verdict
 
 ### 5.4 — Valuation Models
 
 #### Model 1: DCF / Owner Earnings Multiple
 
-| Scenario | PAT Growth | Terminal Multiple | Fair Value | vs CMP |
+| Scenario | PAT (mid-cycle) | Terminal Multiple | Fair Value | vs CMP ₹245 |
 |----------|-----------|-------------------|------------|--------|
-| Bear | Cycle rolls over to flat earnings | 8x | ₹120 | -39% |
-| Base | 10% normalised growth from mid-cycle | 12x | ₹270 | +37% |
-| Bull | 15% growth + rerating on deleveraging | 15x | ₹450 | +128% |
+| Bear | ₹300-350 Cr (Euro reverses, volumes slide) | book-based | ₹160 | -35% |
+| Base | ₹750-850 Cr | 12x | ₹285 | +16% |
+| Bull | ₹1,000 Cr (19% margin sustains) | 14x | ₹420 | +71% |
 
 #### Model 2: P/B-ROE
 
-Book value ₹221. With normalised ROE of 8-10%, justified P/B is 0.7-1.0x → ₹155-220.
+Book value ₹221. With normalised ROE of 8-11%, justified P/B is 0.7-1.2x → ₹155-265.
 
 | Scenario | Sustainable ROE | Justified P/B | Fair Value | vs CMP |
 |----------|----------------|---------------|------------|--------|
-| Bear | 4% | 0.4x | ₹88 | -55% |
-| Base | 9% | 0.85x | ₹188 | -5% |
-| Bull | 12% | 1.2x | ₹265 | +35% |
+| Bear | 4% | 0.7x | ₹155 | -37% |
+| Base | 9% | 1.05x | ₹232 | -5% |
+| Bull | 12% | 1.3x | ₹287 | +17% |
 
 #### Synthesis
 
 | | DCF | P/B-ROE | Weight | Rationale |
 |---|---|---|---|---|
-| Bear | ₹120 | ₹88 | DCF 60% | Through-cycle earnings more reliable than book in distress |
-| Base | ₹270 | ₹188 | Equal | Both methods converge at ~₹230 average |
-| Bull | ₹450 | ₹265 | DCF 60% | Bull case is earnings-driven, not balance-sheet rerating |
+| Bear | ₹160 | ₹155 | Equal | Both converge on a ~₹160 balance-sheet floor (2.8x leverage, no maturity wall) |
+| Base | ₹285 | ₹232 | DCF 60% | Earnings-driven; both methods bracket ₹250-285 |
+| Bull | ₹420 | ₹287 | DCF 60% | Bull is earnings-driven (19% margin sustains), not balance-sheet rerating |
 
-**Verdict:** Fairly valued to slightly expensive at CMP. The base-case fair value averages around ₹230 — only 17% above CMP. For a Grade C cyclical, that's insufficient margin of safety.
+**Verdict:** Fairly valued to slightly expensive at ₹245. The base-case fair value lands around ₹270 — only ~10% above CMP. For a Grade C cyclical demanding 40% margin of safety, ₹245 is a clear pass; ₹170 is where the math works.
 
 **"What needs to be true for 3x in 5 years?"**
 - CY2030 PAT target: ₹1,400 Cr (at ~30% CAGR from CY26E)
@@ -513,9 +521,9 @@ Looks attractive on PEG. But PEG is misleading here because the growth is cycle-
 
 | EBITDA Margin | Fair P/S | Current P/S | Assessment |
 |---------------|----------|-------------|------------|
-| 13.5% (mid-cycle) | 1.5-2.5x | 0.4x (₹6,629 / ₹16,800) | Optically cheap |
+| 14-15% (mid-cycle) | 2-4x | 0.48x (₹8,159 / ₹17,000) | Optically cheap |
 
-The optical cheapness is the equity-vs-EV issue: with ₹7,200 Cr net debt, EV/Sales is roughly 0.83x — much closer to fair for a 13-14% EBITDA business. The cheap P/S is a leverage illusion.
+The optical cheapness is the equity-vs-EV issue: with ~₹7,760 Cr net debt, EV/Sales is roughly 0.94x — much closer to fair for a 14-15% EBITDA business. The cheap P/S is a leverage illusion; the ₹8,159 Cr equity sits on top of nearly as much debt again.
 
 ---
 
@@ -537,26 +545,26 @@ Rain Carbon is one of two global majors in merchant CPC (the other large player 
 
 | Metric | **RAIN** | HEG | Graphite India | Goa Carbon |
 |--------|----------|-----|----------------|------------|
-| Revenue TTM (Cr) | 16,800 | 2,568 | 2,852 | <500 |
-| OPM % | 12% | 16% | 7% | ~5% |
-| ROCE % | 8.3% | 8.3% | 4.6% | 8.6% |
-| ROE % | 0.6% | 7.3% | 3.1% | 12.1% |
-| D/E | 1.28x | 0.19x | 0.06x | 2.26x (dated) |
-| P/E | 22x | 31x | 76x | 38x |
-| P/B | 0.89x | 2.18x | 2.35x | 4.35x |
-| Market Cap (Cr) | 6,629 | 10,410 | 13,781 | 349 |
+| Revenue TTM (Cr) | ~17,000 | 2,568 | 2,852 | <500 |
+| OPM % | 14% (Q2 adj; FX-aided) | 16% | 7% | ~5% |
+| ROCE % | ~8% | 8.3% | 4.6% | 8.6% |
+| ROE % | ~1% | 7.3% | 3.1% | 12.1% |
+| Net debt/EBITDA | 2.8x | net cash | net cash | high |
+| P/E (trailing) | ~13-14x | 31x | 76x | 38x |
+| P/B | 1.10x | 2.18x | 2.35x | 4.35x |
+| Market Cap (Cr) | 8,159 | 10,410 | 13,781 | 349 |
 | Promoter % | 41.4% | 56.3% | 65.3% | 59.7% |
 
 **Note:** HEG and Graphite India make graphite electrodes (EAF steel input), not CPC — they're adjacent peers, not direct. Direct CPC peer Goa Carbon is small. There's no Indian-listed CPC peer of comparable scale.
 
 ### Why Multiples Differ + Re-rating Thesis
 
-Rain trades at 0.89x P/B vs HEG 2.18x and Graphite India 2.35x because:
-- Rain carries 1.28x D/E vs both peers under 0.20x
+Rain trades at 1.10x P/B vs HEG 2.18x and Graphite India 2.35x because:
+- Rain carries 2.8x net-debt/EBITDA vs both peers in net cash
 - Rain's 3-year ROE is negative; HEG/Graphite India are positive (low but positive)
 - Rain's cycle is more capital-intensive and more leverage-sensitive
 
-**Re-rating thesis:** If Rain delivers two more quarters of 14%+ EBITDA AND net-debt/EBITDA falls below 2.5x by end-2026, P/B could re-rate from 0.89x toward 1.3x — that alone is ~45% upside at flat book value. Combined with book value growth from positive earnings retention, total return could reach 60-80% over 2 years. This is the bull case mechanism.
+**Re-rating thesis (mostly spent):** The P/B has already re-rated from 0.89x in June to 1.10x now — most of the balance-sheet-repair re-rating is done. Further multiple expansion toward 1.3x needs two more quarters of 14%+ EBITDA *without* the Euro tailwind AND net-debt/EBITDA below 2.5x on actual paydown — that would be maybe 20% more on flat book. Further upside now has to come from earnings — the 19% margin sustaining — rather than another leg of P/B re-rating.
 
 ### Competitive Dynamics
 
@@ -590,17 +598,19 @@ Rain trades at 0.89x P/B vs HEG 2.18x and Graphite India 2.35x because:
 
 ## 9. Review Schedule
 
-- **Next quarterly check:** 2026-08-15 (Q2 2026 results expected mid-August for the April-June quarter)
+- **Next quarterly check:** 2026-11-07 (Q3 CY2026 results, July-Sept quarter, expected early November)
 - **Key events to watch:**
-  - Q2 2026 EBITDA margin (need ≥12% to maintain thesis)
-  - Q2 2026 net-debt disclosure
-  - Argus/CRU CPC benchmark monthly tracking
-  - Any update on Cement segment expansion timeline
+  - Q3 2026 Carbon EBITDA margin — does the ~19% hold, or fade toward 14-15% as the Euro normalises?
+  - Q3 2026 Carbon shipment volumes — did the 594kt (−10.5% YoY) stabilise or keep falling?
+  - Absolute USD net debt — is the company paying down debt, or just riding EBITDA growth?
+  - Euro/USD vs INR trajectory — the swing variable behind the H1 beat
+  - Argus/CRU CPC benchmark monthly tracking; Cement expansion timeline (Q4 2027 target)
 
 ## 10. Decision History
 
 | Date | Action | Price | Quantity | Reasoning |
 |------|--------|-------|----------|-----------|
+| 2026-08-07 | BUY AT ₹170 alert (from WATCHLIST) | ₹245 | 0 | Q2 CY2026 strong (19% adj EBITDA margin, net-debt/EBITDA 2.8x) but FX/price-driven on −10.5% volumes; recovery fully priced; MoS only 14% vs 40% needed for Grade C |
 | 2026-06-06 | Initial research, WATCHLIST | ₹197.09 | 0 | Cyclical at peak technicals; insufficient asymmetry at CMP; alert set at ₹140 |
 
 ---
@@ -609,6 +619,18 @@ Rain trades at 0.89x P/B vs HEG 2.18x and Graphite India 2.35x because:
 
 *New learnings, commentary, and thesis updates — most recent first.*
 *Full edit history: `git log research/RAIN.md`*
+
+### 2026-08-07 — Q2 CY2026 results + re-rating review
+
+**Trigger:** Scheduled Q2 check. Rain's board approved Q2 CY2026 (quarter ended 30-Jun) results on 6-Aug; the stock is at a fresh 52-week high near ₹245, up ~24% from the ₹197 of the June note.
+
+**The Q2 print (adjusted basis):** Revenue ₹5,167 Cr (+17% YoY), adjusted EBITDA ₹994 Cr (+61% YoY) at a 19.2% margin — the highest of the recovery — and adjusted PAT ₹317 Cr, up 538% on ₹49.5 Cr a year ago. Net-debt/EBITDA fell to 2.8x from 3.21x, crossing below the 3x line for the first time since the distress era. Interim dividend ₹1/share. Advanced Materials margin roughly doubled to ~16%. On the surface this is everything the June note was waiting for.
+
+**Why the recommendation is still not BUY at this price:** Two things sit under the headline. First, the beat is currency and price, not volume — Carbon shipped 594kt versus 664kt a year ago, a 10.5% volume *decline*. Revenue rose because a strong Euro/USD lifted the rupee value of overseas sales and CPC/CTP realisations firmed. A 19% margin on shrinking tonnage is not the same signal as a 19% margin on growing tonnage, and the Euro tailwind is not a durable earnings source. Second, the same FX move inflated the rupee value of USD/EUR debt — gross borrowings on Screener show ₹9,824 Cr versus ₹8,494 Cr, and in USD terms net debt actually *rose* ($837M → $892M). The leverage-ratio improvement is entirely EBITDA-driven; the company did not pay debt down. Both reverse if the Euro or the cycle turns.
+
+**Valuation:** At ₹245, trailing P/E is ~13-14x on TTM adjusted PAT near ₹600 Cr — no longer the distorted 22x of June. But the recovery leg is now in the price: P/B has re-rated from 0.89x to 1.10x, and base-case fair value is ~₹285 (mid-cycle PAT ₹750-850 Cr × 12x). That is only ~16% above CMP against a bear floor of ~₹160 (0.7x book, firmer than June because leverage improved) — asymmetry 0.46x, margin of safety 14%. A Grade C cyclical needs 40%. The 40% cushion, the rising 200-DMA (~₹135), and an asymmetry above 1.5x all line up around ₹170.
+
+**Changed:** Recommendation WATCHLIST → **BUY AT ₹170** (standing alert, 0% now). Grade unchanged at C (11/25); Financials note upgraded narratively for the leverage improvement but score held — one FX-assisted quarter doesn't re-rate a through-cycle-ROE-1% commodity business. Base fair value ₹260 → ₹285. Bear floor ₹110-130 → ₹160. Status label WATCHLIST → BUY-AT ALERT.
 
 ### 2026-06-06 — Initial thesis
 
@@ -650,6 +672,7 @@ The promoter pledge is 0% as of March 2026 — a major change from the historica
 
 | Date | Update |
 |------|--------|
+| 2026-08-07 | Q2 CY2026 update. Grade C held (11/25). WATCHLIST → **BUY AT ₹170**. Strong FX/price-driven Q2 (19% adj EBITDA margin, PAT ₹317 Cr, net-debt/EBITDA 2.8x) on −10.5% Carbon volumes; recovery fully priced at ₹245. Base FV ₹285, bear ₹160. |
 | 2026-06-06 | Initial research note. Grade C (11/25). WATCHLIST. Alert at ₹140 for tracking-position entry. Cyclical commodity carbon-products business — not an AI/semi proxy despite occasional retail framing. |
 
 ---
