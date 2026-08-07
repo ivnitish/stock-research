@@ -24,6 +24,24 @@ User surfaced six names for research (Shemaroo already done → skipped). Dispat
 - **TRITONVALVES.md (new, short)** — **AVOID at ₹1,033 · BUY AT ₹500 speculative · Grade C (11/25)**. 65-70% tyre-valve share but no pricing power (9% ROE); trades above base-case value at ~50x. Segment split undisclosed — flagged, not asserted.
 - **KRSNAA.md (inline refresh)** — no Q1 FY27 result yet; header refreshed (CMP ₹541→₹527, P/E 16.9, near 52w low ₹502), dated log entry added. Verdict unchanged: BUY REDUCED, Grade B (15/25). Mid-Aug Q1 print is the add trigger.
 - **Delivery:** all five rendered to HTML+PDF (`output/pdf/*_2026-08-01.pdf`), sent to Telegram, site index + portfolio page rebuilt (107 notes).
+---
+
+## ✅ Completed — 2026-08-07 — LIFE (Ethos Technologies) v2 — Q2 FY2026 update, upgraded to BUY REDUCED
+
+Refreshed `research/us/LIFE.md` after the Q2 FY2026 print (3-Aug-2026). Stock has run from the $11.87 thesis-initiation price to $27.65.
+
+- **Q2 FY2026:** revenue $189.6M (+113% YoY), direct $116.5M (+131%), third-party $73.0M (+90%), contribution profit $62.3M (+66%, 33% margin), adj EBITDA $35.2M (19% margin), first positive GAAP quarter at $19.5M NI. Cash + investments $252.9M, $100M buyback authorised.
+- **FY2026 guide raised to $727-731M (~88% YoY)** from $510-514M, against a street modelling ~45%. Five brokers raised targets on 4-Aug (Barclays $37, Goldman $35, Citi/Citizens JMP $33, Baird $32).
+- **Key finding flagged:** the guide's own arithmetic implies H2 revenue of ~$346M against H1's $382.6M and an adj EBITDA margin stepping from 18.1% to ~15%. Direct channel fell 20% sequentially ($146M → $116.5M) while third-party surged — the third-party acceleration substituted for a shrinking direct channel rather than stacking on it. Total revenue was flat QoQ.
+- **Contribution margin compression:** 42-43% a year ago → 30% (Q1, incl. $16.5M one-time agent comp charge) → 33% (Q2), guided "mid-30s". Mechanical result of mix shift toward the commission-paying third-party channel.
+- **Rescored 18/25 Grade B** (Financials 3→4). Base case FV raised $37 → $45 (FY2028), bear $18.50, bull $89. MOS 38.6%, downside 33.1%, asymmetry 1.9x.
+- **Recommendation: BUY REDUCED 3-5%**, adds at $22 and $18, build to core only on a Q3 print above $175M with third-party growth >60% and contribution margin >32%. Trim $45, exit $89.
+- Annuities line ($464B US premium market) valued at zero — management says immaterial to FY2026 and the D2C motion is untested for an advice-heavy, older-demographic product.
+- Rendered `output/html/LIFE.html`. Research index untouched (`build_site_index.py` covers `research/*.md` only, not `research/us/`).
+
+### New backlog items
+- [ ] **LIFE — verify insider/lock-up data.** SEC EDGAR (data.sec.gov, efts.sec.gov, www.sec.gov) and most financial-media domains were blocked by network egress this session; all figures came from search-indexed summaries of the 8-K, 10-Q and call coverage. Unverified: Q2 Form 4 activity, post-lock-up sales by Sequoia/GV/Accel, and the steady-state quarterly SBC run rate stripped of the IPO catch-up ($211M in H1). Check against the Q2 10-Q before adding beyond the starter size.
+- [ ] **LIFE — Q3 FY2026 print (early Nov 2026)** is the decisive data point: does revenue beat the $160-164M guide, does third-party hold above 60% growth, does contribution margin hold above 32%.
 
 ---
 
