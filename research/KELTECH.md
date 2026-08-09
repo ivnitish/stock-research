@@ -1,9 +1,43 @@
 # Keltech Energies (KELTECH / BSE 506528) — Investment Thesis
 
-**Status (revised 2026-07-25):** NOT OWNED — **AVOID at CMP ₹7,872** (stock has moved 57% above the June 1 call level without any new fundamental disclosure)
+**Status (revised 2026-08-09):** NOT OWNED — stock is ₹9,750 (Aug 7), up ~95% from the ₹5,010 June 1 AVOID call. The FY26 annual report (released into the 7 Aug AGM) — the binary catalyst the bull case was gated on — disclosed **no defence segment and no order book**; Q1 FY27 grew revenue 27.7% YoY but on flat 7.5% OPM and −1.6% PAT. Fundamentally the AVOID is more valid than ever (37x P/E on 7.5% OPM commercial explosives + perlite). Swing lens: the catalyst has now passed against the narrative and price sits at its high — no fresh entry. See the deep-research update and lesson note below.
 **Quality Score:** 12/25 — Grade C (unchanged)
 **Classification:** Overvalued / Mediocre Compounder — commercial explosives + perlite business at 7-8% OPM being priced as if it were a defence-energetics specialist
-**Last Updated:** 2026-07-25 | **CMP:** ₹7,872 | **52w:** ₹2,900–5,450 (from Apr 2026 read; current price has since broken through) | **Market Cap:** ₹787 Cr
+**Last Updated:** 2026-08-09 | **CMP:** ₹9,750 | **52w:** ₹2,900–9,864 | **Market Cap:** ₹975 Cr | **P/E:** 37x
+
+---
+
+## Deep-research update (2026-08-09) — Q1 FY27 + FY26 AR: the binary catalyst passed, and there is no order book
+
+The prompt behind this update was a recollection of "an order-book change." Deep research finds no such thing. There is no order book, no order-win filing, no defence contract, and no new segment. The BSE announcement stream through the 7 Aug AGM is routine — Q1 results (1 Aug), the 49th AGM, a ₹1.50 dividend, a director reappointment, a cost auditor. The company had earlier even filed a formal clarification to the exchange that there was no undisclosed information behind the stock surge. The most likely source of the "order book" recollection is Solar Industries, whose defence and SECL explosives orders dominate every Keltech search result — Keltech itself has announced nothing of the kind.
+
+Two things genuinely changed, and both matter for the record:
+
+**1. Q1 FY27 (Jun-26) broke the revenue range but not the margin.** Revenue was ₹183 Cr, up 27.7% YoY and the first quarter above the ₹117-143 Cr band the business held for seven quarters. But OPM stayed at 7.5%, PAT fell 1.6% YoY to ₹8.08 Cr, and pre-tax profit rose only 2.3% on that 28% revenue jump. The growth is low-margin volume with no operating leverage — the opposite of what a defence-energetics mix would produce. The old note line claiming "no acceleration is visible" is now corrected in the quarterly table: revenue accelerated, earnings did not.
+
+**2. The FY26 annual report — the binary catalyst the bull case was gated on — was released into the 7 Aug AGM and disclosed no defence segment.** The reporting segments remain Explosives and Perlite. The event the ₹5,010→₹9,750 re-rating was implicitly pricing arrived and confirmed the negative. For a reflexive, thin-float thematic name, a catalyst that resolves *against* the narrative removes the fuel rather than adding it.
+
+**Fundamental verdict — unchanged, and now better-evidenced: AVOID.** At ₹9,750 the stock is ~37x trailing earnings on a 7.5%-OPM commercial-explosives-and-perlite business whose own FY26 AR confirms there is no defence energetics line. The re-rating is complete without the fundamentals ever arriving.
+
+**Swing-trade read (the second lens from the lesson note below) — no fresh entry, and the setup has decayed.** The earlier lesson was that a thin-float thematic name with a *pending* binary catalyst deserved a small speculative trade with a stop and a target. That window is now closed: the catalyst (the AR) has passed with a negative result, the price sits ₹9,750 against a 52-week high of ₹9,864 (essentially at the top after a ~95% run), retail holders thinned from 6,724 to 6,244 through the rally rather than accumulating, and Q1 gave the theme no margin validation to feed on. Chasing here is buying the exhausted end of a reflexive move into a resolved catalyst — poor short-horizon asymmetry. A swing trade needed the entry *before* the run, not at the high after the news. If the price mean-reverts hard toward the ₹5,000-6,000 zone on a theme cooldown, a fresh thin-float setup could be reassessed then; at ₹9,750 there is neither a compounding case nor a swing case.
+
+---
+
+## Lesson note (2026-08-09) — the AVOID was fundamentally right and still missed a tradeable double
+
+Price went ₹5,010 (June 1 call) → ₹7,872 (July 25) → ₹9,750 (Aug 7). A near-double in ten weeks with no defence order, no defence segment, no concall — the exact fundamental event the bull case was gated on never arrived. The stock re-rated on theme + thin float alone.
+
+What the note got right: the business read. At 37x P/E on a single-digit-OPM commercial explosives company, Keltech is *more* overvalued now, not less. Nothing about the fundamental AVOID for a long-term compounder was wrong, and buying here on the fundamentals would still be a mistake.
+
+What the framework missed, honestly:
+
+1. **Wrong lens for the setup.** This framework prices durable compounding via DCF. Keltech's driver was reflexive, not fundamental: ₹500 Cr cap, ~6,700 holders, ~100% retail float, a hot defence-energetics theme, and a pending binary catalyst (FY26 AR). That combination re-rates on flows, and the note itself said so (see "What success itself triggers" — it literally predicted "prints ₹9,000 within a year"). The DCF was right about the business and irrelevant to the 3-month price path.
+
+2. **The probability weight was miscalibrated.** The note assigned the bull case 15% and let the 2x asymmetry rule (bull-vs-bear 1.88x) veto any participation. But the re-rating did not *need* the fundamental event — it only needed the theme to stay hot and the float to stay thin over a few weeks. Over a 3-month window that is a much higher probability than 15%. I under-weighted reflexivity and float mechanics.
+
+3. **No swing-trade module.** The user is partly a swing trader (exits ~3 months on target). "AVOID as a compounder" is not "AVOID as a swing trade." A thin-float name on a live theme with a catalyst window is precisely the swing setup — it warranted a small speculative position with a hard stop and a target, sized off the 3-month asymmetry, not a blanket zero. The framework has no lens for this, so it defaulted to zero and called the momentum "not a source of information." For a swing trade, price + float + theme *are* the information.
+
+**Fix logged:** when a name is a thin-float thematic momentum play with a near-term binary catalyst, run a separate swing-trade read alongside the compounding read — small speculative size, defined stop, defined target, exit on catalyst or stop. Do not let the long-horizon AVOID suppress a bounded short-horizon trade. This does not change the compounding-framework AVOID; it adds a second answer for the trader the user actually is.
 
 ---
 
@@ -209,8 +243,9 @@ OCF/PAT averaged 1.05x over FY22-FY26 (cash conversion is genuinely clean), but 
 | Sep 2025 | 117.29 | 7.0% | 6.20 | 62.00 |
 | Dec 2025 | 128.17 | 7.4% | 5.81 | 58.10 |
 | Mar 2026 | 143.13 | 7.4% | 8.44 | 84.40 |
+| Jun 2026 | 183.28 | 7.5% | 8.08 | 80.80 |
 
-Q1 FY26 (Jun-25) printed the best quarter on margin (8.76% OPM, PAT ₹8.2 Cr) — that's the print that probably triggered the recent leg of the stock run. The sequential trajectory since is flat-to-down on margin (7.0%, 7.4%, 7.4%), and revenue has been range-bound ₹117-143 Cr per quarter for six quarters running. There is no acceleration visible in the quarterly data — the stock has re-rated, the business has not.
+Q1 FY27 (Jun-26) is the first quarter that breaks the pattern on the top line: revenue ₹183 Cr is up 27.7% YoY (vs ₹143.46 Cr in Jun-25) and clears the ₹117-143 Cr band the business had held for seven quarters. But the margin did not follow — OPM stayed at 7.5% and PAT actually fell 1.6% YoY to ₹8.08 Cr, with pre-tax profit up only 2.3% on a 28% revenue jump. So the top-line acceleration is running entirely on low-margin volume with no operating leverage; more revenue is passing through at the same thin single-digit margin. (This corrects the pre-Aug-2026 read that "there is no acceleration visible" — revenue did accelerate; earnings did not.) The stock re-rated ahead of this, and the print does not validate a defence-grade margin structure.
 
 #### Segment revenue (Q1 FY26, in ₹ lakhs per BSE filing)
 
@@ -218,13 +253,13 @@ Q1 FY26 (Jun-25) printed the best quarter on margin (8.76% OPM, PAT ₹8.2 Cr) �
 - Perlite: ₹1,661 lakhs (₹16.61 Cr, ~12%)
 - **Defence: NOT separately disclosed.** The two reported segments are Explosives and Perlite. If defence revenue exists, it is bundled inside the Explosives line and is not material enough to require segregated reporting under Ind AS 108.
 
-#### Shareholding (Mar 2026)
+#### Shareholding (Jun 2026)
 
-- Promoter: **54.33%** (stable across last 4 quarters, no pledge disclosed)
-- DII: 0.14%
+- Promoter: **54.33%** (stable across last 5 quarters, no pledge disclosed)
+- DII: 0.16%
 - FII: not separately disclosed (effectively zero)
-- Public: 45.52%
-- Total shareholders: 6,724
+- Public: 45.51%
+- Total shareholders: 6,244 (down from 6,724 in Mar-26 — a small retail exit through the rally, not accumulation)
 
 The institutional flow signal is that no institutional desk owns this name — almost the entire 45.52% public float is retail. That is consistent with the small market cap (₹501 Cr is below most institutional thresholds) but it also explains the re-rating: retail flow chasing a defence narrative against a thin float can move price violently without any fundamental change.
 
@@ -701,6 +736,9 @@ The work today started from the brief's framing of Keltech as a defence-energeti
 | Date | Update |
 |------|--------|
 | 2026-06-01 | Initial research note. Grade C (12/25). AVOID at CMP ₹5,010. Defence narrative does not appear in disclosure. Revisit at ₹3,500 or on FY26 annual report. |
+| 2026-07-25 | Price up 57% to ₹7,872 on zero new disclosure. AVOID reaffirmed (stronger). |
+| 2026-08-09 | Lesson note added: fundamental AVOID right but missed a thin-float thematic double; logged swing-trade lens as a second read. |
+| 2026-08-09 | Deep-research update. Q1 FY27 (Jun-26) added: revenue ₹183 Cr (+27.7% YoY) but OPM flat 7.5%, PAT ₹8.08 Cr (−1.6%). FY26 AR into 7 Aug AGM confirmed no defence segment and no order book — the binary catalyst resolved against the narrative. Grade C / AVOID unchanged. Swing lens: catalyst passed, price at 52w high — no fresh entry; reassess only on a hard mean-reversion to ₹5,000-6,000. |
 
 ---
 

@@ -1,5 +1,11 @@
 # Research System — TODO
-*Last updated: 2026-08-07*
+*Last updated: 2026-08-09*
+
+---
+
+## ✅ Completed — 2026-08-09 — KELTECH deep-research update (order-book check)
+
+User flagged a possible "order book" change. Deep research (screener 506528, BSE announcement stream, Q1 FY27 result, FY26 AR/AGM coverage) found **no order book, no defence order, no new segment** — the "order book" recollection traces to Solar Industries, which dominates every Keltech search. Two real changes captured in the note: (1) Q1 FY27 (Jun-26) revenue ₹183 Cr **+27.7% YoY** — first quarter above the ₹117-143 Cr band — but OPM flat 7.5% and PAT −1.6%, so growth is low-margin volume with no operating leverage; (2) the FY26 AR released into the 7 Aug AGM (the binary catalyst the bull case was gated on) confirmed no defence segment. Fundamental **AVOID / Grade C unchanged**, now better-evidenced. Added the swing-trade second lens: catalyst has passed against the narrative and price sits at its 52-week high (~95% run) — **no fresh swing entry**; reassess only on a hard mean-reversion to ₹5,000-6,000. Quarterly table, shareholding (Jun-26), status line, and Update History all updated non-destructively. Rendered → PDF → Telegram; index rebuilt.
 
 ---
 

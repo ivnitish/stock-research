@@ -1,0 +1,23 @@
+symbol,call_date,call_type,ref_price,ref_label,target,stop,note
+KELTECH.BO,2026-06-01,AVOID,5010,call price,,,Thin-float defence theme; AVOID on fundamentals; re-rated on flow
+KERNEX.NS,2026-06-02,TRIM,1895,trim price,,,Trimmed 50% on asymmetry<2x; order book kept it running
+RAYMOND.NS,2026-05-25,HOLD_ADD_CEILING,466,call price; do-not-add>500,,,Aerospace re-rate; add-ceiling at 500 too tight
+SWIGGY.NS,2026-03-11,EXIT,285,exit price,,,Loss-making; exit correct - flat since
+ETERNAL.NS,2026-03-11,HOLD_NO_ADD,224,call price; 937x PE,,,Held; refused add at 937x; earnings caught up
+THRIVE.BO,2026-06-02,EXIT,,exit,,,Exit call; kept falling - correct
+STLNETWORK.NS,2026-03-11,EXIT,18.9,exit price,,,Distress exit; bounced +32% since - defensible
+ATHERENERG.NS,2026-05-02,MONITOR_NO_CALL,665.05,monitor entry,,,Never underwrote; ran without a decision
+BHEL.NS,2026-05-02,MONITOR_NO_CALL,254,monitor entry,,,Never underwrote; ran without a decision
+SOUTHWEST.NS,2026-05-02,MONITOR_NO_CALL,172.38,monitor entry,,,Never underwrote; ran without a decision
+ZENTEC.NS,2026-05-02,MONITOR_NO_CALL,1479.20,monitor entry,,,Never underwrote; ran without a decision
+DREDGECORP.NS,2026-05-02,WATCHLIST,898.45,watchlist ref,,,Parked on watchlist; ran
+PPAP.NS,2026-06-01,BUY_AT_LOWER,256,note price; buy-at 200-210,,,Standing order never filled; ran to 321
+ANANTRAJ.NS,2026-05-02,HOLD,460.80,avg buy,,,Owned; thesis working
+ARTEMISMED.NS,2026-05-02,HOLD,236.67,avg buy,,,Owned; thesis working
+BANCOINDIA.NS,2026-05-02,HOLD,589.50,avg buy,,,Owned; thesis working
+GRSE.NS,2026-05-02,HOLD,2267.42,avg buy,,,Owned; thesis working
+ICICIAMC.NS,2026-05-02,HOLD,2165.00,avg buy,,,Owned; thesis working
+NEWGEN.NS,2026-05-02,HOLD,447.78,avg buy,,,Owned; thesis working
+SHILCTECH.NS,2026-05-02,HOLD,4559.69,avg buy,,,Owned; thesis working
+NESCO.NS,2026-05-02,HOLD,1150.00,avg buy,,,Owned; slightly down
+NWIL.BO,2026-05-02,HOLD,27.96,avg buy,,,Owned; down
