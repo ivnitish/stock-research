@@ -1,0 +1,262 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Template Section Audit</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         max-width: 940px; margin: 0 auto; padding: 40px 48px; color: #1f2328; line-height: 1.55; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h3 { color: #57606a; font-weight: 500; margin: 0 0 20px; font-size: 15px; }
+  h2 { font-size: 19px; border-bottom: 2px solid #d0d7de; padding-bottom: 6px; margin-top: 34px; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 13.5px; }
+  th, td { border: 1px solid #d0d7de; padding: 7px 10px; text-align: left; vertical-align: top; }
+  th { background: #f6f8fa; font-weight: 700; }
+  tr:nth-child(even) td { background: #fafbfc; }
+  td:first-child { font-weight: 600; width: 32%; }
+  td:nth-child(2) { white-space: nowrap; width: 14%; }
+  code { background: #f0f2f4; padding: 1px 5px; border-radius: 4px; font-size: 0.9em; }
+  hr { border: none; border-top: 1px solid #d8dee4; margin: 26px 0; }
+  strong { color: #0f1419; }
+  em { color: #57606a; }
+  blockquote { border-left: 3px solid #d0d7de; margin: 0; padding-left: 14px; color: #57606a; }
+  p, li { font-size: 14px; }
+</style></head><body><h1>Research Template — Section Audit</h1>
+<h3>Which sections earn their place, and which generate filler</h3>
+<p><strong>Date:</strong> 2026-08-01 · <strong>Basis:</strong> the five notes just produced (CUMI, PROTEAN, Stovec, Triton Valves) + <code>research/_TEMPLATE.md</code>
+<strong>Status:</strong> PROPOSAL — nothing changed yet. Pick what you want and I apply it to <code>_TEMPLATE.md</code> / <code>CLAUDE.md</code>.</p>
+<hr />
+<h2>The one-line diagnosis</h2>
+<p>The template isn't too long — it has <strong>four or five slots that produce the same words no matter the company</strong>, plus <strong>one calculation (bear/base/bull growth) derived three separate times</strong>. Cut those and the note gets shorter <em>and</em> sharper. Everything that actually drove a recommendation this batch stays.</p>
+<p><strong>Legend:</strong>  <span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span> as-is · <span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#b91c1c;background:#ffe3e3;white-space:nowrap;">🔴 CUT</span> · <span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#9a6700;background:#fff3cd;white-space:nowrap;">🟡 MERGE</span> (fold into another section) · <span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#0b62c4;background:#dbeafe;white-space:nowrap;">🔵 CONDITIONAL</span> (include only when there's real data)</p>
+<hr />
+<h2>Summary Verdict layer</h2>
+<table>
+<thead>
+<tr>
+<th>Section</th>
+<th>Verdict</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Recommendation block (call + price ladder)</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>This is the product. Every reader decision comes from here.</td>
+</tr>
+<tr>
+<td>Why this business?</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>The thesis in plain language. Load-bearing.</td>
+</tr>
+<tr>
+<td>Strengths / Concerns</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>Drove all five calls.</td>
+</tr>
+<tr>
+<td>How does this actually compound? (one-liner)</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>Cheap, points to Q3. Fine.</td>
+</tr>
+<tr>
+<td>What does the market think — where do I disagree?</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>The edge, quantified. Keep.</td>
+</tr>
+<tr>
+<td><strong>Second-Order Stress Test → 5-Whys ladder</strong></td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#0b62c4;background:#dbeafe;white-space:nowrap;">🔵 CONDITIONAL</span></td>
+<td>Sometimes drills to a real structural moat; more often restates one fact five times padded with "Why is that true? →". Keep only when the 5th answer is genuinely <em>structural</em> — else one "root cause of the moat" sentence.</td>
+</tr>
+<tr>
+<td><strong>Second-Order Stress Test → "Market label vs reality" 6-row table</strong></td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#b91c1c;background:#ffe3e3;white-space:nowrap;">🔴 CUT</span></td>
+<td>The template itself says half the rows answer "n/a / consensus aligned." The one useful cell (consensus vs our read) is already the whole point of "Where do I disagree?" above it. Collapse to the single <em>label-change-catalyst</em> line.</td>
+</tr>
+<tr>
+<td>Multi-Bagger Math table</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>The core scenario table. Keep — but it's one of the three places the growth math is derived (see #6 below).</td>
+</tr>
+<tr>
+<td>Key Metrics &amp; Trends (P&amp;L / BS / CF / quarterly / shareholding / ratios)</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>The factual spine of the whole note.</td>
+</tr>
+<tr>
+<td>Downside Framework — what protects capital?</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>Four floors → the real floor. Drove the CUMI ₹500 anchor and Triton's ₹500 line.</td>
+</tr>
+<tr>
+<td>When do I sell? (exit triggers)</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>Falsifiable conditions. Keep.</td>
+</tr>
+<tr>
+<td><strong>Where does this rank?</strong></td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>Came out useful this batch (CUMI-vs-Grindwell was real). Keep — but hold it to a genuine comparison, not a generic paragraph.</td>
+</tr>
+<tr>
+<td>Growth Trigger Scan (6-row table)</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>Mostly "No" rows, but it's a fast cheap checklist. Borderline — I'd keep it.</td>
+</tr>
+<tr>
+<td>Recent Developments / Action ladder</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>Keep.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Detailed Analysis layer</h2>
+<table>
+<thead>
+<tr>
+<th>Section</th>
+<th>Verdict</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Deep Dives (A/B/C)</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>The best part of the detailed layer — stock-specific, not templated (CUMI's standalone-vs-consolidated walk-through was the whole thesis).</td>
+</tr>
+<tr>
+<td>1. Business Summary</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>Short, factual. Fine.</td>
+</tr>
+<tr>
+<td>2. Quality Score (threshold checks + 5-dim table)</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>Drives grade, MOS thresholds, position size. Keep.</td>
+</tr>
+<tr>
+<td>3. Q0 Operating Leverage / Q1 Incremental ROIC / Q2 Runway / Q3 Compounding math</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>The compounding engine. Q3 is where growth <em>should</em> be derived once.</td>
+</tr>
+<tr>
+<td><strong>3. Q4 — What breaks the thesis?</strong></td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#9a6700;background:#fff3cd;white-space:nowrap;">🟡 MERGE</span></td>
+<td>Duplicates the Risks table and "When do I sell." Fold into Risks.</td>
+</tr>
+<tr>
+<td><strong>3. Q5 — Conviction anchor / "what I won't do in a drawdown"</strong></td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#b91c1c;background:#ffe3e3;white-space:nowrap;">🔴 CUT</span></td>
+<td>Journaling, not analysis. Produces near-identical boilerplate every note ("won't average up, quality doesn't fix price, max size X%") — restates Downside Framework + Action ladder.</td>
+</tr>
+<tr>
+<td>4. Sector-Specific Operating Detail (segment metrics)</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>Genuinely stock-specific where it exists.</td>
+</tr>
+<tr>
+<td>4. Promoter Activity (8-qtr)</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>Real signal. Keep.</td>
+</tr>
+<tr>
+<td><strong>4. Walk the Talk — Guidance vs Actuals</strong></td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#0b62c4;background:#dbeafe;white-space:nowrap;">🔵 CONDITIONAL</span></td>
+<td>High value <em>only if</em> we've read 2+ concalls. Otherwise it's "not available" rows — or a fabrication temptation. It's part of why Triton carries 7 "not available" markers. Include only with real concall history; else omit, don't stub.</td>
+</tr>
+<tr>
+<td>5.1 Primary Driver / 5.2 Reverse DCF / 5.3 Position Sizing</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>Core valuation. Keep.</td>
+</tr>
+<tr>
+<td><strong>5.4 Model 1 (DCF/OE) scenario table</strong></td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#9a6700;background:#fff3cd;white-space:nowrap;">🟡 MERGE</span></td>
+<td>Re-derives the <em>same</em> bear/base/bull growth as the Summary Multi-Bagger Math and Q3. Reference those numbers, don't rebuild a third table.</td>
+</tr>
+<tr>
+<td>5.5 Additional Checks (PEG, P/S band)</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>Cheap sanity checks. Keep.</td>
+</tr>
+<tr>
+<td>6. Competitive Landscape (position, peer table, re-rating)</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>Peer comparison drove the CUMI-vs-Grindwell and Stovec calls. Keep.</td>
+</tr>
+<tr>
+<td>7. Risks (full table)</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>Keep — and absorb Q4 here.</td>
+</tr>
+<tr>
+<td><strong>8. Review Schedule</strong></td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#9a6700;background:#fff3cd;white-space:nowrap;">🟡 MERGE</span></td>
+<td>Usually one trivial date + "events to watch." Fold into the Action ladder / Research Log.</td>
+</tr>
+<tr>
+<td><strong>9. Decision History</strong></td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#0b62c4;background:#dbeafe;white-space:nowrap;">🔵 CONDITIONAL</span></td>
+<td>For any name we don't own — all six this batch — it's an empty table. Include only once a position exists.</td>
+</tr>
+<tr>
+<td>10. Research Log</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>The audit trail. Keep (never trimmed, per house rule).</td>
+</tr>
+<tr>
+<td>Glossary</td>
+<td><span style="display:inline-block;padding:1px 8px;border-radius:11px;font-size:0.82em;font-weight:700;color:#1a7f37;background:#dafbe1;white-space:nowrap;">🟢 KEEP</span></td>
+<td>Useful for genuinely niche terms (rotary screen printing, PPP diagnostics). Keep, but hold it to niche terms — it drifts into re-defining things already explained inline.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>#6 — The structural problem worth fixing first</h2>
+<p>The bear/base/bull <strong>growth rate is calculated three times</strong>:</p>
+<ol>
+<li>Summary Verdict → <strong>Multi-Bagger Math</strong> table</li>
+<li>Section 3 → <strong>Q3</strong> ("implied compounding math")</li>
+<li>Section 5.4 → <strong>Model 1</strong> DCF scenario table</li>
+</ol>
+<p>Three tables, one calculation. <strong>Derive it once in Q3/5.1, display it once in Multi-Bagger Math, and have 5.4 reference those numbers rather than rebuild them.</strong> This single change removes more redundant text than all the section cuts combined.</p>
+<hr />
+<h2>Net effect if you apply everything</h2>
+<table>
+<thead>
+<tr>
+<th>Change</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cut Q5 (conviction anchor)</td>
+<td>🔴</td>
+</tr>
+<tr>
+<td>Cut "Market label vs reality" table → keep 1 catalyst line</td>
+<td>🔴</td>
+</tr>
+<tr>
+<td>Fold Q4 into Risks</td>
+<td>🟡</td>
+</tr>
+<tr>
+<td>Fold Review Schedule into Action/Research Log</td>
+<td>🟡</td>
+</tr>
+<tr>
+<td>De-duplicate growth math (3 tables → 1)</td>
+<td>🟡</td>
+</tr>
+<tr>
+<td>Make 5-Whys, Walk-the-Talk, Decision History conditional</td>
+<td>🔵</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Nothing that drove a recommendation this batch is touched.</strong> The note gets ~20-25% shorter, and the parts that remain are the parts you actually read.</p>
+<hr />
+<p><em>Proposal only. Tell me which rows to apply and I'll edit <code>_TEMPLATE.md</code> + the matching guidance in <code>CLAUDE.md</code>, then re-render.</em></p></body></html>
