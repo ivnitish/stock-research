@@ -1,15 +1,21 @@
 # Venus Remedies (VENUSREM) — Investment Thesis
 
-**Status:** HOLD existing; new-money entry above ideal range (thesis confirmed by Q4 FY26 print, stock has run +48% since v1.1)
-**Quality Score:** 18/25 (Grade B, upper half)
-**Classification:** Quality Compounder (base) + Multi-Bagger Candidate (bull, with VRP-034 US launch optionality)
-**Last Updated:** 2026-06-02 | **CMP:** ₹1,414 | **Market Cap:** ₹1,890 Cr
+**Status:** HOLD existing 3-4% | **BUY AT ₹1,225** for any addition or new money (standing order, not a watchlist)
+**Quality Score:** 17/25 (Grade B) — business quality upgraded, valuation attractiveness downgraded
+**Classification:** Quality Compounder, fully valued at CMP + Multi-Bagger Candidate on the VRP-034 bull branch only
+**Last Updated:** 2026-08-10 | **CMP:** ₹1,562.70 [Source: NSE, 07-Aug-2026, ex-dividend ₹10] | **Market Cap:** ₹2,093 Cr
 
 ---
 
-**Recommendation (v1.1, May 16):** BUY REDUCED 3-4% at ₹912. Build to 5% on Q4 FY26 operating margin ≥18%, or VRP-034 advancing into Phase 2. Add aggressively below ₹780.
+**Recommendation (v1.2, 10-Aug-2026): HOLD existing 3-4%. Do NOT add at ₹1,562.70. BUY AT ₹1,225.**
 
-**Post Q4 FY26 print (2026-06-02 refresh, v1.2 pending) — interim guidance:** Thesis confirmed (Q4 FY26 revenue ₹259 Cr +33% YoY, OPM 24%, PAT ₹48 Cr +129%; FY26 OPM 19%, PAT ₹103 Cr +129%; ₹10/share dividend declared — first in 12 years). CMP has moved to ₹1,414 (+55% since v1.1 entry at ₹912), now at the Action Table TRIM trigger line. Strict reading: the TRIM trigger is conditional on "no FY27 OPM ≥17%" — FY27 isn't observable yet and the FY26 print (19% OPM) is supportive, so the failure condition has not fired. **Recommendation held, not changed:** existing 3-4% holders HOLD (do not trim on price alone — the OPM-sustain test that was the upgrade condition passed); new money WAIT for a pullback into ₹950-₹1,100 OR a VRP-034 Phase 2 catalyst. Aggressive add zone moves to <₹950 (from <₹780) given de-risked execution. Multi-bagger math table and Action Table refresh queued for v1.2. See 2026-06-02 log entry for full reasoning.
+Q1 FY27 was a genuinely good print: revenue ₹178.86 Cr (+30.4% YoY), EBITDA ₹36.81 Cr (+95.8%), operating EBITDA margin 19.10% against 7.66% a year ago, consolidated PAT ₹22.97 Cr (+139.3%). It held a 19%-plus margin in the seasonally weakest quarter of the year, which tells us more about the structural margin level than any other print since the recovery began. Five consecutive quarters now sit at or above 15% OPM.
+
+The price already knows this. The stock was ₹912 in May, ₹1,414 on 2 June, touched an all-time ₹1,870 on 15 June, and sits at ₹1,562.70 now. Rebuilding the scenario table off the FY26 actual base — ₹770 Cr revenue, 19% OPM, ₹103 Cr PAT — rather than the stale FY30 model gives a base-case FY31 fair value of ₹2,621, a bear case of ₹545 and a bull case of ₹5,527. Against ₹1,562.70 that is 67.7% of upside to the base case and 65.1% of downside to the bear: an asymmetry ratio of **1.04x**. The framework's own floor is 2x, and below 1x you do not buy regardless of what the margin-of-safety number says. Margin of safety against the probability-weighted fair value of ₹1,671 is **6.5%** — a Grade B business needs 20-35%.
+
+At this price you are paying for improvement that has already been reported. **₹1,225 is the price where the asymmetry crosses 2x** — that is the standing order, and it is not a euphemism for waiting. Below ₹950 the ratio goes to 4.1x and the position should be built aggressively toward 6-7%. The other route to adding at or above CMP is a VRP-034 Phase 2 enrolment or readout, which would legitimately move the bull branch from a 30% weight to something much higher and re-price the whole table upward.
+
+**TRIM trigger status: cleared, not fired, and now retired.** The old trigger read "above ₹1,400 with no FY27 OPM ≥17% on a full-year basis." Q1 FY27 printed 19.10%, the first FY27 datapoint, in the weakest quarter. The failure condition it was conditioned on has been actively disproved rather than left unobservable, so the trigger has done its job and is replaced below by a valuation-based trim at ₹2,200.
 
 Venus Remedies makes injectable antibiotics — primarily carbapenems like meropenem, the drugs hospitals use in ICUs when standard antibiotics fail — out of plants in Panchkula, Baddi (Himachal Pradesh), and Werne (Germany). For most of the last decade the company was a debt-laden survival story: ₹335 Cr of borrowings against a ₹400 Cr revenue base, four straight years of losses through FY20. Between FY21 and FY25 it executed one of the cleanest deleveraging stories in mid-cap pharma — debt paid down to ₹2 Cr without taking in any fresh equity, revenue back to ₹640 Cr. That chapter is largely closed and the stock has already tripled from the FY24 lows recognising it.
 
@@ -27,13 +33,27 @@ Venus Remedies makes injectable antibiotics — specifically carbapenems like me
 
 ### Multi-Bagger Math (5-year, FY30)
 
+*(Superseded — retained for audit. The v1.1 FY30 table below was built before FY26 actuals landed; its FY30 base of ₹1,100 Cr revenue / 13% OPM / ₹140 Cr PAT was already 71% overtaken by the FY26 actual of ₹770 Cr / 19% / ₹103 Cr, implying an absurd ~8% PAT CAGR over four years. Rebuilt table follows.)*
+
 | Scenario | Revenue (₹Cr) | OPM | PAT (₹Cr) | Exit P/E | Market Cap (₹Cr) | Price | Return |
 |----------|---------------|-----|-----------|----------|------------------|-------|--------|
 | Bear     | 650           | 10% | 55        | 10x      | 550              | ₹412  | -55%   |
 | Base     | 1,100         | 13% | 140       | 16x      | 2,240            | ₹1,675| +84%   |
 | Bull     | 1,400         | 18% | 230       | 22x      | 5,060            | ₹3,785| +315%  |
 
-Probabilities (illustrative): Bear 20%, Base 50%, Bull 30%. Probability-weighted FV today (discounted at 13%) ≈ ₹1,117 → MOS 18%, asymmetry above 2x. Bull width does the work — base case is fair, bull is what makes this worth holding. See Deep Dive A2 for the full 10x scenario walk-through.
+### Multi-Bagger Math — REBUILT (5-year, FY31, off FY26 actuals)
+
+Base year is FY26 actual: revenue ₹770 Cr, OPM 19%, PAT ₹103 Cr, EPS ₹76.90, share count 1.339 Cr. FY27 is running at ₹950-980 Cr on the Q1 seasonal shape (Q1 FY26 was 17.8% of the FY26 year; Q1 FY27's ₹178.86 Cr at the same share implies ~₹1,000 Cr, so ₹950 Cr is the conservative anchor). PAT is built from EBITDA less depreciation less 22% tax rather than a flat margin assumption, because depreciation rises materially as the FY25-27 capex commissions.
+
+| Scenario | FY31 Revenue (₹Cr) | OPM | EBITDA | less D&A | Tax @22% | PAT (₹Cr) | Exit P/E | Market Cap (₹Cr) | Price | 5-yr Return |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Bear | 1,150 | 12% | 138 | 45 | 20 | **73** | 10x | 730 | **₹545** | −65% |
+| Base | 1,605 | 18% | 289 | 50 | 53 | **195** | 18x | 3,510 | **₹2,621** | +68% |
+| Bull | 2,000 | 22% | 440 | 60 | 84 | **296** | 25x | 7,400 | **₹5,527** | +254% |
+
+Each branch needs a physical event, not a mood. **Bear** requires generic carbapenem price compression in the CIS and African tender channels to claw back the mix gains, plus a firmer rupee on a ~65% export book — margin back to the pre-FY25 line and the multiple back to what the market pays a no-narrative EM exporter. **Base** is the FY25-27 capex commissioning into incremental volume at roughly the current mix, 14% revenue CAGR from FY27, margin holding 18% rather than the 19-24% peak, and no VRP-034 contribution at all. **Bull** requires VRP-034 to clear Phase 2 inside the window and the market to start pricing Venus as an FDA-track innovator rather than a tender exporter — that is where the 25x comes from, not from the base business.
+
+Probabilities (illustrative): Bear 20%, Base 50%, Bull 30%.
 
 ### Key Metrics & Trends
 
@@ -93,6 +113,11 @@ OCF/PAT ratio over FY21-25: ~1.5x average — clean cash conversion. FY25 capex 
 | Q2 FY26 (Sep'25) | 193 | 16% | 20  | 15.06 |
 | Q3 FY26 (Dec'25) | 180 | 20%+| 26  | 19.1 |
 | Q4 FY26 (Mar'26) | 259 | 24% | 48  | 35.54 |
+| Q1 FY27 (Jun'26) | 178.86 | 19.10% | 22.97 | 17.15 |
+
+**Q1 FY27 (reported 20-Jul-2026):** revenue from operations ₹178.86 Cr (+30.38% YoY vs ₹137.18 Cr), EBITDA ₹36.81 Cr (+95.80% vs ₹18.80 Cr), operating EBITDA margin 19.10% vs 7.66%, consolidated PAT ₹22.97 Cr (+139.27% vs ₹9.60 Cr). Minor losses at the German (Werne) subsidiary. The base quarter Q1 FY26 carried higher other income, so the headline +139% PAT growth actually understates the operational improvement — the EBITDA line is the cleaner read. [Source: EquityBulls / sahi.com wire coverage of the 20-Jul-2026 filing, retrieved 2026-08-10 — BSE primary filing not accessible this session.]
+
+The important thing in this print is not the growth rate but *which quarter* delivered the margin. Q1 is structurally the weakest quarter Venus has — tender shipments cluster into the March quarter and the June quarter picks up the slack. Sequential de-growth from Q4 was −31.05%, against −33% in Q1 FY26 and −40% in Q1 FY25: the seasonal trough is shallowing year on year, which is what you would expect if a larger share of revenue is coming from repeat registered-market business rather than lumpy institutional tenders. A 19.10% margin in the trough quarter is a far stronger signal about the structural level than the 24% Q4 print was, because Q4 flatters on volume absorption and Q1 does not.
 
 The Q2 FY25 OPM at 4% is the cautionary data point — the company can swing hard on mix. Four consecutive quarters at ≥15% (Q4 FY25, Q2 FY26, Q3 FY26, Q4 FY26) — and the latest two at 20%+ — is the bullish counter-evidence. Q4 FY26 sales ₹259 Cr (+33% YoY) is the largest quarter in the company's history; FY26 closes at ₹770 Cr revenue, ₹103 Cr PAT (+129% YoY), 19% full-year OPM. (Source: Screener consolidated, 2026-06-02 refresh.)
 
@@ -110,6 +135,10 @@ FII + DII accumulation from a near-zero base is a positive data point — small 
 
 | Metric | Value | Read |
 |--------|-------|------|
+*(v1.1 snapshot at ₹912, retained for audit)*
+
+| Metric | Value | Read |
+|--------|-------|------|
 | CMP | ₹912 | -18% from 52w high ₹1,119; +175% from 52w low ₹332 |
 | Market cap | ₹1,219 Cr | Mid-cap |
 | P/E (trailing) | 16x | Cheap vs peer set (Caplin 28x, Gland 25x) |
@@ -120,6 +149,21 @@ FII + DII accumulation from a near-zero base is a positive data point — small 
 | D/E | ~0 | Effectively debt-free |
 | Dividend yield | 0% | No dividend in 12+ years |
 | Working capital days | 86 | High for pharma, stable |
+
+**Current snapshot (10-Aug-2026):**
+
+| Metric | Value | Read |
+|--------|-------|------|
+| CMP | ₹1,562.70 | [Source: NSE, 07-Aug-2026] — ex-dividend ₹10 that day; −16% from the all-time high of ₹1,870 (15-Jun-2026) |
+| Market cap | ₹2,093 Cr | 1.339 Cr shares × ₹1,562.70 |
+| TTM PAT | ₹116.4 Cr | FY26 ₹103 Cr − Q1 FY26 ₹9.60 Cr + Q1 FY27 ₹22.97 Cr |
+| TTM EPS | ₹86.9 | |
+| P/E (trailing) | **18.0x** | Was 16x at ₹912. Re-rated, no longer a screening bargain |
+| P/E (forward FY27E) | ~14-15x | On FY27E PAT ₹135-150 Cr (₹950-980 Cr revenue at 19-20% OPM) |
+| P/B | ~3.1x | On FY26 net worth ~₹663 Cr (reserves ₹650 Cr + equity ₹13 Cr) |
+| ROE (FY26) | **~15.5%** | ₹103 Cr on ~₹663 Cr — genuinely rebuilt from 7.16% |
+| D/E | ~0.02 | Borrowings ₹12 Cr; effectively debt-free |
+| Dividend yield | 0.64% | ₹10/share, record date 07-Aug-2026 |
 
 ### Strengths
 
@@ -140,30 +184,40 @@ FII + DII accumulation from a near-zero base is a positive data point — small 
 
 ### Margin of Safety
 
-- **Base case fair value (FY30):** ₹1,675 (target market cap ₹2,240 Cr on FY30 PAT ~₹140 Cr at 16x exit P/E)
-- **Bear case fair value (FY30):** ₹412 (margins revert to 10%, revenue stalls at ₹650 Cr, P/E compresses to 10x)
-- **Bull case fair value (FY30):** ₹3,785 (OPM sustains 18%+, revenue ₹1,400 Cr, P/E re-rates to 22x as VRP-034 commercialises and US-track unlocks)
-- **CMP:** ₹912
+**Rebuilt 2026-08-10 off FY26 actuals and the Q1 FY27 print. CMP ₹1,562.70.**
 
-**Discounted to today at 13% discount rate (5 years):**
-- Base PV ≈ ₹910
-- Bear PV ≈ ₹224
-- Bull PV ≈ ₹2,055
+- **Base case fair value (FY31):** ₹2,621 (₹3,510 Cr market cap on FY31 PAT ₹195 Cr at 18x)
+- **Bear case fair value (FY31):** ₹545 (OPM reverts to 12%, revenue crawls to ₹1,150 Cr, multiple compresses to 10x)
+- **Bull case fair value (FY31):** ₹5,527 (OPM 22% on ₹2,000 Cr, 25x as VRP-034 clears Phase 2 and the US branch gets priced)
 
-**Probability-weighted fair value (5-yr PV):**
+**Discounted to today at 13% over 5 years (divisor 1.842):**
 
-| Scenario | 5-yr Price | PV today | Weight | Contribution |
+| Scenario | FY31 Price | PV today | Weight | Contribution |
 |----------|-----------|----------|--------|--------------|
-| Bear     | ₹412      | ₹224     | 20%    | ₹45          |
-| Base     | ₹1,675    | ₹910     | 50%    | ₹455         |
-| Bull     | ₹3,785    | ₹2,055   | 30%    | ₹617         |
-| **Weighted FV** | | | **100%** | **₹1,117** |
+| Bear     | ₹545      | ₹296     | 20%    | ₹59          |
+| Base     | ₹2,621    | ₹1,423   | 50%    | ₹712         |
+| Bull     | ₹5,527    | ₹3,001   | 30%    | ₹900         |
+| **Weighted FV** | | | **100%** | **₹1,671** |
 
-- MOS vs weighted FV: (1,117 − 912) / 1,117 = **18%**
-- Upside to base (5-yr undiscounted): 84%
-- Upside to bull (5-yr undiscounted): 315%
-- Downside to bear: 55%
-- Probability-weighted asymmetry: **>2x** — clears the threshold for BUY REDUCED
+**The arithmetic that drives the call:**
+
+```
+Margin of safety = (1,671 − 1,562.70) / 1,671        =  +6.5%
+Upside if right  = (2,621 − 1,562.70) / 1,562.70     =  +67.7%
+Downside if wrong= (1,562.70 − 545) / 1,562.70       =  −65.1%
+Asymmetry ratio  = 67.7 / 65.1                        =  1.04x
+```
+
+A Grade B business requires 20-35% margin of safety; this offers 6.5%. The asymmetry ratio of 1.04x sits below the framework's absolute floor of 1x-plus-a-margin, and the rule at that level is unambiguous — do not buy, whatever the margin-of-safety number happens to read. Roughly a rupee of downside for every rupee of upside is not a bet worth adding to.
+
+**Where adding becomes defensible.** Solving for the price at which upside is twice the downside:
+
+```
+(2,621 − P) = 2 × (P − 545)   →   3,711 = 3P   →   P = ₹1,237
+MOS ≥ 20% against weighted FV ₹1,671  →  P ≤ ₹1,337
+```
+
+The binding constraint is the asymmetry test, so the standing order is **BUY AT ₹1,225** (rounded below ₹1,237 for execution slack) — a 21.6% pullback from here. At ₹950 the ratio is 4.1x and the position should be built hard. Recompute both levels after every quarterly print; a second and third quarter of 19%-plus OPM lifts the base case and drags the trigger price up with it.
 
 ### How does this actually compound? (one-line summary; full breakdown in Section 3 below)
 
@@ -171,7 +225,11 @@ Profit grows from two stacked sources: (1) operating leverage on a manufacturing
 
 ### What does the market think — and where do I disagree?
 
-At ₹912 and trailing PAT of ~₹76 Cr, the market is paying about 16x trailing earnings (13x on annualised 9M FY26 PAT). For a pharma exporter without USFDA-approved manufacturing, with 12% recent revenue growth and a multi-quarter history of margin volatility, that's roughly fair — not cheap, not expensive. The implied EPS growth in a simple reverse-DCF at 13% discount and 16x terminal is around 11-12% sustained for the next five years. The market is pricing recent execution as a partial recovery rather than a structural re-rate.
+**Updated 2026-08-10 at ₹1,562.70.** Trailing PAT is now ₹116.4 Cr and the market cap ₹2,093 Cr, so the market pays 18.0x trailing and roughly 14-15x on an FY27 estimate of ₹135-150 Cr. Back-solving a reverse DCF at a 13% discount and an 18x terminal multiple, the implied sustained EPS growth is around 13-14% for five years. That is no longer the 11% of three months ago — the market has absorbed the margin step-up and is now pricing Venus as a genuine mid-teens compounder rather than a recovery trade.
+
+Which means my disagreement has largely been resolved in my favour, and that is precisely the problem. The gap that made this a buy at ₹912 was between a 10%-margin decade of history and a 19%-margin present; four consecutive prints have closed it, and the share price went from ₹912 to an all-time ₹1,870 in six weeks doing so. What is left is a residual disagreement on the bull branch: the market is still assigning close to nothing to VRP-034, and I think a QIDP-designated novel polymyxin with ten years of exclusivity is worth more than zero. But an unpriced option on a pre-Phase-2 antibiotic is a reason to *hold* a position bought at 13x, not a reason to add at 18x. On my own numbers the base business compounds at roughly 11% a year to FY31 from ₹1,562.70, which is close enough to a fair price that the unpriced pipeline option is the only thing left to own here.
+
+*(v1.1 assessment at ₹912, retained for audit)* At ₹912 and trailing PAT of ~₹76 Cr, the market is paying about 16x trailing earnings (13x on annualised 9M FY26 PAT). For a pharma exporter without USFDA-approved manufacturing, with 12% recent revenue growth and a multi-quarter history of margin volatility, that's roughly fair — not cheap, not expensive. The implied EPS growth in a simple reverse-DCF at 13% discount and 16x terminal is around 11-12% sustained for the next five years. The market is pricing recent execution as a partial recovery rather than a structural re-rate.
 
 Where I'd push back: if the Q3 FY26 margin print of >20% is the new normal rather than an export-mix quarter, FY27-28 PAT could be ₹110-140 Cr rather than the ₹90 Cr a continued 11% growth path would imply. The market is implicitly saying that won't sustain. The disagreement, then, is on whether the lumpiness of past years (Q2 FY25 at 4% OPM, Q4 FY25 at 15%, Q3 FY26 at 20%+) is residual volatility around a rising trend or noise that will mean-revert to the 10% historical line. Three consecutive quarters at ≥15% argue for the former, but the lack of management communication makes it harder to confirm. Separately, the market hasn't priced VRP-034 at all — when QIDP was granted in April 2025, the stock popped 14% on the day and went back to sleep. For a designation that, if it leads to a commercial product, would 5-10x the current market cap on its own, that's the biggest single pricing gap in the thesis.
 
@@ -203,6 +261,10 @@ Against ICICIAMC at ₹2,400 entry (asset-light, 35%+ ROE, regulated TAM): ICICI
 
 ### Recent Developments (most recent first)
 
+- **2026-08-07:** Ex-dividend for the ₹10/share FY26 final dividend; record date 07-Aug-2026, AGM 20-Aug-2026 (37th, via video conferencing). CMP ₹1,562.70. *Thesis impact: neutral — cash-flow event already anticipated, but the first payout in 12 years completing cleanly is a mild governance positive.* [Source: TipRanks / Globe and Mail company-announcement coverage, retrieved 2026-08-10]
+- **2026-07-20:** **Q1 FY27 results.** Revenue ₹178.86 Cr (+30.38% YoY), EBITDA ₹36.81 Cr (+95.80%), operating EBITDA margin 19.10% vs 7.66%, PAT ₹22.97 Cr (+139.27%). Minor losses at the Werne (Germany) subsidiary. Sequential de-growth −31.05% against −33% and −40% in the two prior first quarters. *Thesis impact: strengthens the business, weakens the trade. Holding a 19%-plus margin in the seasonally weakest quarter is the strongest single piece of margin-durability evidence the company has produced, and it upgrades the Financials score from 3/5 to 4/5. It does not make ₹1,562.70 a buying price — see the rebuilt Margin of Safety section.* [Source: EquityBulls / sahi.com wire coverage, retrieved 2026-08-10]
+- **2026-06-15:** Stock touched an all-time high of ₹1,870 before retracing to the current ₹1,562.70. *Thesis impact: neutral to the business, materially negative to the entry asymmetry — the price ran +105% from the ₹912 v1.1 entry in under five weeks.*
+- **2026 (H1):** DSIR in-house R&D recognition renewed for Venus Medicure Research Centre, the unit running the AMR programme and VRP-034. *Thesis impact: incrementally strengthens — preserves the R&D tax treatment underpinning the pipeline spend.*
 - **2026-05-26:** **Q4 FY26 + full-year FY26 results declared.** Q4 revenue ₹259 Cr (+33% YoY, largest quarter ever), OPM 24%, PAT ₹48 Cr (+129% YoY), EPS ₹35.54. FY26: revenue ₹770 Cr, OPM 19%, PAT ₹103 Cr (+129% YoY), EPS ₹76.90. **Final dividend ₹10/share recommended** — first dividend in 12+ years; AGM 2026-08-20. Borrowings ₹12 Cr (still effectively debt-free), reserves ₹650 Cr. VRP-034 status not disclosed in result announcement (open follow-up). *Thesis impact: materially strengthens — confirms OPM-sustain test (≥18% upgrade condition) at full-year level; dividend resumption is a governance positive.*
 - **2026-03-02:** Promoter group internal merger announced — Sunev Pharma Solutions (17.21% of equity) to merge into Spine Software Systems. No change of control, no impact on aggregate promoter shareholding. *Thesis impact: neutral.*
 - **2026-01-29:** Q3 FY26 results — revenue ₹180 Cr (+2% YoY), PAT ₹25.58 Cr (+31%), EBITDA margin crossed 20% for first time in many quarters. 9M FY26 PAT ₹55 Cr (+127% YoY). *Thesis impact: strengthens — third consecutive quarter of >15% OPM.*
@@ -214,16 +276,22 @@ Against ICICIAMC at ₹2,400 entry (asset-light, 35%+ ROE, regulated TAM): ICICI
 
 ### Action Table
 
+**Rebuilt 2026-08-10. Replaces the v1.1 ladder entirely.**
+
 | Price | Condition | Action |
 |-------|-----------|--------|
-| <₹780 | Any time | BUY full size 5% |
-| ₹780-₹950 | Default — at CMP | BUY REDUCED 3-4% (initiate position now) |
-| ₹780-₹950 | Q4 FY26 OPM ≥18% OR VRP-034 Phase 2 enrolment confirmed | BUILD to 5% |
-| ₹950-₹1,200 | No new catalyst | HOLD existing position; pause add |
-| ₹950-₹1,200 | VRP-034 Phase 2 positive readout | BUILD to 6-7% |
-| >₹1,400 | No FY27 OPM ≥17% on full-year basis | TRIM 25% |
-| Any | 2 consecutive quarters OPM <12% with no specific tender explanation | EXIT |
-| Any | VRP-034 Phase 2 failure / QIDP withdrawal | Re-evaluate; likely TRIM to 1% |
+| <₹950 | Any time | BUY AGGRESSIVE — build toward 6-7%. Asymmetry 4.1x |
+| ₹950-₹1,225 | Any time | BUY — add toward 5-6%. Asymmetry 2.0x-3.7x |
+| **₹1,225** | **Standing order — the add trigger** | **BUY. This is the level where upside is 2x downside on the rebuilt table** |
+| ₹1,225-₹1,900 | No VRP-034 clinical progression | **HOLD existing 3-4%. No adds.** This is where CMP ₹1,562.70 sits |
+| ₹1,225-₹1,900 | VRP-034 Phase 2 enrolment confirmed or positive readout | Re-underwrite upward, then BUILD to 6-7% — the bull branch weight changes and the whole table re-prices |
+| >₹2,200 | No VRP-034 Phase 2 progression | TRIM 25%. Price would be running ahead of the base-case present value of ₹1,671 on business execution alone |
+| >₹2,600 | Any condition | TRIM to a 1-2% runner — at base-case FY31 fair value, five years early |
+| Any | 2 consecutive quarters OPM <12% with no tender-mix explanation | **EXIT — thesis break** |
+| Any | VRP-034 Phase 2 failure / QIDP withdrawal | Re-underwrite on the base branch only; fair value drops toward ₹1,400-1,600 and the position caps at 2% |
+| Any | Promoter holding falls below 35% via open-market sale | EXIT |
+
+**Thesis-break condition, stated plainly:** the bet is that 19%-plus operating margin is the new structural level rather than a two-year mix and currency accident. Two consecutive quarters below 12% OPM without a tender-timing explanation kills it, and at that point Venus is a ₹75-80 Cr PAT business that the market will pay 10-12x for — roughly ₹600-700 a share from ₹1,562.70 today. That is the whole downside case, and it is why the position stays at 3-4% rather than being sized as a core holding.
 
 ---
 
@@ -342,10 +410,12 @@ Venus Remedies Limited (BSE: 526953, NSE: VENUSREM) is a research-based pharmace
 |-----------|-------|-----------|
 | **Moat** | 4/5 | Proprietary Renal Guard / SMC technology behind VRP-034 (FDA QIDP-designated). 135+ patents. 1,040+ country-specific marketing authorisations. Carbapenem injectables manufacturing footprint with multi-country GMP. Real IP layered onto regulatory moat. |
 | **Management** | 3/5 | Survived a decade-long debt-and-loss cycle and executed a clean deleveraging (FY16-25) without dilution. Kept R&D alive through the cash crisis — produced VRP-034 (FDA QIDP) and signed MET-X exclusive license. Communication still terrible (zero concalls, no IR), which limits the upgrade. |
-| **Financials** | 3/5 | Debt-free (₹2 Cr borrowings vs ₹335 Cr in FY16). OCF positive 9 of 10 years. ROE 7%, ROCE 11% — capital block dragging averages. Working capital 86 days — high for pharma but stable. Operating margin recovering from 10% historical to 15-20% recent. |
+| **Financials** | **4/5** *(upgraded from 3/5, 2026-08-10)* | Debt-free (₹12 Cr borrowings vs ₹335 Cr in FY16). OCF positive 9 of 10 years. FY26 ROE ~15.5% on ₹103 Cr PAT over ~₹663 Cr net worth — the legacy-capital drag that held this at 3/5 has substantially cleared. Five consecutive quarters at ≥15% OPM, including 19.10% in Q1 FY27, the seasonally weakest quarter. First dividend in 12 years. What still holds it below 5/5: working capital at 86 days remains high for pharma, and the margin history is five quarters long, not five years. |
 | **Growth Runway** | 4/5 | Three-leg runway: (i) geographic expansion via continuing GMP renewals across EM + EU; (ii) FY25 capex cycle absorption visible in FY27-28; (iii) VRP-034 US launch optionality post-2028 with 10-year exclusivity. AMR theme is structurally growing. |
-| **Valuation** | 4/5 | P/E 13x on annualised 9M FY26 PAT; P/B 2.05x; debt-free EV. For a margin-recovery story with capex cycle starting AND an FDA QIDP novel-drug asset in clinic, this is materially cheap. MOS vs probability-weighted FV is 18%, asymmetry above 2x. |
-| **Total** | **18/25** | **Grade B (upper half)** |
+| **Valuation** | **2/5** *(downgraded from 4/5, 2026-08-10)* | At ₹1,562.70 the stock is 18.0x trailing and ~3.1x book, against 16x and 2.05x when the note was written at ₹912. Margin of safety against probability-weighted fair value is 6.5% versus the 20-35% a Grade B name requires, and the asymmetry ratio is 1.04x against a 2x floor. Forward PEG still reads under 1x, which is the one lens that flatters it, but a 5-year hold from here compounds at roughly 11% a year in the base case rather than the 20% a multi-bagger needs. |
+| **Total** | **17/25** | **Grade B** — one point lower than v1.1, but the composition inverted: the business got better and the price got worse. |
+
+**On the grade question specifically:** the Q1 FY27 margin hold in the weakest quarter is exactly the evidence that should upgrade a quality score, and it does — Financials moves 3→4, which is the first time this company has earned a 4 on that dimension in the note's history. It does not upgrade the *overall* grade, because Valuation is a scored dimension and it fell two points on a 71% price move since May. Grade B stands. The upgrade path to Grade A runs through two more quarters above 17% OPM plus a VRP-034 clinical milestone, not through another leg up in the share price.
 
 ### 3. The Compounding Engine — Q&A
 
@@ -468,13 +538,16 @@ Exit if any of the following:
 - VRP-034 Phase 2 fails to confirm clinical benefit
 - Promoter shareholding drops below 35% via open-market sale (not ESOP, not restructuring)
 - Major EU or PIC/S inspection observation requiring corrective action of >6 months
-- Stock above ₹1,500 with no confirmed FY26 OPM ≥15% on full-year basis AND no VRP-034 progression
+- ~~Stock above ₹1,500 with no confirmed FY26 OPM ≥15% on full-year basis AND no VRP-034 progression~~ — **cleared 2026-08-10.** FY26 printed 19% OPM and Q1 FY27 19.10%; the margin condition attached to this trigger has been met, so the price level alone no longer signals exit. Replaced by the ₹2,200 valuation-based TRIM in the Action Table.
 - Net debt re-enters the balance sheet via large debt-funded capex (>₹200 Cr borrowed)
 
 ### 9. Review Schedule
 
-- **2026-05-26:** Q4 FY26 + full-year FY26 results. Check OPM, dividend declaration, any forward capex commentary.
-- **2026-08-ish:** Q1 FY27 results. Margin sustain check after the Q2 FY25 weak-quarter anniversary.
+- ~~2026-05-26: Q4 FY26 results~~ — DONE, see 2026-06-02 log.
+- ~~2026-08-ish: Q1 FY27 results~~ — DONE, reported 20-Jul-2026; see 2026-08-10 log.
+- **2026-08-20:** 37th AGM (video conferencing). The only forum where management takes questions, given there are no concalls. Watch for any VRP-034 timeline, US manufacturing pathway, or FY27 capex commentary in the Chairman's address.
+- **2026-09/10:** FY26 annual report. First chance at India-vs-export split, therapy mix, segment PBIT, and the FY27 capex plan.
+- **2026-10/11:** Q2 FY27 results. The sustain check that matters — Q2 FY25 printed 4% OPM, so this is the quarter where a mix shock has historically shown up. Two more quarters above 17% would lift the base case and move the ₹1,225 add trigger upward.
 - **Quarterly:** Monitor BSE announcements for VRP-034 clinical updates, MET-X progress, new country GMP, USFDA filings.
 - **2026-09 onwards:** Watch FY26 annual report for first detailed segment / geography disclosure if published.
 
@@ -485,6 +558,46 @@ Exit if any of the following:
 <!-- /PRIVATE -->
 
 ### 11. Research Log
+
+**2026-08-10 — v1.2 refresh. Q1 FY27 folded in; multi-bagger math rebuilt; add-at-CMP question answered NO.**
+
+Data sources this session: WebSearch-indexed wire coverage of the 20-Jul-2026 Q1 FY27 filing (EquityBulls, sahi.com, scanx.trade), TipRanks / Globe and Mail on the dividend record date and AGM, Business Standard and BW Healthcare World archives on the VRP-034 QIDP grant, investmentguruindia on the DSIR renewal. **Network caveat: Screener.in, BSE, EquityBulls direct and 91capital.substack.com were all blocked by the egress proxy this session.** Every Q1 FY27 figure below is therefore wire-reported rather than read off the primary BSE filing. The numbers are internally consistent across three independent wires and match the figures supplied in the task brief, but they carry a verification flag until the BSE filing or Screener can be reached — logged as a backlog item.
+
+**The Q1 FY27 print, and why the quarter it landed in matters more than the growth rate.**
+
+Revenue from operations came in at ₹178.86 Cr against ₹137.18 Cr, up 30.38%. EBITDA was ₹36.81 Cr against ₹18.80 Cr, up 95.80%, taking the operating EBITDA margin to 19.10% from 7.66%. Consolidated PAT was ₹22.97 Cr against ₹9.60 Cr, up 139.27%, with minor losses at the Werne subsidiary. The base quarter carried elevated other income, so the PAT growth figure actually understates the operational move — EBITDA is the honest line here, and it nearly doubled.
+
+Q1 is the quarter Venus is worst at. Tender shipments concentrate into March and June picks up whatever is left. Q1 FY25 fell 40% sequentially off its March quarter and Q1 FY26 fell 33%; this year the drop was 31.05%. The trough is shallowing, which is what happens when a bigger share of the book comes from repeat registered-market business rather than lumpy institutional awards. Holding 19.10% margin through that trough is stronger evidence about the structural margin level than the 24% Q4 FY26 print ever was, because Q4 flatters on volume absorption and Q1 has nowhere to hide. Five consecutive quarters now sit at or above 15% OPM.
+
+**Why the multi-bagger table had to be thrown out.**
+
+The v1.1 table projected FY30 base-case revenue of ₹1,100 Cr at 13% OPM producing ₹140 Cr of PAT. FY26 actual was ₹770 Cr at 19% producing ₹103 Cr. The model was asking for 8% PAT CAGR over four years from a company that had just grown PAT 129% and was about to print +139% in Q1. That is not conservatism, it is a model that stopped tracking the company. Rebuilt from the FY26 actual base, anchoring FY27 at ₹950 Cr (Q1 FY26 was 17.8% of the FY26 year; applying that share to Q1 FY27's ₹178.86 Cr implies ~₹1,000 Cr, so ₹950 Cr is the conservative read), and building PAT from EBITDA less depreciation less 22% tax rather than a flat margin — because depreciation steps up materially as the FY25-27 capex commissions, and a flat-PAT-margin shortcut would have flattered every scenario.
+
+FY31 base lands at ₹1,605 Cr revenue, 18% OPM, ₹195 Cr PAT, 18x exit — ₹2,621 a share. Bear at ₹545, bull at ₹5,527.
+
+**The question the user actually asked: add at ₹1,562.70?**
+
+No. Probability-weighted fair value discounted at 13% is ₹1,671, giving a 6.5% margin of safety where a Grade B business needs 20-35%. Upside to base is 67.7%, downside to bear is 65.1%, and the asymmetry ratio is 1.04x against a framework floor of 2x. Below 1x the rule says do not buy regardless of the margin-of-safety number, and 1.04x is not meaningfully different from 1.
+
+The reason is not that the business disappointed — it did the opposite. It is that between 16 May and 15 June the stock went from ₹912 to an all-time ₹1,870, a 105% move, and settled at ₹1,562.70. Trailing P/E moved from 16x to 18.0x while the trailing PAT base moved from ₹76 Cr to ₹116.4 Cr, so both the numerator and the denominator ran, with the numerator running harder. The mispricing that justified the May entry was the gap between a 10%-margin decade and a 19%-margin present, and four consecutive prints have closed it.
+
+Solving for the price where upside is twice downside: (2,621 − P) = 2 × (P − 545) gives P = ₹1,237. Requiring 20% MOS against ₹1,671 gives P ≤ ₹1,337. The asymmetry test binds, so the standing order is **BUY AT ₹1,225**, a 21.6% pullback. Below ₹950 the ratio reaches 4.1x and the position should be built toward 6-7%. The only route to adding at or above CMP is a VRP-034 Phase 2 enrolment or readout, which changes the weight on the bull branch rather than nudging a number.
+
+**TRIM trigger re-test.** The v1.1 trigger read "above ₹1,400 with no FY27 OPM ≥17% on a full-year basis." In June the honest reading was that FY27 was unobservable, so the failure condition could not have fired. Q1 FY27's 19.10% now actively disproves it — the first FY27 datapoint, in the weakest quarter, clears the 17% bar by two points. The trigger is **cleared, not fired**, and it has been retired rather than carried forward, because a trigger whose failure condition has been disproved is doing no work. It is replaced by a valuation-based TRIM 25% above ₹2,200 absent VRP-034 progression, plus a trim-to-runner above ₹2,600.
+
+**Quality grade re-test.** The margin hold in the weakest quarter is exactly the kind of evidence that should move a score, and it moves Financials from 3/5 to 4/5 — FY26 ROE of roughly 15.5% (₹103 Cr on ~₹663 Cr net worth) against the 7.16% that justified the old 3, plus five straight quarters above 15% OPM and the first dividend in twelve years. Working capital at 86 days and a margin record only five quarters long keep it off 5/5. Valuation goes the other way, 4/5 to 2/5, on an 18.0x trailing multiple, 3.1x book, 6.5% MOS and 1.04x asymmetry. Net 18/25 to **17/25, still Grade B** — but the composition inverted. The business is better than it was in May and the stock is worse. The route to Grade A is two more quarters above 17% OPM plus a clinical milestone, not another leg up in the price.
+
+**Standing concern, unchanged and worth restating.** There have been no investor concalls and no investor presentations for over a decade, and there is no management guidance of any kind. Every forward number in this note — the ₹950 Cr FY27 anchor, the 14% FY27-31 revenue CAGR, the 18% terminal OPM — is my estimate built off reported actuals and seasonal shape. None of it is the company's. That is a real constraint on how tightly this thesis can be monitored between quarters, and it is part of why the position is capped at 3-4% rather than sized as a core holding. The 20-Aug-2026 AGM is the only forum where management takes questions.
+
+**Open follow-ups carried forward:**
+- Verify Q1 FY27 figures against the primary BSE filing once the proxy permits (all figures wire-sourced this session)
+- VRP-034 clinical stage, enrolment, FDA interactions — still nothing disclosed since the April 2025 QIDP grant
+- US manufacturing pathway (Baddi upgrade vs partnership) — still undisclosed
+- FY26 annual report: India vs export split, therapy and segment mix, segment PBIT, FY27 capex plan
+- Werne subsidiary — Q1 FY27 flagged "minor losses"; quantify from the annual report and decide whether it is a rounding item or a structural drag
+- MET-X milestone update from Infex Therapeutics
+
+---
 
 **2026-06-02 — Q4 FY26 + FY26 results review; thesis test confirmed; position guidance held.**
 
@@ -563,6 +676,7 @@ Data sources: Screener consolidated 10-year history, BSE filings index (no conca
 
 | Date | Update |
 |------|--------|
+| 2026-08-10 | **v1.2.** Q1 FY27 folded in (revenue ₹178.86 Cr +30.4%, EBITDA ₹36.81 Cr +95.8%, OPM 19.10% vs 7.66%, PAT ₹22.97 Cr +139.3%) — 19%-plus margin held in the seasonally weakest quarter, five straight quarters ≥15% OPM, sequential trough shallowing to −31%. Stale FY30 multi-bagger table discarded and rebuilt off FY26 actuals to FY31: bear ₹545 / base ₹2,621 / bull ₹5,527, weighted PV ₹1,671. At CMP ₹1,562.70 that is 6.5% MOS and a 1.04x asymmetry ratio — **do not add.** Standing order **BUY AT ₹1,225** (level where asymmetry hits 2x); aggressive build below ₹950. Old TRIM trigger cleared by the 19.10% print and retired; replaced by TRIM 25% above ₹2,200. Quality 18/25 → **17/25, Grade B** — Financials upgraded 3→4 on ~15.5% FY26 ROE, Valuation downgraded 4→2 on the 71% price move since May. All Q1 figures wire-sourced; Screener/BSE blocked by proxy this session. |
 | 2026-06-02 | Q4 FY26 + FY26 review. Q4 revenue ₹259 Cr (+33% YoY), OPM 24%, PAT ₹48 Cr (+129%); FY26 revenue ₹770 Cr, OPM 19%, PAT ₹103 Cr (+129%); ₹10/share dividend declared (first in 12 years). OPM-sustain test passed comfortably. CMP ₹1,414 at TRIM trigger line but failure condition (no FY27 ≥17% OPM) not yet observable and trajectory is supportive — TRIM not fired. Recommendation held: HOLD existing 3-4%; WAIT for new money. Multi-bagger math + Action Table refresh deferred to v1.2. VRP-034 status not disclosed in Q4 release — open follow-up. |
 | 2026-05-16 | Initial research note. Grade B (18/25). BUY REDUCED 3-4% at CMP ₹912; build to 5% on Q4 FY26 OPM ≥18% or VRP-034 Phase 2 progression. Aggressive buy below ₹780. Probability-weighted MOS 18%, asymmetry above 2x. Three deep-dive sections (VRP-034 explainer, 10x scenario math, US market sizing) at start of Detailed Analysis. |
 

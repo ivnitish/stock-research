@@ -1,7 +1,26 @@
 # Research System — TODO
-*Last updated: 2026-08-09*
+*Last updated: 2026-08-10*
 
 ---
+
+## ✅ Completed — 2026-08-10 — VENUSREM v1.2 — Q1 FY27 fold-in + full valuation rebuild
+
+Refreshed `research/VENUSREM.md` for the Q1 FY27 print (reported 20-Jul-2026). CMP ₹1,414 (2-Jun) → ₹1,562.70 (NSE, 7-Aug, ex-dividend ₹10 that day).
+
+- **VENUSREM.md — HOLD existing 3-4% · BUY AT ₹1,225 · Grade B, 18/25 → 17/25.** User was actively considering adding at CMP; answer is a decisive **no**. Q1 FY27 was strong (revenue ₹178.86 Cr +30.4%, EBITDA ₹36.81 Cr +95.8%, OPM 19.10% vs 7.66%, PAT ₹22.97 Cr +139.3%) and holding 19%-plus margin in the seasonally weakest quarter is the best margin-durability evidence the company has produced — five straight quarters ≥15% OPM, sequential trough shallowing to −31% (from −33%, −40%). But the stock ran ₹912 → ATH ₹1,870 (15-Jun) → ₹1,562.70 in the same window.
+- **Multi-bagger math fully rebuilt** (old FY30 table was broken — projected ₹1,100 Cr / 13% / ₹140 Cr when FY26 actual was already ₹770 Cr / 19% / ₹103 Cr, i.e. ~8% PAT CAGR). New FY31 table off FY26 actuals, PAT built from EBITDA − D&A − 22% tax rather than flat margin: bear ₹545 / base ₹2,621 / bull ₹5,527; weighted PV ₹1,671. At CMP that is **6.5% MOS** (Grade B needs 20-35%) and **1.04x asymmetry** (floor 2x). Add trigger solved explicitly: (2,621−P) = 2×(P−545) → P = ₹1,237 → **BUY AT ₹1,225**; aggressive build <₹950 (4.1x).
+- **TRIM trigger re-tested and retired.** Old trigger (">₹1,400 + no FY27 OPM ≥17%") had its failure condition actively disproved by the 19.10% Q1 print — cleared, not fired. Replaced with valuation-based TRIM 25% >₹2,200, trim-to-runner >₹2,600. Old "stock >₹1,500 with no FY26 OPM ≥15%" exit trigger also struck through as cleared.
+- **Grade re-tested:** Financials 3→4 (FY26 ROE ~15.5% on ₹103 Cr / ~₹663 Cr net worth; first dividend in 12 years), Valuation 4→2 (18.0x trailing, 3.1x book, negative-ish MOS). Net 17/25, Grade B held — business better, price worse.
+- Updated: header/recommendation block, quarterly trend (+Q1 FY27 row), current snapshot ratios table, quality scorecard, market-view section, Recent Developments (4 new bullets), Action Table (rebuilt), exit triggers, review schedule, research log (2026-08-10 entry), update history. Ran no-ai-slop detect pass on all new prose — fixed 6 flags (throat-clearing opener, two aphoristic kickers, a binary contrast, an empty adverb, a tweet-able one-liner).
+- Standing concern carried forward: **zero concalls/presentations in a decade, no management guidance** — every forward number in the note is our estimate, not the company's. 20-Aug-2026 AGM is the only Q&A forum.
+- Site index rebuilt (108 notes) + VENUSREM.html rendered. Portfolio page rebuild **failed** — NSE bhavcopy blocked by proxy this session (not a code bug).
+
+### 🔜 Backlog raised by this session
+- [ ] **Verify Q1 FY27 VENUSREM figures against the primary BSE filing** — Screener.in, BSE, EquityBulls-direct and 91capital.substack.com were all blocked by the egress proxy; all Q1 numbers are wire-sourced (EquityBulls/sahi/scanx via WebSearch) and cross-checked across three wires, but not primary-verified.
+- [ ] **VENUSREM: quantify the Werne (Germany) subsidiary losses** — Q1 FY27 flagged "minor losses"; decide from the FY26 annual report whether it is a rounding item or a structural drag.
+- [ ] **VENUSREM: VRP-034 clinical stage still undisclosed** since the April 2025 QIDP grant — no phase, enrolment, or FDA-interaction detail. This is the single biggest swing factor in the bull branch and there is no public data on it.
+- [ ] **VENUSREM: FY26 annual report** (due ~Sep/Oct) — India vs export split, therapy/segment mix, segment PBIT, FY27 capex plan. Note has never had segment-level data.
+- [ ] Re-run `scripts/build_portfolio_page.py` when NSE bhavcopy is reachable (index CMP column is currently null for all 108 notes).
 
 ## ✅ Completed — 2026-08-09 — KELTECH deep-research update (order-book check)
 
