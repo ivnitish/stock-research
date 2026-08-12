@@ -1,5 +1,31 @@
 # Research System — TODO
-*Last updated: 2026-08-10*
+*Last updated: 2026-08-13*
+
+---
+
+## ✅ Completed — 2026-08-13 — PRIMAINNO (Prima Innovation) new research note
+
+User sent `screener.in/company/544855/`. It resolves to Prima Innovation Ltd, the rotational-moulding division demerged out of Prima Plastics (NCLT Ahmedabad order 16-Mar-26, effective 31-Mar-26, appointed date 1-Jul-24, 1:1 swap), listed on BSE 7-Aug-2026. Four trading days of price history at the time of writing.
+
+- **PRIMAINNO.md (new) — AVOID · Grade D (8/25)**, CMP ₹34.86, market cap ₹38.4 Cr. Base-case fair value ₹22, so margin of safety is **−58%** and the asymmetry test does not compute.
+- **The finding that drove the note:** Screener's headline "23% compounded sales growth" is an artefact — it compares Prima Innovation's first accounting period (20-Jun-24 to 31-Mar-25, ~9 months) against a full FY26, and the company's own Note 52 says the periods are not comparable. Prima Plastics' FY26 AR restates the division properly under Ind AS 105 as a discontinued operation: **revenue ₹51.02 Cr FY25 → ₹50.97 Cr FY26 (flat), loss ₹0.91 Cr → ₹2.03 Cr (doubled)**. Screener's −1,745% profit growth and −₹1,013.90 EPS are the same artefact compounded by the 20,000 → 1.10 Cr share-count change.
+- **Second finding:** FY26 operating profit of ₹0.84 Cr is smaller than the ₹1.23 Cr of rental income (₹0.80 Cr, nil in FY25) + MP state subsidy (₹0.44 Cr) booked inside revenue from operations. Core manufacturing EBITDA was roughly **−₹0.39 Cr**.
+- **Balance sheet:** ROCE −2.08%, ROE −7.35%, DSCR 0.97x, cash interest cover 0.71x, D/E 0.96x, cash ₹0.03 Cr, receivables 114 days, explicit going-concern note. Kotak has sanctioned **₹29.61 Cr** for capacity expansion with **Prima Plastics guaranteeing ₹28.86 Cr** (special resolution pending at the parent's AGM) — fully drawn, D/E goes to ~1.54x. Title deeds to all six properties were still in the parent's name at 31-Mar-26.
+- **What's genuinely good:** Q1 FY27 revenue +24% YoY with OPM 1.38% → 10.78%; ~0.5% → ~8.9% after estimating out rent and subsidy. Set as the re-underwrite trigger (two more quarters at 8%+ core OPM, FY27 revenue >₹65 Cr on volume, DSCR >1.5x with a disclosed capacity plan, title deeds transferred).
+- **Grade resolution:** Phase 0.4 capacity-expansion trigger vs Phase 4.5.3 margin-through-stress collide. The 2022 Pithampur expansion round was followed by flat revenue and −2.08% ROCE, so the prior-cycle-at-20%-ROIC proof fails and Phase 4.5.3 disqualifies the setup "even at low valuation" → Grade D, not Grade C + SPECULATIVE.
+- **Valuation anchor:** ~20.8x annualised Q1 FY27 earnings against Time Technoplast 21.0x (16.7% ROCE) and Nilkamal 20.6x (10.6% ROCE). No size or quality discount. Reverse-check: today's ₹63.7 Cr EV compounded at 14% for 3 years needs FY29 EBITDA of ₹11.8 Cr — the bull case, already in the price.
+- Swing-trade lens checked and explicitly does not fire (thin float yes, hot theme no, no near-term catalyst). Portfolio-fit noted separately: ₹16 Cr free float, volumes in hundreds of shares, un-ownable in a 5-8 name book regardless of quality.
+- **Sources:** PIL audited FY26 standalone accounts + auditor's report (64-page scanned BSE filing, read page-by-page); Prima Plastics FY26 AR (185 pp) incl. Ind AS 105 note and AGM notice item 5; PIL Q1 FY27 via Screener; CRISIL letter on the parent; BSE quote API. A secondary-source figure (roto turnover ₹33.78 Cr / 28.32% of PP in FY24) could not be found in any of the five scheme filings and was **excluded** under the no-fabricated-data rule.
+- Rendered → PDF → Telegram (sent). Site index rebuilt (109 notes).
+- **Repo change:** added `PRIMAINNO: 544855` and `PRIMAPLAS: 530589` to the `PORTFOLIO` map in `src/fetch_bse_filings.py`.
+
+### 🐛 New backlog item — `scripts/build_portfolio_page.py` is broken
+
+It crashes with `ValueError: could not convert string to float: ''` on `avg_buy_price`. Ten rows in `data/portfolio.csv` have a blank avg price (GROWW, DCMSRIND, EPACKPEB, KRISHANA, MOREPENLAB, PATELSAI, PPAP, SCHNEIDER, VEDANTAISL, VENUSREM). Pre-existing since commit `a84c8a6`, not caused by this session — `output/html/portfolio.html` is the last good build and was left untouched. The real fix is filling in the missing buy prices (user data), not making the script swallow blanks and show misleading blank P&L. Ties into the pending Groww/Kite MCP holdings refresh.
+
+### 🐛 Fixed inline — BSE filing downloads 404 on older attachments
+
+`src/fetch_bse_filings.py` only tries `AttachLive/`; filings older than ~30 days move to `AttachHis/` and every download failed. Worked around with a local fallback loop this session (all Prima Plastics scheme docs and the FY26 AR downloaded fine that way). **Not yet folded into the script** — do it next session.
 
 ---
 

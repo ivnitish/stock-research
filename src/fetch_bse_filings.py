@@ -44,6 +44,8 @@ PORTFOLIO = {
     "NILE":       530129,
     "DCMSIL":     544702,
     "KAYA":       539276,
+    "PRIMAINNO":  544855,
+    "PRIMAPLAS":  530589,
     # US stocks don't have BSE codes — skip them
 }
 
