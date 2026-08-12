@@ -55,6 +55,8 @@ The division belonged to Prima Plastics until 31 March 2026, when the NCLT Ahmed
 
 **Reported operating cash flow depends on a working-capital swing that cannot repeat indefinitely.** FY26 cash from operations was ₹4.12 Cr, of which a ₹4.87 Cr increase in other liabilities did the heavy lifting. Operating profit before working-capital changes was ₹0.94 Cr. Inventory rose 47% to ₹13.55 Cr while revenue was flat, receivables sat at 114 days, and closing cash was ₹3.27 lakh across the whole company.
 
+**The parent is subsidising the interest bill, and the filing labels that subsidy two different ways.** ₹42.10 lakh of the ₹1.61 Cr FY26 finance cost is non-cash. Note 28 calls it interest on lease liability and refers to Note 42, but Note 42 states the lease charged nil to finance cost, so the description cannot be right. The cash flow statement calls the same ₹42.10 lakh a fair value adjustment under Ind AS 109, which fits an interest-free loan being marked to a market rate — and the only such loan on the books is the ₹11.39 Cr from Prima Plastics, on which ₹42.10 lakh works out to about 3.7% (inference, not a disclosure). Read that way, the parent is funding roughly ₹42 lakh a year of the company's cost of capital, on top of guaranteeing its bank line. Two statutory notes describing the same number differently is also the kind of reporting slip that a first-year listed company gets one pass on and not two.
+
 **Separation from the parent is not finished.** At 31 March 2026 the title deeds to every immovable property — the MP factory at ₹14.14 Cr gross, the Daman factory at ₹3.78 Cr, three Daman apartments and freehold Daman land — were still registered in Prima Plastics' name, with transfer described as in process. The gratuity fund at LIC is still in the parent's name. Independent directors, the CFO and the company secretary were all appointed on 24 March 2026, a week before the scheme took effect.
 
 ---
@@ -93,7 +95,9 @@ The fifth answer is structural, which the framework normally treats as a good si
 
 Phase 4.5.3 allows three valid states for a business whose margins have been compressed. Prima Innovation's case would have to be state 3, margins temporarily absorbed by capex, which the framework permits only when the prior capex cycle converted at ROIC above 20%.
 
-The prior cycle is on the record. Prima Plastics added a fifth unit at Pithampur in 2022. Rotational moulding revenue reached ₹51.02 Cr by FY25 and ₹50.97 Cr in FY26, and the division delivered −2.08% ROCE and a widening loss. The prior cycle did not convert. Under the framework's own wording, current margin absorption is therefore indistinguishable from value destruction, and that disqualifies the setup even at a low valuation.
+The prior cycle is on the record without needing a date attached to it. Whenever the capital went in, ₹26 Cr of net block and ₹52 Cr of capital employed were producing ₹51.02 Cr of revenue in FY25 and ₹50.97 Cr in FY26, at −2.08% ROCE and a widening loss. Capital already deployed in this business is not earning 20%; it is not earning anything. The prior cycle did not convert, so under the framework's own wording the current margin absorption is indistinguishable from value destruction, and that disqualifies the setup even at a low valuation.
+
+(Trade-directory listings describe a fifth unit added at Pithampur in 2022. That timing is unverified and the argument above does not depend on it — the returns on the capital currently in the business are observable in the audited accounts regardless of when it was spent.)
 
 This is the single check that sets the grade. Without it the note lands at Grade C with a speculative sizing; with it, Grade D.
 
@@ -321,7 +325,7 @@ One trigger fires on one quarter of data, one is disqualified. Entry on that bas
 - **12 Aug 2026** — Closed ₹34.86, down 4.99% at the lower circuit, on volumes in the hundreds of shares. Down about 15% from the ₹41.0 post-listing high. *Neutral — price discovery, not information.*
 - **10 Aug 2026** — Q1 FY27 results: revenue ₹15.30 Cr, operating margin 10.78%, net profit ₹0.46 Cr. AGM fixed for 23 September 2026; board noted the allotment of 1,10,00,470 shares post-demerger. *Strengthens — first profitable quarter, and the second consecutive quarter above 10% margin.*
 - **7 Aug 2026** — Listed on BSE and began trading around ₹37.05. Audited FY26 results filed the same day: revenue ₹50.97 Cr, net loss ₹2.03 Cr. *Neutral.*
-- **~18 Jul 2026** — Prima Plastics' AGM notice puts a special resolution to members for a corporate guarantee of up to ₹28.86 Cr in favour of Kotak Mahindra Bank, securing a ₹29.61 Cr facility taken by Prima Innovation for capacity expansion. *Weakens — the funding is arranged, but a lender requiring a parent guarantee is a statement about standalone creditworthiness.*
+- **18 Jul 2026** — Prima Plastics filed its 32nd AGM notice with its FY26 annual report as a single document. Item 5 puts a special resolution to members for a corporate guarantee of up to ₹28.86 Cr in favour of Kotak Mahindra Bank, securing a ₹29.61 Cr facility already obtained by Prima Innovation for capacity expansion. The parent's audit committee had reviewed the proposal on 20 May 2026. *Weakens — the funding is arranged, but a lender requiring a parent guarantee is a statement about standalone creditworthiness.*
 - **20 Apr 2026** — 1,10,00,470 shares allotted 1:1 to Prima Plastics shareholders on the 17 April record date. Prima Innovation ceased to be a wholly-owned subsidiary. *Neutral.*
 - **31 Mar 2026** — Demerger scheme effective on filing with the RoC Goa, following the NCLT Ahmedabad order of 16 March 2026. Appointed date 1 July 2024. *Neutral.*
 
@@ -536,7 +540,7 @@ Zero. Grade D takes no position at any price. Even if the business re-graded to 
 | Nilkamal | ₹2,771 Cr | ₹3,778 Cr | 9% | 10.6% | 20.6x | 0.84x | 9.4x |
 | **Prima Innovation** | **₹38.4 Cr** | **₹50.97 Cr** | **1.65%** | **−2.08%** | **~20.8x\*** | **1.25x** | **9.6x\*\*** |
 
-\*On annualised Q1 FY27 PAT. \*\*On annualised Q1 FY27 EBITDA; 76x on reported FY26 EBITDA.
+\*On annualised Q1 FY27 PAT. \*\*On annualised Q1 FY27 EBITDA; 76x on reported FY26 EBITDA. Peer enterprise values use gross borrowings with cash not netted, since Screener did not give the cash balance; netting it would lower the peer multiples and widen the gap against Prima Innovation, whose ₹0.03 Cr of cash is immaterial either way.
 
 Prima Innovation trades at the same earnings multiple as both peers and at a higher enterprise-value-to-sales multiple than Nilkamal, while earning a negative return on capital against their 16.7% and 10.6%. The size discount that a ₹38 Cr company should carry against a ₹10,292 Cr one is absent.
 
@@ -574,7 +578,7 @@ All three trade near 21x earnings, so there is no discount to close. For Prima I
 
 **Liquidity.** Free float of roughly ₹16 Cr and daily volumes in the hundreds of shares mean the quoted price can move 5% on a single small order, in either direction, without information.
 
-**Governance and administration.** Title deeds still in the parent's name, an unfunded-in-own-name gratuity trust, a board constituted a week before the scheme took effect, and no investor communication infrastructure. None of these is evidence of wrongdoing; together they are evidence of an entity that is not yet operating as a standalone listed company.
+**Governance and administration.** Title deeds still in the parent's name, an unfunded-in-own-name gratuity trust, a board constituted a week before the scheme took effect, two statutory notes labelling the same ₹42.10 lakh finance cost differently, and no investor communication infrastructure. None of these is evidence of wrongdoing; together they are evidence of an entity that is not yet operating as a standalone listed company.
 
 **Input and energy cost.** Materials at 58.9% and power and fuel at 8.0% of revenue, against a customer base that switches on price, means input inflation lands on margin rather than on the customer.
 
@@ -616,7 +620,7 @@ Screener page for BSE 544855 was the starting point and turned out to be unusabl
 
 **Adjustment applied to the margin story.** FY26 revenue from operations includes ₹79.59 lakh rental income (nil in FY25) and ₹43.71 lakh MP state subsidy, together ₹1.23 Cr against reported operating profit of ₹0.84 Cr, implying core manufacturing EBITDA of about −₹0.39 Cr. Applying the same run-rate to quarters puts core margin at roughly 0.5% in Q1 FY26 and 8.9% in Q1 FY27. The quarterly XBRL filing has no PDF and does not split other operating revenue, so the quarterly figures are estimates and are labelled as such throughout.
 
-**Finance cost note.** The FY26 finance cost of ₹1.61 Cr includes ₹42.10 lakh that Note 28 labels interest on lease liability and the cash flow statement labels a fair value adjustment under Ind AS 109. The two descriptions are inconsistent in the filing. Cash interest paid was ₹1.19 Cr, so cash interest cover is 0.71x rather than the 0.52x that reported finance cost implies. The higher figure is used in the note.
+**Finance cost note.** The FY26 finance cost of ₹1.61 Cr includes ₹42.10 lakh that Note 28 labels interest on lease liability, cross-referring to Note 42. Note 42(b) states the lease charged ₹4.10 lakh to depreciation and nil to finance cost, so Note 28's label is wrong. The cash flow statement describes the same ₹42.10 lakh as a fair value adjustment under Ind AS 109, appearing as an add-back in operating and a deduction in financing. That fits an interest-free loan being marked to a market rate, and the only interest-free loan disclosed is the ₹11.39 Cr from Prima Plastics, on which ₹42.10 lakh implies about 3.7%. That attribution is an inference and is labelled as such wherever it appears. Cash interest paid was ₹1.19 Cr, so cash interest cover is 0.71x rather than the 0.52x that reported finance cost implies; the higher figure is used throughout. Merged into Concerns and Risks per `research-log-format.md`.
 
 **Sources checked and discarded.** A secondary source reported the rotational moulding division at ₹33.78 Cr of turnover, 28.32% of Prima Plastics' total, for FY24. That figure could not be located in any of the five scheme-of-arrangement filings downloaded, and is excluded under the no-fabricated-data rule. It is not needed — the Ind AS 105 note gives a better two-year record from an audited source.
 
