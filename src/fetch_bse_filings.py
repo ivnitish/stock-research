@@ -71,7 +71,17 @@ RELEVANT_SUBCATS = {
 
 BASE_DATA_DIR = Path(__file__).parent.parent / "data" / "filings"
 BSE_API = "https://api.bseindia.com/BseIndiaAPI/api/AnnSubCategoryGetData/w"
-BSE_PDF = "https://www.bseindia.com/xml-data/corpfiling/AttachLive/{filename}"
+
+# BSE moves attachments between directories as they age: recent filings sit in
+# AttachLive, older ones (roughly 30+ days) are shifted to AttachHis, and a few
+# land under CorpAttachment. The path is not in the API response, so try each in
+# turn — hitting only AttachLive returns 404 on every historical filing.
+BSE_PDF_DIRS = (
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/{filename}",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/{filename}",
+    "https://www.bseindia.com/xml-data/corpfiling/CorpAttachment/{filename}",
+)
+MIN_PDF_BYTES = 2000  # BSE serves a short HTML error body instead of a 404 sometimes
 HEADERS = {
     "Accept": "application/json, text/plain, */*",
     "Referer": "https://www.bseindia.com/",
@@ -136,7 +146,7 @@ def download_pdf(ann, symbol, dry_run=False):
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / out_name
 
-    if out_path.exists():
+    if out_path.exists() and out_path.stat().st_size >= MIN_PDF_BYTES:
         print(f"  ↳ Already exists: {out_name}")
         return True
 
@@ -144,19 +154,31 @@ def download_pdf(ann, symbol, dry_run=False):
         print(f"  ↳ [LIST] {out_name}")
         return True
 
-    url = BSE_PDF.format(filename=filename)
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=30, stream=True)
-        r.raise_for_status()
-        with open(out_path, "wb") as f:
-            for chunk in r.iter_content(chunk_size=8192):
-                f.write(chunk)
-        size_kb = out_path.stat().st_size // 1024
-        print(f"  ✓ {out_name} ({size_kb} KB)")
-        return True
-    except Exception as e:
-        print(f"  ✗ Download failed: {out_name} — {e}")
+    if not filename:
+        print(f"  ✗ No attachment on this announcement: {out_name}")
         return False
+
+    errors = []
+    for template in BSE_PDF_DIRS:
+        url = template.format(filename=filename)
+        subdir = template.rsplit("/", 2)[-2]
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=30)
+            if r.status_code != 200:
+                errors.append(f"{subdir}:{r.status_code}")
+                continue
+            if len(r.content) < MIN_PDF_BYTES:
+                errors.append(f"{subdir}:short({len(r.content)}B)")
+                continue
+            out_path.write_bytes(r.content)
+            size_kb = out_path.stat().st_size // 1024
+            print(f"  ✓ {out_name} ({size_kb} KB) [{subdir}]")
+            return True
+        except Exception as e:
+            errors.append(f"{subdir}:{type(e).__name__}")
+
+    print(f"  ✗ Download failed: {out_name} — tried {', '.join(errors)}")
+    return False
 
 def process_symbol(symbol, scrip_code, days=365, dry_run=False):
     print(f"\n{'─'*60}")

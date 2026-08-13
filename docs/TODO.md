@@ -19,13 +19,22 @@ User sent `screener.in/company/544855/`. It resolves to Prima Innovation Ltd, th
 - Rendered → PDF → Telegram (sent). Site index rebuilt (109 notes).
 - **Repo change:** added `PRIMAINNO: 544855` and `PRIMAPLAS: 530589` to the `PORTFOLIO` map in `src/fetch_bse_filings.py`.
 
-### 🐛 New backlog item — `scripts/build_portfolio_page.py` is broken
+### ✅ Fixed — 2026-08-14 — `scripts/build_portfolio_page.py` rebuilt
 
-It crashes with `ValueError: could not convert string to float: ''` on `avg_buy_price`. Ten rows in `data/portfolio.csv` have a blank avg price (GROWW, DCMSRIND, EPACKPEB, KRISHANA, MOREPENLAB, PATELSAI, PPAP, SCHNEIDER, VEDANTAISL, VENUSREM). Pre-existing since commit `a84c8a6`, not caused by this session — `output/html/portfolio.html` is the last good build and was left untouched. The real fix is filling in the missing buy prices (user data), not making the script swallow blanks and show misleading blank P&L. Ties into the pending Groww/Kite MCP holdings refresh.
+Was crashing with `ValueError: could not convert string to float: ''` on every run. Root cause was two separate defects, both fixed:
 
-### 🐛 Fixed inline — BSE filing downloads 404 on older attachments
+1. **No handling for incomplete CSV data.** Ten rows have a blank `avg_buy_price` (GROWW, DCMSRIND, EPACKPEB, KRISHANA, MOREPENLAB, PATELSAI, PPAP, SCHNEIDER, VEDANTAISL, VENUSREM). Added a `num()` parser that returns `None` for blank/malformed cells instead of throwing, and treats a missing cost basis as unknown rather than zero. Rows with no `quantity` or no `symbol` are skipped.
+2. **The totals conflated "has a price" with "has a cost basis."** The old code summed `invested` over everything with a CMP, which would have reported a fabricated 100% gain on any blank-cost row. Now split into three subsets: `priced` (has a close) drives Market value and Weight; `costed` (has a close *and* a buy price) drives Invested, P&L and Return. Also fixed a colour bug where a `None` P&L rendered green — it's grey now.
 
-`src/fetch_bse_filings.py` only tries `AttachLive/`; filings older than ~30 days move to `AttachHis/` and every download failed. Worked around with a local fallback loop this session (all Prima Plastics scheme docs and the FY26 AR downloaded fine that way). **Not yet folded into the script** — do it next session.
+Snapshot gained a **Market value** tile with coverage sub-labels (`29 of 30 priced`, `20 of 30 with a cost basis`), and a yellow banner names the symbols missing a buy price. Current output: market value ₹12.00 L across 29 priced holdings, P&L +₹1.69 L computed on the 20 costed ones (₹7.92 L → ₹9.61 L). The remaining ₹2.39 L of market value is counted but has no P&L.
+
+**Still open (user data, not code):** fill in `avg_buy_price` for those ten symbols to complete the numbers. Note the CSV also disagrees with HANDOVER.md on two quantities — EPACKPEB shows 500 here vs 451 there, PATELSAI 151 vs 1. Worth reconciling alongside the pending Groww/Kite MCP refresh.
+
+### ✅ Fixed — 2026-08-14 — BSE filing downloads 404 on older attachments
+
+`src/fetch_bse_filings.py` only tried `AttachLive/`, so every filing older than ~30 days failed — BSE shifts them to `AttachHis/`, and a few sit under `CorpAttachment/`. The path isn't in the API response. `download_pdf()` now tries all three in turn, rejects short HTML error bodies that BSE serves with a 200, reports which directory succeeded, and lists what it tried on failure. Verified both ways: NILE `--days 400` pulls Sep-2025 filings from AttachHis, PRIMAINNO `--days 30` still hits AttachLive, SAKSOFT `--days 400` now has zero failures.
+
+**Immediate payoff:** re-running PRIMAINNO picked up the Q1 FY27 results PDF, which had no attachment when first fetched on 12 Aug. Reading it corrected the share-allotment date to 6 July 2026 and surfaced that the Jun-2025 comparative was neither reviewed nor audited — both now in the note.
 
 ---
 

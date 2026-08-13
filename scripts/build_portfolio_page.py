@@ -47,16 +47,39 @@ ACTION = {
 }
 
 
-def holdings() -> list[dict]:
+def num(raw: str | None) -> float | None:
+    """Parse a CSV numeric cell. Blank, missing or malformed -> None.
+
+    portfolio.csv is hand-maintained and legitimately incomplete: some rows are
+    1-share tracking stubs or positions added before the buy price was looked
+    up. A missing cost basis is a gap in the data, not a zero — returning None
+    keeps it out of the P&L rather than reporting a fabricated 100% gain.
+    """
+    if raw is None:
+        return None
+    raw = raw.strip().replace(",", "").replace("₹", "")
+    if not raw:
+        return None
+    try:
+        return float(raw)
+    except ValueError:
+        return None
+
+
+def holdings() -> tuple[list[dict], str]:
     trade_date, nse, bse = last_trading_bhav()
     prices = build_price_map(nse, bse)
     rows = []
     with open(CSV_PATH) as f:
         for r in csv.DictReader(f):
-            sym = r["symbol"].strip()
+            sym = (r.get("symbol") or "").strip()
+            if not sym:
+                continue
             base = base_symbol(sym)
-            qty = float(r["quantity"])
-            avg = float(r["avg_buy_price"])
+            qty = num(r.get("quantity"))
+            avg = num(r.get("avg_buy_price"))
+            if qty is None:
+                continue  # a row with no quantity is not a holding
             px = prices.get(sym) or prices.get(base + ".NS") or prices.get(base + ".BO")
             cmp_ = round(px[0], 2) if px else None
             note = RESEARCH / f"{base}.md"
@@ -65,12 +88,12 @@ def holdings() -> list[dict]:
             else:
                 bucket = None
             action, acolor = ACTION.get(bucket, ("—", "#94a3b8"))
-            invested = qty * avg
+            invested = qty * avg if avg is not None else None
             current = qty * cmp_ if cmp_ is not None else None
+            pnl = (current - invested) if (current is not None and invested is not None) else None
             rows.append({
                 "symbol": base, "qty": qty, "avg": avg, "cmp": cmp_,
-                "invested": invested, "current": current,
-                "pnl": (current - invested) if current is not None else None,
+                "invested": invested, "current": current, "pnl": pnl,
                 "action": action, "acolor": acolor,
                 "has_note": note.exists(),
             })
@@ -88,12 +111,21 @@ def fmt_k(v: float) -> str:
 
 def build() -> str:
     rows, trade_date = holdings()
+    # Two different questions, two different subsets. Market value needs only a
+    # price; P&L needs a price AND a cost basis. Mixing them is what made the
+    # old totals wrong for any holding with a blank avg_buy_price.
     priced = [h for h in rows if h["current"] is not None]
-    invested = sum(h["invested"] for h in priced)
-    current = sum(h["current"] for h in priced)
-    pnl = current - invested
+    costed = [h for h in priced if h["invested"] is not None]
+
+    market_value = sum(h["current"] for h in priced)
+    invested = sum(h["invested"] for h in costed)
+    covered = sum(h["current"] for h in costed)
+    pnl = covered - invested
     pnl_pct = (pnl / invested * 100) if invested else 0.0
+
     unpriced = [h["symbol"] for h in rows if h["current"] is None]
+    nocost = [h["symbol"] for h in rows if h["invested"] is None]
+    current = market_value  # weight column is a share of total market value
 
     pl_col = "#16a34a" if pnl >= 0 else "#dc2626"
     rows_sorted = sorted(rows, key=lambda h: -(h["current"] or -1))
@@ -103,17 +135,21 @@ def build() -> str:
         wt = (h["current"] / current * 100) if (h["current"] and current) else 0
         cmp_s = f"₹{h['cmp']:,.2f}" if h["cmp"] is not None else "—"
         cur_s = fmt_k(h["current"]) if h["current"] is not None else "—"
+        avg_s = f"₹{h['avg']:,.2f}" if h["avg"] is not None else "—"
+        inv_s = fmt_k(h["invested"]) if h["invested"] is not None else "—"
         pnl_s = (("+" if h["pnl"] >= 0 else "") + fmt_k(h["pnl"])) if h["pnl"] is not None else "—"
         pnlp = (h["pnl"] / h["invested"] * 100) if (h["pnl"] is not None and h["invested"]) else None
         pnlp_s = f"{pnlp:+.1f}%" if pnlp is not None else "—"
-        pcol = "#16a34a" if (h["pnl"] or 0) >= 0 else "#dc2626"
+        # a missing P&L is grey, not green — colouring None as a gain is the bug
+        # that made blank-cost rows look profitable
+        pcol = "#94a3b8" if h["pnl"] is None else ("#16a34a" if h["pnl"] >= 0 else "#dc2626")
         name = html_mod.escape(h["symbol"])
         tr.append(f"""      <tr onclick="location.href='{name}.html'">
         <td data-s="{name}"><b>{name}</b></td>
         <td class="num sec" data-label="Qty" data-s="{h['qty']}">{h['qty']:,.0f}</td>
-        <td class="num sec" data-label="Avg" data-s="{h['avg']}">₹{h['avg']:,.2f}</td>
+        <td class="num sec" data-label="Avg" data-s="{h['avg'] if h['avg'] is not None else -1}">{avg_s}</td>
         <td class="num" data-label="CMP" data-s="{h['cmp'] or -1}" style="font-weight:600">{cmp_s}</td>
-        <td class="num sec" data-label="Invested" data-s="{h['invested']}">{fmt_k(h['invested'])}</td>
+        <td class="num sec" data-label="Invested" data-s="{h['invested'] if h['invested'] is not None else -1}">{inv_s}</td>
         <td class="num" data-label="Current" data-s="{h['current'] or -1}" style="font-weight:600">{cur_s}</td>
         <td class="num" data-label="P&amp;L" data-s="{h['pnl'] if h['pnl'] is not None else -1e12}" style="font-weight:600;color:{pcol}">{pnl_s}</td>
         <td class="num" data-label="P&amp;L %" data-s="{pnlp if pnlp is not None else -1e9}" style="font-weight:600;color:{pcol}">{pnlp_s}</td>
@@ -122,10 +158,16 @@ def build() -> str:
       </tr>""")
     rows_html = "\n".join(tr)
 
-    unpriced_note = ""
+    notes = []
     if unpriced:
-        unpriced_note = ("<div class='warn'>No live close for: " + ", ".join(unpriced)
-                         + " — excluded from totals (US names / unlisted / SME not in the bhavcopy feed).</div>")
+        notes.append("<div class='warn'>No live close for: " + html_mod.escape(", ".join(unpriced))
+                     + " — excluded from totals (US names / unlisted / SME not in the bhavcopy feed).</div>")
+    if nocost:
+        notes.append("<div class='warn'>No buy price in portfolio.csv for: "
+                     + html_mod.escape(", ".join(nocost))
+                     + f" — market value is counted, but these {len(nocost)} are excluded from "
+                       "Invested, P&amp;L and Return. Fill in <code>avg_buy_price</code> to complete the numbers.</div>")
+    unpriced_note = "\n  ".join(notes)
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -148,6 +190,7 @@ def build() -> str:
   .snap-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 20px; }}
   .stat-label {{ color: #64748b; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 5px; }}
   .stat-value {{ font-size: 1.2rem; font-weight: 700; }}
+  .stat-sub {{ color: #94a3b8; font-size: 0.68rem; margin-top: 3px; }}
   .warn {{ background: #fef3c7; border-left: 4px solid #f59e0b; color: #78350f; padding: 9px 14px; font-size: 0.8rem; border-radius: 6px; margin-bottom: 16px; }}
   table {{ width: 100%; background: #fff; border-collapse: collapse; border-radius: 10px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }}
   th {{ background: #f1f5f9; color: #475569; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; padding: 12px 10px; border-bottom: 2px solid #e2e8f0; text-align: left; cursor: pointer; user-select: none; white-space: nowrap; }}
@@ -205,10 +248,14 @@ def build() -> str:
 <div class="container">
   <div class="snapshot">
     <div class="snap-grid">
-      <div><div class="stat-label">Invested</div><div class="stat-value">₹{invested/100000:,.2f}L</div></div>
-      <div><div class="stat-label">Current</div><div class="stat-value">₹{current/100000:,.2f}L</div></div>
-      <div><div class="stat-label">P&amp;L</div><div class="stat-value" style="color:{pl_col}">{'+' if pnl>=0 else ''}₹{pnl/1000:,.1f}K</div></div>
-      <div><div class="stat-label">Return</div><div class="stat-value" style="color:{pl_col}">{pnl_pct:+.2f}%</div></div>
+      <div><div class="stat-label">Market value</div><div class="stat-value">₹{market_value/100000:,.2f}L</div>
+           <div class="stat-sub">{len(priced)} of {len(rows)} priced</div></div>
+      <div><div class="stat-label">Invested</div><div class="stat-value">₹{invested/100000:,.2f}L</div>
+           <div class="stat-sub">{len(costed)} of {len(rows)} with a cost basis</div></div>
+      <div><div class="stat-label">P&amp;L</div><div class="stat-value" style="color:{pl_col}">{'+' if pnl>=0 else ''}₹{pnl/1000:,.1f}K</div>
+           <div class="stat-sub">on ₹{covered/100000:,.2f}L of value</div></div>
+      <div><div class="stat-label">Return</div><div class="stat-value" style="color:{pl_col}">{pnl_pct:+.2f}%</div>
+           <div class="stat-sub">costed holdings only</div></div>
     </div>
   </div>
   {unpriced_note}
@@ -234,7 +281,10 @@ def build() -> str:
   <div class="footer">
     Prices are the official exchange bhavcopy close ({trade_date}), not live. Holdings
     (qty, avg) come from data/portfolio.csv, last updated {csv_stamp()} — refresh it after any
-    trade for the P&amp;L to be exact. Action is read from each stock's research note.
+    trade for the P&amp;L to be exact. Invested, P&amp;L and Return cover the
+    {len(costed)} holdings that have both a buy price and a live close; a blank cell means the
+    input is missing from portfolio.csv, never that the value is zero.
+    Action is read from each stock's research note.
     Auto-generated by scripts/build_portfolio_page.py.
   </div>
 </div>

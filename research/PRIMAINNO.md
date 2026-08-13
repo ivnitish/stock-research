@@ -5,7 +5,7 @@
 **Quality Score:** 8/25 (Grade D: Avoid)
 **Last Updated:** 2026-08-13 | **CMP:** ₹34.86 (12-Aug-26 close, BSE) | **Entry:** — | **P&L:** —
 **BSE:** 544855 | **Market cap:** ₹38.4 Cr | **Shares:** 1,10,00,470 (FV ₹5)
-**Data Source:** PIL audited FY26 standalone financials + auditor's report (BSE filing 07-Aug-2026); Prima Plastics FY26 Annual Report incl. Ind AS 105 discontinued-operations note and AGM notice (BSE filing 18-Jul-2026); PIL Q1 FY27 results (BSE filing 10-Aug-2026, via Screener); BSE quote API; CRISIL rating letter on Prima Plastics (28-Jul-2026)
+**Data Source:** PIL audited FY26 standalone financials + auditor's report (BSE filing 07-Aug-2026); PIL Q1 FY27 unaudited results + limited-review report (BSE filing 10-Aug-2026); Prima Plastics FY26 Annual Report incl. Ind AS 105 discontinued-operations note and AGM notice (BSE filing 18-Jul-2026); BSE quote API; CRISIL rating letter on Prima Plastics (28-Jul-2026)
 
 ---
 
@@ -29,13 +29,13 @@
 
 Prima Innovation takes polyethylene powder, tumbles it inside a heated rotating mould until it fuses into a hollow shape, and sells the result. The output is industrial pallets, insulated boxes and crates for cold chain, plastic road barricades, traffic cones, anti-glare screens and water storage tanks. Manufacturing runs from Pithampur in Madhya Pradesh, which the company's own accounts call its state-of-the-art facility, with a second site at Daman. Domestic sales are 98% of revenue.
 
-The division belonged to Prima Plastics until 31 March 2026, when the NCLT Ahmedabad bench made a demerger scheme effective and every Prima Plastics shareholder received one ₹5 share of Prima Innovation for each ₹10 share held. The stock began trading on 7 August 2026 at around ₹37.05 and closed at ₹34.86 on 12 August after hitting the 5% lower circuit, on volumes measured in hundreds of shares.
+The division belonged to Prima Plastics until 31 March 2026, when the NCLT Ahmedabad bench made a demerger scheme effective. The record date was 17 April 2026, shares were allotted on 6 July 2026 — one ₹5 share of Prima Innovation for each ₹10 Prima Plastics share — and the stock listed on BSE on 7 August 2026. It opened around ₹37.05 and closed at ₹34.86 on 12 August after hitting the 5% lower circuit, on volumes measured in hundreds of shares.
 
 ---
 
 ## Strengths
 
-**The margin turn in the last two quarters is genuine and it is measurable.** Revenue in the June 2026 quarter was ₹15.30 Cr against ₹12.32 Cr a year earlier, up 24%, and operating margin went from 1.38% to 10.78%. Both quarters are prepared on the same carve-out basis, so the comparison is clean. Strip out the rent and subsidy that sit inside revenue at the FY26 run-rate and core manufacturing margin still improves from roughly 0.5% to roughly 8.9% (estimate — the quarterly filing does not split other operating revenue). That is the first evidence in three years that this asset can make money.
+**The margin turn in the last two quarters is genuine and it is measurable.** Revenue in the June 2026 quarter was ₹15.30 Cr against ₹12.32 Cr a year earlier, up 24%, and operating margin went from 1.38% to 10.78%. Both quarters are prepared on the same carve-out basis, so the comparison is clean, and CNK issued an unmodified limited-review report on the June 2026 figures. Strip out the rent and subsidy that sit inside revenue at the FY26 run-rate and core manufacturing margin still improves from roughly 0.5% to roughly 8.9% (estimate — the quarterly statement reports revenue from operations as a single line and does not split it). That is the first evidence in three years that this asset can make money. One caveat on the base: note 2 to the filing states the June 2025 comparative was neither reviewed nor audited, so the year-ago figure the improvement is measured against carries no assurance.
 
 **Promoter holding is 58.29% with no pledge, no litigation and a clean CARO report.** CNK & Associates signed an unmodified opinion, flagged no key audit matters, found no fraud, no wilful default and no undisclosed income. For a first-year microcap balance sheet, the audit trail is unusually tidy.
 
@@ -249,7 +249,9 @@ Q2 and Q3 FY26 were never reported separately — the company had not listed. Q4
 | PAT | −0.55 | 0.05 | 0.46 |
 | *Estimated core OPM ex rent+subsidy* | *~0.5%* | *~8.0%* | *~8.9%* |
 
-Core OPM is an estimate applying the FY26 rent and subsidy run-rate of roughly ₹0.31 Cr per quarter (₹0.11 Cr for Jun-2025, when rental income had not started). The quarterly filing does not disclose the other-operating-revenue split.
+Core OPM is an estimate applying the FY26 rent and subsidy run-rate of roughly ₹0.31 Cr per quarter (₹0.11 Cr for Jun-2025, when rental income had not started). The quarterly statement reports revenue from operations as a single line, so the split is not available at quarterly frequency.
+
+Three notes on the source filing. The June-2025 comparative was neither reviewed nor audited (note 2), so the base of the year-on-year improvement carries no assurance. The March-2026 quarter is a balancing figure, derived as the audited full year less unaudited nine-month figures (note 8). Filed EPS for June 2026 is ₹227.85, computed on the 20,000 pre-scheme shares because allotment happened on 6 July 2026, after quarter end; the ₹0.42 shown on Screener is a restatement onto the current 1,10,00,470 shares.
 
 ### Shareholding (June 2026)
 
@@ -323,10 +325,10 @@ One trigger fires on one quarter of data, one is disqualified. Entry on that bas
 ## Recent Developments
 
 - **12 Aug 2026** — Closed ₹34.86, down 4.99% at the lower circuit, on volumes in the hundreds of shares. Down about 15% from the ₹41.0 post-listing high. *Neutral — price discovery, not information.*
-- **10 Aug 2026** — Q1 FY27 results: revenue ₹15.30 Cr, operating margin 10.78%, net profit ₹0.46 Cr. AGM fixed for 23 September 2026; board noted the allotment of 1,10,00,470 shares post-demerger. *Strengthens — first profitable quarter, and the second consecutive quarter above 10% margin.*
+- **10 Aug 2026** — Q1 FY27 results: revenue ₹15.30 Cr, operating margin 10.78%, PBT ₹0.61 Cr, net profit ₹0.46 Cr, with an unmodified limited-review report from CNK. AGM fixed for 23 September 2026 by video conference. *Strengthens — first profitable quarter, and the second consecutive quarter above 10% margin. The year-ago comparative it is measured against was neither reviewed nor audited.*
 - **7 Aug 2026** — Listed on BSE and began trading around ₹37.05. Audited FY26 results filed the same day: revenue ₹50.97 Cr, net loss ₹2.03 Cr. *Neutral.*
 - **18 Jul 2026** — Prima Plastics filed its 32nd AGM notice with its FY26 annual report as a single document. Item 5 puts a special resolution to members for a corporate guarantee of up to ₹28.86 Cr in favour of Kotak Mahindra Bank, securing a ₹29.61 Cr facility already obtained by Prima Innovation for capacity expansion. The parent's audit committee had reviewed the proposal on 20 May 2026. *Weakens — the funding is arranged, but a lender requiring a parent guarantee is a statement about standalone creditworthiness.*
-- **20 Apr 2026** — 1,10,00,470 shares allotted 1:1 to Prima Plastics shareholders on the 17 April record date. Prima Innovation ceased to be a wholly-owned subsidiary. *Neutral.*
+- **6 Jul 2026** — 1,10,00,470 shares allotted 1:1 to Prima Plastics shareholders on the 17 April record date, and the 20,000 pre-scheme shares held by Prima Plastics cancelled without consideration. Prima Innovation ceased to be a wholly-owned subsidiary. *Neutral.*
 - **31 Mar 2026** — Demerger scheme effective on filing with the RoC Goa, following the NCLT Ahmedabad order of 16 March 2026. Appointed date 1 July 2024. *Neutral.*
 
 ---
@@ -356,7 +358,7 @@ This is not a permanent judgment on the asset. The margin improvement in the las
 
 ## Data Gaps
 
-1. **Q1 FY27 other-operating-revenue split.** The 10 August filing was XBRL-only with no PDF, so the rent and subsidy inside quarterly revenue cannot be seen. The core-margin figures in the quarterly table are estimates from FY26 run-rates.
+1. **Q1 FY27 other-operating-revenue split.** The 10 August filing was retrieved and read; it reports revenue from operations as a single line with no breakup, so the rent and subsidy inside quarterly revenue still cannot be seen. The core-margin figures in the quarterly table remain estimates from FY26 run-rates. The next chance at the split is the FY27 annual report.
 2. **Capacity and utilisation.** Never disclosed in any filing. Trade listings describe two German rotational moulding lines and 50,000+ products per month across the Prima group, which is company marketing material and unverified. Without utilisation there is no way to judge whether the expansion is demand-led.
 3. **Customer concentration.** No disclosure. For a business selling pallets and road barricades, whether revenue comes from a handful of infrastructure contractors or a broad industrial base changes the risk profile entirely.
 4. **What the ₹29.61 Cr Kotak facility funds.** The parent's AGM notice says capacity expansion and nothing further.
@@ -414,7 +416,7 @@ The product range covers industrial pallets, insulated boxes and crates used in 
 
 Manufacturing runs from Pithampur in Dhar district, Madhya Pradesh, described in the company's own Note 1 as its state-of-the-art facility, and from Daman, where the registered office also sits. Gross carrying value of the MP factory land and building is ₹14.14 Cr against ₹3.78 Cr for Daman, so Pithampur is the primary site.
 
-Revenue was ₹50.97 Cr in FY26, of which exports were ₹0.92 Cr, or 1.85%. The company reports a single business segment and a single geographical segment.
+Revenue was ₹50.97 Cr in FY26, of which exports were ₹0.92 Cr, or 1.85%. The company reports a single business segment, named "Plastic Articles" in the quarterly filing, and a single geographical segment.
 
 The business was a division of Prima Plastics Limited, incorporated 1993, until the NCLT Ahmedabad bench sanctioned a demerger scheme on 16 March 2026. Prima Plastics retains moulded furniture, injection-moulded waste management bins, and overseas interests including a Cameroon joint venture and a Latin American subsidiary.
 
@@ -621,6 +623,8 @@ Screener page for BSE 544855 was the starting point and turned out to be unusabl
 **Adjustment applied to the margin story.** FY26 revenue from operations includes ₹79.59 lakh rental income (nil in FY25) and ₹43.71 lakh MP state subsidy, together ₹1.23 Cr against reported operating profit of ₹0.84 Cr, implying core manufacturing EBITDA of about −₹0.39 Cr. Applying the same run-rate to quarters puts core margin at roughly 0.5% in Q1 FY26 and 8.9% in Q1 FY27. The quarterly XBRL filing has no PDF and does not split other operating revenue, so the quarterly figures are estimates and are labelled as such throughout.
 
 **Finance cost note.** The FY26 finance cost of ₹1.61 Cr includes ₹42.10 lakh that Note 28 labels interest on lease liability, cross-referring to Note 42. Note 42(b) states the lease charged ₹4.10 lakh to depreciation and nil to finance cost, so Note 28's label is wrong. The cash flow statement describes the same ₹42.10 lakh as a fair value adjustment under Ind AS 109, appearing as an add-back in operating and a deduction in financing. That fits an interest-free loan being marked to a market rate, and the only interest-free loan disclosed is the ₹11.39 Cr from Prima Plastics, on which ₹42.10 lakh implies about 3.7%. That attribution is an inference and is labelled as such wherever it appears. Cash interest paid was ₹1.19 Cr, so cash interest cover is 0.71x rather than the 0.52x that reported finance cost implies; the higher figure is used throughout. Merged into Concerns and Risks per `research-log-format.md`.
+
+**Q1 FY27 filing retrieved 2026-08-14 (after the AttachHis fix).** The 10-Aug results carried no attachment when first fetched on 12 Aug; the PDF appeared subsequently. Reading it confirmed Screener's quarterly figures line by line (revenue ₹1,530.46 L, finance cost ₹54.56 L, depreciation ₹49.70 L, PBT ₹60.89 L, PAT ₹45.57 L) and added four things. Allotment of the 1,10,00,470 shares was **6 July 2026**, not April as a secondary source had it — the record date was 17 April and the 20,000 pre-scheme shares were cancelled on allotment; the note's Recent Developments entry was corrected. The June-2025 comparative was **neither reviewed nor audited** (note 2), which is now flagged wherever the year-on-year margin improvement is claimed. Filed EPS is ₹227.85 on 20,000 shares because allotment post-dated quarter end, so Screener's ₹0.42 is a restatement. The segment is named "Plastic Articles" (note 7). The one thing it did not settle is the other-operating-revenue split — revenue from operations is a single line — so the core-margin estimates stand as estimates.
 
 **Sources checked and discarded.** A secondary source reported the rotational moulding division at ₹33.78 Cr of turnover, 28.32% of Prima Plastics' total, for FY24. That figure could not be located in any of the five scheme-of-arrangement filings downloaded, and is excluded under the no-fabricated-data rule. It is not needed — the Ind AS 105 note gives a better two-year record from an audited source.
 
