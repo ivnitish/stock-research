@@ -1,0 +1,176 @@
+name: Daily Telegram Brief
+
+# The daily brief used to run only from a launchd agent on one Mac
+# (scripts/daily_news_cron.sh, REPO="/Users/nitish/stocks automation"). When that
+# machine stopped running the job the brief went silent — the last one landed
+# 2026-07-24. This runs the same pipeline on GitHub's runners instead, so
+# delivery no longer depends on a laptop being awake.
+#
+# Delivery stays decoupled from the agent, exactly as scripts/send_macro_digest.py
+# describes: the Claude step writes today's docs/MACRO_THREAD.md entry, and the
+# send step delivers it. TELEGRAM_BOT_TOKEN is deliberately NOT exposed to the
+# Claude step — if it were, the skill's own Step 8b send would fire too and the
+# digest would arrive twice.
+
+on:
+  schedule:
+    - cron: '12 3 * * 1-5'   # 08:42 IST weekdays — primary slot
+    - cron: '12 9 * * 1-5'   # 14:42 IST weekdays — fallback, no-ops once delivered
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Build the brief but skip the GitHub issue and the Telegram send'
+        type: boolean
+        default: false
+
+concurrency:
+  group: daily-telegram
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      # Fail before doing any work if the job could never deliver. A missing
+      # secret used to mean a silent skip; here it is a red run.
+      - name: Check required secrets
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ALLOWED_CHAT_ID: ${{ secrets.TELEGRAM_ALLOWED_CHAT_ID }}
+          OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          missing=()
+          [ -n "$TELEGRAM_BOT_TOKEN" ] || missing+=(TELEGRAM_BOT_TOKEN)
+          [ -n "$TELEGRAM_ALLOWED_CHAT_ID" ] || missing+=(TELEGRAM_ALLOWED_CHAT_ID)
+          if [ -z "$OAUTH_TOKEN" ] && [ -z "$API_KEY" ]; then
+            missing+=("CLAUDE_CODE_OAUTH_TOKEN or ANTHROPIC_API_KEY")
+          fi
+          if [ ${#missing[@]} -gt 0 ]; then
+            printf 'missing repo secret: %s\n' "${missing[@]}" >&2
+            echo "add them under Settings -> Secrets and variables -> Actions" >&2
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+
+      # The skill dates everything by UTC (see SKILL.md Notes), so the whole
+      # workflow keys off the UTC date too.
+      - name: Resolve today
+        id: today
+        run: echo "date=$(date -u '+%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+
+      # Makes the second cron slot a real fallback, and stops a double-send if
+      # the old launchd agent is still alive on the Mac.
+      - name: Skip if already delivered today
+        id: delivered
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          count=$(gh issue list --repo "$GITHUB_REPOSITORY" \
+            --search "Morning News ${{ steps.today.outputs.date }} in:title" \
+            --state all --json number --jq 'length')
+          if [ "$count" -ge 1 ]; then
+            echo "already delivered for ${{ steps.today.outputs.date }} — standing down"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.delivered.outputs.skip == 'false'
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        if: steps.delivered.outputs.skip == 'false'
+        run: pip install requests python-dotenv
+
+      # Zero-token pre-collection: headlines per holding, macro headlines,
+      # buy-at alerts, macro-thread continuity. Non-fatal — the file flags its
+      # own gaps and the Claude step falls back to targeted searches.
+      - name: Collect deterministic inputs
+        if: steps.delivered.outputs.skip == 'false'
+        continue-on-error: true
+        run: python3 scripts/collect_daily_inputs.py
+
+      - name: Run the morning-news brief
+        if: steps.delivered.outputs.skip == 'false'
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: |
+            --max-turns 40
+            --allowedTools Read,Write,Edit,Bash,WebSearch,WebFetch
+          prompt: |
+            Run the morning-news skill in ${{ inputs.dry_run && 'dry-run' || 'full' }} mode
+            (last-24h news per holding; on Mondays cover the weekend too). Follow its
+            steps exactly: ONE theme digest, plus at most 2 stock-snapshot messages and
+            only when a covered holding has hard news (results, large order, regulatory
+            action, dilution). Quiet day = digest only.
+
+            Pre-collected inputs: read data/daily_inputs/${{ steps.today.outputs.date }}.md
+            FIRST if it exists — it has per-holding headlines, macro headlines,
+            precomputed buy-at alerts, and macro-thread context. Work from it instead of
+            broad web searches; use at most 3 targeted WebFetch/WebSearch calls for items
+            that are material but unclear from headlines. If the file is missing, fall
+            back to the skill's normal search steps.
+
+            You must write today's dated entry at the top of docs/MACRO_THREAD.md — a
+            later step delivers that entry to Telegram and fails the build if it is
+            missing or stale. Do not POST to Telegram yourself; the token is not
+            available to you here, by design.
+
+            Do not create branches, commits, or pull requests — a later step commits
+            your file changes.
+
+            Follow all repo rules in CLAUDE.md and .claude/rules/. Never fabricate
+            prices — if a CMP cannot be fetched, write "data unavailable".
+
+      # MACRO_THREAD.md is the pipeline's memory across runs: tomorrow's digest
+      # reads today's entry for narrative continuity, so it has to persist.
+      - name: Commit brief and macro thread
+        if: steps.delivered.outputs.skip == 'false' && !inputs.dry_run
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/MACRO_THREAD.md docs/MORNING_BRIEF.md
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+          else
+            git commit -m "Morning brief ${{ steps.today.outputs.date }}"
+            git push origin HEAD:${{ github.ref_name }}
+          fi
+
+      # --strict turns the two silent "return 0" paths (stale entry, missing
+      # credentials) into hard failures. The local cron calls this without
+      # --strict and keeps its lenient behaviour.
+      - name: Send the Telegram digest
+        if: steps.delivered.outputs.skip == 'false' && !inputs.dry_run
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ALLOWED_CHAT_ID: ${{ secrets.TELEGRAM_ALLOWED_CHAT_ID }}
+        run: python3 scripts/send_macro_digest.py --require-today --strict
+
+      # A failed run must not be indistinguishable from a quiet market.
+      - name: Report failure to Telegram
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ALLOWED_CHAT_ID: ${{ secrets.TELEGRAM_ALLOWED_CHAT_ID }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          # Recomputed rather than read from the step output: the secrets check
+          # can fail before that step ever runs.
+          [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_ALLOWED_CHAT_ID" ] || exit 0
+          curl -sS -X POST \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TELEGRAM_ALLOWED_CHAT_ID}" \
+            -d "text=Daily brief failed for $(date -u '+%Y-%m-%d') — no digest today. Logs: ${RUN_URL}" \
+            > /dev/null
