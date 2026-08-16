@@ -70,7 +70,13 @@ weeks). Manual run / dry-run: **Actions → Daily Telegram Brief → Run workflo
 
 `TELEGRAM_BOT_TOKEN` is deliberately withheld from the Claude step so the skill's
 own Step 8b send stays a no-op and the digest is delivered exactly once, by
-`send_macro_digest.py`.
+`send_macro_digest.py`. Step 8c snapshots follow the same rule via `SNAPSHOT_OUT`:
+the agent writes the snapshot to disk and a deterministic step sends it.
+
+**Daily message ceiling: 2.** One theme digest (always) plus at most one
+event-driven per-stock snapshot (only on hard news — results, large order,
+regulatory action, management change, dilution). Typical day is 1. The snapshot
+cap was cut from 2 to 1 on 2026-08-16. A failed run adds one failure alert.
 
 #### launchd (local Mac, added Jul 2026)
 macOS launchd agents (plists in `~/Library/LaunchAgents/`, scripts in `scripts/`). launchd runs missed jobs on wake, unlike cron.

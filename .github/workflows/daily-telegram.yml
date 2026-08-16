@@ -102,6 +102,10 @@ jobs:
       - name: Run the morning-news brief
         if: steps.delivered.outputs.skip == 'false'
         uses: anthropics/claude-code-action@v1
+        env:
+          # Switches the skill's Step 8c from "send it yourself" to "write it
+          # here"; the send step below delivers it.
+          SNAPSHOT_OUT: ${{ runner.temp }}/snapshot.txt
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -126,6 +130,12 @@ jobs:
             later step delivers that entry to Telegram and fails the build if it is
             missing or stale. Do not POST to Telegram yourself; the token is not
             available to you here, by design.
+
+            Step 8c snapshots: SNAPSHOT_OUT is set, so write at most ONE snapshot to
+            that path and do not send it — a later step delivers it. Only write the
+            file if a covered holding had genuinely hard news today (results, large
+            order, regulatory action, management change, dilution). No hard news means
+            no file, which is the normal quiet-day outcome.
 
             Do not create branches, commits, or pull requests — a later step commits
             your file changes.
@@ -157,6 +167,24 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_ALLOWED_CHAT_ID: ${{ secrets.TELEGRAM_ALLOWED_CHAT_ID }}
         run: python3 scripts/send_macro_digest.py --require-today --strict
+
+      # At most one, and only when the day earned it. An absent file is the
+      # normal quiet-day outcome; a present-but-undeliverable file is a failure,
+      # which is the whole point of writing it to disk rather than having the
+      # agent POST it — send_session_takeaways.py already exits 1 on missing
+      # credentials or a bad API response.
+      - name: Send the per-stock snapshot
+        if: steps.delivered.outputs.skip == 'false' && !inputs.dry_run
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ALLOWED_CHAT_ID: ${{ secrets.TELEGRAM_ALLOWED_CHAT_ID }}
+          SNAPSHOT_OUT: ${{ runner.temp }}/snapshot.txt
+        run: |
+          if [ ! -s "$SNAPSHOT_OUT" ]; then
+            echo "no snapshot written — no hard news today"
+            exit 0
+          fi
+          python3 scripts/send_session_takeaways.py --file "$SNAPSHOT_OUT"
 
       # A failed run must not be indistinguishable from a quiet market.
       - name: Report failure to Telegram
