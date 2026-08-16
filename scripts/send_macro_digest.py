@@ -19,6 +19,13 @@ Usage:
   venv/bin/python3 scripts/send_macro_digest.py --require-today  # skip if the
         top block isn't dated today (guards against sending a stale entry when
         the skill failed to prepend a new one)
+  venv/bin/python3 scripts/send_macro_digest.py --require-today --strict
+        # same, but exit 1 instead of 0 when nothing is sent
+
+--strict exists for the GitHub Actions run (.github/workflows/daily-telegram.yml),
+where "nothing sent" must turn the build red. Without it a stale entry or missing
+credentials exit 0 and the miss is invisible — which is how the digest went
+silent for weeks. The local cron omits the flag and keeps its lenient behaviour.
 """
 
 from __future__ import annotations
@@ -59,6 +66,8 @@ def format_msg(block: str) -> str:
 
 
 def main() -> int:
+    strict = "--strict" in sys.argv
+
     block = top_block()
     if not block:
         print("no macro-thread entry found", file=sys.stderr)
@@ -66,7 +75,7 @@ def main() -> int:
 
     if "--require-today" in sys.argv and parse_date(block) != date.today().isoformat():
         print(f"top block dated {parse_date(block)!r} != today — skip", file=sys.stderr)
-        return 0
+        return 1 if strict else 0
 
     msg = format_msg(block)
     if "--dry-run" in sys.argv:
@@ -77,7 +86,7 @@ def main() -> int:
     chat = os.environ.get("TELEGRAM_ALLOWED_CHAT_ID", "").strip()
     if not token or not chat:
         print("TELEGRAM_BOT_TOKEN / TELEGRAM_ALLOWED_CHAT_ID missing — skip", file=sys.stderr)
-        return 0
+        return 1 if strict else 0
 
     resp = requests.post(
         f"https://api.telegram.org/bot{token}/sendMessage",
