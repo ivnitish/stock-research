@@ -1,5 +1,33 @@
 # Research System — TODO
-*Last updated: 2026-08-13*
+*Last updated: 2026-08-19*
+
+---
+
+## ✅ Completed — 2026-08-19 — RAPICUT (Rapicut Carbides) new research note
+
+User sent a Groww screenshot of RAPICUT at ₹341.40, +72.42% over 3M, and asked for deep research.
+
+- **RAPICUT.md (new) — AVOID (0%) · Grade D (8/25)**, CMP ₹341.40, pre-merger mcap ₹184 Cr, **post-merger implied mcap ₹1,314 Cr**. Base case ₹229 → margin of safety **−49%** (stock trades above fair value).
+- **The finding that drove the note:** the board has approved amalgamating **United Wolfram Pvt Ltd — owned and directed by Rapicut's own Chairman & MD, Abhishek Gami — into the listed company, issuing 3.31 crore new shares against 0.54 crore outstanding.** Share count rises **7.1x**; promoter holding goes 40.46% → 91.69%; minority ownership falls 59.54% → 8.33%, an **86% transfer of proportional claim**. Every published multiple (Screener, brokers) is computed on the pre-merger count and is understated by 7.1x. True P/E is **40.2x** on annualised Q1 FY27 earnings and **112.9x** on TTM, not the 5.6x / 15.8x shown.
+- **What UWPL publicly is:** CIN U28999GJ2022PTC137000, incorporated **2022**, paid-up capital **₹1 lakh**, revenue band **₹25–50 Cr** on Mar-2024 numbers, balance sheet last filed 31-Mar-2023. The market is implicitly valuing it at **₹1,130 Cr**. For a 20x post-merger multiple it must run at ~₹330 Cr revenue — a 7-13x gap to its last disclosure.
+- **Second finding — the earnings are inventory gains, not operating leverage.** Five-quarter net margin: loss → 7.9% → 7.6% → **1.3%** → **10.0%**. Revenue rose 137% into the 1.3% quarter and 66% into the 10.0% quarter; no volume-to-margin relationship exists. Supporting physical evidence: ₹96 Cr FY26 revenue on ₹65.5 Cr total assets, now annualising ₹328 Cr — five asset turns, normal for trading, implausible for carbide sintering. Driver is the China tungsten export-control spike (Rotterdam APT >$3,000/MTU, +200% YTD); **Chinese domestic APT is already −59.9% from peak** as of mid-Aug 2026.
+- **Third finding — MPS overhang.** Post-merger 91.69% breaches SEBI's 75% promoter cap, forcing a sell-down of ~**64 lakh shares** against a current public float of ~32 lakh. Forced supply is twice the entire float.
+- **What genuinely passes:** clean unmodified audit (K C Mehta & Co LLP, 30-May-26), near debt-free (₹6.71 Cr repaid FY26), OCF ₹11.77 Cr vs PAT ₹2.06 Cr (5.7x conversion), and Phase 4.4 domain-prior on the operator (founded United Wolfram 2011, bought into Rapicut 2019, five years in the industry before taking the chair). The operator is credible — which is why the terms he is proposing to himself matter.
+- **Re-underwrite triggers set:** (1) scheme document with UWPL audited FY25–FY26 + registered valuer's report; (2) two consecutive quarters of ≥7% net margin with Rotterdam APT below $2,000/MTU; (3) MPS sell-down completed.
+- **Verification:** three independent cross-checks came out clean — share count triangulates three ways to ~53.9 lakh; the four FY26 quarters sum to the audited FY26 totals (₹96.29 vs ₹96.28 Cr revenue, ₹2.06 vs ₹2.06 Cr PAT); and the merger arithmetic reproduces the reported 91.69% from separately-sourced inputs.
+
+### ⚠️ Environment limitation on this session (not a repo defect)
+
+This note was written from a Claude Code **remote** session whose network egress policy blocks **screener.in, bseindia.com, trendlyne, moneycontrol, valueresearch, groww and the company's own site**; the Groww and Kite MCP servers did not connect. All figures are secondary-sourced via WebSearch and cross-checked against each other, and the provenance limitation is documented at the top of `research/RAPICUT.md` so no future reader mistakes them for filing-sourced numbers.
+
+Two consequences:
+- `src/fetch_bse_filings.py` could not run (BSE unreachable; RAPICUT is also absent from its scrip-code map — **backlog item**: add `RAPICUT: 500360`).
+- `scripts/build_site_index.py` could not be run here (no `venv/`, `dotenv` missing, and the bhavcopy fetch needs NSE access). **The note's header parses correctly** against the generator's `VERDICT` / `GRADE` / `DATE` regexes — verified directly — so it will pick up on the next daily cron rebuild. No hand-edit to `index.html` was made, per `.claude/rules/index-always.md`.
+
+### 📋 Backlog added — 2026-08-19
+
+- Re-run RAPICUT from primary sources when on an unrestricted network: scheme of arrangement + swap-ratio valuation report, UWPL audited FY24–FY26, FY26 AR related-party note and manufactured-vs-traded segment split, shareholding pattern + pledge status, NCLT timeline, and technicals (RSI/MFI/SMA/delivery %).
+- Add `RAPICUT: 500360` to the `PORTFOLIO` scrip-code map in `src/fetch_bse_filings.py`.
 
 ---
 
