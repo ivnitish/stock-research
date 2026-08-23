@@ -1,5 +1,31 @@
 # Research System — TODO
-*Last updated: 2026-08-13*
+*Last updated: 2026-08-23*
+
+---
+
+## ✅ Completed — 2026-08-23 — KELTECH update: TNT + munitions programme, EC status, ICRA correction
+
+User asked to update Keltech on "environmental clearance and thrive". Both resolved, and the update carries **two corrections to the 9 August note**.
+
+- **Environmental clearance — NOT granted.** Garamsur expansion under MoEF&CC file `IA-J-11011/360/2018-IA-II(I)`: ToR granted 21-Sep-2024, public hearing conducted 17-May-2025, **no final EC and no post-hearing EAC minutes on the public record**. Existing 2020 EC + MPCB Consent (to 31-Mar-2028) cover only the current, much smaller sanction. MPCB hearing minutes returned 404 on every path, so objections are unknown.
+- **The application is far bigger than "a TNT plant":** 4,000 MTPA TNT (vs existing 60 MT storage-only), 1,000 MTPA HMX/HNS/RDX, NC and NG at 500 MTPA each, PETN tripled to 4,800 MTPA, SME doubled to 40,000 MTPA, **plus five finished-munition lines — 155mm/105mm artillery shells and 120/81/82mm mortar bombs at 100,000 units p.a. each** — under the EIA heading "Explosives for Defense (Domestic & Export)". Additional project cost ₹100 Cr; manpower 256 → 802. All applied for; none approved, financed or built. Deliberately excluded from the bull case.
+- **Correction 1 — the 9-Aug claim that the FY26 AR "disclosed no defence segment and no order book" was too strong.** Segment-wise true, but the CWIP note (p.103) says *"Capital work-in-progress mainly comprises of TNT Project at Garamsur, Surjagarh Silo set-up"*, and note 13(a) carries a dedicated Canara Bank term loan **"Towards TNT Project" at 8.50%, ₹20.45 Cr drawn (PY nil)**. Detonator Project loan up ₹9.92 Cr → ₹27.11 Cr. Auditor made the capex a **Key Audit Matter**: ₹55.41 Cr put to use, ₹38.01 Cr in CWIP, commitments doubled to ₹39.96 Cr.
+- **Correction 2 — the ICRA BB+/Issuer-Not-Cooperating downgrade was a mandate switch, not a credit event.** **CRISIL assigned BBB+/Stable and A2 to ₹258 Cr on 13-Feb-2026 — ten days before ICRA's 23-Feb action** — including a **₹163 Cr Canara term loan**, the best-sourced measure of the capex envelope against ~₹49 Cr drawn. Risks row downgraded High → Low-Medium. Residual: the company let a live rating decay rather than withdraw it, and **no obtainable rating document from either agency mentions TNT, munitions or defence**.
+- **"Thriveni" resolved:** zero mentions in the FY26 AR (including related-party and >5% holder tables), no order/MoU/contract in the 2026 BSE stream. The **Surjagarh silo** in the CWIP note is a real operational adjacency — Thriveni has been MDO at Lloyds Metals' Surjagarh mine since 2021 — but an inference from third-party sources, not a disclosed relationship.
+- **₹190 Cr TNT capex figure rejected** — no primary source; sole origin a secondary aggregator whose adjacent numbers on the same company do not reconcile. Sourced alternatives: ₹163 Cr (CRISIL-rated TL), ₹38.01 Cr (CWIP), ₹39.96 Cr (commitments), ₹100 Cr (EIA additional project cost, Garamsur scope only).
+- **Q1 FY27 re-cut from the 31-Jul filing:** revenue ₹183.28 Cr **+28.1%**, but **OPM compressed 8.47% → 7.53%** — the earlier "flat 7.5%" was wrong. Finance cost +72%, depreciation +29%; together ₹1.18 Cr of new fixed cost against ₹1.69 Cr of incremental operating profit, which is why +28% revenue produced −1.6% PAT.
+- **FY26 PAT of ₹28.66 Cr includes a ₹3.18 Cr non-cash exceptional** — anti-dumping duty write-back after an April-2026 CESTAT win, booked as a receivable, not cash. Underlying PAT ≈ **₹26.3 Cr**.
+- **Price ₹14,250** (21-Aug close), +184% from the 1-Jun call and +46% since 7-Aug, with **no BSE announcement in that window**. Now **54x underlying earnings, 9.3x book**. MOS **−117%**, asymmetry **0.37x** (was 1.88x at ₹7,872).
+- **BSE ESM Stage 2** — trade-for-trade, 2% band, 100% margin, periodic call auction. Logged as a **hard gate on the swing lens**: never size a speculative position in a scrip whose exit does not exist, however hot the theme.
+- Grade C / AVOID unchanged. Action table rebuilt with four event-gated re-underwrite conditions (condition 3 rewritten from "ICRA tag removed" to "final EC granted"). Rendered → PDF → Telegram; index rebuilt.
+
+### 🐛 Fixed — `build_site_index.py` header parse window
+
+`parse_note()` reads only `text[:2000]`. The long narrative `**Status:**` paragraph at the top of KELTECH.md pushed `**Verdict:**`, `**Quality Score:**` and `**Last Updated:**` past that window, so the note silently fell into the "Unclassified" bucket with no verdict, grade or date. Fixed by moving the short metadata lines **above** the narrative status block. **Rule for all notes: Verdict / Quality Score / Classification / Last Updated must sit in the first few lines, before any long prose.** Worth considering a parser change to scan the first N *lines* rather than N characters.
+
+### ⏭ Pending — SCHNEIDER (Schneider Electric President Systems, BSE 544786)
+
+User asked for research on `screener.in/company/544786/` via subagents. **Not done — both subagents died on a session limit.** State: `research/SCHNEIDER.md` was never written; `PORTFOLIO` mapping `"SCHNEIDER": 544786` was added to `src/fetch_bse_filings.py`, and filings downloaded to `data/filings/SCHNEIDER/` (includes a 12-Jun-2026 "Approval For Direct Listing", a 1-Jul price-movement clarification and a 20-Jul volume-movement clarification — the direct-listing filing likely explains the new scrip code). Starting facts: CMP ~₹1,900, mcap ~₹2,298 Cr, P/E 66.2, BV ₹197, ROCE 23.9%, ROE 17.7%, promoter 74.12%, 52w ₹770–₹2,719. **This is a held position** — `SCHNEIDER.NS,20` in portfolio.csv with a blank avg price — so the verdict must be HOLD/ADD/TRIM/EXIT, not an entry call. Do not confuse with `SELECTRIC.md` (Schneider Electric Infrastructure, BSE 534139).
 
 ---
 

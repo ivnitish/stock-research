@@ -46,6 +46,8 @@ PORTFOLIO = {
     "KAYA":       539276,
     "PRIMAINNO":  544855,
     "PRIMAPLAS":  530589,
+    "KELTECH":    506528,
+    "SCHNEIDER":  544786,
     # US stocks don't have BSE codes — skip them
 }
 
