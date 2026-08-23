@@ -3,6 +3,34 @@
 
 ---
 
+## ✅ Completed — 2026-08-23 — SYMBIOTEC Pharmalab IPO (24-27 Aug): AVOID, Grade C 13/25
+
+User sent the BusinessLine IPO Watch PDF and asked for research. Written from the **Red Herring Prospectus filed 18-Aug-2026** (551 pages, Khaitan & Co, downloaded and text-extracted in full), not from the article. Note at `research/SYMBIOTEC.md`. Company name is **Symbiotec**, not "Symbiotic" — the source PDF garbles it.
+
+- **Verdict: do not subscribe at ₹938-988.** Post-issue market cap ₹6,348 Cr on 64,253,069 shares = **57.8x FY26 PAT of ₹109.90 Cr**, 28.5x EV/EBITDA, 4.9x post-issue book. MOS **−42%**, asymmetry **0.03x** against a 1x floor. Post-listing standing order **BUY AT ₹418** (Grade C, 40% cushion off base FV ₹697); rises to **₹555** if re-graded B.
+- **The central finding: ₹871 Cr of the ₹1,364 Cr gross block earns nothing.** Rau + Pithampur (₹643 Cr) produced all ₹869 Cr of revenue. Ujjain 400 KL CDMO (₹479.5 Cr) + Mhow 20mn injectables (₹391.9 Cr) produced ₹34 Cr and **lost ₹28.5 Cr** (Zenfold −₹26.86 Cr, Knovea −₹1.64 Cr). Gross asset turn fell 1.19x → **0.64x** in one year.
+- **Incremental ROIC over the capex cycle is 5.2%.** ΔCE FY24→FY26 ₹561.0 Cr, ΔEBIT ₹40.5 Cr = 7.2% pre-tax. Consolidated ROCE 14.03% → 11.80% → **11.56%**, ROE 14.98% → **11.19%**. The RHP's own "Adjusted ROCE" of 30.43% exists precisely to exclude Knovea + Zenfold — a fair view of the core, and an exact measure of how much of the asset base is idle.
+- **FY27 earnings likely fall.** Plants capitalised mid-FY26, so only partial-year depreciation has landed. Running note-2a rates across the closing gross block adds **~₹18.2 Cr** of depreciation (₹14.2 Cr P&M, ₹2.1 Cr buildings, ₹2.0 Cr electricals) before any new capex; finance cost already went ₹16.0 → ₹25.3 Cr as interest stopped being capitalised. Net ~₹13 Cr after-tax drag on a ₹110 Cr base, against CDMO revenue the company expects only from late FY27.
+- **The CDMO contracts are never sized.** RHP names "a five-year insulin drug substance agreement, a GLP-1 manufacturing agreement, and a ten-year contract for classical fermentation-based APIs" — no counterparty, volume, value or minimum offtake. **"Take or pay" appears once in 551 pages**, in a generic restrictive-covenant risk factor, never in connection with the CDMO book. This is what fails Phase 0.5 form 2 and drives the Grade C. The BusinessLine article's "take or pay contracts for a significant part of the CDMO capacity" is not supported by the prospectus.
+- **Live FDA matter, nine days pre-issue.** US FDA closed an inspection at **Pithampur on 14-Aug-2026 with four observations**, response still due at RHP date. Rau also got a Form 483 in its 2026 inspection. Pithampur carries all 300 KL of producing fermentation; the US is 13.1% of revenue and supplied **71% of FY26's growth** (₹30.2 Cr → ₹114.0 Cr) while India fell 14.9%.
+- **Base plant not full and shrinking:** Pithampur fermentation 72.91% utilisation (FY25 82.52%), actual production **down 247.57 → 218.75 KL**. FY26's 15.65% growth was price and mix, not volume. Ex-milestone the series reads 18.63% / 11.83% / 15.65% — a low-to-mid-teens business.
+- **Pricing history (RHP Basis for Offer Price):** Dec-2025 rights to promoters at **₹276** (WACA of primary issuances, cap = 3.58x); Rosewood/IBEF-III weighted cost **₹147.21** (6.71x); Satwani Holdings **₹49.43** (19.99x); and on **17-Aug-2026, six days before the RHP**, the PE funds transferred **1,712,344 shares to Satwani Holdings at ₹200** under the Investment Agreement's upside-sharing clause — ₹34.2 Cr paid for stock worth ₹169.2 Cr at the cap. Satwani Holdings is selling ₹144 Cr in the OFS (~1,457,490 shares). All disclosed and contractual; noted for alignment, not impropriety.
+- **91.5% OFS.** Fresh issue ₹150 Cr of ₹1,757 Cr, of which ₹112.5 Cr repays debt. Rosewood takes ₹988 Cr, IBEF-III ₹475 Cr, promoter ₹144 Cr. **Promoter + group 36.41% pre-offer** — below the 40% Phase 0.2 flag — and lower after. Motilal Oswal Investment Advisors is a BRLM while affiliate IBEF-III is a selling shareholder (disclosed in the RHP).
+- **Prior track record outside the core is a write-off:** Propel Pharma Corp (Delaware R&D) dissolved Jun-2025, "projects not eventually commercialized"; **₹39.8 Cr of receivables written off across FY25-26**, plus a ₹52.8 Cr standalone impairment on Navisci Pte Ltd. Same question the CDMO/injectables spend now asks.
+- **Three years of negative FCF:** −₹22.3 Cr, −₹260.9 Cr, −₹51.1 Cr (cumulative −₹334 Cr). OCF/EBITDA 0.23x in FY25. Inventory 274 days of COGS. ₹150.8 Cr of tax and civil claims against the company while contingent liabilities are reported nil under Ind AS 37.
+- **Concentration:** top 5 customers 43.01%, top 10 57.59%, largest single 16.13% (passes the 30% Phase 0.3 gate). Sharper exposure is **product**: top 5 products 62.27%, top 10 **78.96%**.
+- **Reconciliation flagged, not guessed:** RHP states gross fixed asset turnover of 1.54x; note 2a gives closing gross PPE ₹1,363.75 Cr against ₹869.15 Cr revenue = **0.64x**. Stated ratio appears to be on a standalone or pre-capitalisation base. Also: the peer table compares Symbiotec's "66 API DMFs" (43 US FDA + 23 EDQM CEPs) with Divi's "41" (US FDA only, with 30 CEPs + 25 Health Canada + 9 PMDA in the footnote).
+- **Deliberately excluded:** grey-market premium (unregulated, no information about business value); the ₹190-Cr-style unsourced figures; the F&S Report shares (38.2% / 23.8% / 80.1% / 76.4% / 76.0%) are cited but labelled issuer-commissioned and uncorroborated.
+- Rendered → PDF → Telegram (200 True). Index rebuilt and verified: `"verdict":"AVOID","bucket":"avoid","grade":"C","score":13,"date":"2026-08-23","cmp":null`. CMP null is correct — unlisted.
+
+### 📌 Backlog from this note
+
+- **Q2 FY27 (first post-listing print)** — check whether Ujjain reports commercial revenue and whether any CDMO counterparty is named with volume/tenure. That single disclosure moves the grade C → B and the trigger ₹418 → ₹555.
+- **Within 30 days** — check the Pithampur FDA outcome (EIR classification: NAI / VAI / OAI). A warning letter or import alert is the hard-exit condition.
+- `SCHNEIDER` (BSE 544786) research still not written — subagents died on session limits in the prior session. Held position, 20 shares, blank avg price.
+
+---
+
 ## ✅ Completed — 2026-08-23 — KELTECH update: TNT + munitions programme, EC status, ICRA correction
 
 User asked to update Keltech on "environmental clearance and thrive". Both resolved, and the update carries **two corrections to the 9 August note**.
