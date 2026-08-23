@@ -3,9 +3,9 @@
 **Verdict: AVOID** — do not subscribe at ₹938–988. 0% allocation.
 **Quality Score:** 13/25 — Grade C
 **Classification:** Overvalued — good core business, pre-revenue expansion, priced as if the expansion already works
-**Last Updated:** 2026-08-23 | **Price band:** ₹938–988 | **Post-issue P/E:** 57.8x FY26 | **Post-listing BUY AT:** ₹418
+**Last Updated:** 2026-08-23 | **Price band:** ₹938–988 | **Post-issue P/E:** 57.8x FY26 | **Post-listing BUY REDUCED AT:** ₹555
 
-**Post-listing standing order:** BUY AT ₹418 (Grade C threshold). Re-grades to B and the trigger rises to ₹555 if the CDMO contracts are quantified — counterparty, volume, tenure — in the first two quarterly disclosures.
+**Post-listing standing order:** BUY REDUCED at ₹555 (3–5%), conditional on the CDMO contracts being quantified — counterparty, volume, tenure — in a quarterly disclosure, which re-grades the note to B. Absent that disclosure the only entry is SPECULATIVE at ₹418, 1% max, stop ₹330.
 
 ---
 
@@ -17,12 +17,12 @@ Skip the issue. If it lists at a premium, that premium is not a reason to revisi
 
 The decision splits in two, and they have different answers. On the issue itself at ₹938–988: avoid. On the company after listing: worth owning, at a price roughly 40–58% below where it is being sold.
 
-| | Level | Basis |
-|---|---|---|
-| Subscribe at band | **No** | MOS −42%, asymmetry 0.03x |
-| Post-listing entry (Grade C) | **₹418** | Base FV ₹697 less the 40% cushion Grade C requires |
-| Post-listing entry if re-graded B | **₹555** | Requires CDMO contracts quantified in disclosures |
-| Thesis-break | US FDA escalation at Pithampur beyond Form 483, or loss of Customer 1 (16.1% of sales) | Either removes the base-business floor the whole valuation rests on |
+| | Action | Level | Basis |
+|---|---|---|---|
+| Subscribe at band | **No** | — | MOS −42%, asymmetry 0.03x |
+| Re-graded to B on a CDMO disclosure | **BUY REDUCED** 3–5% | **₹555** | MOS 20.4%, asymmetry 2.44x — the matrix row for Grade A/B at 2–3x |
+| Grade C unchanged | **SPECULATIVE** 1% max, stop ₹330 | **₹418** | Base FV ₹697 less the 40% cushion Grade C requires. Never scales. |
+| Thesis-break | **EXIT** | Any | US FDA escalation at Pithampur beyond Form 483, or loss of Customer 1 (16.1% of sales) |
 
 ### Why this business?
 
@@ -89,6 +89,8 @@ Asymmetry ratio    = 1.8 / 62.6               = 0.03x
 
 Grade C demands a 40%+ margin of safety. This is negative 42%. The asymmetry ratio of 0.03x is below the 1x floor at which the framework says do not buy regardless of anything else.
 
+The exit multiples of 22x, 28x and 38x sit above the framework's stated 15–20x terminal band (Phase 5.1), which is a deliberate departure, applied because the base business genuinely earns 30% on capital and Indian API peers trade well above 20x. It cuts in the company's favour: at framework-compliant multiples the base case returns considerably less than the 1.8% shown, so the conclusion is being reached on assumptions more generous than the framework requires, not less.
+
 The base case is deliberately generous. A 23.7% revenue CAGR assumes the CDMO plant fills, injectables scale, and margins hold through the depreciation step-up. Three years of that execution returns 1.8% from the offer price. That result survives any reasonable change to the assumptions, because the price already contains the plan.
 
 ### The Compounding Equation
@@ -104,6 +106,8 @@ At ₹988 the post-issue market capitalisation is ₹6,348 Cr against FY26 profi
 For that ₹2,196 Cr to be fair, the new assets must eventually earn ₹73 Cr of profit, which at the company's 12.6% net margin means ₹580 Cr of revenue — an asset turn of 0.67x on the ₹871 Cr. The company suggests 1.5–2x is achievable, which would imply ₹1,300–1,740 Cr and make today's price cheap.
 
 So the disagreement is narrow and specific. If the fermentation contracts are real and large, the price is defensible. The prospectus had 551 pages in which to say how large, and did not. Until it does, paying 2.5x cost for idle assets and 57.8x trailing earnings for the whole means paying in advance for an outcome the prospectus declines to size.
+
+The anchor book is the strongest argument against this note and deserves to be stated at full strength. On 21 August, 34 institutions put ₹526.20 Cr in at ₹988 — the top of the band, not the bottom — and 60.06% of it was domestic mutual fund money across 19 schemes, including dedicated healthcare funds at HDFC and Mirae that underwrite pharma for a living. That is not indiscriminate demand. It says a large body of professional opinion has looked at the same prospectus and reached a different conclusion, most plausibly by underwriting the CDMO ramp on management meetings rather than on the disclosure. Two limits on how far it travels: anchors are locked in for 30 days on half the allocation and 90 days on the rest, so the commitment is shorter than the FY28 ramp it implies faith in, and a filled book measures demand at a price rather than the return from it. Those are not reasons to dismiss it, and if the first two quarterly prints validate the ramp, the anchors were right and this note was wrong.
 
 ### Technical Entry Snapshot
 
@@ -126,13 +130,11 @@ No trigger is cleanly firing. Entry without a trigger is speculation.
 
 ### When do I sell / when does this change?
 
-Buy interest returns on any one of these, at the prices named above:
+The live route back in is a disclosure, not a price. A quarterly print that names the CDMO counterparties with contracted volume and tenure converts ₹871 Cr of idle plant from optionality into an asset, moves the grade from C to B, and with it the required margin of safety from 40%+ down to 20–35%. That is the ₹555 trigger, and at a plausible ₹700–900 post-listing price it is a realistic distance away. Pithampur fermentation back above 85% utilisation with Ujjain reporting first commercial revenue does the same work more slowly.
 
-1. A quarterly disclosure that names the CDMO counterparties with contracted volume and tenure. This is the single fact that converts ₹871 Cr of idle plant from optionality into an asset — and it moves the grade from C to B.
-2. Pithampur fermentation utilisation back above 85% with Ujjain reporting first commercial revenue.
-3. Price at ₹418 (Grade C) or ₹555 (if re-graded to B).
+The ₹418 level needs an honest caveat. It sits 58% below the offer price, and a business whose core I rate at 30% ROCE does not fall that far because the market got bored. It prints only if something breaks: the Pithampur inspection escalating to a warning letter or import alert, or the loss of Customer 1. Both of those are also the hard-exit conditions in the action table below, which is the tension — the same events that create the price would damage the business. So ₹418 is a distressed fallback carrying a 1% cap and a stop, not the plan. The plan is ₹555 on a disclosure.
 
-Walk away permanently if the Pithampur inspection escalates past Form 483 to a warning letter or import alert, or if Customer 1 (16.13% of FY26 sales) is lost.
+Walk away permanently on either hard-exit condition, and on nothing less.
 
 ### Where does this rank?
 
@@ -140,6 +142,7 @@ Against the existing book, this does not compete for the next rupee. The pharma 
 
 ### Recent Developments
 
+- **2026-08-21** — Anchor book placed: ₹526.20 Cr from 34 investors at ₹988, the cap price, for 5,325,909 shares. Domestic mutual funds took 60.06% across 11 fund houses and 19 schemes (ICICI Prudential Smallcap, HDFC Pharma & Healthcare, Motilal Oswal Small Cap, Mirae Asset Health Care, Edelweiss), insurers 7.98%, with Citigroup Global Markets Mauritius, BNP Paribas ODI and Singularity Equity Fund I alongside. *Strengthens the demand picture, not the valuation — see below.*
 - **2026-08-18** — RHP filed. Price band ₹938–988, face value ₹2, lot 15, employee discount ₹90. Fresh issue ₹150 Cr + OFS ₹1,607 Cr = ₹1,757 Cr. *Neutral — establishes the terms.*
 - **2026-08-17** — Rosewood and IBEF-III transfer 1,712,344 shares to promoter Satwani Holdings LLP at ₹200 under the Investment Agreement's upside-sharing clause, six days before the RHP. *Weakens — alignment.*
 - **2026-08-14** — US FDA concludes inspection at Pithampur, four observations issued, response pending at RHP date. *Weakens — unresolved at the main plant.*
@@ -153,11 +156,12 @@ Against the existing book, this does not compete for the next rupee. The pharma 
 |---|---|---|
 | IPO at ₹938–988 | **Do not subscribe** | — |
 | Lists at a premium | No action. A listing premium does not change the valuation. | — |
-| Post-listing, Grade C unchanged | **BUY AT** — initiate 5% | ₹418 |
-| CDMO contracts quantified → Grade B | **BUY AT** — initiate 5–8% | ₹555 |
-| Add toward core weight | Only after two consecutive quarters of Ujjain commercial revenue | Recompute |
-| Trim / sell target | Base-case fair value | ₹1,006 (FY29) |
+| **Primary path** — CDMO contracts quantified in a quarterly print → re-grade to B | **BUY REDUCED** — 3–5%, build to 8–10% | ₹555 |
+| **Fallback path** — Grade C unchanged, price falls to the speculative level | **SPECULATIVE** — 1% max, never scales | Entry ₹418 · **stop ₹330** · target ₹1,006 |
+| Trim / sell target (either path) | Base-case FY29 fair value | ₹1,006 |
 | Thesis break — hard exit | FDA warning letter/import alert at Pithampur, or loss of Customer 1 | Any price |
+
+Two things this table deliberately does **not** contain. There is no BUY at Grade C, because the decision matrix does not offer one — Grade C with a 40%+ margin of safety is SPECULATIVE at 1% with a hard stop, and Phase 0.5 independently caps a thesis resting on capacity management has not operated before at 1–2%. Both routes land on the same size. And there is no add-to-core path on the Grade C line, because speculative positions never scale; they exit at the stop, hit the target, or get re-underwritten from scratch as a fresh BUY.
 
 ---
 
@@ -248,6 +252,12 @@ The fifth answer points at something structural rather than something the compan
 **Five years out (FY31).** Revenue ₹2,200–2,600 Cr if the asset turn the company suggests materialises, EBITDA back above 27%, PAT ₹350–420 Cr. The management challenge shifts to holding steroid share while running three unrelated businesses, and to the succession question inside a family holding a diminished stake.
 
 **What success creates.** A profitable Indian fermentation CDMO at scale attracts Divi's and Laurus, both of whom have deeper balance sheets and existing CDMO relationships. Success in GLP-1 attracts every Indian API house at once. And a company that lists at 57.8x and then delivers has no multiple expansion left to give, so the entire return has to come from earnings growth.
+
+### 4b. Mix-Shift Compounding Test (Phase 1.2.1)
+
+The test cannot be completed, and the reason is itself the finding. The RHP discloses segment *revenue* — API ₹835.01 Cr, CDMO ₹1.09 Cr, injectables ₹33.05 Cr in FY26 — but no segment PBIT anywhere, and the Ind AS 108 disclosure is organised by geography rather than by business line. Without segment-level margins there is no way to verify whether the mix is shifting toward higher-margin work or lower.
+
+Phase 1.2.1 treats failure to disclose segment mix as a yellow flag in its own right: either the company does not track it, or it has a reason not to share. For a company two years into a three-vertical strategy, and asking the public to pay 57.8x partly for the second and third verticals, the absence of segment profitability is the more consequential of those two possibilities. On revenue alone the mix moved 100% API to 96.1% API in FY26, which is a mix shift of 3.9 points into segments whose profitability is undisclosed and whose entities lost ₹28.5 Cr.
 
 ### 5. Margin Behaviour Through Stress (Phase 4.5.3)
 
@@ -395,6 +405,10 @@ Two things the article does not cover at all, both material: customer and produc
 
 Grey-market premium was checked and deliberately excluded from the valuation. It is an unregulated informal quote and carries no information about business value.
 
+Two facts in this note come from outside the RHP because they postdate it. The anchor allocation of ₹526.20 Cr across 34 investors at ₹988 on 21 August is from the exchange filing as reported by Business Standard; it is the strongest evidence against the conclusion here and is treated at full strength in the disagreement section rather than in a footnote. The IPO dates, lot size and employee discount were cross-checked against the exchange announcements.
+
+One asymmetry worth naming about my own position. The anchors met management; I read the prospectus. If the CDMO ramp is real and simply not yet disclosable for commercial reasons, they know something the document does not contain and this note is wrong for a defensible reason. The counter is that a prospectus is the one place where a company is legally obliged to put what it wants investors to rely on, and ₹871 Cr of asset value resting on agreements it chose not to size is a decision the company made, not an accident.
+
 **Not verified, and what would help.** The 38.2% corticosteroid and 23.8% steroidal-hormone global share figures come from the F&S Report commissioned by the issuer and could not be independently corroborated; the same applies to the 80.1% / 76.4% / 76.0% molecule-level shares. The counterparties to the five-year insulin, GLP-1 and ten-year fermentation agreements are not disclosed anywhere in the RHP. The identity of Customer 1 (16.13% of sales) is withheld for want of consent. The composition of the ₹150.8 Cr of claims against the company was not broken out to the individual matter level. The single most valuable disclosure for re-underwriting this would be a quarterly result naming a CDMO counterparty with contracted volume and tenure.
 
 ---
@@ -403,4 +417,4 @@ Grey-market premium was checked and deliberately excluded from the valuation. It
 
 | Date | Change |
 |---|---|
-| 2026-08-23 | Initial note. AVOID at ₹938–988; post-listing BUY AT ₹418 (Grade C) / ₹555 (if re-graded B). Grade C, 13/25. Written from RHP dated 18-Aug-2026. |
+| 2026-08-23 | Initial note. AVOID at ₹938–988. Post-listing: BUY REDUCED at ₹555 on a CDMO disclosure re-grading to B; SPECULATIVE 1% at ₹418 with a ₹330 stop otherwise. Grade C, 13/25. Written from the RHP dated 18-Aug-2026; anchor book of ₹526.20 Cr at ₹988 (21-Aug) added and treated as the counter-case. |
